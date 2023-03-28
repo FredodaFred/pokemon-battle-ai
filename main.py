@@ -105,7 +105,9 @@ class Pokemon:
 
         move_data = moves[move]
         power = int(move_data["Power"]) 
-        pokemon_atk = self.attack if move_data["Category"] == "Physical" else self.special_attack
+        if not move_data["Category"] == "Status":
+            pokemon_atk = self.attack if move_data["Category"] == "Physical" else self.special_attack
+
         other_def = otherPokemon.defense if move_data["Category"] == "Physical" else otherPokemon.special_defense
         STAB = 1.5 if move_data["Type"] == self.type1 or move_data["Type"] == self.type2 else 1
         type_1_bonus = type_modifier[Pokemon.match_type(move_data["Type"])[Pokemon.match_type(otherPokemon.type1)]]
