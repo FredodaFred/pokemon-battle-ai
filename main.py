@@ -1,7 +1,7 @@
 import pygame
-from random import randint
+from random import randint, choice
 from data import pokemon_dict, move_sets, moves, type_modifier, Turn
-
+from time import sleep
 
 SPRITE_ROWS = 28
 SPRIT_COLS = 6
@@ -9,10 +9,11 @@ SPRITE_WIDTH = SPRITE_HEIGHT = 80
 
 # pygame setup
 pygame.init()
-font = pygame.font.SysFont("Arial", 24)
+font = pygame.font.SysFont("Arial", 20)
 screen = pygame.display.set_mode((1280, 720))
 clock = pygame.time.Clock()
 running = True
+game_won = False
 
 class Pokemon:
     sprite_sheet = pygame.image.load("./pokemon.png").convert()
@@ -20,6 +21,7 @@ class Pokemon:
     def __init__(self, pokemon_id):
         assert pokemon_id <= 151, "Invalid Pokemon ID"
         self.id = pokemon_id
+        self.name = pokemon_dict[f'{pokemon_id}']["Name"]
         self.type1 = pokemon_dict[f'{pokemon_id}']["Type 1"]
         self.type2 = pokemon_dict[f'{pokemon_id}']["Type 2"]
         self.image = None
@@ -103,18 +105,16 @@ class Pokemon:
         '''
         assert type(otherPokemon) == Pokemon, "otherPokemon incorrect type"
 
-        move_data = moves[move]
+        move_data = move
         power = int(move_data["Power"]) 
-        if not move_data["Category"] == "Status":
-            pokemon_atk = self.attack if move_data["Category"] == "Physical" else self.special_attack
-
+        pokemon_atk = self.attack if move_data["Category"] == "Physical" else self.special_attack
         other_def = otherPokemon.defense if move_data["Category"] == "Physical" else otherPokemon.special_defense
         STAB = 1.5 if move_data["Type"] == self.type1 or move_data["Type"] == self.type2 else 1
-        type_1_bonus = type_modifier[Pokemon.match_type(move_data["Type"])[Pokemon.match_type(otherPokemon.type1)]]
-        type_2_bonus = type_modifier[Pokemon.match_type(move_data["Type"])[Pokemon.match_type(otherPokemon.type2)]]
-        random = randint(217, 255) // 255
+        type_1_bonus = type_modifier[Pokemon.match_type(move_data["Type"])][Pokemon.match_type(otherPokemon.type1)]
+        type_2_bonus = type_modifier[Pokemon.match_type(move_data["Type"])][Pokemon.match_type(otherPokemon.type2)]
+        random = randint(217, 255) / 255
 
-        damage = (((22*power*(pokemon_atk/other_def))/50)+2)*STAB*type_1_bonus*type_2_bonus*random
+        damage = ((((22*power*(pokemon_atk/other_def))/50)+2)*STAB*type_1_bonus*type_2_bonus*random ) // 1
 
         # accuracy = int(move_data["Accuracy"])
         # miss_or_hit = 0 if randint(1, 100) > accuracy else 1
@@ -126,32 +126,43 @@ class Pokemon:
         pygame.draw.rect(screen, (255,0,0), (x + 250*(1-percent), y, 250*percent, 10))
 
     def attack_t(self, move, otherPokemon): 
+        if move["Category"] == "Status":
+            return    
         damage = self.compute_atk_damage(move, otherPokemon)
-        otherPokemon.damage_taken -= damage
+        otherPokemon.damage_taken += damage
+        return damage
+
 
         
+
+def choose_attack():
+    pass
 
 
 #Render the pokemon on screen
 main = Pokemon(1)
-opponent = Pokemon(3)
+opponent = Pokemon(2)
 main.load_sprite(100, 100, True)
 main.draw_health_bar(150, 500)
 opponent.load_sprite(700, 100)
 opponent.draw_health_bar(750, 500)
-pygame.draw.rect(screen, (255, 255, 255), (200, 620, 900, 200))
+
+#main moveset
+pygame.draw.rect(screen, (255, 255, 255), (170, 620, 200, 200))
+#opponent moveset
+pygame.draw.rect(screen, (255, 255, 255), (810, 620, 200, 200))
 
 for i, move in enumerate(main.moves):
     name = move["Name"]
     txtsurf = font.render( f'{name}', True, (0,0,0))
-    screen.blit(txtsurf, (210, 620 + i*20, 400, 400))
+    screen.blit(txtsurf, (190, 620 + i*20, 400, 400))
 
 for i, move in enumerate(opponent.moves):
     name = move["Name"]
     txtsurf = font.render( f'{name}', True, (0,0,0))
-    screen.blit(txtsurf, (760, 620 + i*20, 400, 400))
-turn = Turn.main_turn
+    screen.blit(txtsurf, (820, 620 + i*20, 400, 400))
 
+turn = Turn.main_turn
 
 while running:
     # poll for events
@@ -160,16 +171,65 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
+    if game_won:
+        continue
+
+    #Refresh log box
+    pygame.draw.rect(screen, (255, 255, 255), (450, 620, 300, 200))
 
     if turn is Turn.main_turn:
-        main
+        #Name the Turn
+        txtsurf = font.render( f'{main.name}\'s Turn', True, (0,0,0))
+        screen.blit(txtsurf, (470, 620, 400, 400))
+
+        #Choose a move
+        move_choice = choice(main.moves)
+        txtsurf = font.render( f'{main.name} used {move_choice["Name"]}', True, (0,0,0))
+        screen.blit(txtsurf, (470, 660 , 400, 400))
+        
+        #Preform the attack
+        damage_dealt = main.attack_t(move_choice, opponent)
+        opponent.draw_health_bar(750, 500)
+
+        txtsurf = font.render( f'{main.name} dealt {damage_dealt} damage', True, (0,0,0))
+        screen.blit(txtsurf, (470, 700 , 400, 400))
+
         turn = Turn.opponent_turn
+        if opponent.damage_taken >= opponent.hp:
+            sleep(1)
+            pygame.draw.rect(screen, (255, 255, 255), (450, 620, 300, 200))
+            txtsurf = font.render( f'{main.name} has won!', True, (0,0,0))
+            screen.blit(txtsurf, (470, 650 , 400, 400))
+            game_won = True
+            
     else:
+        #Name the Turn
+        txtsurf = font.render( f'{opponent.name}\'s Turn', True, (0,0,0))
+        screen.blit(txtsurf, (470, 620, 400, 400))
+
+        #Choose a move
+        move_choice = choice(opponent.moves)
+        txtsurf = font.render( f'{opponent.name} used {move_choice["Name"]}', True, (0,0,0))
+        screen.blit(txtsurf, (470, 660 , 400, 400))
+        
+        #Preform the attack
+        damage_dealt = opponent.attack_t(move_choice, main)
+        main.draw_health_bar(150, 500)
+
+        txtsurf = font.render( f'{main.name} dealt {damage_dealt} damage', True, (0,0,0))
+        screen.blit(txtsurf, (470, 700 , 400, 400))
+
         turn = Turn.main_turn
-    
+
+        if main.damage_taken >= main.hp:
+            sleep(1)
+            pygame.draw.rect(screen, (255, 255, 255), (450, 620, 300, 200))
+            txtsurf = font.render( f'{opponent.name} has won!', True, (0,0,0))
+            screen.blit(txtsurf, (470, 650 , 400, 400))
+            game_won = True
 
     pygame.display.flip()
-
     clock.tick(20)  # limits FPS to 20
+    sleep(1) 
 
 pygame.quit()
