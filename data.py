@@ -16,6 +16,15 @@ class Turn(Enum):
    main_turn = 0,
    opponent_turn = 1
 
+class Status(Enum):
+   no_status = 0,
+   sleep = 1,
+   burn = 2,
+   poison = 3,
+   paralyzed = 4,
+   confused = 5,
+   
+
 # class Types(Enum):
 #   Normal = 0
 #   Fire = 1
