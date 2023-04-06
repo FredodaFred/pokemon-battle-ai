@@ -117,7 +117,7 @@ class Pokemon:
         # accuracy = int(move_data["Accuracy"])
         # miss_or_hit = 0 if randint(1, 100) > accuracy else 1
         return damage
-        
+
     def handle_status_effect(self):
         pass
 
@@ -134,6 +134,9 @@ class Pokemon:
         otherPokemon.damage_taken += damage
         return damage
 
+    def __eq__(self, other):
+        return self.name == other.name
+
 class PokemonTrainer():
 
     def __init__(self, name, team=[]):
@@ -148,17 +151,18 @@ class PokemonTrainer():
     def add_pokemon(self, pokemon):
         self.team.append(pokemon)
 
-    def get_curr_pokemon(self):
-        pass
-    def switch_pokemon(self):
-        pass
+    def active_pokemon(self):
+        return self.team[0]
+
+    def swap_pokemon(self, pokemon):
+        self.team[0], self.team[self.team.index(pokemon)] = self.team[self.team.index(pokemon)], self.team[0]
+
     def choose_attack(self):
-        pass
+        return choice(self.active_pokemon().moves)
 
 
 
 class Engine():
-    
 
     def __init__(self, screen, font, main, opponent):
         self.screen = screen
@@ -188,6 +192,9 @@ class Engine():
             txtsurf = self.font.render( f'{name}', True, (0,0,0))
             self.screen.blit(txtsurf, (820, 620 + i*20, 400, 400))
 
+    def render_text(self, text, y_offsest = 0):
+        txtsurf = self.font.render( text, True, (0,0,0))
+        self.screen.blit(txtsurf, (470, 620 + y_offsest, 400, 400))
 
     def run_turn(self):
         '''
@@ -199,54 +206,48 @@ class Engine():
 
         if self.turn is Turn.main_turn:
             #Name the Turn
-            txtsurf = self.font.render( f'{self.main.name}\'s Turn', True, (0,0,0))
-            self.screen.blit(txtsurf, (470, 620, 400, 400))
+            self.render_text(f'{self.main.name}\'s Turn')
 
             #Choose a move
             move_choice = choice(self.main.moves)
-            txtsurf = self.font.render( f'{self.main.name} used {move_choice["Name"]}', True, (0,0,0))
-            self.screen.blit(txtsurf, (470, 660 , 400, 400))
+            self.render_text(f'{self.main.name} used {move_choice["Name"]}', 40)
             
             #Preform the attack
             damage_dealt = self.main.attack_t(move_choice, self.opponent)
             self.opponent.draw_health_bar(self.screen, 750, 500)
 
-            txtsurf = self.font.render( f'{self.main.name} dealt {damage_dealt} damage', True, (0,0,0))
-            self.screen.blit(txtsurf, (470, 700 , 400, 400))
+
+            self.render_text(f'{self.main.name} dealt {damage_dealt} damage', 80)
 
             self.turn = Turn.opponent_turn
 
             if self.opponent.damage_taken >= self.opponent.hp:
                 sleep(1)
                 pygame.draw.rect(self.screen, (255, 255, 255), (450, 620, 300, 200))
-                txtsurf = self.font.render( f'{self.main.name} has won!', True, (0,0,0))
-                self.screen.blit(txtsurf, (470, 650 , 400, 400))
-                game_won = True
+                self.render_text(f'{self.main.name} dealt {damage_dealt} damage', 30)
+                return True
                 
         else:
             #Name the Turn
-            txtsurf = self.font.render( f'{self.opponent.name}\'s Turn', True, (0,0,0))
-            self.screen.blit(txtsurf, (470, 620, 400, 400))
+            self.render_text(f'{self.opponent.name}\'s Turn')
 
             #Choose a move
             move_choice = choice(self.opponent.moves)
-            txtsurf = self.font.render( f'{self.opponent.name} used {move_choice["Name"]}', True, (0,0,0))
-            self.screen.blit(txtsurf, (470, 660 , 400, 400))
+            self.render_text(f'{self.opponent.name} used {move_choice["Name"]}', 40)
             
             #Preform the attack
             damage_dealt = self.opponent.attack_t(move_choice, self.main)
             self.main.draw_health_bar(self.screen, 150, 500)
 
-            txtsurf = self.font.render( f'{self.main.name} dealt {damage_dealt} damage', True, (0,0,0))
-            self.screen.blit(txtsurf, (470, 700 , 400, 400))
+
+            self.render_text(f'{self.main.name} dealt {damage_dealt} damage', 60)
 
             self.turn = Turn.main_turn
 
             if self.main.damage_taken >= self.main.hp:
                 sleep(1)
                 pygame.draw.rect(self.screen, (255, 255, 255), (450, 620, 300, 200))
-                txtsurf = self.font.render( f'{self.opponent.name} has won!', True, (0,0,0))
-                self.screen.blit(txtsurf, (470, 650 , 400, 400))
+                self.render_text(f'{self.opponent.name} has won!', 30)
                 return True
 
         return False
