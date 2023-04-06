@@ -3,13 +3,26 @@ from random import randint, choice
 from data import pokemon_dict, moves, type_modifier, move_sets, Turn, Status
 from pygame.locals import *
 from time import sleep
-
 pygame.init()
 
 SPRITE_ROWS = 28
 SPRIT_COLS = 6
 SPRITE_WIDTH = SPRITE_HEIGHT = 80
 
+
+def waitPress():
+    '''
+        Waits for user to hit enter to continue with game
+        Returns - if key is pressed or not
+    '''
+    pressed = False
+    while not pressed:
+        event = pygame.event.wait()
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
+            pressed=  True
+        elif event.type == pygame.QUIT:
+            exit(0)
+    
 class Pokemon:
     sprite_sheet = None
 
@@ -44,7 +57,8 @@ class Pokemon:
 
         self.moves = []
         for move in move_sets[pokemon_id]:
-            self.moves.append(moves[f'{move}'])
+            if not move == '':
+                self.moves.append(moves[f'{move}'])
 
         self.status = Status.no_status
 
@@ -159,95 +173,51 @@ class PokemonTrainer():
 
     def choose_attack(self):
         return choice(self.active_pokemon().moves)
+    
+    def num_pokemon(self):
+        return len(self.team)
 
 
 
 class Engine():
-
-    def __init__(self, screen, font, main, opponent):
+    pokeball_img = None
+    def __init__(self, screen, font, trainer1, trainer2):
         self.screen = screen
         self.font = font
-        self.main = main
-        self.opponent = opponent
+        self.trainer1 = trainer1
+        self.trainer2 = trainer2
         self.turn = Turn.main_turn
 
     def init_render(self):
-        #Render the pokemon on screen
-        self.main.load_sprite(self.screen, 100, 100, True)
-        self.main.draw_health_bar(self.screen, 150, 500)
-        self.opponent.load_sprite(self.screen, 700, 100)
-        self.opponent.draw_health_bar(self.screen, 750, 500)
-        #main moveset
-        pygame.draw.rect(self.screen, (255, 255, 255), (170, 620, 200, 200))
-        #opponent moveset
-        pygame.draw.rect(self.screen, (255, 255, 255), (810, 620, 200, 200))
+        self.render_text(f"{self.trainer1.name} versus {self.trainer2.name}", refresh=True)
+        self.render_text(f"Click Enter to continue...", y_offset= 20)
 
-        for i, move in enumerate(self.main.moves):
+        for i in range(len(self.trainer1.team)):
+            self.screen.blit(Engine.pokeball_img, (50, 100+i*75))
+
+        for i in range(len(self.trainer2.team)):
+            self.screen.blit(Engine.pokeball_img, (1200, 100+i*75))
+
+
+    def render_movesets(self, pokemon, x):
+        for i, move in enumerate(pokemon.moves):
             name = move["Name"]
             txtsurf = self.font.render( f'{name}', True, (0,0,0))
-            self.screen.blit(txtsurf, (190, 620 + i*20, 400, 400))
+            self.screen.blit(txtsurf, (x, 620 + i*20, 400, 400))
+            #190 820
 
-        for i, move in enumerate(self.opponent.moves):
-            name = move["Name"]
-            txtsurf = self.font.render( f'{name}', True, (0,0,0))
-            self.screen.blit(txtsurf, (820, 620 + i*20, 400, 400))
 
-    def render_text(self, text, y_offsest = 0):
+    def render_text(self, text, y_offset = 0, refresh = False):
+        #Refresh log box
+        if refresh:
+            pygame.draw.rect(self.screen, (255, 255, 255), (400, 620, 500, 300))
         txtsurf = self.font.render( text, True, (0,0,0))
-        self.screen.blit(txtsurf, (470, 620 + y_offsest, 400, 400))
+        self.screen.blit(txtsurf, (500, 650 + y_offset, 400, 400))
 
     def run_turn(self):
         '''
             Returns:
                 gameWon: boolean - signifies if game has been won on the turn or not
         '''
-        #Refresh log box
-        pygame.draw.rect(self.screen, (255, 255, 255), (450, 620, 300, 200))
+        pass
 
-        if self.turn is Turn.main_turn:
-            #Name the Turn
-            self.render_text(f'{self.main.name}\'s Turn')
-
-            #Choose a move
-            move_choice = choice(self.main.moves)
-            self.render_text(f'{self.main.name} used {move_choice["Name"]}', 40)
-            
-            #Preform the attack
-            damage_dealt = self.main.attack_t(move_choice, self.opponent)
-            self.opponent.draw_health_bar(self.screen, 750, 500)
-
-
-            self.render_text(f'{self.main.name} dealt {damage_dealt} damage', 80)
-
-            self.turn = Turn.opponent_turn
-
-            if self.opponent.damage_taken >= self.opponent.hp:
-                sleep(1)
-                pygame.draw.rect(self.screen, (255, 255, 255), (450, 620, 300, 200))
-                self.render_text(f'{self.main.name} dealt {damage_dealt} damage', 30)
-                return True
-                
-        else:
-            #Name the Turn
-            self.render_text(f'{self.opponent.name}\'s Turn')
-
-            #Choose a move
-            move_choice = choice(self.opponent.moves)
-            self.render_text(f'{self.opponent.name} used {move_choice["Name"]}', 40)
-            
-            #Preform the attack
-            damage_dealt = self.opponent.attack_t(move_choice, self.main)
-            self.main.draw_health_bar(self.screen, 150, 500)
-
-
-            self.render_text(f'{self.main.name} dealt {damage_dealt} damage', 60)
-
-            self.turn = Turn.main_turn
-
-            if self.main.damage_taken >= self.main.hp:
-                sleep(1)
-                pygame.draw.rect(self.screen, (255, 255, 255), (450, 620, 300, 200))
-                self.render_text(f'{self.opponent.name} has won!', 30)
-                return True
-
-        return False

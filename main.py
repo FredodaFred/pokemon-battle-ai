@@ -1,8 +1,6 @@
 import pygame
-from classes import Pokemon, Engine
-from time import sleep
-
-
+from classes import Pokemon, Engine, PokemonTrainer, waitPress
+import time
 
 # pygame setup
 pygame.init()
@@ -15,25 +13,41 @@ Pokemon.sprite_sheet = pygame.image.load("./pokemon.png").convert()
 
 
 game_won = False
-main = Pokemon(1)
-opponent = Pokemon(2)
+team1 = [Pokemon(4), Pokemon(10), Pokemon(14)]
+trainer1 = PokemonTrainer("Ash", team=team1)
+team2 = [Pokemon(39), Pokemon(22), Pokemon(43)]
+trainer2 = PokemonTrainer("Misty", team=team2)
 
-engine = Engine(screen, font, main, opponent)
+engine = Engine(screen, font, trainer1, trainer2)
+Engine.pokeball_img = pygame.transform.scale(pygame.image.load("./pokeball.png").convert(), (50,50))
+
 engine.init_render()
 
 while running:
+    pygame.display.flip()
     # poll for events
     # pygame.QUIT event means the user clicked X to close your window
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
 
+
     if game_won:
         continue
+    
+    #inital sequence
+    waitPress()
+    engine.render_text(f"{trainer1.name} sent out {trainer1.active_pokemon().name}", refresh=True)
+    trainer1.active_pokemon().load_sprite(screen, 50, 250, flip = True)
 
-    game_won = engine.run_turn()
     pygame.display.flip()
-    sleep(1) 
+    waitPress()
+    engine.render_text(f"{trainer2.name} sent out {trainer2.active_pokemon().name}", refresh=True)
+    trainer2.active_pokemon().load_sprite(screen, 900, 250, flip = False)
+
+    # waitPress()
+    # print(f'3 {time.time()}')
+
     clock.tick(20)  # limits FPS to 20
 
 
