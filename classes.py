@@ -172,6 +172,9 @@ class PokemonTrainer():
         self.team[0], self.team[self.team.index(pokemon)] = self.team[self.team.index(pokemon)], self.team[0]
 
     def choose_attack(self):
+        '''
+        WHERE THE AI CODE SHOULD GO...
+        '''
         return choice(self.active_pokemon().moves)
     
     def num_pokemon(self):
@@ -181,6 +184,7 @@ class PokemonTrainer():
 
 class Engine():
     pokeball_img = None
+    check_won = lambda pokemon : 
     def __init__(self, screen, font, trainer1, trainer2):
         self.screen = screen
         self.font = font
@@ -219,5 +223,38 @@ class Engine():
             Returns:
                 gameWon: boolean - signifies if game has been won on the turn or not
         '''
-        pass
+
+
+        t1_pokemon = self.trainer1.active_pokemon()
+        t2_pokemon = self.trainer2.active_pokemon()
+
+        t1_pokemon.draw_health_bar(self.screen, 100, 600)
+        t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+        pygame.display.flip()
+
+        at1 = self.trainer1.choose_attack()
+        at2 = self.trainer2.choose_attack()
+
+        #determine turn sequence based on speed
+        
+
+        if t1_pokemon.speed > t2_pokemon.speed:
+            
+            t1_pokemon.attack_t(at1,t2_pokemon)
+
+            if t2_pokemon.damage_taken >= t2_pokemon.hp:
+                return
+            #####
+
+            t2_pokemon.attack_t(at2,t1_pokemon)
+
+        else:
+
+            t2_pokemon.attack_t(at2,t1_pokemon)
+
+            ######
+
+            t1_pokemon.attack_t(at1,t2_pokemon)
+        
+
 

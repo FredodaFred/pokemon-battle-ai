@@ -1,6 +1,5 @@
 import pygame
 from classes import Pokemon, Engine, PokemonTrainer, waitPress
-import time
 
 # pygame setup
 pygame.init()
@@ -23,6 +22,7 @@ Engine.pokeball_img = pygame.transform.scale(pygame.image.load("./pokeball.png")
 
 engine.init_render()
 
+init_seq = False
 while running:
     pygame.display.flip()
     # poll for events
@@ -35,18 +35,23 @@ while running:
     if game_won:
         continue
     
-    #inital sequence
-    waitPress()
-    engine.render_text(f"{trainer1.name} sent out {trainer1.active_pokemon().name}", refresh=True)
-    trainer1.active_pokemon().load_sprite(screen, 50, 250, flip = True)
+    
+    if not init_seq:
+        #inital sequence
+        waitPress()
+        engine.render_text(f"{trainer1.name} sent out {trainer1.active_pokemon().name}", refresh=True)
+        trainer1.active_pokemon().load_sprite(screen, 50, 250, flip = True)
 
-    pygame.display.flip()
-    waitPress()
-    engine.render_text(f"{trainer2.name} sent out {trainer2.active_pokemon().name}", refresh=True)
-    trainer2.active_pokemon().load_sprite(screen, 900, 250, flip = False)
+        pygame.display.flip()
+        waitPress()
+        engine.render_text(f"{trainer2.name} sent out {trainer2.active_pokemon().name}", refresh=True)
+        trainer2.active_pokemon().load_sprite(screen, 900, 250, flip = False)
+    
+        init_seq = True
+    
+    engine.run_turn()
 
-    # waitPress()
-    # print(f'3 {time.time()}')
+
 
     clock.tick(20)  # limits FPS to 20
 
