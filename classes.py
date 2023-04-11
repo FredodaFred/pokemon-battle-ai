@@ -1,6 +1,6 @@
 import pygame
 from random import randint, choice, choices
-from data import pokemon_dict, moves, type_modifier, move_sets, Turn, Status
+from data import pokemon_dict, moves, type_modifier, move_sets, stage_modifier, Turn, Status
 from pygame.locals import *
 from time import sleep
 
@@ -65,6 +65,10 @@ class Pokemon:
         #keep track of used moves
         self.used_moves = []
         self.status_counter = 0
+        
+        # attack, def, spatk, spdef, speed
+        # https://www.dragonflycave.com/mechanics/stat-stages#:~:text=In%20particular%2C%20whenever%20you%20use,for%20each%20of%20its%20stats.
+        self.stat_stages = (0,0,0,0,0)
 
         
     def load_sprite(self, screen, x_loc, y_loc, flip = False):
@@ -78,6 +82,29 @@ class Pokemon:
             sprite_image = pygame.transform.flip(sprite_image, True, False)
         self.image = sprite_image
         screen.blit(self.image, (x_loc, y_loc))
+    def render_status_symbol(self, screen, x_loc, y_loc):
+        status = self.status
+        if status == Status.no_status:
+            return 
+
+        y_offset = 0
+        if status == Status.burn:
+            y_offset = 0
+        elif status == Status.frozen:
+            y_offset = 55
+        elif status == Status.sleep:
+            y_offset = 105
+        elif status == Status.confused:
+            y_offset = 160
+        elif status == Status.paralyzed:
+            y_offset = 210
+        elif status == Status.poison:
+            y_offset = 265
+
+        sprite_rect = pygame.Rect(0, y_offset, 65, 45)
+        symbol_img = Pokemon.status_img.subsurface(sprite_rect)
+        symbol_img = pygame.transform.scale(symbol_img, (50, 30))
+        screen.blit(symbol_img, (x_loc, y_loc))
 
     def match_type(pokemon_type):
         if pokemon_type == "Normal":
@@ -124,7 +151,6 @@ class Pokemon:
                 self.status = Status.no_status
         elif self.status == Status.frozen:
             self.status = choices([Status.frozen, Status.no_status], [90, 10])
-        e
             
 
     def compute_atk_damage(self, move, otherPokemon):
@@ -148,15 +174,16 @@ class Pokemon:
         elif move['Name'] in ['Guillotine', 'Horn Drill']:
             #only hits 35% of time
             hit = choices([0,1], [70, 30])
-            return 65535*hit
+            return 65535*hit[0]
         elif move['Name'] == "Sonic Boom":
             return 20
         
         
         move_data = move
         power = int(move_data["Power"]) 
-        pokemon_atk = self.attack if move_data["Category"] == "Physical" else self.special_attack
-        other_def = otherPokemon.defense if move_data["Category"] == "Physical" else otherPokemon.special_defense
+        #attack, def, spatk, spdef, speed
+        pokemon_atk = self.attack*(stage_modifier[self.stat_stages[0]]) if move_data["Category"] == "Physical" else self.special_attack*(stage_modifier[self.stat_stages[2]])
+        other_def = otherPokemon.defense*(stage_modifier[otherPokemon.stat_stages[1]]) if move_data["Category"] == "Physical" else otherPokemon.special_defense*(stage_modifier[otherPokemon.stat_stages[3]])
         STAB = 1.5 if move_data["Type"] == self.type1 or move_data["Type"] == self.type2 else 1
         type_1_bonus = type_modifier[Pokemon.match_type(move_data["Type"])][Pokemon.match_type(otherPokemon.type1)]
         type_2_bonus = type_modifier[Pokemon.match_type(move_data["Type"])][Pokemon.match_type(otherPokemon.type2)]
@@ -168,65 +195,63 @@ class Pokemon:
 
         #absorbing moves
         if move['Name'] in ['Absorb', 'Mega Drain', 'Leech Life']:
-            self.damage_taken -= damage // 2
+            #Case for going over maximum HP.
+            if self.damage_taken - damage // 2 < 0:
+                self.damage_taken = 0
+            else:
+                self.damage_taken -= damage // 2
         #moves hitting multiple times
         elif move['Name'] == 'Double Slap':
             strikes = choices([2,3,4,5], weights=[35,35, 15,15])
-            damage *= strikes
+            damage *= strikes[0]
         elif move['Name'] in ['Comet Punch', 'Fury Attack', 'Pin Missile']:
             strikes = choices([2,3,4,5], weights=[37.5, 37.5, 12.5, 12.5]) 
-            damage *= strikes
+            damage *= strikes[0]
         elif move['Name'] == 'Double Kick':
              damage *= 2
         elif move['Name'] == 'Twineedle':
             damage *= 2
             if otherPokemon.status == Status.no_status:
-                otherPokemon.status = choices([Status.poison, Status.no_status], [20, 80])  
+                status = choices([Status.poison, Status.no_status], [20, 80])
+                otherPokemon.status = status[0]
         #Moves with status effects
         elif move['Name'] in ['Fire Punch', 'Ember', 'Flamethrower']:
             '''10% chance to burn'''
             if otherPokemon.status == Status.no_status:
-                otherPokemon.status = choices([Status.burn, Status.no_status], [10, 90])
+                status = choices([Status.burn, Status.no_status], [10, 90])
+                otherPokemon.status = status[0]
         elif move['Name'] in ['Ice Punch', 'Ice Beam', 'Blizzard']:
              if otherPokemon.status == Status.no_status:
-                otherPokemon.status = choices([Status.frozen, Status.no_status], [10, 90]) 
+                status = choices([Status.frozen, Status.no_status], [10, 90]) 
+                otherPokemon.status = status[0]
         elif move['Name'] in ['Psybeam']:
             if otherPokemon.status == Status.no_status:
-                otherPokemon.status = choices([Status.confused, Status.no_status], [10, 90])
+                status = choices([Status.confused, Status.no_status], [10, 90])
+                otherPokemon.status = status[0]
         elif move['Name'] == 'Thunder Punch':
             if otherPokemon.status == Status.no_status:
-                otherPokemon.status = choices([Status.paralyzed, Status.no_status], [10, 90])       
+                status = choices([Status.paralyzed, Status.no_status], [10, 90])  
+                otherPokemon.status = status[0]
         elif move['Name'] == 'Body Slam':
             if otherPokemon.status == Status.no_status and not Pokemon.match_type(otherPokemon.type1) == 0 and not Pokemon.match_type(otherPokemon.type1) == 0:
-                 otherPokemon.status = choices([Status.paralyzed, Status.no_status], [30, 70]) 
+                 status = choices([Status.paralyzed, Status.no_status], [30, 70]) 
+                 otherPokemon.status = status[0]
         elif move['Name'] == 'Poison Sting':
             if otherPokemon.status == Status.no_status:
-                otherPokemon.status = choices([Status.poison, Status.no_status], [20, 80]) 
+                status = choices([Status.poison, Status.no_status], [20, 80])
+                otherPokemon.status = status[0]
         elif move['Name'] == "Acid":
             hit = choices([0,1], [66.8, 33.2])
-            otherPokemon.defense -= 5*hit
+            otherPokemon.defense -= 5*hit[0]
         #recoil moves
         elif move['Name'] in ['Take Down', 'Double Edge', 'Submission']:
-            self.hp -= (damage*0.25)//1
+            self.damage_taken += (damage*0.25)//1
 
 
 
         # accuracy = int(move_data["Accuracy"])
         # miss_or_hit = 0 if randint(1, 100) > accuracy else 1
         return damage
-
-    def handle_status_effect(self, move, otherPokemon):
-        if self.status == Status.burn:
-            pass
-        elif self.status == Status.confused:
-            pass
-        elif self.status == Status.poison:
-            pass
-        elif self.status == Status.sleep:
-            pass
-        elif self.status == Status.frozen:
-            pass
-
 
     def draw_health_bar(self, screen, x, y):
         percent = self.damage_taken/self.hp
@@ -235,11 +260,33 @@ class Pokemon:
         # pygame.draw.rect(screen, (255,0,0), (x + 250*(1-percent) if percent <= 250 else 250, y, 250*percent, 10))
         pygame.draw.rect(screen, (255,0,0), (x + 250*(1-percent), y, 250*percent, 10))
 
+    def status_attack(self, move, otherPokemon):
+        #Direct status changers
+        if otherPokemon.status == Status.no_status:
+            if move['Name'] in ['Sleep Powder', 'Sing', 'Hypnosis']:
+                otherPokemon.status = Status.sleep
+            elif move['Name'] in ['Poison Powder', 'Toxic']:
+                otherPokemon.status = Status.poison
+            elif move['Name'] in ['Stun Spore']:
+                otherPokemon.status = Status.paralyzed
+            elif move['Name'] in ['Supersonic']:
+                otherPokemon.status = Status.confused
+            return
+        #Self healers
+        if move['Name'] in ['Recover']:
+            self.damage_taken -= (self.hp // 2) if self.damage_taken -(self.hp // 2) >= 0 else 0
+            return
+        #attack, def, spatk, spdef, speed
+        if move['Name'] in ['Harden', 'Defense Curl', 'Withdraw']:
+            self.stat_stages[1] =  self.stat_stages[1] + 1 if self.stat_stages < 6 else 6
+        if move['Name'] in ['Growl']:
+            otherPokemon.stat_stages[0] = self.stat_stages[0] - 1 if self.stat_stages > -6 else -6
 
     def attack_t(self, move, otherPokemon):
         #Check the moves stack here 
         if move["Category"] == "Status":
-            return    
+            self.status_attack(move, otherPokemon) 
+            return
         damage = self.compute_atk_damage(move, otherPokemon)
         otherPokemon.damage_taken += damage
         return damage
@@ -382,9 +429,11 @@ class Engine():
 
         t1_pokemon = self.trainer1.active_pokemon()
         t2_pokemon = self.trainer2.active_pokemon()
-
+        pygame.draw.rect(self.screen, (0,0,0), (0, 600, 1240, 20))
         t1_pokemon.draw_health_bar(self.screen, 100, 600)
         t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+        t1_pokemon.render_status_symbol(self.screen, 100, 620)
+        t2_pokemon.render_status_symbol(self.screen, 1000, 620)
         pygame.display.flip()
 
         at1 = self.trainer1.choose_attack()
@@ -507,7 +556,7 @@ class Engine():
                 if chance > 30:
                      ##Use chosen move
                     t2_pokemon.attack_t(at2, t1_pokemon)
-                    self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
                     t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     pygame.display.flip()
                     waitPress()
@@ -518,7 +567,7 @@ class Engine():
                         pygame.display.flip()
                         return
                 else:
-                    self.render_text(f"{t1_pokemon.name} is paralyzed", refresh=True)
+                    self.render_text(f"{t2_pokemon.name} is paralyzed", refresh=True)
                     pygame.display.flip()
                     waitPress()
             else:
@@ -592,7 +641,7 @@ class Engine():
                 if chance > 30:
                      ##Use chosen move
                     t2_pokemon.attack_t(at2, t1_pokemon)
-                    self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
                     t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     pygame.display.flip()
                     waitPress()
@@ -603,7 +652,8 @@ class Engine():
                         pygame.display.flip()
                         return
                 else:
-                    self.render_text(f"{t1_pokemon.name} is paralyzed", refresh=True)
+                    print('here')
+                    self.render_text(f"{t2_pokemon.name} is paralyzed", refresh=True)
                     pygame.display.flip()
                     waitPress()
             else:

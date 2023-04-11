@@ -8,14 +8,15 @@ screen = pygame.display.set_mode((1280, 720))
 clock = pygame.time.Clock()
 running = True
 
+
 Pokemon.sprite_sheet = pygame.image.load("./pokemon.png").convert()
 Pokemon.status_img = pygame.image.load("./status.png").convert()
 
 
 game_won = False
-team1 = [Pokemon(4), Pokemon(10), Pokemon(14)]
+team1 = [Pokemon(14), Pokemon(10), Pokemon(57)]
 trainer1 = PokemonTrainer("Ash", team=team1)
-team2 = [Pokemon(39), Pokemon(22), Pokemon(43)]
+team2 = [Pokemon(88), Pokemon(28), Pokemon(43)]
 trainer2 = PokemonTrainer("Misty", team=team2)
 
 engine = Engine(screen, font, trainer1, trainer2)
