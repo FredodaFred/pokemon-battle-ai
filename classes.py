@@ -1,8 +1,9 @@
 import pygame
-from random import randint, choice
+from random import randint, choice, choices
 from data import pokemon_dict, moves, type_modifier, move_sets, Turn, Status
 from pygame.locals import *
 from time import sleep
+
 pygame.init()
 
 SPRITE_ROWS = 28
@@ -25,7 +26,7 @@ def waitPress():
     
 class Pokemon:
     sprite_sheet = None
-
+    status_img = None
     def __init__(self, pokemon_id):
         assert pokemon_id <= 151, "Invalid Pokemon ID"
         self.id = pokemon_id
@@ -61,6 +62,9 @@ class Pokemon:
                 self.moves.append(moves[f'{move}'])
 
         self.status = Status.no_status
+        #keep track of used moves
+        self.used_moves = []
+        self.status_counter = 0
 
         
     def load_sprite(self, screen, x_loc, y_loc, flip = False):
@@ -105,9 +109,28 @@ class Pokemon:
         elif pokemon_type == "Ghost":
             return 13
         return 14
+    
+    def apply_status_damage(self, otherPokemon):
+        if self.status == Status.burn:
+            self.damage_taken += self.hp//16
+        elif self.status == Status.poison:
+            self.damage_taken += self.hp//16
+        elif self.status == Status.leech_seed:
+            self.damage_taken += self.hp//16
+            otherPokemon.damage_taken -= self.hp//16
+        elif self.status == Status.sleep or self.status == Status.confused:
+            self.status_counter -= 1
+            if self.status_counter == 0:
+                self.status = Status.no_status
+        elif self.status == Status.frozen:
+            self.status = choices([Status.frozen, Status.no_status], [90, 10])
+        e
+            
 
     def compute_atk_damage(self, move, otherPokemon):
+        
         ''' 
+            move: dict() - Example: {'Name': 'Slash', 'Type': 'Normal', 'Category': 'Physical', 'PP': 20, 'Power': '70', 'Accuracy': '100'}
         DAMAGE FORMULA FROM GENERATION 1
         https://bulbapedia.bulbagarden.net/wiki/Damage
 
@@ -117,6 +140,19 @@ class Pokemon:
         '''
         assert type(otherPokemon) == Pokemon, "otherPokemon incorrect type"
 
+        #unique cases...
+        if move['Name'] == 'Dragon Rage':
+            return 40
+        elif move['Name'] == "Super Fang":
+            return otherPokemon.hp // 2
+        elif move['Name'] in ['Guillotine', 'Horn Drill']:
+            #only hits 35% of time
+            hit = choices([0,1], [70, 30])
+            return 65535*hit
+        elif move['Name'] == "Sonic Boom":
+            return 20
+        
+        
         move_data = move
         power = int(move_data["Power"]) 
         pokemon_atk = self.attack if move_data["Category"] == "Physical" else self.special_attack
@@ -128,20 +164,80 @@ class Pokemon:
 
         damage = ((((22*power*(pokemon_atk/other_def))/50)+2)*STAB*type_1_bonus*type_2_bonus*random ) // 1
 
+        #Moves with secondary effects
+
+        #absorbing moves
+        if move['Name'] in ['Absorb', 'Mega Drain', 'Leech Life']:
+            self.damage_taken -= damage // 2
+        #moves hitting multiple times
+        elif move['Name'] == 'Double Slap':
+            strikes = choices([2,3,4,5], weights=[35,35, 15,15])
+            damage *= strikes
+        elif move['Name'] in ['Comet Punch', 'Fury Attack', 'Pin Missile']:
+            strikes = choices([2,3,4,5], weights=[37.5, 37.5, 12.5, 12.5]) 
+            damage *= strikes
+        elif move['Name'] == 'Double Kick':
+             damage *= 2
+        elif move['Name'] == 'Twineedle':
+            damage *= 2
+            if otherPokemon.status == Status.no_status:
+                otherPokemon.status = choices([Status.poison, Status.no_status], [20, 80])  
+        #Moves with status effects
+        elif move['Name'] in ['Fire Punch', 'Ember', 'Flamethrower']:
+            '''10% chance to burn'''
+            if otherPokemon.status == Status.no_status:
+                otherPokemon.status = choices([Status.burn, Status.no_status], [10, 90])
+        elif move['Name'] in ['Ice Punch', 'Ice Beam', 'Blizzard']:
+             if otherPokemon.status == Status.no_status:
+                otherPokemon.status = choices([Status.frozen, Status.no_status], [10, 90]) 
+        elif move['Name'] in ['Psybeam']:
+            if otherPokemon.status == Status.no_status:
+                otherPokemon.status = choices([Status.confused, Status.no_status], [10, 90])
+        elif move['Name'] == 'Thunder Punch':
+            if otherPokemon.status == Status.no_status:
+                otherPokemon.status = choices([Status.paralyzed, Status.no_status], [10, 90])       
+        elif move['Name'] == 'Body Slam':
+            if otherPokemon.status == Status.no_status and not Pokemon.match_type(otherPokemon.type1) == 0 and not Pokemon.match_type(otherPokemon.type1) == 0:
+                 otherPokemon.status = choices([Status.paralyzed, Status.no_status], [30, 70]) 
+        elif move['Name'] == 'Poison Sting':
+            if otherPokemon.status == Status.no_status:
+                otherPokemon.status = choices([Status.poison, Status.no_status], [20, 80]) 
+        elif move['Name'] == "Acid":
+            hit = choices([0,1], [66.8, 33.2])
+            otherPokemon.defense -= 5*hit
+        #recoil moves
+        elif move['Name'] in ['Take Down', 'Double Edge', 'Submission']:
+            self.hp -= (damage*0.25)//1
+
+
+
         # accuracy = int(move_data["Accuracy"])
         # miss_or_hit = 0 if randint(1, 100) > accuracy else 1
         return damage
 
-    def handle_status_effect(self):
-        pass
+    def handle_status_effect(self, move, otherPokemon):
+        if self.status == Status.burn:
+            pass
+        elif self.status == Status.confused:
+            pass
+        elif self.status == Status.poison:
+            pass
+        elif self.status == Status.sleep:
+            pass
+        elif self.status == Status.frozen:
+            pass
+
 
     def draw_health_bar(self, screen, x, y):
         percent = self.damage_taken/self.hp
+        pygame.draw.rect(screen, (0,0,0), (x, y, 250, 10) )
         pygame.draw.rect(screen, (0,128,0), (x, y, 250*(1-percent), 10) )
+        # pygame.draw.rect(screen, (255,0,0), (x + 250*(1-percent) if percent <= 250 else 250, y, 250*percent, 10))
         pygame.draw.rect(screen, (255,0,0), (x + 250*(1-percent), y, 250*percent, 10))
 
 
-    def attack_t(self, move, otherPokemon): 
+    def attack_t(self, move, otherPokemon):
+        #Check the moves stack here 
         if move["Category"] == "Status":
             return    
         damage = self.compute_atk_damage(move, otherPokemon)
@@ -161,6 +257,8 @@ class PokemonTrainer():
         '''
         self.name = name
         self.team = team
+        self.fainted = [] #stores fainted pokemon
+        
     
     def add_pokemon(self, pokemon):
         self.team.append(pokemon)
@@ -180,11 +278,14 @@ class PokemonTrainer():
     def num_pokemon(self):
         return len(self.team)
 
+    def num_fainted(self):
+        return len(self.fainted)
 
 
+check_faint = lambda pokemon : True if pokemon.damage_taken >= pokemon.hp else False
 class Engine():
     pokeball_img = None
-    check_won = lambda pokemon : 
+    pokeballfaint_img = None
     def __init__(self, screen, font, trainer1, trainer2):
         self.screen = screen
         self.font = font
@@ -197,10 +298,10 @@ class Engine():
         self.render_text(f"Click Enter to continue...", y_offset= 20)
 
         for i in range(len(self.trainer1.team)):
-            self.screen.blit(Engine.pokeball_img, (50, 100+i*75))
+            self.screen.blit(Engine.pokeball_img, (50, 50+i*75))
 
         for i in range(len(self.trainer2.team)):
-            self.screen.blit(Engine.pokeball_img, (1200, 100+i*75))
+            self.screen.blit(Engine.pokeball_img, (1200, 50+i*75))
 
 
     def render_movesets(self, pokemon, x):
@@ -218,12 +319,66 @@ class Engine():
         txtsurf = self.font.render( text, True, (0,0,0))
         self.screen.blit(txtsurf, (500, 650 + y_offset, 400, 400))
 
+    def handle_faint(self, side):
+        '''
+            Arguments
+            trainer - pokemon trainer whos pokemon has fainted, can be trainer 1 or 2 ['1', '2']
+        '''
+        if side == '1':
+            if self.trainer1.num_pokemon() == 1:
+                self.trainer1.team.pop(0)
+                return
+            fainted_pokemon = self.trainer1.active_pokemon()
+            #pop the first pokemon and add it to the list of fainted pokemon
+            self.trainer1.fainted.append(self.trainer1.team.pop(0))
+            self.render_text(f"{fainted_pokemon.name} fainted!", refresh=True)
+
+            for i in range(len(self.trainer1.fainted)):
+                self.screen.blit(Engine.pokeballfaint_img, (50, 50+i*75))
+            pygame.display.flip()
+            waitPress()
+
+            #release new pokemon to screen
+
+            self.render_text(f"{self.trainer1.name} sent out {self.trainer1.active_pokemon().name}", refresh=True)
+
+            #refresh the spot where it fainted
+            pygame.draw.rect(self.screen, (0, 0, 0), (50, 250, 80*5, 80*5))
+            pygame.display.flip()
+            self.trainer1.active_pokemon().load_sprite(self.screen, 50, 250, flip = True)
+        else:
+            if self.trainer2.num_pokemon() == 1:
+                self.trainer2.team.pop(0)
+                return
+            fainted_pokemon = self.trainer2.active_pokemon()
+            #pop the first pokemon and add it to the list of fainted pokemon
+            self.trainer2.fainted.append(self.trainer2.team.pop(0))
+            self.render_text(f"{fainted_pokemon.name} fainted!", refresh=True)
+
+            for i in range(len(self.trainer2.fainted)):
+                self.screen.blit(Engine.pokeballfaint_img, (1200, 50+i*75))
+
+            pygame.display.flip()
+            waitPress()
+
+            self.render_text(f"{self.trainer2.name} sent out {self.trainer2.active_pokemon().name}", refresh=True)
+
+            pygame.draw.rect(self.screen, (0, 0, 0), (900, 250, 80*5, 80*5))
+            pygame.display.flip()
+            self.trainer2.active_pokemon().load_sprite(self.screen, 900, 250, flip = False)
+
     def run_turn(self):
         '''
             Returns:
                 gameWon: boolean - signifies if game has been won on the turn or not
         '''
 
+        if self.trainer1.num_pokemon() == 0:
+            self.render_text('Trainer 2 has won', refresh=True)
+            return
+        elif self.trainer2.num_pokemon() == 0:
+            self.render_text('Trainer 1 has won', refresh=True)
+            return
 
         t1_pokemon = self.trainer1.active_pokemon()
         t2_pokemon = self.trainer2.active_pokemon()
@@ -235,26 +390,320 @@ class Engine():
         at1 = self.trainer1.choose_attack()
         at2 = self.trainer2.choose_attack()
 
+
+        #Move priority?
+
         #determine turn sequence based on speed
         
-
+        waitPress()
         if t1_pokemon.speed > t2_pokemon.speed:
+
+            if t1_pokemon.status == Status.sleep:
+                self.render_text(f"{t1_pokemon.name} is asleep", refresh=True)
+                pygame.display.flip()
+                waitPress()
+            elif t1_pokemon.status == Status.frozen:
+                self.render_text(f"{t1_pokemon.name} is frozen", refresh=True)
+                pygame.display.flip()
+                waitPress()
+            elif t1_pokemon.status == Status.confused:
+                chance = randint(0,100)
+                if chance > 50:
+                     ##Use chosen move
+                    t1_pokemon.attack_t(at1, t2_pokemon)
+                    self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+                    pygame.display.flip()
+                    waitPress()
+
+                    ##Check for faint
+                    if check_faint(t2_pokemon):
+                        self.handle_faint('2')
+                        pygame.display.flip()
+                        return
+                else:
+                    confuse_attack = {"Name": "Pound", "Type": "Normal", "Category": "Physical","PP": 35, "Power": "40","Accuracy": "100"}
+                    t1_pokemon.damage_taken += t1_pokemon.compute_atk_damage(confuse_attack, t1_pokemon)
+                    t1_pokemon.draw_health_bar(self.screen, 100, 600)
+                    self.render_text(f"{t1_pokemon.name} hurt itself in confusion", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+
+            elif t1_pokemon.status == Status.paralyzed:
+                chance = randint(0,100)
+                if chance > 30:
+                     ##Use chosen move
+                    t1_pokemon.attack_t(at1, t2_pokemon)
+                    self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+                    pygame.display.flip()
+                    waitPress()
+
+                    ##Check for faint
+                    if check_faint(t2_pokemon):
+                        self.handle_faint('2')
+                        pygame.display.flip()
+                        return
+                else:
+                    self.render_text(f"{t1_pokemon.name} is paralyzed", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+            else:
+                #Default sequence
+
+                ##Use chosen move
+                t1_pokemon.attack_t(at1, t2_pokemon)
+                self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+                pygame.display.flip()
+                waitPress()
+
+                ##Check for faint
+                if check_faint(t2_pokemon):
+                    self.handle_faint('2')
+                    pygame.display.flip()
+                    return
+
+
+            ####################################
+            if t2_pokemon.status == Status.sleep:
+                self.render_text(f"{t2_pokemon.name} is asleep", refresh=True)
+                pygame.display.flip()
+                waitPress()
+            elif t2_pokemon.status == Status.frozen:
+                self.render_text(f"{t2_pokemon.name} is frozen", refresh=True)
+                pygame.display.flip()
+                waitPress()
+            elif t2_pokemon.status == Status.confused:
+                chance = randint(0,100)
+                if chance > 50:
+                     ##Use chosen move
+                    t2_pokemon.attack_t(at2, t1_pokemon)
+                    self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
+                    t1_pokemon.draw_health_bar(self.screen, 1000, 600)
+                    pygame.display.flip()
+                    waitPress()
+
+                    ##Check for faint
+                    if check_faint(t1_pokemon):
+                        self.handle_faint('1')
+                        pygame.display.flip()
+                        return
+                else:
+                    confuse_attack = {"Name": "Pound", "Type": "Normal", "Category": "Physical","PP": 35, "Power": "40","Accuracy": "100"}
+                    t2_pokemon.damage_taken += t2_pokemon.compute_atk_damage(confuse_attack, t2_pokemon)
+                    t2_pokemon.draw_health_bar(self.screen, 100, 600)
+                    self.render_text(f"{t2_pokemon.name} hurt itself in confusion", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+
+                    ##Check for faint
+                    if check_faint(t1_pokemon):
+                        self.handle_faint('2')
+                        pygame.display.flip()
+                        return        
+            elif t2_pokemon.status == Status.paralyzed:
+                chance = randint(0,100)
+                if chance > 30:
+                     ##Use chosen move
+                    t2_pokemon.attack_t(at2, t1_pokemon)
+                    self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+                    pygame.display.flip()
+                    waitPress()
+
+                    ##Check for faint
+                    if check_faint(t2_pokemon):
+                        self.handle_faint('2')
+                        pygame.display.flip()
+                        return
+                else:
+                    self.render_text(f"{t1_pokemon.name} is paralyzed", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+            else:
+                #default sequence
+                t2_pokemon.attack_t(at2, t1_pokemon)
+                self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
+                t1_pokemon.draw_health_bar(self.screen, 100, 600)
+                pygame.display.flip()
+                waitPress()
+
+
+            if check_faint(t1_pokemon):
+                self.handle_faint('1')
+                pygame.display.flip()
+                return 
             
-            t1_pokemon.attack_t(at1,t2_pokemon)
 
-            if t2_pokemon.damage_taken >= t2_pokemon.hp:
+            ## Apply Status Effects ##
+            t1_pokemon.apply_status_damage(t2_pokemon)
+            t2_pokemon.apply_status_damage(t1_pokemon)
+
+            ##Check for another faint due to status
+            if check_faint(t2_pokemon):
+                self.handle_faint('2')
+                pygame.display.flip()
                 return
-            #####
-
-            t2_pokemon.attack_t(at2,t1_pokemon)
-
+            if check_faint(t1_pokemon):
+                self.handle_faint('1')
+                pygame.display.flip()
+                return
         else:
 
-            t2_pokemon.attack_t(at2,t1_pokemon)
+            if t2_pokemon.status == Status.sleep:
+                self.render_text(f"{t2_pokemon.name} is asleep", refresh=True)
+                pygame.display.flip()
+                waitPress()
+            elif t2_pokemon.status == Status.frozen:
+                self.render_text(f"{t2_pokemon.name} is frozen", refresh=True)
+                pygame.display.flip()
+                waitPress()
+            elif t2_pokemon.status == Status.confused:
+                chance = randint(0,100)
+                if chance > 50:
+                     ##Use chosen move
+                    t2_pokemon.attack_t(at2, t1_pokemon)
+                    self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
+                    t1_pokemon.draw_health_bar(self.screen, 1000, 600)
+                    pygame.display.flip()
+                    waitPress()
 
-            ######
+                    ##Check for faint
+                    if check_faint(t1_pokemon):
+                        self.handle_faint('1')
+                        pygame.display.flip()
+                        return
+                else:
+                    confuse_attack = {"Name": "Pound", "Type": "Normal", "Category": "Physical","PP": 35, "Power": "40","Accuracy": "100"}
+                    t2_pokemon.damage_taken += t2_pokemon.compute_atk_damage(confuse_attack, t2_pokemon)
+                    t2_pokemon.draw_health_bar(self.screen, 100, 600)
+                    self.render_text(f"{t2_pokemon.name} hurt itself in confusion", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
 
-            t1_pokemon.attack_t(at1,t2_pokemon)
-        
+                    ##Check for faint
+                    if check_faint(t1_pokemon):
+                        self.handle_faint('2')
+                        pygame.display.flip()
+                        return        
+            elif t2_pokemon.status == Status.paralyzed:
+                chance = randint(0,100)
+                if chance > 30:
+                     ##Use chosen move
+                    t2_pokemon.attack_t(at2, t1_pokemon)
+                    self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+                    pygame.display.flip()
+                    waitPress()
+
+                    ##Check for faint
+                    if check_faint(t2_pokemon):
+                        self.handle_faint('2')
+                        pygame.display.flip()
+                        return
+                else:
+                    self.render_text(f"{t1_pokemon.name} is paralyzed", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+            else:
+                #default sequence
+                t2_pokemon.attack_t(at2, t1_pokemon)
+                self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
+                t1_pokemon.draw_health_bar(self.screen, 100, 600)
+                pygame.display.flip()
+                waitPress()
 
 
+            if check_faint(t1_pokemon):
+                self.handle_faint('1')
+                pygame.display.flip()
+                return 
+
+            ###########
+
+            if t1_pokemon.status == Status.sleep:
+                self.render_text(f"{t1_pokemon.name} is asleep", refresh=True)
+                pygame.display.flip()
+                waitPress()
+            elif t1_pokemon.status == Status.frozen:
+                self.render_text(f"{t1_pokemon.name} is frozen", refresh=True)
+                pygame.display.flip()
+                waitPress()
+            elif t1_pokemon.status == Status.confused:
+                chance = randint(0,100)
+                if chance > 50:
+                     ##Use chosen move
+                    t1_pokemon.attack_t(at1, t2_pokemon)
+                    self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+                    pygame.display.flip()
+                    waitPress()
+
+                    ##Check for faint
+                    if check_faint(t2_pokemon):
+                        self.handle_faint('2')
+                        pygame.display.flip()
+                        return
+                else:
+                    confuse_attack = {"Name": "Pound", "Type": "Normal", "Category": "Physical","PP": 35, "Power": "40","Accuracy": "100"}
+                    t1_pokemon.damage_taken += t1_pokemon.compute_atk_damage(confuse_attack, t1_pokemon)
+                    t1_pokemon.draw_health_bar(self.screen, 100, 600)
+                    self.render_text(f"{t1_pokemon.name} hurt itself in confusion", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+
+                    ##Check for faint
+                    if check_faint(t1_pokemon):
+                        self.handle_faint('1')
+                        pygame.display.flip()
+                        return
+
+            elif t1_pokemon.status == Status.paralyzed:
+                chance = randint(0,100)
+                if chance > 30:
+                     ##Use chosen move
+                    t1_pokemon.attack_t(at1, t2_pokemon)
+                    self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+                    pygame.display.flip()
+                    waitPress()
+
+                    ##Check for faint
+                    if check_faint(t2_pokemon):
+                        self.handle_faint('2')
+                        pygame.display.flip()
+                        return
+                else:
+                    self.render_text(f"{t1_pokemon.name} is paralyzed", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+            else:
+                #Default sequence
+                
+                ##Use chosen move
+                t1_pokemon.attack_t(at1, t2_pokemon)
+                self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+                pygame.display.flip()
+                waitPress()
+
+                ##Check for faint
+                if check_faint(t2_pokemon):
+                    self.handle_faint('2')
+                    pygame.display.flip()
+                    return
+
+            ## Apply Status Effects ##
+            t1_pokemon.apply_status_damage(t2_pokemon)
+            t2_pokemon.apply_status_damage(t1_pokemon)
+
+            ##Check for another faint due to status
+            if check_faint(t2_pokemon):
+                self.handle_faint('2')
+                pygame.display.flip()
+                return
+            if check_faint(t1_pokemon):
+                self.handle_faint('1')
+                pygame.display.flip()
+                return

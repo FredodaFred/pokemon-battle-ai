@@ -9,6 +9,7 @@ clock = pygame.time.Clock()
 running = True
 
 Pokemon.sprite_sheet = pygame.image.load("./pokemon.png").convert()
+Pokemon.status_img = pygame.image.load("./status.png").convert()
 
 
 game_won = False
@@ -19,6 +20,7 @@ trainer2 = PokemonTrainer("Misty", team=team2)
 
 engine = Engine(screen, font, trainer1, trainer2)
 Engine.pokeball_img = pygame.transform.scale(pygame.image.load("./pokeball.png").convert(), (50,50))
+Engine.pokeballfaint_img = pygame.transform.scale(pygame.image.load("./pokeball_faint.png").convert(), (50,50))
 
 engine.init_render()
 
@@ -31,16 +33,15 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-
     if game_won:
         continue
-    
     
     if not init_seq:
         #inital sequence
         waitPress()
         engine.render_text(f"{trainer1.name} sent out {trainer1.active_pokemon().name}", refresh=True)
         trainer1.active_pokemon().load_sprite(screen, 50, 250, flip = True)
+
 
         pygame.display.flip()
         waitPress()
@@ -49,8 +50,8 @@ while running:
     
         init_seq = True
     
-    engine.run_turn()
 
+    engine.run_turn()
 
 
     clock.tick(20)  # limits FPS to 20

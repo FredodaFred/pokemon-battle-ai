@@ -49,24 +49,27 @@ class Status(Enum):
    poison = 3,
    paralyzed = 4,
    confused = 5,
+   frozen = 6,
+   leech_seed = 7,
+   
    
 
-# class Types(Enum):
-#   Normal = 0
-#   Fire = 1
-#   Water = 2
-#   Electric = 3
-#   Grass = 4
-#   Ice = 5
-#   Fighting = 6
-#   Poison = 7
-#   Ground = 8
-#   Flying = 9
-#   Psychic = 10
-#   Bug = 11
-#   Rock = 12
-#   Ghost = 13
-#   Dragon = 14
+class Types(Enum):
+  Normal = 0
+  Fire = 1
+  Water = 2
+  Electric = 3
+  Grass = 4
+  Ice = 5
+  Fighting = 6
+  Poison = 7
+  Ground = 8
+  Flying = 9
+  Psychic = 10
+  Bug = 11
+  Rock = 12
+  Ghost = 13
+  Dragon = 14
 
 '''
   https://www.ign.com/wikis/pokemon-red-blue-yellow-version/Pokemon_Types
@@ -2062,6 +2065,8 @@ moves = {
       "Power": "90",
       "Accuracy": "95"
    },
+   # Bind does damage for 2-5 turns. There is a 37.5% chance that it will attack for 2 turns,
+   # a 37.5% chance that it will attack for 3 turns, a 12.5% chance that it will attack for 4 turns, and a 12.5% chance that it will attack for 5 turns.
    "20": {
       "Name": "Bind",
       "Type": "Normal",
@@ -2443,7 +2448,7 @@ moves = {
       "Type": "Fighting",
       "Category": "Physical",
       "PP": 20,
-      "Power": "—",
+      "Power": "50",
       "Accuracy": "100"
    },
    "68": {
@@ -3214,14 +3219,14 @@ moves = {
       "Power": "70",
       "Accuracy": "100"
    },
-   "164": {
-      "Name": "Substitute",
-      "Type": "Normal",
-      "Category": "Status",
-      "PP": 10,
-      "Power": "—",
-      "Accuracy": "—"
-   },
+   # "164": {
+   #    "Name": "Substitute",
+   #    "Type": "Normal",
+   #    "Category": "Status",
+   #    "PP": 10,
+   #    "Power": "—",
+   #    "Accuracy": "—"
+   # },
    "165": {
       "Name": "Struggle",
       "Type": "Normal",
