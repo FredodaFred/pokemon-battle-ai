@@ -68,7 +68,7 @@ class Pokemon:
         
         # attack, def, spatk, spdef, speed
         # https://www.dragonflycave.com/mechanics/stat-stages#:~:text=In%20particular%2C%20whenever%20you%20use,for%20each%20of%20its%20stats.
-        self.stat_stages = (0,0,0,0,0)
+        self.stat_stages = [0,0,0,0,0]
 
         
     def load_sprite(self, screen, x_loc, y_loc, flip = False):
@@ -151,48 +151,8 @@ class Pokemon:
                 self.status = Status.no_status
         elif self.status == Status.frozen:
             self.status = choices([Status.frozen, Status.no_status], [90, 10])
-            
-
-    def compute_atk_damage(self, move, otherPokemon):
-        
-        ''' 
-            move: dict() - Example: {'Name': 'Slash', 'Type': 'Normal', 'Category': 'Physical', 'PP': 20, 'Power': '70', 'Accuracy': '100'}
-        DAMAGE FORMULA FROM GENERATION 1
-        https://bulbapedia.bulbagarden.net/wiki/Damage
-
-         damage = (((((1/5)*( 2 * level * critical)+2)*attack_power*(pokemon_attack)/(other_pokemon defense))/50 ))*(same_type_attack_bonus)*(attack adv on oppponet type1))*(attack adv on oppponet type2)*(randunif(217, 255)/255  )
-         We will simplify this with no crits (critical == 1)
-
-        '''
-        assert type(otherPokemon) == Pokemon, "otherPokemon incorrect type"
-
-        #unique cases...
-        if move['Name'] == 'Dragon Rage':
-            return 40
-        elif move['Name'] == "Super Fang":
-            return otherPokemon.hp // 2
-        elif move['Name'] in ['Guillotine', 'Horn Drill']:
-            #only hits 35% of time
-            hit = choices([0,1], [70, 30])
-            return 65535*hit[0]
-        elif move['Name'] == "Sonic Boom":
-            return 20
-        
-        
-        move_data = move
-        power = int(move_data["Power"]) 
-        #attack, def, spatk, spdef, speed
-        pokemon_atk = self.attack*(stage_modifier[self.stat_stages[0]]) if move_data["Category"] == "Physical" else self.special_attack*(stage_modifier[self.stat_stages[2]])
-        other_def = otherPokemon.defense*(stage_modifier[otherPokemon.stat_stages[1]]) if move_data["Category"] == "Physical" else otherPokemon.special_defense*(stage_modifier[otherPokemon.stat_stages[3]])
-        STAB = 1.5 if move_data["Type"] == self.type1 or move_data["Type"] == self.type2 else 1
-        type_1_bonus = type_modifier[Pokemon.match_type(move_data["Type"])][Pokemon.match_type(otherPokemon.type1)]
-        type_2_bonus = type_modifier[Pokemon.match_type(move_data["Type"])][Pokemon.match_type(otherPokemon.type2)]
-        random = randint(217, 255) / 255
-
-        damage = ((((22*power*(pokemon_atk/other_def))/50)+2)*STAB*type_1_bonus*type_2_bonus*random ) // 1
-
-        #Moves with secondary effects
-
+    
+    def apply_secondary_effect(self, move, otherPokemon, damage):
         #absorbing moves
         if move['Name'] in ['Absorb', 'Mega Drain', 'Leech Life']:
             #Case for going over maximum HP.
@@ -204,7 +164,7 @@ class Pokemon:
         elif move['Name'] == 'Double Slap':
             strikes = choices([2,3,4,5], weights=[35,35, 15,15])
             damage *= strikes[0]
-        elif move['Name'] in ['Comet Punch', 'Fury Attack', 'Pin Missile']:
+        elif move['Name'] in ['Comet Punch', 'Fury Attack', 'Pin Missile', 'Barrage']:
             strikes = choices([2,3,4,5], weights=[37.5, 37.5, 12.5, 12.5]) 
             damage *= strikes[0]
         elif move['Name'] == 'Double Kick':
@@ -247,8 +207,52 @@ class Pokemon:
         elif move['Name'] in ['Take Down', 'Double Edge', 'Submission']:
             self.damage_taken += (damage*0.25)//1
 
+        return damage
 
+    def compute_atk_damage(self, move, otherPokemon):
+        
+        ''' 
+            move: dict() - Example: {'Name': 'Slash', 'Type': 'Normal', 'Category': 'Physical', 'PP': 20, 'Power': '70', 'Accuracy': '100'}
+        DAMAGE FORMULA FROM GENERATION 1
+        https://bulbapedia.bulbagarden.net/wiki/Damage
 
+         damage = (((((1/5)*( 2 * level * critical)+2)*attack_power*(pokemon_attack)/(other_pokemon defense))/50 ))*(same_type_attack_bonus)*(attack adv on oppponet type1))*(attack adv on oppponet type2)*(randunif(217, 255)/255  )
+         We will simplify this with no crits (critical == 1)
+
+        '''
+        assert type(otherPokemon) == Pokemon, "otherPokemon incorrect type"
+
+        #unique cases...
+        if move['Name'] == 'Dragon Rage':
+            return 40
+        elif move['Name'] == "Super Fang":
+            return otherPokemon.hp // 2
+        elif move['Name'] in ['Guillotine', 'Horn Drill']:
+            #only hits 35% of time
+            hit = choices([0,1], [70, 30])
+            return 65535*hit[0]
+        elif move['Name'] == "Sonic Boom":
+            return 20
+        elif move['Name'] == 'Seismic Toss':
+            return 50
+        elif move['Name'] == 'Psywave':
+            return randint(1, 75)
+        
+        
+        move_data = move
+        power = int(move_data["Power"]) 
+        #attack, def, spatk, spdef, speed
+        pokemon_atk = self.attack*(stage_modifier[self.stat_stages[0]]) if move_data["Category"] == "Physical" else self.special_attack*(stage_modifier[self.stat_stages[2]])
+        other_def = otherPokemon.defense*(stage_modifier[otherPokemon.stat_stages[1]]) if move_data["Category"] == "Physical" else otherPokemon.special_defense*(stage_modifier[otherPokemon.stat_stages[3]])
+        STAB = 1.5 if move_data["Type"] == self.type1 or move_data["Type"] == self.type2 else 1
+        type_1_bonus = type_modifier[Pokemon.match_type(move_data["Type"])][Pokemon.match_type(otherPokemon.type1)]
+        type_2_bonus = type_modifier[Pokemon.match_type(move_data["Type"])][Pokemon.match_type(otherPokemon.type2)]
+        random = randint(217, 255) / 255
+
+        damage = ((((22*power*(pokemon_atk/other_def))/50)+2)*STAB*type_1_bonus*type_2_bonus*random ) // 1
+
+        #Moves with secondary effects
+        damage = self.apply_secondary_effect(move, otherPokemon, damage)
         # accuracy = int(move_data["Accuracy"])
         # miss_or_hit = 0 if randint(1, 100) > accuracy else 1
         return damage
@@ -263,24 +267,46 @@ class Pokemon:
     def status_attack(self, move, otherPokemon):
         #Direct status changers
         if otherPokemon.status == Status.no_status:
-            if move['Name'] in ['Sleep Powder', 'Sing', 'Hypnosis']:
+            if move['Name'] in ['Sleep Powder', 'Sing', 'Hypnosis', 'Spore']:
                 otherPokemon.status = Status.sleep
-            elif move['Name'] in ['Poison Powder', 'Toxic']:
+                return
+            elif move['Name'] in ['Poison Powder', 'Toxic', 'Poison Gas']:
                 otherPokemon.status = Status.poison
-            elif move['Name'] in ['Stun Spore']:
+                return
+            elif move['Name'] in ['Stun Spore', 'Glare', 'Thunder Wave']:
                 otherPokemon.status = Status.paralyzed
-            elif move['Name'] in ['Supersonic']:
+                return
+            elif move['Name'] in ['Supersonic', 'Confuse Ray']:
                 otherPokemon.status = Status.confused
-            return
+                return
+            
         #Self healers
-        if move['Name'] in ['Recover']:
+        if move['Name'] in ['Recover', 'Soft Boiled']:
             self.damage_taken -= (self.hp // 2) if self.damage_taken -(self.hp // 2) >= 0 else 0
             return
+
+        if move['Name'] == 'Rest':
+            self.damage_taken = 0
+            self.status = Status.sleep
+            self.status_counter = 2
+
         #attack, def, spatk, spdef, speed
         if move['Name'] in ['Harden', 'Defense Curl', 'Withdraw']:
-            self.stat_stages[1] =  self.stat_stages[1] + 1 if self.stat_stages < 6 else 6
+            self.stat_stages[1] =  self.stat_stages[1] + 1 if self.stat_stages[1] < 6 else 6
         if move['Name'] in ['Growl']:
-            otherPokemon.stat_stages[0] = self.stat_stages[0] - 1 if self.stat_stages > -6 else -6
+            otherPokemon.stat_stages[0] = self.stat_stages[0] - 1 if self.stat_stages[0] > -6 else -6
+        if move['Name'] in ['Agility']:
+            self.stat_stages[4] =  self.stat_stages[4] + 1 if self.stat_stages[4] < 6 else 6
+        if move['Name'] == 'Amnesia':
+            self.stat_stages[3] = self.stat_stages[3] + 2 if self.stat_stages[3] < 5 else 6
+        if move['Name'] in ['String Shot']:
+            otherPokemon.stat_stages[4] =  otherPokemon.stat_stages[4] - 1 if otherPokemon.stat_stages[4] > -6 else -6
+        if move['Name'] == 'Sharpen':
+            self.stat_stages[0] = self.stat_stages[0] + 1 if self.stat_stages[0] < 6 else 6
+        if move['Name'] == 'Swords Dance':
+            self.stat_stages[0] = self.stat_stages[0] + 2 if self.stat_stages[0] < 5 else 6
+        if move['Name'] == 'Acid Armor':
+            self.stat_stages[1] = self.stat_stages[1] + 2 if self.stat_stages[1] < 5 else 6       
 
     def attack_t(self, move, otherPokemon):
         #Check the moves stack here 
@@ -444,8 +470,9 @@ class Engine():
 
         #determine turn sequence based on speed
         
+        
         waitPress()
-        if t1_pokemon.speed > t2_pokemon.speed:
+        if t1_pokemon.speed*(stage_modifier[t1_pokemon.stat_stages[4]]) > t2_pokemon.speed*(stage_modifier[t2_pokemon.stat_stages[4]]):
 
             if t1_pokemon.status == Status.sleep:
                 self.render_text(f"{t1_pokemon.name} is asleep", refresh=True)
@@ -744,16 +771,21 @@ class Engine():
                     pygame.display.flip()
                     return
 
-            ## Apply Status Effects ##
-            t1_pokemon.apply_status_damage(t2_pokemon)
-            t2_pokemon.apply_status_damage(t1_pokemon)
+        ## Apply Status Effects ##
+        t1_pokemon.apply_status_damage(t2_pokemon)
+        t2_pokemon.apply_status_damage(t1_pokemon)
 
-            ##Check for another faint due to status
-            if check_faint(t2_pokemon):
-                self.handle_faint('2')
-                pygame.display.flip()
-                return
-            if check_faint(t1_pokemon):
-                self.handle_faint('1')
-                pygame.display.flip()
-                return
+        ##Check for another faint due to status
+        if check_faint(t2_pokemon):
+            self.handle_faint('2')
+            pygame.display.flip()
+            return
+        if check_faint(t1_pokemon):
+            self.handle_faint('1')
+            pygame.display.flip()
+            return
+
+        t1_pokemon.draw_health_bar(self.screen, 100, 600)
+        t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+        
+        pygame.display.flip()
