@@ -1,13 +1,25 @@
 from enum import Enum
 #Corresponding movesets a pokemon can have
 '''
-https://pokemondb.net/pokedex/game/red-blue-yellow moveset of all 151 pokemons at lv50 (input 4 moves that is learned at highest levels)
+https://pokemondb.net/pokedex/game/red-blue-yellow 
+moveset of all 151 pokemons at lv50 (input 4 moves that is learned at highest levels)
 
 previous version: (only 3 pokemons)
 1:  ('71', '75', '22', '33'),  2: ('72', '75', '22', '77'),   3: ('73', '75', '22', '80')
 '''
 #35 no attack moves?
 #45 no attack moves?
+#63 no attack moves?
+#teleport escape combat, does that work?
+#reflect work?
+#status move work?
+#heal move work?
+#self-destruct work?
+#dig work?
+#Pre-evolution move are stronger than evolved learn moves, use them instead?
+#Make pokemon lv80 so no lv gap for learning moves?
+
+#move Psychic - 94
 move_sets = {
     1:  ('71', '75', '22', '33'),  2: ('72', '75', '22', '77'),   3: ('73', '75', '22', '80'),  
     4: ('82', '163', '53', '83'),   5: ('43', '82', '163', '53'),   6: ('43', '82', '163', '53'),   
