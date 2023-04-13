@@ -82,6 +82,7 @@ class Pokemon:
             sprite_image = pygame.transform.flip(sprite_image, True, False)
         self.image = sprite_image
         screen.blit(self.image, (x_loc, y_loc))
+        
     def render_status_symbol(self, screen, x_loc, y_loc):
         status = self.status
         if status == Status.no_status:
