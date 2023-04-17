@@ -173,10 +173,7 @@ class Pokemon:
             self.status = choices([Status.frozen, Status.no_status], [90, 10])[0]
             if self.status == Status.no_status:
                 render_text(f"{self.name} thawed out",refresh=True)
-                waitPress()
-            else:
-                render_text(f"{self.name} if frozen",refresh=True)
-                waitPress()                
+                waitPress()             
         
     
     def apply_secondary_effect(self, move, otherPokemon, damage):
@@ -287,30 +284,39 @@ class Pokemon:
         return damage
 
     def status_attack(self, move, otherPokemon):
-        # self.render_text(f'status atttack', refresh=True)
-        # pygame.display.flip()
-        # waitPress()
+        #useless moves
+        if move['Name'] in ['Splash', 'Teleport']:
+            self.render_text(f'{self.name} did nothing', refresh=True)
+            pygame.display.flip()
+            waitPress()
+            return    
         #Direct status changers
+
         if otherPokemon.status == Status.no_status:
+            status_changed_flag = False
             if move['Name'] in ['Sleep Powder', 'Sing', 'Hypnosis', 'Spore']:
+                status_changed_flag = True
                 otherPokemon.status = Status.sleep
                 otherPokemon.status_counter = randint(2,6)
                 self.render_text(f'{otherPokemon.name} was put to sleep', refresh=True)
             elif move['Name'] in ['Poison Powder', 'Toxic', 'Poison Gas']:
+                status_changed_flag = True
                 otherPokemon.status = Status.poison
                 self.render_text(f'{otherPokemon.name} was poisoned', refresh=True)
             elif move['Name'] in ['Stun Spore', 'Glare', 'Thunder Wave']:
-                self.render_text(f'{otherPokemon.name} was paralyzed', refresh=True)         
+                status_changed_flag = True
+                self.render_text(f'{otherPokemon.name} became paralyzed', refresh=True)         
                 otherPokemon.status = Status.paralyzed          
             elif move['Name'] in ['Supersonic', 'Confuse Ray']:
-                self.render_text(f'{otherPokemon.name} was confused', refresh=True)           
+                status_changed_flag = True
+                self.render_text(f'{otherPokemon.name} became confused', refresh=True)           
                 otherPokemon.status = Status.confused
-                
-            else:
-                return
-            pygame.display.flip()
-            waitPress()            
-            return
+
+            if status_changed_flag:
+                pygame.display.flip()
+                waitPress()
+                return        
+            
             
         #Self healers
         if move['Name'] in ['Recover', 'Soft Boiled']:
@@ -548,10 +554,11 @@ class Engine():
                 chance = randint(0,100)
                 if chance > 50:
                      ##Use chosen move
-                    t1_pokemon.attack_t(at1, t2_pokemon)
+
                     self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
                     pygame.display.flip()
                     waitPress()
+                    t1_pokemon.attack_t(at1, t2_pokemon)
                     t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     pygame.display.flip()
                     waitPress()
@@ -573,8 +580,11 @@ class Engine():
                 chance = randint(0,100)
                 if chance > 30:
                      ##Use chosen move
-                    t1_pokemon.attack_t(at1, t2_pokemon)
                     self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+                    t1_pokemon.attack_t(at1, t2_pokemon)
+
                     t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     pygame.display.flip()
                     waitPress()
@@ -610,7 +620,7 @@ class Engine():
                     return
 
 
-            ####################################
+            ##################NEXT TURN t1 -> t2##################
             if t2_pokemon.status == Status.sleep:
                 self.render_text(f"{t2_pokemon.name} is asleep", refresh=True)
                 pygame.display.flip()
@@ -623,8 +633,11 @@ class Engine():
                 chance = randint(0,100)
                 if chance > 50:
                      ##Use chosen move
-                    t2_pokemon.attack_t(at2, t1_pokemon)
                     self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+                    t2_pokemon.attack_t(at2, t1_pokemon)
+
                     t1_pokemon.draw_health_bar(self.screen, 1000, 600)
                     pygame.display.flip()
                     waitPress()
@@ -637,7 +650,7 @@ class Engine():
                 else:
                     confuse_attack = {"Name": "Pound", "Type": "Normal", "Category": "Physical","PP": 35, "Power": "40","Accuracy": "100"}
                     t2_pokemon.damage_taken += t2_pokemon.compute_atk_damage(confuse_attack, t2_pokemon)
-                    t2_pokemon.draw_health_bar(self.screen, 100, 600)
+                    t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     self.render_text(f"{t2_pokemon.name} hurt itself in confusion", refresh=True)
                     pygame.display.flip()
                     waitPress()
@@ -651,8 +664,10 @@ class Engine():
                 chance = randint(0,100)
                 if chance > 30:
                      ##Use chosen move
-                    t2_pokemon.attack_t(at2, t1_pokemon)
                     self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+                    t2_pokemon.attack_t(at2, t1_pokemon)
                     t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     pygame.display.flip()
                     waitPress()
@@ -668,8 +683,11 @@ class Engine():
                     waitPress()
             else:
                 #default sequence
+                self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)               
+                pygame.display.flip()
+                waitPress()                
                 t2_pokemon.attack_t(at2, t1_pokemon)
-                self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
+
                 t1_pokemon.draw_health_bar(self.screen, 100, 600)
                 pygame.display.flip()
                 waitPress()
@@ -709,9 +727,12 @@ class Engine():
                 chance = randint(0,100)
                 if chance > 50:
                      ##Use chosen move
-                    t2_pokemon.attack_t(at2, t1_pokemon)
                     self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
-                    t1_pokemon.draw_health_bar(self.screen, 1000, 600)
+                    pygame.display.flip()
+                    waitPress()
+                    
+                    t2_pokemon.attack_t(at2, t1_pokemon)
+                    t1_pokemon.draw_health_bar(self.screen, 100, 600)
                     pygame.display.flip()
                     waitPress()
 
@@ -723,7 +744,7 @@ class Engine():
                 else:
                     confuse_attack = {"Name": "Pound", "Type": "Normal", "Category": "Physical","PP": 35, "Power": "40","Accuracy": "100"}
                     t2_pokemon.damage_taken += t2_pokemon.compute_atk_damage(confuse_attack, t2_pokemon)
-                    t2_pokemon.draw_health_bar(self.screen, 100, 600)
+                    t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     self.render_text(f"{t2_pokemon.name} hurt itself in confusion", refresh=True)
                     pygame.display.flip()
                     waitPress()
@@ -737,8 +758,11 @@ class Engine():
                 chance = randint(0,100)
                 if chance > 30:
                      ##Use chosen move
+                    self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)                     
+                    pygame.display.flip()
+                    waitPress()                     
                     t2_pokemon.attack_t(at2, t1_pokemon)
-                    self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
+
                     t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     pygame.display.flip()
                     waitPress()
@@ -755,8 +779,11 @@ class Engine():
                     waitPress()
             else:
                 #default sequence
+                self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)                
+                pygame.display.flip()
+                waitPress()               
                 t2_pokemon.attack_t(at2, t1_pokemon)
-                self.render_text(f"{t2_pokemon.name} used { at2['Name'] } ", refresh=True)
+
                 t1_pokemon.draw_health_bar(self.screen, 100, 600)
                 pygame.display.flip()
                 waitPress()
@@ -768,7 +795,7 @@ class Engine():
                 pygame.display.flip()
                 return 
 
-            ###########
+            ##########################NEXT TURN t2-> t1#######################################################
 
             if t1_pokemon.status == Status.sleep:
                 self.render_text(f"{t1_pokemon.name} is asleep", refresh=True)
@@ -782,8 +809,10 @@ class Engine():
                 chance = randint(0,100)
                 if chance > 50:
                      ##Use chosen move
+                    self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)                     
+                    pygame.display.flip()
+                    waitPress()                     
                     t1_pokemon.attack_t(at1, t2_pokemon)
-                    self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
                     t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     pygame.display.flip()
                     waitPress()
@@ -813,8 +842,12 @@ class Engine():
                 chance = randint(0,100)
                 if chance > 30:
                      ##Use chosen move
-                    t1_pokemon.attack_t(at1, t2_pokemon)
+
                     self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
+                    t1_pokemon.attack_t(at1, t2_pokemon)
+
                     t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     pygame.display.flip()
                     waitPress()
@@ -832,8 +865,11 @@ class Engine():
                 #Default sequence
                 
                 ##Use chosen move
-                t1_pokemon.attack_t(at1, t2_pokemon)
+
                 self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                pygame.display.flip()
+                waitPress()
+                t1_pokemon.attack_t(at1, t2_pokemon)
                 t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                 pygame.display.flip()
                 waitPress()
