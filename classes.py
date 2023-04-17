@@ -1,6 +1,6 @@
 import pygame
 from random import randint, choice, choices
-from data import pokemon_dict, moves, type_modifier, move_sets, stage_modifier, Turn, Status
+from data import pokemon_dict, moves, type_modifier, move_sets, stage_modifier, Status
 from pygame.locals import *
 from time import sleep
 
@@ -138,20 +138,35 @@ class Pokemon:
             return 13
         return 14
     
-    def apply_status_damage(self, otherPokemon):
+    def apply_status_damage(self, otherPokemon, render_text):
         if self.status == Status.burn:
             self.damage_taken += self.hp//16
+            render_text(f"{self.name} is hurt by burn",refresh=True)
+            waitPress()
         elif self.status == Status.poison:
             self.damage_taken += self.hp//16
+            render_text(f"{self.name} is hurt by poison",refresh=True)
+            waitPress()
         elif self.status == Status.leech_seed:
             self.damage_taken += self.hp//16
             otherPokemon.damage_taken -= self.hp//16
+            render_text(f"{otherPokemon.name} is being drained with leech seed",refresh=True)
+            waitPress()
         elif self.status == Status.sleep or self.status == Status.confused:
             self.status_counter -= 1
             if self.status_counter == 0:
                 self.status = Status.no_status
+                render_text(f"{self.name} woke up",refresh=True)
+                waitPress()
         elif self.status == Status.frozen:
-            self.status = choices([Status.frozen, Status.no_status], [90, 10])
+            self.status = choices([Status.frozen, Status.no_status], [90, 10])[0]
+            if self.status == Status.no_status:
+                render_text(f"{self.name} thawed out",refresh=True)
+                waitPress()
+            else:
+                render_text(f"{self.name} if frozen",refresh=True)
+                waitPress()                
+        
     
     def apply_secondary_effect(self, move, otherPokemon, damage):
         #absorbing moves
@@ -260,9 +275,11 @@ class Pokemon:
 
     def draw_health_bar(self, screen, x, y):
         percent = self.damage_taken/self.hp
-        pygame.draw.rect(screen, (0,0,0), (x, y, 250, 10) )
+        if percent > 1:
+            percent = 1
+        #green part
         pygame.draw.rect(screen, (0,128,0), (x, y, 250*(1-percent), 10) )
-        # pygame.draw.rect(screen, (255,0,0), (x + 250*(1-percent) if percent <= 250 else 250, y, 250*percent, 10))
+        #damage part
         pygame.draw.rect(screen, (255,0,0), (x + 250*(1-percent), y, 250*percent, 10))
 
     def status_attack(self, move, otherPokemon):
@@ -365,7 +382,6 @@ class Engine():
         self.font = font
         self.trainer1 = trainer1
         self.trainer2 = trainer2
-        self.turn = Turn.main_turn
 
     def init_render(self):
         self.render_text(f"{self.trainer1.name} versus {self.trainer2.name}", refresh=True)
@@ -417,9 +433,9 @@ class Engine():
             self.render_text(f"{self.trainer1.name} sent out {self.trainer1.active_pokemon().name}", refresh=True)
 
             #refresh the spot where it fainted
-            pygame.draw.rect(self.screen, (0, 0, 0), (50, 250, 80*5, 80*5))
+            pygame.draw.rect(self.screen, (0, 0, 0), (0, 250, 80*5, 80*5))
             pygame.display.flip()
-            self.trainer1.active_pokemon().load_sprite(self.screen, 50, 250, flip = True)
+            self.trainer1.active_pokemon().load_sprite(self.screen, 0, 250, flip = True)
         else:
             if self.trainer2.num_pokemon() == 1:
                 self.trainer2.team.pop(0)
@@ -467,13 +483,12 @@ class Engine():
         at2 = self.trainer2.choose_attack()
 
 
-        #Move priority?
-
-        #determine turn sequence based on speed
-        
+        #Check for quick attack, this always moves first
+        priority1 = at1['Name'] == 'Quick Attack'
+        priority2 = at2['Name'] == 'Quick Attack'
         
         waitPress()
-        if t1_pokemon.speed*(stage_modifier[t1_pokemon.stat_stages[4]]) > t2_pokemon.speed*(stage_modifier[t2_pokemon.stat_stages[4]]):
+        if not priority2 and (t1_pokemon.speed*(stage_modifier[t1_pokemon.stat_stages[4]]) > t2_pokemon.speed*(stage_modifier[t2_pokemon.stat_stages[4]])) or priority1 :
 
             if t1_pokemon.status == Status.sleep:
                 self.render_text(f"{t1_pokemon.name} is asleep", refresh=True)
@@ -614,8 +629,8 @@ class Engine():
             
 
             ## Apply Status Effects ##
-            t1_pokemon.apply_status_damage(t2_pokemon)
-            t2_pokemon.apply_status_damage(t1_pokemon)
+            t1_pokemon.apply_status_damage(t2_pokemon, self.render_text)
+            t2_pokemon.apply_status_damage(t1_pokemon, self.render_text)
 
             ##Check for another faint due to status
             if check_faint(t2_pokemon):
@@ -773,8 +788,8 @@ class Engine():
                     return
 
         ## Apply Status Effects ##
-        t1_pokemon.apply_status_damage(t2_pokemon)
-        t2_pokemon.apply_status_damage(t1_pokemon)
+        t1_pokemon.apply_status_damage(t2_pokemon, self.render_text)
+        t2_pokemon.apply_status_damage(t1_pokemon, self.render_text)
 
         ##Check for another faint due to status
         if check_faint(t2_pokemon):

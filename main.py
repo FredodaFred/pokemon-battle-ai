@@ -14,9 +14,9 @@ Pokemon.status_img = pygame.image.load("./status.png").convert()
 
 
 game_won = False
-team1 = [Pokemon(37), Pokemon(10), Pokemon(57)]
+team1 = [Pokemon(6), Pokemon(10), Pokemon(57)]
 trainer1 = PokemonTrainer("Ash", team=team1)
-team2 = [Pokemon(41), Pokemon(28), Pokemon(66)]
+team2 = [Pokemon(41), Pokemon(73), Pokemon(66)]
 trainer2 = PokemonTrainer("Misty", team=team2)
 
 engine = Engine(screen, font, trainer1, trainer2)
@@ -41,7 +41,7 @@ while running:
         #inital sequence
         waitPress()
         engine.render_text(f"{trainer1.name} sent out {trainer1.active_pokemon().name}", refresh=True)
-        trainer1.active_pokemon().load_sprite(screen, 50, 250, flip = True)
+        trainer1.active_pokemon().load_sprite(screen, 0, 250, flip = True)
 
 
         pygame.display.flip()
