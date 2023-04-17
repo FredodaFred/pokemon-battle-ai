@@ -1,5 +1,6 @@
 import pygame
 from classes import Pokemon, Engine, PokemonTrainer, waitPress
+from random import randint
 
 # pygame setup
 pygame.init()
@@ -14,10 +15,11 @@ Pokemon.status_img = pygame.image.load("./status.png").convert()
 
 
 game_won = False
-team1 = [Pokemon(6), Pokemon(10), Pokemon(57)]
-trainer1 = PokemonTrainer("Ash", team=team1)
-team2 = [Pokemon(41), Pokemon(73), Pokemon(66)]
-trainer2 = PokemonTrainer("Misty", team=team2)
+
+team1 = [Pokemon(randint(1,151)), Pokemon(randint(1,151)), Pokemon(randint(1,151))]
+trainer1 = PokemonTrainer("trainer1", team=team1)
+team2 = [Pokemon(randint(1,151)), Pokemon(randint(1,151)), Pokemon(randint(1,151))]
+trainer2 = PokemonTrainer("trainer2", team=team2)
 
 engine = Engine(screen, font, trainer1, trainer2)
 Engine.pokeball_img = pygame.transform.scale(pygame.image.load("./pokeball.png").convert(), (50,50))

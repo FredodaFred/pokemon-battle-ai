@@ -27,6 +27,7 @@ def waitPress():
 class Pokemon:
     sprite_sheet = None
     status_img = None
+
     def __init__(self, pokemon_id):
         assert pokemon_id <= 151, "Invalid Pokemon ID"
         self.id = pokemon_id
@@ -82,10 +83,20 @@ class Pokemon:
             sprite_image = pygame.transform.flip(sprite_image, True, False)
         self.image = sprite_image
         screen.blit(self.image, (x_loc, y_loc))
-        
+
+    def draw_health_bar(self, screen, x, y):
+        percent = self.damage_taken/self.hp
+        if percent > 1:
+            percent = 1
+        #green part
+        pygame.draw.rect(screen, (0,128,0), (x, y, 250*(1-percent), 10) )
+        #damage part
+        pygame.draw.rect(screen, (255,0,0), (x + 250*(1-percent), y, 250*percent, 10))   
+
     def render_status_symbol(self, screen, x_loc, y_loc):
         status = self.status
         if status == Status.no_status:
+            pygame.draw.rect(screen, (0,0,0), (x_loc, y_loc, 65, 45))
             return 
 
         y_offset = 0
@@ -253,6 +264,8 @@ class Pokemon:
             return 50
         elif move['Name'] == 'Psywave':
             return randint(1, 75)
+        elif move['Name'] == "Night Shade":
+            return 50
         
         
         move_data = move
@@ -273,30 +286,31 @@ class Pokemon:
         # miss_or_hit = 0 if randint(1, 100) > accuracy else 1
         return damage
 
-    def draw_health_bar(self, screen, x, y):
-        percent = self.damage_taken/self.hp
-        if percent > 1:
-            percent = 1
-        #green part
-        pygame.draw.rect(screen, (0,128,0), (x, y, 250*(1-percent), 10) )
-        #damage part
-        pygame.draw.rect(screen, (255,0,0), (x + 250*(1-percent), y, 250*percent, 10))
-
     def status_attack(self, move, otherPokemon):
+        # self.render_text(f'status atttack', refresh=True)
+        # pygame.display.flip()
+        # waitPress()
         #Direct status changers
         if otherPokemon.status == Status.no_status:
             if move['Name'] in ['Sleep Powder', 'Sing', 'Hypnosis', 'Spore']:
                 otherPokemon.status = Status.sleep
-                return
+                otherPokemon.status_counter = randint(2,6)
+                self.render_text(f'{otherPokemon.name} was put to sleep', refresh=True)
             elif move['Name'] in ['Poison Powder', 'Toxic', 'Poison Gas']:
                 otherPokemon.status = Status.poison
-                return
+                self.render_text(f'{otherPokemon.name} was poisoned', refresh=True)
             elif move['Name'] in ['Stun Spore', 'Glare', 'Thunder Wave']:
-                otherPokemon.status = Status.paralyzed
-                return
+                self.render_text(f'{otherPokemon.name} was paralyzed', refresh=True)         
+                otherPokemon.status = Status.paralyzed          
             elif move['Name'] in ['Supersonic', 'Confuse Ray']:
+                self.render_text(f'{otherPokemon.name} was confused', refresh=True)           
                 otherPokemon.status = Status.confused
+                
+            else:
                 return
+            pygame.display.flip()
+            waitPress()            
+            return
             
         #Self healers
         if move['Name'] in ['Recover', 'Soft Boiled']:
@@ -310,20 +324,44 @@ class Pokemon:
 
         #attack, def, spatk, spdef, speed
         if move['Name'] in ['Harden', 'Defense Curl', 'Withdraw']:
+            self.render_text(f'{self.name} raised its defense', refresh=True)
+            pygame.display.flip()
+            waitPress()
             self.stat_stages[1] =  self.stat_stages[1] + 1 if self.stat_stages[1] < 6 else 6
         if move['Name'] in ['Growl']:
+            self.render_text(f'{otherPokemon.name} lost attack power', refresh=True)
+            pygame.display.flip()
+            waitPress()            
             otherPokemon.stat_stages[0] = self.stat_stages[0] - 1 if self.stat_stages[0] > -6 else -6
         if move['Name'] in ['Agility']:
+            self.render_text(f'{self.name} raised its speed', refresh=True)
+            pygame.display.flip()
+            waitPress()               
             self.stat_stages[4] =  self.stat_stages[4] + 1 if self.stat_stages[4] < 6 else 6
         if move['Name'] == 'Amnesia':
+            self.render_text(f'{self.name} raised its spdef', refresh=True)
+            pygame.display.flip()
+            waitPress()               
             self.stat_stages[3] = self.stat_stages[3] + 2 if self.stat_stages[3] < 5 else 6
         if move['Name'] in ['String Shot']:
+            self.render_text(f'{otherPokemon.name} lost speed', refresh=True)
+            pygame.display.flip()
+            waitPress()              
             otherPokemon.stat_stages[4] =  otherPokemon.stat_stages[4] - 1 if otherPokemon.stat_stages[4] > -6 else -6
         if move['Name'] == 'Sharpen':
+            self.render_text(f'{self.name} raised its attack', refresh=True)
+            pygame.display.flip()
+            waitPress()              
             self.stat_stages[0] = self.stat_stages[0] + 1 if self.stat_stages[0] < 6 else 6
         if move['Name'] == 'Swords Dance':
+            self.render_text(f'{self.name} raised its attack', refresh=True)
+            pygame.display.flip()
+            waitPress()             
             self.stat_stages[0] = self.stat_stages[0] + 2 if self.stat_stages[0] < 5 else 6
         if move['Name'] == 'Acid Armor':
+            self.render_text(f'{self.name} raised its defense', refresh=True)
+            pygame.display.flip()
+            waitPress()             
             self.stat_stages[1] = self.stat_stages[1] + 2 if self.stat_stages[1] < 5 else 6       
 
     def attack_t(self, move, otherPokemon):
@@ -335,8 +373,12 @@ class Pokemon:
         otherPokemon.damage_taken += damage
         return damage
 
+    def give_render_text(self, render_text_func):
+        self.render_text = render_text_func
+
     def __eq__(self, other):
         return self.name == other.name
+
 
 class PokemonTrainer():
 
@@ -394,12 +436,12 @@ class Engine():
             self.screen.blit(Engine.pokeball_img, (1200, 50+i*75))
 
 
-    def render_movesets(self, pokemon, x):
-        for i, move in enumerate(pokemon.moves):
-            name = move["Name"]
-            txtsurf = self.font.render( f'{name}', True, (0,0,0))
-            self.screen.blit(txtsurf, (x, 620 + i*20, 400, 400))
-            #190 820
+    # def render_movesets(self, pokemon, x):
+    #     for i, move in enumerate(pokemon.moves):
+    #         name = move["Name"]
+    #         txtsurf = self.font.render( f'{name}', True, (0,0,0))
+    #         self.screen.blit(txtsurf, (x, 620 + i*20, 400, 400))
+    #         #190 820
 
 
     def render_text(self, text, y_offset = 0, refresh = False):
@@ -472,6 +514,11 @@ class Engine():
 
         t1_pokemon = self.trainer1.active_pokemon()
         t2_pokemon = self.trainer2.active_pokemon()
+        
+        #give access to text rendering
+        t1_pokemon.give_render_text(self.render_text)
+        t2_pokemon.give_render_text(self.render_text)
+
         pygame.draw.rect(self.screen, (0,0,0), (0, 600, 1240, 20))
         t1_pokemon.draw_health_bar(self.screen, 100, 600)
         t2_pokemon.draw_health_bar(self.screen, 1000, 600)
@@ -481,7 +528,6 @@ class Engine():
 
         at1 = self.trainer1.choose_attack()
         at2 = self.trainer2.choose_attack()
-
 
         #Check for quick attack, this always moves first
         priority1 = at1['Name'] == 'Quick Attack'
@@ -504,6 +550,8 @@ class Engine():
                      ##Use chosen move
                     t1_pokemon.attack_t(at1, t2_pokemon)
                     self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                    pygame.display.flip()
+                    waitPress()
                     t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                     pygame.display.flip()
                     waitPress()
@@ -544,9 +592,14 @@ class Engine():
                 #Default sequence
 
                 ##Use chosen move
-                t1_pokemon.attack_t(at1, t2_pokemon)
                 self.render_text(f"{t1_pokemon.name} used { at1['Name'] } ", refresh=True)
+                pygame.display.flip()
+                waitPress()
+                t1_pokemon.attack_t(at1, t2_pokemon)
+   
                 t2_pokemon.draw_health_bar(self.screen, 1000, 600)
+                t1_pokemon.render_status_symbol(self.screen, 100, 620)
+                t2_pokemon.render_status_symbol(self.screen, 1000, 620)
                 pygame.display.flip()
                 waitPress()
 
@@ -620,7 +673,8 @@ class Engine():
                 t1_pokemon.draw_health_bar(self.screen, 100, 600)
                 pygame.display.flip()
                 waitPress()
-
+            t1_pokemon.render_status_symbol(self.screen, 100, 620)
+            t2_pokemon.render_status_symbol(self.screen, 1000, 620)
 
             if check_faint(t1_pokemon):
                 self.handle_faint('1')
@@ -707,7 +761,8 @@ class Engine():
                 pygame.display.flip()
                 waitPress()
 
-
+            t1_pokemon.render_status_symbol(self.screen, 100, 620)
+            t2_pokemon.render_status_symbol(self.screen, 1000, 620)
             if check_faint(t1_pokemon):
                 self.handle_faint('1')
                 pygame.display.flip()
@@ -746,6 +801,8 @@ class Engine():
                     pygame.display.flip()
                     waitPress()
 
+                    t1_pokemon.render_status_symbol(self.screen, 100, 620)
+                    t2_pokemon.render_status_symbol(self.screen, 1000, 620)
                     ##Check for faint
                     if check_faint(t1_pokemon):
                         self.handle_faint('1')
@@ -780,7 +837,8 @@ class Engine():
                 t2_pokemon.draw_health_bar(self.screen, 1000, 600)
                 pygame.display.flip()
                 waitPress()
-
+                t1_pokemon.render_status_symbol(self.screen, 100, 620)
+                t2_pokemon.render_status_symbol(self.screen, 1000, 620)
                 ##Check for faint
                 if check_faint(t2_pokemon):
                     self.handle_faint('2')
