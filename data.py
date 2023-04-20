@@ -138,6 +138,8 @@ type_modifier = [[1, 1,   1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 0, 1],
 
 stage_modifier = {-6: 0.25, -5: 0.28, -4: 0.33, -3: 0.4, -2: 0.5, -1: 0.66, 0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 3.5, 6: 4}
 #information about all pokemon
+
+# for DT training: increase HP of 3, 6, 9, 18 by 50%
 pokemon_dict = {
    "1": {
       "Name": "Bulbasaur",
@@ -168,7 +170,7 @@ pokemon_dict = {
       "Type 1": "Grass",
       "Type 2": "Poison",
       "Total": 525,
-      "HP": 80,
+      "HP": 120, #80
       "Attack": 82,
       "Defense": 83,
       "Sp. Atk": 100,
@@ -204,7 +206,7 @@ pokemon_dict = {
       "Type 1": "Fire",
       "Type 2": "Flying",
       "Total": 534,
-      "HP": 78,
+      "HP": 120, #78
       "Attack": 84,
       "Defense": 78,
       "Sp. Atk": 109,
@@ -240,7 +242,7 @@ pokemon_dict = {
       "Type 1": "Water",
       "Type 2": "",
       "Total": 530,
-      "HP": 79,
+      "HP": 120, #79
       "Attack": 83,
       "Defense": 100,
       "Sp. Atk": 85,
@@ -348,7 +350,7 @@ pokemon_dict = {
       "Type 1": "Normal",
       "Type 2": "Flying",
       "Total": 479,
-      "HP": 83,
+      "HP": 120, #83
       "Attack": 80,
       "Defense": 75,
       "Sp. Atk": 70,
