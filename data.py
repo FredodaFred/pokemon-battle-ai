@@ -102,7 +102,40 @@ type_modifier = [[1, 1,   1,   1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 0, 1],
                   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1],
                   [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2]]
 
+def match_type(pokemon_type):
+   if pokemon_type == "Normal":
+      return 0
+   elif pokemon_type == "Fire":
+      return 1
+   elif pokemon_type == "Water":
+      return 2
+   elif pokemon_type == "Electric":
+      return 3
+   elif pokemon_type == "Grass":
+      return 4
+   elif pokemon_type == "Ice":
+      return 5
+   elif pokemon_type == "Fighting":
+      return 6
+   elif pokemon_type == "Poison":
+      return 7
+   elif pokemon_type == "Ground":
+      return 8
+   elif pokemon_type == "Flying":
+      return 9
+   elif pokemon_type == "Psychic":
+      return 10
+   elif pokemon_type == "Bug":
+      return 11
+   elif pokemon_type == "Rock":
+      return 12
+   elif pokemon_type == "Ghost":
+      return 13
+   return 14
+
 stage_modifier = {-6: 0.25, -5: 0.28, -4: 0.33, -3: 0.4, -2: 0.5, -1: 0.66, 0: 1, 1: 1.5, 2: 2, 3: 2.5, 4: 3, 5: 3.5, 6: 4}
+
+secondary_effect_moves = ['Absorb', 'Mega Drain', 'Leech Life','Double Slap', 'Comet Punch', 'Fury Attack', 'Pin Missile', 'Barrage','Double Kick', 'Twineedle', 'Fire Punch', 'Ember', 'Flamethrower', 'Ice Punch', 'Ice Beam', 'Blizzard', 'Psybeam', 'Thunder Punch', 'Body Slam', 'Poison Sting', "Acid", 'Take Down', 'Double Edge', 'Submission']
 #information about all pokemon
 pokemon_dict = {
    "1": {
