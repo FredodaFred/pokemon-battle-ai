@@ -597,7 +597,7 @@ pokemon_dict = {
    "39": {
       "Name": "Jigglypuff",
       "Type 1": "Normal",
-      "Type 2": "Normal",
+      "Type 2": "",
       "Total": 270,
       "HP": 115,
       "Attack": 45,
@@ -609,7 +609,7 @@ pokemon_dict = {
    "40": {
       "Name": "Wigglytuff",
       "Type 1": "Normal",
-      "Type 2": "Normal",
+      "Type 2": "",
       "Total": 435,
       "HP": 140,
       "Attack": 70,
@@ -1101,6 +1101,7 @@ pokemon_dict = {
    "81": {
       "Name": "Magnemite",
       "Type 1": "Electric",
+      "Type 2": "",
       "Total": 325,
       "HP": 25,
       "Attack": 35,
@@ -1112,6 +1113,7 @@ pokemon_dict = {
    "82": {
       "Name": "Magneton",
       "Type 1": "Electric",
+      "Type 2": "",
       "Total": 465,
       "HP": 50,
       "Attack": 60,

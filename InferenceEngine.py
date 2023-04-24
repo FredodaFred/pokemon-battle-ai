@@ -16,26 +16,35 @@ class InferenceEngine:
     def __init__(self):
         return
 
-    def move_recomendation(self, trainer1, trainer2):
+    def move_recomendation(self, trainer1, op_pk):
         '''
         
         '''
         atk_pk = trainer1.active_pokemon()
-        op_pk = trainer2.active_pokemon()
-        #swap_score = self._evaluate_swap(atk_pk, op_pk)
+
+        swap_score = self._evaluate_swap(atk_pk, op_pk)
+        if swap_score == 'SWAP':
+            return 'SWAP'
+            
         move_options = atk_pk.moves
-        score = []
+        scores = []
         for option in move_options:
             if option['Category'] == 'Status':
-                score.append( self._evaluate_status_move() )
+                scores.append( self._evaluate_status_move(option, atk_pk, op_pk) ) 
             else:
-                score.append( self._evaluate_attack_move() )
+                scores.append( self._evaluate_attack_move(option,  atk_pk, op_pk) )
+        max_score_idx = 0
+        for i in range(1, len(scores)):
+            if scores[i] > scores[max_score_idx]:
+                max_score_idx = i
+
+        return move_options[max_score_idx]
 
     def _evaluate_swap(self, atk_pk, op_pk):
         '''
         
         '''
-        pass
+        return None
     def _evaluate_status_move(self, move, atk_pk, op_pk):
         '''
         
@@ -58,7 +67,7 @@ class InferenceEngine:
                 return 70
             elif move_name == 'Leech Seed':
                 return 140
-        else:
+        elif move_name in status_effecting_moves :
             return 0          
                     
         #Self healers
@@ -97,7 +106,7 @@ class InferenceEngine:
             return 50
         elif move_name == 'Acid Armor':      
             return 50  
-
+        return 0
 
     def _evaluate_attack_move(self, move, atk_pk, op_pk):
         '''
@@ -112,30 +121,29 @@ class InferenceEngine:
             return 0
         stab =  30 if move["Type"] == atk_pk.type1 or move["Type"] == atk_pk.type2 else 10
         power = move['Power']
-        if power == '-':
-            #unique cases...
-            if move_name == 'Dragon Rage':
-                power = 40
-            elif move_name == "Super Fang":
-                power = op_pk.hp // 2
-            elif move_name in ['Guillotine', 'Horn Drill']:
-                #only hits 35% of time
-                # hit = choices([0,1], [70, 30])
-                # power = 65535*hit[0]
-                power =  70
-            elif move_name == "Sonic Boom":
-                power = 20
-            elif move_name == 'Seismic Toss':
-                power = 50
-            elif move_name == 'Psywave':
-                # randint(1, 75), so we return mean
-                power = 37.5
-            elif move_name == "Night Shade":
-                power = 50
+        #unique cases...
+        if move_name == 'Dragon Rage':
+            power = 40
+        elif move_name == "Super Fang":
+            power = op_pk.hp // 2
+        elif move_name in ['Guillotine', 'Horn Drill', 'Fissure']:
+            #only hits 35% of time
+            # hit = choices([0,1], [70, 30])
+            # power = 65535*hit[0]
+            power =  70
+        elif move_name == "Sonic Boom":
+            power = 20
+        elif move_name == 'Seismic Toss':
+            power = 50
+        elif move_name == 'Psywave':
+            power = 37.5
+        elif move_name == "Night Shade":
+            power = 50
         else:
+            #default case
             power = int(power)
         
-        pk_atk_pwr = atk_pk.attack*(stage_modifier[atk_pk.stat_stages[0]]) if move["Category"] == "Physical" else atk_pk.special_attack*(stage_modifier[atk_pk.stat_stages[2]])
+        attack_modifier = 10*(stage_modifier[atk_pk.stat_stages[0]]) if move["Category"] == "Physical" else 10*(stage_modifier[atk_pk.stat_stages[2]])
 
         #check for secondary effects
         secondary_effect_bonus = 0
@@ -174,19 +182,6 @@ class InferenceEngine:
                     else: 
                         secondary_effect_bonus -= 10
             
-            #return total score of this move
-            print(f"pk_atk_pwr: {pk_atk_pwr}, stab: {stab} t1b: {type_1_bonus} t2b: {type_2_bonus} power: {power}")
-            return pk_atk_pwr + stab + type_1_bonus + type_2_bonus + power
-    
-'''
- #damage = (((((1/5)*( 2 * level * critical)+2)*attack_power*(pokemon_attack)/(other_pokemon defense))/50 ))*(same_type_attack_bonus)*(attack adv on oppponet type1))*(attack adv on oppponet type2)*(randunif(217, 255)/255  )
-
-"1": {
-    "Name": "Pound",
-    "Type": "Normal",
-    "Category": "Physical",
-    "PP": 35,
-    "Power": "40",
-    "Accuracy": "100"
-},
-'''
+        #return total score of this move
+        print(f"attack_modifier: {attack_modifier}, stab: {stab} t1b: {type_1_bonus} t2b: {type_2_bonus} power: {power}")
+        return  stab + type_1_bonus + type_2_bonus + power

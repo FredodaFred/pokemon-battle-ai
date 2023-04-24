@@ -2,6 +2,7 @@ import pygame
 from random import randint, choice, choices
 from data import pokemon_dict, moves, type_modifier, move_sets, stage_modifier, Status, match_type
 from pygame.locals import *
+from InferenceEngine import InferenceEngine
 from time import sleep
 
 pygame.init()
@@ -10,6 +11,7 @@ SPRITE_ROWS = 28
 SPRIT_COLS = 6
 SPRITE_WIDTH = SPRITE_HEIGHT = 80
 
+inference_engine = InferenceEngine()
 
 def waitPress():
     '''
@@ -220,7 +222,7 @@ class Pokemon:
             return 40
         elif move['Name'] == "Super Fang":
             return otherPokemon.hp // 2
-        elif move['Name'] in ['Guillotine', 'Horn Drill']:
+        elif move['Name'] in ['Guillotine', 'Horn Drill', 'Fissure']:
             #only hits 35% of time
             hit = choices([0,1], [70, 30])
             return 65535*hit[0]
@@ -386,11 +388,11 @@ class PokemonTrainer():
     def swap_pokemon(self, pokemon):
         self.team[0], self.team[self.team.index(pokemon)] = self.team[self.team.index(pokemon)], self.team[0]
 
-    def choose_attack(self):
-        '''
-        WHERE THE AI CODE SHOULD GO...
-        '''
-        return choice(self.active_pokemon().moves)
+    def choose_attack(self, op_pk):
+        move = inference_engine.move_recomendation(self, op_pk)
+        if move == 'SWAP':
+            self.swap_pokemon()
+        return move
     
     def num_pokemon(self):
         return len(self.team)
@@ -511,8 +513,8 @@ class Engine():
         t2_pokemon.render_status_symbol(self.screen, 1000, 620)
         pygame.display.flip()
 
-        at1 = self.trainer1.choose_attack()
-        at2 = self.trainer2.choose_attack()
+        at1 = self.trainer1.choose_attack(t2_pokemon)
+        at2 = self.trainer2.choose_attack(t1_pokemon)
 
         #Check for quick attack, this always moves first
         priority1 = at1['Name'] == 'Quick Attack'
