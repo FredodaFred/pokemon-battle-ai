@@ -28,7 +28,9 @@ class InferenceEngine:
             
         move_options = atk_pk.moves
         scores = []
+        names = [] #TESTING PURPOSES
         for option in move_options:
+            names.append(option['Name'])
             if option['Category'] == 'Status':
                 scores.append( self._evaluate_status_move(option, atk_pk, op_pk) ) 
             else:
@@ -37,7 +39,8 @@ class InferenceEngine:
         for i in range(1, len(scores)):
             if scores[i] > scores[max_score_idx]:
                 max_score_idx = i
-
+        
+        print(f'Scores: {scores} Moves: {names}')
         return move_options[max_score_idx]
 
     def _evaluate_swap(self, atk_pk, op_pk):
@@ -53,59 +56,66 @@ class InferenceEngine:
         #useless moves
         if move_name in ['Splash', 'Teleport']:
             return 0
+
+        #can't effect other pokemon
+        type_1_bonus = type_modifier[match_type(move["Type"])][match_type(op_pk.type1)]
+        type_2_bonus = type_modifier[match_type(move["Type"])][match_type(op_pk.type2)]
+        if type_1_bonus == 0 or type_2_bonus == 0:
+            return
+
         #Direct status changers
 
         if op_pk.status == Status.no_status and move_name in status_effecting_moves:
 
             if move_name in ['Sleep Powder', 'Sing', 'Hypnosis', 'Spore']:
-                return 110
+                return 150
             elif move_name in ['Poison Powder', 'Toxic', 'Poison Gas']:
-                return 80
-            elif move_name in ['Stun Spore', 'Glare', 'Thunder Wave']:
-                return 60
-            elif move_name in ['Supersonic', 'Confuse Ray']:
-                return 70
-            elif move_name == 'Leech Seed':
                 return 140
+            elif move_name in ['Stun Spore', 'Glare', 'Thunder Wave']:
+                return 120
+            elif move_name in ['Supersonic', 'Confuse Ray']:
+                return 130
+            elif move_name == 'Leech Seed':
+                return 160
         elif move_name in status_effecting_moves :
             return 0          
                     
         #Self healers
         if move_name in ['Recover', 'Soft Boiled']:
             if atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.25:
-                return 150
-            elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.55:
-                return 70
+                return 170
+            elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.50:
+                return 120
             else: 
-                return 20
+                return 80
             
         elif move_name == 'Rest':
             if atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.25:
-                return 140
-            elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.55:
-                return 40
+                return 150
+            elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.50:
+                return 100
             else: 
-                return 10
+                return 50
 
         #attack, def, spatk, spdef, speed
         if move_name in ['Harden', 'Defense Curl', 'Withdraw']:
-            return 30
+            return 80
         elif move_name in ['Growl']:  
-            return 30
+            return 80
         elif move_name in ['Tail Whip', 'Leer']:
-            return 30          
+            return 80          
         elif move_name in ['Agility']:        
-            return 30
+            return 80
         elif move_name == 'Amnesia':       
-            return 50
+            return 80
         elif move_name in ['String Shot']:       
-            return 20
+            return 80
         elif move_name in ['Sharpen', 'Meditate']:        
-            return 30
+            return 80
         elif move_name == 'Swords Dance':
-            return 50
+            return 120
         elif move_name == 'Acid Armor':      
-            return 50  
+            return 120  
         return 0
 
     def _evaluate_attack_move(self, move, atk_pk, op_pk):
@@ -158,7 +168,7 @@ class InferenceEngine:
                 elif move_name in ['Ice Punch', 'Ice Beam', 'Blizzard']:
                     secondary_effect_bonus += 20
                 elif move_name in ['Psybeam']:
-                    secondary_effect_bonus += 5
+                    secondary_effect_bonus += 13
                 elif move_name == 'Thunder Punch':
                     secondary_effect_bonus += 5
                 elif move_name == 'Body Slam':
@@ -182,6 +192,4 @@ class InferenceEngine:
                     else: 
                         secondary_effect_bonus -= 10
             
-        #return total score of this move
-        print(f"attack_modifier: {attack_modifier}, stab: {stab} t1b: {type_1_bonus} t2b: {type_2_bonus} power: {power}")
-        return  stab + type_1_bonus + type_2_bonus + power
+        return  stab + type_1_bonus + type_2_bonus + power + attack_modifier

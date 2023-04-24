@@ -261,6 +261,13 @@ class Pokemon:
             pygame.display.flip()
             waitPress()
             return    
+        
+        #can't effect other pokemon
+        type_1_bonus = type_modifier[match_type(move["Type"])][match_type(otherPokemon.type1)]
+        type_2_bonus = type_modifier[match_type(move["Type"])][match_type(otherPokemon.type2)]
+        if type_1_bonus == 0 or type_2_bonus == 0:
+            return
+            
         #Direct status changers
 
         if otherPokemon.status == Status.no_status:
@@ -339,6 +346,11 @@ class Pokemon:
             pygame.display.flip()
             waitPress()              
             self.stat_stages[0] = self.stat_stages[0] + 1 if self.stat_stages[0] < 6 else 6
+        elif move['Name'] in ['Growth']:
+            self.render_text(f'{self.name} raised its special attack', refresh=True)
+            pygame.display.flip()
+            waitPress()              
+            self.stat_stages[2] = self.stat_stages[2] + 1 if self.stat_stages[2] < 6 else 6
         elif move['Name'] == 'Swords Dance':
             self.render_text(f'{self.name} raised its attack', refresh=True)
             pygame.display.flip()
