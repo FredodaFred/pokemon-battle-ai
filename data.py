@@ -1,4 +1,4 @@
-from enum import Enum
+from enum import IntEnum
 #Corresponding movesets a pokemon can have
 '''
 https://pokemondb.net/pokedex/game/red-blue-yellow 
@@ -51,7 +51,7 @@ move_sets = {
     141: ('10', '163', '71', '106'), 142: ('17', '97', '48', '44'), 143: ('156', '29', '133', '38'), 144: ('64', '58', '59', '97'), 145: ('65', '84', '87', '97'), 146: ('64', '53', '143', '97'), 147: ('43', '33', '86', '21'), 148: ('43', '33', '86', '82'), 149: ('43', '33', '86', '82'), 150: ('93', '129', '105', '95'), 151: ('94', '105', '144', '5')
 }
 
-class Status(Enum):
+class Status(IntEnum):
    no_status = 0,
    sleep = 1,
    burn = 2,
@@ -63,7 +63,7 @@ class Status(Enum):
 
    
 
-class Types(Enum):
+class Types(IntEnum):
   Normal = 0
   Fire = 1
   Water = 2
