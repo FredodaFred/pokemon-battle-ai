@@ -261,6 +261,13 @@ class Pokemon:
             pygame.display.flip()
             waitPress()
             return    
+        
+        #can't effect other pokemon
+        type_1_bonus = type_modifier[match_type(move["Type"])][match_type(otherPokemon.type1)]
+        type_2_bonus = type_modifier[match_type(move["Type"])][match_type(otherPokemon.type2)]
+        if type_1_bonus == 0 or type_2_bonus == 0:
+            return
+            
         #Direct status changers
 
         if otherPokemon.status == Status.no_status:

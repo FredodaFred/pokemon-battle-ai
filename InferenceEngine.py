@@ -56,6 +56,13 @@ class InferenceEngine:
         #useless moves
         if move_name in ['Splash', 'Teleport']:
             return 0
+
+        #can't effect other pokemon
+        type_1_bonus = type_modifier[match_type(move["Type"])][match_type(op_pk.type1)]
+        type_2_bonus = type_modifier[match_type(move["Type"])][match_type(op_pk.type2)]
+        if type_1_bonus == 0 or type_2_bonus == 0:
+            return
+
         #Direct status changers
 
         if op_pk.status == Status.no_status and move_name in status_effecting_moves:
@@ -77,7 +84,7 @@ class InferenceEngine:
         if move_name in ['Recover', 'Soft Boiled']:
             if atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.25:
                 return 170
-            elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.55:
+            elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.50:
                 return 120
             else: 
                 return 80
@@ -85,7 +92,7 @@ class InferenceEngine:
         elif move_name == 'Rest':
             if atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.25:
                 return 150
-            elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.55:
+            elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.50:
                 return 100
             else: 
                 return 50
@@ -161,7 +168,7 @@ class InferenceEngine:
                 elif move_name in ['Ice Punch', 'Ice Beam', 'Blizzard']:
                     secondary_effect_bonus += 20
                 elif move_name in ['Psybeam']:
-                    secondary_effect_bonus += 5
+                    secondary_effect_bonus += 13
                 elif move_name == 'Thunder Punch':
                     secondary_effect_bonus += 5
                 elif move_name == 'Body Slam':
