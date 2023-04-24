@@ -1,7 +1,8 @@
 import pygame
 from random import randint, choice, choices
-from data import pokemon_dict, moves, type_modifier, move_sets, stage_modifier, Status
+from data import pokemon_dict, moves, type_modifier, move_sets, stage_modifier, Status, match_type
 from pygame.locals import *
+from InferenceEngine import InferenceEngine
 from time import sleep
 
 pygame.init()
@@ -10,6 +11,7 @@ SPRITE_ROWS = 28
 SPRIT_COLS = 6
 SPRITE_WIDTH = SPRITE_HEIGHT = 80
 
+inference_engine = InferenceEngine()
 
 def waitPress():
     '''
@@ -31,7 +33,7 @@ class Pokemon:
     def __init__(self, pokemon_id):
         assert pokemon_id <= 151, "Invalid Pokemon ID"
         self.id = pokemon_id
-        self.name = pokemon_dict[f'{pokemon_id}']["Name"]
+        self.name  = pokemon_dict[f'{pokemon_id}']["Name"]
         self.type1 = pokemon_dict[f'{pokemon_id}']["Type 1"]
         self.type2 = pokemon_dict[f'{pokemon_id}']["Type 2"]
         self.image = None
@@ -63,8 +65,6 @@ class Pokemon:
                 self.moves.append(moves[f'{move}'])
 
         self.status = Status.no_status
-        #keep track of used moves
-        self.used_moves = []
         self.status_counter = 0
         
         # attack, def, spatk, spdef, speed
@@ -118,36 +118,7 @@ class Pokemon:
         symbol_img = pygame.transform.scale(symbol_img, (50, 30))
         screen.blit(symbol_img, (x_loc, y_loc))
 
-    def match_type(pokemon_type):
-        if pokemon_type == "Normal":
-            return 0
-        elif pokemon_type == "Fire":
-            return 1
-        elif pokemon_type == "Water":
-            return 2
-        elif pokemon_type == "Electric":
-            return 3
-        elif pokemon_type == "Grass":
-            return 4
-        elif pokemon_type == "Ice":
-            return 5
-        elif pokemon_type == "Fighting":
-            return 6
-        elif pokemon_type == "Poison":
-            return 7
-        elif pokemon_type == "Ground":
-            return 8
-        elif pokemon_type == "Flying":
-            return 9
-        elif pokemon_type == "Psychic":
-            return 10
-        elif pokemon_type == "Bug":
-            return 11
-        elif pokemon_type == "Rock":
-            return 12
-        elif pokemon_type == "Ghost":
-            return 13
-        return 14
+
     
     def apply_status_damage(self, otherPokemon, render_text):
         if self.status == Status.burn:
@@ -159,8 +130,8 @@ class Pokemon:
             render_text(f"{self.name} is hurt by poison",refresh=True)
             waitPress()
         elif self.status == Status.leech_seed:
-            self.damage_taken += self.hp//16
-            otherPokemon.damage_taken -= self.hp//16
+            self.damage_taken -= self.hp//16
+            otherPokemon.damage_taken += self.hp//16
             render_text(f"{otherPokemon.name} is being drained with leech seed",refresh=True)
             waitPress()
         elif self.status == Status.sleep or self.status == Status.confused:
@@ -217,7 +188,7 @@ class Pokemon:
                 status = choices([Status.paralyzed, Status.no_status], [10, 90])  
                 otherPokemon.status = status[0]
         elif move['Name'] == 'Body Slam':
-            if otherPokemon.status == Status.no_status and not Pokemon.match_type(otherPokemon.type1) == 0 and not Pokemon.match_type(otherPokemon.type1) == 0:
+            if otherPokemon.status == Status.no_status and not match_type(otherPokemon.type1) == 0 and not match_type(otherPokemon.type1) == 0:
                  status = choices([Status.paralyzed, Status.no_status], [30, 70]) 
                  otherPokemon.status = status[0]
         elif move['Name'] == 'Poison Sting':
@@ -251,7 +222,7 @@ class Pokemon:
             return 40
         elif move['Name'] == "Super Fang":
             return otherPokemon.hp // 2
-        elif move['Name'] in ['Guillotine', 'Horn Drill']:
+        elif move['Name'] in ['Guillotine', 'Horn Drill', 'Fissure']:
             #only hits 35% of time
             hit = choices([0,1], [70, 30])
             return 65535*hit[0]
@@ -271,8 +242,8 @@ class Pokemon:
         pokemon_atk = self.attack*(stage_modifier[self.stat_stages[0]]) if move_data["Category"] == "Physical" else self.special_attack*(stage_modifier[self.stat_stages[2]])
         other_def = otherPokemon.defense*(stage_modifier[otherPokemon.stat_stages[1]]) if move_data["Category"] == "Physical" else otherPokemon.special_defense*(stage_modifier[otherPokemon.stat_stages[3]])
         STAB = 1.5 if move_data["Type"] == self.type1 or move_data["Type"] == self.type2 else 1
-        type_1_bonus = type_modifier[Pokemon.match_type(move_data["Type"])][Pokemon.match_type(otherPokemon.type1)]
-        type_2_bonus = type_modifier[Pokemon.match_type(move_data["Type"])][Pokemon.match_type(otherPokemon.type2)]
+        type_1_bonus = type_modifier[match_type(move_data["Type"])][match_type(otherPokemon.type1)]
+        type_2_bonus = type_modifier[match_type(move_data["Type"])][match_type(otherPokemon.type2)]
         random = randint(217, 255) / 255
 
         damage = ((((22*power*(pokemon_atk/other_def))/50)+2)*STAB*type_1_bonus*type_2_bonus*random ) // 1
@@ -311,6 +282,10 @@ class Pokemon:
                 status_changed_flag = True
                 self.render_text(f'{otherPokemon.name} became confused', refresh=True)           
                 otherPokemon.status = Status.confused
+            elif move['Name'] == 'Leech Seed':
+                 status_changed_flag = True
+                 self.render_text(f'{otherPokemon.name} was seeded', refresh=True)           
+                 otherPokemon.status = Status.leech_seed               
 
             if status_changed_flag:
                 pygame.display.flip()
@@ -322,11 +297,11 @@ class Pokemon:
         if move['Name'] in ['Recover', 'Soft Boiled']:
             self.damage_taken -= (self.hp // 2) if self.damage_taken -(self.hp // 2) >= 0 else 0
             return
-
-        if move['Name'] == 'Rest':
+        elif move['Name'] == 'Rest':
             self.damage_taken = 0
             self.status = Status.sleep
             self.status_counter = 2
+            return
 
         #attack, def, spatk, spdef, speed
         if move['Name'] in ['Harden', 'Defense Curl', 'Withdraw']:
@@ -334,37 +309,42 @@ class Pokemon:
             pygame.display.flip()
             waitPress()
             self.stat_stages[1] =  self.stat_stages[1] + 1 if self.stat_stages[1] < 6 else 6
-        if move['Name'] in ['Growl']:
+        elif move['Name'] in ['Growl']:
             self.render_text(f'{otherPokemon.name} lost attack power', refresh=True)
             pygame.display.flip()
             waitPress()            
             otherPokemon.stat_stages[0] = self.stat_stages[0] - 1 if self.stat_stages[0] > -6 else -6
-        if move['Name'] in ['Agility']:
+        elif move['Name'] in ['Tail Whip', 'Leer']:
+            self.render_text(f'{otherPokemon.name} lost defense', refresh=True)
+            pygame.display.flip()
+            waitPress()            
+            otherPokemon.stat_stages[1] = self.stat_stages[1] - 1 if self.stat_stages[1] > -6 else -6            
+        elif move['Name'] in ['Agility']:
             self.render_text(f'{self.name} raised its speed', refresh=True)
             pygame.display.flip()
             waitPress()               
             self.stat_stages[4] =  self.stat_stages[4] + 1 if self.stat_stages[4] < 6 else 6
-        if move['Name'] == 'Amnesia':
+        elif move['Name'] == 'Amnesia':
             self.render_text(f'{self.name} raised its spdef', refresh=True)
             pygame.display.flip()
             waitPress()               
             self.stat_stages[3] = self.stat_stages[3] + 2 if self.stat_stages[3] < 5 else 6
-        if move['Name'] in ['String Shot']:
+        elif move['Name'] in ['String Shot']:
             self.render_text(f'{otherPokemon.name} lost speed', refresh=True)
             pygame.display.flip()
             waitPress()              
             otherPokemon.stat_stages[4] =  otherPokemon.stat_stages[4] - 1 if otherPokemon.stat_stages[4] > -6 else -6
-        if move['Name'] == 'Sharpen':
+        elif move['Name'] in ['Sharpen', 'Meditate']:
             self.render_text(f'{self.name} raised its attack', refresh=True)
             pygame.display.flip()
             waitPress()              
             self.stat_stages[0] = self.stat_stages[0] + 1 if self.stat_stages[0] < 6 else 6
-        if move['Name'] == 'Swords Dance':
+        elif move['Name'] == 'Swords Dance':
             self.render_text(f'{self.name} raised its attack', refresh=True)
             pygame.display.flip()
             waitPress()             
             self.stat_stages[0] = self.stat_stages[0] + 2 if self.stat_stages[0] < 5 else 6
-        if move['Name'] == 'Acid Armor':
+        elif move['Name'] == 'Acid Armor':
             self.render_text(f'{self.name} raised its defense', refresh=True)
             pygame.display.flip()
             waitPress()             
@@ -408,11 +388,11 @@ class PokemonTrainer():
     def swap_pokemon(self, pokemon):
         self.team[0], self.team[self.team.index(pokemon)] = self.team[self.team.index(pokemon)], self.team[0]
 
-    def choose_attack(self):
-        '''
-        WHERE THE AI CODE SHOULD GO...
-        '''
-        return choice(self.active_pokemon().moves)
+    def choose_attack(self, op_pk):
+        move = inference_engine.move_recomendation(self, op_pk)
+        if move == 'SWAP':
+            self.swap_pokemon()
+        return move
     
     def num_pokemon(self):
         return len(self.team)
@@ -505,6 +485,7 @@ class Engine():
             pygame.display.flip()
             self.trainer2.active_pokemon().load_sprite(self.screen, 900, 250, flip = False)
 
+    
     def run_turn(self):
         '''
             Returns:
@@ -532,8 +513,8 @@ class Engine():
         t2_pokemon.render_status_symbol(self.screen, 1000, 620)
         pygame.display.flip()
 
-        at1 = self.trainer1.choose_attack()
-        at2 = self.trainer2.choose_attack()
+        at1 = self.trainer1.choose_attack(t2_pokemon)
+        at2 = self.trainer2.choose_attack(t1_pokemon)
 
         #Check for quick attack, this always moves first
         priority1 = at1['Name'] == 'Quick Attack'
