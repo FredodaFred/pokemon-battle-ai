@@ -65,9 +65,9 @@ class InferenceEngine:
             elif move_name in ['Poison Powder', 'Toxic', 'Poison Gas']:
                 return 140
             elif move_name in ['Stun Spore', 'Glare', 'Thunder Wave']:
-                return 130
-            elif move_name in ['Supersonic', 'Confuse Ray']:
                 return 120
+            elif move_name in ['Supersonic', 'Confuse Ray']:
+                return 130
             elif move_name == 'Leech Seed':
                 return 160
         elif move_name in status_effecting_moves :
