@@ -339,6 +339,11 @@ class Pokemon:
             pygame.display.flip()
             waitPress()              
             self.stat_stages[0] = self.stat_stages[0] + 1 if self.stat_stages[0] < 6 else 6
+        elif move['Name'] in ['Growth']:
+            self.render_text(f'{self.name} raised its special attack', refresh=True)
+            pygame.display.flip()
+            waitPress()              
+            self.stat_stages[2] = self.stat_stages[2] + 1 if self.stat_stages[2] < 6 else 6
         elif move['Name'] == 'Swords Dance':
             self.render_text(f'{self.name} raised its attack', refresh=True)
             pygame.display.flip()
