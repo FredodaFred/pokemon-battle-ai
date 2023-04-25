@@ -13,7 +13,7 @@ Scores each of its current Pokemon’s move options
 Chooses the highest scoring move option to use to against opponent
 Recommends the highest scoring move to the Pokemon Trainer each turn in battle
 Data Used: Pokemon Database, Pokemon Moves Database, Pokemon Battle Damage Calculation Formulas
-Data Sources:
+Data Sources:\n
 Damage Calculations: https://bulbapedia.bulbagarden.net/wiki/Damage
 Pokemon Stat Calculations: https://pokemon.fandom.com/wiki/Statistics
 Pokedex Data: https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_numbe
