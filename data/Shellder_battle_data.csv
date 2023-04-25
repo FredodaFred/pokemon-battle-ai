@@ -1,0 +1,582 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Aurora Beam,Bulbasaur,71.0,65.0,Water,,Grass,Poison,0,0,2005,2255,True
+turn2,Aurora Beam,Bulbasaur,51.0,27.0,Water,,Grass,Poison,0,0,2005,2255,True
+turn3,Aurora Beam,Bulbasaur,31.0,-10.0,Water,,Grass,Poison,0,0,2005,2255,True
+turn1,Aurora Beam,Ivysaur,68.0,89.0,Water,,Grass,Poison,0,0,2005,3005,False
+turn2,Aurora Beam,Ivysaur,46.0,54.0,Water,,Grass,Poison,0,0,2005,3005,False
+turn3,Aurora Beam,Ivysaur,21.0,23.0,Water,,Grass,Poison,0,0,2005,3005,False
+turn4,Aurora Beam,Ivysaur,0.0,23.0,Water,,Grass,Poison,0,0,2005,3005,False
+turn1,Aurora Beam,Venusaur,-205.0,140,Water,,Grass,Poison,0,0,2005,4005,False
+turn1,Aurora Beam,Charmander,58.0,99,Water,,Fire,,0,0,2005,3255,True
+turn2,Aurora Beam,Charmander,58.0,69.0,Water,,Fire,,0,5,2005,3255,True
+turn3,Aurora Beam,Charmander,58.0,37.0,Water,,Fire,,0,5,2005,3255,True
+turn4,Aurora Beam,Charmander,58.0,6.0,Water,,Fire,,0,5,2005,3255,True
+turn5,Aurora Beam,Charmander,22.0,-7.0,Water,,Fire,,0,5,2005,3255,True
+turn1,Aurora Beam,Charmeleon,43.0,118,Water,,Fire,,0,0,2005,4005,False
+turn2,Aurora Beam,Charmeleon,43.0,90.0,Water,,Fire,,0,5,2005,4005,False
+turn3,Aurora Beam,Charmeleon,43.0,60.0,Water,,Fire,,0,5,2005,4005,False
+turn4,Aurora Beam,Charmeleon,0.0,60.0,Water,,Fire,,0,5,2005,4005,False
+turn1,Aurora Beam,Charizard,31.0,105.0,Water,,Fire,Flying,0,0,2005,5005,False
+turn2,Aurora Beam,Charizard,-29.0,105.0,Water,,Fire,Flying,0,0,2005,5005,False
+turn1,Aurora Beam,Squirtle,64.0,104,Water,,Water,,0,0,2005,2155,False
+turn2,Aurora Beam,Squirtle,39.0,99.0,Water,,Water,,0,5,2005,2155,False
+turn3,Aurora Beam,Squirtle,12.0,95.0,Water,,Water,,0,5,2005,2155,False
+turn4,Aurora Beam,Squirtle,12.0,78.0,Water,,Water,,0,5,2005,2155,False
+turn5,Aurora Beam,Squirtle,-14.0,78.0,Water,,Water,,0,5,2005,2155,False
+turn1,Aurora Beam,Wartortle,57.0,119,Water,,Water,,0,0,2005,2905,False
+turn2,Aurora Beam,Wartortle,19.0,115.0,Water,,Water,,0,5,2005,2905,False
+turn3,Aurora Beam,Wartortle,19.0,98.0,Water,,Water,,0,5,2005,2905,False
+turn4,Aurora Beam,Wartortle,19.0,79.0,Water,,Water,,0,5,2005,2905,False
+turn5,Aurora Beam,Wartortle,19.0,62.0,Water,,Water,,0,5,2005,2905,False
+turn6,Aurora Beam,Wartortle,-17.0,62.0,Water,,Water,,0,5,2005,2905,False
+turn1,Aurora Beam,Blastoise,43.0,139,Water,,Water,,0,0,2005,3905,False
+turn2,Aurora Beam,Blastoise,43.0,121.0,Water,,Water,,0,5,2005,3905,False
+turn3,Aurora Beam,Blastoise,43.0,102.0,Water,,Water,,0,5,2005,3905,False
+turn4,Aurora Beam,Blastoise,43.0,84.0,Water,,Water,,0,5,2005,3905,False
+turn5,Aurora Beam,Blastoise,-5.0,84.0,Water,,Water,,0,5,2005,3905,False
+turn1,Aurora Beam,Caterpie,84.0,105,Water,,Bug,,0,0,2005,2255,True
+turn2,Aurora Beam,Caterpie,84.0,58.0,Water,,Bug,,0,5,2005,2255,True
+turn3,Aurora Beam,Caterpie,84.0,14.0,Water,,Bug,,0,5,2005,2255,True
+turn4,Aurora Beam,Caterpie,78.0,-17.0,Water,,Bug,,0,5,2005,2255,True
+turn1,Aurora Beam,Metapod,86.0,110,Water,,Bug,,0,0,2005,1505,True
+turn2,Aurora Beam,Metapod,86.0,80.0,Water,,Bug,,0,5,2005,1505,True
+turn3,Aurora Beam,Metapod,86.0,51.0,Water,,Bug,,0,5,2005,1505,True
+turn4,Aurora Beam,Metapod,82.0,28.0,Water,,Bug,,0,5,2005,1505,True
+turn5,Aurora Beam,Metapod,77.0,3.0,Water,,Bug,,0,5,2005,1505,True
+turn6,Aurora Beam,Metapod,77.0,-21.0,Water,,Bug,,0,5,2005,1505,True
+turn1,Aurora Beam,Butterfree,90,120,Water,,Bug,Flying,0,0,2005,3505,False
+turn2,Aurora Beam,Butterfree,-5.0,120,Water,,Bug,Flying,1,0,2005,3505,False
+turn1,Aurora Beam,Weedle,84.0,100,Water,,Bug,Poison,0,0,2005,2505,True
+turn2,Aurora Beam,Weedle,74.0,43.0,Water,,Bug,Poison,0,5,2005,2505,True
+turn3,Aurora Beam,Weedle,68.0,-14.0,Water,,Bug,Poison,3,5,2005,2505,True
+turn1,Aurora Beam,Kakuna,84.0,105,Water,,Bug,Poison,0,0,2005,1755,True
+turn2,Aurora Beam,Kakuna,79.0,55.0,Water,,Bug,Poison,0,5,2005,1755,True
+turn3,Aurora Beam,Kakuna,79.0,-3.0,Water,,Bug,Poison,0,5,2005,1755,True
+turn1,Aurora Beam,Beedrill,53.0,125,Water,,Bug,Poison,3,0,2005,3755,True
+turn2,Aurora Beam,Beedrill,16.0,110.0,Water,,Bug,Poison,3,5,2005,3755,True
+turn3,Aurora Beam,Beedrill,11.0,57.0,Water,,Bug,Poison,3,5,2005,3755,True
+turn4,Aurora Beam,Beedrill,6.0,6.0,Water,,Bug,Poison,3,5,2005,3755,True
+turn5,Aurora Beam,Beedrill,6.0,-51.0,Water,,Bug,Poison,3,5,2005,3755,True
+turn1,Aurora Beam,Pidgey,72.0,29.0,Water,,Normal,Flying,0,0,2005,2805,True
+turn2,Aurora Beam,Pidgey,52.0,-44.0,Water,,Normal,Flying,0,0,2005,2805,True
+turn1,Aurora Beam,Pidgeotto,64.0,72.0,Water,,Normal,Flying,0,0,2005,3555,True
+turn2,Aurora Beam,Pidgeotto,41.0,20.0,Water,,Normal,Flying,0,0,2005,3555,True
+turn3,Aurora Beam,Pidgeotto,17.0,-30.0,Water,,Normal,Flying,0,0,2005,3555,True
+turn1,Aurora Beam,Pidgeot,60.0,104.0,Water,,Normal,Flying,0,0,2005,5055,False
+turn2,Aurora Beam,Pidgeot,29.0,67.0,Water,,Normal,Flying,0,0,2005,5055,False
+turn3,Aurora Beam,Pidgeot,-5.0,67.0,Water,,Normal,Flying,0,0,2005,5055,False
+turn1,Aurora Beam,Rattata,59.0,90,Water,,Normal,,0,0,2005,3605,False
+turn2,Aurora Beam,Rattata,31.0,73.0,Water,,Normal,,0,5,2005,3605,False
+turn3,Aurora Beam,Rattata,0.0,73.0,Water,,Normal,,0,5,2005,3605,False
+turn1,Aurora Beam,Raticate,48.0,115,Water,,Normal,,0,0,2005,4855,False
+turn2,Aurora Beam,Raticate,48.0,68.0,Water,,Normal,,0,5,2005,4855,False
+turn3,Aurora Beam,Raticate,4.0,59.0,Water,,Normal,,0,5,2005,4855,False
+turn4,Aurora Beam,Raticate,4.0,15.0,Water,,Normal,,0,5,2005,4855,False
+turn5,Aurora Beam,Raticate,-39.0,15.0,Water,,Normal,,0,5,2005,4855,False
+turn1,Aurora Beam,Spearow,60.0,14.0,Water,,Normal,Flying,0,0,2005,3505,True
+turn2,Aurora Beam,Spearow,31.0,-61.0,Water,,Normal,Flying,0,0,2005,3505,True
+turn1,Aurora Beam,Fearow,45.0,80.0,Water,,Normal,Flying,0,0,2005,5005,False
+turn2,Aurora Beam,Fearow,1.0,41.0,Water,,Normal,Flying,0,0,2005,5005,False
+turn3,Aurora Beam,Fearow,-43.0,41.0,Water,,Normal,Flying,0,0,2005,5005,False
+turn1,Aurora Beam,Ekans,73.0,95,Water,,Poison,,0,0,2005,2755,True
+turn2,Aurora Beam,Ekans,56.0,84.0,Water,,Poison,,0,5,2005,2755,True
+turn3,Aurora Beam,Ekans,56.0,49.0,Water,,Poison,,0,5,2005,2755,True
+turn4,Aurora Beam,Ekans,40.0,37.0,Water,,Poison,,0,5,2005,2755,True
+turn5,Aurora Beam,Ekans,40.0,4.0,Water,,Poison,,0,5,2005,2755,True
+turn6,Aurora Beam,Ekans,24.0,-7.0,Water,,Poison,,0,5,2005,2755,True
+turn1,Aurora Beam,Arbok,66.0,120,Water,,Poison,,0,0,2005,4005,False
+turn2,Aurora Beam,Arbok,44.0,112.0,Water,,Poison,,0,5,2005,4005,False
+turn3,Aurora Beam,Arbok,44.0,82.0,Water,,Poison,,0,5,2005,4005,False
+turn4,Aurora Beam,Arbok,44.0,53.0,Water,,Poison,,0,5,2005,4005,False
+turn5,Aurora Beam,Arbok,20.0,45.0,Water,,Poison,,0,5,2005,4005,False
+turn6,Aurora Beam,Arbok,-3.0,45.0,Water,,Poison,,0,5,2005,4005,False
+turn1,Supersonic,Pikachu,-38.0,95,Water,,Electric,,0,0,2005,4505,False
+turn1,Supersonic,Raichu,-149.0,120,Water,,Electric,,0,0,2005,5505,False
+turn1,Aurora Beam,Sandshrew,67.0,110,Water,,Ground,,0,0,2005,2005,True
+turn2,Aurora Beam,Sandshrew,67.0,73.0,Water,,Ground,,0,5,2005,2005,True
+turn3,Aurora Beam,Sandshrew,67.0,36.0,Water,,Ground,,0,5,2005,2005,True
+turn4,Aurora Beam,Sandshrew,67.0,2.0,Water,,Ground,,0,5,2005,2005,True
+turn5,Aurora Beam,Sandshrew,67.0,-36.0,Water,,Ground,,0,5,2005,2005,True
+turn1,Aurora Beam,Sandslash,59.0,135,Water,,Ground,,0,0,2005,3255,False
+turn2,Aurora Beam,Sandslash,27.0,124.0,Water,,Ground,,0,5,2005,3255,False
+turn3,Aurora Beam,Sandslash,27.0,96.0,Water,,Ground,,0,5,2005,3255,False
+turn4,Aurora Beam,Sandslash,-3.0,96.0,Water,,Ground,,0,5,2005,3255,False
+turn1,Aurora Beam,Nidoran♀,77.0,115,Water,,Poison,,0,0,2005,2055,True
+turn2,Aurora Beam,Nidoran♀,64.0,99.0,Water,,Poison,,0,5,2005,2055,True
+turn3,Aurora Beam,Nidoran♀,64.0,69.0,Water,,Poison,,0,5,2005,2055,True
+turn4,Aurora Beam,Nidoran♀,64.0,38.0,Water,,Poison,,0,5,2005,2055,True
+turn5,Aurora Beam,Nidoran♀,52.0,22.0,Water,,Poison,,0,5,2005,2055,True
+turn6,Aurora Beam,Nidoran♀,39.0,6.0,Water,,Poison,,0,5,2005,2055,True
+turn7,Aurora Beam,Nidoran♀,39.0,-26.0,Water,,Poison,,0,5,2005,2055,True
+turn1,Aurora Beam,Nidorina,74.0,130,Water,,Poison,,0,0,2005,2805,True
+turn2,Aurora Beam,Nidorina,74.0,101.0,Water,,Poison,,0,5,2005,2805,True
+turn3,Aurora Beam,Nidorina,56.0,90.0,Water,,Poison,,0,5,2005,2805,True
+turn4,Aurora Beam,Nidorina,38.0,79.0,Water,,Poison,,0,5,2005,2805,True
+turn5,Aurora Beam,Nidorina,38.0,53.0,Water,,Poison,,0,5,2005,2805,True
+turn6,Aurora Beam,Nidorina,23.0,42.0,Water,,Poison,,0,5,2005,2805,True
+turn7,Aurora Beam,Nidorina,23.0,15.0,Water,,Poison,,0,5,2005,2805,True
+turn8,Aurora Beam,Nidorina,23.0,-13.0,Water,,Poison,,0,5,2005,2805,True
+turn1,Aurora Beam,Nidoqueen,58.0,150,Water,,Poison,Ground,0,0,2005,3805,False
+turn2,Aurora Beam,Nidoqueen,24.0,134.0,Water,,Poison,Ground,0,5,2005,3805,False
+turn3,Aurora Beam,Nidoqueen,-12.0,134.0,Water,,Poison,Ground,0,5,2005,3805,False
+turn1,Supersonic,Nidoran♂,-65445,106,Water,,Poison,,0,0,2005,2505,False
+turn1,Supersonic,Nidorino,-65445,121,Water,,Poison,,0,0,2005,3255,False
+turn1,Aurora Beam,Nidoking,41.0,141,Water,,Poison,Ground,0,0,2005,4255,False
+turn2,Aurora Beam,Nidoking,41.0,102.0,Water,,Poison,Ground,0,5,2005,4255,False
+turn3,Aurora Beam,Nidoking,-12.0,102.0,Water,,Poison,Ground,0,5,2005,4255,False
+turn1,Aurora Beam,Clefairy,90,106.0,Water,,Normal,,0,0,2005,1755,True
+turn2,Aurora Beam,Clefairy,76.0,96.0,Water,,Normal,,0,5,2005,1755,True
+turn3,Aurora Beam,Clefairy,76.0,63.0,Water,,Normal,,0,5,2005,1755,True
+turn4,Aurora Beam,Clefairy,76.0,27.0,Water,,Normal,,0,5,2005,1755,True
+turn5,Aurora Beam,Clefairy,41.0,18.0,Water,,Normal,,0,5,2005,1755,True
+turn6,Aurora Beam,Clefairy,23.0,8.0,Water,,Normal,,0,5,2005,1755,True
+turn7,Aurora Beam,Clefairy,23.0,-2.0,Water,,Normal,,0,5,2005,1755,True
+turn1,Supersonic,Clefable,90,155,Water,,Normal,,0,0,2005,3005,False
+turn2,Supersonic,Clefable,45.0,155,Water,,Normal,,1,0,2005,3005,False
+turn3,Supersonic,Clefable,29.0,155,Water,,Normal,,1,0,2005,3005,False
+turn4,Supersonic,Clefable,2.0,155,Water,,Normal,,1,0,2005,3005,False
+turn5,Supersonic,Clefable,-22.0,155,Water,,Normal,,1,0,2005,3005,False
+turn1,Aurora Beam,Vulpix,63.0,98,Water,,Fire,,0,0,2005,3255,False
+turn2,Aurora Beam,Vulpix,63.0,72.0,Water,,Fire,,0,5,2005,3255,False
+turn3,Aurora Beam,Vulpix,35.0,63.0,Water,,Fire,,0,5,2005,3255,False
+turn4,Aurora Beam,Vulpix,5.0,54.0,Water,,Fire,,0,5,2005,3255,False
+turn5,Aurora Beam,Vulpix,0.0,27.0,Water,,Fire,,2,5,2005,3255,False
+turn1,Aurora Beam,Ninetales,64.0,133,Water,,Fire,,0,0,2005,5005,False
+turn2,Aurora Beam,Ninetales,59.0,110.0,Water,,Fire,,2,5,2005,5005,False
+turn3,Aurora Beam,Ninetales,33.0,104.0,Water,,Fire,,2,5,2005,5005,False
+turn4,Aurora Beam,Ninetales,10.0,98.0,Water,,Fire,,2,5,2005,5005,False
+turn5,Aurora Beam,Ninetales,-10.0,98.0,Water,,Fire,,2,5,2005,5005,False
+turn1,Aurora Beam,Jigglypuff,56.0,175,Water,,Normal,,0,0,2005,1005,False
+turn2,Aurora Beam,Jigglypuff,19.0,152.0,Water,,Normal,,0,5,2005,1005,False
+turn3,Aurora Beam,Jigglypuff,19.0,72.0,Water,,Normal,,0,5,2005,1005,False
+turn4,Aurora Beam,Jigglypuff,-14.0,46.0,Water,,Normal,,0,5,2005,1005,False
+turn1,Supersonic,Wigglytuff,90,200,Water,,Normal,,0,0,2005,2255,False
+turn2,Supersonic,Wigglytuff,66.0,200,Water,,Normal,,1,0,2005,2255,False
+turn3,Supersonic,Wigglytuff,48.0,200,Water,,Normal,,1,0,2005,2255,False
+turn4,Supersonic,Wigglytuff,30.0,200,Water,,Normal,,1,0,2005,2255,False
+turn5,Supersonic,Wigglytuff,30.0,200,Water,,Normal,,0,0,2005,2255,False
+turn6,Supersonic,Wigglytuff,12.0,200,Water,,Normal,,1,0,2005,2255,False
+turn7,Supersonic,Wigglytuff,-15.0,200,Water,,Normal,,1,0,2005,2255,False
+turn1,Aurora Beam,Zubat,72.0,40.0,Water,,Poison,Flying,0,0,2005,2755,True
+turn2,Aurora Beam,Zubat,54.0,-19.0,Water,,Poison,Flying,0,0,2005,2755,True
+turn1,Aurora Beam,Golbat,59.0,99.0,Water,,Poison,Flying,0,0,2005,4505,False
+turn2,Aurora Beam,Golbat,28.0,62.0,Water,,Poison,Flying,0,0,2005,4505,False
+turn3,Aurora Beam,Golbat,-6.0,62.0,Water,,Poison,Flying,0,0,2005,4505,False
+turn1,Aurora Beam,Oddish,-126.0,67.0,Water,,Grass,Poison,0,0,2005,1505,False
+turn1,Aurora Beam,Gloom,-163.0,120,Water,,Grass,Poison,0,0,2005,2005,False
+turn1,Aurora Beam,Vileplume,90,135,Water,,Grass,Poison,0,0,2005,2505,False
+turn2,Aurora Beam,Vileplume,-11.0,135,Water,,Grass,Poison,1,0,2005,2505,False
+turn1,Aurora Beam,Paras,52.0,68.0,Water,,Bug,Grass,0,0,2005,1255,True
+turn2,Aurora Beam,Paras,18.0,40.0,Water,,Bug,Grass,0,0,2005,1255,True
+turn3,Aurora Beam,Paras,18.0,-8.0,Water,,Bug,Grass,0,0,2005,1255,True
+turn1,Aurora Beam,Parasect,38.0,115.0,Water,,Bug,Grass,0,0,2005,1505,False
+turn2,Aurora Beam,Parasect,-8.0,103.0,Water,,Bug,Grass,0,0,2005,1505,False
+turn1,Supersonic,Venonat,90,120,Water,,Bug,Poison,0,0,2005,2255,False
+turn2,Supersonic,Venonat,34.0,120,Water,,Bug,Poison,1,0,2005,2255,False
+turn3,Supersonic,Venonat,34.0,120,Water,,Bug,Poison,0,0,2005,2255,False
+turn4,Supersonic,Venonat,-26.0,120,Water,,Bug,Poison,1,0,2005,2255,False
+turn1,Supersonic,Venomoth,90,130,Water,,Bug,Poison,0,0,2005,4505,False
+turn2,Supersonic,Venomoth,-51.0,130,Water,,Bug,Poison,1,0,2005,4505,False
+turn1,Aurora Beam,Diglett,56.0,70,Water,,Ground,,0,0,2005,4755,False
+turn2,Aurora Beam,Diglett,56.0,21.0,Water,,Ground,,0,5,2005,4755,False
+turn3,Aurora Beam,Diglett,19.0,7.0,Water,,Ground,,0,5,2005,4755,False
+turn4,Aurora Beam,Diglett,-14.0,7.0,Water,,Ground,,0,5,2005,4755,False
+turn1,Aurora Beam,Dugtrio,39.0,95,Water,,Ground,,0,0,2005,6005,True
+turn2,Aurora Beam,Dugtrio,39.0,58.0,Water,,Ground,,0,5,2005,6005,True
+turn3,Aurora Beam,Dugtrio,39.0,23.0,Water,,Ground,,0,5,2005,6005,True
+turn4,Aurora Beam,Dugtrio,39.0,-14.0,Water,,Ground,,0,5,2005,6005,True
+turn1,Aurora Beam,Meowth,71.0,100,Water,,Normal,,0,0,2005,4505,True
+turn2,Aurora Beam,Meowth,51.0,86.0,Water,,Normal,,0,5,2005,4505,True
+turn3,Aurora Beam,Meowth,51.0,38.0,Water,,Normal,,0,5,2005,4505,True
+turn4,Aurora Beam,Meowth,51.0,-9.0,Water,,Normal,,0,5,2005,4505,True
+turn1,Aurora Beam,Persian,55.0,125,Water,,Normal,,0,0,2005,5755,False
+turn2,Aurora Beam,Persian,25.0,116.0,Water,,Normal,,0,5,2005,5755,False
+turn3,Aurora Beam,Persian,25.0,78.0,Water,,Normal,,0,5,2005,5755,False
+turn4,Aurora Beam,Persian,-8.0,78.0,Water,,Normal,,0,5,2005,5755,False
+turn1,Aurora Beam,Psyduck,36.0,110,Water,,Water,,0,0,2005,2755,False
+turn2,Aurora Beam,Psyduck,-22.0,110,Water,,Water,,0,5,2005,2755,False
+turn1,Supersonic,Golduck,-60.0,140,Water,,Water,,0,0,2005,4255,False
+turn1,Aurora Beam,Mankey,62.0,100,Water,,Fighting,,0,0,2005,3505,True
+turn2,Aurora Beam,Mankey,62.0,46.0,Water,,Fighting,,0,5,2005,3505,True
+turn3,Aurora Beam,Mankey,62.0,-6.0,Water,,Fighting,,0,5,2005,3505,True
+turn1,Aurora Beam,Primeape,33.0,125,Water,,Fighting,,0,0,2005,4755,False
+turn2,Aurora Beam,Primeape,-22.0,125,Water,,Fighting,,0,5,2005,4755,False
+turn1,Aurora Beam,Growlithe,61.0,102.0,Water,,Fire,,0,0,2005,3005,True
+turn2,Aurora Beam,Growlithe,61.0,57.0,Water,,Fire,,0,5,2005,3005,True
+turn3,Aurora Beam,Growlithe,33.0,31.0,Water,,Fire,,0,5,2005,3005,True
+turn4,Aurora Beam,Growlithe,4.0,5.0,Water,,Fire,,0,5,2005,3005,True
+turn5,Aurora Beam,Growlithe,4.0,-40.0,Water,,Fire,,0,5,2005,3005,True
+turn1,Aurora Beam,Arcanine,34.0,139.0,Water,,Fire,,0,0,2005,4755,False
+turn2,Aurora Beam,Arcanine,34.0,98.0,Water,,Fire,,0,5,2005,4755,False
+turn3,Aurora Beam,Arcanine,-21.0,87.0,Water,,Fire,,0,5,2005,4755,False
+turn1,Supersonic,Poliwag,90,100,Water,,Water,,0,0,2005,4505,False
+turn2,Supersonic,Poliwag,72.0,100,Water,,Water,,1,0,2005,4505,False
+turn3,Supersonic,Poliwag,72.0,100,Water,,Water,,0,0,2005,4505,False
+turn4,Supersonic,Poliwag,54.0,100,Water,,Water,,1,0,2005,4505,False
+turn5,Supersonic,Poliwag,36.0,100,Water,,Water,,1,0,2005,4505,False
+turn6,Supersonic,Poliwag,16.0,100,Water,,Water,,1,0,2005,4505,False
+turn7,Supersonic,Poliwag,16.0,100,Water,,Water,,0,0,2005,4505,False
+turn8,Supersonic,Poliwag,-3.0,100,Water,,Water,,1,0,2005,4505,False
+turn1,Aurora Beam,Poliwhirl,66.0,125,Water,,Water,,0,0,2005,4505,False
+turn2,Aurora Beam,Poliwhirl,66.0,100.0,Water,,Water,,0,5,2005,4505,False
+turn3,Aurora Beam,Poliwhirl,66.0,75.0,Water,,Water,,0,5,2005,4505,False
+turn4,Aurora Beam,Poliwhirl,41.0,69.0,Water,,Water,,0,5,2005,4505,False
+turn5,Aurora Beam,Poliwhirl,41.0,44.0,Water,,Water,,4,5,2005,4505,False
+turn6,Aurora Beam,Poliwhirl,41.0,19.0,Water,,Water,,4,5,2005,4505,False
+turn7,Aurora Beam,Poliwhirl,18.0,19.0,Water,,Water,,4,5,2005,4505,False
+turn8,Aurora Beam,Poliwhirl,-4.0,19.0,Water,,Water,,4,5,2005,4505,False
+turn1,Supersonic,Poliwrath,90,150,Water,,Water,Fighting,0,0,2005,3505,False
+turn2,Supersonic,Poliwrath,54.0,150,Water,,Water,Fighting,1,0,2005,3505,False
+turn3,Supersonic,Poliwrath,23.0,150,Water,,Water,Fighting,1,0,2005,3505,False
+turn4,Supersonic,Poliwrath,-9.0,150,Water,,Water,Fighting,1,0,2005,3505,False
+turn1,Aurora Beam,Abra,90,85,Water,,Psychic,,0,0,2005,4505,True
+turn2,Aurora Beam,Abra,90,73.0,Water,,Psychic,,0,5,2005,4505,True
+turn3,Aurora Beam,Abra,90,39.0,Water,,Psychic,,0,5,2005,4505,True
+turn4,Aurora Beam,Abra,90,5.0,Water,,Psychic,,0,5,2005,4505,True
+turn5,Aurora Beam,Abra,90,-6.0,Water,,Psychic,,0,5,2005,4505,True
+turn1,Supersonic,Kadabra,-101.0,100,Water,,Psychic,,0,0,2005,5255,False
+turn1,Supersonic,Alakazam,-208.0,115,Water,,Psychic,,0,0,2005,6005,False
+turn1,Aurora Beam,Machop,90,104.0,Water,,Fighting,,0,0,2005,1755,True
+turn2,Aurora Beam,Machop,90,57.0,Water,,Fighting,,0,5,2005,1755,True
+turn3,Aurora Beam,Machop,90,16.0,Water,,Fighting,,0,5,2005,1755,True
+turn4,Aurora Beam,Machop,90,-1.0,Water,,Fighting,,0,5,2005,1755,True
+turn1,Aurora Beam,Machoke,54.0,140,Water,,Fighting,,0,0,2005,2255,False
+turn2,Aurora Beam,Machoke,54.0,105.0,Water,,Fighting,,0,5,2005,2255,False
+turn3,Aurora Beam,Machoke,23.0,95.0,Water,,Fighting,,0,5,2005,2255,False
+turn4,Aurora Beam,Machoke,-13.0,95.0,Water,,Fighting,,0,5,2005,2255,False
+turn1,Aurora Beam,Machamp,48.0,150,Water,,Fighting,,0,0,2005,2755,False
+turn2,Aurora Beam,Machamp,48.0,115.0,Water,,Fighting,,0,5,2005,2755,False
+turn3,Aurora Beam,Machamp,48.0,80.0,Water,,Fighting,,0,5,2005,2755,False
+turn4,Aurora Beam,Machamp,8.0,73.0,Water,,Fighting,,0,5,2005,2755,False
+turn5,Aurora Beam,Machamp,-36.0,73.0,Water,,Fighting,,0,5,2005,2755,False
+turn1,Aurora Beam,Bellsprout,85,26.0,Water,,Grass,Poison,0,0,2005,2005,True
+turn2,Aurora Beam,Bellsprout,61.0,-56.0,Water,,Grass,Poison,3,0,2005,2005,True
+turn1,Aurora Beam,Weepinbell,85,70.0,Water,,Grass,Poison,0,0,2005,2755,True
+turn2,Aurora Beam,Weepinbell,50.0,17.0,Water,,Grass,Poison,3,0,2005,2755,True
+turn3,Aurora Beam,Weepinbell,20.0,-38.0,Water,,Grass,Poison,3,0,2005,2755,True
+turn1,Aurora Beam,Victreebel,55.0,104.0,Water,,Grass,Poison,0,0,2005,3505,False
+turn2,Aurora Beam,Victreebel,21.0,68.0,Water,,Grass,Poison,0,0,2005,3505,False
+turn3,Aurora Beam,Victreebel,-16.0,68.0,Water,,Grass,Poison,0,0,2005,3505,False
+turn1,Aurora Beam,Tentacool,78.0,100,Water,,Water,Poison,0,0,2005,3505,False
+turn2,Aurora Beam,Tentacool,27.0,100,Water,,Water,Poison,5,0,2005,3505,False
+turn3,Aurora Beam,Tentacool,16.0,81.0,Water,,Water,Poison,5,5,2005,3505,False
+turn4,Aurora Beam,Tentacool,4.0,61.0,Water,,Water,Poison,5,5,2005,3505,False
+turn5,Aurora Beam,Tentacool,4.0,36.0,Water,,Water,Poison,5,5,2005,3505,False
+turn6,Aurora Beam,Tentacool,-9.0,16.0,Water,,Water,Poison,5,5,2005,3505,False
+turn1,Aurora Beam,Tentacruel,85,140,Water,,Water,Poison,0,0,2005,5005,False
+turn2,Aurora Beam,Tentacruel,50.0,135.0,Water,,Water,Poison,3,5,2005,5005,False
+turn3,Aurora Beam,Tentacruel,11.0,130.0,Water,,Water,Poison,3,5,2005,5005,False
+turn4,Aurora Beam,Tentacruel,-22.0,130.0,Water,,Water,Poison,3,5,2005,5005,False
+turn1,Aurora Beam,Geodude,65.0,100,Water,,Rock,Ground,0,0,2005,1005,True
+turn2,Aurora Beam,Geodude,38.0,57.0,Water,,Rock,Ground,0,5,2005,1005,True
+turn3,Aurora Beam,Geodude,10.0,14.0,Water,,Rock,Ground,0,5,2005,1005,True
+turn4,Aurora Beam,Geodude,10.0,-30.0,Water,,Rock,Ground,0,5,2005,1005,True
+turn1,Aurora Beam,Graveler,90,108.0,Water,,Rock,Ground,0,0,2005,1755,False
+turn2,Aurora Beam,Graveler,90,75.0,Water,,Rock,Ground,0,5,2005,1755,False
+turn3,Aurora Beam,Graveler,44.0,47.0,Water,,Rock,Ground,0,5,2005,1755,False
+turn4,Aurora Beam,Graveler,-3.0,20.0,Water,,Rock,Ground,0,5,2005,1755,False
+turn1,Aurora Beam,Golem,14.0,140,Water,,Rock,Ground,0,0,2005,2255,False
+turn2,Aurora Beam,Golem,-64.0,140,Water,,Rock,Ground,0,5,2005,2255,False
+turn1,Aurora Beam,Ponyta,66.0,110,Water,,Fire,,0,0,2005,4505,True
+turn2,Aurora Beam,Ponyta,66.0,72.0,Water,,Fire,,0,5,2005,4505,True
+turn3,Aurora Beam,Ponyta,66.0,37.0,Water,,Fire,,0,5,2005,4505,True
+turn4,Aurora Beam,Ponyta,66.0,2.0,Water,,Fire,,0,5,2005,4505,True
+turn5,Aurora Beam,Ponyta,66.0,-36.0,Water,,Fire,,0,5,2005,4505,True
+turn1,Aurora Beam,Rapidash,62.0,125,Water,,Fire,,0,0,2005,5255,False
+turn2,Aurora Beam,Rapidash,35.0,117.0,Water,,Fire,,0,5,2005,5255,False
+turn3,Aurora Beam,Rapidash,8.0,109.0,Water,,Fire,,0,5,2005,5255,False
+turn4,Aurora Beam,Rapidash,-19.0,109.0,Water,,Fire,,0,5,2005,5255,False
+turn1,Aurora Beam,Slowpoke,90,133.0,Water,,Water,Psychic,0,0,2005,755,False
+turn2,Aurora Beam,Slowpoke,41.0,119.0,Water,,Water,Psychic,0,5,2005,755,False
+turn3,Aurora Beam,Slowpoke,-14.0,103.0,Water,,Water,Psychic,0,5,2005,755,False
+turn1,Aurora Beam,Slowbro,90,142.0,Water,,Water,Psychic,0,0,2005,1505,False
+turn2,Aurora Beam,Slowbro,90,122.0,Water,,Water,Psychic,0,5,2005,1505,False
+turn3,Aurora Beam,Slowbro,90,101.0,Water,,Water,Psychic,0,5,2005,1505,False
+turn4,Aurora Beam,Slowbro,17.0,92.0,Water,,Water,Psychic,0,5,2005,1505,False
+turn5,Aurora Beam,Slowbro,-54.0,85.0,Water,,Water,Psychic,0,5,2005,1505,False
+turn1,Supersonic,Magnemite,-10.0,85,Water,,Electric,,0,0,2005,2255,False
+turn1,Supersonic,Magneton,-174.0,110,Water,,Electric,,0,0,2005,3505,False
+turn1,Aurora Beam,Farfetch'd,57.0,68.0,Water,,Normal,Flying,0,0,2005,3005,False
+turn2,Aurora Beam,Farfetch'd,27.0,29.0,Water,,Normal,Flying,0,0,2005,3005,False
+turn3,Aurora Beam,Farfetch'd,-2.0,29.0,Water,,Normal,Flying,0,0,2005,3005,False
+turn1,Aurora Beam,Doduo,66.0,18.0,Water,,Normal,Flying,0,0,2005,3755,True
+turn2,Aurora Beam,Doduo,42.0,-57.0,Water,,Normal,Flying,0,0,2005,3755,True
+turn1,Aurora Beam,Dodrio,31.0,79.0,Water,,Normal,Flying,0,0,2005,5005,False
+turn2,Aurora Beam,Dodrio,-30.0,79.0,Water,,Normal,Flying,0,0,2005,5005,False
+turn1,Supersonic,Seel,72.0,125,Water,,Water,,0,0,2005,2255,False
+turn2,Supersonic,Seel,55.0,125,Water,,Water,,6,0,2005,2255,False
+turn3,Supersonic,Seel,38.0,125,Water,,Water,,6,0,2005,2255,False
+turn4,Supersonic,Seel,22.0,125,Water,,Water,,6,0,2005,2255,False
+turn5,Supersonic,Seel,4.0,125,Water,,Water,,6,0,2005,2255,False
+turn6,Supersonic,Seel,-12.0,125,Water,,Water,,6,0,2005,2255,False
+turn1,Aurora Beam,Dewgong,41.0,150,Water,,Water,Ice,0,0,2005,3505,False
+turn2,Aurora Beam,Dewgong,-6.0,150,Water,,Water,Ice,0,5,2005,3505,False
+turn1,Aurora Beam,Grimer,21.0,140,Water,,Poison,,0,0,2005,1255,False
+turn2,Aurora Beam,Grimer,21.0,98.0,Water,,Poison,,0,5,2005,1255,False
+turn3,Aurora Beam,Grimer,21.0,58.0,Water,,Poison,,0,5,2005,1255,False
+turn4,Aurora Beam,Grimer,-49.0,46.0,Water,,Poison,,0,5,2005,1255,False
+turn1,Aurora Beam,Muk,39.0,165,Water,,Poison,,0,0,2005,2505,False
+turn2,Aurora Beam,Muk,-11.0,165,Water,,Poison,,0,5,2005,2505,False
+turn1,Aurora Beam,Shellder,78.0,90,Water,,Water,,0,0,2005,2005,False
+turn2,Aurora Beam,Shellder,67.0,90,Water,,Water,,5,0,2005,2005,False
+turn3,Aurora Beam,Shellder,44.0,90,Water,,Water,,5,5,2005,2005,False
+turn4,Aurora Beam,Shellder,21.0,90,Water,,Water,,5,5,2005,2005,False
+turn5,Aurora Beam,Shellder,21.0,67.0,Water,,Water,,5,5,2005,2005,False
+turn6,Aurora Beam,Shellder,10.0,55.0,Water,,Water,,5,5,2005,2005,False
+turn7,Aurora Beam,Shellder,-3.0,43.0,Water,,Water,,5,5,2005,2005,False
+turn1,Aurora Beam,Cloyster,45.0,110,Water,,Water,Ice,0,0,2005,3505,False
+turn2,Aurora Beam,Cloyster,45.0,94.0,Water,,Water,Ice,0,5,2005,3505,False
+turn3,Aurora Beam,Cloyster,45.0,78.0,Water,,Water,Ice,0,5,2005,3505,False
+turn4,Aurora Beam,Cloyster,-3.0,78.0,Water,,Water,Ice,0,5,2005,3505,False
+turn1,Aurora Beam,Gastly,79.0,90,Water,,Ghost,Poison,0,0,2005,4005,False
+turn2,Aurora Beam,Gastly,29.0,52.0,Water,,Ghost,Poison,5,0,2005,4005,False
+turn3,Aurora Beam,Gastly,-21.0,52.0,Water,,Ghost,Poison,5,0,2005,4005,False
+turn1,Aurora Beam,Haunter,90,83.0,Water,,Ghost,Poison,0,0,2005,4755,False
+turn2,Aurora Beam,Haunter,40,61.0,Water,,Ghost,Poison,5,0,2005,4755,False
+turn3,Aurora Beam,Haunter,-10,61.0,Water,,Ghost,Poison,5,0,2005,4755,False
+turn1,Aurora Beam,Gengar,90,104.0,Water,,Ghost,Poison,0,0,2005,5505,False
+turn2,Aurora Beam,Gengar,40,85.0,Water,,Ghost,Poison,5,0,2005,5505,False
+turn3,Aurora Beam,Gengar,-10,85.0,Water,,Ghost,Poison,5,0,2005,5505,False
+turn1,Aurora Beam,Onix,59.0,95,Water,,Rock,Ground,0,0,2005,3505,False
+turn2,Aurora Beam,Onix,27.0,68.0,Water,,Rock,Ground,0,5,2005,3505,False
+turn3,Aurora Beam,Onix,27.0,39.0,Water,,Rock,Ground,0,5,2005,3505,False
+turn4,Aurora Beam,Onix,-1.0,39.0,Water,,Rock,Ground,0,5,2005,3505,False
+turn1,Supersonic,Drowzee,90,120,Water,,Psychic,,0,0,2005,2105,False
+turn2,Supersonic,Drowzee,36.0,120,Water,,Psychic,,1,0,2005,2105,False
+turn3,Supersonic,Drowzee,36.0,120,Water,,Psychic,,0,0,2005,2105,False
+turn4,Supersonic,Drowzee,-14.0,120,Water,,Psychic,,1,0,2005,2105,False
+turn1,Supersonic,Hypno,-85.0,145,Water,,Psychic,,0,0,2005,3355,False
+turn1,Aurora Beam,Krabby,74.0,90,Water,,Water,,0,0,2005,2505,True
+turn2,Aurora Beam,Krabby,58.0,78.0,Water,,Water,,0,5,2005,2505,True
+turn3,Aurora Beam,Krabby,58.0,46.0,Water,,Water,,0,5,2005,2505,True
+turn4,Aurora Beam,Krabby,58.0,12.0,Water,,Water,,0,5,2005,2505,True
+turn5,Aurora Beam,Krabby,43.0,1.0,Water,,Water,,0,5,2005,2505,True
+turn6,Aurora Beam,Krabby,26.0,-10.0,Water,,Water,,0,5,2005,2505,True
+turn1,Aurora Beam,Kingler,70.0,115,Water,,Water,,0,0,2005,3755,True
+turn2,Aurora Beam,Kingler,50.0,109.0,Water,,Water,,0,5,2005,3755,True
+turn3,Aurora Beam,Kingler,30.0,103.0,Water,,Water,,0,5,2005,3755,True
+turn4,Aurora Beam,Kingler,30.0,77.0,Water,,Water,,0,5,2005,3755,True
+turn5,Aurora Beam,Kingler,30.0,51.0,Water,,Water,,0,5,2005,3755,True
+turn6,Aurora Beam,Kingler,30.0,24.0,Water,,Water,,0,5,2005,3755,True
+turn7,Aurora Beam,Kingler,9.0,18.0,Water,,Water,,0,5,2005,3755,True
+turn8,Aurora Beam,Kingler,9.0,-9.0,Water,,Water,,0,5,2005,3755,True
+turn1,Aurora Beam,Voltorb,57.0,100,Water,,Electric,,0,0,2005,5005,False
+turn2,Aurora Beam,Voltorb,26.0,89.0,Water,,Electric,,0,5,2005,5005,False
+turn3,Aurora Beam,Voltorb,-7.0,89.0,Water,,Electric,,0,5,2005,5005,False
+turn1,Aurora Beam,Electrode,42.0,120,Water,,Electric,,0,0,2005,7005,False
+turn2,Aurora Beam,Electrode,42.0,100.0,Water,,Electric,,0,5,2005,7005,False
+turn3,Aurora Beam,Electrode,-14.0,100.0,Water,,Electric,,0,5,2005,7005,False
+turn1,Aurora Beam,Exeggcute,95,60.0,Water,,Grass,Psychic,0,0,2005,2005,False
+turn2,Aurora Beam,Exeggcute,41.0,29.0,Water,,Grass,Psychic,7,0,2005,2005,False
+turn3,Aurora Beam,Exeggcute,-24.0,61.0,Water,,Grass,Psychic,7,0,2005,2005,False
+turn1,Aurora Beam,Exeggutor,-98.0,155,Water,,Grass,Psychic,0,0,2005,2755,False
+turn1,Aurora Beam,Cubone,90,101.0,Water,,Ground,,0,0,2005,1755,True
+turn2,Aurora Beam,Cubone,90,79.0,Water,,Ground,,0,5,2005,1755,True
+turn3,Aurora Beam,Cubone,67.0,67.0,Water,,Ground,,0,5,2005,1755,True
+turn4,Aurora Beam,Cubone,67.0,46.0,Water,,Ground,,0,5,2005,1755,True
+turn5,Aurora Beam,Cubone,67.0,22.0,Water,,Ground,,0,5,2005,1755,True
+turn6,Aurora Beam,Cubone,45.0,10.0,Water,,Ground,,0,5,2005,1755,True
+turn7,Aurora Beam,Cubone,45.0,-1.0,Water,,Ground,,0,5,2005,1755,True
+turn1,Aurora Beam,Marowak,57.0,120,Water,,Ground,,0,0,2005,2255,False
+turn2,Aurora Beam,Marowak,24.0,112.0,Water,,Ground,,0,5,2005,2255,False
+turn3,Aurora Beam,Marowak,-11.0,112.0,Water,,Ground,,0,5,2005,2255,False
+turn1,Aurora Beam,Hitmonlee,27.0,110,Water,,Fighting,,0,0,2005,4355,True
+turn2,Aurora Beam,Hitmonlee,27.0,69.0,Water,,Fighting,,0,5,2005,4355,True
+turn3,Aurora Beam,Hitmonlee,27.0,26.0,Water,,Fighting,,0,5,2005,4355,True
+turn4,Aurora Beam,Hitmonlee,27.0,-20.0,Water,,Fighting,,0,5,2005,4355,True
+turn1,Aurora Beam,Hitmonchan,58.0,110,Water,,Fighting,,0,0,2005,3805,False
+turn2,Aurora Beam,Hitmonchan,26.0,104.0,Water,,Fighting,,0,5,2005,3805,False
+turn3,Aurora Beam,Hitmonchan,-7.0,104.0,Water,,Fighting,,0,5,2005,3805,False
+turn1,Aurora Beam,Lickitung,90,129.0,Water,,Normal,,0,0,2005,1505,False
+turn2,Aurora Beam,Lickitung,66.0,121.0,Water,,Normal,,0,5,2005,1505,False
+turn3,Aurora Beam,Lickitung,42.0,113.0,Water,,Normal,,0,5,2005,1505,False
+turn4,Aurora Beam,Lickitung,16.0,105.0,Water,,Normal,,0,5,2005,1505,False
+turn5,Aurora Beam,Lickitung,16.0,78.0,Water,,Normal,,0,5,2005,1505,False
+turn6,Aurora Beam,Lickitung,-7.0,70.0,Water,,Normal,,0,5,2005,1505,False
+turn1,Aurora Beam,Koffing,90,88.0,Water,,Poison,,0,0,2005,1755,False
+turn2,Aurora Beam,Koffing,80,75.0,Water,,Poison,,0,5,2005,1755,False
+turn3,Aurora Beam,Koffing,22.0,61.0,Water,,Poison,,3,5,2005,1755,False
+turn4,Aurora Beam,Koffing,-26.0,48.0,Water,,Poison,,3,5,2005,1755,False
+turn1,Supersonic,Weezing,-44.0,125,Water,,Poison,,0,0,2005,3005,False
+turn1,Aurora Beam,Rhyhorn,59.0,125.0,Water,,Ground,Rock,0,0,2005,1255,True
+turn2,Aurora Beam,Rhyhorn,27.0,65.0,Water,,Ground,Rock,0,5,2005,1255,True
+turn3,Aurora Beam,Rhyhorn,27.0,8.0,Water,,Ground,Rock,0,5,2005,1255,True
+turn4,Aurora Beam,Rhyhorn,27.0,-38.0,Water,,Ground,Rock,0,5,2005,1255,True
+turn1,Aurora Beam,Rhydon,41.0,141.0,Water,,Ground,Rock,0,0,2005,2005,False
+turn2,Aurora Beam,Rhydon,41.0,95.0,Water,,Ground,Rock,0,5,2005,2005,False
+turn3,Aurora Beam,Rhydon,-5.0,72.0,Water,,Ground,Rock,0,5,2005,2005,False
+turn1,Aurora Beam,Chansey,85.0,310,Water,,Normal,,0,0,2005,2505,True
+turn2,Aurora Beam,Chansey,80.0,304.0,Water,,Normal,,0,5,2005,2505,True
+turn3,Aurora Beam,Chansey,75.0,298.0,Water,,Normal,,0,5,2005,2505,True
+turn4,Aurora Beam,Chansey,75.0,265.0,Water,,Normal,,0,5,2005,2505,True
+turn5,Aurora Beam,Chansey,70.0,259.0,Water,,Normal,,0,5,2005,2505,True
+turn6,Aurora Beam,Chansey,70.0,228.0,Water,,Normal,,0,5,2005,2505,True
+turn7,Aurora Beam,Chansey,65.0,222.0,Water,,Normal,,0,5,2005,2505,True
+turn8,Aurora Beam,Chansey,60.0,216.0,Water,,Normal,,0,5,2005,2505,True
+turn9,Aurora Beam,Chansey,54.0,210.0,Water,,Normal,,0,5,2005,2505,True
+turn10,Aurora Beam,Chansey,54.0,177.0,Water,,Normal,,0,5,2005,2505,True
+turn11,Aurora Beam,Chansey,54.0,143.0,Water,,Normal,,0,5,2005,2505,True
+turn12,Aurora Beam,Chansey,54.0,111.0,Water,,Normal,,0,5,2005,2505,True
+turn13,Aurora Beam,Chansey,49.0,105.0,Water,,Normal,,0,5,2005,2505,True
+turn14,Aurora Beam,Chansey,44.0,98.0,Water,,Normal,,0,5,2005,2505,True
+turn15,Aurora Beam,Chansey,44.0,63.0,Water,,Normal,,0,5,2005,2505,True
+turn16,Aurora Beam,Chansey,44.0,31.0,Water,,Normal,,0,5,2005,2505,True
+turn17,Aurora Beam,Chansey,44.0,-3.0,Water,,Normal,,0,5,2005,2505,True
+turn1,Aurora Beam,Tangela,95,91.0,Water,,Grass,,0,0,2005,3005,True
+turn2,Aurora Beam,Tangela,83.0,53.0,Water,,Grass,,7,0,2005,3005,True
+turn3,Aurora Beam,Tangela,71.0,19.0,Water,,Grass,,7,0,2005,3005,True
+turn4,Aurora Beam,Tangela,54.0,-13.0,Water,,Grass,,7,0,2005,3005,True
+turn1,Aurora Beam,Kangaskhan,51.0,165,Water,,Normal,,0,0,2005,4505,False
+turn2,Aurora Beam,Kangaskhan,10.0,157.0,Water,,Normal,,0,5,2005,4505,False
+turn3,Aurora Beam,Kangaskhan,10.0,119.0,Water,,Normal,,0,5,2005,4505,False
+turn4,Aurora Beam,Kangaskhan,10.0,82.0,Water,,Normal,,0,5,2005,4505,False
+turn5,Aurora Beam,Kangaskhan,-31.0,82.0,Water,,Normal,,0,5,2005,4505,False
+turn1,Aurora Beam,Horsea,74.0,90,Water,,Water,,0,0,2005,3005,True
+turn2,Aurora Beam,Horsea,56.0,78.0,Water,,Water,,0,5,2005,3005,True
+turn3,Aurora Beam,Horsea,38.0,66.0,Water,,Water,,0,5,2005,3005,True
+turn4,Aurora Beam,Horsea,38.0,44.0,Water,,Water,,0,5,2005,3005,True
+turn5,Aurora Beam,Horsea,21.0,31.0,Water,,Water,,0,5,2005,3005,True
+turn6,Aurora Beam,Horsea,21.0,10.0,Water,,Water,,0,5,2005,3005,True
+turn7,Aurora Beam,Horsea,4.0,-2.0,Water,,Water,,0,5,2005,3005,True
+turn1,Aurora Beam,Seadra,23.0,115,Water,,Water,,0,0,2005,4255,False
+turn2,Aurora Beam,Seadra,-42.0,115,Water,,Water,,0,5,2005,4255,False
+turn1,Aurora Beam,Goldeen,71.0,105,Water,,Water,,0,0,2005,3155,True
+turn2,Aurora Beam,Goldeen,51.0,99.0,Water,,Water,,0,5,2005,3155,True
+turn3,Aurora Beam,Goldeen,51.0,72.0,Water,,Water,,0,5,2005,3155,True
+turn4,Aurora Beam,Goldeen,51.0,47.0,Water,,Water,,0,5,2005,3155,True
+turn5,Aurora Beam,Goldeen,51.0,20.0,Water,,Water,,0,5,2005,3155,True
+turn6,Aurora Beam,Goldeen,51.0,-6.0,Water,,Water,,0,5,2005,3155,True
+turn1,Aurora Beam,Seaking,90,140,Water,,Water,,0,0,2005,3405,True
+turn2,Aurora Beam,Seaking,90,113.0,Water,,Water,,0,5,2005,3405,True
+turn3,Aurora Beam,Seaking,90,109.0,Water,,Water,,0,5,2005,3405,True
+turn4,Aurora Beam,Seaking,90,106.0,Water,,Water,,0,5,2005,3405,True
+turn5,Aurora Beam,Seaking,90,102.0,Water,,Water,,0,5,2005,3405,True
+turn6,Aurora Beam,Seaking,90,99.0,Water,,Water,,0,5,2005,3405,True
+turn7,Aurora Beam,Seaking,90,70.0,Water,,Water,,0,5,2005,3405,True
+turn8,Aurora Beam,Seaking,90,43.0,Water,,Water,,0,5,2005,3405,True
+turn9,Aurora Beam,Seaking,90,18.0,Water,,Water,,0,5,2005,3405,True
+turn10,Aurora Beam,Seaking,90,-8.0,Water,,Water,,0,5,2005,3405,True
+turn1,Aurora Beam,Staryu,90,90,Water,,Water,,0,0,2005,4255,False
+turn2,Aurora Beam,Staryu,90,70.0,Water,,Water,,5,5,2005,4255,False
+turn3,Aurora Beam,Staryu,23.0,64.0,Water,,Water,,5,5,2005,4255,False
+turn4,Aurora Beam,Staryu,-42.0,64.0,Water,,Water,,5,5,2005,4255,False
+turn1,Aurora Beam,Starmie,23.0,120,Water,,Water,Psychic,0,0,2005,5755,False
+turn2,Aurora Beam,Starmie,-43.0,120,Water,,Water,Psychic,0,5,2005,5755,False
+turn1,Aurora Beam,Mr. Mime,55.0,100,Water,,Psychic,Normal,0,0,2005,4505,True
+turn2,Aurora Beam,Mr. Mime,55.0,70.0,Water,,Psychic,Normal,0,5,2005,4505,True
+turn3,Aurora Beam,Mr. Mime,37.0,59.0,Water,,Psychic,Normal,0,5,2005,4505,True
+turn4,Aurora Beam,Mr. Mime,37.0,28.0,Water,,Psychic,Normal,0,5,2005,4505,True
+turn5,Aurora Beam,Mr. Mime,37.0,-4.0,Water,,Psychic,Normal,0,5,2005,4505,True
+turn1,Aurora Beam,Scyther,49.0,96.0,Water,,Bug,Flying,0,0,2005,5255,False
+turn2,Aurora Beam,Scyther,7.0,64.0,Water,,Bug,Flying,0,0,2005,5255,False
+turn3,Aurora Beam,Scyther,-37.0,64.0,Water,,Bug,Flying,0,0,2005,5255,False
+turn1,Supersonic,Jynx,84.0,125,Water,,Ice,Psychic,0,0,2005,4755,False
+turn2,Supersonic,Jynx,78.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn3,Supersonic,Jynx,72.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn4,Supersonic,Jynx,66.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn5,Supersonic,Jynx,60.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn6,Supersonic,Jynx,54.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn7,Supersonic,Jynx,49.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn8,Supersonic,Jynx,43.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn9,Supersonic,Jynx,37.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn10,Supersonic,Jynx,31.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn11,Supersonic,Jynx,25.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn12,Supersonic,Jynx,19.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn13,Supersonic,Jynx,13.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn14,Supersonic,Jynx,7.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn15,Supersonic,Jynx,1.0,125,Water,,Ice,Psychic,6,0,2005,4755,False
+turn16,Supersonic,Jynx,-5.0,125,Water,,Ice,Psychic,0,0,2005,4755,False
+turn1,Aurora Beam,Electabuzz,52.0,125,Water,,Electric,,0,0,2005,5255,False
+turn2,Aurora Beam,Electabuzz,10.0,125,Water,,Electric,,0,5,2005,5255,False
+turn3,Aurora Beam,Electabuzz,-31.0,125,Water,,Electric,,4,5,2005,5255,False
+turn1,Aurora Beam,Magmar,32.0,125,Water,,Fire,,0,0,2005,4655,False
+turn2,Aurora Beam,Magmar,-19.0,125,Water,,Fire,,0,5,2005,4655,False
+turn1,Supersonic,Pinsir,-65445,125,Water,,Bug,,0,0,2005,4255,False
+turn1,Aurora Beam,Tauros,29.0,107.0,Water,,Normal,,0,0,2005,5505,False
+turn2,Aurora Beam,Tauros,-29.0,78.0,Water,,Normal,,0,5,2005,5505,False
+turn1,Aurora Beam,Magikarp,90,80,Water,,Water,,0,0,2005,4005,True
+turn2,Aurora Beam,Magikarp,90,65.0,Water,,Water,,0,5,2005,4005,True
+turn3,Aurora Beam,Magikarp,90,46.0,Water,,Water,,0,5,2005,4005,True
+turn4,Aurora Beam,Magikarp,90,26.0,Water,,Water,,0,5,2005,4005,True
+turn5,Aurora Beam,Magikarp,90,7.0,Water,,Water,,0,5,2005,4005,True
+turn6,Aurora Beam,Magikarp,90,-8.0,Water,,Water,,0,5,2005,4005,True
+turn1,Aurora Beam,Gyarados,51.0,142.0,Water,,Water,Flying,0,0,2005,4055,False
+turn2,Aurora Beam,Gyarados,10.0,128.0,Water,,Water,Flying,0,0,2005,4055,False
+turn3,Aurora Beam,Gyarados,-30.0,128.0,Water,,Water,Flying,0,0,2005,4055,False
+turn1,Supersonic,Lapras,37.0,190,Water,,Water,Ice,0,0,2005,3005,False
+turn2,Supersonic,Lapras,-24.0,190,Water,,Water,Ice,6,0,2005,3005,False
+turn1,Aurora Beam,Ditto,90,108,Water,,Normal,,0,0,2005,2405,True
+turn2,Aurora Beam,Ditto,90,67.0,Water,,Normal,,0,5,2005,2405,True
+turn3,Aurora Beam,Ditto,90,54.0,Water,,Normal,,0,5,2005,2405,True
+turn4,Aurora Beam,Ditto,90,14.0,Water,,Normal,,0,5,2005,2405,True
+turn5,Aurora Beam,Ditto,90,0.0,Water,,Normal,,0,5,2005,2405,True
+turn1,Aurora Beam,Eevee,69.0,115,Water,,Normal,,0,0,2005,2755,False
+turn2,Aurora Beam,Eevee,47.0,106.0,Water,,Normal,,0,5,2005,2755,False
+turn3,Aurora Beam,Eevee,47.0,66.0,Water,,Normal,,0,5,2005,2755,False
+turn4,Aurora Beam,Eevee,47.0,27.0,Water,,Normal,,0,5,2005,2755,False
+turn5,Aurora Beam,Eevee,26.0,17.0,Water,,Normal,,0,5,2005,2755,False
+turn6,Aurora Beam,Eevee,2.0,7.0,Water,,Normal,,0,5,2005,2755,False
+turn7,Aurora Beam,Eevee,-19.0,7.0,Water,,Normal,,0,5,2005,2755,False
+turn1,Aurora Beam,Vaporeon,33.0,190,Water,,Water,,0,0,2005,3255,False
+turn2,Aurora Beam,Vaporeon,33.0,168.0,Water,,Water,,0,5,2005,3255,False
+turn3,Aurora Beam,Vaporeon,33.0,145.0,Water,,Water,,0,5,2005,3255,False
+turn4,Aurora Beam,Vaporeon,-31.0,145.0,Water,,Water,,0,5,2005,3255,False
+turn1,Supersonic,Jolteon,-11.0,125,Water,,Electric,,0,0,2005,6505,False
+turn1,Aurora Beam,Flareon,29.0,125,Water,,Fire,,0,0,2005,3255,False
+turn2,Aurora Beam,Flareon,-37.0,125,Water,,Fire,,0,5,2005,3255,False
+turn1,Supersonic,Porygon,-71.0,125,Water,,Normal,,0,0,2005,2005,False
+turn1,Aurora Beam,Omanyte,90,91.0,Water,,Rock,Water,0,0,2005,1755,True
+turn2,Aurora Beam,Omanyte,78.0,81.0,Water,,Rock,Water,0,5,2005,1755,True
+turn3,Aurora Beam,Omanyte,67.0,70.0,Water,,Rock,Water,0,5,2005,1755,True
+turn4,Aurora Beam,Omanyte,67.0,55.0,Water,,Rock,Water,0,5,2005,1755,True
+turn5,Aurora Beam,Omanyte,54.0,44.0,Water,,Rock,Water,0,5,2005,1755,True
+turn6,Aurora Beam,Omanyte,54.0,29.0,Water,,Rock,Water,0,5,2005,1755,True
+turn7,Aurora Beam,Omanyte,42.0,18.0,Water,,Rock,Water,0,5,2005,1755,True
+turn8,Aurora Beam,Omanyte,42.0,3.0,Water,,Rock,Water,0,5,2005,1755,True
+turn9,Aurora Beam,Omanyte,42.0,-9.0,Water,,Rock,Water,0,5,2005,1755,True
+turn1,Aurora Beam,Omastar,73.0,130,Water,,Rock,Water,0,0,2005,2755,False
+turn2,Aurora Beam,Omastar,73.0,117.0,Water,,Rock,Water,0,5,2005,2755,False
+turn3,Aurora Beam,Omastar,73.0,103.0,Water,,Rock,Water,0,5,2005,2755,False
+turn4,Aurora Beam,Omastar,57.0,94.0,Water,,Rock,Water,0,5,2005,2755,False
+turn5,Aurora Beam,Omastar,40.0,85.0,Water,,Rock,Water,0,5,2005,2755,False
+turn6,Aurora Beam,Omastar,40.0,72.0,Water,,Rock,Water,0,5,2005,2755,False
+turn7,Aurora Beam,Omastar,24.0,62.0,Water,,Rock,Water,0,5,2005,2755,False
+turn8,Aurora Beam,Omastar,6.0,53.0,Water,,Rock,Water,0,5,2005,2755,False
+turn9,Aurora Beam,Omastar,-10.0,53.0,Water,,Rock,Water,0,5,2005,2755,False
+turn1,Aurora Beam,Kabuto,66.0,90,Water,,Rock,Water,0,0,2005,2755,False
+turn2,Aurora Beam,Kabuto,43.0,77.0,Water,,Rock,Water,0,5,2005,2755,False
+turn3,Aurora Beam,Kabuto,18.0,62.0,Water,,Rock,Water,0,5,2005,2755,False
+turn4,Aurora Beam,Kabuto,18.0,41.0,Water,,Rock,Water,0,5,2005,2755,False
+turn5,Aurora Beam,Kabuto,-5.0,41.0,Water,,Rock,Water,0,5,2005,2755,False
+turn1,Aurora Beam,Kabutops,57.0,120,Water,,Rock,Water,0,0,2005,4005,False
+turn2,Aurora Beam,Kabutops,57.0,102.0,Water,,Rock,Water,0,5,2005,4005,False
+turn3,Aurora Beam,Kabutops,57.0,85.0,Water,,Rock,Water,0,5,2005,4005,False
+turn4,Aurora Beam,Kabutops,57.0,67.0,Water,,Rock,Water,0,5,2005,4005,False
+turn5,Aurora Beam,Kabutops,23.0,58.0,Water,,Rock,Water,0,5,2005,4005,False
+turn6,Aurora Beam,Kabutops,-10.0,58.0,Water,,Rock,Water,0,5,2005,4005,False
+turn1,Aurora Beam,Aerodactyl,52.0,107.0,Water,,Rock,Flying,0,0,2005,6505,False
+turn2,Aurora Beam,Aerodactyl,12.0,71.0,Water,,Rock,Flying,0,0,2005,6505,False
+turn3,Aurora Beam,Aerodactyl,-30.0,71.0,Water,,Rock,Flying,0,0,2005,6505,False
+turn1,Aurora Beam,Snorlax,3.0,220,Water,,Normal,,0,0,2005,1505,False
+turn2,Aurora Beam,Snorlax,3.0,172.0,Water,,Normal,,0,5,2005,1505,False
+turn3,Aurora Beam,Snorlax,3.0,125.0,Water,,Normal,,0,5,2005,1505,False
+turn4,Aurora Beam,Snorlax,-84.0,119.0,Water,,Normal,,0,5,2005,1505,False
+turn1,Aurora Beam,Articuno,28.0,140.0,Water,,Ice,Flying,0,0,2005,4255,False
+turn2,Aurora Beam,Articuno,-36.0,140.0,Water,,Ice,Flying,0,0,2005,4255,False
+turn1,Aurora Beam,Zapdos,-229.0,150,Water,,Electric,Flying,0,0,2005,5005,False
+turn1,Aurora Beam,Moltres,-3.0,150,Water,,Fire,Flying,0,0,2005,4505,False
+turn1,Aurora Beam,Dratini,68.0,101,Water,,Dragon,,0,0,2005,2505,False
+turn2,Aurora Beam,Dratini,47.0,95.0,Water,,Dragon,,0,5,2005,2505,False
+turn3,Aurora Beam,Dratini,47.0,64.0,Water,,Dragon,,0,5,2005,2505,False
+turn4,Aurora Beam,Dratini,24.0,58.0,Water,,Dragon,,0,5,2005,2505,False
+turn5,Aurora Beam,Dratini,0.0,58.0,Water,,Dragon,,0,5,2005,2505,False
+turn1,Aurora Beam,Dragonair,50,121,Water,,Dragon,,0,0,2005,3505,False
+turn2,Aurora Beam,Dragonair,50,96.0,Water,,Dragon,,0,5,2005,3505,False
+turn3,Aurora Beam,Dragonair,10,92.0,Water,,Dragon,,0,5,2005,3505,False
+turn4,Aurora Beam,Dragonair,-30,92.0,Water,,Dragon,,0,5,2005,3505,False
+turn1,Aurora Beam,Dragonite,50,139.0,Water,,Dragon,Flying,0,0,2005,4005,False
+turn2,Aurora Beam,Dragonite,10,126.0,Water,,Dragon,Flying,0,0,2005,4005,False
+turn3,Aurora Beam,Dragonite,-30,126.0,Water,,Dragon,Flying,0,0,2005,4005,False
+turn1,Supersonic,Mewtwo,90,166,Water,,Psychic,,0,0,2005,6505,False
+turn2,Supersonic,Mewtwo,-113.0,166,Water,,Psychic,,1,0,2005,6505,False
+turn1,Supersonic,Mew,-130.0,160,Water,,Psychic,,0,0,2005,5005,False

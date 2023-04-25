@@ -1,0 +1,474 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Blizzard,Bulbasaur,150,-52.0,Water,Ice,Grass,Poison,0,0,3505,2255,True
+turn1,Blizzard,Ivysaur,150,-5.0,Water,Ice,Grass,Poison,0,0,3505,3005,True
+turn1,Blizzard,Venusaur,3.0,35.0,Water,Ice,Grass,Poison,0,0,3505,4005,False
+turn2,Blizzard,Venusaur,-153.0,35.0,Water,Ice,Grass,Poison,0,0,3505,4005,False
+turn1,Hydro Pump,Charmander,111.0,5.0,Water,Ice,Fire,,0,0,3505,3255,True
+turn2,Hydro Pump,Charmander,111.0,-98.0,Water,Ice,Fire,,0,0,3505,3255,True
+turn1,Hydro Pump,Charmeleon,102.0,39.0,Water,Ice,Fire,,0,0,3505,4005,True
+turn2,Hydro Pump,Charmeleon,55.0,-37.0,Water,Ice,Fire,,0,0,3505,4005,True
+turn1,Blizzard,Charizard,81.0,24.0,Water,Ice,Fire,Flying,0,0,3505,5005,True
+turn2,Blizzard,Charizard,21.0,-84.0,Water,Ice,Fire,Flying,0,0,3505,5005,True
+turn1,Blizzard,Squirtle,114.0,87.0,Water,Ice,Water,,0,0,3505,2155,True
+turn2,Blizzard,Squirtle,81.0,67.0,Water,Ice,Water,,0,0,3505,2155,True
+turn3,Blizzard,Squirtle,48.0,49.0,Water,Ice,Water,,0,0,3505,2155,True
+turn4,Blizzard,Squirtle,48.0,30.0,Water,Ice,Water,,0,0,3505,2155,True
+turn5,Blizzard,Squirtle,15.0,10.0,Water,Ice,Water,,0,0,3505,2155,True
+turn6,Blizzard,Squirtle,15.0,-9.0,Water,Ice,Water,,0,0,3505,2155,True
+turn1,Blizzard,Wartortle,107.0,103.0,Water,Ice,Water,,0,0,3505,2905,True
+turn2,Blizzard,Wartortle,64.0,89.0,Water,Ice,Water,,0,0,3505,2905,True
+turn3,Blizzard,Wartortle,64.0,74.0,Water,Ice,Water,,0,0,3505,2905,True
+turn4,Blizzard,Wartortle,64.0,59.0,Water,Ice,Water,,0,6,3505,2905,True
+turn5,Blizzard,Wartortle,64.0,44.0,Water,Ice,Water,,0,6,3505,2905,True
+turn6,Blizzard,Wartortle,64.0,28.0,Water,Ice,Water,,0,6,3505,2905,True
+turn7,Blizzard,Wartortle,64.0,13.0,Water,Ice,Water,,0,6,3505,2905,True
+turn8,Blizzard,Wartortle,64.0,-1.0,Water,Ice,Water,,0,6,3505,2905,True
+turn1,Blizzard,Blastoise,92.0,128.0,Water,Ice,Water,,0,0,3505,3905,False
+turn2,Blizzard,Blastoise,40.0,117.0,Water,Ice,Water,,0,0,3505,3905,False
+turn3,Blizzard,Blastoise,-17.0,117.0,Water,Ice,Water,,0,0,3505,3905,False
+turn1,Blizzard,Caterpie,150,-7.0,Water,Ice,Bug,,0,0,3505,2255,True
+turn1,Blizzard,Metapod,144.0,17.0,Water,Ice,Bug,,0,0,3505,1505,True
+turn2,Blizzard,Metapod,144.0,-74.0,Water,Ice,Bug,,0,0,3505,1505,True
+turn1,Blizzard,Butterfree,150,120,Water,Ice,Bug,Flying,0,0,3505,3505,False
+turn2,Blizzard,Butterfree,123.0,120,Water,Ice,Bug,Flying,1,0,3505,3505,False
+turn3,Blizzard,Butterfree,123.0,120,Water,Ice,Bug,Flying,0,0,3505,3505,False
+turn4,Blizzard,Butterfree,98.0,120,Water,Ice,Bug,Flying,1,0,3505,3505,False
+turn5,Blizzard,Butterfree,70.0,120,Water,Ice,Bug,Flying,1,0,3505,3505,False
+turn6,Blizzard,Butterfree,46.0,120,Water,Ice,Bug,Flying,1,0,3505,3505,False
+turn7,Blizzard,Butterfree,46.0,120,Water,Ice,Bug,Flying,0,0,3505,3505,False
+turn8,Blizzard,Butterfree,21.0,120,Water,Ice,Bug,Flying,1,0,3505,3505,False
+turn9,Blizzard,Butterfree,-5.0,120,Water,Ice,Bug,Flying,1,0,3505,3505,False
+turn1,Blizzard,Weedle,150,-134.0,Water,Ice,Bug,Poison,0,0,3505,2505,True
+turn1,Blizzard,Kakuna,150,-92.0,Water,Ice,Bug,Poison,0,0,3505,1755,True
+turn1,Blizzard,Beedrill,78.0,67.0,Water,Ice,Bug,Poison,0,0,3505,3755,False
+turn2,Blizzard,Beedrill,40.0,7.0,Water,Ice,Bug,Poison,0,0,3505,3755,False
+turn3,Blizzard,Beedrill,-55.0,7.0,Water,Ice,Bug,Poison,0,0,3505,3755,False
+turn1,Blizzard,Pidgey,150,-163.0,Water,Ice,Normal,Flying,0,0,3505,2805,True
+turn1,Blizzard,Pidgeotto,119.0,-77.0,Water,Ice,Normal,Flying,0,0,3505,3555,True
+turn1,Blizzard,Pidgeot,110.0,1.0,Water,Ice,Normal,Flying,0,0,3505,5055,True
+turn2,Blizzard,Pidgeot,74.0,-143.0,Water,Ice,Normal,Flying,0,0,3505,5055,True
+turn1,Blizzard,Rattata,116.0,25.0,Water,Ice,Normal,,0,0,3505,3605,True
+turn2,Blizzard,Rattata,81.0,-47.0,Water,Ice,Normal,,0,0,3505,3605,True
+turn1,Blizzard,Raticate,101.0,82.0,Water,Ice,Normal,,0,0,3505,4855,False
+turn2,Blizzard,Raticate,45.0,50.0,Water,Ice,Normal,,0,0,3505,4855,False
+turn3,Blizzard,Raticate,-8.0,50.0,Water,Ice,Normal,,0,0,3505,4855,False
+turn1,Blizzard,Spearow,108.0,-226.0,Water,Ice,Normal,Flying,0,0,3505,3505,True
+turn1,Blizzard,Fearow,90.0,-27.0,Water,Ice,Normal,Flying,0,0,3505,5005,True
+turn1,Blizzard,Ekans,129.0,51.0,Water,Ice,Poison,,0,0,3505,2755,True
+turn2,Blizzard,Ekans,108.0,3.0,Water,Ice,Poison,,0,0,3505,2755,True
+turn3,Blizzard,Ekans,108.0,-41.0,Water,Ice,Poison,,0,0,3505,2755,True
+turn1,Blizzard,Arbok,121.0,91.0,Water,Ice,Poison,,0,0,3505,4005,True
+turn2,Blizzard,Arbok,94.0,61.0,Water,Ice,Poison,,0,0,3505,4005,True
+turn3,Blizzard,Arbok,65.0,28.0,Water,Ice,Poison,,0,0,3505,4005,True
+turn4,Blizzard,Arbok,38.0,-4.0,Water,Ice,Poison,,0,0,3505,4005,True
+turn1,Blizzard,Pikachu,71.0,45.0,Water,Ice,Electric,,0,0,3505,4505,False
+turn2,Blizzard,Pikachu,-6.0,45.0,Water,Ice,Electric,,0,0,3505,4505,False
+turn1,Blizzard,Raichu,26.0,92.0,Water,Ice,Electric,,0,0,3505,5505,False
+turn2,Blizzard,Raichu,-98.0,92.0,Water,Ice,Electric,,0,0,3505,5505,False
+turn1,Hydro Pump,Sandshrew,150,-47.0,Water,Ice,Ground,,0,0,3505,2005,True
+turn1,Hydro Pump,Sandslash,112.0,40.0,Water,Ice,Ground,,0,0,3505,3255,True
+turn2,Hydro Pump,Sandslash,112.0,-43.0,Water,Ice,Ground,,0,0,3505,3255,True
+turn1,Blizzard,Nidoran♀,118.0,54.0,Water,Ice,Poison,,0,0,3505,2055,True
+turn2,Blizzard,Nidoran♀,118.0,-4.0,Water,Ice,Poison,,0,0,3505,2055,True
+turn1,Blizzard,Nidorina,104.0,88.0,Water,Ice,Poison,,0,0,3505,2805,True
+turn2,Blizzard,Nidorina,62.0,45.0,Water,Ice,Poison,,0,0,3505,2805,True
+turn3,Blizzard,Nidorina,62.0,0.0,Water,Ice,Poison,,0,0,3505,2805,True
+turn1,Hydro Pump,Nidoqueen,108.0,28.0,Water,Ice,Poison,Ground,0,0,3505,3805,True
+turn2,Hydro Pump,Nidoqueen,63.0,-94.0,Water,Ice,Poison,Ground,0,0,3505,3805,True
+turn1,Blizzard,Nidoran♂,108.0,48.0,Water,Ice,Poison,,0,0,3505,2505,True
+turn2,Blizzard,Nidoran♂,108.0,-8.0,Water,Ice,Poison,,0,0,3505,2505,True
+turn1,Blizzard,Nidorino,150,78.0,Water,Ice,Poison,,0,0,3505,3255,True
+turn2,Blizzard,Nidorino,150,37.0,Water,Ice,Poison,,0,6,3505,3255,True
+turn3,Blizzard,Nidorino,150,-4.0,Water,Ice,Poison,,0,0,3505,3255,True
+turn1,Hydro Pump,Nidoking,85.0,15.0,Water,Ice,Poison,Ground,0,0,3505,4255,True
+turn2,Hydro Pump,Nidoking,20.0,-119.0,Water,Ice,Poison,Ground,0,0,3505,4255,True
+turn1,Blizzard,Clefairy,129.0,95.0,Water,Ice,Normal,,0,0,3505,1755,True
+turn2,Blizzard,Clefairy,108.0,58.0,Water,Ice,Normal,,0,0,3505,1755,True
+turn3,Blizzard,Clefairy,108.0,24.0,Water,Ice,Normal,,0,0,3505,1755,True
+turn4,Blizzard,Clefairy,108.0,-11.0,Water,Ice,Normal,,0,6,3505,1755,True
+turn1,Blizzard,Clefable,150,128.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn2,Blizzard,Clefable,150,102.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn3,Blizzard,Clefable,150,74.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn4,Blizzard,Clefable,130.0,74.0,Water,Ice,Normal,,1,0,3505,3005,True
+turn5,Blizzard,Clefable,130.0,45.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn6,Blizzard,Clefable,130.0,17.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn7,Blizzard,Clefable,97.0,17.0,Water,Ice,Normal,,1,0,3505,3005,True
+turn8,Blizzard,Clefable,75.0,17.0,Water,Ice,Normal,,1,0,3505,3005,True
+turn9,Blizzard,Clefable,75.0,-10.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn1,Hydro Pump,Vulpix,120.0,28.0,Water,Ice,Fire,,0,0,3505,3255,True
+turn2,Hydro Pump,Vulpix,120.0,-46.0,Water,Ice,Fire,,0,0,3505,3255,True
+turn1,Hydro Pump,Ninetales,128.0,84.0,Water,Ice,Fire,,0,0,3505,5005,True
+turn2,Hydro Pump,Ninetales,104.0,33.0,Water,Ice,Fire,,0,0,3505,5005,True
+turn3,Hydro Pump,Ninetales,79.0,-13.0,Water,Ice,Fire,,0,0,3505,5005,True
+turn1,Blizzard,Jigglypuff,150,86.0,Water,Ice,Normal,,0,0,3505,1005,True
+turn2,Blizzard,Jigglypuff,150,-4.0,Water,Ice,Normal,,0,6,3505,1005,True
+turn1,Blizzard,Wigglytuff,150,154.0,Water,Ice,Normal,,0,0,3505,2255,False
+turn2,Blizzard,Wigglytuff,128.0,154.0,Water,Ice,Normal,,1,0,3505,2255,False
+turn3,Blizzard,Wigglytuff,98.0,108.0,Water,Ice,Normal,,0,0,3505,2255,False
+turn4,Blizzard,Wigglytuff,98.0,60.0,Water,Ice,Normal,,0,0,3505,2255,False
+turn5,Blizzard,Wigglytuff,65.0,60.0,Water,Ice,Normal,,1,0,3505,2255,False
+turn6,Blizzard,Wigglytuff,32.0,60.0,Water,Ice,Normal,,1,0,3505,2255,False
+turn7,Blizzard,Wigglytuff,32.0,8.0,Water,Ice,Normal,,0,0,3505,2255,False
+turn8,Blizzard,Wigglytuff,-18.0,8.0,Water,Ice,Normal,,1,0,3505,2255,False
+turn1,Blizzard,Zubat,150,-121.0,Water,Ice,Poison,Flying,0,0,3505,2755,True
+turn1,Blizzard,Golbat,109.0,7.0,Water,Ice,Poison,Flying,0,0,3505,4505,True
+turn2,Blizzard,Golbat,71.0,-121.0,Water,Ice,Poison,Flying,0,0,3505,4505,True
+turn1,Blizzard,Oddish,150,-41.0,Water,Ice,Grass,Poison,0,0,3505,1505,True
+turn1,Blizzard,Gloom,150,-18.0,Water,Ice,Grass,Poison,0,0,3505,2005,True
+turn1,Blizzard,Vileplume,150,22.0,Water,Ice,Grass,Poison,0,0,3505,2505,True
+turn2,Blizzard,Vileplume,92.0,51.0,Water,Ice,Grass,Poison,1,0,3505,2505,True
+turn3,Blizzard,Vileplume,92.0,-58.0,Water,Ice,Grass,Poison,0,0,3505,2505,True
+turn1,Blizzard,Paras,150,-78.0,Water,Ice,Bug,Grass,0,0,3505,1255,True
+turn1,Blizzard,Parasect,150,-5.0,Water,Ice,Bug,Grass,0,0,3505,1505,True
+turn1,Blizzard,Venonat,150,39.0,Water,Ice,Bug,Poison,0,0,3505,2255,True
+turn2,Blizzard,Venonat,135.0,39.0,Water,Ice,Bug,Poison,1,0,3505,2255,True
+turn3,Blizzard,Venonat,135.0,-54.0,Water,Ice,Bug,Poison,0,0,3505,2255,True
+turn1,Blizzard,Venomoth,150,130,Water,Ice,Bug,Poison,0,0,3505,4505,False
+turn2,Blizzard,Venomoth,114.0,130,Water,Ice,Bug,Poison,1,0,3505,4505,False
+turn3,Blizzard,Venomoth,114.0,130,Water,Ice,Bug,Poison,0,0,3505,4505,False
+turn4,Blizzard,Venomoth,76.0,130,Water,Ice,Bug,Poison,1,0,3505,4505,False
+turn5,Blizzard,Venomoth,38.0,130,Water,Ice,Bug,Poison,1,0,3505,4505,False
+turn6,Blizzard,Venomoth,38.0,130,Water,Ice,Bug,Poison,0,0,3505,4505,False
+turn7,Blizzard,Venomoth,1.0,130,Water,Ice,Bug,Poison,1,0,3505,4505,False
+turn8,Blizzard,Venomoth,1.0,130,Water,Ice,Bug,Poison,0,0,3505,4505,False
+turn9,Blizzard,Venomoth,-36.0,130,Water,Ice,Bug,Poison,1,0,3505,4505,False
+turn1,Hydro Pump,Diglett,105.0,-34.0,Water,Ice,Ground,,0,0,3505,4755,True
+turn1,Hydro Pump,Dugtrio,91.0,23.0,Water,Ice,Ground,,0,0,3505,6005,True
+turn2,Hydro Pump,Dugtrio,31.0,-52.0,Water,Ice,Ground,,0,0,3505,6005,True
+turn1,Blizzard,Meowth,128.0,40.0,Water,Ice,Normal,,0,0,3505,4505,True
+turn2,Blizzard,Meowth,104.0,-24.0,Water,Ice,Normal,,0,0,3505,4505,True
+turn1,Blizzard,Persian,113.0,89.0,Water,Ice,Normal,,0,0,3505,5755,False
+turn2,Blizzard,Persian,75.0,53.0,Water,Ice,Normal,,0,0,3505,5755,False
+turn3,Blizzard,Persian,33.0,18.0,Water,Ice,Normal,,0,0,3505,5755,False
+turn4,Blizzard,Persian,-9.0,18.0,Water,Ice,Normal,,0,0,3505,5755,False
+turn1,Blizzard,Psyduck,142.0,86.0,Water,Ice,Water,,0,0,3505,2755,True
+turn2,Blizzard,Psyduck,132.0,63.0,Water,Ice,Water,,0,0,3505,2755,True
+turn3,Blizzard,Psyduck,123.0,40.0,Water,Ice,Water,,0,0,3505,2755,True
+turn4,Blizzard,Psyduck,113.0,17.0,Water,Ice,Water,,0,0,3505,2755,True
+turn5,Blizzard,Psyduck,113.0,-7.0,Water,Ice,Water,,0,0,3505,2755,True
+turn1,Blizzard,Golduck,109.0,124.0,Water,Ice,Water,,0,0,3505,4255,False
+turn2,Blizzard,Golduck,71.0,109.0,Water,Ice,Water,,0,0,3505,4255,False
+turn3,Blizzard,Golduck,32.0,95.0,Water,Ice,Water,,0,0,3505,4255,False
+turn4,Blizzard,Golduck,-7.0,95.0,Water,Ice,Water,,0,0,3505,4255,False
+turn1,Blizzard,Mankey,84.0,44.0,Water,Ice,Fighting,,0,0,3505,3505,True
+turn2,Blizzard,Mankey,19.0,-8.0,Water,Ice,Fighting,,0,0,3505,3505,True
+turn1,Blizzard,Primeape,80.0,90.0,Water,Ice,Fighting,,0,0,3505,4755,False
+turn2,Blizzard,Primeape,20.0,57.0,Water,Ice,Fighting,,0,0,3505,4755,False
+turn3,Blizzard,Primeape,-50.0,57.0,Water,Ice,Fighting,,0,0,3505,4755,False
+turn1,Hydro Pump,Growlithe,119.0,0.0,Water,Ice,Fire,,0,0,3505,3005,True
+turn1,Hydro Pump,Arcanine,93.0,76.0,Water,Ice,Fire,,0,0,3505,4755,True
+turn2,Hydro Pump,Arcanine,32.0,-3.0,Water,Ice,Fire,,0,0,3505,4755,True
+turn1,Blizzard,Poliwag,150,100,Water,Ice,Water,,0,0,3505,4505,False
+turn2,Blizzard,Poliwag,128.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn3,Blizzard,Poliwag,105.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn4,Blizzard,Poliwag,83.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn5,Blizzard,Poliwag,61.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn6,Blizzard,Poliwag,36.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn7,Blizzard,Poliwag,36.0,100,Water,Ice,Water,,0,0,3505,4505,False
+turn8,Blizzard,Poliwag,13.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn9,Blizzard,Poliwag,-12.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn1,Blizzard,Poliwhirl,120.0,100.0,Water,Ice,Water,,0,0,3505,4505,False
+turn2,Blizzard,Poliwhirl,89.0,75.0,Water,Ice,Water,,4,0,3505,4505,False
+turn3,Blizzard,Poliwhirl,60.0,75.0,Water,Ice,Water,,4,0,3505,4505,False
+turn4,Blizzard,Poliwhirl,30.0,75.0,Water,Ice,Water,,4,0,3505,4505,False
+turn5,Blizzard,Poliwhirl,-1.0,75.0,Water,Ice,Water,,4,0,3505,4505,False
+turn1,Blizzard,Poliwrath,150,150,Water,Ice,Water,Fighting,0,0,3505,3505,False
+turn2,Blizzard,Poliwrath,105.0,150,Water,Ice,Water,Fighting,1,0,3505,3505,False
+turn3,Blizzard,Poliwrath,60.0,150,Water,Ice,Water,Fighting,1,0,3505,3505,False
+turn4,Blizzard,Poliwrath,60.0,150,Water,Ice,Water,Fighting,0,0,3505,3505,False
+turn5,Blizzard,Poliwrath,18.0,150,Water,Ice,Water,Fighting,1,0,3505,3505,False
+turn6,Blizzard,Poliwrath,-22.0,150,Water,Ice,Water,Fighting,1,0,3505,3505,False
+turn1,Blizzard,Abra,150,43.0,Water,Ice,Psychic,,0,0,3505,4505,True
+turn2,Blizzard,Abra,150,3.0,Water,Ice,Psychic,,0,0,3505,4505,True
+turn3,Blizzard,Abra,150,-38.0,Water,Ice,Psychic,,0,6,3505,4505,True
+turn1,Blizzard,Kadabra,102.0,67.0,Water,Ice,Psychic,,0,0,3505,5255,False
+turn2,Blizzard,Kadabra,49.0,34.0,Water,Ice,Psychic,,0,0,3505,5255,False
+turn3,Blizzard,Kadabra,0.0,34.0,Water,Ice,Psychic,,5,0,3505,5255,False
+turn1,Blizzard,Alakazam,68.0,90.0,Water,Ice,Psychic,,0,0,3505,6005,False
+turn2,Blizzard,Alakazam,-10.0,90.0,Water,Ice,Psychic,,0,0,3505,6005,False
+turn1,Blizzard,Machop,79.0,62.0,Water,Ice,Fighting,,0,0,3505,1755,True
+turn2,Blizzard,Machop,79.0,-10.0,Water,Ice,Fighting,,0,0,3505,1755,True
+turn1,Blizzard,Machoke,150,101.0,Water,Ice,Fighting,,0,0,3505,2255,True
+turn2,Blizzard,Machoke,150,63.0,Water,Ice,Fighting,,0,6,3505,2255,True
+turn3,Blizzard,Machoke,150,26.0,Water,Ice,Fighting,,0,6,3505,2255,True
+turn4,Blizzard,Machoke,150,-13.0,Water,Ice,Fighting,,0,0,3505,2255,True
+turn1,Blizzard,Machamp,40.0,121.0,Water,Ice,Fighting,,0,0,3505,2755,False
+turn2,Blizzard,Machamp,-57.0,90.0,Water,Ice,Fighting,,0,0,3505,2755,False
+turn1,Blizzard,Bellsprout,150,-207.0,Water,Ice,Grass,Poison,0,0,3505,2005,True
+turn1,Blizzard,Weepinbell,150,-86.0,Water,Ice,Grass,Poison,0,0,3505,2755,True
+turn1,Blizzard,Victreebel,59.0,6.0,Water,Ice,Grass,Poison,0,0,3505,3505,False
+turn2,Blizzard,Victreebel,-30.0,6.0,Water,Ice,Grass,Poison,0,0,3505,3505,False
+turn1,Blizzard,Tentacool,134.0,100,Water,Ice,Water,Poison,0,0,3505,3505,True
+turn2,Blizzard,Tentacool,105.0,100,Water,Ice,Water,Poison,5,0,3505,3505,True
+turn3,Blizzard,Tentacool,89.0,77.0,Water,Ice,Water,Poison,5,0,3505,3505,True
+turn4,Blizzard,Tentacool,75.0,51.0,Water,Ice,Water,Poison,5,0,3505,3505,True
+turn5,Blizzard,Tentacool,59.0,25.0,Water,Ice,Water,Poison,5,0,3505,3505,True
+turn6,Blizzard,Tentacool,29.0,25.0,Water,Ice,Water,Poison,5,0,3505,3505,True
+turn7,Blizzard,Tentacool,14.0,-1.0,Water,Ice,Water,Poison,5,0,3505,3505,True
+turn1,Blizzard,Tentacruel,141,120.0,Water,Ice,Water,Poison,0,0,3505,5005,False
+turn2,Blizzard,Tentacruel,116.0,101.0,Water,Ice,Water,Poison,3,0,3505,5005,False
+turn3,Blizzard,Tentacruel,88.0,82.0,Water,Ice,Water,Poison,3,0,3505,5005,False
+turn4,Blizzard,Tentacruel,60.0,62.0,Water,Ice,Water,Poison,3,0,3505,5005,False
+turn5,Blizzard,Tentacruel,32.0,41.0,Water,Ice,Water,Poison,3,0,3505,5005,False
+turn6,Blizzard,Tentacruel,7.0,20.0,Water,Ice,Water,Poison,3,0,3505,5005,False
+turn7,Blizzard,Tentacruel,-10.0,20.0,Water,Ice,Water,Poison,3,0,3505,5005,False
+turn1,Hydro Pump,Geodude,150,-518.0,Water,Ice,Rock,Ground,0,0,3505,1005,True
+turn1,Hydro Pump,Graveler,150,-279.0,Water,Ice,Rock,Ground,0,0,3505,1755,True
+turn1,Hydro Pump,Golem,150,-163.0,Water,Ice,Rock,Ground,0,0,3505,2255,True
+turn1,Hydro Pump,Ponyta,130.0,35.0,Water,Ice,Fire,,0,0,3505,4505,True
+turn2,Hydro Pump,Ponyta,110.0,-42.0,Water,Ice,Fire,,0,0,3505,4505,True
+turn1,Hydro Pump,Rapidash,129.0,69.0,Water,Ice,Fire,,0,0,3505,5255,True
+turn2,Hydro Pump,Rapidash,104.0,11.0,Water,Ice,Fire,,0,0,3505,5255,True
+turn3,Hydro Pump,Rapidash,82.0,-54.0,Water,Ice,Fire,,0,0,3505,5255,True
+turn1,Blizzard,Slowpoke,135.0,94.0,Water,Ice,Water,Psychic,0,0,3505,755,True
+turn2,Blizzard,Slowpoke,120.0,31.0,Water,Ice,Water,Psychic,0,0,3505,755,True
+turn3,Blizzard,Slowpoke,120.0,-33.0,Water,Ice,Water,Psychic,0,0,3505,755,True
+turn1,Blizzard,Slowbro,150,123.0,Water,Ice,Water,Psychic,0,0,3505,1505,True
+turn2,Blizzard,Slowbro,112.0,93.0,Water,Ice,Water,Psychic,0,0,3505,1505,True
+turn3,Blizzard,Slowbro,78.0,65.0,Water,Ice,Water,Psychic,0,0,3505,1505,True
+turn4,Blizzard,Slowbro,41.0,33.0,Water,Ice,Water,Psychic,0,0,3505,1505,True
+turn5,Blizzard,Slowbro,6.0,3.0,Water,Ice,Water,Psychic,0,0,3505,1505,True
+turn6,Blizzard,Slowbro,6.0,-28.0,Water,Ice,Water,Psychic,0,0,3505,1505,True
+turn1,Blizzard,Magnemite,150,41.0,Water,Ice,Electric,,0,0,3505,2255,True
+turn2,Blizzard,Magnemite,150,-4.0,Water,Ice,Electric,,0,6,3505,2255,True
+turn1,Blizzard,Magneton,9.0,73.0,Water,Ice,Electric,,0,0,3505,3505,False
+turn2,Blizzard,Magneton,-132.0,73.0,Water,Ice,Electric,,0,0,3505,3505,False
+turn1,Blizzard,Farfetch'd,150,-53.0,Water,Ice,Normal,Flying,0,0,3505,3005,True
+turn1,Blizzard,Doduo,120.0,-189.0,Water,Ice,Normal,Flying,0,0,3505,3755,True
+turn1,Blizzard,Dodrio,83.0,-36.0,Water,Ice,Normal,Flying,0,0,3505,5005,True
+turn1,Blizzard,Seel,146.0,107.0,Water,Ice,Water,,0,0,3505,2255,True
+turn2,Blizzard,Seel,142.0,91.0,Water,Ice,Water,,0,0,3505,2255,True
+turn3,Blizzard,Seel,138.0,75.0,Water,Ice,Water,,0,0,3505,2255,True
+turn4,Blizzard,Seel,134.0,57.0,Water,Ice,Water,,0,0,3505,2255,True
+turn5,Blizzard,Seel,130.0,39.0,Water,Ice,Water,,0,0,3505,2255,True
+turn6,Blizzard,Seel,126.0,21.0,Water,Ice,Water,,0,0,3505,2255,True
+turn7,Blizzard,Seel,122.0,5.0,Water,Ice,Water,,0,0,3505,2255,True
+turn8,Blizzard,Seel,122.0,-11.0,Water,Ice,Water,,0,0,3505,2255,True
+turn1,Hydro Pump,Dewgong,124.0,123.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn2,Hydro Pump,Dewgong,98.0,99.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn3,Hydro Pump,Dewgong,73.0,72.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn4,Hydro Pump,Dewgong,48.0,48.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn5,Hydro Pump,Dewgong,20.0,22.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn6,Hydro Pump,Dewgong,-5.0,22.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn1,Blizzard,Grimer,131.0,89.0,Water,Ice,Poison,,0,0,3505,1255,True
+turn2,Blizzard,Grimer,110.0,41.0,Water,Ice,Poison,,0,0,3505,1255,True
+turn3,Blizzard,Grimer,110.0,-5.0,Water,Ice,Poison,,0,0,3505,1255,True
+turn1,Blizzard,Muk,90.0,141.0,Water,Ice,Poison,,0,0,3505,2505,False
+turn2,Blizzard,Muk,20.0,116.0,Water,Ice,Poison,,0,0,3505,2505,False
+turn3,Blizzard,Muk,20.0,92.0,Water,Ice,Poison,,0,0,3505,2505,False
+turn4,Blizzard,Muk,-49.0,68.0,Water,Ice,Poison,,0,0,3505,2505,False
+turn1,Blizzard,Shellder,150,45.0,Water,Ice,Water,,0,0,3505,2005,True
+turn2,Blizzard,Shellder,132.0,45.0,Water,Ice,Water,,5,0,3505,2005,True
+turn3,Blizzard,Shellder,132.0,-6.0,Water,Ice,Water,,5,0,3505,2005,True
+turn1,Hydro Pump,Cloyster,121.0,56.0,Water,Ice,Water,Ice,0,0,3505,3505,True
+turn2,Hydro Pump,Cloyster,93.0,0.0,Water,Ice,Water,Ice,0,0,3505,3505,True
+turn1,Blizzard,Gastly,150,-51.0,Water,Ice,Ghost,Poison,0,0,3505,4005,True
+turn1,Blizzard,Haunter,135.0,105,Water,Ice,Ghost,Poison,0,0,3505,4755,False
+turn2,Blizzard,Haunter,85.0,14.0,Water,Ice,Ghost,Poison,5,0,3505,4755,False
+turn3,Blizzard,Haunter,19.0,14.0,Water,Ice,Ghost,Poison,5,0,3505,4755,False
+turn4,Blizzard,Haunter,-31.0,14.0,Water,Ice,Ghost,Poison,5,0,3505,4755,False
+turn1,Blizzard,Gengar,135.0,120,Water,Ice,Ghost,Poison,0,0,3505,5505,True
+turn2,Blizzard,Gengar,71.0,120,Water,Ice,Ghost,Poison,5,0,3505,5505,True
+turn3,Blizzard,Gengar,21.0,54.0,Water,Ice,Ghost,Poison,5,0,3505,5505,True
+turn4,Blizzard,Gengar,21.0,-16.0,Water,Ice,Ghost,Poison,5,6,3505,5505,True
+turn1,Hydro Pump,Onix,114.0,-312.0,Water,Ice,Rock,Ground,0,0,3505,3505,True
+turn1,Blizzard,Drowzee,150,91.0,Water,Ice,Psychic,,0,0,3505,2105,True
+turn2,Blizzard,Drowzee,150,66.0,Water,Ice,Psychic,,0,6,3505,2105,True
+turn3,Blizzard,Drowzee,150,41.0,Water,Ice,Psychic,,0,6,3505,2105,True
+turn4,Blizzard,Drowzee,150,15.0,Water,Ice,Psychic,,0,0,3505,2105,True
+turn5,Blizzard,Drowzee,134.0,15.0,Water,Ice,Psychic,,1,0,3505,2105,True
+turn6,Blizzard,Drowzee,134.0,-12.0,Water,Ice,Psychic,,0,0,3505,2105,True
+turn1,Blizzard,Hypno,108.0,124.0,Water,Ice,Psychic,,0,0,3505,3355,False
+turn2,Blizzard,Hypno,65.0,102.0,Water,Ice,Psychic,,0,0,3505,3355,False
+turn3,Blizzard,Hypno,20.0,81.0,Water,Ice,Psychic,,0,0,3505,3355,False
+turn4,Blizzard,Hypno,-28.0,59.0,Water,Ice,Psychic,,0,0,3505,3355,False
+turn1,Blizzard,Krabby,108.0,45.0,Water,Ice,Water,,0,0,3505,2505,True
+turn2,Blizzard,Krabby,108.0,-5.0,Water,Ice,Water,,0,0,3505,2505,True
+turn1,Blizzard,Kingler,98.0,90.0,Water,Ice,Water,,0,0,3505,3755,False
+turn2,Blizzard,Kingler,47.0,65.0,Water,Ice,Water,,0,0,3505,3755,False
+turn3,Blizzard,Kingler,0.0,65.0,Water,Ice,Water,,0,0,3505,3755,False
+turn1,Blizzard,Voltorb,112.0,56.0,Water,Ice,Electric,,0,0,3505,5005,True
+turn2,Blizzard,Voltorb,74.0,14.0,Water,Ice,Electric,,0,0,3505,5005,True
+turn3,Blizzard,Voltorb,35.0,-32.0,Water,Ice,Electric,,0,0,3505,5005,True
+turn1,Blizzard,Electrode,82.0,92.0,Water,Ice,Electric,,0,0,3505,7005,False
+turn2,Blizzard,Electrode,21.0,62.0,Water,Ice,Electric,,0,0,3505,7005,False
+turn3,Blizzard,Electrode,-41.0,62.0,Water,Ice,Electric,,0,0,3505,7005,False
+turn1,Blizzard,Exeggcute,150,-78.0,Water,Ice,Grass,Psychic,0,0,3505,2005,True
+turn1,Blizzard,Exeggutor,71.0,16.0,Water,Ice,Grass,Psychic,0,0,3505,2755,True
+turn2,Blizzard,Exeggutor,71.0,-136.0,Water,Ice,Grass,Psychic,0,0,3505,2755,True
+turn1,Hydro Pump,Cubone,125.0,19.0,Water,Ice,Ground,,0,0,3505,1755,True
+turn2,Hydro Pump,Cubone,125.0,-80.0,Water,Ice,Ground,,0,0,3505,1755,True
+turn1,Hydro Pump,Marowak,111.0,62.0,Water,Ice,Ground,,0,0,3505,2255,True
+turn2,Hydro Pump,Marowak,67.0,5.0,Water,Ice,Ground,,0,0,3505,2255,True
+turn3,Hydro Pump,Marowak,67.0,-52.0,Water,Ice,Ground,,0,0,3505,2255,True
+turn1,Blizzard,Hitmonlee,-28.0,110,Water,Ice,Fighting,,0,0,3505,4355,False
+turn1,Blizzard,Hitmonchan,64.0,88.0,Water,Ice,Fighting,,0,0,3505,3805,False
+turn2,Blizzard,Hitmonchan,-15.0,88.0,Water,Ice,Fighting,,0,0,3505,3805,False
+turn1,Blizzard,Lickitung,121.0,117.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn2,Blizzard,Lickitung,121.0,82.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn3,Blizzard,Lickitung,121.0,48.0,Water,Ice,Normal,,0,6,3505,1505,True
+turn4,Blizzard,Lickitung,121.0,13.0,Water,Ice,Normal,,0,6,3505,1505,True
+turn5,Blizzard,Lickitung,121.0,-22.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn1,Blizzard,Koffing,132,43.0,Water,Ice,Poison,,0,0,3505,1755,True
+turn2,Blizzard,Koffing,132,-9.0,Water,Ice,Poison,,3,0,3505,1755,True
+turn1,Blizzard,Weezing,115.0,89.0,Water,Ice,Poison,,0,0,3505,3005,True
+turn2,Blizzard,Weezing,115.0,57.0,Water,Ice,Poison,,0,0,3505,3005,True
+turn3,Blizzard,Weezing,115.0,20.0,Water,Ice,Poison,,0,6,3505,3005,True
+turn4,Blizzard,Weezing,115.0,-16.0,Water,Ice,Poison,,0,6,3505,3005,True
+turn1,Hydro Pump,Rhyhorn,150,-469.0,Water,Ice,Ground,Rock,0,0,3505,1255,True
+turn1,Hydro Pump,Rhydon,150,-252.0,Water,Ice,Ground,Rock,0,0,3505,2005,True
+turn1,Blizzard,Chansey,150,287.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn2,Blizzard,Chansey,144.0,263.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn3,Blizzard,Chansey,138.0,239.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn4,Blizzard,Chansey,132.0,215.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn5,Blizzard,Chansey,125.0,190.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn6,Blizzard,Chansey,125.0,165.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn7,Blizzard,Chansey,125.0,142.0,Water,Ice,Normal,,0,6,3505,2505,True
+turn8,Blizzard,Chansey,125.0,117.0,Water,Ice,Normal,,0,6,3505,2505,True
+turn9,Blizzard,Chansey,125.0,94.0,Water,Ice,Normal,,0,6,3505,2505,True
+turn10,Blizzard,Chansey,119.0,71.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn11,Blizzard,Chansey,113.0,48.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn12,Blizzard,Chansey,107.0,26.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn13,Blizzard,Chansey,101.0,3.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn14,Blizzard,Chansey,101.0,-22.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn1,Blizzard,Tangela,159,-7.0,Water,Ice,Grass,,0,0,3505,3005,True
+turn1,Blizzard,Kangaskhan,100.0,133.0,Water,Ice,Normal,,0,0,3505,4505,False
+turn2,Blizzard,Kangaskhan,49.0,102.0,Water,Ice,Normal,,0,0,3505,4505,False
+turn3,Blizzard,Kangaskhan,-3.0,102.0,Water,Ice,Normal,,0,0,3505,4505,False
+turn1,Blizzard,Horsea,140.0,46.0,Water,Ice,Water,,0,0,3505,3005,True
+turn2,Blizzard,Horsea,131.0,1.0,Water,Ice,Water,,0,0,3505,3005,True
+turn3,Blizzard,Horsea,131.0,-47.0,Water,Ice,Water,,0,0,3505,3005,True
+turn1,Blizzard,Seadra,116.0,87.0,Water,Ice,Water,,0,0,3505,4255,False
+turn2,Blizzard,Seadra,84.0,61.0,Water,Ice,Water,,0,0,3505,4255,False
+turn3,Blizzard,Seadra,49.0,36.0,Water,Ice,Water,,0,0,3505,4255,False
+turn4,Blizzard,Seadra,12.0,9.0,Water,Ice,Water,,0,0,3505,4255,False
+turn5,Blizzard,Seadra,-21.0,9.0,Water,Ice,Water,,0,0,3505,4255,False
+turn1,Blizzard,Goldeen,126.0,81.0,Water,Ice,Water,,0,0,3505,3155,True
+turn2,Blizzard,Goldeen,101.0,57.0,Water,Ice,Water,,0,0,3505,3155,True
+turn3,Blizzard,Goldeen,77.0,32.0,Water,Ice,Water,,0,0,3505,3155,True
+turn4,Blizzard,Goldeen,54.0,9.0,Water,Ice,Water,,0,0,3505,3155,True
+turn5,Blizzard,Goldeen,54.0,-17.0,Water,Ice,Water,,0,0,3505,3155,True
+turn1,Blizzard,Seaking,150,125.0,Water,Ice,Water,,0,0,3505,3405,False
+turn2,Blizzard,Seaking,150,110.0,Water,Ice,Water,,0,0,3505,3405,False
+turn3,Blizzard,Seaking,150,94.0,Water,Ice,Water,,0,0,3505,3405,False
+turn4,Blizzard,Seaking,150,80.0,Water,Ice,Water,,0,0,3505,3405,False
+turn5,Blizzard,Seaking,150,66.0,Water,Ice,Water,,0,0,3505,3405,False
+turn6,Blizzard,Seaking,150,51.0,Water,Ice,Water,,0,0,3505,3405,False
+turn7,Blizzard,Seaking,150,35.0,Water,Ice,Water,,0,0,3505,3405,False
+turn8,Blizzard,Seaking,-65385,19.0,Water,Ice,Water,,0,0,3505,3405,False
+turn1,Blizzard,Staryu,150,70.0,Water,Ice,Water,,0,0,3505,4255,False
+turn2,Blizzard,Staryu,131.0,48.0,Water,Ice,Water,,5,0,3505,4255,False
+turn3,Blizzard,Staryu,112.0,25.0,Water,Ice,Water,,5,0,3505,4255,False
+turn4,Blizzard,Staryu,92.0,3.0,Water,Ice,Water,,5,0,3505,4255,False
+turn5,Blizzard,Staryu,56.0,3.0,Water,Ice,Water,,5,0,3505,4255,False
+turn6,Blizzard,Staryu,21.0,3.0,Water,Ice,Water,,5,0,3505,4255,False
+turn7,Blizzard,Staryu,-16.0,3.0,Water,Ice,Water,,5,0,3505,4255,False
+turn1,Blizzard,Starmie,112.0,89.0,Water,Ice,Water,Psychic,0,0,3505,5755,True
+turn2,Blizzard,Starmie,112.0,60.0,Water,Ice,Water,Psychic,0,6,3505,5755,True
+turn3,Blizzard,Starmie,112.0,32.0,Water,Ice,Water,Psychic,0,6,3505,5755,True
+turn4,Blizzard,Starmie,112.0,3.0,Water,Ice,Water,Psychic,0,6,3505,5755,True
+turn5,Blizzard,Starmie,112.0,-27.0,Water,Ice,Water,Psychic,0,6,3505,5755,True
+turn1,Blizzard,Mr. Mime,116.0,59.0,Water,Ice,Psychic,Normal,0,0,3505,4505,True
+turn2,Blizzard,Mr. Mime,83.0,21.0,Water,Ice,Psychic,Normal,0,0,3505,4505,True
+turn3,Blizzard,Mr. Mime,51.0,-17.0,Water,Ice,Psychic,Normal,0,0,3505,4505,True
+turn1,Blizzard,Scyther,101.0,7.0,Water,Ice,Bug,Flying,0,0,3505,5255,True
+turn2,Blizzard,Scyther,46.0,-115.0,Water,Ice,Bug,Flying,0,0,3505,5255,True
+turn1,Hydro Pump,Jynx,143.0,125,Water,Ice,Ice,Psychic,0,0,3505,4755,True
+turn2,Hydro Pump,Jynx,135.0,125,Water,Ice,Ice,Psychic,6,0,3505,4755,True
+turn3,Hydro Pump,Jynx,128.0,125,Water,Ice,Ice,Psychic,6,0,3505,4755,True
+turn4,Hydro Pump,Jynx,120.0,125,Water,Ice,Ice,Psychic,6,0,3505,4755,True
+turn5,Hydro Pump,Jynx,113.0,125,Water,Ice,Ice,Psychic,6,0,3505,4755,True
+turn6,Hydro Pump,Jynx,106.0,125,Water,Ice,Ice,Psychic,6,0,3505,4755,True
+turn7,Hydro Pump,Jynx,99.0,125,Water,Ice,Ice,Psychic,6,0,3505,4755,True
+turn8,Hydro Pump,Jynx,92.0,76.0,Water,Ice,Ice,Psychic,0,0,3505,4755,True
+turn9,Hydro Pump,Jynx,85.0,25.0,Water,Ice,Ice,Psychic,0,0,3505,4755,True
+turn10,Hydro Pump,Jynx,78.0,-23.0,Water,Ice,Ice,Psychic,0,0,3505,4755,True
+turn1,Blizzard,Electabuzz,56.0,98.0,Water,Ice,Electric,,0,0,3505,5255,False
+turn2,Blizzard,Electabuzz,-38.0,98.0,Water,Ice,Electric,,0,0,3505,5255,False
+turn1,Hydro Pump,Magmar,86.0,70.0,Water,Ice,Fire,,0,0,3505,4655,False
+turn2,Hydro Pump,Magmar,14.0,11.0,Water,Ice,Fire,,0,0,3505,4655,False
+turn3,Hydro Pump,Magmar,-48.0,11.0,Water,Ice,Fire,,2,0,3505,4655,False
+turn1,Blizzard,Pinsir,150,91.0,Water,Ice,Bug,,0,0,3505,4255,True
+turn2,Blizzard,Pinsir,150,59.0,Water,Ice,Bug,,0,0,3505,4255,True
+turn3,Blizzard,Pinsir,150,23.0,Water,Ice,Bug,,0,0,3505,4255,True
+turn4,Blizzard,Pinsir,150,-9.0,Water,Ice,Bug,,0,0,3505,4255,True
+turn1,Blizzard,Tauros,75.0,64.0,Water,Ice,Normal,,0,0,3505,5505,True
+turn2,Blizzard,Tauros,2.0,-9.0,Water,Ice,Normal,,0,0,3505,5505,True
+turn1,Blizzard,Magikarp,150,22.0,Water,Ice,Water,,0,0,3505,4005,True
+turn2,Blizzard,Magikarp,150,-34.0,Water,Ice,Water,,0,0,3505,4005,True
+turn1,Blizzard,Gyarados,127.0,108.0,Water,Ice,Water,Flying,0,0,3505,4055,True
+turn2,Blizzard,Gyarados,104.0,56.0,Water,Ice,Water,Flying,0,0,3505,4055,True
+turn3,Blizzard,Gyarados,104.0,7.0,Water,Ice,Water,Flying,0,6,3505,4055,True
+turn4,Blizzard,Gyarados,104.0,-43.0,Water,Ice,Water,Flying,0,6,3505,4055,True
+turn1,Hydro Pump,Lapras,134.0,166.0,Water,Ice,Water,Ice,0,0,3505,3005,True
+turn2,Hydro Pump,Lapras,120.0,140.0,Water,Ice,Water,Ice,0,0,3505,3005,True
+turn3,Hydro Pump,Lapras,104.0,116.0,Water,Ice,Water,Ice,0,0,3505,3005,True
+turn4,Hydro Pump,Lapras,90.0,92.0,Water,Ice,Water,Ice,0,0,3505,3005,True
+turn5,Hydro Pump,Lapras,75.0,67.0,Water,Ice,Water,Ice,0,0,3505,3005,True
+turn6,Hydro Pump,Lapras,60.0,42.0,Water,Ice,Water,Ice,0,0,3505,3005,True
+turn7,Hydro Pump,Lapras,44.0,14.0,Water,Ice,Water,Ice,0,0,3505,3005,True
+turn8,Hydro Pump,Lapras,44.0,-13.0,Water,Ice,Water,Ice,0,0,3505,3005,True
+turn1,Blizzard,Ditto,150,58.0,Water,Ice,Normal,,0,0,3505,2405,True
+turn2,Blizzard,Ditto,150,7.0,Water,Ice,Normal,,0,0,3505,2405,True
+turn3,Blizzard,Ditto,150,-46.0,Water,Ice,Normal,,0,0,3505,2405,True
+turn1,Blizzard,Eevee,123.0,79.0,Water,Ice,Normal,,0,0,3505,2755,True
+turn2,Blizzard,Eevee,96.0,42.0,Water,Ice,Normal,,0,0,3505,2755,True
+turn3,Blizzard,Eevee,66.0,3.0,Water,Ice,Normal,,0,0,3505,2755,True
+turn4,Blizzard,Eevee,66.0,-32.0,Water,Ice,Normal,,0,0,3505,2755,True
+turn1,Blizzard,Vaporeon,117.0,178.0,Water,Ice,Water,,0,0,3505,3255,False
+turn2,Blizzard,Vaporeon,117.0,166.0,Water,Ice,Water,,0,0,3505,3255,False
+turn3,Blizzard,Vaporeon,117.0,153.0,Water,Ice,Water,,0,6,3505,3255,False
+turn4,Blizzard,Vaporeon,86.0,140.0,Water,Ice,Water,,0,0,3505,3255,False
+turn5,Blizzard,Vaporeon,54.0,128.0,Water,Ice,Water,,0,0,3505,3255,False
+turn6,Blizzard,Vaporeon,21.0,115.0,Water,Ice,Water,,0,0,3505,3255,False
+turn7,Blizzard,Vaporeon,-11.0,103.0,Water,Ice,Water,,0,0,3505,3255,False
+turn1,Blizzard,Jolteon,85.0,99.0,Water,Ice,Electric,,0,0,3505,6505,False
+turn2,Blizzard,Jolteon,27.0,74.0,Water,Ice,Electric,,0,0,3505,6505,False
+turn3,Blizzard,Jolteon,-34.0,74.0,Water,Ice,Electric,,0,0,3505,6505,False
+turn1,Hydro Pump,Flareon,75.0,80.0,Water,Ice,Fire,,0,0,3505,3255,True
+turn2,Hydro Pump,Flareon,7.0,33.0,Water,Ice,Fire,,0,0,3505,3255,True
+turn3,Hydro Pump,Flareon,7.0,-16.0,Water,Ice,Fire,,0,0,3505,3255,True
+turn1,Blizzard,Porygon,104.0,95.0,Water,Ice,Normal,,0,0,3505,2005,True
+turn2,Blizzard,Porygon,61.0,62.0,Water,Ice,Normal,,0,0,3505,2005,True
+turn3,Blizzard,Porygon,19.0,30.0,Water,Ice,Normal,,0,0,3505,2005,True
+turn4,Blizzard,Porygon,19.0,-4.0,Water,Ice,Normal,,0,0,3505,2005,True
+turn1,Hydro Pump,Omanyte,136.0,6.0,Water,Ice,Rock,Water,0,0,3505,1755,True
+turn2,Hydro Pump,Omanyte,136.0,-86.0,Water,Ice,Rock,Water,0,0,3505,1755,True
+turn1,Hydro Pump,Omastar,129.0,58.0,Water,Ice,Rock,Water,0,0,3505,2755,True
+turn2,Hydro Pump,Omastar,129.0,-9.0,Water,Ice,Rock,Water,0,0,3505,2755,True
+turn1,Hydro Pump,Kabuto,150,-15.0,Water,Ice,Rock,Water,0,0,3505,2755,True
+turn1,Hydro Pump,Kabutops,109.0,50.0,Water,Ice,Rock,Water,0,0,3505,4005,True
+turn2,Hydro Pump,Kabutops,68.0,-22.0,Water,Ice,Rock,Water,0,0,3505,4005,True
+turn1,Blizzard,Aerodactyl,98.0,3.0,Water,Ice,Rock,Flying,0,0,3505,6505,True
+turn2,Blizzard,Aerodactyl,52.0,-130.0,Water,Ice,Rock,Flying,0,0,3505,6505,True
+turn1,Blizzard,Snorlax,47.0,198.0,Water,Ice,Normal,,0,0,3505,1505,False
+turn2,Blizzard,Snorlax,-51.0,177.0,Water,Ice,Normal,,0,0,3505,1505,False
+turn1,Blizzard,Articuno,132.0,109.0,Water,Ice,Ice,Flying,0,0,3505,4255,True
+turn2,Blizzard,Articuno,116.0,67.0,Water,Ice,Ice,Flying,0,0,3505,4255,True
+turn3,Blizzard,Articuno,99.0,28.0,Water,Ice,Ice,Flying,0,0,3505,4255,True
+turn4,Blizzard,Articuno,81.0,-12.0,Water,Ice,Ice,Flying,0,0,3505,4255,True
+turn1,Blizzard,Zapdos,-23.0,150,Water,Ice,Electric,Flying,0,0,3505,5005,False
+turn1,Blizzard,Moltres,46.0,25.0,Water,Ice,Fire,Flying,0,0,3505,4505,True
+turn2,Blizzard,Moltres,46.0,-87.0,Water,Ice,Fire,Flying,0,6,3505,4505,True
+turn1,Blizzard,Dratini,150,76.0,Water,Ice,Dragon,,0,0,3505,2505,True
+turn2,Blizzard,Dratini,150,54.0,Water,Ice,Dragon,,0,6,3505,2505,True
+turn3,Blizzard,Dratini,150,29.0,Water,Ice,Dragon,,0,6,3505,2505,True
+turn4,Blizzard,Dratini,150,6.0,Water,Ice,Dragon,,0,6,3505,2505,True
+turn5,Blizzard,Dratini,150,-17.0,Water,Ice,Dragon,,0,0,3505,2505,True
+turn1,Blizzard,Dragonair,150,121,Water,Ice,Dragon,,0,0,3505,3505,False
+turn2,Blizzard,Dragonair,110,103.0,Water,Ice,Dragon,,4,0,3505,3505,False
+turn3,Blizzard,Dragonair,70,87.0,Water,Ice,Dragon,,4,0,3505,3505,False
+turn4,Blizzard,Dragonair,30,69.0,Water,Ice,Dragon,,4,0,3505,3505,False
+turn5,Blizzard,Dragonair,-10,69.0,Water,Ice,Dragon,,4,0,3505,3505,False
+turn1,Blizzard,Dragonite,150,103.0,Water,Ice,Dragon,Flying,0,0,3505,4005,False
+turn2,Blizzard,Dragonite,110,103.0,Water,Ice,Dragon,Flying,4,0,3505,4005,False
+turn3,Blizzard,Dragonite,70,103.0,Water,Ice,Dragon,Flying,4,0,3505,4005,False
+turn4,Blizzard,Dragonite,30,103.0,Water,Ice,Dragon,Flying,4,0,3505,4005,False
+turn5,Blizzard,Dragonite,-10,103.0,Water,Ice,Dragon,Flying,4,0,3505,4005,False
+turn1,Blizzard,Mewtwo,150,166,Water,Ice,Psychic,,0,0,3505,6505,False
+turn2,Blizzard,Mewtwo,98.0,166,Water,Ice,Psychic,,1,0,3505,6505,False
+turn3,Blizzard,Mewtwo,43.0,166,Water,Ice,Psychic,,1,0,3505,6505,False
+turn4,Blizzard,Mewtwo,-5.0,166,Water,Ice,Psychic,,1,0,3505,6505,False
+turn1,Blizzard,Mew,91.0,136.0,Water,Ice,Psychic,,0,0,3505,5005,False
+turn2,Blizzard,Mew,33.0,110.0,Water,Ice,Psychic,,0,0,3505,5005,False
+turn3,Blizzard,Mew,-25.0,110.0,Water,Ice,Psychic,,0,0,3505,5005,False

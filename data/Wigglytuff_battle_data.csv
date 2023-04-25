@@ -1,0 +1,884 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Double Slap,Bulbasaur,180.0,105,Normal,,Grass,Poison,0,0,2255,2255,True
+turn2,Double Slap,Bulbasaur,180.0,75.0,Normal,,Grass,Poison,0,1,2255,2255,True
+turn3,Double Slap,Bulbasaur,180.0,43.0,Normal,,Grass,Poison,0,1,2255,2255,True
+turn4,Double Slap,Bulbasaur,180.0,-5.0,Normal,,Grass,Poison,0,1,2255,2255,True
+turn1,Double Slap,Ivysaur,188,120,Normal,,Grass,Poison,0,0,2255,3005,True
+turn2,Double Slap,Ivysaur,176,84.0,Normal,,Grass,Poison,3,1,2255,3005,True
+turn3,Double Slap,Ivysaur,164,32.0,Normal,,Grass,Poison,3,1,2255,3005,True
+turn4,Double Slap,Ivysaur,164,-7.0,Normal,,Grass,Poison,3,1,2255,3005,True
+turn1,Sing,Venusaur,126.0,140,Normal,,Grass,Poison,0,0,2255,4005,False
+turn2,Sing,Venusaur,126.0,100.0,Normal,,Grass,Poison,0,1,2255,4005,False
+turn3,Sing,Venusaur,53.0,80.0,Normal,,Grass,Poison,0,0,2255,4005,False
+turn4,Sing,Venusaur,-23.0,80.0,Normal,,Grass,Poison,0,0,2255,4005,False
+turn1,Double Slap,Charmander,164.0,99,Normal,,Fire,,0,0,2255,3255,True
+turn2,Double Slap,Charmander,164.0,63.0,Normal,,Fire,,0,1,2255,3255,True
+turn3,Double Slap,Charmander,164.0,9.0,Normal,,Fire,,0,1,2255,3255,True
+turn4,Double Slap,Charmander,164.0,-27.0,Normal,,Fire,,0,1,2255,3255,True
+turn1,Double Slap,Charmeleon,156.0,118,Normal,,Fire,,0,0,2255,4005,True
+turn2,Double Slap,Charmeleon,156.0,79.0,Normal,,Fire,,0,1,2255,4005,True
+turn3,Double Slap,Charmeleon,156.0,53.0,Normal,,Fire,,0,1,2255,4005,True
+turn4,Double Slap,Charmeleon,97.0,53.0,Normal,,Fire,,0,0,2255,4005,True
+turn5,Double Slap,Charmeleon,85.0,25.0,Normal,,Fire,,2,1,2255,4005,True
+turn6,Double Slap,Charmeleon,30.0,25.0,Normal,,Fire,,2,0,2255,4005,True
+turn7,Double Slap,Charmeleon,30.0,-3.0,Normal,,Fire,,2,1,2255,4005,True
+turn1,Double Slap,Charizard,140.0,138,Normal,,Fire,Flying,0,0,2255,5005,True
+turn2,Double Slap,Charizard,140.0,108.0,Normal,,Fire,Flying,0,1,2255,5005,True
+turn3,Double Slap,Charizard,140.0,53.0,Normal,,Fire,Flying,0,1,2255,5005,True
+turn4,Double Slap,Charizard,140.0,23.0,Normal,,Fire,Flying,0,1,2255,5005,True
+turn5,Double Slap,Charizard,76.0,23.0,Normal,,Fire,Flying,0,0,2255,5005,True
+turn6,Double Slap,Charizard,76.0,-10.0,Normal,,Fire,Flying,0,1,2255,5005,True
+turn1,Double Slap,Squirtle,200,104,Normal,,Water,,0,0,2255,2155,True
+turn2,Double Slap,Squirtle,200,104,Normal,,Water,,0,0,2255,2155,True
+turn3,Double Slap,Squirtle,200,44.0,Normal,,Water,,0,1,2255,2155,True
+turn4,Double Slap,Squirtle,200,8.0,Normal,,Water,,0,1,2255,2155,True
+turn5,Double Slap,Squirtle,200,8.0,Normal,,Water,,0,0,2255,2155,True
+turn6,Double Slap,Squirtle,200,-31.0,Normal,,Water,,0,1,2255,2155,True
+turn1,Double Slap,Wartortle,129.0,119,Normal,,Water,,0,0,2255,2905,True
+turn2,Double Slap,Wartortle,129.0,99.0,Normal,,Water,,0,1,2255,2905,True
+turn3,Double Slap,Wartortle,129.0,69.0,Normal,,Water,,0,1,2255,2905,True
+turn4,Double Slap,Wartortle,57.0,69.0,Normal,,Water,,0,0,2255,2905,True
+turn5,Double Slap,Wartortle,57.0,47.0,Normal,,Water,,0,1,2255,2905,True
+turn6,Double Slap,Wartortle,57.0,-3.0,Normal,,Water,,0,1,2255,2905,True
+turn1,Double Slap,Blastoise,108.0,139,Normal,,Water,,0,0,2255,3905,True
+turn2,Double Slap,Blastoise,108.0,103.0,Normal,,Water,,0,1,2255,3905,True
+turn3,Double Slap,Blastoise,3.0,103.0,Normal,,Water,,0,0,2255,3905,True
+turn4,Double Slap,Blastoise,3.0,87.0,Normal,,Water,,0,1,2255,3905,True
+turn5,Double Slap,Blastoise,3.0,42.0,Normal,,Water,,0,1,2255,3905,True
+turn6,Double Slap,Blastoise,3.0,6.0,Normal,,Water,,0,1,2255,3905,True
+turn7,Double Slap,Blastoise,3.0,-10.0,Normal,,Water,,0,1,2255,3905,True
+turn1,Double Slap,Caterpie,188.0,105,Normal,,Bug,,0,0,2255,2255,True
+turn2,Double Slap,Caterpie,188.0,63.0,Normal,,Bug,,0,1,2255,2255,True
+turn3,Double Slap,Caterpie,175.0,63.0,Normal,,Bug,,0,0,2255,2255,True
+turn4,Double Slap,Caterpie,175.0,3.0,Normal,,Bug,,0,1,2255,2255,True
+turn5,Double Slap,Caterpie,163.0,3.0,Normal,,Bug,,0,0,2255,2255,True
+turn6,Double Slap,Caterpie,163.0,-60.0,Normal,,Bug,,0,1,2255,2255,True
+turn1,Double Slap,Metapod,200,110,Normal,,Bug,,0,0,2255,1505,True
+turn2,Double Slap,Metapod,200,110,Normal,,Bug,,0,0,2255,1505,True
+turn3,Double Slap,Metapod,200,54.0,Normal,,Bug,,0,1,2255,1505,True
+turn4,Double Slap,Metapod,200,26.0,Normal,,Bug,,0,1,2255,1505,True
+turn5,Double Slap,Metapod,200,26.0,Normal,,Bug,,0,0,2255,1505,True
+turn6,Double Slap,Metapod,200,-2.0,Normal,,Bug,,0,1,2255,1505,True
+turn1,Sing,Butterfree,200,120,Normal,,Bug,Flying,0,0,2255,3505,False
+turn2,Sing,Butterfree,149.0,120,Normal,,Bug,Flying,1,0,2255,3505,False
+turn3,Sing,Butterfree,104.0,120,Normal,,Bug,Flying,1,0,2255,3505,False
+turn4,Sing,Butterfree,53.0,120,Normal,,Bug,Flying,1,0,2255,3505,False
+turn5,Sing,Butterfree,53.0,120,Normal,,Bug,Flying,0,0,2255,3505,False
+turn6,Sing,Butterfree,2.0,120,Normal,,Bug,Flying,1,0,2255,3505,False
+turn7,Sing,Butterfree,-51.0,120,Normal,,Bug,Flying,1,0,2255,3505,False
+turn1,Double Slap,Weedle,190.0,100,Normal,,Bug,Poison,0,0,2255,2505,True
+turn2,Double Slap,Weedle,190.0,34.0,Normal,,Bug,Poison,0,1,2255,2505,True
+turn3,Double Slap,Weedle,180.0,34.0,Normal,,Bug,Poison,0,0,2255,2505,True
+turn4,Double Slap,Weedle,180.0,-41.0,Normal,,Bug,Poison,0,1,2255,2505,True
+turn1,Double Slap,Kakuna,200,105,Normal,,Bug,Poison,0,0,2255,1755,True
+turn2,Double Slap,Kakuna,200,57.0,Normal,,Bug,Poison,0,1,2255,1755,True
+turn3,Double Slap,Kakuna,200,-3.0,Normal,,Bug,Poison,0,1,2255,1755,True
+turn1,Double Slap,Beedrill,128.0,125,Normal,,Bug,Poison,3,0,2255,3755,True
+turn2,Double Slap,Beedrill,116.0,87.0,Normal,,Bug,Poison,3,1,2255,3755,True
+turn3,Double Slap,Beedrill,116.0,-8.0,Normal,,Bug,Poison,3,1,2255,3755,True
+turn1,Double Slap,Pidgey,162.0,100,Normal,,Normal,Flying,0,0,2255,2805,True
+turn2,Double Slap,Pidgey,162.0,49.0,Normal,,Normal,Flying,0,1,2255,2805,True
+turn3,Double Slap,Pidgey,123.0,49.0,Normal,,Normal,Flying,0,0,2255,2805,True
+turn4,Double Slap,Pidgey,123.0,-36.0,Normal,,Normal,Flying,0,1,2255,2805,True
+turn1,Double Slap,Pidgeotto,150.0,123,Normal,,Normal,Flying,0,0,2255,3555,True
+turn2,Double Slap,Pidgeotto,150.0,93.0,Normal,,Normal,Flying,0,1,2255,3555,True
+turn3,Double Slap,Pidgeotto,150.0,65.0,Normal,,Normal,Flying,0,1,2255,3555,True
+turn4,Double Slap,Pidgeotto,150.0,23.0,Normal,,Normal,Flying,0,1,2255,3555,True
+turn5,Double Slap,Pidgeotto,101.0,23.0,Normal,,Normal,Flying,0,0,2255,3555,True
+turn6,Double Slap,Pidgeotto,101.0,-3.0,Normal,,Normal,Flying,0,1,2255,3555,True
+turn1,Double Slap,Pidgeot,133.0,143,Normal,,Normal,Flying,0,0,2255,5055,True
+turn2,Double Slap,Pidgeot,133.0,110.0,Normal,,Normal,Flying,0,1,2255,5055,True
+turn3,Double Slap,Pidgeot,68.0,110.0,Normal,,Normal,Flying,0,0,2255,5055,True
+turn4,Double Slap,Pidgeot,68.0,77.0,Normal,,Normal,Flying,0,1,2255,5055,True
+turn5,Double Slap,Pidgeot,68.0,57.0,Normal,,Normal,Flying,0,1,2255,5055,True
+turn6,Double Slap,Pidgeot,3.0,57.0,Normal,,Normal,Flying,0,0,2255,5055,True
+turn7,Double Slap,Pidgeot,3.0,17.0,Normal,,Normal,Flying,0,1,2255,5055,True
+turn8,Double Slap,Pidgeot,3.0,-7.0,Normal,,Normal,Flying,0,1,2255,5055,True
+turn1,Double Slap,Rattata,100,90,Normal,,Normal,,0,0,2255,3605,True
+turn2,Double Slap,Rattata,100,27.0,Normal,,Normal,,0,1,2255,3605,True
+turn3,Double Slap,Rattata,100,-36.0,Normal,,Normal,,0,1,2255,3605,True
+turn1,Sing,Raticate,100,115,Normal,,Normal,,0,0,2255,4855,False
+turn2,Sing,Raticate,100,89.0,Normal,,Normal,,0,1,2255,4855,False
+turn3,Sing,Raticate,0,89.0,Normal,,Normal,,0,0,2255,4855,False
+turn1,Double Slap,Spearow,130.0,100,Normal,,Normal,Flying,0,0,2255,3505,True
+turn2,Double Slap,Spearow,130.0,8.0,Normal,,Normal,Flying,0,1,2255,3505,True
+turn3,Double Slap,Spearow,130.0,-61.0,Normal,,Normal,Flying,0,1,2255,3505,True
+turn1,Sing,Fearow,92.0,125,Normal,,Normal,Flying,0,0,2255,5005,False
+turn2,Sing,Fearow,92.0,65.0,Normal,,Normal,Flying,0,1,2255,5005,False
+turn3,Sing,Fearow,92.0,17.0,Normal,,Normal,Flying,0,1,2255,5005,False
+turn4,Sing,Fearow,-12.0,17.0,Normal,,Normal,Flying,0,0,2255,5005,False
+turn1,Double Slap,Ekans,167.0,95,Normal,,Poison,,0,0,2255,2755,True
+turn2,Double Slap,Ekans,167.0,61.0,Normal,,Poison,,0,1,2255,2755,True
+turn3,Double Slap,Ekans,167.0,-3.0,Normal,,Poison,,0,1,2255,2755,True
+turn1,Double Slap,Arbok,153.0,120,Normal,,Poison,,0,0,2255,4005,True
+turn2,Double Slap,Arbok,153.0,76.0,Normal,,Poison,,0,1,2255,4005,True
+turn3,Double Slap,Arbok,102.0,76.0,Normal,,Poison,,0,0,2255,4005,True
+turn4,Double Slap,Arbok,102.0,21.0,Normal,,Poison,,0,1,2255,4005,True
+turn5,Double Slap,Arbok,55.0,21.0,Normal,,Poison,,0,0,2255,4005,True
+turn6,Double Slap,Arbok,55.0,-3.0,Normal,,Poison,,0,1,2255,4005,True
+turn1,Double Slap,Pikachu,163.0,95,Normal,,Electric,,0,0,2255,4505,True
+turn2,Double Slap,Pikachu,163.0,5.0,Normal,,Electric,,0,1,2255,4505,True
+turn3,Double Slap,Pikachu,129.0,5.0,Normal,,Electric,,0,0,2255,4505,True
+turn4,Double Slap,Pikachu,129.0,-29.0,Normal,,Electric,,0,1,2255,4505,True
+turn1,Double Slap,Raichu,137.0,120,Normal,,Electric,,0,0,2255,5505,True
+turn2,Double Slap,Raichu,137.0,78.0,Normal,,Electric,,0,1,2255,5505,True
+turn3,Double Slap,Raichu,73.0,78.0,Normal,,Electric,,0,0,2255,5505,True
+turn4,Double Slap,Raichu,73.0,36.0,Normal,,Electric,,0,1,2255,5505,True
+turn5,Double Slap,Raichu,13.0,36.0,Normal,,Electric,,0,0,2255,5505,True
+turn6,Double Slap,Raichu,13.0,10.0,Normal,,Electric,,0,1,2255,5505,True
+turn7,Double Slap,Raichu,13.0,-18.0,Normal,,Electric,,0,1,2255,5505,True
+turn1,Double Slap,Sandshrew,200,110,Normal,,Ground,,0,0,2255,2005,True
+turn2,Double Slap,Sandshrew,200,80.0,Normal,,Ground,,0,1,2255,2005,True
+turn3,Double Slap,Sandshrew,200,58.0,Normal,,Ground,,0,1,2255,2005,True
+turn4,Double Slap,Sandshrew,200,58.0,Normal,,Ground,,0,0,2255,2005,True
+turn5,Double Slap,Sandshrew,200,58.0,Normal,,Ground,,0,0,2255,2005,True
+turn6,Double Slap,Sandshrew,200,31.0,Normal,,Ground,,0,1,2255,2005,True
+turn7,Double Slap,Sandshrew,200,31.0,Normal,,Ground,,0,0,2255,2005,True
+turn8,Double Slap,Sandshrew,200,-2.0,Normal,,Ground,,0,1,2255,2005,True
+turn1,Double Slap,Sandslash,132.0,135,Normal,,Ground,,0,0,2255,3255,True
+turn2,Double Slap,Sandslash,132.0,119.0,Normal,,Ground,,0,1,2255,3255,True
+turn3,Double Slap,Sandslash,132.0,95.0,Normal,,Ground,,0,1,2255,3255,True
+turn4,Double Slap,Sandslash,70.0,95.0,Normal,,Ground,,0,0,2255,3255,True
+turn5,Double Slap,Sandslash,70.0,79.0,Normal,,Ground,,0,1,2255,3255,True
+turn6,Double Slap,Sandslash,70.0,39.0,Normal,,Ground,,0,1,2255,3255,True
+turn7,Double Slap,Sandslash,70.0,15.0,Normal,,Ground,,0,1,2255,3255,True
+turn8,Double Slap,Sandslash,70.0,-1.0,Normal,,Ground,,0,1,2255,3255,True
+turn1,Double Slap,Nidoran♀,200,115,Normal,,Poison,,0,0,2255,2055,True
+turn2,Double Slap,Nidoran♀,200,45.0,Normal,,Poison,,0,1,2255,2055,True
+turn3,Double Slap,Nidoran♀,200,45.0,Normal,,Poison,,0,0,2255,2055,True
+turn4,Double Slap,Nidoran♀,200,-15.0,Normal,,Poison,,0,1,2255,2055,True
+turn1,Double Slap,Nidorina,126.0,70.0,Normal,,Poison,,0,0,2255,2805,False
+turn2,Double Slap,Nidorina,54.0,70.0,Normal,,Poison,,0,0,2255,2805,False
+turn3,Double Slap,Nidorina,54.0,44.0,Normal,,Poison,,0,1,2255,2805,False
+turn4,Double Slap,Nidorina,-18.0,44.0,Normal,,Poison,,0,0,2255,2805,False
+turn1,Sing,Nidoqueen,128.0,150,Normal,,Poison,Ground,0,0,2255,3805,False
+turn2,Sing,Nidoqueen,128.0,132.0,Normal,,Poison,Ground,0,1,2255,3805,False
+turn3,Sing,Nidoqueen,128.0,114.0,Normal,,Poison,Ground,0,1,2255,3805,False
+turn4,Sing,Nidoqueen,54.0,87.0,Normal,,Poison,Ground,0,0,2255,3805,False
+turn5,Sing,Nidoqueen,-13.0,87.0,Normal,,Poison,Ground,0,0,2255,3805,False
+turn1,Double Slap,Nidoran♂,136.0,106,Normal,,Poison,,0,0,2255,2505,True
+turn2,Double Slap,Nidoran♂,136.0,70.0,Normal,,Poison,,0,1,2255,2505,True
+turn3,Double Slap,Nidoran♂,136.0,19.0,Normal,,Poison,,0,1,2255,2505,True
+turn4,Double Slap,Nidoran♂,136.0,-49.0,Normal,,Poison,,0,1,2255,2505,True
+turn1,Double Slap,Nidorino,112.0,121,Normal,,Poison,,0,0,2255,3255,True
+turn2,Double Slap,Nidorino,112.0,79.0,Normal,,Poison,,0,1,2255,3255,True
+turn3,Double Slap,Nidorino,112.0,27.0,Normal,,Poison,,0,1,2255,3255,True
+turn4,Double Slap,Nidorino,112.0,-1.0,Normal,,Poison,,0,1,2255,3255,True
+turn1,Sing,Nidoking,95.0,141,Normal,,Poison,Ground,0,0,2255,4255,False
+turn2,Sing,Nidoking,95.0,86.0,Normal,,Poison,Ground,0,1,2255,4255,False
+turn3,Sing,Nidoking,95.0,56.0,Normal,,Poison,Ground,0,1,2255,4255,False
+turn4,Sing,Nidoking,95.0,1.0,Normal,,Poison,Ground,0,1,2255,4255,False
+turn5,Sing,Nidoking,-9.0,1.0,Normal,,Poison,Ground,0,0,2255,4255,False
+turn1,Double Slap,Clefairy,200,130,Normal,,Normal,,0,0,2255,1755,True
+turn2,Double Slap,Clefairy,200,60.0,Normal,,Normal,,0,1,2255,1755,True
+turn3,Double Slap,Clefairy,200,15.0,Normal,,Normal,,0,1,2255,1755,True
+turn4,Double Slap,Clefairy,200,15.0,Normal,,Normal,,0,0,2255,1755,True
+turn5,Double Slap,Clefairy,200,-36.0,Normal,,Normal,,0,1,2255,1755,True
+turn1,Sing,Clefable,200,155,Normal,,Normal,,0,0,2255,3005,False
+turn2,Sing,Clefable,166.0,155,Normal,,Normal,,1,0,2255,3005,False
+turn3,Sing,Clefable,132.0,155,Normal,,Normal,,1,0,2255,3005,False
+turn4,Sing,Clefable,100.0,155,Normal,,Normal,,1,0,2255,3005,False
+turn5,Sing,Clefable,70.0,155,Normal,,Normal,,1,0,2255,3005,False
+turn6,Sing,Clefable,6.0,155,Normal,,Normal,,1,0,2255,3005,False
+turn7,Sing,Clefable,6.0,155,Normal,,Normal,,0,0,2255,3005,False
+turn8,Sing,Clefable,-28.0,155,Normal,,Normal,,1,0,2255,3005,False
+turn1,Double Slap,Vulpix,173.0,98,Normal,,Fire,,0,0,2255,3255,True
+turn2,Double Slap,Vulpix,173.0,8.0,Normal,,Fire,,0,1,2255,3255,True
+turn3,Double Slap,Vulpix,173.0,-87.0,Normal,,Fire,,0,1,2255,3255,True
+turn1,Double Slap,Ninetales,181.0,133,Normal,,Fire,,0,0,2255,5005,True
+turn2,Double Slap,Ninetales,181.0,100.0,Normal,,Fire,,0,1,2255,5005,True
+turn3,Double Slap,Ninetales,181.0,67.0,Normal,,Fire,,0,1,2255,5005,True
+turn4,Double Slap,Ninetales,181.0,47.0,Normal,,Fire,,0,1,2255,5005,True
+turn5,Double Slap,Ninetales,148.0,47.0,Normal,,Fire,,0,0,2255,5005,True
+turn6,Double Slap,Ninetales,136.0,17.0,Normal,,Fire,,2,1,2255,5005,True
+turn7,Double Slap,Ninetales,136.0,-38.0,Normal,,Fire,,2,1,2255,5005,True
+turn1,Double Slap,Jigglypuff,200,175,Normal,,Normal,,0,0,2255,1005,True
+turn2,Double Slap,Jigglypuff,200,103.0,Normal,,Normal,,0,1,2255,1005,True
+turn3,Double Slap,Jigglypuff,200,103.0,Normal,,Normal,,0,0,2255,1005,True
+turn4,Double Slap,Jigglypuff,200,-62.0,Normal,,Normal,,0,1,2255,1005,True
+turn1,Sing,Wigglytuff,200,200,Normal,,Normal,,0,0,2255,2255,False
+turn2,Sing,Wigglytuff,166.0,200,Normal,,Normal,,1,0,2255,2255,False
+turn3,Sing,Wigglytuff,81.0,200,Normal,,Normal,,1,0,2255,2255,False
+turn4,Sing,Wigglytuff,81.0,200,Normal,,Normal,,0,0,2255,2255,False
+turn5,Sing,Wigglytuff,47.0,200,Normal,,Normal,,1,0,2255,2255,False
+turn6,Sing,Wigglytuff,-38.0,200,Normal,,Normal,,1,0,2255,2255,False
+turn1,Double Slap,Zubat,162.0,37.0,Normal,,Poison,Flying,0,0,2255,2755,True
+turn2,Double Slap,Zubat,126.0,37.0,Normal,,Poison,Flying,0,0,2255,2755,True
+turn3,Double Slap,Zubat,126.0,-29.0,Normal,,Poison,Flying,0,1,2255,2755,True
+turn1,Double Slap,Golbat,134.0,135,Normal,,Poison,Flying,0,0,2255,4505,True
+turn2,Double Slap,Golbat,134.0,102.0,Normal,,Poison,Flying,0,1,2255,4505,True
+turn3,Double Slap,Golbat,134.0,47.0,Normal,,Poison,Flying,0,1,2255,4505,True
+turn4,Double Slap,Golbat,134.0,14.0,Normal,,Poison,Flying,0,1,2255,4505,True
+turn5,Double Slap,Golbat,134.0,-22.0,Normal,,Poison,Flying,0,1,2255,4505,True
+turn1,Double Slap,Oddish,200,105,Normal,,Grass,Poison,0,0,2255,1505,True
+turn2,Double Slap,Oddish,200,45.0,Normal,,Grass,Poison,0,1,2255,1505,True
+turn3,Double Slap,Oddish,144.0,6.0,Normal,,Grass,Poison,0,0,2255,1505,True
+turn4,Double Slap,Oddish,144.0,-39.0,Normal,,Grass,Poison,0,0,2255,1505,True
+turn1,Double Slap,Gloom,137.0,87.0,Normal,,Grass,Poison,0,0,2255,2005,True
+turn2,Double Slap,Gloom,137.0,87.0,Normal,,Grass,Poison,0,0,2255,2005,True
+turn3,Double Slap,Gloom,137.0,87.0,Normal,,Grass,Poison,0,0,2255,2005,True
+turn4,Double Slap,Gloom,137.0,63.0,Normal,,Grass,Poison,0,1,2255,2005,True
+turn5,Double Slap,Gloom,137.0,63.0,Normal,,Grass,Poison,0,0,2255,2005,True
+turn6,Double Slap,Gloom,137.0,41.0,Normal,,Grass,Poison,0,1,2255,2005,True
+turn7,Double Slap,Gloom,137.0,41.0,Normal,,Grass,Poison,0,0,2255,2005,True
+turn8,Double Slap,Gloom,137.0,5.0,Normal,,Grass,Poison,0,1,2255,2005,True
+turn9,Double Slap,Gloom,137.0,-28.0,Normal,,Grass,Poison,0,0,2255,2005,True
+turn1,Sing,Vileplume,200,135,Normal,,Grass,Poison,0,0,2255,2505,False
+turn2,Sing,Vileplume,171.0,135,Normal,,Grass,Poison,1,0,2255,2505,False
+turn3,Sing,Vileplume,143.0,135,Normal,,Grass,Poison,1,0,2255,2505,False
+turn4,Sing,Vileplume,116.0,135,Normal,,Grass,Poison,1,0,2255,2505,False
+turn5,Sing,Vileplume,91.0,135,Normal,,Grass,Poison,1,0,2255,2505,False
+turn6,Sing,Vileplume,91.0,135,Normal,,Grass,Poison,0,0,2255,2505,False
+turn7,Sing,Vileplume,65.0,135,Normal,,Grass,Poison,1,0,2255,2505,False
+turn8,Sing,Vileplume,38.0,135,Normal,,Grass,Poison,1,0,2255,2505,False
+turn9,Sing,Vileplume,13.0,135,Normal,,Grass,Poison,1,0,2255,2505,False
+turn10,Sing,Vileplume,13.0,135,Normal,,Grass,Poison,0,0,2255,2505,False
+turn11,Sing,Vileplume,-15.0,135,Normal,,Grass,Poison,1,0,2255,2505,False
+turn1,Double Slap,Paras,200,95,Normal,,Bug,Grass,0,0,2255,1255,True
+turn2,Double Slap,Paras,200,53.0,Normal,,Bug,Grass,0,1,2255,1255,True
+turn3,Double Slap,Paras,200,27.0,Normal,,Bug,Grass,0,1,2255,1255,True
+turn4,Double Slap,Paras,200,27.0,Normal,,Bug,Grass,0,0,2255,1255,True
+turn5,Double Slap,Paras,200,-15.0,Normal,,Bug,Grass,0,1,2255,1255,True
+turn1,Double Slap,Parasect,200,120,Normal,,Bug,Grass,0,0,2255,1505,True
+turn2,Double Slap,Parasect,200,80.0,Normal,,Bug,Grass,0,1,2255,1505,True
+turn3,Double Slap,Parasect,200,25.0,Normal,,Bug,Grass,0,1,2255,1505,True
+turn4,Double Slap,Parasect,200,25.0,Normal,,Bug,Grass,0,0,2255,1505,True
+turn5,Double Slap,Parasect,200,-20.0,Normal,,Bug,Grass,0,1,2255,1505,True
+turn1,Sing,Venonat,200,120,Normal,,Bug,Poison,0,0,2255,2255,False
+turn2,Sing,Venonat,172.0,120,Normal,,Bug,Poison,1,0,2255,2255,False
+turn3,Sing,Venonat,139.0,120,Normal,,Bug,Poison,1,0,2255,2255,False
+turn4,Sing,Venonat,110.0,120,Normal,,Bug,Poison,1,0,2255,2255,False
+turn5,Sing,Venonat,80.0,120,Normal,,Bug,Poison,1,0,2255,2255,False
+turn6,Sing,Venonat,51.0,120,Normal,,Bug,Poison,1,0,2255,2255,False
+turn7,Sing,Venonat,51.0,120,Normal,,Bug,Poison,0,0,2255,2255,False
+turn8,Sing,Venonat,22.0,120,Normal,,Bug,Poison,1,0,2255,2255,False
+turn9,Sing,Venonat,-7.0,120,Normal,,Bug,Poison,1,0,2255,2255,False
+turn1,Double Slap,Venomoth,200,130,Normal,,Bug,Poison,0,0,2255,4505,False
+turn2,Double Slap,Venomoth,131.0,130,Normal,,Bug,Poison,1,0,2255,4505,False
+turn3,Double Slap,Venomoth,131.0,130,Normal,,Bug,Poison,0,0,2255,4505,False
+turn4,Double Slap,Venomoth,60.0,130,Normal,,Bug,Poison,1,0,2255,4505,False
+turn5,Double Slap,Venomoth,-7.0,130,Normal,,Bug,Poison,1,0,2255,4505,False
+turn1,Double Slap,Diglett,121.0,70,Normal,,Ground,,0,0,2255,4755,True
+turn2,Double Slap,Diglett,121.0,-38.0,Normal,,Ground,,0,1,2255,4755,True
+turn1,Double Slap,Dugtrio,94.0,95,Normal,,Ground,,0,0,2255,6005,True
+turn2,Double Slap,Dugtrio,94.0,63.0,Normal,,Ground,,0,1,2255,6005,True
+turn3,Double Slap,Dugtrio,94.0,-12.0,Normal,,Ground,,0,1,2255,6005,True
+turn1,Double Slap,Meowth,164.0,-10.0,Normal,,Normal,,0,0,2255,4505,True
+turn1,Double Slap,Persian,137.0,125,Normal,,Normal,,0,0,2255,5755,True
+turn2,Double Slap,Persian,137.0,55.0,Normal,,Normal,,0,1,2255,5755,True
+turn3,Double Slap,Persian,137.0,27.0,Normal,,Normal,,0,1,2255,5755,True
+turn4,Double Slap,Persian,137.0,-21.0,Normal,,Normal,,0,1,2255,5755,True
+turn1,Double Slap,Psyduck,182.0,110,Normal,,Water,,0,0,2255,2755,True
+turn2,Double Slap,Psyduck,182.0,62.0,Normal,,Water,,0,1,2255,2755,True
+turn3,Double Slap,Psyduck,182.0,32.0,Normal,,Water,,0,1,2255,2755,True
+turn4,Double Slap,Psyduck,182.0,0.0,Normal,,Water,,0,1,2255,2755,True
+turn1,Double Slap,Golduck,125.0,140,Normal,,Water,,0,0,2255,4255,True
+turn2,Double Slap,Golduck,125.0,120.0,Normal,,Water,,0,1,2255,4255,True
+turn3,Double Slap,Golduck,125.0,98.0,Normal,,Water,,0,1,2255,4255,True
+turn4,Double Slap,Golduck,125.0,65.0,Normal,,Water,,0,1,2255,4255,True
+turn5,Double Slap,Golduck,51.0,65.0,Normal,,Water,,0,0,2255,4255,True
+turn6,Double Slap,Golduck,51.0,45.0,Normal,,Water,,0,1,2255,4255,True
+turn7,Double Slap,Golduck,51.0,15.0,Normal,,Water,,0,1,2255,4255,True
+turn8,Double Slap,Golduck,51.0,-15.0,Normal,,Water,,0,1,2255,4255,True
+turn1,Double Slap,Mankey,92.0,100,Normal,,Fighting,,0,0,2255,3505,True
+turn2,Double Slap,Mankey,92.0,20.0,Normal,,Fighting,,0,1,2255,3505,True
+turn3,Double Slap,Mankey,92.0,-60.0,Normal,,Fighting,,0,1,2255,3505,True
+turn1,Double Slap,Primeape,91.0,125,Normal,,Fighting,,0,0,2255,4755,True
+turn2,Double Slap,Primeape,91.0,83.0,Normal,,Fighting,,0,1,2255,4755,True
+turn3,Double Slap,Primeape,91.0,57.0,Normal,,Fighting,,0,1,2255,4755,True
+turn4,Double Slap,Primeape,91.0,9.0,Normal,,Fighting,,0,1,2255,4755,True
+turn5,Double Slap,Primeape,91.0,-17.0,Normal,,Fighting,,0,1,2255,4755,True
+turn1,Double Slap,Growlithe,142.0,88.0,Normal,,Fire,,0,0,2255,3005,True
+turn2,Double Slap,Growlithe,142.0,23.0,Normal,,Fire,,0,1,2255,3005,True
+turn3,Double Slap,Growlithe,142.0,-71.0,Normal,,Fire,,0,1,2255,3005,True
+turn1,Double Slap,Arcanine,146.0,129.0,Normal,,Fire,,0,0,2255,4755,True
+turn2,Double Slap,Arcanine,146.0,63.0,Normal,,Fire,,0,1,2255,4755,True
+turn3,Double Slap,Arcanine,146.0,18.0,Normal,,Fire,,0,1,2255,4755,True
+turn4,Double Slap,Arcanine,146.0,-43.0,Normal,,Fire,,0,1,2255,4755,True
+turn1,Sing,Poliwag,200,100,Normal,,Water,,0,0,2255,4505,False
+turn2,Sing,Poliwag,162.0,100,Normal,,Water,,1,0,2255,4505,False
+turn3,Sing,Poliwag,122.0,100,Normal,,Water,,1,0,2255,4505,False
+turn4,Sing,Poliwag,84.0,100,Normal,,Water,,1,0,2255,4505,False
+turn5,Sing,Poliwag,46.0,100,Normal,,Water,,1,0,2255,4505,False
+turn6,Sing,Poliwag,6.0,100,Normal,,Water,,1,0,2255,4505,False
+turn7,Sing,Poliwag,6.0,100,Normal,,Water,,0,0,2255,4505,False
+turn8,Sing,Poliwag,-31.0,100,Normal,,Water,,1,0,2255,4505,False
+turn1,Double Slap,Poliwhirl,146.0,125,Normal,,Water,,0,0,2255,4505,True
+turn2,Double Slap,Poliwhirl,146.0,101.0,Normal,,Water,,0,1,2255,4505,True
+turn3,Double Slap,Poliwhirl,146.0,79.0,Normal,,Water,,0,1,2255,4505,True
+turn4,Double Slap,Poliwhirl,146.0,40.0,Normal,,Water,,0,1,2255,4505,True
+turn5,Double Slap,Poliwhirl,93.0,40.0,Normal,,Water,,0,0,2255,4505,True
+turn6,Double Slap,Poliwhirl,93.0,16.0,Normal,,Water,,0,1,2255,4505,True
+turn7,Double Slap,Poliwhirl,93.0,-36.0,Normal,,Water,,0,1,2255,4505,True
+turn1,Sing,Poliwrath,200,150,Normal,,Water,Fighting,0,0,2255,3505,False
+turn2,Sing,Poliwrath,127.0,150,Normal,,Water,Fighting,1,0,2255,3505,False
+turn3,Sing,Poliwrath,58.0,150,Normal,,Water,Fighting,1,0,2255,3505,False
+turn4,Sing,Poliwrath,58.0,150,Normal,,Water,Fighting,0,0,2255,3505,False
+turn5,Sing,Poliwrath,-13.0,150,Normal,,Water,Fighting,1,0,2255,3505,False
+turn1,Double Slap,Abra,200,-99.0,Normal,,Psychic,,0,0,2255,4505,True
+turn1,Double Slap,Kadabra,108.0,100,Normal,,Psychic,,0,0,2255,5255,True
+turn2,Double Slap,Kadabra,108.0,31.0,Normal,,Psychic,,0,1,2255,5255,True
+turn3,Double Slap,Kadabra,108.0,-21.0,Normal,,Psychic,,0,1,2255,5255,True
+turn1,Sing,Alakazam,50.0,115,Normal,,Psychic,,0,0,2255,6005,False
+turn2,Sing,Alakazam,50.0,79.0,Normal,,Psychic,,0,1,2255,6005,False
+turn3,Sing,Alakazam,-104.0,79.0,Normal,,Psychic,,0,0,2255,6005,False
+turn1,Double Slap,Machop,200,130,Normal,,Fighting,,0,0,2255,1755,True
+turn2,Double Slap,Machop,200,55.0,Normal,,Fighting,,0,1,2255,1755,True
+turn3,Double Slap,Machop,200,55.0,Normal,,Fighting,,0,0,2255,1755,True
+turn4,Double Slap,Machop,200,25.0,Normal,,Fighting,,0,1,2255,1755,True
+turn5,Double Slap,Machop,200,-55.0,Normal,,Fighting,,0,1,2255,1755,True
+turn1,Sing,Machoke,62.0,140,Normal,,Fighting,,0,0,2255,2255,False
+turn2,Sing,Machoke,62.0,107.0,Normal,,Fighting,,0,1,2255,2255,False
+turn3,Sing,Machoke,62.0,74.0,Normal,,Fighting,,0,1,2255,2255,False
+turn4,Sing,Machoke,62.0,50.0,Normal,,Fighting,,0,1,2255,2255,False
+turn5,Sing,Machoke,62.0,26.0,Normal,,Fighting,,0,1,2255,2255,False
+turn6,Sing,Machoke,62.0,2.0,Normal,,Fighting,,0,1,2255,2255,False
+turn7,Sing,Machoke,-81.0,2.0,Normal,,Fighting,,0,0,2255,2255,False
+turn1,Sing,Machamp,24.0,150,Normal,,Fighting,,0,0,2255,2755,False
+turn2,Sing,Machamp,24.0,106.0,Normal,,Fighting,,0,1,2255,2755,False
+turn3,Sing,Machamp,24.0,73.0,Normal,,Fighting,,0,1,2255,2755,False
+turn4,Sing,Machamp,24.0,53.0,Normal,,Fighting,,0,1,2255,2755,False
+turn5,Sing,Machamp,-146.0,53.0,Normal,,Fighting,,0,0,2255,2755,False
+turn1,Double Slap,Bellsprout,200,110,Normal,,Grass,Poison,0,0,2255,2005,True
+turn2,Double Slap,Bellsprout,200,47.0,Normal,,Grass,Poison,0,1,2255,2005,True
+turn3,Double Slap,Bellsprout,200,47.0,Normal,,Grass,Poison,0,0,2255,2005,True
+turn4,Double Slap,Bellsprout,200,47.0,Normal,,Grass,Poison,0,0,2255,2005,True
+turn5,Double Slap,Bellsprout,200,-33.0,Normal,,Grass,Poison,0,1,2255,2005,True
+turn1,Double Slap,Weepinbell,188,125,Normal,,Grass,Poison,0,0,2255,2755,True
+turn2,Double Slap,Weepinbell,176,93.0,Normal,,Grass,Poison,3,1,2255,2755,True
+turn3,Double Slap,Weepinbell,164,45.0,Normal,,Grass,Poison,3,1,2255,2755,True
+turn4,Double Slap,Weepinbell,152,15.0,Normal,,Grass,Poison,3,1,2255,2755,True
+turn5,Double Slap,Weepinbell,152,-30.0,Normal,,Grass,Poison,3,1,2255,2755,True
+turn1,Double Slap,Victreebel,118.0,140,Normal,,Grass,Poison,0,0,2255,3505,True
+turn2,Double Slap,Victreebel,118.0,101.0,Normal,,Grass,Poison,0,1,2255,3505,True
+turn3,Double Slap,Victreebel,118.0,79.0,Normal,,Grass,Poison,0,1,2255,3505,True
+turn4,Double Slap,Victreebel,118.0,19.0,Normal,,Grass,Poison,0,1,2255,3505,True
+turn5,Double Slap,Victreebel,118.0,-7.0,Normal,,Grass,Poison,0,1,2255,3505,True
+turn1,Double Slap,Tentacool,200,100,Normal,,Water,Poison,0,0,2255,3505,True
+turn2,Double Slap,Tentacool,200,58.0,Normal,,Water,Poison,5,1,2255,3505,True
+turn3,Double Slap,Tentacool,136.0,58.0,Normal,,Water,Poison,5,0,2255,3505,True
+turn4,Double Slap,Tentacool,110.0,58.0,Normal,,Water,Poison,5,0,2255,3505,True
+turn5,Double Slap,Tentacool,73.0,58.0,Normal,,Water,Poison,5,1,2255,3505,True
+turn6,Double Slap,Tentacool,73.0,-8.0,Normal,,Water,Poison,5,1,2255,3505,True
+turn1,Double Slap,Tentacruel,188,140,Normal,,Water,Poison,0,0,2255,5005,True
+turn2,Double Slap,Tentacruel,176,104.0,Normal,,Water,Poison,3,1,2255,5005,True
+turn3,Double Slap,Tentacruel,164,60.0,Normal,,Water,Poison,3,1,2255,5005,True
+turn4,Double Slap,Tentacruel,121.0,60.0,Normal,,Water,Poison,3,0,2255,5005,True
+turn5,Double Slap,Tentacruel,109.0,36.0,Normal,,Water,Poison,3,1,2255,5005,True
+turn6,Double Slap,Tentacruel,109.0,0.0,Normal,,Water,Poison,3,1,2255,5005,True
+turn1,Double Slap,Geodude,200,100,Normal,,Rock,Ground,0,0,2255,1005,True
+turn2,Double Slap,Geodude,200,92.0,Normal,,Rock,Ground,0,1,2255,1005,True
+turn3,Double Slap,Geodude,200,92.0,Normal,,Rock,Ground,0,0,2255,1005,True
+turn4,Double Slap,Geodude,200,76.0,Normal,,Rock,Ground,0,1,2255,1005,True
+turn5,Double Slap,Geodude,200,76.0,Normal,,Rock,Ground,0,0,2255,1005,True
+turn6,Double Slap,Geodude,200,64.0,Normal,,Rock,Ground,0,1,2255,1005,True
+turn7,Double Slap,Geodude,200,64.0,Normal,,Rock,Ground,0,0,2255,1005,True
+turn8,Double Slap,Geodude,200,44.0,Normal,,Rock,Ground,0,1,2255,1005,True
+turn9,Double Slap,Geodude,200,44.0,Normal,,Rock,Ground,0,0,2255,1005,True
+turn10,Double Slap,Geodude,200,36.0,Normal,,Rock,Ground,0,1,2255,1005,True
+turn11,Double Slap,Geodude,200,28.0,Normal,,Rock,Ground,0,1,2255,1005,True
+turn12,Double Slap,Geodude,200,28.0,Normal,,Rock,Ground,0,0,2255,1005,True
+turn13,Double Slap,Geodude,200,28.0,Normal,,Rock,Ground,0,0,2255,1005,True
+turn14,Double Slap,Geodude,200,16.0,Normal,,Rock,Ground,0,1,2255,1005,True
+turn15,Double Slap,Geodude,200,16.0,Normal,,Rock,Ground,0,0,2255,1005,True
+turn16,Double Slap,Geodude,200,0.0,Normal,,Rock,Ground,0,1,2255,1005,True
+turn1,Double Slap,Graveler,200,115,Normal,,Rock,Ground,0,0,2255,1755,True
+turn2,Double Slap,Graveler,200,115,Normal,,Rock,Ground,0,0,2255,1755,True
+turn3,Double Slap,Graveler,200,100.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn4,Double Slap,Graveler,200,88.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn5,Double Slap,Graveler,200,88.0,Normal,,Rock,Ground,0,0,2255,1755,True
+turn6,Double Slap,Graveler,200,80.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn7,Double Slap,Graveler,200,64.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn8,Double Slap,Graveler,200,64.0,Normal,,Rock,Ground,0,0,2255,1755,True
+turn9,Double Slap,Graveler,200,58.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn10,Double Slap,Graveler,200,50.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn11,Double Slap,Graveler,200,50.0,Normal,,Rock,Ground,0,0,2255,1755,True
+turn12,Double Slap,Graveler,200,50.0,Normal,,Rock,Ground,0,0,2255,1755,True
+turn13,Double Slap,Graveler,200,44.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn14,Double Slap,Graveler,200,44.0,Normal,,Rock,Ground,0,0,2255,1755,True
+turn15,Double Slap,Graveler,200,29.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn16,Double Slap,Graveler,200,29.0,Normal,,Rock,Ground,0,0,2255,1755,True
+turn17,Double Slap,Graveler,200,20.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn18,Double Slap,Graveler,200,20.0,Normal,,Rock,Ground,0,0,2255,1755,True
+turn19,Double Slap,Graveler,200,20.0,Normal,,Rock,Ground,0,0,2255,1755,True
+turn20,Double Slap,Graveler,200,11.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn21,Double Slap,Graveler,200,2.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn22,Double Slap,Graveler,200,2.0,Normal,,Rock,Ground,0,0,2255,1755,True
+turn23,Double Slap,Graveler,200,-10.0,Normal,,Rock,Ground,0,1,2255,1755,True
+turn1,Sing,Golem,32.0,140,Normal,,Rock,Ground,0,0,2255,2255,False
+turn2,Sing,Golem,32.0,132.0,Normal,,Rock,Ground,0,1,2255,2255,False
+turn3,Sing,Golem,32.0,126.0,Normal,,Rock,Ground,0,1,2255,2255,False
+turn4,Sing,Golem,-134.0,126.0,Normal,,Rock,Ground,0,0,2255,2255,False
+turn1,Double Slap,Ponyta,145.0,110,Normal,,Fire,,0,0,2255,4505,True
+turn2,Double Slap,Ponyta,145.0,71.0,Normal,,Fire,,0,1,2255,4505,True
+turn3,Double Slap,Ponyta,145.0,32.0,Normal,,Fire,,0,1,2255,4505,True
+turn4,Double Slap,Ponyta,145.0,-28.0,Normal,,Fire,,0,1,2255,4505,True
+turn1,Double Slap,Rapidash,137.0,125,Normal,,Fire,,0,0,2255,5255,True
+turn2,Double Slap,Rapidash,137.0,101.0,Normal,,Fire,,0,1,2255,5255,True
+turn3,Double Slap,Rapidash,137.0,68.0,Normal,,Fire,,0,1,2255,5255,True
+turn4,Double Slap,Rapidash,137.0,24.0,Normal,,Fire,,0,1,2255,5255,True
+turn5,Double Slap,Rapidash,137.0,-36.0,Normal,,Fire,,0,1,2255,5255,True
+turn1,Double Slap,Slowpoke,200,150,Normal,,Water,Psychic,0,0,2255,755,True
+turn2,Double Slap,Slowpoke,200,128.0,Normal,,Water,Psychic,0,1,2255,755,True
+turn3,Double Slap,Slowpoke,200,68.0,Normal,,Water,Psychic,0,1,2255,755,True
+turn4,Double Slap,Slowpoke,173.0,13.0,Normal,,Water,Psychic,0,0,2255,755,True
+turn5,Double Slap,Slowpoke,173.0,13.0,Normal,,Water,Psychic,0,0,2255,755,True
+turn6,Double Slap,Slowpoke,173.0,-47.0,Normal,,Water,Psychic,0,1,2255,755,True
+turn1,Double Slap,Slowbro,200,155,Normal,,Water,Psychic,0,0,2255,1505,True
+turn2,Double Slap,Slowbro,200,155,Normal,,Water,Psychic,0,0,2255,1505,True
+turn3,Double Slap,Slowbro,200,120.0,Normal,,Water,Psychic,0,1,2255,1505,True
+turn4,Double Slap,Slowbro,200,120.0,Normal,,Water,Psychic,0,0,2255,1505,True
+turn5,Double Slap,Slowbro,200,120.0,Normal,,Water,Psychic,0,0,2255,1505,True
+turn6,Double Slap,Slowbro,200,96.0,Normal,,Water,Psychic,0,1,2255,1505,True
+turn7,Double Slap,Slowbro,200,69.0,Normal,,Water,Psychic,0,1,2255,1505,True
+turn8,Double Slap,Slowbro,200,69.0,Normal,,Water,Psychic,0,0,2255,1505,True
+turn9,Double Slap,Slowbro,200,29.0,Normal,,Water,Psychic,0,1,2255,1505,True
+turn10,Double Slap,Slowbro,200,29.0,Normal,,Water,Psychic,0,0,2255,1505,True
+turn11,Double Slap,Slowbro,200,13.0,Normal,,Water,Psychic,0,1,2255,1505,True
+turn12,Double Slap,Slowbro,200,13.0,Normal,,Water,Psychic,0,0,2255,1505,True
+turn13,Double Slap,Slowbro,200,-11.0,Normal,,Water,Psychic,0,1,2255,1505,True
+turn1,Double Slap,Magnemite,200,85,Normal,,Electric,,0,0,2255,2255,True
+turn2,Double Slap,Magnemite,200,37.0,Normal,,Electric,,5,1,2255,2255,True
+turn3,Double Slap,Magnemite,162.0,37.0,Normal,,Electric,,5,1,2255,2255,True
+turn4,Double Slap,Magnemite,162.0,15.0,Normal,,Electric,,5,1,2255,2255,True
+turn5,Double Slap,Magnemite,139.0,15.0,Normal,,Electric,,5,0,2255,2255,True
+turn6,Double Slap,Magnemite,139.0,-7.0,Normal,,Electric,,5,1,2255,2255,True
+turn1,Double Slap,Magneton,138.0,83.0,Normal,,Electric,,0,0,2255,3505,True
+turn2,Double Slap,Magneton,74.0,83.0,Normal,,Electric,,0,0,2255,3505,True
+turn3,Double Slap,Magneton,74.0,56.0,Normal,,Electric,,0,1,2255,3505,True
+turn4,Double Slap,Magneton,74.0,11.0,Normal,,Electric,,0,1,2255,3505,True
+turn5,Double Slap,Magneton,74.0,-25.0,Normal,,Electric,,0,1,2255,3505,True
+turn1,Double Slap,Farfetch'd,131.0,112,Normal,,Normal,Flying,0,0,2255,3005,True
+turn2,Double Slap,Farfetch'd,131.0,70.0,Normal,,Normal,Flying,0,1,2255,3005,True
+turn3,Double Slap,Farfetch'd,131.0,5.0,Normal,,Normal,Flying,0,1,2255,3005,True
+turn4,Double Slap,Farfetch'd,67.0,5.0,Normal,,Normal,Flying,0,0,2255,3005,True
+turn5,Double Slap,Farfetch'd,67.0,-55.0,Normal,,Normal,Flying,0,1,2255,3005,True
+turn1,Double Slap,Doduo,155.0,31.0,Normal,,Normal,Flying,0,0,2255,3755,True
+turn2,Double Slap,Doduo,107.0,31.0,Normal,,Normal,Flying,0,0,2255,3755,True
+turn3,Double Slap,Doduo,107.0,-3.0,Normal,,Normal,Flying,0,1,2255,3755,True
+turn1,Double Slap,Dodrio,69.0,120,Normal,,Normal,Flying,0,0,2255,5005,True
+turn2,Double Slap,Dodrio,69.0,87.0,Normal,,Normal,Flying,0,1,2255,5005,True
+turn3,Double Slap,Dodrio,69.0,27.0,Normal,,Normal,Flying,0,1,2255,5005,True
+turn4,Double Slap,Dodrio,69.0,-21.0,Normal,,Normal,Flying,0,1,2255,5005,True
+turn1,Double Slap,Seel,182.0,125,Normal,,Water,,0,0,2255,2255,True
+turn2,Double Slap,Seel,166.0,125,Normal,,Water,,6,0,2255,2255,True
+turn3,Double Slap,Seel,149.0,125,Normal,,Water,,6,0,2255,2255,True
+turn4,Double Slap,Seel,133.0,125,Normal,,Water,,6,0,2255,2255,True
+turn5,Double Slap,Seel,117.0,125,Normal,,Water,,6,0,2255,2255,True
+turn6,Double Slap,Seel,101.0,125,Normal,,Water,,6,0,2255,2255,True
+turn7,Double Slap,Seel,83.0,125,Normal,,Water,,6,0,2255,2255,True
+turn8,Double Slap,Seel,65.0,125,Normal,,Water,,6,0,2255,2255,True
+turn9,Double Slap,Seel,48.0,125,Normal,,Water,,0,0,2255,2255,True
+turn10,Double Slap,Seel,48.0,83.0,Normal,,Water,,0,1,2255,2255,True
+turn11,Double Slap,Seel,48.0,53.0,Normal,,Water,,0,1,2255,2255,True
+turn12,Double Slap,Seel,48.0,8.0,Normal,,Water,,0,1,2255,2255,True
+turn13,Double Slap,Seel,48.0,-48.0,Normal,,Water,,0,1,2255,2255,True
+turn1,Double Slap,Dewgong,154.0,150,Normal,,Water,Ice,0,0,2255,3505,True
+turn2,Double Slap,Dewgong,154.0,117.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn3,Double Slap,Dewgong,154.0,73.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn4,Double Slap,Dewgong,154.0,43.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn5,Double Slap,Dewgong,107.0,43.0,Normal,,Water,Ice,0,0,2255,3505,True
+turn6,Double Slap,Dewgong,107.0,10.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn7,Double Slap,Dewgong,107.0,-40.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn1,Double Slap,Grimer,200,140,Normal,,Poison,,0,0,2255,1255,True
+turn2,Double Slap,Grimer,200,84.0,Normal,,Poison,,0,1,2255,1255,True
+turn3,Double Slap,Grimer,169.0,9.0,Normal,,Poison,,0,0,2255,1255,True
+turn4,Double Slap,Grimer,169.0,9.0,Normal,,Poison,,0,0,2255,1255,True
+turn5,Double Slap,Grimer,169.0,-39.0,Normal,,Poison,,0,1,2255,1255,True
+turn1,Sing,Muk,87.0,165,Normal,,Poison,,0,0,2255,2505,False
+turn2,Sing,Muk,87.0,141.0,Normal,,Poison,,0,1,2255,2505,False
+turn3,Sing,Muk,87.0,108.0,Normal,,Poison,,0,1,2255,2505,False
+turn4,Sing,Muk,87.0,75.0,Normal,,Poison,,0,1,2255,2505,False
+turn5,Sing,Muk,87.0,42.0,Normal,,Poison,,0,1,2255,2505,False
+turn6,Sing,Muk,-29.0,42.0,Normal,,Poison,,0,0,2255,2505,False
+turn1,Double Slap,Shellder,200,90,Normal,,Water,,0,0,2255,2005,True
+turn2,Double Slap,Shellder,200,66.0,Normal,,Water,,0,1,2255,2005,True
+turn3,Double Slap,Shellder,200,66.0,Normal,,Water,,0,0,2255,2005,True
+turn4,Double Slap,Shellder,200,50.0,Normal,,Water,,0,1,2255,2005,True
+turn5,Double Slap,Shellder,200,50.0,Normal,,Water,,0,0,2255,2005,True
+turn6,Double Slap,Shellder,200,23.0,Normal,,Water,,0,1,2255,2005,True
+turn7,Double Slap,Shellder,200,23.0,Normal,,Water,,0,0,2255,2005,True
+turn8,Double Slap,Shellder,200,5.0,Normal,,Water,,0,1,2255,2005,True
+turn9,Double Slap,Shellder,200,5.0,Normal,,Water,,0,0,2255,2005,True
+turn10,Double Slap,Shellder,200,5.0,Normal,,Water,,0,0,2255,2005,True
+turn11,Double Slap,Shellder,200,-35.0,Normal,,Water,,0,1,2255,2005,True
+turn1,Double Slap,Cloyster,149.0,110,Normal,,Water,Ice,0,0,2255,3505,True
+turn2,Double Slap,Cloyster,149.0,98.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn3,Double Slap,Cloyster,149.0,80.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn4,Double Slap,Cloyster,149.0,68.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn5,Double Slap,Cloyster,102.0,68.0,Normal,,Water,Ice,0,0,2255,3505,True
+turn6,Double Slap,Cloyster,102.0,56.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn7,Double Slap,Cloyster,102.0,26.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn8,Double Slap,Cloyster,58.0,26.0,Normal,,Water,Ice,0,0,2255,3505,True
+turn9,Double Slap,Cloyster,58.0,16.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn10,Double Slap,Cloyster,58.0,-8.0,Normal,,Water,Ice,0,1,2255,3505,True
+turn1,Defense Curl,Gastly,200,90,Normal,,Ghost,Poison,0,0,2255,4005,False
+turn2,Defense Curl,Gastly,150,90,Normal,,Ghost,Poison,5,0,2255,4005,False
+turn3,Defense Curl,Gastly,100,90,Normal,,Ghost,Poison,5,0,2255,4005,False
+turn4,Defense Curl,Gastly,50,90,Normal,,Ghost,Poison,5,0,2255,4005,False
+turn5,Defense Curl,Gastly,0,90,Normal,,Ghost,Poison,5,0,2255,4005,False
+turn1,Defense Curl,Haunter,157.0,105,Normal,,Ghost,Poison,0,0,2255,4755,False
+turn2,Defense Curl,Haunter,65.0,105,Normal,,Ghost,Poison,5,0,2255,4755,False
+turn3,Defense Curl,Haunter,15.0,105,Normal,,Ghost,Poison,5,0,2255,4755,False
+turn4,Defense Curl,Haunter,-35.0,105,Normal,,Ghost,Poison,5,0,2255,4755,False
+turn1,Defense Curl,Gengar,161.0,120,Normal,,Ghost,Poison,0,0,2255,5505,False
+turn2,Defense Curl,Gengar,111.0,120,Normal,,Ghost,Poison,5,0,2255,5505,False
+turn3,Defense Curl,Gengar,17.0,120,Normal,,Ghost,Poison,5,0,2255,5505,False
+turn4,Defense Curl,Gengar,-33.0,120,Normal,,Ghost,Poison,5,0,2255,5505,False
+turn1,Sing,Onix,135.0,95,Normal,,Rock,Ground,0,0,2255,3505,False
+turn2,Sing,Onix,135.0,83.0,Normal,,Rock,Ground,0,1,2255,3505,False
+turn3,Sing,Onix,135.0,68.0,Normal,,Rock,Ground,0,1,2255,3505,False
+turn4,Sing,Onix,74.0,68.0,Normal,,Rock,Ground,0,0,2255,3505,False
+turn5,Sing,Onix,74.0,59.0,Normal,,Rock,Ground,0,1,2255,3505,False
+turn6,Sing,Onix,74.0,44.0,Normal,,Rock,Ground,0,1,2255,3505,False
+turn7,Sing,Onix,13.0,44.0,Normal,,Rock,Ground,0,0,2255,3505,False
+turn8,Sing,Onix,13.0,35.0,Normal,,Rock,Ground,0,1,2255,3505,False
+turn9,Sing,Onix,13.0,26.0,Normal,,Rock,Ground,0,1,2255,3505,False
+turn10,Sing,Onix,13.0,17.0,Normal,,Rock,Ground,0,1,2255,3505,False
+turn11,Sing,Onix,13.0,11.0,Normal,,Rock,Ground,0,1,2255,3505,False
+turn12,Sing,Onix,-53.0,11.0,Normal,,Rock,Ground,0,0,2255,3505,False
+turn1,Double Slap,Drowzee,200,120,Normal,,Psychic,,0,0,2255,2105,True
+turn2,Double Slap,Drowzee,200,120,Normal,,Psychic,,0,0,2255,2105,True
+turn3,Double Slap,Drowzee,200,72.0,Normal,,Psychic,,0,1,2255,2105,True
+turn4,Double Slap,Drowzee,200,4.0,Normal,,Psychic,,0,1,2255,2105,True
+turn5,Double Slap,Drowzee,200,4.0,Normal,,Psychic,,0,0,2255,2105,True
+turn6,Double Slap,Drowzee,200,-47.0,Normal,,Psychic,,0,1,2255,2105,True
+turn1,Double Slap,Hypno,117.0,145,Normal,,Psychic,,0,0,2255,3355,True
+turn2,Double Slap,Hypno,117.0,112.0,Normal,,Psychic,,0,1,2255,3355,True
+turn3,Double Slap,Hypno,117.0,76.0,Normal,,Psychic,,0,1,2255,3355,True
+turn4,Double Slap,Hypno,117.0,40.0,Normal,,Psychic,,0,1,2255,3355,True
+turn5,Double Slap,Hypno,34.0,40.0,Normal,,Psychic,,0,0,2255,3355,True
+turn6,Double Slap,Hypno,34.0,18.0,Normal,,Psychic,,0,1,2255,3355,True
+turn7,Double Slap,Hypno,34.0,-30.0,Normal,,Psychic,,0,1,2255,3355,True
+turn1,Double Slap,Krabby,124.0,72.0,Normal,,Water,,0,0,2255,2505,True
+turn2,Double Slap,Krabby,47.0,72.0,Normal,,Water,,0,0,2255,2505,True
+turn3,Double Slap,Krabby,47.0,27.0,Normal,,Water,,0,1,2255,2505,True
+turn4,Double Slap,Krabby,47.0,0.0,Normal,,Water,,0,1,2255,2505,True
+turn1,Double Slap,Kingler,116.0,115,Normal,,Water,,0,0,2255,3755,False
+turn2,Double Slap,Kingler,116.0,91.0,Normal,,Water,,0,1,2255,3755,False
+turn3,Double Slap,Kingler,32.0,91.0,Normal,,Water,,0,0,2255,3755,False
+turn4,Double Slap,Kingler,32.0,70.0,Normal,,Water,,0,1,2255,3755,False
+turn5,Double Slap,Kingler,32.0,54.0,Normal,,Water,,0,1,2255,3755,False
+turn6,Double Slap,Kingler,32.0,30.0,Normal,,Water,,0,1,2255,3755,False
+turn7,Double Slap,Kingler,-52.0,30.0,Normal,,Water,,0,0,2255,3755,False
+turn1,Double Slap,Voltorb,130.0,68.0,Normal,,Electric,,0,0,2255,5005,True
+turn2,Double Slap,Voltorb,59.0,68.0,Normal,,Electric,,0,0,2255,5005,True
+turn3,Double Slap,Voltorb,59.0,-2.0,Normal,,Electric,,0,1,2255,5005,True
+turn1,Sing,Electrode,94.0,87.0,Normal,,Electric,,0,0,2255,7005,False
+turn2,Sing,Electrode,-22.0,87.0,Normal,,Electric,,0,0,2255,7005,False
+turn1,Double Slap,Exeggcute,200,120,Normal,,Grass,Psychic,0,0,2255,2005,True
+turn2,Double Slap,Exeggcute,200,65.0,Normal,,Grass,Psychic,0,1,2255,2005,True
+turn3,Double Slap,Exeggcute,200,43.0,Normal,,Grass,Psychic,0,1,2255,2005,True
+turn4,Double Slap,Exeggcute,200,43.0,Normal,,Grass,Psychic,0,0,2255,2005,True
+turn5,Double Slap,Exeggcute,200,13.0,Normal,,Grass,Psychic,0,1,2255,2005,True
+turn6,Double Slap,Exeggcute,200,13.0,Normal,,Grass,Psychic,0,0,2255,2005,True
+turn7,Double Slap,Exeggcute,200,-42.0,Normal,,Grass,Psychic,0,1,2255,2005,True
+turn1,Double Slap,Exeggutor,103.0,155,Normal,,Grass,Psychic,0,0,2255,2755,True
+turn2,Double Slap,Exeggutor,103.0,110.0,Normal,,Grass,Psychic,0,1,2255,2755,True
+turn3,Double Slap,Exeggutor,103.0,60.0,Normal,,Grass,Psychic,0,1,2255,2755,True
+turn4,Double Slap,Exeggutor,103.0,27.0,Normal,,Grass,Psychic,0,1,2255,2755,True
+turn5,Double Slap,Exeggutor,103.0,0.0,Normal,,Grass,Psychic,0,1,2255,2755,True
+turn1,Double Slap,Cubone,200,110,Normal,,Ground,,0,0,2255,1755,True
+turn2,Double Slap,Cubone,200,80.0,Normal,,Ground,,0,1,2255,1755,True
+turn3,Double Slap,Cubone,200,80.0,Normal,,Ground,,0,0,2255,1755,True
+turn4,Double Slap,Cubone,200,30.0,Normal,,Ground,,0,1,2255,1755,True
+turn5,Double Slap,Cubone,200,30.0,Normal,,Ground,,0,0,2255,1755,True
+turn6,Double Slap,Cubone,200,12.0,Normal,,Ground,,0,1,2255,1755,True
+turn7,Double Slap,Cubone,200,-8.0,Normal,,Ground,,0,1,2255,1755,True
+turn1,Sing,Marowak,128.0,120,Normal,,Ground,,0,0,2255,2255,False
+turn2,Sing,Marowak,128.0,104.0,Normal,,Ground,,0,1,2255,2255,False
+turn3,Sing,Marowak,128.0,86.0,Normal,,Ground,,0,1,2255,2255,False
+turn4,Sing,Marowak,60.0,86.0,Normal,,Ground,,0,0,2255,2255,False
+turn5,Sing,Marowak,60.0,46.0,Normal,,Ground,,0,1,2255,2255,False
+turn6,Sing,Marowak,-17.0,46.0,Normal,,Ground,,0,0,2255,2255,False
+turn1,Sing,Hitmonlee,-118.0,110,Normal,,Fighting,,0,0,2255,4355,False
+turn1,Double Slap,Hitmonchan,128.0,110,Normal,,Fighting,,0,0,2255,3805,True
+turn2,Double Slap,Hitmonchan,128.0,66.0,Normal,,Fighting,,0,1,2255,3805,True
+turn3,Double Slap,Hitmonchan,128.0,26.0,Normal,,Fighting,,0,1,2255,3805,True
+turn4,Double Slap,Hitmonchan,128.0,-29.0,Normal,,Fighting,,0,1,2255,3805,True
+turn1,Double Slap,Lickitung,200,150,Normal,,Normal,,0,0,2255,1505,True
+turn2,Double Slap,Lickitung,200,150,Normal,,Normal,,0,0,2255,1505,True
+turn3,Double Slap,Lickitung,200,150,Normal,,Normal,,0,0,2255,1505,True
+turn4,Double Slap,Lickitung,200,128.0,Normal,,Normal,,0,1,2255,1505,True
+turn5,Double Slap,Lickitung,200,106.0,Normal,,Normal,,0,1,2255,1505,True
+turn6,Double Slap,Lickitung,200,106.0,Normal,,Normal,,0,0,2255,1505,True
+turn7,Double Slap,Lickitung,200,76.0,Normal,,Normal,,0,1,2255,1505,True
+turn8,Double Slap,Lickitung,200,76.0,Normal,,Normal,,0,0,2255,1505,True
+turn9,Double Slap,Lickitung,200,54.0,Normal,,Normal,,0,1,2255,1505,True
+turn10,Double Slap,Lickitung,200,54.0,Normal,,Normal,,0,0,2255,1505,True
+turn11,Double Slap,Lickitung,200,6.0,Normal,,Normal,,0,1,2255,1505,True
+turn12,Double Slap,Lickitung,200,-16.0,Normal,,Normal,,0,1,2255,1505,True
+turn1,Double Slap,Koffing,176,82.0,Normal,,Poison,,0,0,2255,1755,True
+turn2,Double Slap,Koffing,152,82.0,Normal,,Poison,,3,0,2255,1755,True
+turn3,Double Slap,Koffing,128,66.0,Normal,,Poison,,3,1,2255,1755,True
+turn4,Double Slap,Koffing,104,66.0,Normal,,Poison,,3,0,2255,1755,True
+turn5,Double Slap,Koffing,80,48.0,Normal,,Poison,,3,1,2255,1755,True
+turn6,Double Slap,Koffing,56,48.0,Normal,,Poison,,3,0,2255,1755,True
+turn7,Double Slap,Koffing,32,3.0,Normal,,Poison,,3,1,2255,1755,True
+turn8,Double Slap,Koffing,32,-24.0,Normal,,Poison,,3,1,2255,1755,True
+turn1,Double Slap,Weezing,132.0,104.0,Normal,,Poison,,0,0,2255,3005,False
+turn2,Double Slap,Weezing,57.0,104.0,Normal,,Poison,,0,0,2255,3005,False
+turn3,Double Slap,Weezing,57.0,69.0,Normal,,Poison,,0,1,2255,3005,False
+turn4,Double Slap,Weezing,-17.0,69.0,Normal,,Poison,,0,0,2255,3005,False
+turn1,Double Slap,Rhyhorn,200,123.0,Normal,,Ground,Rock,0,0,2255,1255,True
+turn2,Double Slap,Rhyhorn,200,91.0,Normal,,Ground,Rock,0,1,2255,1255,True
+turn3,Double Slap,Rhyhorn,200,54.0,Normal,,Ground,Rock,0,1,2255,1255,True
+turn4,Double Slap,Rhyhorn,200,38.0,Normal,,Ground,Rock,0,0,2255,1255,True
+turn5,Double Slap,Rhyhorn,200,11.0,Normal,,Ground,Rock,0,1,2255,1255,True
+turn6,Double Slap,Rhyhorn,200,-19.0,Normal,,Ground,Rock,0,1,2255,1255,True
+turn1,Sing,Rhydon,200,139.0,Normal,,Ground,Rock,0,0,2255,2005,True
+turn2,Sing,Rhydon,200,102.0,Normal,,Ground,Rock,0,1,2255,2005,True
+turn3,Sing,Rhydon,200,75.0,Normal,,Ground,Rock,0,0,2255,2005,True
+turn4,Sing,Rhydon,200,39.0,Normal,,Ground,Rock,0,1,2255,2005,True
+turn5,Sing,Rhydon,200,4.0,Normal,,Ground,Rock,0,1,2255,2005,True
+turn6,Sing,Rhydon,200,-21.0,Normal,,Ground,Rock,0,0,2255,2005,True
+turn1,Double Slap,Chansey,191.0,310,Normal,,Normal,,0,0,2255,2505,True
+turn2,Double Slap,Chansey,191.0,-190.0,Normal,,Normal,,0,1,2255,2505,True
+turn1,Double Slap,Tangela,212,113,Normal,,Grass,,0,0,2255,3005,True
+turn2,Double Slap,Tangela,224,61.0,Normal,,Grass,,7,1,2255,3005,True
+turn3,Double Slap,Tangela,236,33.0,Normal,,Grass,,7,1,2255,3005,True
+turn4,Double Slap,Tangela,248,-3.0,Normal,,Grass,,7,1,2255,3005,True
+turn1,Sing,Kangaskhan,110.0,165,Normal,,Normal,,0,0,2255,4505,False
+turn2,Sing,Kangaskhan,110.0,145.0,Normal,,Normal,,0,1,2255,4505,False
+turn3,Sing,Kangaskhan,110.0,125.0,Normal,,Normal,,0,1,2255,4505,False
+turn4,Sing,Kangaskhan,110.0,103.0,Normal,,Normal,,0,1,2255,4505,False
+turn5,Sing,Kangaskhan,110.0,83.0,Normal,,Normal,,0,1,2255,4505,False
+turn6,Sing,Kangaskhan,17.0,83.0,Normal,,Normal,,0,0,2255,4505,False
+turn7,Sing,Kangaskhan,17.0,61.0,Normal,,Normal,,0,1,2255,4505,False
+turn8,Sing,Kangaskhan,17.0,39.0,Normal,,Normal,,0,1,2255,4505,False
+turn9,Sing,Kangaskhan,-64.0,39.0,Normal,,Normal,,0,0,2255,4505,False
+turn1,Double Slap,Horsea,183.0,90,Normal,,Water,,0,0,2255,3005,True
+turn2,Double Slap,Horsea,183.0,54.0,Normal,,Water,,0,1,2255,3005,True
+turn3,Double Slap,Horsea,164.0,54.0,Normal,,Water,,0,0,2255,3005,True
+turn4,Double Slap,Horsea,164.0,30.0,Normal,,Water,,0,1,2255,3005,True
+turn5,Double Slap,Horsea,164.0,-14.0,Normal,,Water,,0,1,2255,3005,True
+turn1,Sing,Seadra,134.0,115,Normal,,Water,,0,0,2255,4255,False
+turn2,Sing,Seadra,134.0,88.0,Normal,,Water,,0,1,2255,4255,False
+turn3,Sing,Seadra,134.0,61.0,Normal,,Water,,0,1,2255,4255,False
+turn4,Sing,Seadra,134.0,34.0,Normal,,Water,,0,1,2255,4255,False
+turn5,Sing,Seadra,67.0,7.0,Normal,,Water,,0,0,2255,4255,False
+turn6,Sing,Seadra,-2.0,7.0,Normal,,Water,,0,0,2255,4255,False
+turn1,Double Slap,Goldeen,159.0,66.0,Normal,,Water,,0,0,2255,3155,True
+turn2,Double Slap,Goldeen,116.0,66.0,Normal,,Water,,0,0,2255,3155,True
+turn3,Double Slap,Goldeen,116.0,38.0,Normal,,Water,,0,1,2255,3155,True
+turn4,Double Slap,Goldeen,116.0,14.0,Normal,,Water,,0,1,2255,3155,True
+turn5,Double Slap,Goldeen,116.0,-38.0,Normal,,Water,,0,1,2255,3155,True
+turn1,Sing,Seaking,-65335,140,Normal,,Water,,0,0,2255,3405,False
+turn1,Double Slap,Staryu,159.0,90,Normal,,Water,,0,0,2255,4255,True
+turn2,Double Slap,Staryu,121.0,90,Normal,,Water,,5,0,2255,4255,True
+turn3,Double Slap,Staryu,121.0,30.0,Normal,,Water,,5,1,2255,4255,True
+turn4,Double Slap,Staryu,88.0,30.0,Normal,,Water,,5,0,2255,4255,True
+turn5,Double Slap,Staryu,45.0,30.0,Normal,,Water,,5,1,2255,4255,True
+turn6,Double Slap,Staryu,45.0,-12.0,Normal,,Water,,5,1,2255,4255,True
+turn1,Sing,Starmie,131.0,120,Normal,,Water,Psychic,0,0,2255,5755,False
+turn2,Sing,Starmie,131.0,93.0,Normal,,Water,Psychic,0,1,2255,5755,False
+turn3,Sing,Starmie,131.0,48.0,Normal,,Water,Psychic,0,1,2255,5755,False
+turn4,Sing,Starmie,68.0,48.0,Normal,,Water,Psychic,0,0,2255,5755,False
+turn5,Sing,Starmie,68.0,3.0,Normal,,Water,Psychic,0,1,2255,5755,False
+turn6,Sing,Starmie,0.0,3.0,Normal,,Water,Psychic,0,0,2255,5755,False
+turn1,Double Slap,Mr. Mime,138.0,100,Normal,,Psychic,Normal,0,0,2255,4505,True
+turn2,Double Slap,Mr. Mime,138.0,61.0,Normal,,Psychic,Normal,0,1,2255,4505,True
+turn3,Double Slap,Mr. Mime,138.0,25.0,Normal,,Psychic,Normal,0,1,2255,4505,True
+turn4,Double Slap,Mr. Mime,72.0,25.0,Normal,,Psychic,Normal,0,0,2255,4505,True
+turn5,Double Slap,Mr. Mime,72.0,-14.0,Normal,,Psychic,Normal,0,1,2255,4505,True
+turn1,Sing,Scyther,106.0,130,Normal,,Bug,Flying,0,0,2255,5255,False
+turn2,Sing,Scyther,106.0,90.0,Normal,,Bug,Flying,0,1,2255,5255,False
+turn3,Sing,Scyther,106.0,70.0,Normal,,Bug,Flying,0,1,2255,5255,False
+turn4,Sing,Scyther,8.0,70.0,Normal,,Bug,Flying,0,0,2255,5255,False
+turn5,Sing,Scyther,8.0,15.0,Normal,,Bug,Flying,0,1,2255,5255,False
+turn6,Sing,Scyther,-81.0,15.0,Normal,,Bug,Flying,0,0,2255,5255,False
+turn1,Double Slap,Jynx,174.0,125,Normal,,Ice,Psychic,0,0,2255,4755,True
+turn2,Double Slap,Jynx,174.0,85.0,Normal,,Ice,Psychic,0,1,2255,4755,True
+turn3,Double Slap,Jynx,146.0,85.0,Normal,,Ice,Psychic,0,0,2255,4755,True
+turn4,Double Slap,Jynx,146.0,1.0,Normal,,Ice,Psychic,0,1,2255,4755,True
+turn5,Double Slap,Jynx,119.0,1.0,Normal,,Ice,Psychic,0,0,2255,4755,True
+turn6,Double Slap,Jynx,119.0,-37.0,Normal,,Ice,Psychic,0,1,2255,4755,True
+turn1,Double Slap,Electabuzz,155.0,125,Normal,,Electric,,0,0,2255,5255,True
+turn2,Double Slap,Electabuzz,155.0,99.0,Normal,,Electric,,0,1,2255,5255,True
+turn3,Double Slap,Electabuzz,111.0,99.0,Normal,,Electric,,0,0,2255,5255,True
+turn4,Double Slap,Electabuzz,111.0,71.0,Normal,,Electric,,0,1,2255,5255,True
+turn5,Double Slap,Electabuzz,111.0,43.0,Normal,,Electric,,0,1,2255,5255,True
+turn6,Double Slap,Electabuzz,111.0,7.0,Normal,,Electric,,0,1,2255,5255,True
+turn7,Double Slap,Electabuzz,111.0,-49.0,Normal,,Electric,,0,1,2255,5255,True
+turn1,Double Slap,Magmar,137.0,125,Normal,,Fire,,0,0,2255,4655,True
+turn2,Double Slap,Magmar,125.0,83.0,Normal,,Fire,,2,1,2255,4655,True
+turn3,Double Slap,Magmar,113.0,57.0,Normal,,Fire,,2,1,2255,4655,True
+turn4,Double Slap,Magmar,113.0,-13.0,Normal,,Fire,,2,1,2255,4655,True
+turn1,Sing,Pinsir,-65335,125,Normal,,Bug,,0,0,2255,4255,False
+turn1,Double Slap,Tauros,66.0,72.0,Normal,,Normal,,0,0,2255,5505,True
+turn2,Double Slap,Tauros,66.0,15.0,Normal,,Normal,,0,1,2255,5505,True
+turn3,Double Slap,Tauros,66.0,-40.0,Normal,,Normal,,0,1,2255,5505,True
+turn1,Double Slap,Magikarp,200,80,Normal,,Water,,0,0,2255,4005,True
+turn2,Double Slap,Magikarp,200,52.0,Normal,,Water,,0,1,2255,4005,True
+turn3,Double Slap,Magikarp,200,7.0,Normal,,Water,,0,1,2255,4005,True
+turn4,Double Slap,Magikarp,200,-23.0,Normal,,Water,,0,1,2255,4005,True
+turn1,Double Slap,Gyarados,160.0,122.0,Normal,,Water,Flying,0,0,2255,4055,True
+turn2,Double Slap,Gyarados,119.0,122.0,Normal,,Water,Flying,0,0,2255,4055,True
+turn3,Double Slap,Gyarados,119.0,89.0,Normal,,Water,Flying,0,1,2255,4055,True
+turn4,Double Slap,Gyarados,119.0,59.0,Normal,,Water,Flying,0,1,2255,4055,True
+turn5,Double Slap,Gyarados,119.0,9.0,Normal,,Water,Flying,0,1,2255,4055,True
+turn6,Double Slap,Gyarados,119.0,-13.0,Normal,,Water,Flying,0,1,2255,4055,True
+turn1,Sing,Lapras,146.0,190,Normal,,Water,Ice,0,0,2255,3005,False
+turn2,Sing,Lapras,146.0,150.0,Normal,,Water,Ice,0,1,2255,3005,False
+turn3,Sing,Lapras,84.0,150.0,Normal,,Water,Ice,0,0,2255,3005,False
+turn4,Sing,Lapras,84.0,130.0,Normal,,Water,Ice,0,1,2255,3005,False
+turn5,Sing,Lapras,84.0,108.0,Normal,,Water,Ice,0,1,2255,3005,False
+turn6,Sing,Lapras,84.0,86.0,Normal,,Water,Ice,0,1,2255,3005,False
+turn7,Sing,Lapras,24.0,53.0,Normal,,Water,Ice,0,0,2255,3005,False
+turn8,Sing,Lapras,-32.0,53.0,Normal,,Water,Ice,0,0,2255,3005,False
+turn1,Double Slap,Ditto,200,108,Normal,,Normal,,0,0,2255,2405,True
+turn2,Double Slap,Ditto,200,78.0,Normal,,Normal,,0,1,2255,2405,True
+turn3,Double Slap,Ditto,200,46.0,Normal,,Normal,,0,1,2255,2405,True
+turn4,Double Slap,Ditto,200,-34.0,Normal,,Normal,,0,1,2255,2405,True
+turn1,Double Slap,Eevee,156.0,115,Normal,,Normal,,0,0,2255,2755,True
+turn2,Double Slap,Eevee,156.0,85.0,Normal,,Normal,,0,1,2255,2755,True
+turn3,Double Slap,Eevee,156.0,10.0,Normal,,Normal,,0,1,2255,2755,True
+turn4,Double Slap,Eevee,156.0,-54.0,Normal,,Normal,,0,1,2255,2755,True
+turn1,Double Slap,Vaporeon,135.0,190,Normal,,Water,,0,0,2255,3255,True
+turn2,Double Slap,Vaporeon,135.0,151.0,Normal,,Water,,0,1,2255,3255,True
+turn3,Double Slap,Vaporeon,135.0,81.0,Normal,,Water,,0,1,2255,3255,True
+turn4,Double Slap,Vaporeon,73.0,81.0,Normal,,Water,,0,0,2255,3255,True
+turn5,Double Slap,Vaporeon,73.0,16.0,Normal,,Water,,0,1,2255,3255,True
+turn6,Double Slap,Vaporeon,73.0,-49.0,Normal,,Water,,0,1,2255,3255,True
+turn1,Double Slap,Jolteon,200,125,Normal,,Electric,,0,0,2255,6505,True
+turn2,Double Slap,Jolteon,170.0,125,Normal,,Electric,,4,0,2255,6505,True
+turn3,Double Slap,Jolteon,170.0,86.0,Normal,,Electric,,4,1,2255,6505,True
+turn4,Double Slap,Jolteon,170.0,44.0,Normal,,Electric,,4,1,2255,6505,True
+turn5,Double Slap,Jolteon,170.0,18.0,Normal,,Electric,,4,1,2255,6505,True
+turn6,Double Slap,Jolteon,140.0,18.0,Normal,,Electric,,4,0,2255,6505,True
+turn7,Double Slap,Jolteon,,,Normal,,Electric,,,,2255,6505,True
+turn1,Double Slap,Flareon,132.0,125,Normal,,Fire,,0,0,2255,3255,True
+turn2,Double Slap,Flareon,132.0,89.0,Normal,,Fire,,0,1,2255,3255,True
+turn3,Double Slap,Flareon,132.0,53.0,Normal,,Fire,,0,1,2255,3255,True
+turn4,Double Slap,Flareon,64.0,53.0,Normal,,Fire,,0,0,2255,3255,True
+turn5,Double Slap,Flareon,64.0,14.0,Normal,,Fire,,0,1,2255,3255,True
+turn6,Double Slap,Flareon,64.0,-25.0,Normal,,Fire,,0,1,2255,3255,True
+turn1,Double Slap,Porygon,200,125,Normal,,Normal,,0,0,2255,2005,True
+turn2,Double Slap,Porygon,200,92.0,Normal,,Normal,,0,1,2255,2005,True
+turn3,Double Slap,Porygon,200,92.0,Normal,,Normal,,0,0,2255,2005,True
+turn4,Double Slap,Porygon,200,70.0,Normal,,Normal,,0,1,2255,2005,True
+turn5,Double Slap,Porygon,200,70.0,Normal,,Normal,,0,0,2255,2005,True
+turn6,Double Slap,Porygon,200,48.0,Normal,,Normal,,0,1,2255,2005,True
+turn7,Double Slap,Porygon,200,48.0,Normal,,Normal,,0,0,2255,2005,True
+turn8,Double Slap,Porygon,200,12.0,Normal,,Normal,,0,1,2255,2005,True
+turn9,Double Slap,Porygon,200,-43.0,Normal,,Normal,,0,0,2255,2005,True
+turn1,Double Slap,Omanyte,200,95,Normal,,Rock,Water,0,0,2255,1755,True
+turn2,Double Slap,Omanyte,200,95,Normal,,Rock,Water,0,0,2255,1755,True
+turn3,Double Slap,Omanyte,200,95,Normal,,Rock,Water,0,0,2255,1755,True
+turn4,Double Slap,Omanyte,200,87.0,Normal,,Rock,Water,0,1,2255,1755,True
+turn5,Double Slap,Omanyte,200,87.0,Normal,,Rock,Water,0,0,2255,1755,True
+turn6,Double Slap,Omanyte,200,79.0,Normal,,Rock,Water,0,1,2255,1755,True
+turn7,Double Slap,Omanyte,200,79.0,Normal,,Rock,Water,0,0,2255,1755,True
+turn8,Double Slap,Omanyte,200,59.0,Normal,,Rock,Water,0,1,2255,1755,True
+turn9,Double Slap,Omanyte,200,47.0,Normal,,Rock,Water,0,1,2255,1755,True
+turn10,Double Slap,Omanyte,200,47.0,Normal,,Rock,Water,0,0,2255,1755,True
+turn11,Double Slap,Omanyte,200,47.0,Normal,,Rock,Water,0,0,2255,1755,True
+turn12,Double Slap,Omanyte,200,39.0,Normal,,Rock,Water,0,1,2255,1755,True
+turn13,Double Slap,Omanyte,200,19.0,Normal,,Rock,Water,0,1,2255,1755,True
+turn14,Double Slap,Omanyte,200,19.0,Normal,,Rock,Water,0,0,2255,1755,True
+turn15,Double Slap,Omanyte,200,19.0,Normal,,Rock,Water,0,0,2255,1755,True
+turn16,Double Slap,Omanyte,200,11.0,Normal,,Rock,Water,0,1,2255,1755,True
+turn17,Double Slap,Omanyte,200,11.0,Normal,,Rock,Water,0,0,2255,1755,True
+turn18,Double Slap,Omanyte,200,-5.0,Normal,,Rock,Water,0,1,2255,1755,True
+turn1,Double Slap,Omastar,166.0,130,Normal,,Rock,Water,0,0,2255,2755,True
+turn2,Double Slap,Omastar,166.0,118.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn3,Double Slap,Omastar,166.0,112.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn4,Double Slap,Omastar,166.0,103.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn5,Double Slap,Omastar,166.0,91.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn6,Double Slap,Omastar,129.0,91.0,Normal,,Rock,Water,0,0,2255,2755,True
+turn7,Double Slap,Omastar,129.0,82.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn8,Double Slap,Omastar,129.0,74.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn9,Double Slap,Omastar,129.0,62.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn10,Double Slap,Omastar,129.0,54.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn11,Double Slap,Omastar,129.0,34.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn12,Double Slap,Omastar,92.0,34.0,Normal,,Rock,Water,0,0,2255,2755,True
+turn13,Double Slap,Omastar,92.0,14.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn14,Double Slap,Omastar,92.0,6.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn15,Double Slap,Omastar,92.0,-2.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn1,Double Slap,Kabuto,151.0,90,Normal,,Rock,Water,0,0,2255,2755,True
+turn2,Double Slap,Kabuto,151.0,80.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn3,Double Slap,Kabuto,151.0,64.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn4,Double Slap,Kabuto,151.0,56.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn5,Double Slap,Kabuto,151.0,48.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn6,Double Slap,Kabuto,100.0,48.0,Normal,,Rock,Water,0,0,2255,2755,True
+turn7,Double Slap,Kabuto,100.0,36.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn8,Double Slap,Kabuto,52.0,36.0,Normal,,Rock,Water,0,0,2255,2755,True
+turn9,Double Slap,Kabuto,52.0,16.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn10,Double Slap,Kabuto,2.0,16.0,Normal,,Rock,Water,0,0,2255,2755,True
+turn11,Double Slap,Kabuto,2.0,1.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn12,Double Slap,Kabuto,2.0,-7.0,Normal,,Rock,Water,0,1,2255,2755,True
+turn1,Sing,Kabutops,127.0,120,Normal,,Rock,Water,0,0,2255,4005,False
+turn2,Sing,Kabutops,127.0,108.0,Normal,,Rock,Water,0,1,2255,4005,False
+turn3,Sing,Kabutops,127.0,100.0,Normal,,Rock,Water,0,1,2255,4005,False
+turn4,Sing,Kabutops,127.0,88.0,Normal,,Rock,Water,0,1,2255,4005,False
+turn5,Sing,Kabutops,127.0,68.0,Normal,,Rock,Water,0,1,2255,4005,False
+turn6,Sing,Kabutops,53.0,68.0,Normal,,Rock,Water,0,0,2255,4005,False
+turn7,Sing,Kabutops,53.0,60.0,Normal,,Rock,Water,0,1,2255,4005,False
+turn8,Sing,Kabutops,53.0,44.0,Normal,,Rock,Water,0,1,2255,4005,False
+turn9,Sing,Kabutops,53.0,32.0,Normal,,Rock,Water,0,1,2255,4005,False
+turn10,Sing,Kabutops,53.0,16.0,Normal,,Rock,Water,0,1,2255,4005,False
+turn11,Sing,Kabutops,53.0,8.0,Normal,,Rock,Water,0,1,2255,4005,False
+turn12,Sing,Kabutops,-25.0,8.0,Normal,,Rock,Water,0,0,2255,4005,False
+turn1,Double Slap,Aerodactyl,113.0,140,Normal,,Rock,Flying,0,0,2255,6505,True
+turn2,Double Slap,Aerodactyl,113.0,122.0,Normal,,Rock,Flying,0,1,2255,6505,True
+turn3,Double Slap,Aerodactyl,113.0,98.0,Normal,,Rock,Flying,0,1,2255,6505,True
+turn4,Double Slap,Aerodactyl,113.0,80.0,Normal,,Rock,Flying,0,1,2255,6505,True
+turn5,Double Slap,Aerodactyl,113.0,70.0,Normal,,Rock,Flying,0,1,2255,6505,True
+turn6,Double Slap,Aerodactyl,18.0,70.0,Normal,,Rock,Flying,0,0,2255,6505,True
+turn7,Double Slap,Aerodactyl,18.0,52.0,Normal,,Rock,Flying,0,1,2255,6505,True
+turn8,Double Slap,Aerodactyl,18.0,34.0,Normal,,Rock,Flying,0,1,2255,6505,True
+turn9,Double Slap,Aerodactyl,18.0,16.0,Normal,,Rock,Flying,0,1,2255,6505,True
+turn10,Double Slap,Aerodactyl,18.0,-4.0,Normal,,Rock,Flying,0,1,2255,6505,True
+turn1,Double Slap,Snorlax,200,220,Normal,,Normal,,0,0,2255,1505,False
+turn2,Double Slap,Snorlax,200,187.0,Normal,,Normal,,0,1,2255,1505,False
+turn3,Double Slap,Snorlax,14.0,163.0,Normal,,Normal,,0,0,2255,1505,False
+turn4,Double Slap,Snorlax,14.0,163.0,Normal,,Normal,,0,0,2255,1505,False
+turn5,Double Slap,Snorlax,14.0,98.0,Normal,,Normal,,0,1,2255,1505,False
+turn6,Double Slap,Snorlax,14.0,98.0,Normal,,Normal,,0,0,2255,1505,False
+turn7,Double Slap,Snorlax,14.0,98.0,Normal,,Normal,,0,0,2255,1505,False
+turn8,Double Slap,Snorlax,14.0,54.0,Normal,,Normal,,0,1,2255,1505,False
+turn9,Double Slap,Snorlax,-159.0,28.0,Normal,,Normal,,0,0,2255,1505,False
+turn1,Double Slap,Articuno,136.0,150,Normal,,Ice,Flying,0,0,2255,4255,True
+turn2,Double Slap,Articuno,136.0,132.0,Normal,,Ice,Flying,0,1,2255,4255,True
+turn3,Double Slap,Articuno,136.0,116.0,Normal,,Ice,Flying,0,1,2255,4255,True
+turn4,Double Slap,Articuno,136.0,89.0,Normal,,Ice,Flying,0,1,2255,4255,True
+turn5,Double Slap,Articuno,136.0,73.0,Normal,,Ice,Flying,0,1,2255,4255,True
+turn6,Double Slap,Articuno,71.0,73.0,Normal,,Ice,Flying,0,0,2255,4255,True
+turn7,Double Slap,Articuno,71.0,37.0,Normal,,Ice,Flying,0,1,2255,4255,True
+turn8,Double Slap,Articuno,71.0,1.0,Normal,,Ice,Flying,0,1,2255,4255,True
+turn9,Double Slap,Articuno,71.0,-17.0,Normal,,Ice,Flying,0,1,2255,4255,True
+turn1,Double Slap,Zapdos,121.0,150,Normal,,Electric,Flying,0,0,2255,5005,True
+turn2,Double Slap,Zapdos,121.0,114.0,Normal,,Electric,Flying,0,1,2255,5005,True
+turn3,Double Slap,Zapdos,121.0,94.0,Normal,,Electric,Flying,0,1,2255,5005,True
+turn4,Double Slap,Zapdos,121.0,67.0,Normal,,Electric,Flying,0,1,2255,5005,True
+turn5,Double Slap,Zapdos,31.0,67.0,Normal,,Electric,Flying,0,0,2255,5005,True
+turn6,Double Slap,Zapdos,31.0,31.0,Normal,,Electric,Flying,0,1,2255,5005,True
+turn7,Double Slap,Zapdos,31.0,-9.0,Normal,,Electric,Flying,0,1,2255,5005,True
+turn1,Sing,Moltres,-2.0,150,Normal,,Fire,Flying,0,0,2255,4505,False
+turn1,Double Slap,Dratini,151.0,67.0,Normal,,Dragon,,0,0,2255,2505,True
+turn2,Double Slap,Dratini,106.0,67.0,Normal,,Dragon,,0,0,2255,2505,True
+turn3,Double Slap,Dratini,106.0,13.0,Normal,,Dragon,,0,1,2255,2505,True
+turn4,Double Slap,Dratini,59.0,13.0,Normal,,Dragon,,0,0,2255,2505,True
+turn5,Double Slap,Dratini,59.0,-38.0,Normal,,Dragon,,0,1,2255,2505,True
+turn1,Double Slap,Dragonair,160,121,Normal,,Dragon,,0,0,2255,3505,True
+turn2,Double Slap,Dragonair,160,77.0,Normal,,Dragon,,0,1,2255,3505,True
+turn3,Double Slap,Dragonair,160,41.0,Normal,,Dragon,,0,1,2255,3505,True
+turn4,Double Slap,Dragonair,160,-24.0,Normal,,Dragon,,0,1,2255,3505,True
+turn1,Double Slap,Dragonite,160,151,Normal,,Dragon,Flying,0,0,2255,4005,True
+turn2,Double Slap,Dragonite,160,133.0,Normal,,Dragon,Flying,0,1,2255,4005,True
+turn3,Double Slap,Dragonite,160,115.0,Normal,,Dragon,Flying,0,1,2255,4005,True
+turn4,Double Slap,Dragonite,160,88.0,Normal,,Dragon,Flying,0,1,2255,4005,True
+turn5,Double Slap,Dragonite,160,64.0,Normal,,Dragon,Flying,0,1,2255,4005,True
+turn6,Double Slap,Dragonite,120,64.0,Normal,,Dragon,Flying,0,0,2255,4005,True
+turn7,Double Slap,Dragonite,120,40.0,Normal,,Dragon,Flying,0,1,2255,4005,True
+turn8,Double Slap,Dragonite,120,10.0,Normal,,Dragon,Flying,0,1,2255,4005,True
+turn9,Double Slap,Dragonite,80,10.0,Normal,,Dragon,Flying,0,0,2255,4005,True
+turn10,Double Slap,Dragonite,80,-30.0,Normal,,Dragon,Flying,0,1,2255,4005,True
+turn1,Sing,Mewtwo,200,166,Normal,,Psychic,,0,0,2255,6505,False
+turn2,Sing,Mewtwo,98.0,166,Normal,,Psychic,,1,0,2255,6505,False
+turn3,Sing,Mewtwo,98.0,166,Normal,,Psychic,,0,0,2255,6505,False
+turn4,Sing,Mewtwo,6.0,166,Normal,,Psychic,,1,0,2255,6505,False
+turn5,Sing,Mewtwo,-91.0,166,Normal,,Psychic,,1,0,2255,6505,False
+turn1,Sing,Mew,90.0,160,Normal,,Psychic,,0,0,2255,5005,False
+turn2,Sing,Mew,90.0,115.0,Normal,,Psychic,,0,1,2255,5005,False
+turn3,Sing,Mew,-30.0,115.0,Normal,,Psychic,,0,0,2255,5005,False

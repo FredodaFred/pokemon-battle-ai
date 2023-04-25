@@ -1,0 +1,358 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Strength,Bulbasaur,139.0,18.0,Fighting,,Grass,Poison,0,0,2755,2255,True
+turn2,Strength,Bulbasaur,139.0,-63.0,Fighting,,Grass,Poison,0,0,2755,2255,True
+turn1,Strength,Ivysaur,141,56.0,Fighting,,Grass,Poison,0,0,2755,3005,True
+turn2,Strength,Ivysaur,128.0,-12.0,Fighting,,Grass,Poison,3,0,2755,3005,True
+turn1,Strength,Venusaur,109.0,84.0,Fighting,,Grass,Poison,0,0,2755,4005,True
+turn2,Strength,Venusaur,62.0,32.0,Fighting,,Grass,Poison,0,0,2755,4005,True
+turn3,Strength,Venusaur,15.0,-20.0,Fighting,,Grass,Poison,0,0,2755,4005,True
+turn1,Strength,Charmander,131.0,-3.0,Fighting,,Fire,,0,0,2755,3255,True
+turn1,Strength,Charmeleon,114.0,47.0,Fighting,,Fire,,0,0,2755,4005,True
+turn2,Strength,Charmeleon,86.0,-23.0,Fighting,,Fire,,2,0,2755,4005,True
+turn1,Strength,Charizard,103.0,84.0,Fighting,,Fire,Flying,0,0,2755,5005,True
+turn2,Strength,Charizard,59.0,28.0,Fighting,,Fire,Flying,2,0,2755,5005,True
+turn3,Strength,Charizard,24.0,-26.0,Fighting,,Fire,Flying,2,0,2755,5005,True
+turn1,Strength,Squirtle,118.0,35.0,Fighting,,Water,,0,0,2755,2155,True
+turn2,Strength,Squirtle,118.0,-37.0,Fighting,,Water,,0,0,2755,2155,True
+turn1,Strength,Wartortle,110.0,68.0,Fighting,,Water,,0,0,2755,2905,True
+turn2,Strength,Wartortle,68.0,15.0,Fighting,,Water,,0,0,2755,2905,True
+turn3,Strength,Wartortle,22.0,-43.0,Fighting,,Water,,0,0,2755,2905,True
+turn1,Strength,Blastoise,89.0,99.0,Fighting,,Water,,0,0,2755,3905,False
+turn2,Strength,Blastoise,33.0,55.0,Fighting,,Water,,0,0,2755,3905,False
+turn3,Strength,Blastoise,-21.0,55.0,Fighting,,Water,,0,0,2755,3905,False
+turn1,Strength,Caterpie,150,-17.0,Fighting,,Bug,,0,0,2755,2255,True
+turn1,Strength,Metapod,144.0,36.0,Fighting,,Bug,,0,0,2755,1505,True
+turn2,Strength,Metapod,144.0,-44.0,Fighting,,Bug,,0,0,2755,1505,True
+turn1,Strength,Butterfree,150,120,Fighting,,Bug,Flying,0,0,2755,3505,False
+turn2,Strength,Butterfree,92.0,120,Fighting,,Bug,Flying,1,0,2755,3505,False
+turn3,Strength,Butterfree,33.0,120,Fighting,,Bug,Flying,1,0,2755,3505,False
+turn4,Strength,Butterfree,33.0,120,Fighting,,Bug,Flying,0,0,2755,3505,False
+turn5,Strength,Butterfree,-25.0,120,Fighting,,Bug,Flying,1,0,2755,3505,False
+turn1,Strength,Weedle,150,-37.0,Fighting,,Bug,Poison,0,0,2755,2505,True
+turn1,Strength,Kakuna,143.0,14.0,Fighting,,Bug,Poison,0,0,2755,1755,True
+turn2,Strength,Kakuna,143.0,-79.0,Fighting,,Bug,Poison,0,0,2755,1755,True
+turn1,Strength,Beedrill,123.0,26.0,Fighting,,Bug,Poison,0,0,2755,3755,True
+turn2,Strength,Beedrill,103.0,-87.0,Fighting,,Bug,Poison,0,0,2755,3755,True
+turn1,Low Kick,Pidgey,103.0,-1.0,Fighting,,Normal,Flying,0,0,2755,2805,True
+turn1,Low Kick,Pidgeotto,87.0,47.0,Fighting,,Normal,Flying,0,0,2755,3555,True
+turn2,Low Kick,Pidgeotto,31.0,-22.0,Fighting,,Normal,Flying,0,0,2755,3555,True
+turn1,Low Kick,Pidgeot,77.0,85.0,Fighting,,Normal,Flying,0,0,2755,5055,False
+turn2,Low Kick,Pidgeot,5.0,25.0,Fighting,,Normal,Flying,0,0,2755,5055,False
+turn3,Low Kick,Pidgeot,-69.0,25.0,Fighting,,Normal,Flying,0,0,2755,5055,False
+turn1,Low Kick,Rattata,114.0,-126.0,Fighting,,Normal,,0,0,2755,3605,True
+turn1,Low Kick,Raticate,102.0,-19.0,Fighting,,Normal,,0,0,2755,4855,True
+turn1,Low Kick,Spearow,66.0,-33.0,Fighting,,Normal,Flying,0,0,2755,3505,True
+turn1,Low Kick,Fearow,34.0,58.0,Fighting,,Normal,Flying,0,0,2755,5005,False
+turn2,Low Kick,Fearow,-90.0,58.0,Fighting,,Normal,Flying,0,0,2755,5005,False
+turn1,Strength,Ekans,129.0,-2.0,Fighting,,Poison,,0,0,2755,2755,True
+turn1,Strength,Arbok,123.0,61.0,Fighting,,Poison,,0,0,2755,4005,True
+turn2,Strength,Arbok,95.0,3.0,Fighting,,Poison,,0,0,2755,4005,True
+turn3,Strength,Arbok,69.0,-62.0,Fighting,,Poison,,0,0,2755,4005,True
+turn1,Strength,Pikachu,129.0,-19.0,Fighting,,Electric,,0,0,2755,4505,True
+turn1,Strength,Raichu,114.0,42.0,Fighting,,Electric,,0,0,2755,5505,True
+turn2,Strength,Raichu,75.0,-38.0,Fighting,,Electric,,0,0,2755,5505,True
+turn1,Strength,Sandshrew,122.0,62.0,Fighting,,Ground,,0,0,2755,2005,True
+turn2,Strength,Sandshrew,93.0,15.0,Fighting,,Ground,,0,0,2755,2005,True
+turn3,Strength,Sandshrew,93.0,-32.0,Fighting,,Ground,,0,0,2755,2005,True
+turn1,Strength,Sandslash,112.0,92.0,Fighting,,Ground,,0,0,2755,3255,False
+turn2,Strength,Sandslash,72.0,53.0,Fighting,,Ground,,0,0,2755,3255,False
+turn3,Strength,Sandslash,32.0,15.0,Fighting,,Ground,,0,0,2755,3255,False
+turn4,Strength,Sandslash,-3.0,15.0,Fighting,,Ground,,0,0,2755,3255,False
+turn1,Strength,Nidoran♀,134.0,34.0,Fighting,,Poison,,0,0,2755,2055,True
+turn2,Strength,Nidoran♀,134.0,-50.0,Fighting,,Poison,,0,0,2755,2055,True
+turn1,Strength,Nidorina,131.0,67.0,Fighting,,Poison,,0,0,2755,2805,True
+turn2,Strength,Nidorina,110.0,6.0,Fighting,,Poison,,0,0,2755,2805,True
+turn3,Strength,Nidorina,89.0,-59.0,Fighting,,Poison,,0,0,2755,2805,True
+turn1,Strength,Nidoqueen,110.0,100.0,Fighting,,Poison,Ground,0,0,2755,3805,False
+turn2,Strength,Nidoqueen,71.0,53.0,Fighting,,Poison,Ground,4,0,2755,3805,False
+turn3,Strength,Nidoqueen,31.0,7.0,Fighting,,Poison,Ground,4,0,2755,3805,False
+turn4,Strength,Nidoqueen,-13.0,7.0,Fighting,,Poison,Ground,4,0,2755,3805,False
+turn1,Strength,Nidoran♂,150,-8.0,Fighting,,Poison,,0,0,2755,2505,True
+turn1,Strength,Nidorino,150,40.0,Fighting,,Poison,,0,0,2755,3255,True
+turn2,Strength,Nidorino,150,-33.0,Fighting,,Poison,,0,0,2755,3255,True
+turn1,Strength,Nidoking,91.0,88.0,Fighting,,Poison,Ground,0,0,2755,4255,False
+turn2,Strength,Nidoking,26.0,34.0,Fighting,,Poison,Ground,0,0,2755,4255,False
+turn3,Strength,Nidoking,-33.0,34.0,Fighting,,Poison,Ground,0,0,2755,4255,False
+turn1,Low Kick,Clefairy,150,-48.0,Fighting,,Normal,,0,0,2755,1755,True
+turn1,Low Kick,Clefable,150,155,Fighting,,Normal,,0,0,2755,3005,False
+turn2,Low Kick,Clefable,130.0,155,Fighting,,Normal,,1,0,2755,3005,False
+turn3,Low Kick,Clefable,110.0,155,Fighting,,Normal,,1,0,2755,3005,False
+turn4,Low Kick,Clefable,110.0,155,Fighting,,Normal,,0,0,2755,3005,False
+turn5,Low Kick,Clefable,80.0,155,Fighting,,Normal,,1,0,2755,3005,False
+turn6,Low Kick,Clefable,47.0,155,Fighting,,Normal,,1,0,2755,3005,False
+turn7,Low Kick,Clefable,47.0,155,Fighting,,Normal,,0,0,2755,3005,False
+turn8,Low Kick,Clefable,7.0,155,Fighting,,Normal,,1,0,2755,3005,False
+turn9,Low Kick,Clefable,7.0,155,Fighting,,Normal,,0,0,2755,3005,False
+turn10,Low Kick,Clefable,-15.0,155,Fighting,,Normal,,1,0,2755,3005,False
+turn1,Strength,Vulpix,134.0,-9.0,Fighting,,Fire,,0,0,2755,3255,True
+turn1,Strength,Ninetales,128.0,73.0,Fighting,,Fire,,0,0,2755,5005,True
+turn2,Strength,Ninetales,107.0,12.0,Fighting,,Fire,,2,0,2755,5005,True
+turn3,Strength,Ninetales,94.0,-45.0,Fighting,,Fire,,2,0,2755,5005,True
+turn1,Low Kick,Jigglypuff,150,-212.0,Fighting,,Normal,,0,0,2755,1005,True
+turn1,Low Kick,Wigglytuff,150,13.0,Fighting,,Normal,,0,0,2755,2255,True
+turn2,Low Kick,Wigglytuff,117.0,13.0,Fighting,,Normal,,1,0,2755,2255,True
+turn3,Low Kick,Wigglytuff,90.0,13.0,Fighting,,Normal,,1,0,2755,2255,True
+turn4,Low Kick,Wigglytuff,90.0,-171.0,Fighting,,Normal,,0,0,2755,2255,True
+turn1,Strength,Zubat,101.0,-19.0,Fighting,,Poison,Flying,0,0,2755,2755,True
+turn1,Strength,Golbat,70.0,76.0,Fighting,,Poison,Flying,0,0,2755,4505,False
+turn2,Strength,Golbat,-8.0,76.0,Fighting,,Poison,Flying,0,0,2755,4505,False
+turn1,Strength,Oddish,116.0,32.0,Fighting,,Grass,Poison,0,0,2755,1505,True
+turn2,Strength,Oddish,116.0,-41.0,Fighting,,Grass,Poison,0,0,2755,1505,True
+turn1,Strength,Gloom,112.0,59.0,Fighting,,Grass,Poison,0,0,2755,2005,True
+turn2,Strength,Gloom,112.0,-3.0,Fighting,,Grass,Poison,0,0,2755,2005,True
+turn1,Strength,Vileplume,150,86.0,Fighting,,Grass,Poison,0,0,2755,2505,True
+turn2,Strength,Vileplume,134.0,94.0,Fighting,,Grass,Poison,1,0,2755,2505,True
+turn3,Strength,Vileplume,116.0,103.0,Fighting,,Grass,Poison,1,0,2755,2505,True
+turn4,Strength,Vileplume,116.0,55.0,Fighting,,Grass,Poison,0,0,2755,2505,True
+turn5,Strength,Vileplume,100.0,63.0,Fighting,,Grass,Poison,1,0,2755,2505,True
+turn6,Strength,Vileplume,83.0,71.0,Fighting,,Grass,Poison,1,0,2755,2505,True
+turn7,Strength,Vileplume,83.0,21.0,Fighting,,Grass,Poison,0,0,2755,2505,True
+turn8,Strength,Vileplume,66.0,29.0,Fighting,,Grass,Poison,1,0,2755,2505,True
+turn9,Strength,Vileplume,66.0,-23.0,Fighting,,Grass,Poison,0,0,2755,2505,True
+turn1,Strength,Paras,128.0,26.0,Fighting,,Bug,Grass,0,0,2755,1255,True
+turn2,Strength,Paras,128.0,-51.0,Fighting,,Bug,Grass,0,0,2755,1255,True
+turn1,Strength,Parasect,118.0,80.0,Fighting,,Bug,Grass,0,0,2755,1505,True
+turn2,Strength,Parasect,87.0,44.0,Fighting,,Bug,Grass,0,0,2755,1505,True
+turn3,Strength,Parasect,87.0,-7.0,Fighting,,Bug,Grass,0,0,2755,1505,True
+turn1,Strength,Venonat,112.0,37.0,Fighting,,Bug,Poison,0,0,2755,2255,True
+turn2,Strength,Venonat,112.0,-52.0,Fighting,,Bug,Poison,0,0,2755,2255,True
+turn1,Strength,Venomoth,64.0,61.0,Fighting,,Bug,Poison,0,0,2755,4505,False
+turn2,Strength,Venomoth,-17.0,61.0,Fighting,,Bug,Poison,0,0,2755,4505,False
+turn1,Strength,Diglett,109.0,-90.0,Fighting,,Ground,,0,0,2755,4755,True
+turn1,Strength,Dugtrio,87.0,13.0,Fighting,,Ground,,0,0,2755,6005,True
+turn2,Strength,Dugtrio,24.0,-75.0,Fighting,,Ground,,0,0,2755,6005,True
+turn1,Low Kick,Meowth,125.0,-143.0,Fighting,,Normal,,0,0,2755,4505,True
+turn1,Low Kick,Persian,113.0,-10.0,Fighting,,Normal,,0,0,2755,5755,True
+turn1,Strength,Psyduck,114.0,17.0,Fighting,,Water,,0,0,2755,2755,True
+turn2,Strength,Psyduck,82.0,-75.0,Fighting,,Water,,0,0,2755,2755,True
+turn1,Strength,Golduck,61.0,84.0,Fighting,,Water,,0,0,2755,4255,False
+turn2,Strength,Golduck,-23.0,84.0,Fighting,,Water,,0,0,2755,4255,False
+turn1,Strength,Mankey,115.0,-14.0,Fighting,,Fighting,,0,0,2755,3505,True
+turn1,Strength,Primeape,88.0,49.0,Fighting,,Fighting,,0,0,2755,4755,True
+turn2,Strength,Primeape,17.0,-26.0,Fighting,,Fighting,,0,0,2755,4755,True
+turn1,Strength,Growlithe,118.0,-2.0,Fighting,,Fire,,0,0,2755,3005,True
+turn1,Strength,Arcanine,116.0,85.0,Fighting,,Fire,,0,0,2755,4755,True
+turn2,Strength,Arcanine,81.0,18.0,Fighting,,Fire,,0,0,2755,4755,True
+turn3,Strength,Arcanine,46.0,-52.0,Fighting,,Fire,,0,0,2755,4755,True
+turn1,Strength,Poliwag,150,100,Fighting,,Water,,0,0,2755,4505,False
+turn2,Strength,Poliwag,126.0,100,Fighting,,Water,,1,0,2755,4505,False
+turn3,Strength,Poliwag,102.0,100,Fighting,,Water,,1,0,2755,4505,False
+turn4,Strength,Poliwag,81.0,100,Fighting,,Water,,1,0,2755,4505,False
+turn5,Strength,Poliwag,58.0,100,Fighting,,Water,,1,0,2755,4505,False
+turn6,Strength,Poliwag,35.0,100,Fighting,,Water,,1,0,2755,4505,False
+turn7,Strength,Poliwag,35.0,100,Fighting,,Water,,0,0,2755,4505,False
+turn8,Strength,Poliwag,13.0,100,Fighting,,Water,,1,0,2755,4505,False
+turn9,Strength,Poliwag,-8.0,100,Fighting,,Water,,1,0,2755,4505,False
+turn1,Strength,Poliwhirl,120.0,60.0,Fighting,,Water,,0,0,2755,4505,True
+turn2,Strength,Poliwhirl,90.0,-10.0,Fighting,,Water,,0,0,2755,4505,True
+turn1,Strength,Poliwrath,150,150,Fighting,,Water,Fighting,0,0,2755,3505,False
+turn2,Strength,Poliwrath,110.0,150,Fighting,,Water,Fighting,1,0,2755,3505,False
+turn3,Strength,Poliwrath,110.0,150,Fighting,,Water,Fighting,0,0,2755,3505,False
+turn4,Strength,Poliwrath,69.0,150,Fighting,,Water,Fighting,1,0,2755,3505,False
+turn5,Strength,Poliwrath,25.0,150,Fighting,,Water,Fighting,1,0,2755,3505,False
+turn6,Strength,Poliwrath,25.0,150,Fighting,,Water,Fighting,0,0,2755,3505,False
+turn7,Strength,Poliwrath,-17.0,150,Fighting,,Water,Fighting,1,0,2755,3505,False
+turn1,Strength,Abra,150,-191.0,Fighting,,Psychic,,0,0,2755,4505,True
+turn1,Strength,Kadabra,31.0,-40.0,Fighting,,Psychic,,0,0,2755,5255,True
+turn1,Strength,Alakazam,-29.0,115,Fighting,,Psychic,,0,0,2755,6005,False
+turn1,Strength,Machop,115.0,44.0,Fighting,,Fighting,,0,0,2755,1755,True
+turn2,Strength,Machop,115.0,-40.0,Fighting,,Fighting,,0,0,2755,1755,True
+turn1,Strength,Machoke,106.0,78.0,Fighting,,Fighting,,0,0,2755,2255,True
+turn2,Strength,Machoke,63.0,14.0,Fighting,,Fighting,,0,0,2755,2255,True
+turn3,Strength,Machoke,63.0,-46.0,Fighting,,Fighting,,0,0,2755,2255,True
+turn1,Strength,Machamp,94.0,97.0,Fighting,,Fighting,,0,0,2755,2755,False
+turn2,Strength,Machamp,42.0,46.0,Fighting,,Fighting,,0,0,2755,2755,False
+turn3,Strength,Machamp,-13.0,46.0,Fighting,,Fighting,,0,0,2755,2755,False
+turn1,Strength,Bellsprout,150,-21.0,Fighting,,Grass,Poison,0,0,2755,2005,True
+turn1,Strength,Weepinbell,141,42.0,Fighting,,Grass,Poison,0,0,2755,2755,True
+turn2,Strength,Weepinbell,102.0,-47.0,Fighting,,Grass,Poison,3,0,2755,2755,True
+turn1,Strength,Victreebel,107.0,79.0,Fighting,,Grass,Poison,0,0,2755,3505,True
+turn2,Strength,Victreebel,60.0,12.0,Fighting,,Grass,Poison,0,0,2755,3505,True
+turn3,Strength,Victreebel,16.0,-49.0,Fighting,,Grass,Poison,0,0,2755,3505,True
+turn1,Strength,Tentacool,150,-16.0,Fighting,,Water,Poison,0,0,2755,3505,True
+turn1,Strength,Tentacruel,141,68.0,Fighting,,Water,Poison,0,0,2755,5005,True
+turn2,Strength,Tentacruel,112.0,2.0,Fighting,,Water,Poison,3,0,2755,5005,True
+turn3,Strength,Tentacruel,93.0,-62.0,Fighting,,Water,Poison,3,0,2755,5005,True
+turn1,Low Kick,Geodude,134.0,14.0,Fighting,,Rock,Ground,0,0,2755,1005,True
+turn2,Low Kick,Geodude,134.0,-73.0,Fighting,,Rock,Ground,0,0,2755,1005,True
+turn1,Low Kick,Graveler,124.0,43.0,Fighting,,Rock,Ground,0,0,2755,1755,True
+turn2,Low Kick,Graveler,124.0,-31.0,Fighting,,Rock,Ground,0,0,2755,1755,True
+turn1,Low Kick,Golem,50.0,77.0,Fighting,,Rock,Ground,0,0,2755,2255,False
+turn2,Low Kick,Golem,-43.0,16.0,Fighting,,Rock,Ground,0,0,2755,2255,False
+turn1,Strength,Ponyta,120.0,31.0,Fighting,,Fire,,0,0,2755,4505,True
+turn2,Strength,Ponyta,91.0,-46.0,Fighting,,Fire,,0,0,2755,4505,True
+turn1,Strength,Rapidash,114.0,64.0,Fighting,,Fire,,0,0,2755,5255,True
+turn2,Strength,Rapidash,80.0,-1.0,Fighting,,Fire,,0,0,2755,5255,True
+turn1,Strength,Slowpoke,117.0,85.0,Fighting,,Water,Psychic,0,0,2755,755,True
+turn2,Strength,Slowpoke,84.0,16.0,Fighting,,Water,Psychic,0,0,2755,755,True
+turn3,Strength,Slowpoke,84.0,-48.0,Fighting,,Water,Psychic,0,0,2755,755,True
+turn1,Strength,Slowbro,110.0,118.0,Fighting,,Water,Psychic,0,0,2755,1505,True
+turn2,Strength,Slowbro,72.0,81.0,Fighting,,Water,Psychic,0,0,2755,1505,True
+turn3,Strength,Slowbro,35.0,41.0,Fighting,,Water,Psychic,0,0,2755,1505,True
+turn4,Strength,Slowbro,35.0,-1.0,Fighting,,Water,Psychic,0,0,2755,1505,True
+turn1,Strength,Magnemite,150,25.0,Fighting,,Electric,,0,0,2755,2255,True
+turn2,Strength,Magnemite,150,-42.0,Fighting,,Electric,,5,0,2755,2255,True
+turn1,Strength,Magneton,112.0,67.0,Fighting,,Electric,,0,0,2755,3505,True
+turn2,Strength,Magneton,75.0,24.0,Fighting,,Electric,,0,0,2755,3505,True
+turn3,Strength,Magneton,33.0,-25.0,Fighting,,Electric,,0,0,2755,3505,True
+turn1,Low Kick,Farfetch'd,111.0,41.0,Fighting,,Normal,Flying,0,0,2755,3005,True
+turn2,Low Kick,Farfetch'd,76.0,-35.0,Fighting,,Normal,Flying,0,0,2755,3005,True
+turn1,Low Kick,Doduo,124.0,8.0,Fighting,,Normal,Flying,0,0,2755,3755,True
+turn2,Low Kick,Doduo,99.0,-79.0,Fighting,,Normal,Flying,0,0,2755,3755,True
+turn1,Low Kick,Dodrio,15.0,60.0,Fighting,,Normal,Flying,0,0,2755,5005,False
+turn2,Low Kick,Dodrio,-127.0,60.0,Fighting,,Normal,Flying,0,0,2755,5005,False
+turn1,Strength,Seel,141.0,43.0,Fighting,,Water,,0,0,2755,2255,True
+turn2,Strength,Seel,141.0,-36.0,Fighting,,Water,,0,0,2755,2255,True
+turn1,Low Kick,Dewgong,120.0,150,Fighting,,Water,Ice,0,0,2755,3505,True
+turn2,Low Kick,Dewgong,90.0,40.0,Fighting,,Water,Ice,0,0,2755,3505,True
+turn3,Low Kick,Dewgong,60.0,-65.0,Fighting,,Water,Ice,0,0,2755,3505,True
+turn1,Strength,Grimer,128.0,49.0,Fighting,,Poison,,0,0,2755,1255,True
+turn2,Strength,Grimer,128.0,-32.0,Fighting,,Poison,,0,0,2755,1255,True
+turn1,Strength,Muk,89.0,109.0,Fighting,,Poison,,0,0,2755,2505,True
+turn2,Strength,Muk,26.0,56.0,Fighting,,Poison,,0,0,2755,2505,True
+turn3,Strength,Muk,26.0,0.0,Fighting,,Poison,,0,0,2755,2505,True
+turn1,Strength,Shellder,150,49.0,Fighting,,Water,,0,0,2755,2005,True
+turn2,Strength,Shellder,115.0,49.0,Fighting,,Water,,5,0,2755,2005,True
+turn3,Strength,Shellder,107.0,8.0,Fighting,,Water,,5,0,2755,2005,True
+turn4,Strength,Shellder,107.0,-39.0,Fighting,,Water,,5,0,2755,2005,True
+turn1,Low Kick,Cloyster,122.0,63.0,Fighting,,Water,Ice,0,0,2755,3505,True
+turn2,Low Kick,Cloyster,93.0,14.0,Fighting,,Water,Ice,0,0,2755,3505,True
+turn3,Low Kick,Cloyster,65.0,-39.0,Fighting,,Water,Ice,0,0,2755,3505,True
+turn1,Low Kick,Gastly,150,90.0,Fighting,,Ghost,Poison,0,0,2755,4005,False
+turn2,Low Kick,Gastly,74.0,90.0,Fighting,,Ghost,Poison,5,0,2755,4005,False
+turn3,Low Kick,Gastly,24.0,90.0,Fighting,,Ghost,Poison,5,0,2755,4005,False
+turn4,Low Kick,Gastly,-26.0,90.0,Fighting,,Ghost,Poison,5,0,2755,4005,False
+turn1,Low Kick,Haunter,150,105.0,Fighting,,Ghost,Poison,0,0,2755,4755,False
+turn2,Low Kick,Haunter,100,105.0,Fighting,,Ghost,Poison,5,0,2755,4755,False
+turn3,Low Kick,Haunter,50,105.0,Fighting,,Ghost,Poison,5,0,2755,4755,False
+turn4,Low Kick,Haunter,0,105.0,Fighting,,Ghost,Poison,5,0,2755,4755,False
+turn1,Low Kick,Gengar,123.0,120,Fighting,,Ghost,Poison,0,0,2755,5505,False
+turn2,Low Kick,Gengar,73.0,120.0,Fighting,,Ghost,Poison,5,0,2755,5505,False
+turn3,Low Kick,Gengar,23.0,120.0,Fighting,,Ghost,Poison,5,0,2755,5505,False
+turn4,Low Kick,Gengar,-27.0,120.0,Fighting,,Ghost,Poison,5,0,2755,5505,False
+turn1,Low Kick,Onix,114.0,37.0,Fighting,,Rock,Ground,0,0,2755,3505,True
+turn2,Low Kick,Onix,75.0,-19.0,Fighting,,Rock,Ground,0,0,2755,3505,True
+turn1,Strength,Drowzee,114.0,23.0,Fighting,,Psychic,,0,0,2755,2105,True
+turn2,Strength,Drowzee,114.0,-70.0,Fighting,,Psychic,,0,0,2755,2105,True
+turn1,Strength,Hypno,53.0,85.0,Fighting,,Psychic,,0,0,2755,3355,False
+turn2,Strength,Hypno,-46.0,85.0,Fighting,,Psychic,,0,0,2755,3355,False
+turn1,Strength,Krabby,109.0,44.0,Fighting,,Water,,0,0,2755,2505,True
+turn2,Strength,Krabby,109.0,-2.0,Fighting,,Water,,0,0,2755,2505,True
+turn1,Strength,Kingler,97.0,74.0,Fighting,,Water,,0,0,2755,3755,False
+turn2,Strength,Kingler,43.0,37.0,Fighting,,Water,,0,0,2755,3755,False
+turn3,Strength,Kingler,-10.0,37.0,Fighting,,Water,,0,0,2755,3755,False
+turn1,Strength,Voltorb,111.0,13.0,Fighting,,Electric,,0,0,2755,5005,True
+turn2,Strength,Voltorb,69.0,-70.0,Fighting,,Electric,,0,0,2755,5005,True
+turn1,Strength,Electrode,89.0,56.0,Fighting,,Electric,,0,0,2755,7005,True
+turn2,Strength,Electrode,24.0,-2.0,Fighting,,Electric,,0,0,2755,7005,True
+turn1,Strength,Exeggcute,168,51.0,Fighting,,Grass,Psychic,0,0,2755,2005,True
+turn2,Strength,Exeggcute,168,-6.0,Fighting,,Grass,Psychic,7,0,2755,2005,True
+turn1,Strength,Exeggutor,29.0,100.0,Fighting,,Grass,Psychic,0,0,2755,2755,False
+turn2,Strength,Exeggutor,-87.0,100.0,Fighting,,Grass,Psychic,0,0,2755,2755,False
+turn1,Strength,Cubone,122.0,62.0,Fighting,,Ground,,0,0,2755,1755,True
+turn2,Strength,Cubone,93.0,18.0,Fighting,,Ground,,0,0,2755,1755,True
+turn3,Strength,Cubone,93.0,-31.0,Fighting,,Ground,,0,0,2755,1755,True
+turn1,Strength,Marowak,109.0,78.0,Fighting,,Ground,,0,0,2755,2255,True
+turn2,Strength,Marowak,66.0,39.0,Fighting,,Ground,,0,0,2755,2255,True
+turn3,Strength,Marowak,66.0,-2.0,Fighting,,Ground,,0,0,2755,2255,True
+turn1,Strength,Hitmonlee,70.0,26.0,Fighting,,Fighting,,0,0,2755,4355,False
+turn2,Strength,Hitmonlee,-6.0,26.0,Fighting,,Fighting,,0,0,2755,4355,False
+turn1,Strength,Hitmonchan,114.0,53.0,Fighting,,Fighting,,0,0,2755,3805,True
+turn2,Strength,Hitmonchan,77.0,1.0,Fighting,,Fighting,,0,0,2755,3805,True
+turn3,Strength,Hitmonchan,37.0,-54.0,Fighting,,Fighting,,0,0,2755,3805,True
+turn1,Low Kick,Lickitung,118.0,33.0,Fighting,,Normal,,0,0,2755,1505,True
+turn2,Low Kick,Lickitung,118.0,-71.0,Fighting,,Normal,,0,0,2755,1505,True
+turn1,Strength,Koffing,132,53.0,Fighting,,Poison,,0,0,2755,1755,True
+turn2,Strength,Koffing,98.0,9.0,Fighting,,Poison,,3,0,2755,1755,True
+turn3,Strength,Koffing,98.0,-36.0,Fighting,,Poison,,3,0,2755,1755,True
+turn1,Strength,Weezing,105.0,86.0,Fighting,,Poison,,0,0,2755,3005,False
+turn2,Strength,Weezing,66.0,47.0,Fighting,,Poison,,0,0,2755,3005,False
+turn3,Strength,Weezing,27.0,9.0,Fighting,,Poison,,0,0,2755,3005,False
+turn4,Strength,Weezing,-13.0,9.0,Fighting,,Poison,,0,0,2755,3005,False
+turn1,Low Kick,Rhyhorn,106.0,30.0,Fighting,,Ground,Rock,0,0,2755,1255,True
+turn2,Low Kick,Rhyhorn,106.0,-75.0,Fighting,,Ground,Rock,0,0,2755,1255,True
+turn1,Low Kick,Rhydon,92.0,66.0,Fighting,,Ground,Rock,0,0,2755,2005,True
+turn2,Low Kick,Rhydon,92.0,-19.0,Fighting,,Ground,Rock,0,0,2755,2005,True
+turn1,Low Kick,Chansey,150,-1379.0,Fighting,,Normal,,0,0,2755,2505,True
+turn1,Strength,Tangela,159,77.0,Fighting,,Grass,,0,0,2755,3005,True
+turn2,Strength,Tangela,157.0,29.0,Fighting,,Grass,,7,0,2755,3005,True
+turn3,Strength,Tangela,146.0,-7.0,Fighting,,Grass,,7,0,2755,3005,True
+turn1,Low Kick,Kangaskhan,101.0,67.0,Fighting,,Normal,,0,0,2755,4505,True
+turn2,Low Kick,Kangaskhan,50.0,-31.0,Fighting,,Normal,,0,0,2755,4505,True
+turn1,Strength,Horsea,140.0,24.0,Fighting,,Water,,0,0,2755,3005,True
+turn2,Strength,Horsea,129.0,-42.0,Fighting,,Water,,0,0,2755,3005,True
+turn1,Strength,Seadra,112.0,67.0,Fighting,,Water,,0,0,2755,4255,True
+turn2,Strength,Seadra,73.0,20.0,Fighting,,Water,,0,0,2755,4255,True
+turn3,Strength,Seadra,33.0,-26.0,Fighting,,Water,,0,0,2755,4255,True
+turn1,Strength,Goldeen,126.0,37.0,Fighting,,Water,,0,0,2755,3155,True
+turn2,Strength,Goldeen,103.0,-32.0,Fighting,,Water,,0,0,2755,3155,True
+turn1,Strength,Seaking,-65385,140,Fighting,,Water,,0,0,2755,3405,False
+turn1,Strength,Staryu,150,10.0,Fighting,,Water,,0,0,2755,4255,True
+turn2,Strength,Staryu,127.0,-64.0,Fighting,,Water,,5,0,2755,4255,True
+turn1,Strength,Starmie,107.0,70.0,Fighting,,Water,Psychic,0,0,2755,5755,True
+turn2,Strength,Starmie,68.0,17.0,Fighting,,Water,Psychic,0,0,2755,5755,True
+turn3,Strength,Starmie,25.0,-34.0,Fighting,,Water,Psychic,0,0,2755,5755,True
+turn1,Low Kick,Mr. Mime,76.0,40.0,Fighting,,Psychic,Normal,0,0,2755,4505,False
+turn2,Low Kick,Mr. Mime,-6.0,40.0,Fighting,,Psychic,Normal,0,0,2755,4505,False
+turn1,Strength,Scyther,38.0,76.0,Fighting,,Bug,Flying,0,0,2755,5255,False
+turn2,Strength,Scyther,-74.0,76.0,Fighting,,Bug,Flying,0,0,2755,5255,False
+turn1,Low Kick,Jynx,63.0,18.0,Fighting,,Ice,Psychic,0,0,2755,4755,False
+turn2,Low Kick,Jynx,-32.0,18.0,Fighting,,Ice,Psychic,0,0,2755,4755,False
+turn1,Strength,Electabuzz,126.0,51.0,Fighting,,Electric,,0,0,2755,5255,True
+turn2,Strength,Electabuzz,101.0,-29.0,Fighting,,Electric,,0,0,2755,5255,True
+turn1,Strength,Magmar,117.0,53.0,Fighting,,Fire,,0,0,2755,4655,True
+turn2,Strength,Magmar,86.0,-26.0,Fighting,,Fire,,0,0,2755,4655,True
+turn1,Strength,Pinsir,150,78.0,Fighting,,Bug,,0,0,2755,4255,False
+turn2,Strength,Pinsir,150,34.0,Fighting,,Bug,,0,0,2755,4255,False
+turn3,Strength,Pinsir,-65385,34.0,Fighting,,Bug,,0,0,2755,4255,False
+turn1,Low Kick,Tauros,83.0,13.0,Fighting,,Normal,,0,0,2755,5505,True
+turn2,Low Kick,Tauros,32.0,-86.0,Fighting,,Normal,,0,0,2755,5505,True
+turn1,Strength,Magikarp,150,4.0,Fighting,,Water,,0,0,2755,4005,True
+turn2,Strength,Magikarp,150,-72.0,Fighting,,Water,,0,0,2755,4005,True
+turn1,Strength,Gyarados,125.0,101.0,Fighting,,Water,Flying,0,0,2755,4055,True
+turn2,Strength,Gyarados,100.0,45.0,Fighting,,Water,Flying,0,0,2755,4055,True
+turn3,Strength,Gyarados,76.0,-11.0,Fighting,,Water,Flying,0,0,2755,4055,True
+turn1,Low Kick,Lapras,117.0,87.0,Fighting,,Water,Ice,0,0,2755,3005,True
+turn2,Low Kick,Lapras,84.0,-9.0,Fighting,,Water,Ice,0,0,2755,3005,True
+turn1,Low Kick,Ditto,150,-59.0,Fighting,,Normal,,0,0,2755,2405,True
+turn1,Low Kick,Eevee,122.0,-57.0,Fighting,,Normal,,0,0,2755,2755,True
+turn1,Strength,Vaporeon,114.0,122.0,Fighting,,Water,,0,0,2755,3255,True
+turn2,Strength,Vaporeon,77.0,55.0,Fighting,,Water,,0,0,2755,3255,True
+turn3,Strength,Vaporeon,43.0,-21.0,Fighting,,Water,,0,0,2755,3255,True
+turn1,Strength,Jolteon,150,125,Fighting,,Electric,,0,0,2755,6505,True
+turn2,Strength,Jolteon,134.0,49.0,Fighting,,Electric,,4,0,2755,6505,True
+turn3,Strength,Jolteon,,,Fighting,,Electric,,,,2755,6505,True
+turn1,Strength,Flareon,114.0,53.0,Fighting,,Fire,,0,0,2755,3255,True
+turn2,Strength,Flareon,75.0,-17.0,Fighting,,Fire,,0,0,2755,3255,True
+turn1,Low Kick,Porygon,100.0,9.0,Fighting,,Normal,,0,0,2755,2005,True
+turn2,Low Kick,Porygon,100.0,-106.0,Fighting,,Normal,,0,0,2755,2005,True
+turn1,Low Kick,Omanyte,135.0,5.0,Fighting,,Rock,Water,0,0,2755,1755,True
+turn2,Low Kick,Omanyte,135.0,-83.0,Fighting,,Rock,Water,0,0,2755,1755,True
+turn1,Low Kick,Omastar,131.0,63.0,Fighting,,Rock,Water,0,0,2755,2755,True
+turn2,Low Kick,Omastar,111.0,-4.0,Fighting,,Rock,Water,0,0,2755,2755,True
+turn1,Low Kick,Kabuto,120.0,-11.0,Fighting,,Rock,Water,0,0,2755,2755,True
+turn1,Low Kick,Kabutops,105.0,40.0,Fighting,,Rock,Water,0,0,2755,4005,True
+turn2,Low Kick,Kabutops,61.0,-42.0,Fighting,,Rock,Water,0,0,2755,4005,True
+turn1,Low Kick,Aerodactyl,57.0,81.0,Fighting,,Rock,Flying,0,0,2755,6505,False
+turn2,Low Kick,Aerodactyl,-40.0,81.0,Fighting,,Rock,Flying,0,0,2755,6505,False
+turn1,Low Kick,Snorlax,53.0,84.0,Fighting,,Normal,,0,0,2755,1505,True
+turn2,Low Kick,Snorlax,53.0,-43.0,Fighting,,Normal,,0,0,2755,1505,True
+turn1,Low Kick,Articuno,111.0,110.0,Fighting,,Ice,Flying,0,0,2755,4255,False
+turn2,Low Kick,Articuno,74.0,69.0,Fighting,,Ice,Flying,0,0,2755,4255,False
+turn3,Low Kick,Articuno,34.0,69.0,Fighting,,Ice,Flying,0,0,2755,4255,False
+turn4,Low Kick,Articuno,-1.0,69.0,Fighting,,Ice,Flying,6,0,2755,4255,False
+turn1,Strength,Zapdos,42.0,101.0,Fighting,,Electric,Flying,0,0,2755,5005,False
+turn2,Strength,Zapdos,-70.0,101.0,Fighting,,Electric,Flying,0,0,2755,5005,False
+turn1,Strength,Moltres,-64.0,150,Fighting,,Fire,Flying,0,0,2755,4505,False
+turn1,Strength,Dratini,123.0,2.0,Fighting,,Dragon,,0,0,2755,2505,True
+turn2,Strength,Dratini,123.0,-99.0,Fighting,,Dragon,,0,0,2755,2505,True
+turn1,Strength,Dragonair,110,50.0,Fighting,,Dragon,,0,0,2755,3505,True
+turn2,Strength,Dragonair,70,-15.0,Fighting,,Dragon,,0,0,2755,3505,True
+turn1,Strength,Dragonite,110,104.0,Fighting,,Dragon,Flying,0,0,2755,4005,False
+turn2,Strength,Dragonite,70,59.0,Fighting,,Dragon,Flying,0,0,2755,4005,False
+turn3,Strength,Dragonite,30,13.0,Fighting,,Dragon,Flying,0,0,2755,4005,False
+turn4,Strength,Dragonite,-10,13.0,Fighting,,Dragon,Flying,0,0,2755,4005,False
+turn1,Strength,Mewtwo,38.0,118.0,Fighting,,Psychic,,0,0,2755,6505,False
+turn2,Strength,Mewtwo,-87.0,118.0,Fighting,,Psychic,,0,0,2755,6505,False
+turn1,Strength,Mew,6.0,113.0,Fighting,,Psychic,,0,0,2755,5005,False
+turn2,Strength,Mew,-118.0,113.0,Fighting,,Psychic,,0,0,2755,5005,False

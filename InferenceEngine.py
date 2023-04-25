@@ -178,20 +178,20 @@ class InferenceEngine:
                         secondary_effect_bonus += 7
                 elif move_name == 'Poison Sting':
                     secondary_effect_bonus += 15
-                elif move_name == "Acid":
-                    secondary_effect_bonus += 5
+            elif move_name == "Acid":
+                secondary_effect_bonus += 5
                 #recoil moves
-                elif move_name in ['Take Down', 'Double Edge', 'Submission']:
-                    recoil_damage = ((atk_pk.compute_atk_damage(move, op_pk))*0.25)//1
-                    ##Are we on low hp????
-                    if recoil_damage + atk_pk.damage_taken >= atk_pk.hp:
-                        #Will this kill us????
-                        return 0
-                    elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.25:
-                        secondary_effect_bonus -= 50
-                    elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.55:
-                        secondary_effect_bonus -= 30
-                    else: 
-                        secondary_effect_bonus -= 10
+            elif move_name in ['Take Down', 'Double Edge', 'Submission']:
+                recoil_damage = ((atk_pk.compute_atk_damage(move, op_pk))*0.25)//1
+                ##Are we on low hp????
+                if recoil_damage + atk_pk.damage_taken >= atk_pk.hp:
+                    #Will this kill us????
+                    return 0
+                elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.25:
+                    secondary_effect_bonus -= 150
+                elif atk_pk.hp - atk_pk.damage_taken < atk_pk.hp * 0.50:
+                    secondary_effect_bonus -= 60
+                else: 
+                    secondary_effect_bonus -= 20
             
         return  stab + type_1_bonus + type_2_bonus + power + attack_modifier

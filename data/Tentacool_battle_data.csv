@@ -1,0 +1,461 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Acid,Bulbasaur,52.0,83.0,Water,Poison,Grass,Poison,0,0,3505,2255,False
+turn2,Acid,Bulbasaur,0.0,63.0,Water,Poison,Grass,Poison,0,0,3505,2255,False
+turn1,Acid,Ivysaur,35.0,103.0,Water,Poison,Grass,Poison,0,0,3505,3005,False
+turn2,Acid,Ivysaur,-24.0,85.0,Water,Poison,Grass,Poison,0,0,3505,3005,False
+turn1,Acid,Venusaur,22.0,126.0,Water,Poison,Grass,Poison,0,0,3505,4005,False
+turn2,Acid,Venusaur,-52.0,126.0,Water,Poison,Grass,Poison,0,0,3505,4005,False
+turn1,Water Gun,Charmander,83.0,72.0,Water,Poison,Fire,,0,0,3505,3255,True
+turn2,Water Gun,Charmander,66.0,46.0,Water,Poison,Fire,,0,0,3505,3255,True
+turn3,Water Gun,Charmander,48.0,18.0,Water,Poison,Fire,,0,0,3505,3255,True
+turn4,Water Gun,Charmander,48.0,-10.0,Water,Poison,Fire,,0,0,3505,3255,True
+turn1,Water Gun,Charmeleon,76.0,95.0,Water,Poison,Fire,,0,0,3505,4005,False
+turn2,Water Gun,Charmeleon,51.0,74.0,Water,Poison,Fire,,0,0,3505,4005,False
+turn3,Water Gun,Charmeleon,28.0,54.0,Water,Poison,Fire,,0,0,3505,4005,False
+turn4,Water Gun,Charmeleon,5.0,33.0,Water,Poison,Fire,,0,0,3505,4005,False
+turn5,Water Gun,Charmeleon,-17.0,33.0,Water,Poison,Fire,,0,0,3505,4005,False
+turn1,Water Gun,Charizard,70.0,105.0,Water,Poison,Fire,Flying,0,0,3505,5005,False
+turn2,Water Gun,Charizard,41.0,70.0,Water,Poison,Fire,Flying,0,0,3505,5005,False
+turn3,Water Gun,Charizard,11.0,37.0,Water,Poison,Fire,Flying,0,0,3505,5005,False
+turn4,Water Gun,Charizard,-18.0,37.0,Water,Poison,Fire,Flying,0,0,3505,5005,False
+turn1,Acid,Squirtle,100,90.0,Water,Poison,Water,,0,0,3505,2155,False
+turn2,Acid,Squirtle,26.0,70.0,Water,Poison,Water,,0,5,3505,2155,False
+turn3,Acid,Squirtle,-51.0,50.0,Water,Poison,Water,,0,5,3505,2155,False
+turn1,Acid,Wartortle,1.0,119,Water,Poison,Water,,0,0,3505,2905,False
+turn2,Acid,Wartortle,1.0,88.0,Water,Poison,Water,,0,5,3505,2905,False
+turn3,Acid,Wartortle,-103.0,70.0,Water,Poison,Water,,0,5,3505,2905,False
+turn1,Supersonic,Blastoise,-24.0,139,Water,Poison,Water,,0,0,3505,3905,False
+turn1,Acid,Caterpie,100,-15.0,Water,Poison,Bug,,0,0,3505,2255,True
+turn1,Acid,Metapod,89.0,14.0,Water,Poison,Bug,,0,0,3505,1505,True
+turn2,Acid,Metapod,89.0,-96.0,Water,Poison,Bug,,0,0,3505,1505,True
+turn1,Acid,Butterfree,100,120,Water,Poison,Bug,Flying,0,0,3505,3505,False
+turn2,Acid,Butterfree,47.0,120,Water,Poison,Bug,Flying,1,0,3505,3505,False
+turn3,Acid,Butterfree,-4.0,120,Water,Poison,Bug,Flying,1,0,3505,3505,False
+turn1,Acid,Weedle,94.0,42.0,Water,Poison,Bug,Poison,0,0,3505,2505,True
+turn2,Acid,Weedle,94.0,-17.0,Water,Poison,Bug,Poison,0,0,3505,2505,True
+turn1,Acid,Kakuna,86.0,50.0,Water,Poison,Bug,Poison,0,0,3505,1755,True
+turn2,Acid,Kakuna,74.0,2.0,Water,Poison,Bug,Poison,0,0,3505,1755,True
+turn3,Acid,Kakuna,74.0,-51.0,Water,Poison,Bug,Poison,0,0,3505,1755,True
+turn1,Acid,Beedrill,-220.0,125,Water,Poison,Bug,Poison,0,0,3505,3755,False
+turn1,Acid,Pidgey,51.0,100,Water,Poison,Normal,Flying,0,0,3505,2805,True
+turn2,Acid,Pidgey,51.0,31.0,Water,Poison,Normal,Flying,0,5,3505,2805,True
+turn3,Acid,Pidgey,51.0,-6.0,Water,Poison,Normal,Flying,0,5,3505,2805,True
+turn1,Acid,Pidgeotto,38.0,123,Water,Poison,Normal,Flying,0,0,3505,3555,False
+turn2,Acid,Pidgeotto,38.0,65.0,Water,Poison,Normal,Flying,0,5,3505,3555,False
+turn3,Acid,Pidgeotto,-22.0,65.0,Water,Poison,Normal,Flying,0,5,3505,3555,False
+turn1,Acid,Pidgeot,20.0,143,Water,Poison,Normal,Flying,0,0,3505,5055,False
+turn2,Acid,Pidgeot,-63.0,143,Water,Poison,Normal,Flying,0,5,3505,5055,False
+turn1,Acid,Rattata,16.0,90,Water,Poison,Normal,,0,0,3505,3605,False
+turn2,Acid,Rattata,-59.0,90,Water,Poison,Normal,,0,5,3505,3605,False
+turn1,Supersonic,Raticate,-22.0,115,Water,Poison,Normal,,0,0,3505,4855,False
+turn1,Acid,Spearow,7.0,100,Water,Poison,Normal,Flying,0,0,3505,3505,True
+turn2,Acid,Spearow,7.0,4.0,Water,Poison,Normal,Flying,0,5,3505,3505,True
+turn3,Acid,Spearow,7.0,-88.0,Water,Poison,Normal,Flying,0,5,3505,3505,True
+turn1,Supersonic,Fearow,-17.0,125,Water,Poison,Normal,Flying,0,0,3505,5005,False
+turn1,Acid,Ekans,100,71.0,Water,Poison,Poison,,0,0,3505,2755,True
+turn2,Acid,Ekans,54.0,59.0,Water,Poison,Poison,,0,5,3505,2755,True
+turn3,Acid,Ekans,54.0,21.0,Water,Poison,Poison,,0,5,3505,2755,True
+turn4,Acid,Ekans,10.0,9.0,Water,Poison,Poison,,0,5,3505,2755,True
+turn5,Acid,Ekans,10.0,-2.0,Water,Poison,Poison,,0,5,3505,2755,True
+turn1,Acid,Arbok,36.0,120,Water,Poison,Poison,,0,0,3505,4005,False
+turn2,Acid,Arbok,-28.0,120,Water,Poison,Poison,,0,5,3505,4005,False
+turn1,Acid,Pikachu,34.0,95,Water,Poison,Electric,,0,0,3505,4505,False
+turn2,Acid,Pikachu,-43.0,95,Water,Poison,Electric,,0,5,3505,4505,False
+turn1,Supersonic,Raichu,-16.0,120,Water,Poison,Electric,,0,0,3505,5505,False
+turn1,Water Gun,Sandshrew,40.0,70.0,Water,Poison,Ground,,0,0,3505,2005,False
+turn2,Water Gun,Sandshrew,-25.0,24.0,Water,Poison,Ground,,0,0,3505,2005,False
+turn1,Water Gun,Sandslash,18.0,110.0,Water,Poison,Ground,,0,0,3505,3255,False
+turn2,Water Gun,Sandslash,-71.0,84.0,Water,Poison,Ground,,0,0,3505,3255,False
+turn1,Acid,Nidoran♀,100,98.0,Water,Poison,Poison,,0,0,3505,2055,True
+turn2,Acid,Nidoran♀,100,65.0,Water,Poison,Poison,,0,5,3505,2055,True
+turn3,Acid,Nidoran♀,100,33.0,Water,Poison,Poison,,0,5,3505,2055,True
+turn4,Acid,Nidoran♀,67.0,16.0,Water,Poison,Poison,,0,5,3505,2055,True
+turn5,Acid,Nidoran♀,67.0,-16.0,Water,Poison,Poison,,0,5,3505,2055,True
+turn1,Acid,Nidorina,52.0,130,Water,Poison,Poison,,0,0,3505,2805,False
+turn2,Acid,Nidorina,8.0,118.0,Water,Poison,Poison,,0,5,3505,2805,False
+turn3,Acid,Nidorina,8.0,89.0,Water,Poison,Poison,,0,5,3505,2805,False
+turn4,Acid,Nidorina,-33.0,76.0,Water,Poison,Poison,,0,5,3505,2805,False
+turn1,Water Gun,Nidoqueen,15.0,115.0,Water,Poison,Poison,Ground,0,0,3505,3805,False
+turn2,Water Gun,Nidoqueen,-73.0,115.0,Water,Poison,Poison,Ground,0,0,3505,3805,False
+turn1,Acid,Nidoran♂,100,106,Water,Poison,Poison,,0,0,3505,2505,False
+turn2,Acid,Nidoran♂,100,66.0,Water,Poison,Poison,,0,5,3505,2505,False
+turn3,Acid,Nidoran♂,-65435,50.0,Water,Poison,Poison,,0,5,3505,2505,False
+turn1,Acid,Nidorino,100,97.0,Water,Poison,Poison,,0,0,3505,3255,True
+turn2,Acid,Nidorino,100,65.0,Water,Poison,Poison,,0,5,3505,3255,True
+turn3,Acid,Nidorino,100,31.0,Water,Poison,Poison,,0,5,3505,3255,True
+turn4,Acid,Nidorino,100,-2.0,Water,Poison,Poison,,0,5,3505,3255,True
+turn1,Water Gun,Nidoking,-45.0,141,Water,Poison,Poison,Ground,0,0,3505,4255,False
+turn1,Acid,Clefairy,100,106.0,Water,Poison,Normal,,0,0,3505,1755,True
+turn2,Acid,Clefairy,55.0,86.0,Water,Poison,Normal,,0,5,3505,1755,True
+turn3,Acid,Clefairy,13.0,65.0,Water,Poison,Normal,,0,5,3505,1755,True
+turn4,Acid,Clefairy,13.0,16.0,Water,Poison,Normal,,0,5,3505,1755,True
+turn5,Acid,Clefairy,13.0,-5.0,Water,Poison,Normal,,0,5,3505,1755,True
+turn1,Acid,Clefable,100,130.0,Water,Poison,Normal,,0,0,3505,3005,True
+turn2,Acid,Clefable,100,89.0,Water,Poison,Normal,,0,5,3505,3005,True
+turn3,Acid,Clefable,100,74.0,Water,Poison,Normal,,0,5,3505,3005,True
+turn4,Acid,Clefable,100,46.0,Water,Poison,Normal,,1,5,3505,3005,True
+turn5,Acid,Clefable,100,20.0,Water,Poison,Normal,,1,5,3505,3005,True
+turn6,Acid,Clefable,100,4.0,Water,Poison,Normal,,0,5,3505,3005,True
+turn7,Acid,Clefable,34.0,4.0,Water,Poison,Normal,,1,5,3505,3005,True
+turn8,Acid,Clefable,34.0,-12.0,Water,Poison,Normal,,0,5,3505,3005,True
+turn1,Water Gun,Vulpix,86.0,78.0,Water,Poison,Fire,,0,0,3505,3255,True
+turn2,Water Gun,Vulpix,70.0,55.0,Water,Poison,Fire,,0,0,3505,3255,True
+turn3,Water Gun,Vulpix,55.0,34.0,Water,Poison,Fire,,0,0,3505,3255,True
+turn4,Water Gun,Vulpix,42.0,14.0,Water,Poison,Fire,,0,0,3505,3255,True
+turn5,Water Gun,Vulpix,42.0,-5.0,Water,Poison,Fire,,0,0,3505,3255,True
+turn1,Water Gun,Ninetales,90.0,119.0,Water,Poison,Fire,,0,0,3505,5005,False
+turn2,Water Gun,Ninetales,73.0,105.0,Water,Poison,Fire,,0,0,3505,5005,False
+turn3,Water Gun,Ninetales,55.0,91.0,Water,Poison,Fire,,2,0,3505,5005,False
+turn4,Water Gun,Ninetales,39.0,76.0,Water,Poison,Fire,,2,0,3505,5005,False
+turn5,Water Gun,Ninetales,22.0,62.0,Water,Poison,Fire,,2,0,3505,5005,False
+turn6,Water Gun,Ninetales,5.0,47.0,Water,Poison,Fire,,2,0,3505,5005,False
+turn7,Water Gun,Ninetales,-5.0,47.0,Water,Poison,Fire,,2,0,3505,5005,False
+turn1,Acid,Jigglypuff,8.0,175,Water,Poison,Normal,,0,0,3505,1005,True
+turn2,Acid,Jigglypuff,8.0,64.0,Water,Poison,Normal,,0,5,3505,1005,True
+turn3,Acid,Jigglypuff,8.0,-41.0,Water,Poison,Normal,,0,5,3505,1005,True
+turn1,Acid,Wigglytuff,100,157.0,Water,Poison,Normal,,0,0,3505,2255,False
+turn2,Acid,Wigglytuff,100,88.0,Water,Poison,Normal,,0,5,3505,2255,False
+turn3,Acid,Wigglytuff,100,62.0,Water,Poison,Normal,,0,5,3505,2255,False
+turn4,Acid,Wigglytuff,-10.0,62.0,Water,Poison,Normal,,1,5,3505,2255,False
+turn1,Water Gun,Zubat,100,78.0,Water,Poison,Poison,Flying,0,0,3505,2755,True
+turn2,Water Gun,Zubat,100,23.0,Water,Poison,Poison,Flying,0,5,3505,2755,True
+turn3,Water Gun,Zubat,100,-8.0,Water,Poison,Poison,Flying,0,5,3505,2755,True
+turn1,Water Gun,Golbat,13.0,135,Water,Poison,Poison,Flying,0,0,3505,4505,False
+turn2,Water Gun,Golbat,13.0,95.0,Water,Poison,Poison,Flying,0,5,3505,4505,False
+turn3,Water Gun,Golbat,-66.0,95.0,Water,Poison,Poison,Flying,0,5,3505,4505,False
+turn1,Acid,Oddish,47.0,83.0,Water,Poison,Grass,Poison,0,0,3505,1505,False
+turn2,Acid,Oddish,-10.0,61.0,Water,Poison,Grass,Poison,0,0,3505,1505,False
+turn1,Acid,Gloom,40.0,100.0,Water,Poison,Grass,Poison,0,0,3505,2005,False
+turn2,Acid,Gloom,-30.0,82.0,Water,Poison,Grass,Poison,0,0,3505,2005,False
+turn1,Acid,Vileplume,100,118.0,Water,Poison,Grass,Poison,0,0,3505,2505,False
+turn2,Acid,Vileplume,73.0,131.0,Water,Poison,Grass,Poison,1,0,3505,2505,False
+turn3,Acid,Vileplume,73.0,115.0,Water,Poison,Grass,Poison,0,0,3505,2505,False
+turn4,Acid,Vileplume,44.0,129.0,Water,Poison,Grass,Poison,1,0,3505,2505,False
+turn5,Acid,Vileplume,14.0,135,Water,Poison,Grass,Poison,1,0,3505,2505,False
+turn6,Acid,Vileplume,14.0,120.0,Water,Poison,Grass,Poison,0,0,3505,2505,False
+turn7,Acid,Vileplume,14.0,105.0,Water,Poison,Grass,Poison,0,0,3505,2505,False
+turn8,Acid,Vileplume,-14.0,119.0,Water,Poison,Grass,Poison,1,0,3505,2505,False
+turn1,Acid,Paras,100,-8.0,Water,Poison,Bug,Grass,0,0,3505,1255,True
+turn1,Acid,Parasect,-188.0,120,Water,Poison,Bug,Grass,0,0,3505,1505,False
+turn1,Acid,Venonat,68.0,96.0,Water,Poison,Bug,Poison,0,0,3505,2255,False
+turn2,Acid,Venonat,35.0,72.0,Water,Poison,Bug,Poison,0,0,3505,2255,False
+turn3,Acid,Venonat,1.0,46.0,Water,Poison,Bug,Poison,0,0,3505,2255,False
+turn4,Acid,Venonat,-32.0,20.0,Water,Poison,Bug,Poison,0,0,3505,2255,False
+turn1,Acid,Venomoth,27.0,113.0,Water,Poison,Bug,Poison,0,0,3505,4505,False
+turn2,Acid,Venomoth,-40.0,113.0,Water,Poison,Bug,Poison,0,0,3505,4505,False
+turn1,Water Gun,Diglett,-104.0,70,Water,Poison,Ground,,0,0,3505,4755,False
+turn1,Water Gun,Dugtrio,-161.0,95,Water,Poison,Ground,,0,0,3505,6005,False
+turn1,Acid,Meowth,52.0,100,Water,Poison,Normal,,0,0,3505,4505,False
+turn2,Acid,Meowth,5.0,68.0,Water,Poison,Normal,,0,5,3505,4505,False
+turn3,Acid,Meowth,-44.0,68.0,Water,Poison,Normal,,0,5,3505,4505,False
+turn1,Acid,Persian,17.0,125,Water,Poison,Normal,,0,0,3505,5755,False
+turn2,Acid,Persian,-76.0,125,Water,Poison,Normal,,0,5,3505,5755,False
+turn1,Acid,Psyduck,72.0,110,Water,Poison,Water,,0,0,3505,2755,True
+turn2,Acid,Psyduck,72.0,65.0,Water,Poison,Water,,0,5,3505,2755,True
+turn3,Acid,Psyduck,41.0,36.0,Water,Poison,Water,,0,5,3505,2755,True
+turn4,Acid,Psyduck,11.0,9.0,Water,Poison,Water,,0,5,3505,2755,True
+turn5,Acid,Psyduck,11.0,-20.0,Water,Poison,Water,,0,5,3505,2755,True
+turn1,Acid,Golduck,31.0,140,Water,Poison,Water,,0,0,3505,4255,False
+turn2,Acid,Golduck,-37.0,140,Water,Poison,Water,,0,5,3505,4255,False
+turn1,Acid,Mankey,66.0,100,Water,Poison,Fighting,,0,0,3505,3505,False
+turn2,Acid,Mankey,32.0,73.0,Water,Poison,Fighting,,0,5,3505,3505,False
+turn3,Acid,Mankey,-5.0,73.0,Water,Poison,Fighting,,0,5,3505,3505,False
+turn1,Supersonic,Primeape,-46.0,125,Water,Poison,Fighting,,0,0,3505,4755,False
+turn1,Water Gun,Growlithe,21.0,50.0,Water,Poison,Fire,,0,0,3505,3005,False
+turn2,Water Gun,Growlithe,-58.0,-13.0,Water,Poison,Fire,,0,0,3505,3005,False
+turn1,Water Gun,Arcanine,70.0,104.0,Water,Poison,Fire,,0,0,3505,4755,False
+turn2,Water Gun,Arcanine,43.0,59.0,Water,Poison,Fire,,0,0,3505,4755,False
+turn3,Water Gun,Arcanine,15.0,11.0,Water,Poison,Fire,,0,0,3505,4755,False
+turn4,Water Gun,Arcanine,-12.0,-17.0,Water,Poison,Fire,,0,0,3505,4755,False
+turn1,Supersonic,Poliwag,100,100,Water,Poison,Water,,0,0,3505,4505,False
+turn2,Supersonic,Poliwag,48.0,100,Water,Poison,Water,,1,0,3505,4505,False
+turn3,Supersonic,Poliwag,-3.0,100,Water,Poison,Water,,1,0,3505,4505,False
+turn1,Acid,Poliwhirl,34.0,125,Water,Poison,Water,,0,0,3505,4505,False
+turn2,Acid,Poliwhirl,34.0,80.0,Water,Poison,Water,,0,5,3505,4505,False
+turn3,Acid,Poliwhirl,34.0,36.0,Water,Poison,Water,,0,5,3505,4505,False
+turn4,Acid,Poliwhirl,-27.0,36.0,Water,Poison,Water,,0,5,3505,4505,False
+turn1,Supersonic,Poliwrath,100,150,Water,Poison,Water,Fighting,0,0,3505,3505,False
+turn2,Supersonic,Poliwrath,11.0,150,Water,Poison,Water,Fighting,1,0,3505,3505,False
+turn3,Supersonic,Poliwrath,-83.0,150,Water,Poison,Water,Fighting,1,0,3505,3505,False
+turn1,Acid,Abra,100,85,Water,Poison,Psychic,,0,0,3505,4505,True
+turn2,Acid,Abra,100,61.0,Water,Poison,Psychic,,0,5,3505,4505,True
+turn3,Acid,Abra,100,15.0,Water,Poison,Psychic,,0,5,3505,4505,True
+turn4,Acid,Abra,100,-32.0,Water,Poison,Psychic,,0,5,3505,4505,True
+turn1,Supersonic,Kadabra,-5.0,100,Water,Poison,Psychic,,0,0,3505,5255,False
+turn1,Supersonic,Alakazam,-65.0,115,Water,Poison,Psychic,,0,0,3505,6005,False
+turn1,Acid,Machop,29.0,130,Water,Poison,Fighting,,0,0,3505,1755,True
+turn2,Acid,Machop,29.0,68.0,Water,Poison,Fighting,,0,5,3505,1755,True
+turn3,Acid,Machop,29.0,7.0,Water,Poison,Fighting,,0,5,3505,1755,True
+turn4,Acid,Machop,29.0,-29.0,Water,Poison,Fighting,,0,5,3505,1755,True
+turn1,Acid,Machoke,100,117.0,Water,Poison,Fighting,,0,0,3505,2255,False
+turn2,Acid,Machoke,5.0,95.0,Water,Poison,Fighting,,0,5,3505,2255,False
+turn3,Acid,Machoke,5.0,47.0,Water,Poison,Fighting,,0,5,3505,2255,False
+turn4,Acid,Machoke,-88.0,23.0,Water,Poison,Fighting,,0,5,3505,2255,False
+turn1,Supersonic,Machamp,-22.0,150,Water,Poison,Fighting,,0,0,3505,2755,False
+turn1,Acid,Bellsprout,88,69.0,Water,Poison,Grass,Poison,0,0,3505,2005,True
+turn2,Acid,Bellsprout,11.0,24.0,Water,Poison,Grass,Poison,3,0,3505,2005,True
+turn3,Acid,Bellsprout,11.0,-22.0,Water,Poison,Grass,Poison,3,0,3505,2005,True
+turn1,Acid,Weepinbell,88,95.0,Water,Poison,Grass,Poison,0,0,3505,2755,False
+turn2,Acid,Weepinbell,0.0,64.0,Water,Poison,Grass,Poison,3,0,3505,2755,False
+turn1,Acid,Victreebel,-11.0,140,Water,Poison,Grass,Poison,0,0,3505,3505,False
+turn1,Acid,Tentacool,80.0,100,Water,Poison,Water,Poison,0,0,3505,3505,False
+turn2,Acid,Tentacool,74.0,100,Water,Poison,Water,Poison,5,0,3505,3505,False
+turn3,Acid,Tentacool,48.0,100,Water,Poison,Water,Poison,5,5,3505,3505,False
+turn4,Acid,Tentacool,21.0,100,Water,Poison,Water,Poison,5,5,3505,3505,False
+turn5,Acid,Tentacool,-5.0,100,Water,Poison,Water,Poison,5,5,3505,3505,False
+turn1,Acid,Tentacruel,94,140,Water,Poison,Water,Poison,0,0,3505,5005,True
+turn2,Acid,Tentacruel,88,116.0,Water,Poison,Water,Poison,3,5,3505,5005,True
+turn3,Acid,Tentacruel,82,92.0,Water,Poison,Water,Poison,3,5,3505,5005,True
+turn4,Acid,Tentacruel,76,69.0,Water,Poison,Water,Poison,3,5,3505,5005,True
+turn5,Acid,Tentacruel,70,44.0,Water,Poison,Water,Poison,3,5,3505,5005,True
+turn6,Acid,Tentacruel,64,20.0,Water,Poison,Water,Poison,3,5,3505,5005,True
+turn7,Acid,Tentacruel,41.0,14.0,Water,Poison,Water,Poison,3,5,3505,5005,True
+turn8,Acid,Tentacruel,19.0,9.0,Water,Poison,Water,Poison,3,5,3505,5005,True
+turn9,Acid,Tentacruel,19.0,-17.0,Water,Poison,Water,Poison,3,5,3505,5005,True
+turn1,Water Gun,Geodude,100,-80.0,Water,Poison,Rock,Ground,0,0,3505,1005,True
+turn1,Water Gun,Graveler,100,-5.0,Water,Poison,Rock,Ground,0,0,3505,1755,True
+turn1,Water Gun,Golem,-293.0,55.0,Water,Poison,Rock,Ground,0,0,3505,2255,False
+turn1,Water Gun,Ponyta,36.0,88.0,Water,Poison,Fire,,0,0,3505,4505,False
+turn2,Water Gun,Ponyta,-35.0,88.0,Water,Poison,Fire,,0,0,3505,4505,False
+turn1,Water Gun,Rapidash,23.0,106.0,Water,Poison,Fire,,0,0,3505,5255,False
+turn2,Water Gun,Rapidash,-54.0,106.0,Water,Poison,Fire,,0,0,3505,5255,False
+turn1,Acid,Slowpoke,69.0,150,Water,Poison,Water,Psychic,0,0,3505,755,True
+turn2,Acid,Slowpoke,69.0,102.0,Water,Poison,Water,Psychic,0,5,3505,755,True
+turn3,Acid,Slowpoke,38.0,70.0,Water,Poison,Water,Psychic,0,5,3505,755,True
+turn4,Acid,Slowpoke,38.0,17.0,Water,Poison,Water,Psychic,0,5,3505,755,True
+turn5,Acid,Slowpoke,38.0,-17.0,Water,Poison,Water,Psychic,0,5,3505,755,True
+turn1,Acid,Slowbro,100,142.0,Water,Poison,Water,Psychic,0,0,3505,1505,False
+turn2,Acid,Slowbro,68.0,124.0,Water,Poison,Water,Psychic,0,5,3505,1505,False
+turn3,Acid,Slowbro,31.0,107.0,Water,Poison,Water,Psychic,0,5,3505,1505,False
+turn4,Acid,Slowbro,31.0,78.0,Water,Poison,Water,Psychic,0,5,3505,1505,False
+turn5,Acid,Slowbro,-2.0,61.0,Water,Poison,Water,Psychic,0,5,3505,1505,False
+turn1,Acid,Magnemite,100,75.0,Water,Poison,Electric,,0,0,3505,2255,True
+turn2,Acid,Magnemite,50.0,51.0,Water,Poison,Electric,,0,5,3505,2255,True
+turn3,Acid,Magnemite,50.0,18.0,Water,Poison,Electric,,0,5,3505,2255,True
+turn4,Acid,Magnemite,50.0,-8.0,Water,Poison,Electric,,0,5,3505,2255,True
+turn1,Supersonic,Magneton,-42.0,110,Water,Poison,Electric,,0,0,3505,3505,False
+turn1,Acid,Farfetch'd,100,79.0,Water,Poison,Normal,Flying,0,0,3505,3005,True
+turn2,Acid,Farfetch'd,100,28.0,Water,Poison,Normal,Flying,0,5,3505,3005,True
+turn3,Acid,Farfetch'd,100,-22.0,Water,Poison,Normal,Flying,0,5,3505,3005,True
+turn1,Acid,Doduo,43.0,95,Water,Poison,Normal,Flying,0,0,3505,3755,False
+turn2,Acid,Doduo,-20.0,95,Water,Poison,Normal,Flying,0,5,3505,3755,False
+turn1,Supersonic,Dodrio,-50.0,120,Water,Poison,Normal,Flying,0,0,3505,5005,False
+turn1,Acid,Seel,91.0,125,Water,Poison,Water,,0,0,3505,2255,True
+turn2,Acid,Seel,82.0,105.0,Water,Poison,Water,,0,5,3505,2255,True
+turn3,Acid,Seel,74.0,85.0,Water,Poison,Water,,0,5,3505,2255,True
+turn4,Acid,Seel,66.0,64.0,Water,Poison,Water,,0,5,3505,2255,True
+turn5,Acid,Seel,57.0,45.0,Water,Poison,Water,,0,5,3505,2255,True
+turn6,Acid,Seel,48.0,26.0,Water,Poison,Water,,0,5,3505,2255,True
+turn7,Acid,Seel,48.0,12.0,Water,Poison,Water,,6,5,3505,2255,True
+turn8,Acid,Seel,39.0,12.0,Water,Poison,Water,,6,5,3505,2255,True
+turn9,Acid,Seel,30.0,12.0,Water,Poison,Water,,6,5,3505,2255,True
+turn10,Acid,Seel,30.0,-3.0,Water,Poison,Water,,6,5,3505,2255,True
+turn1,Supersonic,Dewgong,77.0,150,Water,Poison,Water,Ice,0,0,3505,3505,False
+turn2,Supersonic,Dewgong,54.0,150,Water,Poison,Water,Ice,6,0,3505,3505,False
+turn3,Supersonic,Dewgong,29.0,150,Water,Poison,Water,Ice,0,0,3505,3505,False
+turn4,Supersonic,Dewgong,5.0,150,Water,Poison,Water,Ice,6,0,3505,3505,False
+turn5,Supersonic,Dewgong,-20.0,150,Water,Poison,Water,Ice,6,0,3505,3505,False
+turn1,Acid,Grimer,91.0,140,Water,Poison,Poison,,0,0,3505,1255,True
+turn2,Acid,Grimer,91.0,102.0,Water,Poison,Poison,,0,5,3505,1255,True
+turn3,Acid,Grimer,91.0,61.0,Water,Poison,Poison,,0,5,3505,1255,True
+turn4,Acid,Grimer,91.0,19.0,Water,Poison,Poison,,0,5,3505,1255,True
+turn5,Acid,Grimer,91.0,-20.0,Water,Poison,Poison,,0,5,3505,1255,True
+turn1,Acid,Muk,100,141.0,Water,Poison,Poison,,0,0,3505,2505,False
+turn2,Acid,Muk,-51.0,135.0,Water,Poison,Poison,,0,5,3505,2505,False
+turn1,Acid,Shellder,100,77.0,Water,Poison,Water,,0,0,3505,2005,True
+turn2,Acid,Shellder,100,14.0,Water,Poison,Water,,0,5,3505,2005,True
+turn3,Acid,Shellder,100,-36.0,Water,Poison,Water,,0,5,3505,2005,True
+turn1,Acid,Cloyster,77.0,110,Water,Poison,Water,Ice,0,0,3505,3505,True
+turn2,Acid,Cloyster,54.0,79.0,Water,Poison,Water,Ice,0,5,3505,3505,True
+turn3,Acid,Cloyster,30.0,50.0,Water,Poison,Water,Ice,0,5,3505,3505,True
+turn4,Acid,Cloyster,5.0,21.0,Water,Poison,Water,Ice,0,5,3505,3505,True
+turn5,Acid,Cloyster,5.0,-17.0,Water,Poison,Water,Ice,0,5,3505,3505,True
+turn1,Water Gun,Gastly,100,54.0,Water,Poison,Ghost,Poison,0,0,3505,4005,False
+turn2,Water Gun,Gastly,31.0,54.0,Water,Poison,Ghost,Poison,5,0,3505,4005,False
+turn3,Water Gun,Gastly,-19.0,54.0,Water,Poison,Ghost,Poison,5,0,3505,4005,False
+turn1,Water Gun,Haunter,100,82.0,Water,Poison,Ghost,Poison,0,0,3505,4755,False
+turn2,Water Gun,Haunter,31.0,82.0,Water,Poison,Ghost,Poison,5,0,3505,4755,False
+turn3,Water Gun,Haunter,-19.0,82.0,Water,Poison,Ghost,Poison,5,0,3505,4755,False
+turn1,Water Gun,Gengar,81.0,120,Water,Poison,Ghost,Poison,0,0,3505,5505,False
+turn2,Water Gun,Gengar,10.0,120,Water,Poison,Ghost,Poison,5,0,3505,5505,False
+turn3,Water Gun,Gengar,-40.0,120,Water,Poison,Ghost,Poison,5,0,3505,5505,False
+turn1,Water Gun,Onix,-49.0,95,Water,Poison,Rock,Ground,0,0,3505,3505,False
+turn1,Acid,Drowzee,71.0,120,Water,Poison,Psychic,,0,0,3505,2105,True
+turn2,Acid,Drowzee,71.0,85.0,Water,Poison,Psychic,,0,5,3505,2105,True
+turn3,Acid,Drowzee,71.0,50.0,Water,Poison,Psychic,,0,5,3505,2105,True
+turn4,Acid,Drowzee,42.0,34.0,Water,Poison,Psychic,,0,5,3505,2105,True
+turn5,Acid,Drowzee,13.0,18.0,Water,Poison,Psychic,,0,5,3505,2105,True
+turn6,Acid,Drowzee,13.0,-16.0,Water,Poison,Psychic,,0,5,3505,2105,True
+turn1,Acid,Hypno,15.0,145,Water,Poison,Psychic,,0,0,3505,3355,False
+turn2,Acid,Hypno,-73.0,132.0,Water,Poison,Psychic,,0,5,3505,3355,False
+turn1,Acid,Krabby,13.0,90,Water,Poison,Water,,0,0,3505,2505,True
+turn2,Acid,Krabby,13.0,19.0,Water,Poison,Water,,0,5,3505,2505,True
+turn3,Acid,Krabby,13.0,-28.0,Water,Poison,Water,,0,5,3505,2505,True
+turn1,Supersonic,Kingler,-17.0,115,Water,Poison,Water,,0,0,3505,3755,False
+turn1,Acid,Voltorb,16.0,100,Water,Poison,Electric,,0,0,3505,5005,False
+turn2,Acid,Voltorb,16.0,63.0,Water,Poison,Electric,,0,5,3505,5005,False
+turn3,Acid,Voltorb,16.0,29.0,Water,Poison,Electric,,0,5,3505,5005,False
+turn4,Acid,Voltorb,-70.0,29.0,Water,Poison,Electric,,0,5,3505,5005,False
+turn1,Supersonic,Electrode,-40.0,120,Water,Poison,Electric,,0,0,3505,7005,False
+turn1,Acid,Exeggcute,112,47.0,Water,Poison,Grass,Psychic,0,0,3505,2005,True
+turn2,Acid,Exeggcute,112,-12.0,Water,Poison,Grass,Psychic,7,0,3505,2005,True
+turn1,Acid,Exeggutor,-6.0,111.0,Water,Poison,Grass,Psychic,0,0,3505,2755,False
+turn1,Water Gun,Cubone,-24.0,83.0,Water,Poison,Ground,,0,0,3505,1755,False
+turn1,Water Gun,Marowak,-80.0,104.0,Water,Poison,Ground,,0,0,3505,2255,False
+turn1,Supersonic,Hitmonlee,-61.0,110,Water,Poison,Fighting,,0,0,3505,4355,False
+turn1,Supersonic,Hitmonchan,-73.0,110,Water,Poison,Fighting,,0,0,3505,3805,False
+turn1,Acid,Lickitung,36.0,150,Water,Poison,Normal,,0,0,3505,1505,False
+turn2,Acid,Lickitung,36.0,112.0,Water,Poison,Normal,,0,5,3505,1505,False
+turn3,Acid,Lickitung,-32.0,92.0,Water,Poison,Normal,,0,5,3505,1505,False
+turn1,Acid,Koffing,88,100,Water,Poison,Poison,,0,0,3505,1755,True
+turn2,Acid,Koffing,70.0,85.0,Water,Poison,Poison,,3,5,3505,1755,True
+turn3,Acid,Koffing,51.0,70.0,Water,Poison,Poison,,3,5,3505,1755,True
+turn4,Acid,Koffing,33.0,56.0,Water,Poison,Poison,,3,5,3505,1755,True
+turn5,Acid,Koffing,15.0,41.0,Water,Poison,Poison,,3,5,3505,1755,True
+turn6,Acid,Koffing,3.0,14.0,Water,Poison,Poison,,3,5,3505,1755,True
+turn7,Acid,Koffing,-3.0,-11.0,Water,Poison,Poison,,3,5,3505,1755,True
+turn1,Acid,Weezing,88,125,Water,Poison,Poison,,0,0,3505,3005,False
+turn2,Acid,Weezing,58.0,115.0,Water,Poison,Poison,,3,5,3505,3005,False
+turn3,Acid,Weezing,46.0,92.0,Water,Poison,Poison,,3,5,3505,3005,False
+turn4,Acid,Weezing,34.0,68.0,Water,Poison,Poison,,3,5,3505,3005,False
+turn5,Acid,Weezing,22.0,46.0,Water,Poison,Poison,,3,5,3505,3005,False
+turn6,Acid,Weezing,10.0,24.0,Water,Poison,Poison,,3,5,3505,3005,False
+turn7,Acid,Weezing,-9.0,14.0,Water,Poison,Poison,,3,5,3505,3005,False
+turn1,Water Gun,Rhyhorn,100,-70.0,Water,Poison,Ground,Rock,0,0,3505,1255,True
+turn1,Water Gun,Rhydon,-47.0,-23.0,Water,Poison,Ground,Rock,0,0,3505,2005,False
+turn1,Acid,Chansey,89.0,310,Water,Poison,Normal,,0,0,3505,2505,True
+turn2,Acid,Chansey,89.0,268.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn3,Acid,Chansey,78.0,255.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn4,Acid,Chansey,78.0,213.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn5,Acid,Chansey,66.0,200.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn6,Acid,Chansey,56.0,185.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn7,Acid,Chansey,45.0,172.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn8,Acid,Chansey,33.0,159.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn9,Acid,Chansey,23.0,146.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn10,Acid,Chansey,23.0,105.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn11,Acid,Chansey,23.0,64.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn12,Acid,Chansey,12.0,49.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn13,Acid,Chansey,12.0,7.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn14,Acid,Chansey,12.0,-6.0,Water,Poison,Normal,,0,5,3505,2505,True
+turn1,Acid,Tangela,112,51.0,Water,Poison,Grass,,0,0,3505,3005,True
+turn2,Acid,Tangela,112,-14.0,Water,Poison,Grass,,7,0,3505,3005,True
+turn1,Supersonic,Kangaskhan,-16.0,165,Water,Poison,Normal,,0,0,3505,4505,False
+turn1,Acid,Horsea,100,79.0,Water,Poison,Water,,0,0,3505,3005,True
+turn2,Acid,Horsea,90.0,27.0,Water,Poison,Water,,0,5,3505,3005,True
+turn3,Acid,Horsea,90.0,-26.0,Water,Poison,Water,,0,5,3505,3005,True
+turn1,Acid,Seadra,67.0,115,Water,Poison,Water,,0,0,3505,4255,False
+turn2,Acid,Seadra,67.0,72.0,Water,Poison,Water,,0,5,3505,4255,False
+turn3,Acid,Seadra,35.0,42.0,Water,Poison,Water,,0,5,3505,4255,False
+turn4,Acid,Seadra,0.0,42.0,Water,Poison,Water,,0,5,3505,4255,False
+turn1,Acid,Goldeen,100,84.0,Water,Poison,Water,,0,0,3505,3155,False
+turn2,Acid,Goldeen,52.0,55.0,Water,Poison,Water,,0,5,3505,3155,False
+turn3,Acid,Goldeen,-1.0,26.0,Water,Poison,Water,,0,5,3505,3155,False
+turn1,Acid,Seaking,100,140,Water,Poison,Water,,0,0,3505,3405,True
+turn2,Acid,Seaking,100,121.0,Water,Poison,Water,,0,5,3505,3405,True
+turn3,Acid,Seaking,100,104.0,Water,Poison,Water,,0,5,3505,3405,True
+turn4,Acid,Seaking,100,87.0,Water,Poison,Water,,0,5,3505,3405,True
+turn5,Acid,Seaking,100,70.0,Water,Poison,Water,,0,5,3505,3405,True
+turn6,Acid,Seaking,100,54.0,Water,Poison,Water,,0,5,3505,3405,True
+turn7,Acid,Seaking,100,11.0,Water,Poison,Water,,0,5,3505,3405,True
+turn8,Acid,Seaking,100,-7.0,Water,Poison,Water,,0,5,3505,3405,True
+turn1,Acid,Staryu,81.0,90,Water,Poison,Water,,0,0,3505,4255,False
+turn2,Acid,Staryu,62.0,90,Water,Poison,Water,,5,0,3505,4255,False
+turn3,Acid,Staryu,25.0,90,Water,Poison,Water,,5,5,3505,4255,False
+turn4,Acid,Staryu,6.0,76.0,Water,Poison,Water,,5,5,3505,4255,False
+turn5,Acid,Staryu,-14.0,76.0,Water,Poison,Water,,5,5,3505,4255,False
+turn1,Acid,Starmie,68.0,120,Water,Poison,Water,Psychic,0,0,3505,5755,False
+turn2,Acid,Starmie,68.0,88.0,Water,Poison,Water,Psychic,0,5,3505,5755,False
+turn3,Acid,Starmie,31.0,70.0,Water,Poison,Water,Psychic,0,5,3505,5755,False
+turn4,Acid,Starmie,-5.0,70.0,Water,Poison,Water,Psychic,0,5,3505,5755,False
+turn1,Acid,Mr. Mime,32.0,100,Water,Poison,Psychic,Normal,0,0,3505,4505,False
+turn2,Acid,Mr. Mime,-34.0,100,Water,Poison,Psychic,Normal,0,5,3505,4505,False
+turn1,Acid,Scyther,-20.0,130,Water,Poison,Bug,Flying,0,0,3505,5255,False
+turn1,Acid,Jynx,19.0,125,Water,Poison,Ice,Psychic,0,0,3505,4755,False
+turn2,Acid,Jynx,19.0,87.0,Water,Poison,Ice,Psychic,0,5,3505,4755,False
+turn3,Acid,Jynx,-60.0,87.0,Water,Poison,Ice,Psychic,0,5,3505,4755,False
+turn1,Supersonic,Electabuzz,-126.0,125,Water,Poison,Electric,,0,0,3505,5255,False
+turn1,Water Gun,Magmar,72.0,107.0,Water,Poison,Fire,,0,0,3505,4655,False
+turn2,Water Gun,Magmar,42.0,90.0,Water,Poison,Fire,,0,0,3505,4655,False
+turn3,Water Gun,Magmar,11.0,74.0,Water,Poison,Fire,,0,0,3505,4655,False
+turn4,Water Gun,Magmar,-20.0,74.0,Water,Poison,Fire,,0,0,3505,4655,False
+turn1,Acid,Pinsir,100,84.0,Water,Poison,Bug,,0,0,3505,4255,False
+turn2,Acid,Pinsir,100,46.0,Water,Poison,Bug,,0,0,3505,4255,False
+turn3,Acid,Pinsir,-65435,46.0,Water,Poison,Bug,,0,0,3505,4255,False
+turn1,Supersonic,Tauros,-51.0,61.0,Water,Poison,Normal,,0,0,3505,5505,False
+turn1,Acid,Magikarp,100,80,Water,Poison,Water,,0,0,3505,4005,True
+turn2,Acid,Magikarp,100,18.0,Water,Poison,Water,,0,5,3505,4005,True
+turn3,Acid,Magikarp,100,-44.0,Water,Poison,Water,,0,5,3505,4005,True
+turn1,Acid,Gyarados,80.0,155,Water,Poison,Water,Flying,0,0,3505,4055,True
+turn2,Acid,Gyarados,58.0,140.0,Water,Poison,Water,Flying,0,5,3505,4055,True
+turn3,Acid,Gyarados,58.0,99.0,Water,Poison,Water,Flying,0,5,3505,4055,True
+turn4,Acid,Gyarados,58.0,57.0,Water,Poison,Water,Flying,0,5,3505,4055,True
+turn5,Acid,Gyarados,38.0,42.0,Water,Poison,Water,Flying,0,5,3505,4055,True
+turn6,Acid,Gyarados,38.0,1.0,Water,Poison,Water,Flying,0,5,3505,4055,True
+turn7,Acid,Gyarados,38.0,-39.0,Water,Poison,Water,Flying,0,5,3505,4055,True
+turn1,Acid,Lapras,100,172.0,Water,Poison,Water,Ice,0,0,3505,3005,False
+turn2,Acid,Lapras,70.0,157.0,Water,Poison,Water,Ice,0,5,3505,3005,False
+turn3,Acid,Lapras,70.0,124.0,Water,Poison,Water,Ice,0,5,3505,3005,False
+turn4,Acid,Lapras,39.0,110.0,Water,Poison,Water,Ice,0,5,3505,3005,False
+turn5,Acid,Lapras,8.0,94.0,Water,Poison,Water,Ice,0,5,3505,3005,False
+turn6,Acid,Lapras,-24.0,79.0,Water,Poison,Water,Ice,0,5,3505,3005,False
+turn1,Acid,Ditto,100,82.0,Water,Poison,Normal,,0,0,3505,2405,True
+turn2,Acid,Ditto,100,56.0,Water,Poison,Normal,,0,5,3505,2405,True
+turn3,Acid,Ditto,100,28.0,Water,Poison,Normal,,0,5,3505,2405,True
+turn4,Acid,Ditto,100,1.0,Water,Poison,Normal,,0,5,3505,2405,True
+turn5,Acid,Ditto,100,-26.0,Water,Poison,Normal,,0,5,3505,2405,True
+turn1,Acid,Eevee,42.0,115,Water,Poison,Normal,,0,0,3505,2755,False
+turn2,Acid,Eevee,-20.0,93.0,Water,Poison,Normal,,0,5,3505,2755,False
+turn1,Acid,Vaporeon,69.0,190,Water,Poison,Water,,0,0,3505,3255,False
+turn2,Acid,Vaporeon,69.0,158.0,Water,Poison,Water,,0,5,3505,3255,False
+turn3,Acid,Vaporeon,39.0,144.0,Water,Poison,Water,,0,5,3505,3255,False
+turn4,Acid,Vaporeon,39.0,112.0,Water,Poison,Water,,0,5,3505,3255,False
+turn5,Acid,Vaporeon,7.0,98.0,Water,Poison,Water,,0,5,3505,3255,False
+turn6,Acid,Vaporeon,-23.0,82.0,Water,Poison,Water,,0,5,3505,3255,False
+turn1,Acid,Jolteon,41.0,125,Water,Poison,Electric,,0,0,3505,6505,False
+turn2,Acid,Jolteon,41.0,92.0,Water,Poison,Electric,,0,5,3505,6505,False
+turn3,Acid,Jolteon,-20.0,92.0,Water,Poison,Electric,,0,5,3505,6505,False
+turn1,Water Gun,Flareon,67.0,111.0,Water,Poison,Fire,,0,0,3505,3255,False
+turn2,Water Gun,Flareon,36.0,98.0,Water,Poison,Fire,,0,0,3505,3255,False
+turn3,Water Gun,Flareon,3.0,84.0,Water,Poison,Fire,,0,0,3505,3255,False
+turn4,Water Gun,Flareon,-30.0,72.0,Water,Poison,Fire,,0,0,3505,3255,False
+turn1,Acid,Porygon,100,103.0,Water,Poison,Normal,,0,0,3505,2005,False
+turn2,Acid,Porygon,58.0,85.0,Water,Poison,Normal,,0,5,3505,2005,False
+turn3,Acid,Porygon,15.0,67.0,Water,Poison,Normal,,0,5,3505,2005,False
+turn4,Acid,Porygon,-28.0,48.0,Water,Poison,Normal,,0,5,3505,2005,False
+turn1,Water Gun,Omanyte,68.0,69.0,Water,Poison,Rock,Water,0,0,3505,1755,True
+turn2,Water Gun,Omanyte,38.0,43.0,Water,Poison,Rock,Water,0,0,3505,1755,True
+turn3,Water Gun,Omanyte,5.0,20.0,Water,Poison,Rock,Water,0,0,3505,1755,True
+turn4,Water Gun,Omanyte,5.0,-3.0,Water,Poison,Rock,Water,0,0,3505,1755,True
+turn1,Water Gun,Omastar,54.0,109.0,Water,Poison,Rock,Water,0,0,3505,2755,False
+turn2,Water Gun,Omastar,10.0,88.0,Water,Poison,Rock,Water,0,0,3505,2755,False
+turn3,Water Gun,Omastar,-34.0,67.0,Water,Poison,Rock,Water,0,0,3505,2755,False
+turn1,Water Gun,Kabuto,39.0,63.0,Water,Poison,Rock,Water,0,0,3505,2755,False
+turn2,Water Gun,Kabuto,-32.0,36.0,Water,Poison,Rock,Water,0,0,3505,2755,False
+turn1,Water Gun,Kabutops,4.0,100.0,Water,Poison,Rock,Water,0,0,3505,4005,False
+turn2,Water Gun,Kabutops,-84.0,100.0,Water,Poison,Rock,Water,0,0,3505,4005,False
+turn1,Water Gun,Aerodactyl,-3.0,140,Water,Poison,Rock,Flying,0,0,3505,6505,False
+turn1,Supersonic,Snorlax,-142.0,220,Water,Poison,Normal,,0,0,3505,1505,False
+turn1,Acid,Articuno,66.0,150,Water,Poison,Ice,Flying,0,0,3505,4255,False
+turn2,Acid,Articuno,33.0,138.0,Water,Poison,Ice,Flying,0,5,3505,4255,False
+turn3,Acid,Articuno,-2.0,138.0,Water,Poison,Ice,Flying,0,5,3505,4255,False
+turn1,Supersonic,Zapdos,-60.0,150,Water,Poison,Electric,Flying,0,0,3505,5005,False
+turn1,Water Gun,Moltres,-149.0,150,Water,Poison,Fire,Flying,0,0,3505,4505,False
+turn1,Acid,Dratini,100,78.0,Water,Poison,Dragon,,0,0,3505,2505,False
+turn2,Acid,Dratini,39.0,51.0,Water,Poison,Dragon,,0,5,3505,2505,False
+turn3,Acid,Dratini,-21.0,23.0,Water,Poison,Dragon,,0,5,3505,2505,False
+turn1,Acid,Dragonair,100,121,Water,Poison,Dragon,,0,0,3505,3505,False
+turn2,Acid,Dragonair,100,78.0,Water,Poison,Dragon,,4,5,3505,3505,False
+turn3,Acid,Dragonair,60,57.0,Water,Poison,Dragon,,4,5,3505,3505,False
+turn4,Acid,Dragonair,20,38.0,Water,Poison,Dragon,,4,5,3505,3505,False
+turn5,Acid,Dragonair,-20,38.0,Water,Poison,Dragon,,4,5,3505,3505,False
+turn1,Acid,Dragonite,100,151,Water,Poison,Dragon,Flying,0,0,3505,4005,True
+turn2,Acid,Dragonite,100,125.0,Water,Poison,Dragon,Flying,4,5,3505,4005,True
+turn3,Acid,Dragonite,100,87.0,Water,Poison,Dragon,Flying,4,5,3505,4005,True
+turn4,Acid,Dragonite,100,49.0,Water,Poison,Dragon,Flying,4,5,3505,4005,True
+turn5,Acid,Dragonite,60,49.0,Water,Poison,Dragon,Flying,4,5,3505,4005,True
+turn6,Acid,Dragonite,20,33.0,Water,Poison,Dragon,Flying,4,5,3505,4005,True
+turn7,Acid,Dragonite,,,Water,Poison,Dragon,Flying,,,3505,4005,True
+turn1,Acid,Mewtwo,1.0,166,Water,Poison,Psychic,,0,0,3505,6505,False
+turn2,Acid,Mewtwo,1.0,128.0,Water,Poison,Psychic,,0,5,3505,6505,False
+turn3,Acid,Mewtwo,-105.0,128.0,Water,Poison,Psychic,,0,5,3505,6505,False
+turn1,Supersonic,Mew,-9.0,160,Water,Poison,Psychic,,0,0,3505,5005,False

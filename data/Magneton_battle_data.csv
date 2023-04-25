@@ -1,0 +1,419 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Thunderbolt,Bulbasaur,101.0,56.0,Electric,,Grass,Poison,0,0,3505,2255,True
+turn2,Thunderbolt,Bulbasaur,91.0,6.0,Electric,,Grass,Poison,0,0,3505,2255,True
+turn3,Thunderbolt,Bulbasaur,91.0,-44.0,Electric,,Grass,Poison,0,0,3505,2255,True
+turn1,Thunderbolt,Ivysaur,98,79.0,Electric,,Grass,Poison,0,0,3505,3005,True
+turn2,Thunderbolt,Ivysaur,74.0,39.0,Electric,,Grass,Poison,3,0,3505,3005,True
+turn3,Thunderbolt,Ivysaur,74.0,-4.0,Electric,,Grass,Poison,3,0,3505,3005,True
+turn1,Thunderbolt,Venusaur,60.0,108.0,Electric,,Grass,Poison,0,0,3505,4005,False
+turn2,Thunderbolt,Venusaur,5.0,74.0,Electric,,Grass,Poison,0,0,3505,4005,False
+turn3,Thunderbolt,Venusaur,-45.0,74.0,Electric,,Grass,Poison,0,0,3505,4005,False
+turn1,Thunderbolt,Charmander,72.0,35.0,Electric,,Fire,,0,0,3505,3255,True
+turn2,Thunderbolt,Charmander,72.0,-32.0,Electric,,Fire,,2,0,3505,3255,True
+turn1,Thunderbolt,Charmeleon,79.0,63.0,Electric,,Fire,,0,0,3505,4005,True
+turn2,Thunderbolt,Charmeleon,45.0,14.0,Electric,,Fire,,0,0,3505,4005,True
+turn3,Thunderbolt,Charmeleon,14.0,-40.0,Electric,,Fire,,0,0,3505,4005,True
+turn1,Thunderbolt,Charizard,68.0,-9.0,Electric,,Fire,Flying,0,0,3505,5005,True
+turn1,Thunderbolt,Squirtle,81.0,1.0,Electric,,Water,,0,0,3505,2155,True
+turn2,Thunderbolt,Squirtle,81.0,-99.0,Electric,,Water,,0,0,3505,2155,True
+turn1,Thunderbolt,Wartortle,73.0,30.0,Electric,,Water,,0,0,3505,2905,True
+turn2,Thunderbolt,Wartortle,73.0,-60.0,Electric,,Water,,0,0,3505,2905,True
+turn1,Thunderbolt,Blastoise,61.0,70.0,Electric,,Water,,0,0,3505,3905,False
+turn2,Thunderbolt,Blastoise,17.0,7.0,Electric,,Water,,0,0,3505,3905,False
+turn3,Thunderbolt,Blastoise,-33.0,7.0,Electric,,Water,,0,0,3505,3905,False
+turn1,Thunderbolt,Caterpie,110,-59.0,Electric,,Bug,,0,0,3505,2255,True
+turn1,Thunderbolt,Metapod,110,-27.0,Electric,,Bug,,0,0,3505,1505,True
+turn1,Thunderbolt,Butterfree,110,120,Electric,,Bug,Flying,0,0,3505,3505,False
+turn2,Thunderbolt,Butterfree,75.0,120,Electric,,Bug,Flying,1,0,3505,3505,False
+turn3,Thunderbolt,Butterfree,39.0,120,Electric,,Bug,Flying,1,0,3505,3505,False
+turn4,Thunderbolt,Butterfree,39.0,120,Electric,,Bug,Flying,0,0,3505,3505,False
+turn5,Thunderbolt,Butterfree,3.0,120,Electric,,Bug,Flying,1,0,3505,3505,False
+turn6,Thunderbolt,Butterfree,-34.0,120,Electric,,Bug,Flying,1,0,3505,3505,False
+turn1,Thunderbolt,Weedle,110,-217.0,Electric,,Bug,Poison,0,0,3505,2505,True
+turn1,Thunderbolt,Kakuna,110,-158.0,Electric,,Bug,Poison,0,0,3505,1755,True
+turn1,Thunderbolt,Beedrill,76.0,34.0,Electric,,Bug,Poison,0,0,3505,3755,True
+turn2,Thunderbolt,Beedrill,40.0,-52.0,Electric,,Bug,Poison,3,0,3505,3755,True
+turn1,Thunderbolt,Pidgey,110,-294.0,Electric,,Normal,Flying,0,0,3505,2805,True
+turn1,Thunderbolt,Pidgeotto,97.0,-160.0,Electric,,Normal,Flying,0,0,3505,3555,True
+turn1,Thunderbolt,Pidgeot,92.0,-54.0,Electric,,Normal,Flying,0,0,3505,5055,True
+turn1,Thunderbolt,Rattata,76.0,-6.0,Electric,,Normal,,0,0,3505,3605,True
+turn1,Thunderbolt,Raticate,67.0,67.0,Electric,,Normal,,0,0,3505,4855,False
+turn2,Thunderbolt,Raticate,26.0,17.0,Electric,,Normal,,0,0,3505,4855,False
+turn3,Thunderbolt,Raticate,-20.0,17.0,Electric,,Normal,,0,0,3505,4855,False
+turn1,Thunderbolt,Spearow,94.0,-352.0,Electric,,Normal,Flying,0,0,3505,3505,True
+turn1,Thunderbolt,Fearow,84.0,-82.0,Electric,,Normal,Flying,0,0,3505,5005,True
+turn1,Thunderbolt,Ekans,93.0,28.0,Electric,,Poison,,0,0,3505,2755,True
+turn2,Thunderbolt,Ekans,93.0,-33.0,Electric,,Poison,,0,0,3505,2755,True
+turn1,Thunderbolt,Arbok,88.0,77.0,Electric,,Poison,,0,0,3505,4005,True
+turn2,Thunderbolt,Arbok,65.0,35.0,Electric,,Poison,,0,0,3505,4005,True
+turn3,Thunderbolt,Arbok,41.0,-6.0,Electric,,Poison,,0,0,3505,4005,True
+turn1,Thunderbolt,Pikachu,99.0,61.0,Electric,,Electric,,0,0,3505,4505,True
+turn2,Thunderbolt,Pikachu,87.0,30.0,Electric,,Electric,,0,0,3505,4505,True
+turn3,Thunderbolt,Pikachu,76.0,-4.0,Electric,,Electric,,0,0,3505,4505,True
+turn1,Thunderbolt,Raichu,90.0,99.0,Electric,,Electric,,0,0,3505,5505,False
+turn2,Thunderbolt,Raichu,67.0,77.0,Electric,,Electric,,0,0,3505,5505,False
+turn3,Thunderbolt,Raichu,47.0,55.0,Electric,,Electric,,0,0,3505,5505,False
+turn4,Thunderbolt,Raichu,26.0,34.0,Electric,,Electric,,0,0,3505,5505,False
+turn5,Thunderbolt,Raichu,4.0,13.0,Electric,,Electric,,0,0,3505,5505,False
+turn6,Thunderbolt,Raichu,-20.0,13.0,Electric,,Electric,,0,0,3505,5505,False
+turn1,Sonic Boom,Sandshrew,110,96.0,Electric,,Ground,,0,0,3505,2005,True
+turn2,Sonic Boom,Sandshrew,85.0,76.0,Electric,,Ground,,0,5,3505,2005,True
+turn3,Sonic Boom,Sandshrew,61.0,56.0,Electric,,Ground,,0,5,3505,2005,True
+turn4,Sonic Boom,Sandshrew,37.0,36.0,Electric,,Ground,,0,5,3505,2005,True
+turn5,Sonic Boom,Sandshrew,14.0,16.0,Electric,,Ground,,0,5,3505,2005,True
+turn6,Sonic Boom,Sandshrew,14.0,-4.0,Electric,,Ground,,0,5,3505,2005,True
+turn1,Sonic Boom,Sandslash,79.0,135,Electric,,Ground,,0,0,3505,3255,False
+turn2,Sonic Boom,Sandslash,46.0,115,Electric,,Ground,,0,5,3505,3255,False
+turn3,Sonic Boom,Sandslash,17.0,95,Electric,,Ground,,0,5,3505,3255,False
+turn4,Sonic Boom,Sandslash,-13.0,75,Electric,,Ground,,0,5,3505,3255,False
+turn1,Thunderbolt,Nidoran♀,96.0,28.0,Electric,,Poison,,0,0,3505,2055,True
+turn2,Thunderbolt,Nidoran♀,96.0,-50.0,Electric,,Poison,,0,0,3505,2055,True
+turn1,Thunderbolt,Nidorina,92.0,69.0,Electric,,Poison,,0,0,3505,2805,True
+turn2,Thunderbolt,Nidorina,74.0,7.0,Electric,,Poison,,0,0,3505,2805,True
+turn3,Thunderbolt,Nidorina,74.0,-56.0,Electric,,Poison,,0,0,3505,2805,True
+turn1,Sonic Boom,Nidoqueen,72.0,150,Electric,,Poison,Ground,0,0,3505,3805,False
+turn2,Sonic Boom,Nidoqueen,36.0,130,Electric,,Poison,Ground,4,5,3505,3805,False
+turn3,Sonic Boom,Nidoqueen,36.0,90.0,Electric,,Poison,Ground,4,5,3505,3805,False
+turn4,Sonic Boom,Nidoqueen,2.0,70.0,Electric,,Poison,Ground,4,5,3505,3805,False
+turn5,Sonic Boom,Nidoqueen,-33.0,70.0,Electric,,Poison,Ground,4,5,3505,3805,False
+turn1,Thunderbolt,Nidoran♂,110,21.0,Electric,,Poison,,0,0,3505,2505,True
+turn2,Thunderbolt,Nidoran♂,110,-69.0,Electric,,Poison,,0,0,3505,2505,True
+turn1,Thunderbolt,Nidorino,110,58.0,Electric,,Poison,,0,0,3505,3255,False
+turn2,Thunderbolt,Nidorino,-65425,1.0,Electric,,Poison,,0,0,3505,3255,False
+turn1,Sonic Boom,Nidoking,58.0,141,Electric,,Poison,Ground,0,0,3505,4255,True
+turn2,Sonic Boom,Nidoking,58.0,97.0,Electric,,Poison,Ground,0,5,3505,4255,True
+turn3,Sonic Boom,Nidoking,58.0,54.0,Electric,,Poison,Ground,0,5,3505,4255,True
+turn4,Sonic Boom,Nidoking,58.0,10.0,Electric,,Poison,Ground,0,5,3505,4255,True
+turn5,Sonic Boom,Nidoking,58.0,-34.0,Electric,,Poison,Ground,0,5,3505,4255,True
+turn1,Thunderbolt,Clefairy,92.0,82.0,Electric,,Normal,,0,0,3505,1755,True
+turn2,Thunderbolt,Clefairy,57.0,32.0,Electric,,Normal,,0,0,3505,1755,True
+turn3,Thunderbolt,Clefairy,57.0,-18.0,Electric,,Normal,,0,0,3505,1755,True
+turn1,Thunderbolt,Clefable,110,116.0,Electric,,Normal,,0,0,3505,3005,True
+turn2,Thunderbolt,Clefable,92.0,116.0,Electric,,Normal,,1,0,3505,3005,True
+turn3,Thunderbolt,Clefable,65.0,116.0,Electric,,Normal,,1,0,3505,3005,True
+turn4,Thunderbolt,Clefable,65.0,78.0,Electric,,Normal,,0,0,3505,3005,True
+turn5,Thunderbolt,Clefable,65.0,39.0,Electric,,Normal,,0,0,3505,3005,True
+turn6,Thunderbolt,Clefable,41.0,39.0,Electric,,Normal,,1,0,3505,3005,True
+turn7,Thunderbolt,Clefable,41.0,-1.0,Electric,,Normal,,0,0,3505,3005,True
+turn1,Thunderbolt,Vulpix,90.0,46.0,Electric,,Fire,,0,0,3505,3255,True
+turn2,Thunderbolt,Vulpix,90.0,-7.0,Electric,,Fire,,0,0,3505,3255,True
+turn1,Thunderbolt,Ninetales,94.0,101.0,Electric,,Fire,,0,0,3505,5005,True
+turn2,Thunderbolt,Ninetales,79.0,65.0,Electric,,Fire,,0,0,3505,5005,True
+turn3,Thunderbolt,Ninetales,65.0,30.0,Electric,,Fire,,0,0,3505,5005,True
+turn4,Thunderbolt,Ninetales,50.0,-3.0,Electric,,Fire,,0,0,3505,5005,True
+turn1,Thunderbolt,Jigglypuff,73.0,53.0,Electric,,Normal,,0,0,3505,1005,True
+turn2,Thunderbolt,Jigglypuff,73.0,-82.0,Electric,,Normal,,0,0,3505,1005,True
+turn1,Thunderbolt,Wigglytuff,110,138.0,Electric,,Normal,,0,0,3505,2255,False
+turn2,Thunderbolt,Wigglytuff,83.0,138.0,Electric,,Normal,,1,0,3505,2255,False
+turn3,Thunderbolt,Wigglytuff,67.0,138.0,Electric,,Normal,,1,0,3505,2255,False
+turn4,Thunderbolt,Wigglytuff,67.0,69.0,Electric,,Normal,,0,0,3505,2255,False
+turn5,Thunderbolt,Wigglytuff,40.0,69.0,Electric,,Normal,,1,0,3505,2255,False
+turn6,Thunderbolt,Wigglytuff,22.0,69.0,Electric,,Normal,,1,0,3505,2255,False
+turn7,Thunderbolt,Wigglytuff,22.0,6.0,Electric,,Normal,,0,0,3505,2255,False
+turn8,Thunderbolt,Wigglytuff,-14.0,6.0,Electric,,Normal,,1,0,3505,2255,False
+turn1,Thunderbolt,Zubat,110,-213.0,Electric,,Poison,Flying,0,0,3505,2755,True
+turn1,Thunderbolt,Golbat,97.0,135,Electric,,Poison,Flying,0,0,3505,4505,True
+turn2,Thunderbolt,Golbat,79.0,-41.0,Electric,,Poison,Flying,5,0,3505,4505,True
+turn1,Thunderbolt,Oddish,72.0,55.0,Electric,,Grass,Poison,0,0,3505,1505,True
+turn2,Thunderbolt,Oddish,29.0,8.0,Electric,,Grass,Poison,0,0,3505,1505,True
+turn3,Thunderbolt,Oddish,29.0,-45.0,Electric,,Grass,Poison,0,0,3505,1505,True
+turn1,Thunderbolt,Gloom,62.0,77.0,Electric,,Grass,Poison,0,0,3505,2005,True
+turn2,Thunderbolt,Gloom,19.0,33.0,Electric,,Grass,Poison,0,0,3505,2005,True
+turn3,Thunderbolt,Gloom,19.0,-13.0,Electric,,Grass,Poison,0,0,3505,2005,True
+turn1,Thunderbolt,Vileplume,110,95.0,Electric,,Grass,Poison,0,0,3505,2505,True
+turn2,Thunderbolt,Vileplume,89.0,105.0,Electric,,Grass,Poison,1,0,3505,2505,True
+turn3,Thunderbolt,Vileplume,89.0,67.0,Electric,,Grass,Poison,0,0,3505,2505,True
+turn4,Thunderbolt,Vileplume,70.0,76.0,Electric,,Grass,Poison,1,0,3505,2505,True
+turn5,Thunderbolt,Vileplume,70.0,38.0,Electric,,Grass,Poison,0,0,3505,2505,True
+turn6,Thunderbolt,Vileplume,51.0,47.0,Electric,,Grass,Poison,1,0,3505,2505,True
+turn7,Thunderbolt,Vileplume,51.0,10.0,Electric,,Grass,Poison,0,0,3505,2505,True
+turn8,Thunderbolt,Vileplume,31.0,20.0,Electric,,Grass,Poison,1,0,3505,2505,True
+turn9,Thunderbolt,Vileplume,12.0,29.0,Electric,,Grass,Poison,1,0,3505,2505,True
+turn10,Thunderbolt,Vileplume,12.0,-6.0,Electric,,Grass,Poison,0,0,3505,2505,True
+turn1,Thunderbolt,Paras,69.0,51.0,Electric,,Bug,Grass,0,0,3505,1255,True
+turn2,Thunderbolt,Paras,69.0,-10.0,Electric,,Bug,Grass,0,0,3505,1255,True
+turn1,Thunderbolt,Parasect,62.0,104.0,Electric,,Bug,Grass,0,0,3505,1505,False
+turn2,Thunderbolt,Parasect,11.0,88.0,Electric,,Bug,Grass,0,0,3505,1505,False
+turn3,Thunderbolt,Parasect,-41.0,70.0,Electric,,Bug,Grass,0,0,3505,1505,False
+turn1,Thunderbolt,Venonat,110,-6.0,Electric,,Bug,Poison,0,0,3505,2255,True
+turn1,Thunderbolt,Venomoth,110,130,Electric,,Bug,Poison,0,0,3505,4505,False
+turn2,Thunderbolt,Venomoth,60.0,130,Electric,,Bug,Poison,1,0,3505,4505,False
+turn3,Thunderbolt,Venomoth,11.0,130,Electric,,Bug,Poison,1,0,3505,4505,False
+turn4,Thunderbolt,Venomoth,-38.0,130,Electric,,Bug,Poison,1,0,3505,4505,False
+turn1,Sonic Boom,Diglett,28.0,70,Electric,,Ground,,0,0,3505,4755,False
+turn2,Sonic Boom,Diglett,-54.0,70,Electric,,Ground,,0,5,3505,4755,False
+turn1,Supersonic,Dugtrio,0.0,95,Electric,,Ground,,0,0,3505,6005,False
+turn1,Thunderbolt,Meowth,89.0,19.0,Electric,,Normal,,0,0,3505,4505,True
+turn2,Thunderbolt,Meowth,69.0,-65.0,Electric,,Normal,,0,0,3505,4505,True
+turn1,Thunderbolt,Persian,78.0,74.0,Electric,,Normal,,0,0,3505,5755,True
+turn2,Thunderbolt,Persian,44.0,23.0,Electric,,Normal,,0,0,3505,5755,True
+turn3,Thunderbolt,Persian,10.0,-26.0,Electric,,Normal,,0,0,3505,5755,True
+turn1,Thunderbolt,Psyduck,110,-14.0,Electric,,Water,,0,0,3505,2755,True
+turn1,Thunderbolt,Golduck,61.0,56.0,Electric,,Water,,0,0,3505,4255,True
+turn2,Thunderbolt,Golduck,12.0,-25.0,Electric,,Water,,0,0,3505,4255,True
+turn1,Thunderbolt,Mankey,82.0,27.0,Electric,,Fighting,,0,0,3505,3505,True
+turn2,Thunderbolt,Mankey,55.0,-46.0,Electric,,Fighting,,0,0,3505,3505,True
+turn1,Thunderbolt,Primeape,57.0,75.0,Electric,,Fighting,,0,0,3505,4755,False
+turn2,Thunderbolt,Primeape,2.0,25.0,Electric,,Fighting,,0,0,3505,4755,False
+turn3,Thunderbolt,Primeape,-49.0,25.0,Electric,,Fighting,,0,0,3505,4755,False
+turn1,Thunderbolt,Growlithe,79.0,29.0,Electric,,Fire,,0,0,3505,3005,True
+turn2,Thunderbolt,Growlithe,79.0,-40.0,Electric,,Fire,,0,0,3505,3005,True
+turn1,Thunderbolt,Arcanine,70.0,98.0,Electric,,Fire,,0,0,3505,4755,False
+turn2,Thunderbolt,Arcanine,29.0,47.0,Electric,,Fire,,0,0,3505,4755,False
+turn3,Thunderbolt,Arcanine,-10.0,36.0,Electric,,Fire,,0,0,3505,4755,False
+turn1,Thunderbolt,Poliwag,110,100,Electric,,Water,,0,0,3505,4505,False
+turn2,Thunderbolt,Poliwag,90.0,100,Electric,,Water,,1,0,3505,4505,False
+turn3,Thunderbolt,Poliwag,69.0,100,Electric,,Water,,1,0,3505,4505,False
+turn4,Thunderbolt,Poliwag,50.0,100,Electric,,Water,,1,0,3505,4505,False
+turn5,Thunderbolt,Poliwag,50.0,100,Electric,,Water,,0,0,3505,4505,False
+turn6,Thunderbolt,Poliwag,32.0,100,Electric,,Water,,1,0,3505,4505,False
+turn7,Thunderbolt,Poliwag,14.0,100,Electric,,Water,,1,0,3505,4505,False
+turn8,Thunderbolt,Poliwag,-6.0,100,Electric,,Water,,1,0,3505,4505,False
+turn1,Thunderbolt,Poliwhirl,86.0,1.0,Electric,,Water,,0,0,3505,4505,True
+turn2,Thunderbolt,Poliwhirl,,,Electric,,Water,,,,3505,4505,True
+turn1,Thunderbolt,Poliwrath,110,150,Electric,,Water,Fighting,0,0,3505,3505,False
+turn2,Thunderbolt,Poliwrath,76.0,150,Electric,,Water,Fighting,1,0,3505,3505,False
+turn3,Thunderbolt,Poliwrath,42.0,150,Electric,,Water,Fighting,1,0,3505,3505,False
+turn4,Thunderbolt,Poliwrath,42.0,150,Electric,,Water,Fighting,0,0,3505,3505,False
+turn5,Thunderbolt,Poliwrath,9.0,150,Electric,,Water,Fighting,1,0,3505,3505,False
+turn6,Thunderbolt,Poliwrath,-27.0,150,Electric,,Water,Fighting,1,0,3505,3505,False
+turn1,Thunderbolt,Abra,110,25.0,Electric,,Psychic,,0,0,3505,4505,True
+turn2,Thunderbolt,Abra,110,-31.0,Electric,,Psychic,,0,0,3505,4505,True
+turn1,Thunderbolt,Kadabra,39.0,54.0,Electric,,Psychic,,0,0,3505,5255,False
+turn2,Thunderbolt,Kadabra,-30.0,54.0,Electric,,Psychic,,0,0,3505,5255,False
+turn1,Thunderbolt,Alakazam,-3.0,115,Electric,,Psychic,,0,0,3505,6005,False
+turn1,Thunderbolt,Machop,82.0,39.0,Electric,,Fighting,,0,0,3505,1755,True
+turn2,Thunderbolt,Machop,82.0,-49.0,Electric,,Fighting,,0,0,3505,1755,True
+turn1,Thunderbolt,Machoke,72.0,88.0,Electric,,Fighting,,0,0,3505,2255,True
+turn2,Thunderbolt,Machoke,39.0,28.0,Electric,,Fighting,,0,0,3505,2255,True
+turn3,Thunderbolt,Machoke,39.0,-32.0,Electric,,Fighting,,0,0,3505,2255,True
+turn1,Thunderbolt,Machamp,67.0,113.0,Electric,,Fighting,,0,0,3505,2755,False
+turn2,Thunderbolt,Machamp,24.0,75.0,Electric,,Fighting,,0,0,3505,2755,False
+turn3,Thunderbolt,Machamp,-21.0,35.0,Electric,,Fighting,,0,0,3505,2755,False
+turn1,Thunderbolt,Bellsprout,110,-9.0,Electric,,Grass,Poison,0,0,3505,2005,True
+turn1,Thunderbolt,Weepinbell,98,50.0,Electric,,Grass,Poison,0,0,3505,2755,True
+turn2,Thunderbolt,Weepinbell,98,-23.0,Electric,,Grass,Poison,3,0,3505,2755,True
+turn1,Thunderbolt,Victreebel,74.0,92.0,Electric,,Grass,Poison,0,0,3505,3505,True
+turn2,Thunderbolt,Victreebel,40.0,44.0,Electric,,Grass,Poison,0,0,3505,3505,True
+turn3,Thunderbolt,Victreebel,4.0,-6.0,Electric,,Grass,Poison,0,0,3505,3505,True
+turn1,Thunderbolt,Tentacool,110,-35.0,Electric,,Water,Poison,0,0,3505,3505,True
+turn1,Thunderbolt,Tentacruel,104,26.0,Electric,,Water,Poison,0,0,3505,5005,True
+turn2,Thunderbolt,Tentacruel,93.0,-87.0,Electric,,Water,Poison,3,0,3505,5005,True
+turn1,Sonic Boom,Geodude,82.0,100,Electric,,Rock,Ground,0,0,3505,1005,True
+turn2,Sonic Boom,Geodude,55.0,80,Electric,,Rock,Ground,0,5,3505,1005,True
+turn3,Sonic Boom,Geodude,55.0,53.0,Electric,,Rock,Ground,0,5,3505,1005,True
+turn4,Sonic Boom,Geodude,29.0,33.0,Electric,,Rock,Ground,0,5,3505,1005,True
+turn5,Sonic Boom,Geodude,29.0,7.0,Electric,,Rock,Ground,0,5,3505,1005,True
+turn6,Sonic Boom,Geodude,29.0,-13.0,Electric,,Rock,Ground,0,5,3505,1005,True
+turn1,Sonic Boom,Graveler,64.0,115,Electric,,Rock,Ground,0,0,3505,1755,True
+turn2,Sonic Boom,Graveler,64.0,88.0,Electric,,Rock,Ground,0,5,3505,1755,True
+turn3,Sonic Boom,Graveler,20.0,68.0,Electric,,Rock,Ground,0,5,3505,1755,True
+turn4,Sonic Boom,Graveler,20.0,41.0,Electric,,Rock,Ground,0,5,3505,1755,True
+turn5,Sonic Boom,Graveler,20.0,14.0,Electric,,Rock,Ground,0,5,3505,1755,True
+turn6,Sonic Boom,Graveler,20.0,-6.0,Electric,,Rock,Ground,0,5,3505,1755,True
+turn1,Supersonic,Golem,-36.0,140,Electric,,Rock,Ground,0,0,3505,2255,False
+turn1,Thunderbolt,Ponyta,84.0,63.0,Electric,,Fire,,0,0,3505,4505,True
+turn2,Thunderbolt,Ponyta,59.0,13.0,Electric,,Fire,,0,0,3505,4505,True
+turn3,Thunderbolt,Ponyta,35.0,-40.0,Electric,,Fire,,0,0,3505,4505,True
+turn1,Thunderbolt,Rapidash,79.0,81.0,Electric,,Fire,,0,0,3505,5255,True
+turn2,Thunderbolt,Rapidash,47.0,41.0,Electric,,Fire,,0,0,3505,5255,True
+turn3,Thunderbolt,Rapidash,16.0,0.0,Electric,,Fire,,0,0,3505,5255,True
+turn1,Thunderbolt,Slowpoke,110,-167.0,Electric,,Water,Psychic,0,0,3505,755,True
+turn1,Thunderbolt,Slowbro,110,-11.0,Electric,,Water,Psychic,0,0,3505,1505,True
+turn1,Thunderbolt,Magnemite,110,54.0,Electric,,Electric,,0,0,3505,2255,True
+turn2,Thunderbolt,Magnemite,89.0,54.0,Electric,,Electric,,5,0,3505,2255,True
+turn3,Thunderbolt,Magnemite,80.0,23.0,Electric,,Electric,,5,0,3505,2255,True
+turn4,Thunderbolt,Magnemite,80.0,-5.0,Electric,,Electric,,5,0,3505,2255,True
+turn1,Thunderbolt,Magneton,87.0,87.0,Electric,,Electric,,0,0,3505,3505,False
+turn2,Thunderbolt,Magneton,65.0,62.0,Electric,,Electric,,0,0,3505,3505,False
+turn3,Thunderbolt,Magneton,41.0,37.0,Electric,,Electric,,0,0,3505,3505,False
+turn4,Thunderbolt,Magneton,17.0,14.0,Electric,,Electric,,0,0,3505,3505,False
+turn5,Thunderbolt,Magneton,-8.0,14.0,Electric,,Electric,,0,0,3505,3505,False
+turn1,Thunderbolt,Farfetch'd,110,-97.0,Electric,,Normal,Flying,0,0,3505,3005,True
+turn1,Thunderbolt,Doduo,86.0,-314.0,Electric,,Normal,Flying,0,0,3505,3755,True
+turn1,Thunderbolt,Dodrio,67.0,-97.0,Electric,,Normal,Flying,0,0,3505,5005,True
+turn1,Thunderbolt,Seel,98.0,34.0,Electric,,Water,,0,0,3505,2255,True
+turn2,Thunderbolt,Seel,98.0,-60.0,Electric,,Water,,0,0,3505,2255,True
+turn1,Thunderbolt,Dewgong,76.0,150,Electric,,Water,Ice,0,0,3505,3505,False
+turn2,Thunderbolt,Dewgong,39.0,150,Electric,,Water,Ice,6,0,3505,3505,False
+turn3,Thunderbolt,Dewgong,2.0,150,Electric,,Water,Ice,6,0,3505,3505,False
+turn4,Thunderbolt,Dewgong,-33.0,150,Electric,,Water,Ice,0,0,3505,3505,False
+turn1,Thunderbolt,Grimer,87.0,75.0,Electric,,Poison,,0,0,3505,1255,True
+turn2,Thunderbolt,Grimer,61.0,13.0,Electric,,Poison,,0,0,3505,1255,True
+turn3,Thunderbolt,Grimer,61.0,-57.0,Electric,,Poison,,0,0,3505,1255,True
+turn1,Thunderbolt,Muk,55.0,131.0,Electric,,Poison,,0,0,3505,2505,False
+turn2,Thunderbolt,Muk,1.0,95.0,Electric,,Poison,,0,0,3505,2505,False
+turn3,Thunderbolt,Muk,-56.0,59.0,Electric,,Poison,,0,0,3505,2505,False
+turn1,Thunderbolt,Shellder,110,-196.0,Electric,,Water,,0,0,3505,2005,True
+turn1,Thunderbolt,Cloyster,77.0,-195.0,Electric,,Water,Ice,0,0,3505,3505,True
+turn1,Thunderbolt,Gastly,98.0,90,Electric,,Ghost,Poison,0,0,3505,4005,False
+turn2,Thunderbolt,Gastly,37.0,90,Electric,,Ghost,Poison,5,0,3505,4005,False
+turn3,Thunderbolt,Gastly,-13.0,90,Electric,,Ghost,Poison,5,0,3505,4005,False
+turn1,Thunderbolt,Haunter,110,-9.0,Electric,,Ghost,Poison,0,0,3505,4755,True
+turn1,Thunderbolt,Gengar,110,28.0,Electric,,Ghost,Poison,0,0,3505,5505,True
+turn2,Thunderbolt,Gengar,60,-69.0,Electric,,Ghost,Poison,5,0,3505,5505,True
+turn1,Sonic Boom,Onix,47.0,95,Electric,,Rock,Ground,0,0,3505,3505,False
+turn2,Sonic Boom,Onix,-14.0,95,Electric,,Rock,Ground,0,5,3505,3505,False
+turn1,Thunderbolt,Drowzee,110,81.0,Electric,,Psychic,,0,0,3505,2105,True
+turn2,Thunderbolt,Drowzee,110,45.0,Electric,,Psychic,,0,0,3505,2105,True
+turn3,Thunderbolt,Drowzee,90.0,45.0,Electric,,Psychic,,1,0,3505,2105,True
+turn4,Thunderbolt,Drowzee,71.0,45.0,Electric,,Psychic,,1,0,3505,2105,True
+turn5,Thunderbolt,Drowzee,71.0,7.0,Electric,,Psychic,,0,0,3505,2105,True
+turn6,Thunderbolt,Drowzee,51.0,7.0,Electric,,Psychic,,1,0,3505,2105,True
+turn7,Thunderbolt,Drowzee,51.0,-28.0,Electric,,Psychic,,0,0,3505,2105,True
+turn1,Thunderbolt,Hypno,48.0,117.0,Electric,,Psychic,,0,0,3505,3355,False
+turn2,Thunderbolt,Hypno,-9.0,90.0,Electric,,Psychic,,0,0,3505,3355,False
+turn1,Thunderbolt,Krabby,110,-193.0,Electric,,Water,,0,0,3505,2505,True
+turn1,Thunderbolt,Kingler,88.0,-21.0,Electric,,Water,,0,0,3505,3755,True
+turn1,Thunderbolt,Voltorb,78.0,71.0,Electric,,Electric,,0,0,3505,5005,False
+turn2,Thunderbolt,Voltorb,44.0,40.0,Electric,,Electric,,0,0,3505,5005,False
+turn3,Thunderbolt,Voltorb,9.0,9.0,Electric,,Electric,,0,0,3505,5005,False
+turn4,Thunderbolt,Voltorb,-27.0,9.0,Electric,,Electric,,0,0,3505,5005,False
+turn1,Thunderbolt,Electrode,59.0,99.0,Electric,,Electric,,0,0,3505,7005,False
+turn2,Thunderbolt,Electrode,6.0,78.0,Electric,,Electric,,0,0,3505,7005,False
+turn3,Thunderbolt,Electrode,-53.0,78.0,Electric,,Electric,,0,0,3505,7005,False
+turn1,Thunderbolt,Exeggcute,122,37.0,Electric,,Grass,Psychic,0,0,3505,2005,True
+turn2,Thunderbolt,Exeggcute,122,-42.0,Electric,,Grass,Psychic,7,0,3505,2005,True
+turn1,Thunderbolt,Exeggutor,42.0,102.0,Electric,,Grass,Psychic,0,0,3505,2755,False
+turn2,Thunderbolt,Exeggutor,-26.0,50.0,Electric,,Grass,Psychic,0,0,3505,2755,False
+turn1,Sonic Boom,Cubone,110,99.0,Electric,,Ground,,0,0,3505,1755,True
+turn2,Sonic Boom,Cubone,110,69.0,Electric,,Ground,,0,5,3505,1755,True
+turn3,Sonic Boom,Cubone,110,40.0,Electric,,Ground,,0,5,3505,1755,True
+turn4,Sonic Boom,Cubone,60.0,20.0,Electric,,Ground,,0,5,3505,1755,True
+turn5,Sonic Boom,Cubone,60.0,0.0,Electric,,Ground,,0,5,3505,1755,True
+turn1,Sonic Boom,Marowak,41.0,120,Electric,,Ground,,0,0,3505,2255,False
+turn2,Sonic Boom,Marowak,-31.0,100,Electric,,Ground,,0,5,3505,2255,False
+turn1,Thunderbolt,Hitmonlee,45.0,79.0,Electric,,Fighting,,0,0,3505,4355,False
+turn2,Thunderbolt,Hitmonlee,-23.0,79.0,Electric,,Fighting,,0,0,3505,4355,False
+turn1,Thunderbolt,Hitmonchan,79.0,78.0,Electric,,Fighting,,0,0,3505,3805,False
+turn2,Thunderbolt,Hitmonchan,48.0,48.0,Electric,,Fighting,,0,0,3505,3805,False
+turn3,Thunderbolt,Hitmonchan,18.0,15.0,Electric,,Fighting,,0,0,3505,3805,False
+turn4,Thunderbolt,Hitmonchan,-14.0,15.0,Electric,,Fighting,,0,0,3505,3805,False
+turn1,Thunderbolt,Lickitung,85.0,103.0,Electric,,Normal,,0,0,3505,1505,True
+turn2,Thunderbolt,Lickitung,59.0,55.0,Electric,,Normal,,0,0,3505,1505,True
+turn3,Thunderbolt,Lickitung,33.0,9.0,Electric,,Normal,,0,0,3505,1505,True
+turn4,Thunderbolt,Lickitung,33.0,-34.0,Electric,,Normal,,0,0,3505,1505,True
+turn1,Thunderbolt,Koffing,98,21.0,Electric,,Poison,,0,0,3505,1755,True
+turn2,Thunderbolt,Koffing,98,-58.0,Electric,,Poison,,3,0,3505,1755,True
+turn1,Thunderbolt,Weezing,58.0,76.0,Electric,,Poison,,0,0,3505,3005,True
+turn2,Thunderbolt,Weezing,4.0,26.0,Electric,,Poison,,0,0,3505,3005,True
+turn3,Thunderbolt,Weezing,4.0,-18.0,Electric,,Poison,,0,0,3505,3005,True
+turn1,Sonic Boom,Rhyhorn,73.0,123.0,Electric,,Ground,Rock,0,0,3505,1255,True
+turn2,Sonic Boom,Rhyhorn,38.0,87.0,Electric,,Ground,Rock,0,5,3505,1255,True
+turn3,Sonic Boom,Rhyhorn,38.0,51.0,Electric,,Ground,Rock,0,5,3505,1255,True
+turn4,Sonic Boom,Rhyhorn,4.0,16.0,Electric,,Ground,Rock,0,5,3505,1255,True
+turn5,Sonic Boom,Rhyhorn,4.0,-12.0,Electric,,Ground,Rock,0,5,3505,1255,True
+turn1,Sonic Boom,Rhydon,55.0,139.0,Electric,,Ground,Rock,0,0,3505,2005,False
+turn2,Sonic Boom,Rhydon,1.0,93.0,Electric,,Ground,Rock,0,5,3505,2005,False
+turn3,Sonic Boom,Rhydon,-53.0,48.0,Electric,,Ground,Rock,0,5,3505,2005,False
+turn1,Thunderbolt,Chansey,104.0,276.0,Electric,,Normal,,0,0,3505,2505,True
+turn2,Thunderbolt,Chansey,98.0,242.0,Electric,,Normal,,0,0,3505,2505,True
+turn3,Thunderbolt,Chansey,93.0,209.0,Electric,,Normal,,0,0,3505,2505,True
+turn4,Thunderbolt,Chansey,88.0,174.0,Electric,,Normal,,0,0,3505,2505,True
+turn5,Thunderbolt,Chansey,82.0,142.0,Electric,,Normal,,0,0,3505,2505,True
+turn6,Thunderbolt,Chansey,76.0,110.0,Electric,,Normal,,0,0,3505,2505,True
+turn7,Thunderbolt,Chansey,70.0,76.0,Electric,,Normal,,0,0,3505,2505,True
+turn8,Thunderbolt,Chansey,64.0,45.0,Electric,,Normal,,0,0,3505,2505,True
+turn9,Thunderbolt,Chansey,58.0,14.0,Electric,,Normal,,0,0,3505,2505,True
+turn10,Thunderbolt,Chansey,58.0,-16.0,Electric,,Normal,,0,0,3505,2505,True
+turn1,Thunderbolt,Tangela,122,71.0,Electric,,Grass,,0,0,3505,3005,True
+turn2,Thunderbolt,Tangela,125.0,18.0,Electric,,Grass,,7,0,3505,3005,True
+turn3,Thunderbolt,Tangela,125.0,-21.0,Electric,,Grass,,7,0,3505,3005,True
+turn1,Thunderbolt,Kangaskhan,68.0,121.0,Electric,,Normal,,0,0,3505,4505,False
+turn2,Thunderbolt,Kangaskhan,26.0,82.0,Electric,,Normal,,0,0,3505,4505,False
+turn3,Thunderbolt,Kangaskhan,-13.0,82.0,Electric,,Normal,,0,0,3505,4505,False
+turn1,Thunderbolt,Horsea,110,-170.0,Electric,,Water,,0,0,3505,3005,True
+turn1,Thunderbolt,Seadra,86.0,-43.0,Electric,,Water,,0,0,3505,4255,True
+turn1,Thunderbolt,Goldeen,110,-19.0,Electric,,Water,,0,0,3505,3155,True
+turn1,Thunderbolt,Seaking,110,62.0,Electric,,Water,,0,0,3505,3405,True
+turn2,Thunderbolt,Seaking,110,-18.0,Electric,,Water,,0,0,3505,3405,True
+turn1,Thunderbolt,Staryu,110,-27.0,Electric,,Water,,0,0,3505,4255,True
+turn1,Thunderbolt,Starmie,85.0,-42.0,Electric,,Water,Psychic,0,0,3505,5755,True
+turn1,Thunderbolt,Mr. Mime,62.0,45.0,Electric,,Psychic,Normal,0,0,3505,4505,True
+turn2,Thunderbolt,Mr. Mime,18.0,-12.0,Electric,,Psychic,Normal,0,0,3505,4505,True
+turn1,Thunderbolt,Scyther,85.0,-28.0,Electric,,Bug,Flying,0,0,3505,5255,True
+turn1,Thunderbolt,Jynx,97.0,51.0,Electric,,Ice,Psychic,0,0,3505,4755,False
+turn2,Thunderbolt,Jynx,84.0,51.0,Electric,,Ice,Psychic,0,0,3505,4755,False
+turn3,Thunderbolt,Jynx,72.0,51.0,Electric,,Ice,Psychic,6,0,3505,4755,False
+turn4,Thunderbolt,Jynx,59.0,51.0,Electric,,Ice,Psychic,6,0,3505,4755,False
+turn5,Thunderbolt,Jynx,46.0,51.0,Electric,,Ice,Psychic,6,0,3505,4755,False
+turn6,Thunderbolt,Jynx,32.0,51.0,Electric,,Ice,Psychic,6,0,3505,4755,False
+turn7,Thunderbolt,Jynx,20.0,51.0,Electric,,Ice,Psychic,6,0,3505,4755,False
+turn8,Thunderbolt,Jynx,8.0,51.0,Electric,,Ice,Psychic,6,0,3505,4755,False
+turn9,Thunderbolt,Jynx,-5.0,51.0,Electric,,Ice,Psychic,6,0,3505,4755,False
+turn1,Thunderbolt,Electabuzz,100.0,106.0,Electric,,Electric,,0,0,3505,5255,False
+turn2,Thunderbolt,Electabuzz,90.0,87.0,Electric,,Electric,,0,0,3505,5255,False
+turn3,Thunderbolt,Electabuzz,80.0,67.0,Electric,,Electric,,0,0,3505,5255,False
+turn4,Thunderbolt,Electabuzz,70.0,47.0,Electric,,Electric,,4,0,3505,5255,False
+turn5,Thunderbolt,Electabuzz,60.0,27.0,Electric,,Electric,,4,0,3505,5255,False
+turn6,Thunderbolt,Electabuzz,50.0,27.0,Electric,,Electric,,4,0,3505,5255,False
+turn7,Thunderbolt,Electabuzz,39.0,27.0,Electric,,Electric,,4,0,3505,5255,False
+turn8,Thunderbolt,Electabuzz,28.0,27.0,Electric,,Electric,,4,0,3505,5255,False
+turn9,Thunderbolt,Electabuzz,17.0,27.0,Electric,,Electric,,4,0,3505,5255,False
+turn10,Thunderbolt,Electabuzz,6.0,9.0,Electric,,Electric,,4,0,3505,5255,False
+turn11,Thunderbolt,Electabuzz,-4.0,9.0,Electric,,Electric,,4,0,3505,5255,False
+turn1,Thunderbolt,Magmar,69.0,88.0,Electric,,Fire,,0,0,3505,4655,False
+turn2,Thunderbolt,Magmar,32.0,48.0,Electric,,Fire,,0,0,3505,4655,False
+turn3,Thunderbolt,Magmar,-11.0,48.0,Electric,,Fire,,0,0,3505,4655,False
+turn1,Thunderbolt,Pinsir,110,79.0,Electric,,Bug,,0,0,3505,4255,False
+turn2,Thunderbolt,Pinsir,-65425,79.0,Electric,,Bug,,0,0,3505,4255,False
+turn1,Thunderbolt,Tauros,45.0,60.0,Electric,,Normal,,0,0,3505,5505,False
+turn2,Thunderbolt,Tauros,-12.0,31.0,Electric,,Normal,,0,0,3505,5505,False
+turn1,Thunderbolt,Magikarp,110,-244.0,Electric,,Water,,0,0,3505,4005,True
+turn1,Thunderbolt,Gyarados,95.0,-132.0,Electric,,Water,Flying,0,0,3505,4055,True
+turn1,Thunderbolt,Lapras,72.0,49.0,Electric,,Water,Ice,0,0,3505,3005,True
+turn2,Thunderbolt,Lapras,72.0,-105.0,Electric,,Water,Ice,0,0,3505,3005,True
+turn1,Thunderbolt,Ditto,110,40.0,Electric,,Normal,,0,0,3505,2405,True
+turn2,Thunderbolt,Ditto,110,-30.0,Electric,,Normal,,0,0,3505,2405,True
+turn1,Thunderbolt,Eevee,88.0,59.0,Electric,,Normal,,0,0,3505,2755,True
+turn2,Thunderbolt,Eevee,65.0,9.0,Electric,,Normal,,0,0,3505,2755,True
+turn3,Thunderbolt,Eevee,65.0,-40.0,Electric,,Normal,,0,0,3505,2755,True
+turn1,Thunderbolt,Vaporeon,72.0,122.0,Electric,,Water,,0,0,3505,3255,False
+turn2,Thunderbolt,Vaporeon,38.0,122.0,Electric,,Water,,6,0,3505,3255,False
+turn3,Thunderbolt,Vaporeon,3.0,122.0,Electric,,Water,,6,0,3505,3255,False
+turn4,Thunderbolt,Vaporeon,-34.0,122.0,Electric,,Water,,6,0,3505,3255,False
+turn1,Thunderbolt,Jolteon,110,107.0,Electric,,Electric,,0,0,3505,6505,False
+turn2,Thunderbolt,Jolteon,100.0,107.0,Electric,,Electric,,4,0,3505,6505,False
+turn3,Thunderbolt,Jolteon,89.0,107.0,Electric,,Electric,,4,0,3505,6505,False
+turn4,Thunderbolt,Jolteon,80.0,89.0,Electric,,Electric,,4,0,3505,6505,False
+turn5,Thunderbolt,Jolteon,70.0,71.0,Electric,,Electric,,4,0,3505,6505,False
+turn6,Thunderbolt,Jolteon,59.0,71.0,Electric,,Electric,,4,0,3505,6505,False
+turn7,Thunderbolt,Jolteon,50.0,53.0,Electric,,Electric,,4,0,3505,6505,False
+turn8,Thunderbolt,Jolteon,40.0,36.0,Electric,,Electric,,4,0,3505,6505,False
+turn9,Thunderbolt,Jolteon,30.0,36.0,Electric,,Electric,,4,0,3505,6505,False
+turn10,Thunderbolt,Jolteon,20.0,36.0,Electric,,Electric,,4,0,3505,6505,False
+turn11,Thunderbolt,Jolteon,11.0,36.0,Electric,,Electric,,4,0,3505,6505,False
+turn12,Thunderbolt,Jolteon,2.0,19.0,Electric,,Electric,,4,0,3505,6505,False
+turn13,Thunderbolt,Jolteon,-8.0,19.0,Electric,,Electric,,4,0,3505,6505,False
+turn1,Thunderbolt,Flareon,64.0,95.0,Electric,,Fire,,0,0,3505,3255,False
+turn2,Thunderbolt,Flareon,20.0,66.0,Electric,,Fire,,0,0,3505,3255,False
+turn3,Thunderbolt,Flareon,-28.0,37.0,Electric,,Fire,,0,0,3505,3255,False
+turn1,Thunderbolt,Porygon,47.0,80.0,Electric,,Normal,,0,0,3505,2005,False
+turn2,Thunderbolt,Porygon,-17.0,37.0,Electric,,Normal,,0,0,3505,2005,False
+turn1,Thunderbolt,Omanyte,110,-141.0,Electric,,Rock,Water,0,0,3505,1755,True
+turn1,Thunderbolt,Omastar,110,-72.0,Electric,,Rock,Water,0,0,3505,2755,True
+turn1,Thunderbolt,Kabuto,110,-186.0,Electric,,Rock,Water,0,0,3505,2755,True
+turn1,Thunderbolt,Kabutops,72.0,-64.0,Electric,,Rock,Water,0,0,3505,4005,True
+turn1,Thunderbolt,Aerodactyl,91.0,-36.0,Electric,,Rock,Flying,0,0,3505,6505,True
+turn1,Thunderbolt,Snorlax,26.0,190.0,Electric,,Normal,,0,0,3505,1505,False
+turn2,Thunderbolt,Snorlax,-63.0,158.0,Electric,,Normal,,0,0,3505,1505,False
+turn1,Thunderbolt,Articuno,61.0,31.0,Electric,,Ice,Flying,0,0,3505,4255,True
+turn2,Thunderbolt,Articuno,16.0,-87.0,Electric,,Ice,Flying,0,0,3505,4255,True
+turn1,Thunderbolt,Zapdos,80.0,68.0,Electric,,Electric,Flying,0,0,3505,5005,True
+turn2,Thunderbolt,Zapdos,48.0,-3.0,Electric,,Electric,Flying,0,0,3505,5005,True
+turn1,Thunderbolt,Moltres,61.0,-12.0,Electric,,Fire,Flying,0,0,3505,4505,True
+turn1,Thunderbolt,Dratini,85.0,65.0,Electric,,Dragon,,0,0,3505,2505,True
+turn2,Thunderbolt,Dratini,62.0,33.0,Electric,,Dragon,,0,0,3505,2505,True
+turn3,Thunderbolt,Dratini,38.0,1.0,Electric,,Dragon,,0,0,3505,2505,True
+turn4,Thunderbolt,Dratini,38.0,-31.0,Electric,,Dragon,,0,0,3505,2505,True
+turn1,Thunderbolt,Dragonair,70,97.0,Electric,,Dragon,,0,0,3505,3505,False
+turn2,Thunderbolt,Dragonair,30,72.0,Electric,,Dragon,,0,0,3505,3505,False
+turn3,Thunderbolt,Dragonair,-10,72.0,Electric,,Dragon,,0,0,3505,3505,False
+turn1,Thunderbolt,Dragonite,70,85.0,Electric,,Dragon,Flying,0,0,3505,4005,False
+turn2,Thunderbolt,Dragonite,30,14.0,Electric,,Dragon,Flying,0,0,3505,4005,False
+turn3,Thunderbolt,Dragonite,-10,14.0,Electric,,Dragon,Flying,0,0,3505,4005,False
+turn1,Thunderbolt,Mewtwo,110,166,Electric,,Psychic,,0,0,3505,6505,False
+turn2,Thunderbolt,Mewtwo,46.0,166,Electric,,Psychic,,1,0,3505,6505,False
+turn3,Thunderbolt,Mewtwo,-20.0,166,Electric,,Psychic,,1,0,3505,6505,False
+turn1,Thunderbolt,Mew,34.0,128.0,Electric,,Psychic,,0,0,3505,5005,False
+turn2,Thunderbolt,Mew,-41.0,128.0,Electric,,Psychic,,0,0,3505,5005,False

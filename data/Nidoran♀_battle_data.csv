@@ -1,0 +1,420 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Bite,Bulbasaur,107.0,78.0,Poison,,Grass,Poison,0,0,2055,2255,True
+turn2,Bite,Bulbasaur,99.0,53.0,Poison,,Grass,Poison,0,0,2055,2255,True
+turn3,Bite,Bulbasaur,90.0,29.0,Poison,,Grass,Poison,0,0,2055,2255,True
+turn4,Bite,Bulbasaur,81.0,6.0,Poison,,Grass,Poison,0,0,2055,2255,True
+turn5,Bite,Bulbasaur,73.0,-21.0,Poison,,Grass,Poison,0,0,2055,2255,True
+turn1,Bite,Ivysaur,108,99.0,Poison,,Grass,Poison,0,0,2055,3005,True
+turn2,Bite,Ivysaur,90.0,80.0,Poison,,Grass,Poison,3,0,2055,3005,True
+turn3,Bite,Ivysaur,73.0,61.0,Poison,,Grass,Poison,3,0,2055,3005,True
+turn4,Bite,Ivysaur,57.0,42.0,Poison,,Grass,Poison,3,0,2055,3005,True
+turn5,Bite,Ivysaur,41.0,23.0,Poison,,Grass,Poison,3,0,2055,3005,True
+turn6,Bite,Ivysaur,24.0,4.0,Poison,,Grass,Poison,3,0,2055,3005,True
+turn7,Bite,Ivysaur,15.0,-16.0,Poison,,Grass,Poison,3,0,2055,3005,True
+turn1,Bite,Venusaur,66.0,126.0,Poison,,Grass,Poison,0,0,2055,4005,False
+turn2,Bite,Venusaur,17.0,110.0,Poison,,Grass,Poison,0,0,2055,4005,False
+turn3,Bite,Venusaur,-30.0,110.0,Poison,,Grass,Poison,0,0,2055,4005,False
+turn1,Bite,Charmander,70.0,69.0,Poison,,Fire,,0,0,2055,3255,False
+turn2,Bite,Charmander,19.0,39.0,Poison,,Fire,,0,0,2055,3255,False
+turn3,Bite,Charmander,-21.0,39.0,Poison,,Fire,,2,0,2055,3255,False
+turn1,Bite,Charmeleon,63.0,97.0,Poison,,Fire,,0,0,2055,4005,False
+turn2,Bite,Charmeleon,10.0,76.0,Poison,,Fire,,0,0,2055,4005,False
+turn3,Bite,Charmeleon,-48.0,76.0,Poison,,Fire,,0,0,2055,4005,False
+turn1,Bite,Charizard,38.0,123.0,Poison,,Fire,Flying,0,0,2055,5005,False
+turn2,Bite,Charizard,-34.0,123.0,Poison,,Fire,Flying,0,0,2055,5005,False
+turn1,Bite,Squirtle,63.0,86.0,Poison,,Water,,0,0,2055,2155,False
+turn2,Bite,Squirtle,17.0,68.0,Poison,,Water,,0,0,2055,2155,False
+turn3,Bite,Squirtle,-35.0,68.0,Poison,,Water,,0,0,2055,2155,False
+turn1,Bite,Wartortle,49.0,104.0,Poison,,Water,,0,0,2055,2905,False
+turn2,Bite,Wartortle,-18.0,104.0,Poison,,Water,,0,0,2055,2905,False
+turn1,Bite,Blastoise,23.0,126.0,Poison,,Water,,0,0,2055,3905,False
+turn2,Bite,Blastoise,-58.0,126.0,Poison,,Water,,0,0,2055,3905,False
+turn1,Bite,Caterpie,103.0,69.0,Poison,,Bug,,0,0,2055,2255,True
+turn2,Bite,Caterpie,92.0,34.0,Poison,,Bug,,0,0,2055,2255,True
+turn3,Bite,Caterpie,82.0,-1.0,Poison,,Bug,,0,0,2055,2255,True
+turn1,Bite,Metapod,107.0,89.0,Poison,,Bug,,0,0,2055,1505,True
+turn2,Bite,Metapod,99.0,68.0,Poison,,Bug,,0,0,2055,1505,True
+turn3,Bite,Metapod,91.0,44.0,Poison,,Bug,,0,0,2055,1505,True
+turn4,Bite,Metapod,83.0,22.0,Poison,,Bug,,0,0,2055,1505,True
+turn5,Bite,Metapod,83.0,-1.0,Poison,,Bug,,0,0,2055,1505,True
+turn1,Bite,Butterfree,115,120,Poison,,Bug,Flying,0,0,2055,3505,False
+turn2,Bite,Butterfree,-14.0,120,Poison,,Bug,Flying,1,0,2055,3505,False
+turn1,Bite,Weedle,111.0,63.0,Poison,,Bug,Poison,0,0,2055,2505,True
+turn2,Bite,Weedle,107.0,22.0,Poison,,Bug,Poison,0,0,2055,2505,True
+turn3,Bite,Weedle,103.0,-16.0,Poison,,Bug,Poison,0,0,2055,2505,True
+turn1,Bite,Kakuna,105.0,82.0,Poison,,Bug,Poison,0,0,2055,1755,True
+turn2,Bite,Kakuna,96.0,57.0,Poison,,Bug,Poison,0,0,2055,1755,True
+turn3,Bite,Kakuna,86.0,31.0,Poison,,Bug,Poison,0,0,2055,1755,True
+turn4,Bite,Kakuna,76.0,8.0,Poison,,Bug,Poison,0,0,2055,1755,True
+turn5,Bite,Kakuna,76.0,-16.0,Poison,,Bug,Poison,0,0,2055,1755,True
+turn1,Bite,Beedrill,-3.0,125,Poison,,Bug,Poison,0,0,2055,3755,False
+turn1,Double Kick,Pidgey,81.0,70.0,Poison,,Normal,Flying,0,0,2055,2805,False
+turn2,Double Kick,Pidgey,45.0,40.0,Poison,,Normal,Flying,0,0,2055,2805,False
+turn3,Double Kick,Pidgey,13.0,10.0,Poison,,Normal,Flying,0,0,2055,2805,False
+turn4,Double Kick,Pidgey,-22.0,10.0,Poison,,Normal,Flying,0,0,2055,2805,False
+turn1,Double Kick,Pidgeotto,71.0,101.0,Poison,,Normal,Flying,0,0,2055,3555,False
+turn2,Double Kick,Pidgeotto,26.0,79.0,Poison,,Normal,Flying,0,0,2055,3555,False
+turn3,Double Kick,Pidgeotto,-18.0,79.0,Poison,,Normal,Flying,0,0,2055,3555,False
+turn1,Double Kick,Pidgeot,53.0,125.0,Poison,,Normal,Flying,0,0,2055,5055,False
+turn2,Double Kick,Pidgeot,-3.0,125.0,Poison,,Normal,Flying,0,0,2055,5055,False
+turn1,Double Kick,Rattata,61.0,24.0,Poison,,Normal,,0,0,2055,3605,True
+turn2,Double Kick,Rattata,8.0,-48.0,Poison,,Normal,,0,0,2055,3605,True
+turn1,Double Kick,Raticate,33.0,71.0,Poison,,Normal,,0,0,2055,4855,False
+turn2,Double Kick,Raticate,-51.0,71.0,Poison,,Normal,,0,0,2055,4855,False
+turn1,Double Kick,Spearow,60.0,62.0,Poison,,Normal,Flying,0,0,2055,3505,False
+turn2,Double Kick,Spearow,6.0,24.0,Poison,,Normal,Flying,0,0,2055,3505,False
+turn3,Double Kick,Spearow,-52.0,24.0,Poison,,Normal,Flying,0,0,2055,3505,False
+turn1,Double Kick,Fearow,26.0,105.0,Poison,,Normal,Flying,0,0,2055,5005,False
+turn2,Double Kick,Fearow,-55.0,105.0,Poison,,Normal,Flying,0,0,2055,5005,False
+turn1,Bite,Ekans,83.0,66.0,Poison,,Poison,,0,0,2055,2755,False
+turn2,Bite,Ekans,52.0,41.0,Poison,,Poison,,0,0,2055,2755,False
+turn3,Bite,Ekans,23.0,16.0,Poison,,Poison,,0,0,2055,2755,False
+turn4,Bite,Ekans,-8.0,16.0,Poison,,Poison,,0,0,2055,2755,False
+turn1,Bite,Arbok,72.0,103.0,Poison,,Poison,,0,0,2055,4005,False
+turn2,Bite,Arbok,29.0,84.0,Poison,,Poison,,0,0,2055,4005,False
+turn3,Bite,Arbok,-10.0,84.0,Poison,,Poison,,0,0,2055,4005,False
+turn1,Bite,Pikachu,71.0,64.0,Poison,,Electric,,0,0,2055,4505,False
+turn2,Bite,Pikachu,32.0,34.0,Poison,,Electric,,0,0,2055,4505,False
+turn3,Bite,Pikachu,-13.0,34.0,Poison,,Electric,,0,0,2055,4505,False
+turn1,Bite,Raichu,35.0,96.0,Poison,,Electric,,0,0,2055,5505,False
+turn2,Bite,Raichu,-48.0,96.0,Poison,,Electric,,0,0,2055,5505,False
+turn1,Bite,Sandshrew,74.0,94.0,Poison,,Ground,,0,0,2055,2005,False
+turn2,Bite,Sandshrew,31.0,78.0,Poison,,Ground,,0,0,2055,2005,False
+turn3,Bite,Sandshrew,-12.0,62.0,Poison,,Ground,,0,0,2055,2005,False
+turn1,Bite,Sandslash,55.0,124.0,Poison,,Ground,,0,0,2055,3255,False
+turn2,Bite,Sandslash,-5.0,124.0,Poison,,Ground,,0,0,2055,3255,False
+turn1,Bite,Nidoran♀,93.0,91.0,Poison,,Poison,,0,0,2055,2055,False
+turn2,Bite,Nidoran♀,70.0,67.0,Poison,,Poison,,0,0,2055,2055,False
+turn3,Bite,Nidoran♀,45.0,42.0,Poison,,Poison,,0,0,2055,2055,False
+turn4,Bite,Nidoran♀,21.0,19.0,Poison,,Poison,,0,0,2055,2055,False
+turn5,Bite,Nidoran♀,-3.0,19.0,Poison,,Poison,,0,0,2055,2055,False
+turn1,Bite,Nidorina,85.0,111.0,Poison,,Poison,,0,0,2055,2805,False
+turn2,Bite,Nidorina,53.0,94.0,Poison,,Poison,,0,0,2055,2805,False
+turn3,Bite,Nidorina,23.0,76.0,Poison,,Poison,,0,0,2055,2805,False
+turn4,Bite,Nidorina,-6.0,76.0,Poison,,Poison,,0,0,2055,2805,False
+turn1,Bite,Nidoqueen,56.0,136.0,Poison,,Poison,Ground,0,0,2055,3805,False
+turn2,Bite,Nidoqueen,-8.0,136.0,Poison,,Poison,Ground,0,0,2055,3805,False
+turn1,Bite,Nidoran♂,115,73.0,Poison,,Poison,,0,0,2055,2505,False
+turn2,Bite,Nidoran♂,115,42.0,Poison,,Poison,,0,0,2055,2505,False
+turn3,Bite,Nidoran♂,-65420,42.0,Poison,,Poison,,0,0,2055,2505,False
+turn1,Bite,Nidorino,115,100.0,Poison,,Poison,,0,0,2055,3255,False
+turn2,Bite,Nidorino,85.0,79.0,Poison,,Poison,,0,0,2055,3255,False
+turn3,Bite,Nidorino,85.0,56.0,Poison,,Poison,,0,0,2055,3255,False
+turn4,Bite,Nidorino,85.0,33.0,Poison,,Poison,,0,0,2055,3255,False
+turn5,Bite,Nidorino,-65450.0,33.0,Poison,,Poison,,0,0,2055,3255,False
+turn1,Bite,Nidoking,26.0,123.0,Poison,,Poison,Ground,0,0,2055,4255,False
+turn2,Bite,Nidoking,-67.0,123.0,Poison,,Poison,Ground,0,0,2055,4255,False
+turn1,Double Kick,Clefairy,115,80.0,Poison,,Normal,,0,0,2055,1755,True
+turn2,Double Kick,Clefairy,115,44.0,Poison,,Normal,,0,0,2055,1755,True
+turn3,Double Kick,Clefairy,115,14.0,Poison,,Normal,,0,0,2055,1755,True
+turn4,Double Kick,Clefairy,115,-14.0,Poison,,Normal,,0,0,2055,1755,True
+turn1,Double Kick,Clefable,115,155,Poison,,Normal,,0,0,2055,3005,False
+turn2,Double Kick,Clefable,87.0,155,Poison,,Normal,,1,0,2055,3005,False
+turn3,Double Kick,Clefable,45.0,155,Poison,,Normal,,1,0,2055,3005,False
+turn4,Double Kick,Clefable,13.0,155,Poison,,Normal,,1,0,2055,3005,False
+turn5,Double Kick,Clefable,13.0,155,Poison,,Normal,,0,0,2055,3005,False
+turn6,Double Kick,Clefable,-17.0,155,Poison,,Normal,,1,0,2055,3005,False
+turn1,Bite,Vulpix,82.0,67.0,Poison,,Fire,,0,0,2055,3255,False
+turn2,Bite,Vulpix,44.0,39.0,Poison,,Fire,,0,0,2055,3255,False
+turn3,Bite,Vulpix,11.0,11.0,Poison,,Fire,,0,0,2055,3255,False
+turn4,Bite,Vulpix,-26.0,11.0,Poison,,Fire,,0,0,2055,3255,False
+turn1,Bite,Ninetales,91.0,117.0,Poison,,Fire,,0,0,2055,5005,False
+turn2,Bite,Ninetales,66.0,102.0,Poison,,Fire,,0,0,2055,5005,False
+turn3,Bite,Ninetales,40.0,84.0,Poison,,Fire,,0,0,2055,5005,False
+turn4,Bite,Ninetales,13.0,67.0,Poison,,Fire,,0,0,2055,5005,False
+turn5,Bite,Ninetales,-14.0,67.0,Poison,,Fire,,0,0,2055,5005,False
+turn1,Double Kick,Jigglypuff,47.0,63.0,Poison,,Normal,,0,0,2055,1005,True
+turn2,Double Kick,Jigglypuff,47.0,-53.0,Poison,,Normal,,0,0,2055,1005,True
+turn1,Double Kick,Wigglytuff,85.0,148.0,Poison,,Normal,,0,0,2055,2255,False
+turn2,Double Kick,Wigglytuff,85.0,148.0,Poison,,Normal,,0,0,2055,2255,False
+turn3,Double Kick,Wigglytuff,37.0,148.0,Poison,,Normal,,1,0,2055,2255,False
+turn4,Double Kick,Wigglytuff,37.0,148.0,Poison,,Normal,,0,0,2055,2255,False
+turn5,Double Kick,Wigglytuff,7.0,148.0,Poison,,Normal,,1,0,2055,2255,False
+turn6,Double Kick,Wigglytuff,-25.0,148.0,Poison,,Normal,,1,0,2055,2255,False
+turn1,Bite,Zubat,82.0,64.0,Poison,,Poison,Flying,0,0,2055,2755,True
+turn2,Bite,Zubat,48.0,31.0,Poison,,Poison,Flying,0,0,2055,2755,True
+turn3,Bite,Zubat,16.0,0.0,Poison,,Poison,Flying,0,0,2055,2755,True
+turn1,Bite,Golbat,54.0,117.0,Poison,,Poison,Flying,0,0,2055,4505,False
+turn2,Bite,Golbat,-8.0,117.0,Poison,,Poison,Flying,0,0,2055,4505,False
+turn1,Bite,Oddish,81.0,82.0,Poison,,Grass,Poison,0,0,2055,1505,False
+turn2,Bite,Oddish,45.0,59.0,Poison,,Grass,Poison,0,0,2055,1505,False
+turn3,Bite,Oddish,13.0,38.0,Poison,,Grass,Poison,0,0,2055,1505,False
+turn4,Bite,Oddish,-24.0,16.0,Poison,,Grass,Poison,0,0,2055,1505,False
+turn1,Bite,Gloom,77.0,103.0,Poison,,Grass,Poison,0,0,2055,2005,False
+turn2,Bite,Gloom,35.0,84.0,Poison,,Grass,Poison,0,0,2055,2005,False
+turn3,Bite,Gloom,-3.0,65.0,Poison,,Grass,Poison,0,0,2055,2005,False
+turn1,Bite,Vileplume,115,135,Poison,,Grass,Poison,0,0,2055,2505,False
+turn2,Bite,Vileplume,97.0,135,Poison,,Grass,Poison,1,0,2055,2505,False
+turn3,Bite,Vileplume,81.0,135,Poison,,Grass,Poison,1,0,2055,2505,False
+turn4,Bite,Vileplume,64.0,135,Poison,,Grass,Poison,1,0,2055,2505,False
+turn5,Bite,Vileplume,48.0,135,Poison,,Grass,Poison,1,0,2055,2505,False
+turn6,Bite,Vileplume,31.0,135,Poison,,Grass,Poison,1,0,2055,2505,False
+turn7,Bite,Vileplume,31.0,135,Poison,,Grass,Poison,0,0,2055,2505,False
+turn8,Bite,Vileplume,14.0,135,Poison,,Grass,Poison,1,0,2055,2505,False
+turn9,Bite,Vileplume,-4.0,135,Poison,,Grass,Poison,1,0,2055,2505,False
+turn1,Bite,Paras,-19.0,95,Poison,,Bug,Grass,0,0,2055,1255,False
+turn1,Bite,Parasect,-64.0,120,Poison,,Bug,Grass,0,0,2055,1505,False
+turn1,Bite,Venonat,40.0,97.0,Poison,,Bug,Poison,0,0,2055,2255,False
+turn2,Bite,Venonat,-31.0,97.0,Poison,,Bug,Poison,0,0,2055,2255,False
+turn1,Bite,Venomoth,-66.0,130,Poison,,Bug,Poison,0,0,2055,4505,False
+turn1,Bite,Diglett,-22.0,70,Poison,,Ground,,0,0,2055,4755,False
+turn1,Bite,Dugtrio,-63.0,95,Poison,,Ground,,0,0,2055,6005,False
+turn1,Double Kick,Meowth,80.0,28.0,Poison,,Normal,,0,0,2055,4505,True
+turn2,Double Kick,Meowth,44.0,-44.0,Poison,,Normal,,0,0,2055,4505,True
+turn1,Double Kick,Persian,57.0,81.0,Poison,,Normal,,0,0,2055,5755,False
+turn2,Double Kick,Persian,1.0,37.0,Poison,,Normal,,0,0,2055,5755,False
+turn3,Double Kick,Persian,-57.0,37.0,Poison,,Normal,,0,0,2055,5755,False
+turn1,Bite,Psyduck,51.0,86.0,Poison,,Water,,0,0,2055,2755,False
+turn2,Bite,Psyduck,-15.0,86.0,Poison,,Water,,0,0,2055,2755,False
+turn1,Bite,Golduck,-60.0,140,Poison,,Water,,0,0,2055,4255,False
+turn1,Bite,Mankey,90.0,68.0,Poison,,Fighting,,0,0,2055,3505,True
+turn2,Bite,Mankey,64.0,32.0,Poison,,Fighting,,0,0,2055,3505,True
+turn3,Bite,Mankey,40.0,-3.0,Poison,,Fighting,,0,0,2055,3505,True
+turn1,Bite,Primeape,22.0,106.0,Poison,,Fighting,,0,0,2055,4755,False
+turn2,Bite,Primeape,-71.0,106.0,Poison,,Fighting,,0,0,2055,4755,False
+turn1,Bite,Growlithe,64.0,63.0,Poison,,Fire,,0,0,2055,3005,False
+turn2,Bite,Growlithe,16.0,9.0,Poison,,Fire,,0,0,2055,3005,False
+turn3,Bite,Growlithe,-19.0,-4.0,Poison,,Fire,,0,0,2055,3005,False
+turn1,Bite,Arcanine,51.0,114.0,Poison,,Fire,,0,0,2055,4755,False
+turn2,Bite,Arcanine,-13.0,95.0,Poison,,Fire,,0,0,2055,4755,False
+turn1,Bite,Poliwag,115,100,Poison,,Water,,0,0,2055,4505,False
+turn2,Bite,Poliwag,81.0,100,Poison,,Water,,1,0,2055,4505,False
+turn3,Bite,Poliwag,45.0,100,Poison,,Water,,1,0,2055,4505,False
+turn4,Bite,Poliwag,45.0,100,Poison,,Water,,0,0,2055,4505,False
+turn5,Bite,Poliwag,12.0,100,Poison,,Water,,1,0,2055,4505,False
+turn6,Bite,Poliwag,-24.0,100,Poison,,Water,,1,0,2055,4505,False
+turn1,Bite,Poliwhirl,69.0,105.0,Poison,,Water,,0,0,2055,4505,False
+turn2,Bite,Poliwhirl,23.0,85.0,Poison,,Water,,4,0,2055,4505,False
+turn3,Bite,Poliwhirl,-23.0,85.0,Poison,,Water,,4,0,2055,4505,False
+turn1,Bite,Poliwrath,115,150,Poison,,Water,Fighting,0,0,2055,3505,False
+turn2,Bite,Poliwrath,54.0,150,Poison,,Water,Fighting,1,0,2055,3505,False
+turn3,Bite,Poliwrath,54.0,150,Poison,,Water,Fighting,0,0,2055,3505,False
+turn4,Bite,Poliwrath,-15.0,150,Poison,,Water,Fighting,1,0,2055,3505,False
+turn1,Bite,Abra,115,2.0,Poison,,Psychic,,0,0,2055,4505,True
+turn2,Bite,Abra,115,-75.0,Poison,,Psychic,,0,0,2055,4505,True
+turn1,Bite,Kadabra,-138.0,100,Poison,,Psychic,,0,0,2055,5255,False
+turn1,Bite,Alakazam,-268.0,115,Poison,,Psychic,,0,0,2055,6005,False
+turn1,Bite,Machop,62.0,105.0,Poison,,Fighting,,0,0,2055,1755,False
+turn2,Bite,Machop,14.0,79.0,Poison,,Fighting,,0,0,2055,1755,False
+turn3,Bite,Machop,-39.0,54.0,Poison,,Fighting,,0,0,2055,1755,False
+turn1,Bite,Machoke,50.0,122.0,Poison,,Fighting,,0,0,2055,2255,False
+turn2,Bite,Machoke,-9.0,122.0,Poison,,Fighting,,0,0,2055,2255,False
+turn1,Bite,Machamp,29.0,134.0,Poison,,Fighting,,0,0,2055,2755,False
+turn2,Bite,Machamp,-53.0,134.0,Poison,,Fighting,,0,0,2055,2755,False
+turn1,Bite,Bellsprout,101,76.0,Poison,,Grass,Poison,0,0,2055,2005,True
+turn2,Bite,Bellsprout,77.0,42.0,Poison,,Grass,Poison,3,0,2055,2005,True
+turn3,Bite,Bellsprout,53.0,10.0,Poison,,Grass,Poison,3,0,2055,2005,True
+turn4,Bite,Bellsprout,53.0,-22.0,Poison,,Grass,Poison,3,0,2055,2005,True
+turn1,Bite,Weepinbell,108,103.0,Poison,,Grass,Poison,0,0,2055,2755,False
+turn2,Bite,Weepinbell,44.0,80.0,Poison,,Grass,Poison,3,0,2055,2755,False
+turn3,Bite,Weepinbell,-18.0,80.0,Poison,,Grass,Poison,3,0,2055,2755,False
+turn1,Bite,Victreebel,49.0,122.0,Poison,,Grass,Poison,0,0,2055,3505,False
+turn2,Bite,Victreebel,-14.0,122.0,Poison,,Grass,Poison,0,0,2055,3505,False
+turn1,Bite,Tentacool,99.0,100,Poison,,Water,Poison,0,0,2055,3505,False
+turn2,Bite,Tentacool,83.0,66.0,Poison,,Water,Poison,5,0,2055,3505,False
+turn3,Bite,Tentacool,50.0,66.0,Poison,,Water,Poison,5,0,2055,3505,False
+turn4,Bite,Tentacool,17.0,66.0,Poison,,Water,Poison,5,0,2055,3505,False
+turn5,Bite,Tentacool,-13.0,66.0,Poison,,Water,Poison,5,0,2055,3505,False
+turn1,Bite,Tentacruel,108,122.0,Poison,,Water,Poison,0,0,2055,5005,False
+turn2,Bite,Tentacruel,61.0,104.0,Poison,,Water,Poison,3,0,2055,5005,False
+turn3,Bite,Tentacruel,12.0,83.0,Poison,,Water,Poison,3,0,2055,5005,False
+turn4,Bite,Tentacruel,-31.0,83.0,Poison,,Water,Poison,3,0,2055,5005,False
+turn1,Double Kick,Geodude,65.0,70.0,Poison,,Rock,Ground,0,0,2055,1005,False
+turn2,Double Kick,Geodude,15.0,40.0,Poison,,Rock,Ground,0,0,2055,1005,False
+turn3,Double Kick,Geodude,-32.0,10.0,Poison,,Rock,Ground,0,0,2055,1005,False
+turn1,Double Kick,Graveler,27.0,87.0,Poison,,Rock,Ground,0,0,2055,1755,False
+turn2,Double Kick,Graveler,-54.0,59.0,Poison,,Rock,Ground,0,0,2055,1755,False
+turn1,Double Kick,Golem,-177.0,140,Poison,,Rock,Ground,0,0,2055,2255,False
+turn1,Bite,Ponyta,73.0,87.0,Poison,,Fire,,0,0,2055,4505,False
+turn2,Bite,Ponyta,29.0,66.0,Poison,,Fire,,0,0,2055,4505,False
+turn3,Bite,Ponyta,-15.0,66.0,Poison,,Fire,,0,0,2055,4505,False
+turn1,Bite,Rapidash,59.0,109.0,Poison,,Fire,,0,0,2055,5255,False
+turn2,Bite,Rapidash,9.0,92.0,Poison,,Fire,,0,0,2055,5255,False
+turn3,Bite,Rapidash,-41.0,92.0,Poison,,Fire,,0,0,2055,5255,False
+turn1,Bite,Slowpoke,47.0,131.0,Poison,,Water,Psychic,0,0,2055,755,False
+turn2,Bite,Slowpoke,-22.0,113.0,Poison,,Water,Psychic,0,0,2055,755,False
+turn1,Bite,Slowbro,26.0,144.0,Poison,,Water,Psychic,0,0,2055,1505,False
+turn2,Bite,Slowbro,-58.0,133.0,Poison,,Water,Psychic,0,0,2055,1505,False
+turn1,Bite,Magnemite,99.0,85,Poison,,Electric,,0,0,2055,2255,False
+turn2,Bite,Magnemite,55.0,85,Poison,,Electric,,5,0,2055,2255,False
+turn3,Bite,Magnemite,6.0,85,Poison,,Electric,,5,0,2055,2255,False
+turn4,Bite,Magnemite,-25.0,85,Poison,,Electric,,5,0,2055,2255,False
+turn1,Bite,Magneton,28.0,96.0,Poison,,Electric,,0,0,2055,3505,False
+turn2,Bite,Magneton,-51.0,96.0,Poison,,Electric,,0,0,2055,3505,False
+turn1,Double Kick,Farfetch'd,58.0,88.0,Poison,,Normal,Flying,0,0,2055,3005,False
+turn2,Double Kick,Farfetch'd,0.0,88.0,Poison,,Normal,Flying,0,0,2055,3005,False
+turn1,Double Kick,Doduo,74.0,67.0,Poison,,Normal,Flying,0,0,2055,3755,False
+turn2,Double Kick,Doduo,33.0,37.0,Poison,,Normal,Flying,0,0,2055,3755,False
+turn3,Double Kick,Doduo,-9.0,37.0,Poison,,Normal,Flying,0,0,2055,3755,False
+turn1,Double Kick,Dodrio,12.0,102.0,Poison,,Normal,Flying,0,0,2055,5005,False
+turn2,Double Kick,Dodrio,-101.0,102.0,Poison,,Normal,Flying,0,0,2055,5005,False
+turn1,Bite,Seel,96.0,105.0,Poison,,Water,,0,0,2055,2255,False
+turn2,Bite,Seel,76.0,83.0,Poison,,Water,,0,0,2055,2255,False
+turn3,Bite,Seel,55.0,61.0,Poison,,Water,,0,0,2055,2255,False
+turn4,Bite,Seel,34.0,40.0,Poison,,Water,,0,0,2055,2255,False
+turn5,Bite,Seel,13.0,40.0,Poison,,Water,,0,0,2055,2255,False
+turn6,Bite,Seel,-9.0,40.0,Poison,,Water,,0,0,2055,2255,False
+turn1,Double Kick,Dewgong,57.0,116.0,Poison,,Water,Ice,0,0,2055,3505,False
+turn2,Double Kick,Dewgong,-7.0,116.0,Poison,,Water,Ice,0,0,2055,3505,False
+turn1,Bite,Grimer,93.0,115.0,Poison,,Poison,,0,0,2055,1255,True
+turn2,Bite,Grimer,71.0,91.0,Poison,,Poison,,0,0,2055,1255,True
+turn3,Bite,Grimer,51.0,66.0,Poison,,Poison,,0,0,2055,1255,True
+turn4,Bite,Grimer,29.0,44.0,Poison,,Poison,,0,0,2055,1255,True
+turn5,Bite,Grimer,10.0,20.0,Poison,,Poison,,0,0,2055,1255,True
+turn6,Bite,Grimer,10.0,-4.0,Poison,,Poison,,0,0,2055,1255,True
+turn1,Bite,Muk,17.0,150.0,Poison,,Poison,,0,0,2055,2505,False
+turn2,Bite,Muk,-78.0,150.0,Poison,,Poison,,0,0,2055,2505,False
+turn1,Bite,Shellder,115,77.0,Poison,,Water,,0,0,2055,2005,False
+turn2,Bite,Shellder,84.0,77.0,Poison,,Water,,5,0,2055,2005,False
+turn3,Bite,Shellder,51.0,77.0,Poison,,Water,,5,0,2055,2005,False
+turn4,Bite,Shellder,21.0,77.0,Poison,,Water,,5,0,2055,2005,False
+turn5,Bite,Shellder,-10.0,77.0,Poison,,Water,,5,0,2055,2005,False
+turn1,Double Kick,Cloyster,57.0,110,Poison,,Water,Ice,0,0,2055,3505,False
+turn2,Double Kick,Cloyster,2.0,110,Poison,,Water,Ice,6,0,2055,3505,False
+turn3,Double Kick,Cloyster,-61.0,110,Poison,,Water,Ice,6,0,2055,3505,False
+turn1,Tail Whip,Gastly,98.0,90,Poison,,Ghost,Poison,0,0,2055,4005,False
+turn2,Tail Whip,Gastly,33.0,90,Poison,,Ghost,Poison,5,0,2055,4005,False
+turn3,Tail Whip,Gastly,-17.0,90,Poison,,Ghost,Poison,5,0,2055,4005,False
+turn1,Tail Whip,Haunter,115,105,Poison,,Ghost,Poison,0,0,2055,4755,False
+turn2,Tail Whip,Haunter,49.0,105,Poison,,Ghost,Poison,5,0,2055,4755,False
+turn3,Tail Whip,Haunter,-1.0,105,Poison,,Ghost,Poison,5,0,2055,4755,False
+turn1,Tail Whip,Gengar,98.0,120,Poison,,Ghost,Poison,0,0,2055,5505,False
+turn2,Tail Whip,Gengar,32.0,120,Poison,,Ghost,Poison,5,0,2055,5505,False
+turn3,Tail Whip,Gengar,-18.0,120,Poison,,Ghost,Poison,5,0,2055,5505,False
+turn1,Double Kick,Onix,-1.0,95,Poison,,Rock,Ground,0,0,2055,3505,False
+turn1,Bite,Drowzee,48.0,94.0,Poison,,Psychic,,0,0,2055,2105,False
+turn2,Bite,Drowzee,-22.0,94.0,Poison,,Psychic,,0,0,2055,2105,False
+turn1,Bite,Hypno,-97.0,145,Poison,,Psychic,,0,0,2055,3355,False
+turn1,Bite,Krabby,49.0,75.0,Poison,,Water,,0,0,2055,2505,False
+turn2,Bite,Krabby,-14.0,75.0,Poison,,Water,,0,0,2055,2505,False
+turn1,Bite,Kingler,37.0,104.0,Poison,,Water,,0,0,2055,3755,False
+turn2,Bite,Kingler,-40.0,104.0,Poison,,Water,,0,0,2055,3755,False
+turn1,Bite,Voltorb,51.0,75.0,Poison,,Electric,,0,0,2055,5005,False
+turn2,Bite,Voltorb,-9.0,75.0,Poison,,Electric,,0,0,2055,5005,False
+turn1,Bite,Electrode,12.0,101.0,Poison,,Electric,,0,0,2055,7005,False
+turn2,Bite,Electrode,-87.0,101.0,Poison,,Electric,,0,0,2055,7005,False
+turn1,Bite,Exeggcute,129,89.0,Poison,,Grass,Psychic,0,0,2055,2005,False
+turn2,Bite,Exeggcute,46.0,59.0,Poison,,Grass,Psychic,7,0,2055,2005,False
+turn3,Bite,Exeggcute,-46.0,44.0,Poison,,Grass,Psychic,7,0,2055,2005,False
+turn1,Bite,Exeggutor,-143.0,155,Poison,,Grass,Psychic,0,0,2055,2755,False
+turn1,Bite,Cubone,37.0,96.0,Poison,,Ground,,0,0,2055,1755,False
+turn2,Bite,Cubone,-48.0,82.0,Poison,,Ground,,0,0,2055,1755,False
+turn1,Bite,Marowak,-16.0,120,Poison,,Ground,,0,0,2055,2255,False
+turn1,Bite,Hitmonlee,1.0,89.0,Poison,,Fighting,,0,0,2055,4355,False
+turn2,Bite,Hitmonlee,-111.0,89.0,Poison,,Fighting,,0,0,2055,4355,False
+turn1,Bite,Hitmonchan,58.0,94.0,Poison,,Fighting,,0,0,2055,3805,False
+turn2,Bite,Hitmonchan,-5.0,94.0,Poison,,Fighting,,0,0,2055,3805,False
+turn1,Double Kick,Lickitung,70.0,116.0,Poison,,Normal,,0,0,2055,1505,False
+turn2,Double Kick,Lickitung,28.0,80.0,Poison,,Normal,,0,0,2055,1505,False
+turn3,Double Kick,Lickitung,-19.0,42.0,Poison,,Normal,,0,0,2055,1505,False
+turn1,Bite,Koffing,101,85.0,Poison,,Poison,,0,0,2055,1755,False
+turn2,Bite,Koffing,72.0,71.0,Poison,,Poison,,3,0,2055,1755,False
+turn3,Bite,Koffing,44.0,58.0,Poison,,Poison,,3,0,2055,1755,False
+turn4,Bite,Koffing,16.0,43.0,Poison,,Poison,,3,0,2055,1755,False
+turn5,Bite,Koffing,0.0,31.0,Poison,,Poison,,3,0,2055,1755,False
+turn1,Bite,Weezing,108,115.0,Poison,,Poison,,0,0,2055,3005,False
+turn2,Bite,Weezing,59.0,103.0,Poison,,Poison,,3,0,2055,3005,False
+turn3,Bite,Weezing,5.0,92.0,Poison,,Poison,,3,0,2055,3005,False
+turn4,Bite,Weezing,-40.0,92.0,Poison,,Poison,,3,0,2055,3005,False
+turn1,Double Kick,Rhyhorn,54.0,77.0,Poison,,Ground,Rock,0,0,2055,1255,False
+turn2,Double Kick,Rhyhorn,-12.0,17.0,Poison,,Ground,Rock,0,0,2055,1255,False
+turn1,Double Kick,Rhydon,26.0,94.0,Poison,,Ground,Rock,0,0,2055,2005,False
+turn2,Double Kick,Rhydon,-66.0,22.0,Poison,,Ground,Rock,0,0,2055,2005,False
+turn1,Double Kick,Chansey,107.0,-148.0,Poison,,Normal,,0,0,2055,2505,True
+turn1,Bite,Tangela,122,107.0,Poison,,Grass,,0,0,2055,3005,True
+turn2,Bite,Tangela,121.0,90.0,Poison,,Grass,,7,0,2055,3005,True
+turn3,Bite,Tangela,121.0,71.0,Poison,,Grass,,7,0,2055,3005,True
+turn4,Bite,Tangela,121.0,52.0,Poison,,Grass,,7,0,2055,3005,True
+turn5,Bite,Tangela,120.0,34.0,Poison,,Grass,,7,0,2055,3005,True
+turn6,Bite,Tangela,119.0,15.0,Poison,,Grass,,7,0,2055,3005,True
+turn7,Bite,Tangela,119.0,-3.0,Poison,,Grass,,7,0,2055,3005,True
+turn1,Double Kick,Kangaskhan,34.0,131.0,Poison,,Normal,,0,0,2055,4505,False
+turn2,Double Kick,Kangaskhan,-35.0,131.0,Poison,,Normal,,0,0,2055,4505,False
+turn1,Bite,Horsea,93.0,71.0,Poison,,Water,,0,0,2055,3005,True
+turn2,Bite,Horsea,71.0,54.0,Poison,,Water,,0,0,2055,3005,True
+turn3,Bite,Horsea,49.0,37.0,Poison,,Water,,0,0,2055,3005,True
+turn4,Bite,Horsea,28.0,18.0,Poison,,Water,,0,0,2055,3005,True
+turn5,Bite,Horsea,4.0,-1.0,Poison,,Water,,0,0,2055,3005,True
+turn1,Bite,Seadra,31.0,102.0,Poison,,Water,,0,0,2055,4255,False
+turn2,Bite,Seadra,-53.0,102.0,Poison,,Water,,0,0,2055,4255,False
+turn1,Bite,Goldeen,81.0,85.0,Poison,,Water,,0,0,2055,3155,False
+turn2,Bite,Goldeen,47.0,63.0,Poison,,Water,,0,0,2055,3155,False
+turn3,Bite,Goldeen,14.0,43.0,Poison,,Water,,0,0,2055,3155,False
+turn4,Bite,Goldeen,-21.0,43.0,Poison,,Water,,0,0,2055,3155,False
+turn1,Bite,Seaking,-65420,140,Poison,,Water,,0,0,2055,3405,False
+turn1,Bite,Staryu,115,68.0,Poison,,Water,,0,0,2055,4255,False
+turn2,Bite,Staryu,56.0,68.0,Poison,,Water,,5,0,2055,4255,False
+turn3,Bite,Staryu,-5.0,68.0,Poison,,Water,,5,0,2055,4255,False
+turn1,Bite,Starmie,27.0,105.0,Poison,,Water,Psychic,0,0,2055,5755,False
+turn2,Bite,Starmie,-63.0,105.0,Poison,,Water,Psychic,0,0,2055,5755,False
+turn1,Double Kick,Mr. Mime,-52.0,100,Poison,,Psychic,Normal,0,0,2055,4505,False
+turn1,Bite,Scyther,37.0,114.0,Poison,,Bug,Flying,0,0,2055,5255,False
+turn2,Bite,Scyther,-44.0,114.0,Poison,,Bug,Flying,0,0,2055,5255,False
+turn1,Double Kick,Jynx,-80.0,125,Poison,,Ice,Psychic,0,0,2055,4755,False
+turn1,Bite,Electabuzz,79.0,104.0,Poison,,Electric,,0,0,2055,5255,False
+turn2,Bite,Electabuzz,41.0,81.0,Poison,,Electric,,0,0,2055,5255,False
+turn3,Bite,Electabuzz,2.0,61.0,Poison,,Electric,,0,0,2055,5255,False
+turn4,Bite,Electabuzz,-36.0,61.0,Poison,,Electric,,0,0,2055,5255,False
+turn1,Bite,Magmar,48.0,104.0,Poison,,Fire,,0,0,2055,4655,False
+turn2,Bite,Magmar,-18.0,104.0,Poison,,Fire,,0,0,2055,4655,False
+turn1,Bite,Pinsir,115,112.0,Poison,,Bug,,0,0,2055,4255,False
+turn2,Bite,Pinsir,-65420,112.0,Poison,,Bug,,0,0,2055,4255,False
+turn1,Double Kick,Tauros,10.0,49.0,Poison,,Normal,,0,0,2055,5505,False
+turn2,Double Kick,Tauros,-66.0,24.0,Poison,,Normal,,0,0,2055,5505,False
+turn1,Bite,Magikarp,115,59.0,Poison,,Water,,0,0,2055,4005,True
+turn2,Bite,Magikarp,115,36.0,Poison,,Water,,0,0,2055,4005,True
+turn3,Bite,Magikarp,115,15.0,Poison,,Water,,0,0,2055,4005,True
+turn4,Bite,Magikarp,115,-6.0,Poison,,Water,,0,0,2055,4005,True
+turn1,Bite,Gyarados,67.0,140.0,Poison,,Water,Flying,0,0,2055,4055,False
+turn2,Bite,Gyarados,15.0,124.0,Poison,,Water,Flying,0,0,2055,4055,False
+turn3,Bite,Gyarados,-33.0,124.0,Poison,,Water,Flying,0,0,2055,4055,False
+turn1,Double Kick,Lapras,46.0,152.0,Poison,,Water,Ice,0,0,2055,3005,False
+turn2,Double Kick,Lapras,-20.0,152.0,Poison,,Water,Ice,0,0,2055,3005,False
+turn1,Double Kick,Ditto,115,56.0,Poison,,Normal,,0,0,2055,2405,True
+turn2,Double Kick,Ditto,115,-2.0,Poison,,Normal,,0,0,2055,2405,True
+turn1,Double Kick,Eevee,72.0,63.0,Poison,,Normal,,0,0,2055,2755,False
+turn2,Double Kick,Eevee,34.0,7.0,Poison,,Normal,,0,0,2055,2755,False
+turn3,Double Kick,Eevee,-7.0,7.0,Poison,,Normal,,0,0,2055,2755,False
+turn1,Bite,Vaporeon,32.0,170.0,Poison,,Water,,0,0,2055,3255,False
+turn2,Bite,Vaporeon,-50.0,170.0,Poison,,Water,,0,0,2055,3255,False
+turn1,Bite,Jolteon,115,106.0,Poison,,Electric,,0,0,2055,6505,False
+turn2,Bite,Jolteon,82.0,87.0,Poison,,Electric,,4,0,2055,6505,False
+turn3,Bite,Jolteon,49.0,87.0,Poison,,Electric,,4,0,2055,6505,False
+turn4,Bite,Jolteon,17.0,87.0,Poison,,Electric,,4,0,2055,6505,False
+turn5,Bite,Jolteon,-19.0,87.0,Poison,,Electric,,4,0,2055,6505,False
+turn1,Bite,Flareon,30.0,105.0,Poison,,Fire,,0,0,2055,3255,False
+turn2,Bite,Flareon,-49.0,105.0,Poison,,Fire,,0,0,2055,3255,False
+turn1,Double Kick,Porygon,11.0,87.0,Poison,,Normal,,0,0,2055,2005,False
+turn2,Double Kick,Porygon,-89.0,47.0,Poison,,Normal,,0,0,2055,2005,False
+turn1,Double Kick,Omanyte,94.0,67.0,Poison,,Rock,Water,0,0,2055,1755,True
+turn2,Double Kick,Omanyte,71.0,37.0,Poison,,Rock,Water,0,0,2055,1755,True
+turn3,Double Kick,Omanyte,49.0,5.0,Poison,,Rock,Water,0,0,2055,1755,True
+turn4,Double Kick,Omanyte,49.0,-25.0,Poison,,Rock,Water,0,0,2055,1755,True
+turn1,Double Kick,Omastar,83.0,104.0,Poison,,Rock,Water,0,0,2055,2755,False
+turn2,Double Kick,Omastar,50.0,78.0,Poison,,Rock,Water,0,0,2055,2755,False
+turn3,Double Kick,Omastar,21.0,52.0,Poison,,Rock,Water,0,0,2055,2755,False
+turn4,Double Kick,Omastar,-8.0,52.0,Poison,,Rock,Water,0,0,2055,2755,False
+turn1,Double Kick,Kabuto,67.0,60.0,Poison,,Rock,Water,0,0,2055,2755,False
+turn2,Double Kick,Kabuto,26.0,28.0,Poison,,Rock,Water,0,0,2055,2755,False
+turn3,Double Kick,Kabuto,-17.0,28.0,Poison,,Rock,Water,0,0,2055,2755,False
+turn1,Double Kick,Kabutops,56.0,94.0,Poison,,Rock,Water,0,0,2055,4005,False
+turn2,Double Kick,Kabutops,-10.0,94.0,Poison,,Rock,Water,0,0,2055,4005,False
+turn1,Double Kick,Aerodactyl,35.0,120.0,Poison,,Rock,Flying,0,0,2055,6505,False
+turn2,Double Kick,Aerodactyl,-38.0,120.0,Poison,,Rock,Flying,0,0,2055,6505,False
+turn1,Double Kick,Snorlax,-37.0,176.0,Poison,,Normal,,0,0,2055,1505,False
+turn1,Double Kick,Articuno,32.0,136.0,Poison,,Ice,Flying,0,0,2055,4255,False
+turn2,Double Kick,Articuno,-44.0,136.0,Poison,,Ice,Flying,0,0,2055,4255,False
+turn1,Bite,Zapdos,11.0,136.0,Poison,,Electric,Flying,0,0,2055,5005,False
+turn2,Bite,Zapdos,-94.0,136.0,Poison,,Electric,Flying,0,0,2055,5005,False
+turn1,Bite,Moltres,-60.0,150,Poison,,Fire,Flying,0,0,2055,4505,False
+turn1,Bite,Dratini,75.0,74.0,Poison,,Dragon,,0,0,2055,2505,False
+turn2,Bite,Dratini,36.0,46.0,Poison,,Dragon,,0,0,2055,2505,False
+turn3,Bite,Dratini,-3.0,46.0,Poison,,Dragon,,0,0,2055,2505,False
+turn1,Bite,Dragonair,75,101.0,Poison,,Dragon,,0,0,2055,3505,False
+turn2,Bite,Dragonair,35,81.0,Poison,,Dragon,,0,0,2055,3505,False
+turn3,Bite,Dragonair,-5,81.0,Poison,,Dragon,,0,0,2055,3505,False
+turn1,Bite,Dragonite,75,138.0,Poison,,Dragon,Flying,0,0,2055,4005,False
+turn2,Bite,Dragonite,35,124.0,Poison,,Dragon,Flying,0,0,2055,4005,False
+turn3,Bite,Dragonite,-5,124.0,Poison,,Dragon,Flying,0,0,2055,4005,False
+turn1,Bite,Mewtwo,-141.0,166,Poison,,Psychic,,0,0,2055,6505,False
+turn1,Bite,Mew,-172.0,160,Poison,,Psychic,,0,0,2055,5005,False

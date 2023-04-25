@@ -1,0 +1,496 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Swift,Bulbasaur,55.0,105,Water,,Grass,Poison,0,0,4255,2255,True
+turn2,Swift,Bulbasaur,55.0,61.0,Water,,Grass,Poison,0,5,4255,2255,True
+turn3,Swift,Bulbasaur,23.0,31.0,Water,,Grass,Poison,0,5,4255,2255,True
+turn4,Swift,Bulbasaur,23.0,-12.0,Water,,Grass,Poison,0,5,4255,2255,True
+turn1,Swift,Ivysaur,52.0,120,Water,,Grass,Poison,0,0,4255,3005,True
+turn2,Swift,Ivysaur,52.0,80.0,Water,,Grass,Poison,0,5,4255,3005,True
+turn3,Swift,Ivysaur,14.0,57.0,Water,,Grass,Poison,0,5,4255,3005,True
+turn4,Swift,Ivysaur,14.0,17.0,Water,,Grass,Poison,0,5,4255,3005,True
+turn5,Swift,Ivysaur,14.0,-6.0,Water,,Grass,Poison,0,5,4255,3005,True
+turn1,Confuse Ray,Venusaur,-39.0,140,Water,,Grass,Poison,0,0,4255,4005,False
+turn1,Water Gun,Charmander,75.0,63.0,Water,,Fire,,0,0,4255,3255,True
+turn2,Water Gun,Charmander,61.0,28.0,Water,,Fire,,0,0,4255,3255,True
+turn3,Water Gun,Charmander,61.0,-5.0,Water,,Fire,,0,0,4255,3255,True
+turn1,Water Gun,Charmeleon,59.0,89.0,Water,,Fire,,0,0,4255,4005,False
+turn2,Water Gun,Charmeleon,28.0,59.0,Water,,Fire,,2,0,4255,4005,False
+turn3,Water Gun,Charmeleon,-3.0,30.0,Water,,Fire,,2,0,4255,4005,False
+turn1,Water Gun,Charizard,62.0,93.0,Water,,Fire,Flying,0,0,4255,5005,False
+turn2,Water Gun,Charizard,34.0,50.0,Water,,Fire,Flying,0,0,4255,5005,False
+turn3,Water Gun,Charizard,6.0,4.0,Water,,Fire,Flying,0,0,4255,5005,False
+turn4,Water Gun,Charizard,-22.0,4.0,Water,,Fire,Flying,0,0,4255,5005,False
+turn1,Swift,Squirtle,44.0,104,Water,,Water,,0,0,4255,2155,True
+turn2,Swift,Squirtle,44.0,62.0,Water,,Water,,0,5,4255,2155,True
+turn3,Swift,Squirtle,44.0,24.0,Water,,Water,,0,5,4255,2155,True
+turn4,Swift,Squirtle,44.0,-2.0,Water,,Water,,0,5,4255,2155,True
+turn1,Swift,Wartortle,90,104.0,Water,,Water,,0,0,4255,2905,True
+turn2,Swift,Wartortle,25.0,82.0,Water,,Water,,0,5,4255,2905,True
+turn3,Swift,Wartortle,25.0,46.0,Water,,Water,,0,5,4255,2905,True
+turn4,Swift,Wartortle,25.0,10.0,Water,,Water,,0,5,4255,2905,True
+turn5,Swift,Wartortle,25.0,-13.0,Water,,Water,,0,5,4255,2905,True
+turn1,Swift,Blastoise,90,123.0,Water,,Water,,0,0,4255,3905,True
+turn2,Swift,Blastoise,6.0,105.0,Water,,Water,,0,5,4255,3905,True
+turn3,Swift,Blastoise,6.0,75.0,Water,,Water,,0,5,4255,3905,True
+turn4,Swift,Blastoise,6.0,43.0,Water,,Water,,0,5,4255,3905,True
+turn5,Swift,Blastoise,6.0,12.0,Water,,Water,,0,5,4255,3905,True
+turn6,Swift,Blastoise,6.0,-7.0,Water,,Water,,0,5,4255,3905,True
+turn1,Swift,Caterpie,90,91.0,Water,,Bug,,0,0,4255,2255,True
+turn2,Swift,Caterpie,90,0.0,Water,,Bug,,0,5,4255,2255,True
+turn1,Swift,Metapod,83.0,110,Water,,Bug,,0,0,4255,1505,True
+turn2,Swift,Metapod,76.0,36.0,Water,,Bug,,0,5,4255,1505,True
+turn3,Swift,Metapod,76.0,-32.0,Water,,Bug,,0,5,4255,1505,True
+turn1,Water Gun,Butterfree,90,120,Water,,Bug,Flying,0,0,4255,3505,False
+turn2,Water Gun,Butterfree,90,105.0,Water,,Bug,Flying,1,5,4255,3505,False
+turn3,Water Gun,Butterfree,90,88.0,Water,,Bug,Flying,1,5,4255,3505,False
+turn4,Water Gun,Butterfree,90,65.0,Water,,Bug,Flying,0,5,4255,3505,False
+turn5,Water Gun,Butterfree,45.0,65.0,Water,,Bug,Flying,1,5,4255,3505,False
+turn6,Water Gun,Butterfree,-3.0,65.0,Water,,Bug,Flying,1,5,4255,3505,False
+turn1,Water Gun,Weedle,82.0,100,Water,,Bug,Poison,0,0,4255,2505,True
+turn2,Water Gun,Weedle,75.0,8.0,Water,,Bug,Poison,0,5,4255,2505,True
+turn3,Water Gun,Weedle,75.0,-82.0,Water,,Bug,Poison,0,5,4255,2505,True
+turn1,Water Gun,Kakuna,90,96.0,Water,,Bug,Poison,0,0,4255,1755,True
+turn2,Water Gun,Kakuna,82.0,23.0,Water,,Bug,Poison,0,5,4255,1755,True
+turn3,Water Gun,Kakuna,82.0,-48.0,Water,,Bug,Poison,0,5,4255,1755,True
+turn1,Water Gun,Beedrill,90,89.0,Water,,Bug,Poison,0,0,4255,3755,True
+turn2,Water Gun,Beedrill,90,29.0,Water,,Bug,Poison,0,5,4255,3755,True
+turn3,Water Gun,Beedrill,32.0,3.0,Water,,Bug,Poison,0,5,4255,3755,True
+turn4,Water Gun,Beedrill,32.0,-21.0,Water,,Bug,Poison,0,5,4255,3755,True
+turn1,Water Gun,Pidgey,90,71.0,Water,,Normal,Flying,0,0,4255,2805,True
+turn2,Water Gun,Pidgey,57.0,18.0,Water,,Normal,Flying,0,5,4255,2805,True
+turn3,Water Gun,Pidgey,57.0,-35.0,Water,,Normal,Flying,0,5,4255,2805,True
+turn1,Water Gun,Pidgeotto,49.0,123,Water,,Normal,Flying,0,0,4255,3555,True
+turn2,Water Gun,Pidgeotto,49.0,58.0,Water,,Normal,Flying,0,5,4255,3555,True
+turn3,Water Gun,Pidgeotto,49.0,-9.0,Water,,Normal,Flying,0,5,4255,3555,True
+turn1,Water Gun,Pidgeot,35.0,143,Water,,Normal,Flying,0,0,4255,5055,False
+turn2,Water Gun,Pidgeot,-17.0,143,Water,,Normal,Flying,0,5,4255,5055,False
+turn1,Swift,Rattata,38.0,90,Water,,Normal,,0,0,4255,3605,True
+turn2,Swift,Rattata,38.0,1.0,Water,,Normal,,0,5,4255,3605,True
+turn3,Swift,Rattata,38.0,-45.0,Water,,Normal,,0,5,4255,3605,True
+turn1,Swift,Raticate,12.0,115,Water,,Normal,,0,0,4255,4855,False
+turn2,Swift,Raticate,12.0,54.0,Water,,Normal,,0,5,4255,4855,False
+turn3,Swift,Raticate,-67.0,54.0,Water,,Normal,,0,5,4255,4855,False
+turn1,Water Gun,Spearow,90,51.0,Water,,Normal,Flying,0,0,4255,3505,True
+turn2,Water Gun,Spearow,90,-8.0,Water,,Normal,Flying,0,5,4255,3505,True
+turn1,Water Gun,Fearow,7.0,125,Water,,Normal,Flying,0,0,4255,5005,True
+turn2,Water Gun,Fearow,7.0,56.0,Water,,Normal,Flying,0,5,4255,5005,True
+turn3,Water Gun,Fearow,7.0,-9.0,Water,,Normal,Flying,0,5,4255,5005,True
+turn1,Swift,Ekans,61.0,95,Water,,Poison,,0,0,4255,2755,True
+turn2,Swift,Ekans,61.0,41.0,Water,,Poison,,0,5,4255,2755,True
+turn3,Swift,Ekans,33.0,10.0,Water,,Poison,,0,5,4255,2755,True
+turn4,Swift,Ekans,33.0,-24.0,Water,,Poison,,0,5,4255,2755,True
+turn1,Swift,Arbok,90,98.0,Water,,Poison,,0,0,4255,4005,False
+turn2,Swift,Arbok,49.0,76.0,Water,,Poison,,0,5,4255,4005,False
+turn3,Swift,Arbok,9.0,53.0,Water,,Poison,,0,5,4255,4005,False
+turn4,Swift,Arbok,-28.0,29.0,Water,,Poison,,0,5,4255,4005,False
+turn1,Swift,Pikachu,29.0,95,Water,,Electric,,0,0,4255,4505,True
+turn2,Swift,Pikachu,29.0,35.0,Water,,Electric,,0,5,4255,4505,True
+turn3,Swift,Pikachu,29.0,-25.0,Water,,Electric,,0,5,4255,4505,True
+turn1,Confuse Ray,Raichu,-16.0,120,Water,,Electric,,0,0,4255,5505,False
+turn1,Water Gun,Sandshrew,47.0,47.0,Water,,Ground,,0,0,4255,2005,True
+turn2,Water Gun,Sandshrew,47.0,-11.0,Water,,Ground,,0,0,4255,2005,True
+turn1,Water Gun,Sandslash,35.0,99.0,Water,,Ground,,0,0,4255,3255,False
+turn2,Water Gun,Sandslash,-22.0,64.0,Water,,Ground,,0,0,4255,3255,False
+turn1,Swift,Nidoran♀,90,99.0,Water,,Poison,,0,0,4255,2055,True
+turn2,Swift,Nidoran♀,69.0,54.0,Water,,Poison,,0,5,4255,2055,True
+turn3,Swift,Nidoran♀,49.0,11.0,Water,,Poison,,0,5,4255,2055,True
+turn4,Swift,Nidoran♀,49.0,-32.0,Water,,Poison,,0,5,4255,2055,True
+turn1,Swift,Nidorina,90,114.0,Water,,Poison,,0,0,4255,2805,True
+turn2,Swift,Nidorina,61.0,81.0,Water,,Poison,,0,5,4255,2805,True
+turn3,Swift,Nidorina,61.0,34.0,Water,,Poison,,0,5,4255,2805,True
+turn4,Swift,Nidorina,30.0,4.0,Water,,Poison,,0,5,4255,2805,True
+turn5,Swift,Nidorina,30.0,-27.0,Water,,Poison,,0,5,4255,2805,True
+turn1,Water Gun,Nidoqueen,30.0,105.0,Water,,Poison,Ground,0,0,4255,3805,False
+turn2,Water Gun,Nidoqueen,-26.0,59.0,Water,,Poison,Ground,0,0,4255,3805,False
+turn1,Swift,Nidoran♂,90,81.0,Water,,Poison,,0,0,4255,2505,True
+turn2,Swift,Nidoran♂,90,11.0,Water,,Poison,,0,5,4255,2505,True
+turn3,Swift,Nidoran♂,90,-34.0,Water,,Poison,,0,5,4255,2505,True
+turn1,Confuse Ray,Nidorino,-65445,121,Water,,Poison,,0,0,4255,3255,False
+turn1,Water Gun,Nidoking,-1.0,141,Water,,Poison,Ground,0,0,4255,4255,False
+turn1,Swift,Clefairy,90,104.0,Water,,Normal,,0,0,4255,1755,True
+turn2,Swift,Clefairy,90,52.0,Water,,Normal,,0,5,4255,1755,True
+turn3,Swift,Clefairy,45.0,22.0,Water,,Normal,,0,5,4255,1755,True
+turn4,Swift,Clefairy,45.0,-8.0,Water,,Normal,,0,5,4255,1755,True
+turn1,Swift,Clefable,60.0,155,Water,,Normal,,0,0,4255,3005,False
+turn2,Swift,Clefable,32.0,136.0,Water,,Normal,,0,5,4255,3005,False
+turn3,Swift,Clefable,32.0,116.0,Water,,Normal,,0,5,4255,3005,False
+turn4,Swift,Clefable,32.0,91.0,Water,,Normal,,1,5,4255,3005,False
+turn5,Swift,Clefable,-7.0,91.0,Water,,Normal,,1,5,4255,3005,False
+turn1,Water Gun,Vulpix,78.0,69.0,Water,,Fire,,0,0,4255,3255,True
+turn2,Water Gun,Vulpix,56.0,38.0,Water,,Fire,,0,0,4255,3255,True
+turn3,Water Gun,Vulpix,33.0,10.0,Water,,Fire,,2,0,4255,3255,True
+turn4,Water Gun,Vulpix,33.0,-17.0,Water,,Fire,,2,0,4255,3255,True
+turn1,Water Gun,Ninetales,81.0,114.0,Water,,Fire,,0,0,4255,5005,True
+turn2,Water Gun,Ninetales,72.0,94.0,Water,,Fire,,0,0,4255,5005,True
+turn3,Water Gun,Ninetales,58.0,75.0,Water,,Fire,,0,0,4255,5005,True
+turn4,Water Gun,Ninetales,43.0,56.0,Water,,Fire,,2,0,4255,5005,True
+turn5,Water Gun,Ninetales,28.0,37.0,Water,,Fire,,2,0,4255,5005,True
+turn6,Water Gun,Ninetales,14.0,17.0,Water,,Fire,,2,0,4255,5005,True
+turn7,Water Gun,Ninetales,4.0,-3.0,Water,,Fire,,2,0,4255,5005,True
+turn1,Swift,Jigglypuff,90,120.0,Water,,Normal,,0,0,4255,1005,True
+turn2,Swift,Jigglypuff,90,-10.0,Water,,Normal,,0,5,4255,1005,True
+turn1,Swift,Wigglytuff,90,200,Water,,Normal,,0,0,4255,2255,True
+turn2,Swift,Wigglytuff,90,126.0,Water,,Normal,,0,5,4255,2255,True
+turn3,Swift,Wigglytuff,90,52.0,Water,,Normal,,0,5,4255,2255,True
+turn4,Swift,Wigglytuff,90,19.0,Water,,Normal,,0,5,4255,2255,True
+turn5,Swift,Wigglytuff,90,-23.0,Water,,Normal,,1,5,4255,2255,True
+turn1,Water Gun,Zubat,90,77.0,Water,,Poison,Flying,0,0,4255,2755,True
+turn2,Water Gun,Zubat,90,8.0,Water,,Poison,Flying,0,5,4255,2755,True
+turn3,Water Gun,Zubat,90,-37.0,Water,,Poison,Flying,0,5,4255,2755,True
+turn1,Water Gun,Golbat,31.0,135,Water,,Poison,Flying,0,0,4255,4505,False
+turn2,Water Gun,Golbat,-27.0,135,Water,,Poison,Flying,0,5,4255,4505,False
+turn1,Confuse Ray,Oddish,-4.0,105,Water,,Grass,Poison,0,0,4255,1505,False
+turn1,Confuse Ray,Gloom,-18.0,120,Water,,Grass,Poison,0,0,4255,2005,False
+turn1,Swift,Vileplume,90,119.0,Water,,Grass,Poison,0,0,4255,2505,True
+turn2,Swift,Vileplume,90,83.0,Water,,Grass,Poison,0,5,4255,2505,True
+turn3,Swift,Vileplume,90,62.0,Water,,Grass,Poison,0,5,4255,2505,True
+turn4,Swift,Vileplume,90,23.0,Water,,Grass,Poison,0,5,4255,2505,True
+turn5,Swift,Vileplume,90,3.0,Water,,Grass,Poison,0,5,4255,2505,True
+turn6,Swift,Vileplume,90,-14.0,Water,,Grass,Poison,1,5,4255,2505,True
+turn1,Swift,Paras,26.0,95,Water,,Bug,Grass,0,0,4255,1255,False
+turn2,Swift,Paras,-38.0,93.0,Water,,Bug,Grass,0,5,4255,1255,False
+turn1,Swift,Parasect,90,99.0,Water,,Bug,Grass,0,0,4255,1505,False
+turn2,Swift,Parasect,6.0,119.0,Water,,Bug,Grass,0,5,4255,1505,False
+turn3,Swift,Parasect,-88.0,120,Water,,Bug,Grass,0,5,4255,1505,False
+turn1,Water Gun,Venonat,90,120,Water,,Bug,Poison,0,0,4255,2255,True
+turn2,Water Gun,Venonat,90,69.0,Water,,Bug,Poison,0,5,4255,2255,True
+turn3,Water Gun,Venonat,90,34.0,Water,,Bug,Poison,0,5,4255,2255,True
+turn4,Water Gun,Venonat,63.0,34.0,Water,,Bug,Poison,1,5,4255,2255,True
+turn5,Water Gun,Venonat,34.0,34.0,Water,,Bug,Poison,1,5,4255,2255,True
+turn6,Water Gun,Venonat,34.0,0.0,Water,,Bug,Poison,0,5,4255,2255,True
+turn1,Confuse Ray,Venomoth,90,130,Water,,Bug,Poison,0,0,4255,4505,False
+turn2,Confuse Ray,Venomoth,34.0,130,Water,,Bug,Poison,1,0,4255,4505,False
+turn3,Confuse Ray,Venomoth,-23.0,130,Water,,Bug,Poison,1,0,4255,4505,False
+turn1,Water Gun,Diglett,27.0,32.0,Water,,Ground,,0,0,4255,4755,False
+turn2,Water Gun,Diglett,-41.0,32.0,Water,,Ground,,0,0,4255,4755,False
+turn1,Water Gun,Dugtrio,2.0,67.0,Water,,Ground,,0,0,4255,6005,False
+turn2,Water Gun,Dugtrio,-91.0,67.0,Water,,Ground,,0,0,4255,6005,False
+turn1,Swift,Meowth,58.0,100,Water,,Normal,,0,0,4255,4505,True
+turn2,Swift,Meowth,25.0,54.0,Water,,Normal,,0,5,4255,4505,True
+turn3,Swift,Meowth,25.0,-27.0,Water,,Normal,,0,5,4255,4505,True
+turn1,Swift,Persian,31.0,125,Water,,Normal,,0,0,4255,5755,False
+turn2,Swift,Persian,31.0,64.0,Water,,Normal,,0,5,4255,5755,False
+turn3,Swift,Persian,-25.0,64.0,Water,,Normal,,0,5,4255,5755,False
+turn1,Swift,Psyduck,65.0,110,Water,,Water,,0,0,4255,2755,True
+turn2,Swift,Psyduck,65.0,57.0,Water,,Water,,0,5,4255,2755,True
+turn3,Swift,Psyduck,65.0,4.0,Water,,Water,,0,5,4255,2755,True
+turn4,Swift,Psyduck,65.0,-29.0,Water,,Water,,0,5,4255,2755,True
+turn1,Swift,Golduck,23.0,140,Water,,Water,,0,0,4255,4255,False
+turn2,Swift,Golduck,23.0,99.0,Water,,Water,,0,5,4255,4255,False
+turn3,Swift,Golduck,-44.0,99.0,Water,,Water,,0,5,4255,4255,False
+turn1,Swift,Mankey,46.0,100,Water,,Fighting,,0,0,4255,3505,False
+turn2,Swift,Mankey,-1.0,57.0,Water,,Fighting,,0,5,4255,3505,False
+turn1,Confuse Ray,Primeape,-11.0,125,Water,,Fighting,,0,0,4255,4755,False
+turn1,Water Gun,Growlithe,40.0,57.0,Water,,Fire,,0,0,4255,3005,False
+turn2,Water Gun,Growlithe,-8.0,-2.0,Water,,Fire,,0,0,4255,3005,False
+turn1,Water Gun,Arcanine,64.0,108.0,Water,,Fire,,0,0,4255,4755,False
+turn2,Water Gun,Arcanine,37.0,64.0,Water,,Fire,,0,0,4255,4755,False
+turn3,Water Gun,Arcanine,8.0,22.0,Water,,Fire,,0,0,4255,4755,False
+turn4,Water Gun,Arcanine,-17.0,22.0,Water,,Fire,,2,0,4255,4755,False
+turn1,Confuse Ray,Poliwag,90,100,Water,,Water,,0,0,4255,4505,False
+turn2,Confuse Ray,Poliwag,56.0,100,Water,,Water,,1,0,4255,4505,False
+turn3,Confuse Ray,Poliwag,56.0,100,Water,,Water,,0,0,4255,4505,False
+turn4,Confuse Ray,Poliwag,22.0,100,Water,,Water,,1,0,4255,4505,False
+turn5,Confuse Ray,Poliwag,-10.0,100,Water,,Water,,1,0,4255,4505,False
+turn1,Swift,Poliwhirl,46.0,125,Water,,Water,,0,0,4255,4505,False
+turn2,Swift,Poliwhirl,2.0,92.0,Water,,Water,,0,5,4255,4505,False
+turn3,Swift,Poliwhirl,-41.0,92.0,Water,,Water,,0,5,4255,4505,False
+turn1,Swift,Poliwrath,90,131.0,Water,,Water,Fighting,0,0,4255,3505,True
+turn2,Swift,Poliwrath,90,96.0,Water,,Water,Fighting,0,5,4255,3505,True
+turn3,Swift,Poliwrath,90,76.0,Water,,Water,Fighting,0,5,4255,3505,True
+turn4,Swift,Poliwrath,33.0,76.0,Water,,Water,Fighting,1,5,4255,3505,True
+turn5,Swift,Poliwrath,33.0,37.0,Water,,Water,Fighting,0,5,4255,3505,True
+turn6,Swift,Poliwrath,33.0,-1.0,Water,,Water,Fighting,0,5,4255,3505,True
+turn1,Swift,Abra,90,85,Water,,Psychic,,0,0,4255,4505,True
+turn2,Swift,Abra,90,27.0,Water,,Psychic,,0,5,4255,4505,True
+turn3,Swift,Abra,90,-28.0,Water,,Psychic,,0,5,4255,4505,True
+turn1,Confuse Ray,Kadabra,-2.0,100,Water,,Psychic,,0,0,4255,5255,False
+turn1,Confuse Ray,Alakazam,-48.0,115,Water,,Psychic,,0,0,4255,6005,False
+turn1,Swift,Machop,42.0,130,Water,,Fighting,,0,0,4255,1755,False
+turn2,Swift,Machop,-10.0,80.0,Water,,Fighting,,0,5,4255,1755,False
+turn1,Swift,Machoke,30.0,140,Water,,Fighting,,0,0,4255,2255,False
+turn2,Swift,Machoke,30.0,88.0,Water,,Fighting,,0,5,4255,2255,False
+turn3,Swift,Machoke,30.0,32.0,Water,,Fighting,,0,5,4255,2255,False
+turn4,Swift,Machoke,-33.0,1.0,Water,,Fighting,,0,5,4255,2255,False
+turn1,Swift,Machamp,5.0,150,Water,,Fighting,,0,0,4255,2755,False
+turn2,Swift,Machamp,-70.0,128.0,Water,,Fighting,,0,5,4255,2755,False
+turn1,Swift,Bellsprout,90,74.0,Water,,Grass,Poison,0,0,4255,2005,True
+turn2,Swift,Bellsprout,80,11.0,Water,,Grass,Poison,0,5,4255,2005,True
+turn3,Swift,Bellsprout,80,-52.0,Water,,Grass,Poison,3,5,4255,2005,True
+turn1,Swift,Weepinbell,80,125,Water,,Grass,Poison,0,0,4255,2755,True
+turn2,Swift,Weepinbell,70,58.0,Water,,Grass,Poison,3,5,4255,2755,True
+turn3,Swift,Weepinbell,65,-11.0,Water,,Grass,Poison,3,5,4255,2755,True
+turn1,Swift,Victreebel,90,112.0,Water,,Grass,Poison,0,0,4255,3505,False
+turn2,Swift,Victreebel,21.0,85.0,Water,,Grass,Poison,0,5,4255,3505,False
+turn3,Swift,Victreebel,-42.0,60.0,Water,,Grass,Poison,0,5,4255,3505,False
+turn1,Swift,Tentacool,90,100,Water,,Water,Poison,0,0,4255,3505,False
+turn2,Swift,Tentacool,90,60.0,Water,,Water,Poison,5,5,4255,3505,False
+turn3,Swift,Tentacool,53.0,60.0,Water,,Water,Poison,5,5,4255,3505,False
+turn4,Swift,Tentacool,38.0,39.0,Water,,Water,Poison,5,5,4255,3505,False
+turn5,Swift,Tentacool,38.0,3.0,Water,,Water,Poison,5,5,4255,3505,False
+turn6,Swift,Tentacool,-1.0,3.0,Water,,Water,Poison,5,5,4255,3505,False
+turn1,Swift,Tentacruel,85,140,Water,,Water,Poison,0,0,4255,5005,True
+turn2,Swift,Tentacruel,65.0,124.0,Water,,Water,Poison,3,5,4255,5005,True
+turn3,Swift,Tentacruel,60.0,91.0,Water,,Water,Poison,3,5,4255,5005,True
+turn4,Swift,Tentacruel,55.0,56.0,Water,,Water,Poison,3,5,4255,5005,True
+turn5,Swift,Tentacruel,50.0,21.0,Water,,Water,Poison,3,5,4255,5005,True
+turn6,Swift,Tentacruel,31.0,4.0,Water,,Water,Poison,3,5,4255,5005,True
+turn7,Swift,Tentacruel,18.0,-10.0,Water,,Water,Poison,3,5,4255,5005,True
+turn1,Water Gun,Geodude,90,-157.0,Water,,Rock,Ground,0,0,4255,1005,True
+turn1,Water Gun,Graveler,90,-55.0,Water,,Rock,Ground,0,0,4255,1755,True
+turn1,Water Gun,Golem,-56.0,34.0,Water,,Rock,Ground,0,0,4255,2255,False
+turn1,Water Gun,Ponyta,46.0,79.0,Water,,Fire,,0,0,4255,4505,False
+turn2,Water Gun,Ponyta,5.0,49.0,Water,,Fire,,0,0,4255,4505,False
+turn3,Water Gun,Ponyta,-36.0,49.0,Water,,Fire,,0,0,4255,4505,False
+turn1,Water Gun,Rapidash,37.0,101.0,Water,,Fire,,0,0,4255,5255,False
+turn2,Water Gun,Rapidash,-12.0,101.0,Water,,Fire,,0,0,4255,5255,False
+turn1,Swift,Slowpoke,90,132.0,Water,,Water,Psychic,0,0,4255,755,True
+turn2,Swift,Slowpoke,67.0,85.0,Water,,Water,Psychic,0,5,4255,755,True
+turn3,Swift,Slowpoke,41.0,38.0,Water,,Water,Psychic,0,5,4255,755,True
+turn4,Swift,Slowpoke,41.0,-5.0,Water,,Water,Psychic,0,5,4255,755,True
+turn1,Swift,Slowbro,90,142.0,Water,,Water,Psychic,0,0,4255,1505,False
+turn2,Swift,Slowbro,60.0,119.0,Water,,Water,Psychic,0,5,4255,1505,False
+turn3,Swift,Slowbro,60.0,83.0,Water,,Water,Psychic,0,5,4255,1505,False
+turn4,Swift,Slowbro,30.0,59.0,Water,,Water,Psychic,0,5,4255,1505,False
+turn5,Swift,Slowbro,-2.0,34.0,Water,,Water,Psychic,0,5,4255,1505,False
+turn1,Swift,Magnemite,45.0,85,Water,,Electric,,0,0,4255,2255,True
+turn2,Swift,Magnemite,45.0,43.0,Water,,Electric,,0,5,4255,2255,True
+turn3,Swift,Magnemite,1.0,13.0,Water,,Electric,,0,5,4255,2255,True
+turn4,Swift,Magnemite,1.0,-18.0,Water,,Electric,,0,5,4255,2255,True
+turn1,Swift,Magneton,90,98.0,Water,,Electric,,0,0,4255,3505,False
+turn2,Swift,Magneton,90,59.0,Water,,Electric,,0,5,4255,3505,False
+turn3,Swift,Magneton,-40.0,32.0,Water,,Electric,,0,5,4255,3505,False
+turn1,Water Gun,Farfetch'd,90,81.0,Water,,Normal,Flying,0,0,4255,3005,True
+turn2,Water Gun,Farfetch'd,90,23.0,Water,,Normal,Flying,0,5,4255,3005,True
+turn3,Water Gun,Farfetch'd,90,-7.0,Water,,Normal,Flying,0,5,4255,3005,True
+turn1,Water Gun,Doduo,53.0,95,Water,,Normal,Flying,0,0,4255,3755,True
+turn2,Water Gun,Doduo,53.0,-3.0,Water,,Normal,Flying,0,5,4255,3755,True
+turn1,Confuse Ray,Dodrio,-12.0,120,Water,,Normal,Flying,0,0,4255,5005,False
+turn1,Swift,Seel,83.0,125,Water,,Water,,0,0,4255,2255,True
+turn2,Swift,Seel,83.0,83.0,Water,,Water,,0,5,4255,2255,True
+turn3,Swift,Seel,83.0,43.0,Water,,Water,,0,5,4255,2255,True
+turn4,Swift,Seel,83.0,2.0,Water,,Water,,0,5,4255,2255,True
+turn5,Swift,Seel,83.0,-24.0,Water,,Water,,0,5,4255,2255,True
+turn1,Swift,Dewgong,70.0,150,Water,,Water,Ice,0,0,4255,3505,True
+turn2,Swift,Dewgong,49.0,131.0,Water,,Water,Ice,0,5,4255,3505,True
+turn3,Swift,Dewgong,49.0,98.0,Water,,Water,Ice,0,5,4255,3505,True
+turn4,Swift,Dewgong,49.0,63.0,Water,,Water,Ice,0,5,4255,3505,True
+turn5,Swift,Dewgong,49.0,30.0,Water,,Water,Ice,0,5,4255,3505,True
+turn6,Swift,Dewgong,49.0,-3.0,Water,,Water,Ice,0,5,4255,3505,True
+turn1,Swift,Grimer,90,115.0,Water,,Poison,,0,0,4255,1255,True
+turn2,Swift,Grimer,60.0,79.0,Water,,Poison,,0,5,4255,1255,True
+turn3,Swift,Grimer,31.0,44.0,Water,,Poison,,0,5,4255,1255,True
+turn4,Swift,Grimer,2.0,10.0,Water,,Poison,,0,5,4255,1255,True
+turn5,Swift,Grimer,2.0,-28.0,Water,,Poison,,0,5,4255,1255,True
+turn1,Swift,Muk,1.0,165,Water,,Poison,,0,0,4255,2505,False
+turn2,Swift,Muk,-92.0,148.0,Water,,Poison,,0,5,4255,2505,False
+turn1,Swift,Shellder,90,79.0,Water,,Water,,0,0,4255,2005,True
+turn2,Swift,Shellder,90,0.0,Water,,Water,,0,5,4255,2005,True
+turn1,Swift,Cloyster,90,99.0,Water,,Water,Ice,0,0,4255,3505,False
+turn2,Swift,Cloyster,67.0,61.0,Water,,Water,Ice,0,5,4255,3505,False
+turn3,Swift,Cloyster,45.0,61.0,Water,,Water,Ice,6,5,4255,3505,False
+turn4,Swift,Cloyster,23.0,61.0,Water,,Water,Ice,6,5,4255,3505,False
+turn5,Swift,Cloyster,23.0,52.0,Water,,Water,Ice,6,5,4255,3505,False
+turn6,Swift,Cloyster,3.0,52.0,Water,,Water,Ice,6,5,4255,3505,False
+turn7,Swift,Cloyster,-17.0,12.0,Water,,Water,Ice,0,5,4255,3505,False
+turn1,Water Gun,Gastly,90,90.0,Water,,Ghost,Poison,0,0,4255,4005,True
+turn2,Water Gun,Gastly,90,38.0,Water,,Ghost,Poison,0,5,4255,4005,True
+turn3,Water Gun,Gastly,90,-12.0,Water,,Ghost,Poison,0,5,4255,4005,True
+turn1,Confuse Ray,Haunter,75.0,105,Water,,Ghost,Poison,0,0,4255,4755,False
+turn2,Confuse Ray,Haunter,11.0,105,Water,,Ghost,Poison,5,0,4255,4755,False
+turn3,Confuse Ray,Haunter,-39.0,105,Water,,Ghost,Poison,5,0,4255,4755,False
+turn1,Confuse Ray,Gengar,75.0,120,Water,,Ghost,Poison,0,0,4255,5505,False
+turn2,Confuse Ray,Gengar,10.0,120,Water,,Ghost,Poison,5,0,4255,5505,False
+turn3,Confuse Ray,Gengar,-40.0,120,Water,,Ghost,Poison,5,0,4255,5505,False
+turn1,Water Gun,Onix,90,-72.0,Water,,Rock,Ground,0,0,4255,3505,True
+turn1,Swift,Drowzee,90,101.0,Water,,Psychic,,0,0,4255,2105,True
+turn2,Swift,Drowzee,90,61.0,Water,,Psychic,,0,5,4255,2105,True
+turn3,Swift,Drowzee,90,21.0,Water,,Psychic,,0,5,4255,2105,True
+turn4,Swift,Drowzee,90,0.0,Water,,Psychic,,0,5,4255,2105,True
+turn1,Swift,Hypno,17.0,145,Water,,Psychic,,0,0,4255,3355,False
+turn2,Swift,Hypno,17.0,113.0,Water,,Psychic,,0,5,4255,3355,False
+turn3,Swift,Hypno,17.0,79.0,Water,,Psychic,,0,5,4255,3355,False
+turn4,Swift,Hypno,-56.0,63.0,Water,,Psychic,,0,5,4255,3355,False
+turn1,Swift,Krabby,62.0,90,Water,,Water,,0,0,4255,2505,True
+turn2,Swift,Krabby,34.0,17.0,Water,,Water,,0,5,4255,2505,True
+turn3,Swift,Krabby,34.0,-49.0,Water,,Water,,0,5,4255,2505,True
+turn1,Swift,Kingler,90,95.0,Water,,Water,,0,0,4255,3755,True
+turn2,Swift,Kingler,90,41.0,Water,,Water,,0,5,4255,3755,True
+turn3,Swift,Kingler,90,-17.0,Water,,Water,,0,5,4255,3755,True
+turn1,Swift,Voltorb,29.0,100,Water,,Electric,,0,0,4255,5005,False
+turn2,Swift,Voltorb,-27.0,100,Water,,Electric,,0,5,4255,5005,False
+turn1,Confuse Ray,Electrode,-8.0,120,Water,,Electric,,0,0,4255,7005,False
+turn1,Swift,Exeggcute,100,110,Water,,Grass,Psychic,0,0,4255,2005,True
+turn2,Swift,Exeggcute,110,55.0,Water,,Grass,Psychic,7,5,4255,2005,True
+turn3,Swift,Exeggcute,120,-3.0,Water,,Grass,Psychic,7,5,4255,2005,True
+turn1,Swift,Exeggutor,90,134.0,Water,,Grass,Psychic,0,0,4255,2755,False
+turn2,Swift,Exeggutor,4.0,106.0,Water,,Grass,Psychic,0,5,4255,2755,False
+turn3,Swift,Exeggutor,4.0,61.0,Water,,Grass,Psychic,0,5,4255,2755,False
+turn4,Swift,Exeggutor,-86.0,34.0,Water,,Grass,Psychic,0,5,4255,2755,False
+turn1,Water Gun,Cubone,53.0,77.0,Water,,Ground,,0,0,4255,1755,False
+turn2,Water Gun,Cubone,12.0,38.0,Water,,Ground,,0,0,4255,1755,False
+turn3,Water Gun,Cubone,-28.0,4.0,Water,,Ground,,0,0,4255,1755,False
+turn1,Water Gun,Marowak,32.0,95.0,Water,,Ground,,0,0,4255,2255,False
+turn2,Water Gun,Marowak,-23.0,71.0,Water,,Ground,,0,0,4255,2255,False
+turn1,Confuse Ray,Hitmonlee,-17.0,110,Water,,Fighting,,0,0,4255,4355,False
+turn1,Swift,Hitmonchan,35.0,110,Water,,Fighting,,0,0,4255,3805,True
+turn2,Swift,Hitmonchan,35.0,71.0,Water,,Fighting,,0,5,4255,3805,True
+turn3,Swift,Hitmonchan,35.0,33.0,Water,,Fighting,,0,5,4255,3805,True
+turn4,Swift,Hitmonchan,35.0,-7.0,Water,,Fighting,,0,5,4255,3805,True
+turn1,Swift,Lickitung,90,131.0,Water,,Normal,,0,0,4255,1505,False
+turn2,Swift,Lickitung,50.0,108.0,Water,,Normal,,0,5,4255,1505,False
+turn3,Swift,Lickitung,50.0,66.0,Water,,Normal,,0,5,4255,1505,False
+turn4,Swift,Lickitung,5.0,43.0,Water,,Normal,,0,5,4255,1505,False
+turn5,Swift,Lickitung,-37.0,18.0,Water,,Normal,,0,5,4255,1505,False
+turn1,Swift,Koffing,90,87.0,Water,,Poison,,0,0,4255,1755,True
+turn2,Swift,Koffing,90,36.0,Water,,Poison,,0,5,4255,1755,True
+turn3,Swift,Koffing,90,-3.0,Water,,Poison,,0,5,4255,1755,True
+turn1,Swift,Weezing,90,111.0,Water,,Poison,,0,0,4255,3005,True
+turn2,Swift,Weezing,90,71.0,Water,,Poison,,0,5,4255,3005,True
+turn3,Swift,Weezing,90,30.0,Water,,Poison,,0,5,4255,3005,True
+turn4,Swift,Weezing,90,-9.0,Water,,Poison,,0,5,4255,3005,True
+turn1,Water Gun,Rhyhorn,90,-112.0,Water,,Ground,Rock,0,0,4255,1255,True
+turn1,Water Gun,Rhydon,90,-9.0,Water,,Ground,Rock,0,0,4255,2005,True
+turn1,Swift,Chansey,90,285.0,Water,,Normal,,0,0,4255,2505,True
+turn2,Swift,Chansey,83.0,268.0,Water,,Normal,,0,5,4255,2505,True
+turn3,Swift,Chansey,75.0,250.0,Water,,Normal,,0,5,4255,2505,True
+turn4,Swift,Chansey,67.0,234.0,Water,,Normal,,0,5,4255,2505,True
+turn5,Swift,Chansey,59.0,217.0,Water,,Normal,,0,5,4255,2505,True
+turn6,Swift,Chansey,59.0,171.0,Water,,Normal,,0,5,4255,2505,True
+turn7,Swift,Chansey,51.0,152.0,Water,,Normal,,0,5,4255,2505,True
+turn8,Swift,Chansey,43.0,135.0,Water,,Normal,,0,5,4255,2505,True
+turn9,Swift,Chansey,35.0,118.0,Water,,Normal,,0,5,4255,2505,True
+turn10,Swift,Chansey,27.0,102.0,Water,,Normal,,0,5,4255,2505,True
+turn11,Swift,Chansey,19.0,85.0,Water,,Normal,,0,5,4255,2505,True
+turn12,Swift,Chansey,11.0,69.0,Water,,Normal,,0,5,4255,2505,True
+turn13,Swift,Chansey,11.0,24.0,Water,,Normal,,0,5,4255,2505,True
+turn14,Swift,Chansey,3.0,5.0,Water,,Normal,,0,5,4255,2505,True
+turn15,Swift,Chansey,3.0,-13.0,Water,,Normal,,0,5,4255,2505,True
+turn1,Swift,Tangela,100,115,Water,,Grass,,0,0,4255,3005,True
+turn2,Swift,Tangela,110,49.0,Water,,Grass,,7,5,4255,3005,True
+turn3,Swift,Tangela,83.0,-3.0,Water,,Grass,,7,5,4255,3005,True
+turn1,Swift,Kangaskhan,44.0,165,Water,,Normal,,0,0,4255,4505,False
+turn2,Swift,Kangaskhan,-27.0,165,Water,,Normal,,0,5,4255,4505,False
+turn1,Swift,Horsea,82.0,90,Water,,Water,,0,0,4255,3005,True
+turn2,Swift,Horsea,75.0,22.0,Water,,Water,,0,5,4255,3005,True
+turn3,Swift,Horsea,75.0,-48.0,Water,,Water,,0,5,4255,3005,True
+turn1,Swift,Seadra,62.0,115,Water,,Water,,0,0,4255,4255,True
+turn2,Swift,Seadra,33.0,74.0,Water,,Water,,0,5,4255,4255,True
+turn3,Swift,Seadra,5.0,33.0,Water,,Water,,0,5,4255,4255,True
+turn4,Swift,Seadra,5.0,-22.0,Water,,Water,,0,5,4255,4255,True
+turn1,Swift,Goldeen,57.0,105,Water,,Water,,0,0,4255,3155,True
+turn2,Swift,Goldeen,25.0,71.0,Water,,Water,,0,5,4255,3155,True
+turn3,Swift,Goldeen,25.0,13.0,Water,,Water,,0,5,4255,3155,True
+turn4,Swift,Goldeen,25.0,-25.0,Water,,Water,,0,5,4255,3155,True
+turn1,Swift,Seaking,90,115.0,Water,,Water,,0,0,4255,3405,False
+turn2,Swift,Seaking,90,68.0,Water,,Water,,0,5,4255,3405,False
+turn3,Swift,Seaking,90,44.0,Water,,Water,,0,5,4255,3405,False
+turn4,Swift,Seaking,-65445,20.0,Water,,Water,,0,5,4255,3405,False
+turn1,Swift,Staryu,75.0,90,Water,,Water,,0,0,4255,4255,False
+turn2,Swift,Staryu,44.0,90,Water,,Water,,5,0,4255,4255,False
+turn3,Swift,Staryu,-3.0,90,Water,,Water,,5,5,4255,4255,False
+turn1,Swift,Starmie,61.0,120,Water,,Water,Psychic,0,0,4255,5755,False
+turn2,Swift,Starmie,61.0,83.0,Water,,Water,Psychic,0,5,4255,5755,False
+turn3,Swift,Starmie,28.0,60.0,Water,,Water,Psychic,0,5,4255,5755,False
+turn4,Swift,Starmie,-1.0,60.0,Water,,Water,Psychic,0,5,4255,5755,False
+turn1,Water Gun,Mr. Mime,29.0,100,Water,,Psychic,Normal,0,0,4255,4505,False
+turn2,Water Gun,Mr. Mime,29.0,63.0,Water,,Psychic,Normal,0,5,4255,4505,False
+turn3,Water Gun,Mr. Mime,11.0,47.0,Water,,Psychic,Normal,0,5,4255,4505,False
+turn4,Water Gun,Mr. Mime,-50.0,47.0,Water,,Psychic,Normal,0,5,4255,4505,False
+turn1,Water Gun,Scyther,12.0,130,Water,,Bug,Flying,0,0,4255,5255,False
+turn2,Water Gun,Scyther,-65.0,130,Water,,Bug,Flying,0,5,4255,5255,False
+turn1,Water Gun,Jynx,79.0,125,Water,,Ice,Psychic,0,0,4255,4755,True
+turn2,Water Gun,Jynx,67.0,104.0,Water,,Ice,Psychic,0,5,4255,4755,True
+turn3,Water Gun,Jynx,56.0,83.0,Water,,Ice,Psychic,0,5,4255,4755,True
+turn4,Water Gun,Jynx,46.0,64.0,Water,,Ice,Psychic,0,5,4255,4755,True
+turn5,Water Gun,Jynx,36.0,42.0,Water,,Ice,Psychic,0,5,4255,4755,True
+turn6,Water Gun,Jynx,36.0,-1.0,Water,,Ice,Psychic,0,5,4255,4755,True
+turn1,Swift,Electabuzz,24.0,125,Water,,Electric,,0,0,4255,5255,False
+turn2,Swift,Electabuzz,24.0,79.0,Water,,Electric,,0,5,4255,5255,False
+turn3,Swift,Electabuzz,24.0,32.0,Water,,Electric,,0,5,4255,5255,False
+turn4,Swift,Electabuzz,-48.0,32.0,Water,,Electric,,0,5,4255,5255,False
+turn1,Water Gun,Magmar,63.0,102.0,Water,,Fire,,0,0,4255,4655,False
+turn2,Water Gun,Magmar,36.0,78.0,Water,,Fire,,0,0,4255,4655,False
+turn3,Water Gun,Magmar,9.0,55.0,Water,,Fire,,0,0,4255,4655,False
+turn4,Water Gun,Magmar,-16.0,55.0,Water,,Fire,,0,0,4255,4655,False
+turn1,Confuse Ray,Pinsir,-65445,125,Water,,Bug,,0,0,4255,4255,False
+turn1,Confuse Ray,Tauros,-10.0,85.0,Water,,Normal,,0,0,4255,5505,False
+turn1,Swift,Magikarp,90,80,Water,,Water,,0,0,4255,4005,True
+turn2,Swift,Magikarp,90,-5.0,Water,,Water,,0,5,4255,4005,True
+turn1,Swift,Gyarados,90,129.0,Water,,Water,Flying,0,0,4255,4055,True
+turn2,Swift,Gyarados,90,85.0,Water,,Water,Flying,0,5,4255,4055,True
+turn3,Swift,Gyarados,71.0,67.0,Water,,Water,Flying,0,5,4255,4055,True
+turn4,Swift,Gyarados,51.0,49.0,Water,,Water,Flying,0,5,4255,4055,True
+turn5,Swift,Gyarados,31.0,31.0,Water,,Water,Flying,0,5,4255,4055,True
+turn6,Swift,Gyarados,12.0,11.0,Water,,Water,Flying,0,5,4255,4055,True
+turn7,Swift,Gyarados,12.0,-9.0,Water,,Water,Flying,0,5,4255,4055,True
+turn1,Swift,Lapras,65.0,190,Water,,Water,Ice,0,0,4255,3005,False
+turn2,Swift,Lapras,40.0,169.0,Water,,Water,Ice,0,5,4255,3005,False
+turn3,Swift,Lapras,15.0,150.0,Water,,Water,Ice,0,5,4255,3005,False
+turn4,Swift,Lapras,15.0,110.0,Water,,Water,Ice,0,5,4255,3005,False
+turn5,Swift,Lapras,-11.0,92.0,Water,,Water,Ice,0,5,4255,3005,False
+turn1,Swift,Ditto,90,82.0,Water,,Normal,,0,0,4255,2405,True
+turn2,Swift,Ditto,90,17.0,Water,,Normal,,0,5,4255,2405,True
+turn3,Swift,Ditto,90,-22.0,Water,,Normal,,0,5,4255,2405,True
+turn1,Swift,Eevee,53.0,115,Water,,Normal,,0,0,4255,2755,False
+turn2,Swift,Eevee,13.0,86.0,Water,,Normal,,0,5,4255,2755,False
+turn3,Swift,Eevee,13.0,29.0,Water,,Normal,,0,5,4255,2755,False
+turn4,Swift,Eevee,-26.0,4.0,Water,,Normal,,0,5,4255,2755,False
+turn1,Swift,Vaporeon,90,171.0,Water,,Water,,0,0,4255,3255,True
+turn2,Swift,Vaporeon,63.0,151.0,Water,,Water,,0,5,4255,3255,True
+turn3,Swift,Vaporeon,63.0,113.0,Water,,Water,,0,5,4255,3255,True
+turn4,Swift,Vaporeon,63.0,76.0,Water,,Water,,0,5,4255,3255,True
+turn5,Swift,Vaporeon,34.0,57.0,Water,,Water,,0,5,4255,3255,True
+turn6,Swift,Vaporeon,34.0,19.0,Water,,Water,,0,5,4255,3255,True
+turn7,Swift,Vaporeon,34.0,-2.0,Water,,Water,,0,5,4255,3255,True
+turn1,Swift,Jolteon,41.0,125,Water,,Electric,,0,0,4255,6505,False
+turn2,Swift,Jolteon,-8.0,125,Water,,Electric,,0,5,4255,6505,False
+turn1,Water Gun,Flareon,60.0,107.0,Water,,Fire,,0,0,4255,3255,False
+turn2,Water Gun,Flareon,33.0,89.0,Water,,Fire,,0,0,4255,3255,False
+turn3,Water Gun,Flareon,2.0,71.0,Water,,Fire,,0,0,4255,3255,False
+turn4,Water Gun,Flareon,-29.0,52.0,Water,,Fire,,0,0,4255,3255,False
+turn1,Swift,Porygon,90,101.0,Water,,Normal,,0,0,4255,2005,True
+turn2,Swift,Porygon,8.0,76.0,Water,,Normal,,0,5,4255,2005,True
+turn3,Swift,Porygon,8.0,29.0,Water,,Normal,,0,5,4255,2005,True
+turn4,Swift,Porygon,8.0,-20.0,Water,,Normal,,0,5,4255,2005,True
+turn1,Water Gun,Omanyte,69.0,60.0,Water,,Rock,Water,0,0,4255,1755,True
+turn2,Water Gun,Omanyte,48.0,24.0,Water,,Rock,Water,0,0,4255,1755,True
+turn3,Water Gun,Omanyte,48.0,-7.0,Water,,Rock,Water,0,0,4255,1755,True
+turn1,Water Gun,Omastar,61.0,102.0,Water,,Rock,Water,0,0,4255,2755,False
+turn2,Water Gun,Omastar,31.0,73.0,Water,,Rock,Water,0,0,4255,2755,False
+turn3,Water Gun,Omastar,2.0,48.0,Water,,Rock,Water,0,0,4255,2755,False
+turn4,Water Gun,Omastar,-28.0,23.0,Water,,Rock,Water,0,0,4255,2755,False
+turn1,Water Gun,Kabuto,50.0,51.0,Water,,Rock,Water,0,0,4255,2755,True
+turn2,Water Gun,Kabuto,8.0,9.0,Water,,Rock,Water,0,0,4255,2755,True
+turn3,Water Gun,Kabuto,8.0,-34.0,Water,,Rock,Water,0,0,4255,2755,True
+turn1,Water Gun,Kabutops,31.0,95.0,Water,,Rock,Water,0,0,4255,4005,False
+turn2,Water Gun,Kabutops,-29.0,67.0,Water,,Rock,Water,0,0,4255,4005,False
+turn1,Water Gun,Aerodactyl,22.0,89.0,Water,,Rock,Flying,0,0,4255,6505,False
+turn2,Water Gun,Aerodactyl,-48.0,89.0,Water,,Rock,Flying,0,0,4255,6505,False
+turn1,Swift,Snorlax,90,174.0,Water,,Normal,,0,0,4255,1505,True
+turn2,Swift,Snorlax,90,116.0,Water,,Normal,,0,5,4255,1505,True
+turn3,Swift,Snorlax,90,57.0,Water,,Normal,,0,5,4255,1505,True
+turn4,Swift,Snorlax,90,-6.0,Water,,Normal,,0,5,4255,1505,True
+turn1,Water Gun,Articuno,62.0,150,Water,,Ice,Flying,0,0,4255,4255,False
+turn2,Water Gun,Articuno,33.0,135.0,Water,,Ice,Flying,0,5,4255,4255,False
+turn3,Water Gun,Articuno,33.0,104.0,Water,,Ice,Flying,0,5,4255,4255,False
+turn4,Water Gun,Articuno,5.0,88.0,Water,,Ice,Flying,0,5,4255,4255,False
+turn5,Water Gun,Articuno,-24.0,88.0,Water,,Ice,Flying,0,5,4255,4255,False
+turn1,Confuse Ray,Zapdos,-73.0,150,Water,,Electric,Flying,0,0,4255,5005,False
+turn1,Water Gun,Moltres,-76.0,150,Water,,Fire,Flying,0,0,4255,4505,False
+turn1,Swift,Dratini,90,77.0,Water,,Dragon,,0,0,4255,2505,True
+turn2,Swift,Dratini,51.0,39.0,Water,,Dragon,,0,5,4255,2505,True
+turn3,Swift,Dratini,51.0,-20.0,Water,,Dragon,,0,5,4255,2505,True
+turn1,Swift,Dragonair,90,98.0,Water,,Dragon,,0,0,4255,3505,True
+turn2,Swift,Dragonair,50,70.0,Water,,Dragon,,0,5,4255,3505,True
+turn3,Swift,Dragonair,10,46.0,Water,,Dragon,,0,5,4255,3505,True
+turn4,Swift,Dragonair,10,-3.0,Water,,Dragon,,0,5,4255,3505,True
+turn1,Swift,Dragonite,50,151,Water,,Dragon,Flying,0,0,4255,4005,True
+turn2,Swift,Dragonite,50,110.0,Water,,Dragon,Flying,0,5,4255,4005,True
+turn3,Swift,Dragonite,50,68.0,Water,,Dragon,Flying,0,5,4255,4005,True
+turn4,Swift,Dragonite,10,49.0,Water,,Dragon,Flying,0,5,4255,4005,True
+turn5,Swift,Dragonite,10,5.0,Water,,Dragon,Flying,0,5,4255,4005,True
+turn6,Swift,Dragonite,10,-13.0,Water,,Dragon,Flying,0,5,4255,4005,True
+turn1,Confuse Ray,Mewtwo,90,166,Water,,Psychic,,0,0,4255,6505,False
+turn2,Confuse Ray,Mewtwo,1.0,166,Water,,Psychic,,1,0,4255,6505,False
+turn3,Confuse Ray,Mewtwo,-86.0,166,Water,,Psychic,,1,0,4255,6505,False
+turn1,Confuse Ray,Mew,-6.0,160,Water,,Psychic,,0,0,4255,5005,False

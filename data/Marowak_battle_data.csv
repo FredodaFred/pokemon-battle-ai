@@ -1,0 +1,425 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Bone Club,Bulbasaur,103.0,43.0,Ground,,Grass,Poison,0,0,2255,2255,True
+turn2,Bone Club,Bulbasaur,86.0,-27.0,Ground,,Grass,Poison,0,0,2255,2255,True
+turn1,Bone Club,Ivysaur,98.0,66.0,Ground,,Grass,Poison,0,0,2255,3005,True
+turn2,Bone Club,Ivysaur,78.0,12.0,Ground,,Grass,Poison,0,0,2255,3005,True
+turn3,Bone Club,Ivysaur,58.0,-39.0,Ground,,Grass,Poison,0,0,2255,3005,True
+turn1,Bone Club,Venusaur,27.0,98.0,Ground,,Grass,Poison,0,0,2255,4005,False
+turn2,Bone Club,Venusaur,-73.0,98.0,Ground,,Grass,Poison,0,0,2255,4005,False
+turn1,Bone Club,Charmander,98.0,-41.0,Ground,,Fire,,0,0,2255,3255,True
+turn1,Bone Club,Charmeleon,94.0,-1.0,Ground,,Fire,,0,0,2255,4005,True
+turn1,Tackle,Charizard,80.0,121.0,Ground,,Fire,Flying,0,0,2255,5005,False
+turn2,Tackle,Charizard,41.0,104.0,Ground,,Fire,Flying,0,0,2255,5005,False
+turn3,Tackle,Charizard,4.0,87.0,Ground,,Fire,Flying,0,0,2255,5005,False
+turn4,Tackle,Charizard,-37.0,87.0,Ground,,Fire,Flying,0,0,2255,5005,False
+turn1,Bone Club,Squirtle,72.0,50.0,Ground,,Water,,0,0,2255,2155,True
+turn2,Bone Club,Squirtle,72.0,0.0,Ground,,Water,,0,0,2255,2155,True
+turn1,Bone Club,Wartortle,67.0,78.0,Ground,,Water,,0,0,2255,2905,False
+turn2,Bone Club,Wartortle,6.0,34.0,Ground,,Water,,0,0,2255,2905,False
+turn3,Bone Club,Wartortle,-54.0,34.0,Ground,,Water,,0,0,2255,2905,False
+turn1,Bone Club,Blastoise,77.0,105.0,Ground,,Water,,0,0,2255,3905,False
+turn2,Bone Club,Blastoise,38.0,70.0,Ground,,Water,,0,0,2255,3905,False
+turn3,Bone Club,Blastoise,-6.0,70.0,Ground,,Water,,0,0,2255,3905,False
+turn1,Bone Club,Caterpie,114.0,61.0,Ground,,Bug,,0,0,2255,2255,True
+turn2,Bone Club,Caterpie,108.0,18.0,Ground,,Bug,,0,0,2255,2255,True
+turn3,Bone Club,Caterpie,102.0,-26.0,Ground,,Bug,,0,0,2255,2255,True
+turn1,Bone Club,Metapod,115.0,81.0,Ground,,Bug,,0,0,2255,1505,True
+turn2,Bone Club,Metapod,111.0,52.0,Ground,,Bug,,0,0,2255,1505,True
+turn3,Bone Club,Metapod,106.0,20.0,Ground,,Bug,,0,0,2255,1505,True
+turn4,Bone Club,Metapod,106.0,-9.0,Ground,,Bug,,0,0,2255,1505,True
+turn1,Tackle,Butterfree,120,120,Ground,,Bug,Flying,0,0,2255,3505,False
+turn2,Tackle,Butterfree,88.0,120,Ground,,Bug,Flying,1,0,2255,3505,False
+turn3,Tackle,Butterfree,55.0,120,Ground,,Bug,Flying,1,0,2255,3505,False
+turn4,Tackle,Butterfree,22.0,120,Ground,,Bug,Flying,1,0,2255,3505,False
+turn5,Tackle,Butterfree,22.0,120,Ground,,Bug,Flying,0,0,2255,3505,False
+turn6,Tackle,Butterfree,-7.0,120,Ground,,Bug,Flying,1,0,2255,3505,False
+turn1,Bone Club,Weedle,118.0,-5.0,Ground,,Bug,Poison,0,0,2255,2505,True
+turn1,Bone Club,Kakuna,115.0,40.0,Ground,,Bug,Poison,0,0,2255,1755,True
+turn2,Bone Club,Kakuna,115.0,-23.0,Ground,,Bug,Poison,0,0,2255,1755,True
+turn1,Bone Club,Beedrill,90.0,44.0,Ground,,Bug,Poison,0,0,2255,3755,True
+turn2,Bone Club,Beedrill,60.0,-40.0,Ground,,Bug,Poison,3,0,2255,3755,True
+turn1,Tackle,Pidgey,104.0,67.0,Ground,,Normal,Flying,0,0,2255,2805,True
+turn2,Tackle,Pidgey,87.0,31.0,Ground,,Normal,Flying,0,0,2255,2805,True
+turn3,Tackle,Pidgey,70.0,-4.0,Ground,,Normal,Flying,0,0,2255,2805,True
+turn1,Tackle,Pidgeotto,96.0,97.0,Ground,,Normal,Flying,0,0,2255,3555,True
+turn2,Tackle,Pidgeotto,75.0,72.0,Ground,,Normal,Flying,0,0,2255,3555,True
+turn3,Tackle,Pidgeotto,52.0,46.0,Ground,,Normal,Flying,0,0,2255,3555,True
+turn4,Tackle,Pidgeotto,31.0,19.0,Ground,,Normal,Flying,0,0,2255,3555,True
+turn5,Tackle,Pidgeotto,9.0,-7.0,Ground,,Normal,Flying,0,0,2255,3555,True
+turn1,Tackle,Pidgeot,91.0,124.0,Ground,,Normal,Flying,0,0,2255,5055,False
+turn2,Tackle,Pidgeot,62.0,105.0,Ground,,Normal,Flying,0,0,2255,5055,False
+turn3,Tackle,Pidgeot,33.0,85.0,Ground,,Normal,Flying,0,0,2255,5055,False
+turn4,Tackle,Pidgeot,4.0,65.0,Ground,,Normal,Flying,0,0,2255,5055,False
+turn5,Tackle,Pidgeot,-24.0,65.0,Ground,,Normal,Flying,0,0,2255,5055,False
+turn1,Bone Club,Rattata,92.0,-9.0,Ground,,Normal,,0,0,2255,3605,True
+turn1,Bone Club,Raticate,79.0,57.0,Ground,,Normal,,0,0,2255,4855,True
+turn2,Bone Club,Raticate,42.0,5.0,Ground,,Normal,,0,0,2255,4855,True
+turn3,Bone Club,Raticate,7.0,-54.0,Ground,,Normal,,0,0,2255,4855,True
+turn1,Tackle,Spearow,92.0,56.0,Ground,,Normal,Flying,0,0,2255,3505,True
+turn2,Tackle,Spearow,62.0,11.0,Ground,,Normal,Flying,0,0,2255,3505,True
+turn3,Tackle,Spearow,32.0,-35.0,Ground,,Normal,Flying,0,0,2255,3505,True
+turn1,Tackle,Fearow,78.0,104.0,Ground,,Normal,Flying,0,0,2255,5005,False
+turn2,Tackle,Fearow,33.0,84.0,Ground,,Normal,Flying,0,0,2255,5005,False
+turn3,Tackle,Fearow,-8.0,84.0,Ground,,Normal,Flying,0,0,2255,5005,False
+turn1,Bone Club,Ekans,105.0,-56.0,Ground,,Poison,,0,0,2255,2755,True
+turn1,Bone Club,Arbok,101.0,25.0,Ground,,Poison,,0,0,2255,4005,True
+turn2,Bone Club,Arbok,79.0,-74.0,Ground,,Poison,,0,0,2255,4005,True
+turn1,Bone Club,Pikachu,104.0,-67.0,Ground,,Electric,,0,0,2255,4505,True
+turn1,Bone Club,Raichu,120,42.0,Ground,,Electric,,0,0,2255,5505,True
+turn2,Bone Club,Raichu,120,-44.0,Ground,,Electric,,0,0,2255,5505,True
+turn1,Bone Club,Sandshrew,101.0,73.0,Ground,,Ground,,0,0,2255,2005,True
+turn2,Bone Club,Sandshrew,82.0,32.0,Ground,,Ground,,0,0,2255,2005,True
+turn3,Bone Club,Sandshrew,82.0,-8.0,Ground,,Ground,,0,0,2255,2005,True
+turn1,Bone Club,Sandslash,92.0,103.0,Ground,,Ground,,0,0,2255,3255,False
+turn2,Bone Club,Sandslash,63.0,71.0,Ground,,Ground,,0,0,2255,3255,False
+turn3,Bone Club,Sandslash,36.0,40.0,Ground,,Ground,,0,0,2255,3255,False
+turn4,Bone Club,Sandslash,10.0,8.0,Ground,,Ground,,0,0,2255,3255,False
+turn5,Bone Club,Sandslash,-19.0,8.0,Ground,,Ground,,0,0,2255,3255,False
+turn1,Bone Club,Nidoran♀,120,-9.0,Ground,,Poison,,0,0,2255,2055,True
+turn1,Bone Club,Nidorina,105.0,34.0,Ground,,Poison,,0,0,2255,2805,True
+turn2,Bone Club,Nidorina,90.0,-66.0,Ground,,Poison,,0,0,2255,2805,True
+turn1,Bone Club,Nidoqueen,88.0,74.0,Ground,,Poison,Ground,0,0,2255,3805,True
+turn2,Bone Club,Nidoqueen,55.0,-4.0,Ground,,Poison,Ground,0,0,2255,3805,True
+turn1,Bone Club,Nidoran♂,120,-58.0,Ground,,Poison,,0,0,2255,2505,True
+turn1,Bone Club,Nidorino,105.0,9.0,Ground,,Poison,,0,0,2255,3255,True
+turn2,Bone Club,Nidorino,105.0,-98.0,Ground,,Poison,,0,0,2255,3255,True
+turn1,Bone Club,Nidoking,71.0,55.0,Ground,,Poison,Ground,0,0,2255,4255,True
+turn2,Bone Club,Nidoking,22.0,-28.0,Ground,,Poison,Ground,0,0,2255,4255,True
+turn1,Bone Club,Clefairy,102.0,61.0,Ground,,Normal,,0,0,2255,1755,True
+turn2,Bone Club,Clefairy,102.0,-9.0,Ground,,Normal,,0,0,2255,1755,True
+turn1,Bone Club,Clefable,120,155,Ground,,Normal,,0,0,2255,3005,False
+turn2,Bone Club,Clefable,96.0,155,Ground,,Normal,,1,0,2255,3005,False
+turn3,Bone Club,Clefable,72.0,155,Ground,,Normal,,1,0,2255,3005,False
+turn4,Bone Club,Clefable,72.0,155,Ground,,Normal,,0,0,2255,3005,False
+turn5,Bone Club,Clefable,45.0,155,Ground,,Normal,,1,0,2255,3005,False
+turn6,Bone Club,Clefable,9.0,155,Ground,,Normal,,1,0,2255,3005,False
+turn7,Bone Club,Clefable,-7.0,155,Ground,,Normal,,1,0,2255,3005,False
+turn1,Bone Club,Vulpix,101.0,-70.0,Ground,,Fire,,0,0,2255,3255,True
+turn1,Bone Club,Ninetales,108.0,42.0,Ground,,Fire,,0,0,2255,5005,True
+turn2,Bone Club,Ninetales,95.0,-52.0,Ground,,Fire,,0,0,2255,5005,True
+turn1,Bone Club,Jigglypuff,88.0,13.0,Ground,,Normal,,0,0,2255,1005,True
+turn2,Bone Club,Jigglypuff,88.0,-158.0,Ground,,Normal,,0,0,2255,1005,True
+turn1,Bone Club,Wigglytuff,120,200,Ground,,Normal,,0,0,2255,2255,False
+turn2,Bone Club,Wigglytuff,99.0,200,Ground,,Normal,,1,0,2255,2255,False
+turn3,Bone Club,Wigglytuff,83.0,200,Ground,,Normal,,1,0,2255,2255,False
+turn4,Bone Club,Wigglytuff,83.0,200,Ground,,Normal,,0,0,2255,2255,False
+turn5,Bone Club,Wigglytuff,51.0,200,Ground,,Normal,,1,0,2255,2255,False
+turn6,Bone Club,Wigglytuff,23.0,200,Ground,,Normal,,1,0,2255,2255,False
+turn7,Bone Club,Wigglytuff,-9.0,200,Ground,,Normal,,1,0,2255,2255,False
+turn1,Tackle,Zubat,103.0,63.0,Ground,,Poison,Flying,0,0,2255,2755,True
+turn2,Tackle,Zubat,86.0,26.0,Ground,,Poison,Flying,0,0,2255,2755,True
+turn3,Tackle,Zubat,68.0,-13.0,Ground,,Poison,Flying,0,0,2255,2755,True
+turn1,Tackle,Golbat,92.0,116.0,Ground,,Poison,Flying,0,0,2255,4505,False
+turn2,Tackle,Golbat,61.0,96.0,Ground,,Poison,Flying,0,0,2255,4505,False
+turn3,Tackle,Golbat,30.0,77.0,Ground,,Poison,Flying,0,0,2255,4505,False
+turn4,Tackle,Golbat,2.0,56.0,Ground,,Poison,Flying,0,0,2255,4505,False
+turn5,Tackle,Golbat,-26.0,56.0,Ground,,Poison,Flying,0,0,2255,4505,False
+turn1,Bone Club,Oddish,49.0,40.0,Ground,,Grass,Poison,0,0,2255,1505,True
+turn2,Bone Club,Oddish,49.0,-18.0,Ground,,Grass,Poison,0,0,2255,1505,True
+turn1,Bone Club,Gloom,41.0,72.0,Ground,,Grass,Poison,0,0,2255,2005,False
+turn2,Bone Club,Gloom,-37.0,26.0,Ground,,Grass,Poison,0,0,2255,2005,False
+turn1,Bone Club,Vileplume,120,135,Ground,,Grass,Poison,0,0,2255,2505,False
+turn2,Bone Club,Vileplume,86.0,135,Ground,,Grass,Poison,1,0,2255,2505,False
+turn3,Bone Club,Vileplume,51.0,135,Ground,,Grass,Poison,1,0,2255,2505,False
+turn4,Bone Club,Vileplume,51.0,135,Ground,,Grass,Poison,0,0,2255,2505,False
+turn5,Bone Club,Vileplume,16.0,135,Ground,,Grass,Poison,1,0,2255,2505,False
+turn6,Bone Club,Vileplume,-22.0,135,Ground,,Grass,Poison,1,0,2255,2505,False
+turn1,Bone Club,Paras,85.0,95,Ground,,Bug,Grass,0,0,2255,1255,False
+turn2,Bone Club,Paras,51.0,95,Ground,,Bug,Grass,0,0,2255,1255,False
+turn3,Bone Club,Paras,18.0,95,Ground,,Bug,Grass,0,0,2255,1255,False
+turn4,Bone Club,Paras,-15.0,95,Ground,,Bug,Grass,0,0,2255,1255,False
+turn1,Bone Club,Parasect,77.0,120,Ground,,Bug,Grass,0,0,2255,1505,False
+turn2,Bone Club,Parasect,32.0,120,Ground,,Bug,Grass,0,0,2255,1505,False
+turn3,Bone Club,Parasect,-15.0,120,Ground,,Bug,Grass,0,0,2255,1505,False
+turn1,Bone Club,Venonat,120,120,Ground,,Bug,Poison,0,0,2255,2255,False
+turn2,Bone Club,Venonat,99.0,120,Ground,,Bug,Poison,1,0,2255,2255,False
+turn3,Bone Club,Venonat,80.0,120,Ground,,Bug,Poison,1,0,2255,2255,False
+turn4,Bone Club,Venonat,62.0,120,Ground,,Bug,Poison,1,0,2255,2255,False
+turn5,Bone Club,Venonat,42.0,120,Ground,,Bug,Poison,1,0,2255,2255,False
+turn6,Bone Club,Venonat,42.0,120,Ground,,Bug,Poison,0,0,2255,2255,False
+turn7,Bone Club,Venonat,21.0,120,Ground,,Bug,Poison,1,0,2255,2255,False
+turn8,Bone Club,Venonat,1.0,120,Ground,,Bug,Poison,1,0,2255,2255,False
+turn9,Bone Club,Venonat,1.0,120,Ground,,Bug,Poison,0,0,2255,2255,False
+turn10,Bone Club,Venonat,-19.0,120,Ground,,Bug,Poison,1,0,2255,2255,False
+turn1,Bone Club,Venomoth,120,130,Ground,,Bug,Poison,0,0,2255,4505,False
+turn2,Bone Club,Venomoth,77.0,130,Ground,,Bug,Poison,1,0,2255,4505,False
+turn3,Bone Club,Venomoth,31.0,130,Ground,,Bug,Poison,1,0,2255,4505,False
+turn4,Bone Club,Venomoth,31.0,130,Ground,,Bug,Poison,0,0,2255,4505,False
+turn5,Bone Club,Venomoth,-9.0,130,Ground,,Bug,Poison,1,0,2255,4505,False
+turn1,Bone Club,Diglett,90.0,-69.0,Ground,,Ground,,0,0,2255,4755,True
+turn1,Bone Club,Dugtrio,73.0,28.0,Ground,,Ground,,0,0,2255,6005,True
+turn2,Bone Club,Dugtrio,28.0,-35.0,Ground,,Ground,,0,0,2255,6005,True
+turn1,Bone Club,Meowth,103.0,9.0,Ground,,Normal,,0,0,2255,4505,True
+turn2,Bone Club,Meowth,86.0,-77.0,Ground,,Normal,,0,0,2255,4505,True
+turn1,Bone Club,Persian,93.0,71.0,Ground,,Normal,,0,0,2255,5755,True
+turn2,Bone Club,Persian,65.0,13.0,Ground,,Normal,,0,0,2255,5755,True
+turn3,Bone Club,Persian,33.0,-41.0,Ground,,Normal,,0,0,2255,5755,True
+turn1,Bone Club,Psyduck,97.0,40.0,Ground,,Water,,0,0,2255,2755,True
+turn2,Bone Club,Psyduck,76.0,-27.0,Ground,,Water,,0,0,2255,2755,True
+turn1,Bone Club,Golduck,71.0,97.0,Ground,,Water,,0,0,2255,4255,False
+turn2,Bone Club,Golduck,30.0,53.0,Ground,,Water,,0,0,2255,4255,False
+turn3,Bone Club,Golduck,-18.0,53.0,Ground,,Water,,0,0,2255,4255,False
+turn1,Bone Club,Mankey,97.0,13.0,Ground,,Fighting,,0,0,2255,3505,True
+turn2,Bone Club,Mankey,74.0,-78.0,Ground,,Fighting,,0,0,2255,3505,True
+turn1,Bone Club,Primeape,69.0,72.0,Ground,,Fighting,,0,0,2255,4755,False
+turn2,Bone Club,Primeape,21.0,17.0,Ground,,Fighting,,0,0,2255,4755,False
+turn3,Bone Club,Primeape,-28.0,17.0,Ground,,Fighting,,0,0,2255,4755,False
+turn1,Bone Club,Growlithe,95.0,-33.0,Ground,,Fire,,0,0,2255,3005,True
+turn1,Bone Club,Arcanine,85.0,50.0,Ground,,Fire,,0,0,2255,4755,True
+turn2,Bone Club,Arcanine,49.0,-49.0,Ground,,Fire,,0,0,2255,4755,True
+turn1,Bone Club,Poliwag,120,100,Ground,,Water,,0,0,2255,4505,False
+turn2,Bone Club,Poliwag,104.0,100,Ground,,Water,,1,0,2255,4505,False
+turn3,Bone Club,Poliwag,104.0,100,Ground,,Water,,0,0,2255,4505,False
+turn4,Bone Club,Poliwag,88.0,100,Ground,,Water,,1,0,2255,4505,False
+turn5,Bone Club,Poliwag,72.0,100,Ground,,Water,,1,0,2255,4505,False
+turn6,Bone Club,Poliwag,72.0,100,Ground,,Water,,0,0,2255,4505,False
+turn7,Bone Club,Poliwag,56.0,100,Ground,,Water,,1,0,2255,4505,False
+turn8,Bone Club,Poliwag,40.0,100,Ground,,Water,,1,0,2255,4505,False
+turn9,Bone Club,Poliwag,22.0,100,Ground,,Water,,1,0,2255,4505,False
+turn10,Bone Club,Poliwag,6.0,100,Ground,,Water,,1,0,2255,4505,False
+turn11,Bone Club,Poliwag,-11.0,100,Ground,,Water,,1,0,2255,4505,False
+turn1,Bone Club,Poliwhirl,95.0,70.0,Ground,,Water,,0,0,2255,4505,True
+turn2,Bone Club,Poliwhirl,66.0,16.0,Ground,,Water,,0,0,2255,4505,True
+turn3,Bone Club,Poliwhirl,40.0,-33.0,Ground,,Water,,0,0,2255,4505,True
+turn1,Bone Club,Poliwrath,83.0,112.0,Ground,,Water,Fighting,0,0,2255,3505,False
+turn2,Bone Club,Poliwrath,45.0,79.0,Ground,,Water,Fighting,0,0,2255,3505,False
+turn3,Bone Club,Poliwrath,10.0,44.0,Ground,,Water,Fighting,0,0,2255,3505,False
+turn4,Bone Club,Poliwrath,-26.0,44.0,Ground,,Water,Fighting,0,0,2255,3505,False
+turn1,Bone Club,Abra,120,-116.0,Ground,,Psychic,,0,0,2255,4505,True
+turn1,Bone Club,Kadabra,59.0,-16.0,Ground,,Psychic,,0,0,2255,5255,True
+turn1,Bone Club,Alakazam,31.0,40.0,Ground,,Psychic,,0,0,2255,6005,False
+turn2,Bone Club,Alakazam,-72.0,40.0,Ground,,Psychic,,0,0,2255,6005,False
+turn1,Bone Club,Machop,93.0,63.0,Ground,,Fighting,,0,0,2255,1755,True
+turn2,Bone Club,Machop,93.0,-6.0,Ground,,Fighting,,0,0,2255,1755,True
+turn1,Bone Club,Machoke,88.0,92.0,Ground,,Fighting,,0,0,2255,2255,True
+turn2,Bone Club,Machoke,55.0,46.0,Ground,,Fighting,,0,0,2255,2255,True
+turn3,Bone Club,Machoke,24.0,-3.0,Ground,,Fighting,,0,0,2255,2255,True
+turn1,Bone Club,Machamp,79.0,108.0,Ground,,Fighting,,0,0,2255,2755,False
+turn2,Bone Club,Machamp,36.0,66.0,Ground,,Fighting,,0,0,2255,2755,False
+turn3,Bone Club,Machamp,-5.0,66.0,Ground,,Fighting,,0,0,2255,2755,False
+turn1,Bone Club,Bellsprout,106,15.0,Ground,,Grass,Poison,0,0,2255,2005,True
+turn2,Bone Club,Bellsprout,106,-72.0,Ground,,Grass,Poison,3,0,2255,2005,True
+turn1,Bone Club,Weepinbell,113,57.0,Ground,,Grass,Poison,0,0,2255,2755,True
+turn2,Bone Club,Weepinbell,86.0,-9.0,Ground,,Grass,Poison,3,0,2255,2755,True
+turn1,Bone Club,Victreebel,84.0,91.0,Ground,,Grass,Poison,0,0,2255,3505,True
+turn2,Bone Club,Victreebel,52.0,42.0,Ground,,Grass,Poison,0,0,2255,3505,True
+turn3,Bone Club,Victreebel,19.0,-10.0,Ground,,Grass,Poison,0,0,2255,3505,True
+turn1,Bone Club,Tentacool,102.0,-90.0,Ground,,Water,Poison,0,0,2255,3505,True
+turn1,Bone Club,Tentacruel,79.0,44.0,Ground,,Water,Poison,0,0,2255,5005,True
+turn2,Bone Club,Tentacruel,35.0,-61.0,Ground,,Water,Poison,0,0,2255,5005,True
+turn1,Bone Club,Geodude,108.0,33.0,Ground,,Rock,Ground,0,0,2255,1005,True
+turn2,Bone Club,Geodude,108.0,-33.0,Ground,,Rock,Ground,0,0,2255,1005,True
+turn1,Bone Club,Graveler,100.0,52.0,Ground,,Rock,Ground,0,0,2255,1755,True
+turn2,Bone Club,Graveler,100.0,-3.0,Ground,,Rock,Ground,0,0,2255,1755,True
+turn1,Bone Club,Golem,46.0,84.0,Ground,,Rock,Ground,0,0,2255,2255,False
+turn2,Bone Club,Golem,-26.0,84.0,Ground,,Rock,Ground,0,0,2255,2255,False
+turn1,Bone Club,Ponyta,100.0,-5.0,Ground,,Fire,,0,0,2255,4505,True
+turn1,Bone Club,Rapidash,95.0,26.0,Ground,,Fire,,0,0,2255,5255,True
+turn2,Bone Club,Rapidash,68.0,-68.0,Ground,,Fire,,0,0,2255,5255,True
+turn1,Bone Club,Slowpoke,102.0,100.0,Ground,,Water,Psychic,0,0,2255,755,True
+turn2,Bone Club,Slowpoke,86.0,46.0,Ground,,Water,Psychic,0,0,2255,755,True
+turn3,Bone Club,Slowpoke,86.0,-9.0,Ground,,Water,Psychic,0,0,2255,755,True
+turn1,Bone Club,Slowbro,27.0,121.0,Ground,,Water,Psychic,0,0,2255,1505,False
+turn2,Bone Club,Slowbro,-53.0,90.0,Ground,,Water,Psychic,0,0,2255,1505,False
+turn1,Bone Club,Magnemite,106.0,85,Ground,,Electric,,0,0,2255,2255,True
+turn2,Bone Club,Magnemite,100.0,-3.0,Ground,,Electric,,5,0,2255,2255,True
+turn1,Bone Club,Magneton,107.0,110,Ground,,Electric,,0,0,2255,3505,False
+turn2,Bone Club,Magneton,75.0,110,Ground,,Electric,,5,0,2255,3505,False
+turn3,Bone Club,Magneton,55.0,34.0,Ground,,Electric,,5,0,2255,3505,False
+turn4,Bone Club,Magneton,21.0,34.0,Ground,,Electric,,5,0,2255,3505,False
+turn5,Bone Club,Magneton,-12.0,34.0,Ground,,Electric,,5,0,2255,3505,False
+turn1,Tackle,Farfetch'd,94.0,85.0,Ground,,Normal,Flying,0,0,2255,3005,False
+turn2,Tackle,Farfetch'd,67.0,59.0,Ground,,Normal,Flying,0,0,2255,3005,False
+turn3,Tackle,Farfetch'd,38.0,33.0,Ground,,Normal,Flying,0,0,2255,3005,False
+turn4,Tackle,Farfetch'd,12.0,10.0,Ground,,Normal,Flying,0,0,2255,3005,False
+turn5,Tackle,Farfetch'd,-14.0,10.0,Ground,,Normal,Flying,0,0,2255,3005,False
+turn1,Tackle,Doduo,98.0,66.0,Ground,,Normal,Flying,0,0,2255,3755,True
+turn2,Tackle,Doduo,76.0,38.0,Ground,,Normal,Flying,0,0,2255,3755,True
+turn3,Tackle,Doduo,55.0,6.0,Ground,,Normal,Flying,0,0,2255,3755,True
+turn4,Tackle,Doduo,35.0,-25.0,Ground,,Normal,Flying,0,0,2255,3755,True
+turn1,Tackle,Dodrio,73.0,101.0,Ground,,Normal,Flying,0,0,2255,5005,False
+turn2,Tackle,Dodrio,24.0,83.0,Ground,,Normal,Flying,0,0,2255,5005,False
+turn3,Tackle,Dodrio,-29.0,83.0,Ground,,Normal,Flying,0,0,2255,5005,False
+turn1,Bone Club,Seel,109.0,64.0,Ground,,Water,,0,0,2255,2255,False
+turn2,Bone Club,Seel,98.0,4.0,Ground,,Water,,0,0,2255,2255,False
+turn3,Bone Club,Seel,88.0,4.0,Ground,,Water,,0,0,2255,2255,False
+turn4,Bone Club,Seel,77.0,4.0,Ground,,Water,,6,0,2255,2255,False
+turn5,Bone Club,Seel,66.0,4.0,Ground,,Water,,6,0,2255,2255,False
+turn6,Bone Club,Seel,56.0,4.0,Ground,,Water,,6,0,2255,2255,False
+turn7,Bone Club,Seel,45.0,4.0,Ground,,Water,,6,0,2255,2255,False
+turn8,Bone Club,Seel,33.0,4.0,Ground,,Water,,6,0,2255,2255,False
+turn9,Bone Club,Seel,23.0,4.0,Ground,,Water,,6,0,2255,2255,False
+turn10,Bone Club,Seel,12.0,4.0,Ground,,Water,,6,0,2255,2255,False
+turn11,Bone Club,Seel,2.0,4.0,Ground,,Water,,6,0,2255,2255,False
+turn12,Bone Club,Seel,-9.0,4.0,Ground,,Water,,6,0,2255,2255,False
+turn1,Bone Club,Dewgong,56.0,108.0,Ground,,Water,Ice,0,0,2255,3505,False
+turn2,Bone Club,Dewgong,-7.0,108.0,Ground,,Water,Ice,0,0,2255,3505,False
+turn1,Bone Club,Grimer,108.0,5.0,Ground,,Poison,,0,0,2255,1255,True
+turn2,Bone Club,Grimer,108.0,-118.0,Ground,,Poison,,0,0,2255,1255,True
+turn1,Bone Club,Muk,72.0,82.0,Ground,,Poison,,0,0,2255,2505,True
+turn2,Bone Club,Muk,22.0,-6.0,Ground,,Poison,,0,0,2255,2505,True
+turn1,Bone Club,Shellder,120,57.0,Ground,,Water,,0,0,2255,2005,True
+turn2,Bone Club,Shellder,113.0,23.0,Ground,,Water,,5,0,2255,2005,True
+turn3,Bone Club,Shellder,93.0,23.0,Ground,,Water,,5,0,2255,2005,True
+turn4,Bone Club,Shellder,71.0,23.0,Ground,,Water,,5,0,2255,2005,True
+turn5,Bone Club,Shellder,51.0,23.0,Ground,,Water,,5,0,2255,2005,True
+turn6,Bone Club,Shellder,30.0,23.0,Ground,,Water,,5,0,2255,2005,True
+turn7,Bone Club,Shellder,30.0,-10.0,Ground,,Water,,5,0,2255,2005,True
+turn1,Bone Club,Cloyster,77.0,89.0,Ground,,Water,Ice,0,0,2255,3505,False
+turn2,Bone Club,Cloyster,30.0,70.0,Ground,,Water,Ice,0,0,2255,3505,False
+turn3,Bone Club,Cloyster,-14.0,70.0,Ground,,Water,Ice,0,0,2255,3505,False
+turn1,Bone Club,Gastly,120,-131.0,Ground,,Ghost,Poison,0,0,2255,4005,True
+turn1,Bone Club,Haunter,108.0,105,Ground,,Ghost,Poison,0,0,2255,4755,True
+turn2,Bone Club,Haunter,58.0,-43.0,Ground,,Ghost,Poison,5,0,2255,4755,True
+turn1,Bone Club,Gengar,108.0,120,Ground,,Ghost,Poison,0,0,2255,5505,False
+turn2,Bone Club,Gengar,46.0,120,Ground,,Ghost,Poison,5,0,2255,5505,False
+turn3,Bone Club,Gengar,-4.0,120,Ground,,Ghost,Poison,5,0,2255,5505,False
+turn1,Bone Club,Onix,94.0,48.0,Ground,,Rock,Ground,0,0,2255,3505,True
+turn2,Bone Club,Onix,69.0,7.0,Ground,,Rock,Ground,0,0,2255,3505,True
+turn3,Bone Club,Onix,42.0,-41.0,Ground,,Rock,Ground,0,0,2255,3505,True
+turn1,Bone Club,Drowzee,120,51.0,Ground,,Psychic,,0,0,2255,2105,True
+turn2,Bone Club,Drowzee,100.0,51.0,Ground,,Psychic,,1,0,2255,2105,True
+turn3,Bone Club,Drowzee,80.0,51.0,Ground,,Psychic,,1,0,2255,2105,True
+turn4,Bone Club,Drowzee,80.0,-24.0,Ground,,Psychic,,0,0,2255,2105,True
+turn1,Bone Club,Hypno,68.0,97.0,Ground,,Psychic,,0,0,2255,3355,False
+turn2,Bone Club,Hypno,16.0,50.0,Ground,,Psychic,,0,0,2255,3355,False
+turn3,Bone Club,Hypno,-37.0,50.0,Ground,,Psychic,,0,0,2255,3355,False
+turn1,Bone Club,Krabby,64.0,55.0,Ground,,Water,,0,0,2255,2505,False
+turn2,Bone Club,Krabby,-1.0,55.0,Ground,,Water,,0,0,2255,2505,False
+turn1,Bone Club,Kingler,52.0,85.0,Ground,,Water,,0,0,2255,3755,False
+turn2,Bone Club,Kingler,-23.0,85.0,Ground,,Water,,0,0,2255,3755,False
+turn1,Bone Club,Voltorb,92.0,-30.0,Ground,,Electric,,0,0,2255,5005,True
+turn1,Bone Club,Electrode,74.0,26.0,Ground,,Electric,,0,0,2255,7005,True
+turn2,Bone Club,Electrode,27.0,-75.0,Ground,,Electric,,0,0,2255,7005,True
+turn1,Bone Club,Exeggcute,134,86.0,Ground,,Grass,Psychic,0,0,2255,2005,True
+turn2,Bone Club,Exeggcute,127.0,60.0,Ground,,Grass,Psychic,7,0,2255,2005,True
+turn3,Bone Club,Exeggcute,122.0,33.0,Ground,,Grass,Psychic,7,0,2255,2005,True
+turn4,Bone Club,Exeggcute,116.0,7.0,Ground,,Grass,Psychic,7,0,2255,2005,True
+turn5,Bone Club,Exeggcute,116.0,-14.0,Ground,,Grass,Psychic,7,0,2255,2005,True
+turn1,Bone Club,Exeggutor,55.0,137.0,Ground,,Grass,Psychic,0,0,2255,2755,False
+turn2,Bone Club,Exeggutor,-8.0,137.0,Ground,,Grass,Psychic,0,0,2255,2755,False
+turn1,Bone Club,Cubone,100.0,74.0,Ground,,Ground,,0,0,2255,1755,True
+turn2,Bone Club,Cubone,81.0,37.0,Ground,,Ground,,0,0,2255,1755,True
+turn3,Bone Club,Cubone,62.0,1.0,Ground,,Ground,,0,0,2255,1755,True
+turn4,Bone Club,Cubone,62.0,-37.0,Ground,,Ground,,0,0,2255,1755,True
+turn1,Bone Club,Marowak,91.0,88.0,Ground,,Ground,,0,0,2255,2255,False
+turn2,Bone Club,Marowak,58.0,57.0,Ground,,Ground,,0,0,2255,2255,False
+turn3,Bone Club,Marowak,25.0,26.0,Ground,,Ground,,0,0,2255,2255,False
+turn4,Bone Club,Marowak,-4.0,26.0,Ground,,Ground,,0,0,2255,2255,False
+turn1,Bone Club,Hitmonlee,65.0,52.0,Ground,,Fighting,,0,0,2255,4355,True
+turn2,Bone Club,Hitmonlee,13.0,-11.0,Ground,,Fighting,,0,0,2255,4355,True
+turn1,Bone Club,Hitmonchan,93.0,71.0,Ground,,Fighting,,0,0,2255,3805,True
+turn2,Bone Club,Hitmonchan,65.0,30.0,Ground,,Fighting,,0,0,2255,3805,True
+turn3,Bone Club,Hitmonchan,38.0,-11.0,Ground,,Fighting,,0,0,2255,3805,True
+turn1,Bone Club,Lickitung,98.0,104.0,Ground,,Normal,,0,0,2255,1505,True
+turn2,Bone Club,Lickitung,74.0,60.0,Ground,,Normal,,0,0,2255,1505,True
+turn3,Bone Club,Lickitung,52.0,18.0,Ground,,Normal,,0,0,2255,1505,True
+turn4,Bone Club,Lickitung,52.0,-23.0,Ground,,Normal,,0,0,2255,1505,True
+turn1,Bone Club,Koffing,106,28.0,Ground,,Poison,,0,0,2255,1755,True
+turn2,Bone Club,Koffing,106,-40.0,Ground,,Poison,,3,0,2255,1755,True
+turn1,Bone Club,Weezing,113,69.0,Ground,,Poison,,0,0,2255,3005,True
+turn2,Bone Club,Weezing,84.0,10.0,Ground,,Poison,,3,0,2255,3005,True
+turn3,Bone Club,Weezing,63.0,-45.0,Ground,,Poison,,3,0,2255,3005,True
+turn1,Bone Club,Rhyhorn,89.0,56.0,Ground,,Ground,Rock,0,0,2255,1255,True
+turn2,Bone Club,Rhyhorn,89.0,-27.0,Ground,,Ground,Rock,0,0,2255,1255,True
+turn1,Bone Club,Rhydon,77.0,83.0,Ground,,Ground,Rock,0,0,2255,2005,True
+turn2,Bone Club,Rhydon,29.0,6.0,Ground,,Ground,Rock,0,0,2255,2005,True
+turn3,Bone Club,Rhydon,29.0,-60.0,Ground,,Ground,Rock,0,0,2255,2005,True
+turn1,Bone Club,Chansey,115.0,-287.0,Ground,,Normal,,0,0,2255,2505,True
+turn1,Bone Club,Tangela,127,104.0,Ground,,Grass,,0,0,2255,3005,True
+turn2,Bone Club,Tangela,117.0,82.0,Ground,,Grass,,7,0,2255,3005,True
+turn3,Bone Club,Tangela,108.0,59.0,Ground,,Grass,,7,0,2255,3005,True
+turn4,Bone Club,Tangela,99.0,38.0,Ground,,Grass,,7,0,2255,3005,True
+turn5,Bone Club,Tangela,91.0,15.0,Ground,,Grass,,7,0,2255,3005,True
+turn6,Bone Club,Tangela,75.0,0.0,Ground,,Grass,,7,0,2255,3005,True
+turn1,Bone Club,Kangaskhan,84.0,121.0,Ground,,Normal,,0,0,2255,4505,False
+turn2,Bone Club,Kangaskhan,58.0,81.0,Ground,,Normal,,0,0,2255,4505,False
+turn3,Bone Club,Kangaskhan,22.0,42.0,Ground,,Normal,,0,0,2255,4505,False
+turn4,Bone Club,Kangaskhan,-14.0,42.0,Ground,,Normal,,0,0,2255,4505,False
+turn1,Bone Club,Horsea,95.0,40.0,Ground,,Water,,0,0,2255,3005,True
+turn2,Bone Club,Horsea,70.0,-11.0,Ground,,Water,,0,0,2255,3005,True
+turn1,Bone Club,Seadra,42.0,79.0,Ground,,Water,,0,0,2255,4255,False
+turn2,Bone Club,Seadra,-36.0,79.0,Ground,,Water,,0,0,2255,4255,False
+turn1,Bone Club,Goldeen,108.0,46.0,Ground,,Water,,0,0,2255,3155,True
+turn2,Bone Club,Goldeen,95.0,-11.0,Ground,,Water,,0,0,2255,3155,True
+turn1,Bone Club,Seaking,-65415,140,Ground,,Water,,0,0,2255,3405,False
+turn1,Bone Club,Staryu,97.0,34.0,Ground,,Water,,0,0,2255,4255,True
+turn2,Bone Club,Staryu,72.0,-27.0,Ground,,Water,,0,0,2255,4255,True
+turn1,Bone Club,Starmie,39.0,77.0,Ground,,Water,Psychic,0,0,2255,5755,False
+turn2,Bone Club,Starmie,-47.0,77.0,Ground,,Water,Psychic,0,0,2255,5755,False
+turn1,Bone Club,Mr. Mime,78.0,50.0,Ground,,Psychic,Normal,0,0,2255,4505,True
+turn2,Bone Club,Mr. Mime,54.0,2.0,Ground,,Psychic,Normal,0,0,2255,4505,True
+turn3,Bone Club,Mr. Mime,15.0,-52.0,Ground,,Psychic,Normal,0,0,2255,4505,True
+turn1,Tackle,Scyther,82.0,113.0,Ground,,Bug,Flying,0,0,2255,5255,False
+turn2,Tackle,Scyther,46.0,96.0,Ground,,Bug,Flying,0,0,2255,5255,False
+turn3,Tackle,Scyther,4.0,79.0,Ground,,Bug,Flying,0,0,2255,5255,False
+turn4,Tackle,Scyther,-32.0,79.0,Ground,,Bug,Flying,0,0,2255,5255,False
+turn1,Bone Club,Jynx,110.0,28.0,Ground,,Ice,Psychic,0,0,2255,4755,True
+turn2,Bone Club,Jynx,98.0,-70.0,Ground,,Ice,Psychic,0,0,2255,4755,True
+turn1,Bone Club,Electabuzz,107.0,7.0,Ground,,Electric,,0,0,2255,5255,True
+turn2,Bone Club,Electabuzz,94.0,-112.0,Ground,,Electric,,0,0,2255,5255,True
+turn1,Bone Club,Magmar,87.0,0.0,Ground,,Fire,,0,0,2255,4655,True
+turn1,Bone Club,Pinsir,-65415,125,Ground,,Bug,,0,0,2255,4255,False
+turn1,Bone Club,Tauros,72.0,72.0,Ground,,Normal,,0,0,2255,5505,False
+turn2,Bone Club,Tauros,21.0,9.0,Ground,,Normal,,0,0,2255,5505,False
+turn3,Bone Club,Tauros,-15.0,-5.0,Ground,,Normal,,0,0,2255,5505,False
+turn1,Bone Club,Magikarp,120,17.0,Ground,,Water,,0,0,2255,4005,True
+turn2,Bone Club,Magikarp,120,-42.0,Ground,,Water,,0,0,2255,4005,True
+turn1,Tackle,Gyarados,69.0,138.0,Ground,,Water,Flying,0,0,2255,4055,False
+turn2,Tackle,Gyarados,14.0,120.0,Ground,,Water,Flying,0,0,2255,4055,False
+turn3,Tackle,Gyarados,-38.0,120.0,Ground,,Water,Flying,0,0,2255,4055,False
+turn1,Bone Club,Lapras,84.0,146.0,Ground,,Water,Ice,0,0,2255,3005,False
+turn2,Bone Club,Lapras,45.0,101.0,Ground,,Water,Ice,0,0,2255,3005,False
+turn3,Bone Club,Lapras,8.0,57.0,Ground,,Water,Ice,0,0,2255,3005,False
+turn4,Bone Club,Lapras,-30.0,57.0,Ground,,Water,Ice,0,0,2255,3005,False
+turn1,Bone Club,Ditto,120,45.0,Ground,,Normal,,0,0,2255,2405,True
+turn2,Bone Club,Ditto,120,-27.0,Ground,,Normal,,0,0,2255,2405,True
+turn1,Bone Club,Eevee,98.0,47.0,Ground,,Normal,,0,0,2255,2755,True
+turn2,Bone Club,Eevee,76.0,-22.0,Ground,,Normal,,0,0,2255,2755,True
+turn1,Bone Club,Vaporeon,41.0,135.0,Ground,,Water,,0,0,2255,3255,False
+turn2,Bone Club,Vaporeon,-42.0,135.0,Ground,,Water,,0,0,2255,3255,False
+turn1,Bone Club,Jolteon,109.0,17.0,Ground,,Electric,,0,0,2255,6505,True
+turn2,Bone Club,Jolteon,98.0,-97.0,Ground,,Electric,,0,0,2255,6505,True
+turn1,Bone Club,Flareon,82.0,12.0,Ground,,Fire,,0,0,2255,3255,True
+turn2,Bone Club,Flareon,38.0,-98.0,Ground,,Fire,,0,0,2255,3255,True
+turn1,Bone Club,Porygon,67.0,81.0,Ground,,Normal,,0,0,2255,2005,True
+turn2,Bone Club,Porygon,14.0,30.0,Ground,,Normal,,0,0,2255,2005,True
+turn3,Bone Club,Porygon,14.0,-17.0,Ground,,Normal,,0,0,2255,2005,True
+turn1,Bone Club,Omanyte,92.0,23.0,Ground,,Rock,Water,0,0,2255,1755,True
+turn2,Bone Club,Omanyte,92.0,-50.0,Ground,,Rock,Water,0,0,2255,1755,True
+turn1,Bone Club,Omastar,84.0,72.0,Ground,,Rock,Water,0,0,2255,2755,True
+turn2,Bone Club,Omastar,47.0,14.0,Ground,,Rock,Water,0,0,2255,2755,True
+turn3,Bone Club,Omastar,10.0,-38.0,Ground,,Rock,Water,0,0,2255,2755,True
+turn1,Bone Club,Kabuto,97.0,11.0,Ground,,Rock,Water,0,0,2255,2755,True
+turn2,Bone Club,Kabuto,77.0,-70.0,Ground,,Rock,Water,0,0,2255,2755,True
+turn1,Bone Club,Kabutops,86.0,54.0,Ground,,Rock,Water,0,0,2255,4005,True
+turn2,Bone Club,Kabutops,53.0,-8.0,Ground,,Rock,Water,0,0,2255,4005,True
+turn1,Tackle,Aerodactyl,82.0,129.0,Ground,,Rock,Flying,0,0,2255,6505,False
+turn2,Tackle,Aerodactyl,46.0,118.0,Ground,,Rock,Flying,0,0,2255,6505,False
+turn3,Tackle,Aerodactyl,9.0,107.0,Ground,,Rock,Flying,0,0,2255,6505,False
+turn4,Tackle,Aerodactyl,-27.0,107.0,Ground,,Rock,Flying,0,0,2255,6505,False
+turn1,Bone Club,Snorlax,44.0,166.0,Ground,,Normal,,0,0,2255,1505,False
+turn2,Bone Club,Snorlax,-34.0,113.0,Ground,,Normal,,0,0,2255,1505,False
+turn1,Tackle,Articuno,78.0,136.0,Ground,,Ice,Flying,0,0,2255,4255,False
+turn2,Tackle,Articuno,39.0,122.0,Ground,,Ice,Flying,0,0,2255,4255,False
+turn3,Tackle,Articuno,2.0,122.0,Ground,,Ice,Flying,0,0,2255,4255,False
+turn4,Tackle,Articuno,-37.0,122.0,Ground,,Ice,Flying,6,0,2255,4255,False
+turn1,Tackle,Zapdos,78.0,134.0,Ground,,Electric,Flying,0,0,2255,5005,False
+turn2,Tackle,Zapdos,38.0,118.0,Ground,,Electric,Flying,0,0,2255,5005,False
+turn3,Tackle,Zapdos,-2.0,118.0,Ground,,Electric,Flying,0,0,2255,5005,False
+turn1,Tackle,Moltres,40.0,133.0,Ground,,Fire,Flying,0,0,2255,4505,False
+turn2,Tackle,Moltres,-37.0,133.0,Ground,,Fire,Flying,0,0,2255,4505,False
+turn1,Bone Club,Dratini,100.0,34.0,Ground,,Dragon,,0,0,2255,2505,True
+turn2,Bone Club,Dratini,81.0,-39.0,Ground,,Dragon,,0,0,2255,2505,True
+turn1,Bone Club,Dragonair,80,73.0,Ground,,Dragon,,0,0,2255,3505,False
+turn2,Bone Club,Dragonair,40,25.0,Ground,,Dragon,,0,0,2255,3505,False
+turn3,Bone Club,Dragonair,0,25.0,Ground,,Dragon,,0,0,2255,3505,False
+turn1,Tackle,Dragonite,80,135.0,Ground,,Dragon,Flying,0,0,2255,4005,False
+turn2,Tackle,Dragonite,40,121.0,Ground,,Dragon,Flying,0,0,2255,4005,False
+turn3,Tackle,Dragonite,0,121.0,Ground,,Dragon,Flying,0,0,2255,4005,False
+turn1,Bone Club,Mewtwo,120,166,Ground,,Psychic,,0,0,2255,6505,False
+turn2,Bone Club,Mewtwo,64.0,166,Ground,,Psychic,,1,0,2255,6505,False
+turn3,Bone Club,Mewtwo,1.0,166,Ground,,Psychic,,1,0,2255,6505,False
+turn4,Bone Club,Mewtwo,-65.0,166,Ground,,Psychic,,1,0,2255,6505,False
+turn1,Bone Club,Mew,48.0,123.0,Ground,,Psychic,,0,0,2255,5005,False
+turn2,Bone Club,Mew,-25.0,123.0,Ground,,Psychic,,0,0,2255,5005,False

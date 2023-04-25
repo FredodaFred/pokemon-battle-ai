@@ -1,0 +1,786 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Psybeam,Bulbasaur,120,105,Bug,Flying,Grass,Poison,0,0,3505,2255,True
+turn2,Psybeam,Bulbasaur,120,25.0,Bug,Flying,Grass,Poison,0,1,3505,2255,True
+turn3,Psybeam,Bulbasaur,120,25.0,Bug,Flying,Grass,Poison,0,0,3505,2255,True
+turn4,Psybeam,Bulbasaur,120,-45.0,Bug,Flying,Grass,Poison,0,1,3505,2255,True
+turn1,Psybeam,Ivysaur,120,120,Bug,Flying,Grass,Poison,0,0,3505,3005,True
+turn2,Psybeam,Ivysaur,120,120,Bug,Flying,Grass,Poison,0,0,3505,3005,True
+turn3,Psybeam,Ivysaur,120,61.0,Bug,Flying,Grass,Poison,0,1,3505,3005,True
+turn4,Psybeam,Ivysaur,120,-6.0,Bug,Flying,Grass,Poison,0,1,3505,3005,True
+turn1,Psybeam,Venusaur,96.0,140,Bug,Flying,Grass,Poison,0,0,3505,4005,True
+turn2,Psybeam,Venusaur,96.0,87.0,Bug,Flying,Grass,Poison,0,1,3505,4005,True
+turn3,Psybeam,Venusaur,96.0,34.0,Bug,Flying,Grass,Poison,0,1,3505,4005,True
+turn4,Psybeam,Venusaur,96.0,-18.0,Bug,Flying,Grass,Poison,0,1,3505,4005,True
+turn1,Psybeam,Charmander,120,99,Bug,Flying,Fire,,0,0,3505,3255,True
+turn2,Psybeam,Charmander,120,99,Bug,Flying,Fire,,0,0,3505,3255,True
+turn3,Psybeam,Charmander,120,48.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn4,Psybeam,Charmander,120,48.0,Bug,Flying,Fire,,0,0,3505,3255,True
+turn5,Psybeam,Charmander,120,-2.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn1,Psybeam,Charmeleon,8.0,118,Bug,Flying,Fire,,0,0,3505,4005,True
+turn2,Psybeam,Charmeleon,8.0,81.0,Bug,Flying,Fire,,0,1,3505,4005,True
+turn3,Psybeam,Charmeleon,8.0,45.0,Bug,Flying,Fire,,0,1,3505,4005,True
+turn4,Psybeam,Charmeleon,8.0,4.0,Bug,Flying,Fire,,0,1,3505,4005,True
+turn5,Psybeam,Charmeleon,8.0,-32.0,Bug,Flying,Fire,,0,1,3505,4005,True
+turn1,Sleep Powder,Charizard,-33.0,138,Bug,Flying,Fire,Flying,0,0,3505,5005,False
+turn1,Psybeam,Squirtle,120,104,Bug,Flying,Water,,0,0,3505,2155,True
+turn2,Psybeam,Squirtle,120,67.0,Bug,Flying,Water,,0,1,3505,2155,True
+turn3,Psybeam,Squirtle,120,28.0,Bug,Flying,Water,,0,1,3505,2155,True
+turn4,Psybeam,Squirtle,120,28.0,Bug,Flying,Water,,0,0,3505,2155,True
+turn5,Psybeam,Squirtle,120,28.0,Bug,Flying,Water,,0,0,3505,2155,True
+turn6,Psybeam,Squirtle,120,-12.0,Bug,Flying,Water,,0,1,3505,2155,True
+turn1,Psybeam,Wartortle,120,119,Bug,Flying,Water,,0,0,3505,2905,True
+turn2,Psybeam,Wartortle,120,88.0,Bug,Flying,Water,,0,1,3505,2905,True
+turn3,Psybeam,Wartortle,120,58.0,Bug,Flying,Water,,0,1,3505,2905,True
+turn4,Psybeam,Wartortle,120,58.0,Bug,Flying,Water,,0,0,3505,2905,True
+turn5,Psybeam,Wartortle,120,25.0,Bug,Flying,Water,,0,1,3505,2905,True
+turn6,Psybeam,Wartortle,120,-4.0,Bug,Flying,Water,,0,1,3505,2905,True
+turn1,Sleep Powder,Blastoise,27.0,139,Bug,Flying,Water,,0,0,3505,3905,False
+turn2,Sleep Powder,Blastoise,27.0,114.0,Bug,Flying,Water,,0,1,3505,3905,False
+turn3,Sleep Powder,Blastoise,-62.0,114.0,Bug,Flying,Water,,0,0,3505,3905,False
+turn1,Psybeam,Caterpie,120,105,Bug,Flying,Bug,,0,0,3505,2255,True
+turn2,Psybeam,Caterpie,120,105,Bug,Flying,Bug,,0,0,3505,2255,True
+turn3,Psybeam,Caterpie,120,-20.0,Bug,Flying,Bug,,0,1,3505,2255,True
+turn1,Psybeam,Metapod,120,110,Bug,Flying,Bug,,0,0,3505,1505,True
+turn2,Psybeam,Metapod,120,110,Bug,Flying,Bug,,0,0,3505,1505,True
+turn3,Psybeam,Metapod,120,19.0,Bug,Flying,Bug,,0,1,3505,1505,True
+turn4,Psybeam,Metapod,120,-70.0,Bug,Flying,Bug,,0,1,3505,1505,True
+turn1,Sleep Powder,Butterfree,120,120,Bug,Flying,Bug,Flying,0,0,3505,3505,False
+turn2,Sleep Powder,Butterfree,89.0,120,Bug,Flying,Bug,Flying,1,0,3505,3505,False
+turn3,Sleep Powder,Butterfree,60.0,120,Bug,Flying,Bug,Flying,1,0,3505,3505,False
+turn4,Sleep Powder,Butterfree,29.0,120,Bug,Flying,Bug,Flying,1,0,3505,3505,False
+turn5,Sleep Powder,Butterfree,-2.0,120,Bug,Flying,Bug,Flying,1,0,3505,3505,False
+turn1,Psybeam,Weedle,120,100,Bug,Flying,Bug,Poison,0,0,3505,2505,True
+turn2,Psybeam,Weedle,120,-148.0,Bug,Flying,Bug,Poison,0,1,3505,2505,True
+turn1,Psybeam,Kakuna,120,105,Bug,Flying,Bug,Poison,0,0,3505,1755,True
+turn2,Psybeam,Kakuna,120,-103.0,Bug,Flying,Bug,Poison,0,1,3505,1755,True
+turn1,Psybeam,Beedrill,90.0,125,Bug,Flying,Bug,Poison,0,0,3505,3755,True
+turn2,Psybeam,Beedrill,90.0,60.0,Bug,Flying,Bug,Poison,0,1,3505,3755,True
+turn3,Psybeam,Beedrill,35.0,60.0,Bug,Flying,Bug,Poison,3,0,3505,3755,True
+turn4,Psybeam,Beedrill,35.0,-2.0,Bug,Flying,Bug,Poison,3,1,3505,3755,True
+turn1,Psybeam,Pidgey,120,100,Bug,Flying,Normal,Flying,0,0,3505,2805,True
+turn2,Psybeam,Pidgey,120,29.0,Bug,Flying,Normal,Flying,0,1,3505,2805,True
+turn3,Psybeam,Pidgey,120,29.0,Bug,Flying,Normal,Flying,0,0,3505,2805,True
+turn4,Psybeam,Pidgey,120,-35.0,Bug,Flying,Normal,Flying,0,1,3505,2805,True
+turn1,Sleep Powder,Pidgeotto,31.0,123,Bug,Flying,Normal,Flying,0,0,3505,3555,False
+turn2,Sleep Powder,Pidgeotto,31.0,73.0,Bug,Flying,Normal,Flying,0,1,3505,3555,False
+turn3,Sleep Powder,Pidgeotto,31.0,22.0,Bug,Flying,Normal,Flying,0,1,3505,3555,False
+turn4,Sleep Powder,Pidgeotto,-55.0,22.0,Bug,Flying,Normal,Flying,0,0,3505,3555,False
+turn1,Sleep Powder,Pidgeot,-8.0,143,Bug,Flying,Normal,Flying,0,0,3505,5055,False
+turn1,Psybeam,Rattata,67.0,90,Bug,Flying,Normal,,0,0,3505,3605,True
+turn2,Psybeam,Rattata,67.0,18.0,Bug,Flying,Normal,,0,1,3505,3605,True
+turn3,Psybeam,Rattata,67.0,-53.0,Bug,Flying,Normal,,0,1,3505,3605,True
+turn1,Sleep Powder,Raticate,39.0,115,Bug,Flying,Normal,,0,0,3505,4855,False
+turn2,Sleep Powder,Raticate,39.0,77.0,Bug,Flying,Normal,,0,1,3505,4855,False
+turn3,Sleep Powder,Raticate,39.0,40.0,Bug,Flying,Normal,,0,1,3505,4855,False
+turn4,Sleep Powder,Raticate,39.0,5.0,Bug,Flying,Normal,,0,1,3505,4855,False
+turn5,Sleep Powder,Raticate,-43.0,5.0,Bug,Flying,Normal,,0,0,3505,4855,False
+turn1,Psybeam,Spearow,4.0,100,Bug,Flying,Normal,Flying,0,0,3505,3505,True
+turn2,Psybeam,Spearow,4.0,17.0,Bug,Flying,Normal,Flying,0,1,3505,3505,True
+turn3,Psybeam,Spearow,4.0,-56.0,Bug,Flying,Normal,Flying,0,1,3505,3505,True
+turn1,Sleep Powder,Fearow,-47.0,125,Bug,Flying,Normal,Flying,0,0,3505,5005,False
+turn1,Psybeam,Ekans,120,95,Bug,Flying,Poison,,0,0,3505,2755,True
+turn2,Psybeam,Ekans,120,95,Bug,Flying,Poison,,0,0,3505,2755,True
+turn3,Psybeam,Ekans,120,8.0,Bug,Flying,Poison,,0,1,3505,2755,True
+turn4,Psybeam,Ekans,120,8.0,Bug,Flying,Poison,,0,0,3505,2755,True
+turn5,Psybeam,Ekans,120,-86.0,Bug,Flying,Poison,,0,1,3505,2755,True
+turn1,Psybeam,Arbok,78.0,120,Bug,Flying,Poison,,0,0,3505,4005,True
+turn2,Psybeam,Arbok,78.0,60.0,Bug,Flying,Poison,,0,1,3505,4005,True
+turn3,Psybeam,Arbok,78.0,-8.0,Bug,Flying,Poison,,0,1,3505,4005,True
+turn1,Psybeam,Pikachu,32.0,95,Bug,Flying,Electric,,0,0,3505,4505,True
+turn2,Psybeam,Pikachu,32.0,50.0,Bug,Flying,Electric,,0,1,3505,4505,True
+turn3,Psybeam,Pikachu,32.0,3.0,Bug,Flying,Electric,,0,1,3505,4505,True
+turn4,Psybeam,Pikachu,32.0,-43.0,Bug,Flying,Electric,,0,1,3505,4505,True
+turn1,Sleep Powder,Raichu,-37.0,120,Bug,Flying,Electric,,0,0,3505,5505,False
+turn1,Psybeam,Sandshrew,120,110,Bug,Flying,Ground,,0,0,3505,2005,True
+turn2,Psybeam,Sandshrew,120,30.0,Bug,Flying,Ground,,0,1,3505,2005,True
+turn3,Psybeam,Sandshrew,120,-50.0,Bug,Flying,Ground,,0,1,3505,2005,True
+turn1,Psybeam,Sandslash,120,135,Bug,Flying,Ground,,0,0,3505,3255,True
+turn2,Psybeam,Sandslash,120,93.0,Bug,Flying,Ground,,0,1,3505,3255,True
+turn3,Psybeam,Sandslash,120,93.0,Bug,Flying,Ground,,0,0,3505,3255,True
+turn4,Psybeam,Sandslash,120,51.0,Bug,Flying,Ground,,0,1,3505,3255,True
+turn5,Psybeam,Sandslash,120,6.0,Bug,Flying,Ground,,0,1,3505,3255,True
+turn6,Psybeam,Sandslash,120,6.0,Bug,Flying,Ground,,0,0,3505,3255,True
+turn7,Psybeam,Sandslash,120,6.0,Bug,Flying,Ground,,0,0,3505,3255,True
+turn8,Psybeam,Sandslash,120,-38.0,Bug,Flying,Ground,,0,1,3505,3255,True
+turn1,Psybeam,Nidoran♀,120,115,Bug,Flying,Poison,,0,0,3505,2055,True
+turn2,Psybeam,Nidoran♀,120,-15.0,Bug,Flying,Poison,,0,1,3505,2055,True
+turn1,Psybeam,Nidorina,120,130,Bug,Flying,Poison,,0,0,3505,2805,True
+turn2,Psybeam,Nidorina,120,44.0,Bug,Flying,Poison,,0,1,3505,2805,True
+turn3,Psybeam,Nidorina,120,44.0,Bug,Flying,Poison,,0,0,3505,2805,True
+turn4,Psybeam,Nidorina,120,-42.0,Bug,Flying,Poison,,0,1,3505,2805,True
+turn1,Sleep Powder,Nidoqueen,60.0,150,Bug,Flying,Poison,Ground,0,0,3505,3805,False
+turn2,Sleep Powder,Nidoqueen,-9.0,150,Bug,Flying,Poison,Ground,4,0,3505,3805,False
+turn1,Psybeam,Nidoran♂,120,106,Bug,Flying,Poison,,0,0,3505,2505,True
+turn2,Psybeam,Nidoran♂,120,106,Bug,Flying,Poison,,0,0,3505,2505,True
+turn3,Psybeam,Nidoran♂,120,106,Bug,Flying,Poison,,0,0,3505,2505,True
+turn4,Psybeam,Nidoran♂,120,-26.0,Bug,Flying,Poison,,0,1,3505,2505,True
+turn1,Psybeam,Nidorino,120,121,Bug,Flying,Poison,,0,0,3505,3255,True
+turn2,Psybeam,Nidorino,120,25.0,Bug,Flying,Poison,,0,1,3505,3255,True
+turn3,Psybeam,Nidorino,120,25.0,Bug,Flying,Poison,,0,0,3505,3255,True
+turn4,Psybeam,Nidorino,120,25.0,Bug,Flying,Poison,,0,0,3505,3255,True
+turn5,Psybeam,Nidorino,120,-60.0,Bug,Flying,Poison,,0,1,3505,3255,True
+turn1,Psybeam,Nidoking,16.0,141,Bug,Flying,Poison,Ground,0,0,3505,4255,True
+turn2,Psybeam,Nidoking,16.0,72.0,Bug,Flying,Poison,Ground,0,1,3505,4255,True
+turn3,Psybeam,Nidoking,16.0,10.0,Bug,Flying,Poison,Ground,0,1,3505,4255,True
+turn4,Psybeam,Nidoking,16.0,-60.0,Bug,Flying,Poison,Ground,0,1,3505,4255,True
+turn1,Psybeam,Clefairy,120,130,Bug,Flying,Normal,,0,0,3505,1755,True
+turn2,Psybeam,Clefairy,120,92.0,Bug,Flying,Normal,,0,1,3505,1755,True
+turn3,Psybeam,Clefairy,120,56.0,Bug,Flying,Normal,,0,1,3505,1755,True
+turn4,Psybeam,Clefairy,120,56.0,Bug,Flying,Normal,,0,0,3505,1755,True
+turn5,Psybeam,Clefairy,120,18.0,Bug,Flying,Normal,,0,1,3505,1755,True
+turn6,Psybeam,Clefairy,120,-17.0,Bug,Flying,Normal,,0,1,3505,1755,True
+turn1,Psybeam,Clefable,120,155,Bug,Flying,Normal,,0,0,3505,3005,True
+turn2,Psybeam,Clefable,120,155,Bug,Flying,Normal,,0,0,3505,3005,True
+turn3,Psybeam,Clefable,120,126.0,Bug,Flying,Normal,,0,1,3505,3005,True
+turn4,Psybeam,Clefable,120,97.0,Bug,Flying,Normal,,0,1,3505,3005,True
+turn5,Psybeam,Clefable,120,97.0,Bug,Flying,Normal,,0,0,3505,3005,True
+turn6,Psybeam,Clefable,120,67.0,Bug,Flying,Normal,,0,1,3505,3005,True
+turn7,Psybeam,Clefable,120,67.0,Bug,Flying,Normal,,0,0,3505,3005,True
+turn8,Psybeam,Clefable,120,41.0,Bug,Flying,Normal,,0,1,3505,3005,True
+turn9,Psybeam,Clefable,120,41.0,Bug,Flying,Normal,,0,0,3505,3005,True
+turn10,Psybeam,Clefable,120,41.0,Bug,Flying,Normal,,0,0,3505,3005,True
+turn11,Psybeam,Clefable,120,15.0,Bug,Flying,Normal,,0,1,3505,3005,True
+turn12,Psybeam,Clefable,120,15.0,Bug,Flying,Normal,,0,0,3505,3005,True
+turn13,Psybeam,Clefable,120,-14.0,Bug,Flying,Normal,,0,1,3505,3005,True
+turn1,Psybeam,Vulpix,120,98,Bug,Flying,Fire,,0,0,3505,3255,True
+turn2,Psybeam,Vulpix,120,62.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn3,Psybeam,Vulpix,120,62.0,Bug,Flying,Fire,,0,0,3505,3255,True
+turn4,Psybeam,Vulpix,120,23.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn5,Psybeam,Vulpix,120,-16.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn1,Sleep Powder,Ninetales,57.0,133,Bug,Flying,Fire,,0,0,3505,5005,False
+turn2,Sleep Powder,Ninetales,50.0,110.0,Bug,Flying,Fire,,2,1,3505,5005,False
+turn3,Sleep Powder,Ninetales,43.0,84.0,Bug,Flying,Fire,,2,1,3505,5005,False
+turn4,Sleep Powder,Ninetales,36.0,60.0,Bug,Flying,Fire,,2,1,3505,5005,False
+turn5,Sleep Powder,Ninetales,29.0,34.0,Bug,Flying,Fire,,2,1,3505,5005,False
+turn6,Sleep Powder,Ninetales,22.0,10.0,Bug,Flying,Fire,,2,1,3505,5005,False
+turn7,Sleep Powder,Ninetales,-32.0,10.0,Bug,Flying,Fire,,2,0,3505,5005,False
+turn1,Psybeam,Jigglypuff,120,175,Bug,Flying,Normal,,0,0,3505,1005,True
+turn2,Psybeam,Jigglypuff,120,81.0,Bug,Flying,Normal,,0,1,3505,1005,True
+turn3,Psybeam,Jigglypuff,120,-15.0,Bug,Flying,Normal,,0,1,3505,1005,True
+turn1,Psybeam,Wigglytuff,120,200,Bug,Flying,Normal,,0,0,3505,2255,True
+turn2,Psybeam,Wigglytuff,120,149.0,Bug,Flying,Normal,,0,1,3505,2255,True
+turn3,Psybeam,Wigglytuff,120,149.0,Bug,Flying,Normal,,0,0,3505,2255,True
+turn4,Psybeam,Wigglytuff,120,101.0,Bug,Flying,Normal,,0,1,3505,2255,True
+turn5,Psybeam,Wigglytuff,120,101.0,Bug,Flying,Normal,,0,0,3505,2255,True
+turn6,Psybeam,Wigglytuff,120,49.0,Bug,Flying,Normal,,0,1,3505,2255,True
+turn7,Psybeam,Wigglytuff,120,49.0,Bug,Flying,Normal,,0,0,3505,2255,True
+turn8,Psybeam,Wigglytuff,120,2.0,Bug,Flying,Normal,,0,1,3505,2255,True
+turn9,Psybeam,Wigglytuff,120,-43.0,Bug,Flying,Normal,,0,1,3505,2255,True
+turn1,Psybeam,Zubat,120,100,Bug,Flying,Poison,Flying,0,0,3505,2755,True
+turn2,Psybeam,Zubat,120,100,Bug,Flying,Poison,Flying,0,0,3505,2755,True
+turn3,Psybeam,Zubat,120,-23.0,Bug,Flying,Poison,Flying,0,1,3505,2755,True
+turn1,Sleep Powder,Golbat,-8.0,135,Bug,Flying,Poison,Flying,0,0,3505,4505,False
+turn1,Psybeam,Oddish,120,105,Bug,Flying,Grass,Poison,0,0,3505,1505,True
+turn2,Psybeam,Oddish,120,105,Bug,Flying,Grass,Poison,0,0,3505,1505,True
+turn3,Psybeam,Oddish,120,30.0,Bug,Flying,Grass,Poison,0,1,3505,1505,True
+turn4,Psybeam,Oddish,120,30.0,Bug,Flying,Grass,Poison,0,0,3505,1505,True
+turn5,Psybeam,Oddish,120,-48.0,Bug,Flying,Grass,Poison,0,1,3505,1505,True
+turn1,Psybeam,Gloom,120,120,Bug,Flying,Grass,Poison,0,0,3505,2005,True
+turn2,Psybeam,Gloom,120,54.0,Bug,Flying,Grass,Poison,0,1,3505,2005,True
+turn3,Psybeam,Gloom,120,54.0,Bug,Flying,Grass,Poison,0,0,3505,2005,True
+turn4,Psybeam,Gloom,120,-9.0,Bug,Flying,Grass,Poison,0,1,3505,2005,True
+turn1,Psybeam,Vileplume,120,135,Bug,Flying,Grass,Poison,0,0,3505,2505,True
+turn2,Psybeam,Vileplume,120,81.0,Bug,Flying,Grass,Poison,0,1,3505,2505,True
+turn3,Psybeam,Vileplume,120,28.0,Bug,Flying,Grass,Poison,0,1,3505,2505,True
+turn4,Psybeam,Vileplume,120,28.0,Bug,Flying,Grass,Poison,0,0,3505,2505,True
+turn5,Psybeam,Vileplume,120,-27.0,Bug,Flying,Grass,Poison,0,1,3505,2505,True
+turn1,Psybeam,Paras,120,95,Bug,Flying,Bug,Grass,0,0,3505,1255,True
+turn2,Psybeam,Paras,120,51.0,Bug,Flying,Bug,Grass,0,1,3505,1255,True
+turn3,Psybeam,Paras,120,5.0,Bug,Flying,Bug,Grass,0,1,3505,1255,True
+turn4,Psybeam,Paras,120,5.0,Bug,Flying,Bug,Grass,0,0,3505,1255,True
+turn5,Psybeam,Paras,120,5.0,Bug,Flying,Bug,Grass,0,0,3505,1255,True
+turn6,Psybeam,Paras,120,-43.0,Bug,Flying,Bug,Grass,0,1,3505,1255,True
+turn1,Psybeam,Parasect,120,120,Bug,Flying,Bug,Grass,0,0,3505,1505,True
+turn2,Psybeam,Parasect,120,91.0,Bug,Flying,Bug,Grass,0,1,3505,1505,True
+turn3,Psybeam,Parasect,120,59.0,Bug,Flying,Bug,Grass,0,1,3505,1505,True
+turn4,Psybeam,Parasect,120,59.0,Bug,Flying,Bug,Grass,0,0,3505,1505,True
+turn5,Psybeam,Parasect,120,26.0,Bug,Flying,Bug,Grass,0,1,3505,1505,True
+turn6,Psybeam,Parasect,120,26.0,Bug,Flying,Bug,Grass,0,0,3505,1505,True
+turn7,Psybeam,Parasect,120,-4.0,Bug,Flying,Bug,Grass,0,1,3505,1505,True
+turn1,Psybeam,Venonat,120,120,Bug,Flying,Bug,Poison,0,0,3505,2255,True
+turn2,Psybeam,Venonat,120,35.0,Bug,Flying,Bug,Poison,0,1,3505,2255,True
+turn3,Psybeam,Venonat,120,35.0,Bug,Flying,Bug,Poison,0,0,3505,2255,True
+turn4,Psybeam,Venonat,120,35.0,Bug,Flying,Bug,Poison,0,0,3505,2255,True
+turn5,Psybeam,Venonat,120,35.0,Bug,Flying,Bug,Poison,0,0,3505,2255,True
+turn6,Psybeam,Venonat,120,-59.0,Bug,Flying,Bug,Poison,0,1,3505,2255,True
+turn1,Sleep Powder,Venomoth,120,130,Bug,Flying,Bug,Poison,0,0,3505,4505,False
+turn2,Sleep Powder,Venomoth,77.0,130,Bug,Flying,Bug,Poison,1,0,3505,4505,False
+turn3,Sleep Powder,Venomoth,77.0,130,Bug,Flying,Bug,Poison,0,0,3505,4505,False
+turn4,Sleep Powder,Venomoth,37.0,130,Bug,Flying,Bug,Poison,1,0,3505,4505,False
+turn5,Sleep Powder,Venomoth,-6.0,130,Bug,Flying,Bug,Poison,1,0,3505,4505,False
+turn1,Psybeam,Diglett,86.0,70,Bug,Flying,Ground,,0,0,3505,4755,True
+turn2,Psybeam,Diglett,86.0,19.0,Bug,Flying,Ground,,0,1,3505,4755,True
+turn3,Psybeam,Diglett,55.0,19.0,Bug,Flying,Ground,,0,0,3505,4755,True
+turn4,Psybeam,Diglett,55.0,-37.0,Bug,Flying,Ground,,0,1,3505,4755,True
+turn1,Psybeam,Dugtrio,72.0,95,Bug,Flying,Ground,,0,0,3505,6005,True
+turn2,Psybeam,Dugtrio,72.0,57.0,Bug,Flying,Ground,,0,1,3505,6005,True
+turn3,Psybeam,Dugtrio,72.0,23.0,Bug,Flying,Ground,,0,1,3505,6005,True
+turn4,Psybeam,Dugtrio,72.0,-11.0,Bug,Flying,Ground,,0,1,3505,6005,True
+turn1,Psybeam,Meowth,85.0,100,Bug,Flying,Normal,,0,0,3505,4505,True
+turn2,Psybeam,Meowth,85.0,36.0,Bug,Flying,Normal,,0,1,3505,4505,True
+turn3,Psybeam,Meowth,85.0,-26.0,Bug,Flying,Normal,,0,1,3505,4505,True
+turn1,Psybeam,Persian,59.0,125,Bug,Flying,Normal,,0,0,3505,5755,True
+turn2,Psybeam,Persian,59.0,88.0,Bug,Flying,Normal,,0,1,3505,5755,True
+turn3,Psybeam,Persian,59.0,52.0,Bug,Flying,Normal,,0,1,3505,5755,True
+turn4,Psybeam,Persian,59.0,12.0,Bug,Flying,Normal,,0,1,3505,5755,True
+turn5,Psybeam,Persian,59.0,-27.0,Bug,Flying,Normal,,0,1,3505,5755,True
+turn1,Psybeam,Psyduck,120,110,Bug,Flying,Water,,0,0,3505,2755,True
+turn2,Psybeam,Psyduck,120,110,Bug,Flying,Water,,0,0,3505,2755,True
+turn3,Psybeam,Psyduck,120,110,Bug,Flying,Water,,0,0,3505,2755,True
+turn4,Psybeam,Psyduck,120,110,Bug,Flying,Water,,0,0,3505,2755,True
+turn5,Psybeam,Psyduck,120,110,Bug,Flying,Water,,0,0,3505,2755,True
+turn6,Psybeam,Psyduck,120,63.0,Bug,Flying,Water,,0,1,3505,2755,True
+turn7,Psybeam,Psyduck,120,14.0,Bug,Flying,Water,,0,1,3505,2755,True
+turn8,Psybeam,Psyduck,120,14.0,Bug,Flying,Water,,0,0,3505,2755,True
+turn9,Psybeam,Psyduck,120,-38.0,Bug,Flying,Water,,0,1,3505,2755,True
+turn1,Psybeam,Golduck,79.0,140,Bug,Flying,Water,,0,0,3505,4255,True
+turn2,Psybeam,Golduck,79.0,110.0,Bug,Flying,Water,,0,1,3505,4255,True
+turn3,Psybeam,Golduck,79.0,79.0,Bug,Flying,Water,,0,1,3505,4255,True
+turn4,Psybeam,Golduck,79.0,50.0,Bug,Flying,Water,,0,1,3505,4255,True
+turn5,Psybeam,Golduck,79.0,17.0,Bug,Flying,Water,,0,1,3505,4255,True
+turn6,Psybeam,Golduck,36.0,17.0,Bug,Flying,Water,,0,0,3505,4255,True
+turn7,Psybeam,Golduck,36.0,-15.0,Bug,Flying,Water,,0,1,3505,4255,True
+turn1,Psybeam,Mankey,108.0,100,Bug,Flying,Fighting,,0,0,3505,3505,True
+turn2,Psybeam,Mankey,108.0,-12.0,Bug,Flying,Fighting,,0,1,3505,3505,True
+turn1,Psybeam,Primeape,16.0,125,Bug,Flying,Fighting,,0,0,3505,4755,True
+turn2,Psybeam,Primeape,16.0,53.0,Bug,Flying,Fighting,,0,1,3505,4755,True
+turn3,Psybeam,Primeape,16.0,-21.0,Bug,Flying,Fighting,,0,1,3505,4755,True
+turn1,Psybeam,Growlithe,120,103.0,Bug,Flying,Fire,,0,0,3505,3005,True
+turn2,Psybeam,Growlithe,120,90.0,Bug,Flying,Fire,,0,0,3505,3005,True
+turn3,Psybeam,Growlithe,120,29.0,Bug,Flying,Fire,,0,1,3505,3005,True
+turn4,Psybeam,Growlithe,120,16.0,Bug,Flying,Fire,,0,0,3505,3005,True
+turn5,Psybeam,Growlithe,120,-49.0,Bug,Flying,Fire,,0,1,3505,3005,True
+turn1,Sleep Powder,Arcanine,-24.0,129.0,Bug,Flying,Fire,,0,0,3505,4755,False
+turn1,Sleep Powder,Poliwag,120,100,Bug,Flying,Water,,0,0,3505,4505,False
+turn2,Sleep Powder,Poliwag,83.0,100,Bug,Flying,Water,,1,0,3505,4505,False
+turn3,Sleep Powder,Poliwag,46.0,100,Bug,Flying,Water,,1,0,3505,4505,False
+turn4,Sleep Powder,Poliwag,11.0,100,Bug,Flying,Water,,1,0,3505,4505,False
+turn5,Sleep Powder,Poliwag,-28.0,100,Bug,Flying,Water,,1,0,3505,4505,False
+turn1,Psybeam,Poliwhirl,35.0,125,Bug,Flying,Water,,0,0,3505,4505,True
+turn2,Psybeam,Poliwhirl,35.0,73.0,Bug,Flying,Water,,0,1,3505,4505,True
+turn3,Psybeam,Poliwhirl,35.0,23.0,Bug,Flying,Water,,0,1,3505,4505,True
+turn4,Psybeam,Poliwhirl,35.0,-30.0,Bug,Flying,Water,,0,1,3505,4505,True
+turn1,Sleep Powder,Poliwrath,-7.0,150,Bug,Flying,Water,Fighting,0,0,3505,3505,False
+turn1,Psybeam,Abra,120,85,Bug,Flying,Psychic,,0,0,3505,4505,True
+turn2,Psybeam,Abra,120,62.0,Bug,Flying,Psychic,,0,1,3505,4505,True
+turn3,Psybeam,Abra,120,62.0,Bug,Flying,Psychic,,0,0,3505,4505,True
+turn4,Psybeam,Abra,120,40.0,Bug,Flying,Psychic,,0,1,3505,4505,True
+turn5,Psybeam,Abra,120,17.0,Bug,Flying,Psychic,,0,1,3505,4505,True
+turn6,Psybeam,Abra,120,-6.0,Bug,Flying,Psychic,,0,1,3505,4505,True
+turn1,Sleep Powder,Kadabra,42.0,100,Bug,Flying,Psychic,,0,0,3505,5255,False
+turn2,Sleep Powder,Kadabra,-17.0,100,Bug,Flying,Psychic,,5,0,3505,5255,False
+turn1,Sleep Powder,Alakazam,31.0,115,Bug,Flying,Psychic,,0,0,3505,6005,False
+turn2,Sleep Powder,Alakazam,31.0,102.0,Bug,Flying,Psychic,,0,1,3505,6005,False
+turn3,Sleep Powder,Alakazam,-69.0,102.0,Bug,Flying,Psychic,,0,0,3505,6005,False
+turn1,Psybeam,Machop,120,130,Bug,Flying,Fighting,,0,0,3505,1755,True
+turn2,Psybeam,Machop,120,-5.0,Bug,Flying,Fighting,,0,1,3505,1755,True
+turn1,Psybeam,Machoke,120,140,Bug,Flying,Fighting,,0,0,3505,2255,True
+turn2,Psybeam,Machoke,120,140,Bug,Flying,Fighting,,0,0,3505,2255,True
+turn3,Psybeam,Machoke,120,53.0,Bug,Flying,Fighting,,0,1,3505,2255,True
+turn4,Psybeam,Machoke,120,53.0,Bug,Flying,Fighting,,0,0,3505,2255,True
+turn5,Psybeam,Machoke,120,-32.0,Bug,Flying,Fighting,,0,1,3505,2255,True
+turn1,Psybeam,Machamp,120,150,Bug,Flying,Fighting,,0,0,3505,2755,True
+turn2,Psybeam,Machamp,120,91.0,Bug,Flying,Fighting,,0,1,3505,2755,True
+turn3,Psybeam,Machamp,120,91.0,Bug,Flying,Fighting,,0,0,3505,2755,True
+turn4,Psybeam,Machamp,120,34.0,Bug,Flying,Fighting,,0,1,3505,2755,True
+turn5,Psybeam,Machamp,120,34.0,Bug,Flying,Fighting,,0,0,3505,2755,True
+turn6,Psybeam,Machamp,120,-23.0,Bug,Flying,Fighting,,0,1,3505,2755,True
+turn1,Psybeam,Bellsprout,120,110,Bug,Flying,Grass,Poison,0,0,3505,2005,True
+turn2,Psybeam,Bellsprout,120,-47.0,Bug,Flying,Grass,Poison,0,1,3505,2005,True
+turn1,Psybeam,Weepinbell,120,125,Bug,Flying,Grass,Poison,0,0,3505,2755,True
+turn2,Psybeam,Weepinbell,120,125,Bug,Flying,Grass,Poison,0,0,3505,2755,True
+turn3,Psybeam,Weepinbell,120,21.0,Bug,Flying,Grass,Poison,0,1,3505,2755,True
+turn4,Psybeam,Weepinbell,120,-82.0,Bug,Flying,Grass,Poison,0,1,3505,2755,True
+turn1,Psybeam,Victreebel,51.0,140,Bug,Flying,Grass,Poison,0,0,3505,3505,True
+turn2,Psybeam,Victreebel,51.0,66.0,Bug,Flying,Grass,Poison,0,1,3505,3505,True
+turn3,Psybeam,Victreebel,51.0,-9.0,Bug,Flying,Grass,Poison,0,1,3505,3505,True
+turn1,Psybeam,Tentacool,85.0,100,Bug,Flying,Water,Poison,0,0,3505,3505,True
+turn2,Psybeam,Tentacool,85.0,51.0,Bug,Flying,Water,Poison,0,1,3505,3505,True
+turn3,Psybeam,Tentacool,85.0,2.0,Bug,Flying,Water,Poison,0,1,3505,3505,True
+turn4,Psybeam,Tentacool,85.0,-52.0,Bug,Flying,Water,Poison,0,1,3505,3505,True
+turn1,Psybeam,Tentacruel,78.0,140,Bug,Flying,Water,Poison,0,0,3505,5005,True
+turn2,Psybeam,Tentacruel,78.0,98.0,Bug,Flying,Water,Poison,0,1,3505,5005,True
+turn3,Psybeam,Tentacruel,38.0,98.0,Bug,Flying,Water,Poison,0,0,3505,5005,True
+turn4,Psybeam,Tentacruel,38.0,58.0,Bug,Flying,Water,Poison,0,1,3505,5005,True
+turn5,Psybeam,Tentacruel,38.0,18.0,Bug,Flying,Water,Poison,0,1,3505,5005,True
+turn6,Psybeam,Tentacruel,38.0,-22.0,Bug,Flying,Water,Poison,0,1,3505,5005,True
+turn1,Psybeam,Geodude,120,100,Bug,Flying,Rock,Ground,0,0,3505,1005,True
+turn2,Psybeam,Geodude,120,16.0,Bug,Flying,Rock,Ground,0,1,3505,1005,True
+turn3,Psybeam,Geodude,120,-61.0,Bug,Flying,Rock,Ground,0,1,3505,1005,True
+turn1,Psybeam,Graveler,120,115,Bug,Flying,Rock,Ground,0,0,3505,1755,True
+turn2,Psybeam,Graveler,120,61.0,Bug,Flying,Rock,Ground,0,1,3505,1755,True
+turn3,Psybeam,Graveler,120,61.0,Bug,Flying,Rock,Ground,0,0,3505,1755,True
+turn4,Psybeam,Graveler,120,9.0,Bug,Flying,Rock,Ground,0,1,3505,1755,True
+turn5,Psybeam,Graveler,120,9.0,Bug,Flying,Rock,Ground,0,0,3505,1755,True
+turn6,Psybeam,Graveler,120,-41.0,Bug,Flying,Rock,Ground,0,1,3505,1755,True
+turn1,Psybeam,Golem,120,140,Bug,Flying,Rock,Ground,0,0,3505,2255,True
+turn2,Psybeam,Golem,120,103.0,Bug,Flying,Rock,Ground,0,1,3505,2255,True
+turn3,Psybeam,Golem,120,103.0,Bug,Flying,Rock,Ground,0,0,3505,2255,True
+turn4,Psybeam,Golem,120,63.0,Bug,Flying,Rock,Ground,0,1,3505,2255,True
+turn5,Psybeam,Golem,120,27.0,Bug,Flying,Rock,Ground,0,1,3505,2255,True
+turn6,Psybeam,Golem,120,27.0,Bug,Flying,Rock,Ground,0,0,3505,2255,True
+turn7,Psybeam,Golem,120,-8.0,Bug,Flying,Rock,Ground,0,1,3505,2255,True
+turn1,Psybeam,Ponyta,77.0,110,Bug,Flying,Fire,,0,0,3505,4505,True
+turn2,Psybeam,Ponyta,77.0,75.0,Bug,Flying,Fire,,0,1,3505,4505,True
+turn3,Psybeam,Ponyta,31.0,75.0,Bug,Flying,Fire,,0,0,3505,4505,True
+turn4,Psybeam,Ponyta,31.0,35.0,Bug,Flying,Fire,,0,1,3505,4505,True
+turn5,Psybeam,Ponyta,31.0,-2.0,Bug,Flying,Fire,,0,1,3505,4505,True
+turn1,Psybeam,Rapidash,64.0,125,Bug,Flying,Fire,,0,0,3505,5255,True
+turn2,Psybeam,Rapidash,64.0,94.0,Bug,Flying,Fire,,0,1,3505,5255,True
+turn3,Psybeam,Rapidash,64.0,63.0,Bug,Flying,Fire,,0,1,3505,5255,True
+turn4,Psybeam,Rapidash,64.0,33.0,Bug,Flying,Fire,,0,1,3505,5255,True
+turn5,Psybeam,Rapidash,64.0,4.0,Bug,Flying,Fire,,0,1,3505,5255,True
+turn6,Psybeam,Rapidash,11.0,4.0,Bug,Flying,Fire,,0,0,3505,5255,True
+turn7,Psybeam,Rapidash,11.0,-27.0,Bug,Flying,Fire,,0,1,3505,5255,True
+turn1,Psybeam,Slowpoke,120,150,Bug,Flying,Water,Psychic,0,0,3505,755,True
+turn2,Psybeam,Slowpoke,120,120.0,Bug,Flying,Water,Psychic,0,1,3505,755,True
+turn3,Psybeam,Slowpoke,120,87.0,Bug,Flying,Water,Psychic,0,1,3505,755,True
+turn4,Psybeam,Slowpoke,120,87.0,Bug,Flying,Water,Psychic,0,0,3505,755,True
+turn5,Psybeam,Slowpoke,120,58.0,Bug,Flying,Water,Psychic,0,1,3505,755,True
+turn6,Psybeam,Slowpoke,120,58.0,Bug,Flying,Water,Psychic,0,0,3505,755,True
+turn7,Psybeam,Slowpoke,120,58.0,Bug,Flying,Water,Psychic,0,0,3505,755,True
+turn8,Psybeam,Slowpoke,120,26.0,Bug,Flying,Water,Psychic,0,1,3505,755,True
+turn9,Psybeam,Slowpoke,120,-4.0,Bug,Flying,Water,Psychic,0,1,3505,755,True
+turn1,Psybeam,Slowbro,120,155,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn2,Psybeam,Slowbro,120,140.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn3,Psybeam,Slowbro,120,125.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn4,Psybeam,Slowbro,120,125.0,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn5,Psybeam,Slowbro,120,111.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn6,Psybeam,Slowbro,120,95.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn7,Psybeam,Slowbro,120,95.0,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn8,Psybeam,Slowbro,120,95.0,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn9,Psybeam,Slowbro,120,79.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn10,Psybeam,Slowbro,120,79.0,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn11,Psybeam,Slowbro,120,79.0,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn12,Psybeam,Slowbro,120,79.0,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn13,Psybeam,Slowbro,120,64.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn14,Psybeam,Slowbro,120,50.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn15,Psybeam,Slowbro,120,50.0,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn16,Psybeam,Slowbro,120,50.0,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn17,Psybeam,Slowbro,120,34.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn18,Psybeam,Slowbro,120,34.0,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn19,Psybeam,Slowbro,120,19.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn20,Psybeam,Slowbro,120,4.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn21,Psybeam,Slowbro,120,4.0,Bug,Flying,Water,Psychic,0,0,3505,1505,True
+turn22,Psybeam,Slowbro,120,-12.0,Bug,Flying,Water,Psychic,0,1,3505,1505,True
+turn1,Psybeam,Magnemite,120,85,Bug,Flying,Electric,,0,0,3505,2255,True
+turn2,Psybeam,Magnemite,120,42.0,Bug,Flying,Electric,,0,1,3505,2255,True
+turn3,Psybeam,Magnemite,120,1.0,Bug,Flying,Electric,,0,1,3505,2255,True
+turn4,Psybeam,Magnemite,120,1.0,Bug,Flying,Electric,,0,0,3505,2255,True
+turn5,Psybeam,Magnemite,120,-42.0,Bug,Flying,Electric,,0,1,3505,2255,True
+turn1,Sleep Powder,Magneton,-50.0,110,Bug,Flying,Electric,,0,0,3505,3505,False
+turn1,Psybeam,Farfetch'd,120,112,Bug,Flying,Normal,Flying,0,0,3505,3005,True
+turn2,Psybeam,Farfetch'd,120,71.0,Bug,Flying,Normal,Flying,0,1,3505,3005,True
+turn3,Psybeam,Farfetch'd,120,71.0,Bug,Flying,Normal,Flying,0,0,3505,3005,True
+turn4,Psybeam,Farfetch'd,120,71.0,Bug,Flying,Normal,Flying,0,0,3505,3005,True
+turn5,Psybeam,Farfetch'd,120,31.0,Bug,Flying,Normal,Flying,0,1,3505,3005,True
+turn6,Psybeam,Farfetch'd,120,31.0,Bug,Flying,Normal,Flying,0,0,3505,3005,True
+turn7,Psybeam,Farfetch'd,120,-11.0,Bug,Flying,Normal,Flying,0,1,3505,3005,True
+turn1,Psybeam,Doduo,93.0,95,Bug,Flying,Normal,Flying,0,0,3505,3755,True
+turn2,Psybeam,Doduo,93.0,26.0,Bug,Flying,Normal,Flying,0,1,3505,3755,True
+turn3,Psybeam,Doduo,93.0,-43.0,Bug,Flying,Normal,Flying,0,1,3505,3755,True
+turn1,Sleep Powder,Dodrio,-90.0,120,Bug,Flying,Normal,Flying,0,0,3505,5005,False
+turn1,Psybeam,Seel,120,125,Bug,Flying,Water,,0,0,3505,2255,True
+turn2,Psybeam,Seel,120,125,Bug,Flying,Water,,0,0,3505,2255,True
+turn3,Psybeam,Seel,120,90.0,Bug,Flying,Water,,0,1,3505,2255,True
+turn4,Psybeam,Seel,120,56.0,Bug,Flying,Water,,0,1,3505,2255,True
+turn5,Psybeam,Seel,120,56.0,Bug,Flying,Water,,0,0,3505,2255,True
+turn6,Psybeam,Seel,120,56.0,Bug,Flying,Water,,0,0,3505,2255,True
+turn7,Psybeam,Seel,120,19.0,Bug,Flying,Water,,0,1,3505,2255,True
+turn8,Psybeam,Seel,120,-15.0,Bug,Flying,Water,,0,1,3505,2255,True
+turn1,Sleep Powder,Dewgong,-2.0,150,Bug,Flying,Water,Ice,0,0,3505,3505,False
+turn1,Psybeam,Grimer,120,140,Bug,Flying,Poison,,0,0,3505,1255,True
+turn2,Psybeam,Grimer,120,140,Bug,Flying,Poison,,0,0,3505,1255,True
+turn3,Psybeam,Grimer,120,49.0,Bug,Flying,Poison,,0,1,3505,1255,True
+turn4,Psybeam,Grimer,120,-52.0,Bug,Flying,Poison,,0,1,3505,1255,True
+turn1,Psybeam,Muk,120,165,Bug,Flying,Poison,,0,0,3505,2505,True
+turn2,Psybeam,Muk,120,113.0,Bug,Flying,Poison,,0,1,3505,2505,True
+turn3,Psybeam,Muk,120,113.0,Bug,Flying,Poison,,0,0,3505,2505,True
+turn4,Psybeam,Muk,120,113.0,Bug,Flying,Poison,,0,0,3505,2505,True
+turn5,Psybeam,Muk,120,113.0,Bug,Flying,Poison,,0,0,3505,2505,True
+turn6,Psybeam,Muk,120,63.0,Bug,Flying,Poison,,0,1,3505,2505,True
+turn7,Psybeam,Muk,120,15.0,Bug,Flying,Poison,,0,1,3505,2505,True
+turn8,Psybeam,Muk,120,15.0,Bug,Flying,Poison,,0,0,3505,2505,True
+turn9,Psybeam,Muk,120,15.0,Bug,Flying,Poison,,0,0,3505,2505,True
+turn10,Psybeam,Muk,120,15.0,Bug,Flying,Poison,,0,0,3505,2505,True
+turn11,Psybeam,Muk,120,-33.0,Bug,Flying,Poison,,0,1,3505,2505,True
+turn1,Psybeam,Shellder,120,90,Bug,Flying,Water,,0,0,3505,2005,True
+turn2,Psybeam,Shellder,120,-3.0,Bug,Flying,Water,,0,1,3505,2005,True
+turn1,Sleep Powder,Cloyster,-2.0,110,Bug,Flying,Water,Ice,0,0,3505,3505,False
+turn1,Psybeam,Gastly,120,90,Bug,Flying,Ghost,Poison,0,0,3505,4005,True
+turn2,Psybeam,Gastly,103.0,90,Bug,Flying,Ghost,Poison,5,1,3505,4005,True
+turn3,Psybeam,Gastly,103.0,-56.0,Bug,Flying,Ghost,Poison,5,1,3505,4005,True
+turn1,Psybeam,Haunter,120,105,Bug,Flying,Ghost,Poison,0,0,3505,4755,True
+turn2,Psybeam,Haunter,103.0,105,Bug,Flying,Ghost,Poison,5,1,3505,4755,True
+turn3,Psybeam,Haunter,103.0,18.0,Bug,Flying,Ghost,Poison,5,1,3505,4755,True
+turn4,Psybeam,Haunter,53.0,18.0,Bug,Flying,Ghost,Poison,5,0,3505,4755,True
+turn5,Psybeam,Haunter,53.0,-78.0,Bug,Flying,Ghost,Poison,5,1,3505,4755,True
+turn1,Psybeam,Gengar,120,120,Bug,Flying,Ghost,Poison,0,0,3505,5505,True
+turn2,Psybeam,Gengar,120,50.0,Bug,Flying,Ghost,Poison,5,1,3505,5505,True
+turn3,Psybeam,Gengar,104.0,50.0,Bug,Flying,Ghost,Poison,5,1,3505,5505,True
+turn4,Psybeam,Gengar,89.0,50.0,Bug,Flying,Ghost,Poison,5,1,3505,5505,True
+turn5,Psybeam,Gengar,89.0,-12.0,Bug,Flying,Ghost,Poison,5,1,3505,5505,True
+turn1,Sleep Powder,Onix,-68.0,95,Bug,Flying,Rock,Ground,0,0,3505,3505,False
+turn1,Psybeam,Drowzee,120,120,Bug,Flying,Psychic,,0,0,3505,2105,True
+turn2,Psybeam,Drowzee,120,107.0,Bug,Flying,Psychic,,0,1,3505,2105,True
+turn3,Psybeam,Drowzee,120,107.0,Bug,Flying,Psychic,,0,0,3505,2105,True
+turn4,Psybeam,Drowzee,120,92.0,Bug,Flying,Psychic,,0,1,3505,2105,True
+turn5,Psybeam,Drowzee,120,92.0,Bug,Flying,Psychic,,0,0,3505,2105,True
+turn6,Psybeam,Drowzee,120,79.0,Bug,Flying,Psychic,,0,1,3505,2105,True
+turn7,Psybeam,Drowzee,120,79.0,Bug,Flying,Psychic,,0,0,3505,2105,True
+turn8,Psybeam,Drowzee,120,79.0,Bug,Flying,Psychic,,0,0,3505,2105,True
+turn9,Psybeam,Drowzee,120,66.0,Bug,Flying,Psychic,,0,1,3505,2105,True
+turn10,Psybeam,Drowzee,120,51.0,Bug,Flying,Psychic,,0,1,3505,2105,True
+turn11,Psybeam,Drowzee,120,51.0,Bug,Flying,Psychic,,0,0,3505,2105,True
+turn12,Psybeam,Drowzee,120,37.0,Bug,Flying,Psychic,,0,1,3505,2105,True
+turn13,Psybeam,Drowzee,120,24.0,Bug,Flying,Psychic,,0,1,3505,2105,True
+turn14,Psybeam,Drowzee,120,24.0,Bug,Flying,Psychic,,0,0,3505,2105,True
+turn15,Psybeam,Drowzee,120,9.0,Bug,Flying,Psychic,,0,1,3505,2105,True
+turn16,Psybeam,Drowzee,120,-4.0,Bug,Flying,Psychic,,0,1,3505,2105,True
+turn1,Psybeam,Hypno,120,145,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn2,Psybeam,Hypno,120,133.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn3,Psybeam,Hypno,120,133.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn4,Psybeam,Hypno,120,122.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn5,Psybeam,Hypno,120,122.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn6,Psybeam,Hypno,120,111.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn7,Psybeam,Hypno,120,111.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn8,Psybeam,Hypno,120,111.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn9,Psybeam,Hypno,120,111.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn10,Psybeam,Hypno,120,99.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn11,Psybeam,Hypno,120,89.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn12,Psybeam,Hypno,120,89.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn13,Psybeam,Hypno,120,79.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn14,Psybeam,Hypno,120,68.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn15,Psybeam,Hypno,120,68.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn16,Psybeam,Hypno,120,68.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn17,Psybeam,Hypno,120,56.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn18,Psybeam,Hypno,120,44.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn19,Psybeam,Hypno,120,44.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn20,Psybeam,Hypno,120,44.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn21,Psybeam,Hypno,120,34.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn22,Psybeam,Hypno,120,34.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn23,Psybeam,Hypno,120,24.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn24,Psybeam,Hypno,120,24.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn25,Psybeam,Hypno,120,14.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn26,Psybeam,Hypno,120,3.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn27,Psybeam,Hypno,120,3.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn28,Psybeam,Hypno,120,3.0,Bug,Flying,Psychic,,0,0,3505,3355,True
+turn29,Psybeam,Hypno,120,-9.0,Bug,Flying,Psychic,,0,1,3505,3355,True
+turn1,Psybeam,Krabby,120,90,Bug,Flying,Water,,0,0,3505,2505,True
+turn2,Psybeam,Krabby,120,90,Bug,Flying,Water,,0,0,3505,2505,True
+turn3,Psybeam,Krabby,120,-13.0,Bug,Flying,Water,,0,1,3505,2505,True
+turn1,Sleep Powder,Kingler,-50.0,115,Bug,Flying,Water,,0,0,3505,3755,False
+turn1,Sleep Powder,Voltorb,56.0,100,Bug,Flying,Electric,,0,0,3505,5005,False
+turn2,Sleep Powder,Voltorb,56.0,59.0,Bug,Flying,Electric,,0,1,3505,5005,False
+turn3,Sleep Powder,Voltorb,-4.0,59.0,Bug,Flying,Electric,,0,0,3505,5005,False
+turn1,Psybeam,Electrode,15.0,120,Bug,Flying,Electric,,0,0,3505,7005,True
+turn2,Psybeam,Electrode,15.0,87.0,Bug,Flying,Electric,,0,1,3505,7005,True
+turn3,Psybeam,Electrode,15.0,54.0,Bug,Flying,Electric,,0,1,3505,7005,True
+turn4,Psybeam,Electrode,15.0,25.0,Bug,Flying,Electric,,0,1,3505,7005,True
+turn5,Psybeam,Electrode,15.0,-6.0,Bug,Flying,Electric,,0,1,3505,7005,True
+turn1,Psybeam,Exeggcute,120,120,Bug,Flying,Grass,Psychic,0,0,3505,2005,True
+turn2,Psybeam,Exeggcute,120,92.0,Bug,Flying,Grass,Psychic,0,1,3505,2005,True
+turn3,Psybeam,Exeggcute,120,92.0,Bug,Flying,Grass,Psychic,0,0,3505,2005,True
+turn4,Psybeam,Exeggcute,120,67.0,Bug,Flying,Grass,Psychic,0,1,3505,2005,True
+turn5,Psybeam,Exeggcute,120,67.0,Bug,Flying,Grass,Psychic,0,0,3505,2005,True
+turn6,Psybeam,Exeggcute,120,42.0,Bug,Flying,Grass,Psychic,0,1,3505,2005,True
+turn7,Psybeam,Exeggcute,120,13.0,Bug,Flying,Grass,Psychic,0,1,3505,2005,True
+turn8,Psybeam,Exeggcute,120,13.0,Bug,Flying,Grass,Psychic,0,0,3505,2005,True
+turn9,Psybeam,Exeggcute,120,-12.0,Bug,Flying,Grass,Psychic,0,1,3505,2005,True
+turn1,Psybeam,Exeggutor,120,155,Bug,Flying,Grass,Psychic,0,0,3505,2755,True
+turn2,Psybeam,Exeggutor,120,135.0,Bug,Flying,Grass,Psychic,0,1,3505,2755,True
+turn3,Psybeam,Exeggutor,120,135.0,Bug,Flying,Grass,Psychic,0,0,3505,2755,True
+turn4,Psybeam,Exeggutor,120,115.0,Bug,Flying,Grass,Psychic,0,1,3505,2755,True
+turn5,Psybeam,Exeggutor,120,115.0,Bug,Flying,Grass,Psychic,0,0,3505,2755,True
+turn6,Psybeam,Exeggutor,120,96.0,Bug,Flying,Grass,Psychic,0,1,3505,2755,True
+turn7,Psybeam,Exeggutor,120,77.0,Bug,Flying,Grass,Psychic,0,1,3505,2755,True
+turn8,Psybeam,Exeggutor,120,77.0,Bug,Flying,Grass,Psychic,0,0,3505,2755,True
+turn9,Psybeam,Exeggutor,120,77.0,Bug,Flying,Grass,Psychic,0,0,3505,2755,True
+turn10,Psybeam,Exeggutor,120,60.0,Bug,Flying,Grass,Psychic,0,1,3505,2755,True
+turn11,Psybeam,Exeggutor,120,41.0,Bug,Flying,Grass,Psychic,0,1,3505,2755,True
+turn12,Psybeam,Exeggutor,120,41.0,Bug,Flying,Grass,Psychic,0,0,3505,2755,True
+turn13,Psybeam,Exeggutor,120,41.0,Bug,Flying,Grass,Psychic,0,0,3505,2755,True
+turn14,Psybeam,Exeggutor,120,22.0,Bug,Flying,Grass,Psychic,0,1,3505,2755,True
+turn15,Psybeam,Exeggutor,120,2.0,Bug,Flying,Grass,Psychic,0,1,3505,2755,True
+turn16,Psybeam,Exeggutor,120,2.0,Bug,Flying,Grass,Psychic,0,0,3505,2755,True
+turn17,Psybeam,Exeggutor,120,-18.0,Bug,Flying,Grass,Psychic,0,1,3505,2755,True
+turn1,Psybeam,Cubone,120,110,Bug,Flying,Ground,,0,0,3505,1755,True
+turn2,Psybeam,Cubone,120,110,Bug,Flying,Ground,,0,0,3505,1755,True
+turn3,Psybeam,Cubone,120,63.0,Bug,Flying,Ground,,0,1,3505,1755,True
+turn4,Psybeam,Cubone,120,63.0,Bug,Flying,Ground,,0,0,3505,1755,True
+turn5,Psybeam,Cubone,120,63.0,Bug,Flying,Ground,,0,0,3505,1755,True
+turn6,Psybeam,Cubone,120,15.0,Bug,Flying,Ground,,0,1,3505,1755,True
+turn7,Psybeam,Cubone,120,-35.0,Bug,Flying,Ground,,0,1,3505,1755,True
+turn1,Psybeam,Marowak,120,120,Bug,Flying,Ground,,0,0,3505,2255,True
+turn2,Psybeam,Marowak,120,90.0,Bug,Flying,Ground,,0,1,3505,2255,True
+turn3,Psybeam,Marowak,120,57.0,Bug,Flying,Ground,,0,1,3505,2255,True
+turn4,Psybeam,Marowak,120,57.0,Bug,Flying,Ground,,0,0,3505,2255,True
+turn5,Psybeam,Marowak,120,25.0,Bug,Flying,Ground,,0,1,3505,2255,True
+turn6,Psybeam,Marowak,120,25.0,Bug,Flying,Ground,,0,0,3505,2255,True
+turn7,Psybeam,Marowak,120,-7.0,Bug,Flying,Ground,,0,1,3505,2255,True
+turn1,Sleep Powder,Hitmonlee,7.0,110,Bug,Flying,Fighting,,0,0,3505,4355,False
+turn2,Sleep Powder,Hitmonlee,7.0,65.0,Bug,Flying,Fighting,,0,1,3505,4355,False
+turn3,Sleep Powder,Hitmonlee,7.0,18.0,Bug,Flying,Fighting,,0,1,3505,4355,False
+turn4,Sleep Powder,Hitmonlee,-107.0,18.0,Bug,Flying,Fighting,,0,0,3505,4355,False
+turn1,Sleep Powder,Hitmonchan,-20.0,110,Bug,Flying,Fighting,,0,0,3505,3805,False
+turn1,Psybeam,Lickitung,120,150,Bug,Flying,Normal,,0,0,3505,1505,True
+turn2,Psybeam,Lickitung,120,150,Bug,Flying,Normal,,0,0,3505,1505,True
+turn3,Psybeam,Lickitung,120,115.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn4,Psybeam,Lickitung,120,115.0,Bug,Flying,Normal,,0,0,3505,1505,True
+turn5,Psybeam,Lickitung,120,115.0,Bug,Flying,Normal,,0,0,3505,1505,True
+turn6,Psybeam,Lickitung,120,83.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn7,Psybeam,Lickitung,120,52.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn8,Psybeam,Lickitung,120,52.0,Bug,Flying,Normal,,0,0,3505,1505,True
+turn9,Psybeam,Lickitung,120,16.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn10,Psybeam,Lickitung,120,-17.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn1,Psybeam,Koffing,120,100,Bug,Flying,Poison,,0,0,3505,1755,True
+turn2,Psybeam,Koffing,120,-5.0,Bug,Flying,Poison,,0,1,3505,1755,True
+turn1,Psybeam,Weezing,120,125,Bug,Flying,Poison,,0,0,3505,3005,True
+turn2,Psybeam,Weezing,120,51.0,Bug,Flying,Poison,,0,1,3505,3005,True
+turn3,Psybeam,Weezing,120,51.0,Bug,Flying,Poison,,0,0,3505,3005,True
+turn4,Psybeam,Weezing,120,-24.0,Bug,Flying,Poison,,0,1,3505,3005,True
+turn1,Psybeam,Rhyhorn,120,125.0,Bug,Flying,Ground,Rock,0,0,3505,1255,True
+turn2,Psybeam,Rhyhorn,120,27.0,Bug,Flying,Ground,Rock,0,1,3505,1255,True
+turn3,Psybeam,Rhyhorn,120,12.0,Bug,Flying,Ground,Rock,0,0,3505,1255,True
+turn4,Psybeam,Rhyhorn,120,-78.0,Bug,Flying,Ground,Rock,0,1,3505,1255,True
+turn1,Psybeam,Rhydon,120,143.0,Bug,Flying,Ground,Rock,0,0,3505,2005,True
+turn2,Psybeam,Rhydon,120,120.0,Bug,Flying,Ground,Rock,0,0,3505,2005,True
+turn3,Psybeam,Rhydon,120,43.0,Bug,Flying,Ground,Rock,0,1,3505,2005,True
+turn4,Psybeam,Rhydon,120,-35.0,Bug,Flying,Ground,Rock,0,1,3505,2005,True
+turn1,Psybeam,Chansey,120,310,Bug,Flying,Normal,,0,0,3505,2505,True
+turn2,Psybeam,Chansey,120,286.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn3,Psybeam,Chansey,120,286.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn4,Psybeam,Chansey,120,264.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn5,Psybeam,Chansey,120,264.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn6,Psybeam,Chansey,120,238.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn7,Psybeam,Chansey,120,213.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn8,Psybeam,Chansey,120,213.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn9,Psybeam,Chansey,120,187.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn10,Psybeam,Chansey,120,187.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn11,Psybeam,Chansey,120,161.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn12,Psybeam,Chansey,120,161.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn13,Psybeam,Chansey,120,137.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn14,Psybeam,Chansey,120,113.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn15,Psybeam,Chansey,120,113.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn16,Psybeam,Chansey,120,90.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn17,Psybeam,Chansey,120,67.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn18,Psybeam,Chansey,120,67.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn19,Psybeam,Chansey,120,67.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn20,Psybeam,Chansey,120,67.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn21,Psybeam,Chansey,120,44.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn22,Psybeam,Chansey,120,44.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn23,Psybeam,Chansey,120,44.0,Bug,Flying,Normal,,0,0,3505,2505,True
+turn24,Psybeam,Chansey,120,19.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn25,Psybeam,Chansey,120,-6.0,Bug,Flying,Normal,,0,1,3505,2505,True
+turn1,Psybeam,Tangela,120,125,Bug,Flying,Grass,,0,0,3505,3005,True
+turn2,Psybeam,Tangela,120,67.0,Bug,Flying,Grass,,0,1,3505,3005,True
+turn3,Psybeam,Tangela,120,3.0,Bug,Flying,Grass,,0,1,3505,3005,True
+turn4,Psybeam,Tangela,120,3.0,Bug,Flying,Grass,,0,0,3505,3005,True
+turn5,Psybeam,Tangela,120,-59.0,Bug,Flying,Grass,,0,1,3505,3005,True
+turn1,Sleep Powder,Kangaskhan,41.0,165,Bug,Flying,Normal,,0,0,3505,4505,False
+turn2,Sleep Powder,Kangaskhan,41.0,134.0,Bug,Flying,Normal,,0,1,3505,4505,False
+turn3,Sleep Powder,Kangaskhan,41.0,103.0,Bug,Flying,Normal,,0,1,3505,4505,False
+turn4,Sleep Powder,Kangaskhan,-32.0,103.0,Bug,Flying,Normal,,0,0,3505,4505,False
+turn1,Psybeam,Horsea,120,90,Bug,Flying,Water,,0,0,3505,3005,True
+turn2,Psybeam,Horsea,120,-11.0,Bug,Flying,Water,,0,1,3505,3005,True
+turn1,Psybeam,Seadra,42.0,115,Bug,Flying,Water,,0,0,3505,4255,True
+turn2,Psybeam,Seadra,42.0,57.0,Bug,Flying,Water,,0,1,3505,4255,True
+turn3,Psybeam,Seadra,42.0,5.0,Bug,Flying,Water,,0,1,3505,4255,True
+turn4,Psybeam,Seadra,42.0,-52.0,Bug,Flying,Water,,0,1,3505,4255,True
+turn1,Psybeam,Goldeen,120,105,Bug,Flying,Water,,0,0,3505,3155,True
+turn2,Psybeam,Goldeen,120,59.0,Bug,Flying,Water,,0,1,3505,3155,True
+turn3,Psybeam,Goldeen,120,59.0,Bug,Flying,Water,,0,0,3505,3155,True
+turn4,Psybeam,Goldeen,120,10.0,Bug,Flying,Water,,0,1,3505,3155,True
+turn5,Psybeam,Goldeen,120,10.0,Bug,Flying,Water,,0,0,3505,3155,True
+turn6,Psybeam,Goldeen,120,-42.0,Bug,Flying,Water,,0,1,3505,3155,True
+turn1,Psybeam,Seaking,120,140,Bug,Flying,Water,,0,0,3505,3405,True
+turn2,Psybeam,Seaking,120,140,Bug,Flying,Water,,0,0,3505,3405,True
+turn3,Psybeam,Seaking,120,140,Bug,Flying,Water,,0,0,3505,3405,True
+turn4,Psybeam,Seaking,120,108.0,Bug,Flying,Water,,0,1,3505,3405,True
+turn5,Psybeam,Seaking,120,108.0,Bug,Flying,Water,,0,0,3505,3405,True
+turn6,Psybeam,Seaking,120,75.0,Bug,Flying,Water,,0,1,3505,3405,True
+turn7,Psybeam,Seaking,120,75.0,Bug,Flying,Water,,0,0,3505,3405,True
+turn8,Psybeam,Seaking,120,46.0,Bug,Flying,Water,,0,1,3505,3405,True
+turn9,Psybeam,Seaking,120,16.0,Bug,Flying,Water,,0,1,3505,3405,True
+turn10,Psybeam,Seaking,120,16.0,Bug,Flying,Water,,0,0,3505,3405,True
+turn11,Psybeam,Seaking,120,-16.0,Bug,Flying,Water,,0,1,3505,3405,True
+turn1,Sleep Powder,Staryu,105.0,90,Bug,Flying,Water,,0,0,3505,4255,False
+turn2,Sleep Powder,Staryu,65.0,90,Bug,Flying,Water,,5,0,3505,4255,False
+turn3,Sleep Powder,Staryu,26.0,90,Bug,Flying,Water,,5,0,3505,4255,False
+turn4,Sleep Powder,Staryu,-14.0,90,Bug,Flying,Water,,5,0,3505,4255,False
+turn1,Sleep Powder,Starmie,39.0,120,Bug,Flying,Water,Psychic,0,0,3505,5755,False
+turn2,Sleep Powder,Starmie,39.0,107.0,Bug,Flying,Water,Psychic,0,1,3505,5755,False
+turn3,Sleep Powder,Starmie,-51.0,107.0,Bug,Flying,Water,Psychic,0,0,3505,5755,False
+turn1,Sleep Powder,Mr. Mime,98.0,100,Bug,Flying,Psychic,Normal,0,0,3505,4505,False
+turn2,Sleep Powder,Mr. Mime,98.0,89.0,Bug,Flying,Psychic,Normal,0,1,3505,4505,False
+turn3,Sleep Powder,Mr. Mime,58.0,89.0,Bug,Flying,Psychic,Normal,0,0,3505,4505,False
+turn4,Sleep Powder,Mr. Mime,58.0,78.0,Bug,Flying,Psychic,Normal,0,1,3505,4505,False
+turn5,Sleep Powder,Mr. Mime,18.0,78.0,Bug,Flying,Psychic,Normal,0,0,3505,4505,False
+turn6,Sleep Powder,Mr. Mime,18.0,68.0,Bug,Flying,Psychic,Normal,0,1,3505,4505,False
+turn7,Sleep Powder,Mr. Mime,18.0,58.0,Bug,Flying,Psychic,Normal,0,1,3505,4505,False
+turn8,Sleep Powder,Mr. Mime,18.0,47.0,Bug,Flying,Psychic,Normal,0,1,3505,4505,False
+turn9,Sleep Powder,Mr. Mime,18.0,37.0,Bug,Flying,Psychic,Normal,0,1,3505,4505,False
+turn10,Sleep Powder,Mr. Mime,18.0,27.0,Bug,Flying,Psychic,Normal,0,1,3505,4505,False
+turn11,Sleep Powder,Mr. Mime,-2.0,27.0,Bug,Flying,Psychic,Normal,0,0,3505,4505,False
+turn1,Sleep Powder,Scyther,-46.0,130,Bug,Flying,Bug,Flying,0,0,3505,5255,False
+turn1,Sleep Powder,Jynx,27.0,125,Bug,Flying,Ice,Psychic,0,0,3505,4755,False
+turn2,Sleep Powder,Jynx,-68.0,125,Bug,Flying,Ice,Psychic,6,0,3505,4755,False
+turn1,Sleep Powder,Electabuzz,-28.0,125,Bug,Flying,Electric,,0,0,3505,5255,False
+turn1,Sleep Powder,Magmar,-32.0,125,Bug,Flying,Fire,,0,0,3505,4655,False
+turn1,Psybeam,Pinsir,120,125,Bug,Flying,Bug,,0,0,3505,4255,True
+turn2,Psybeam,Pinsir,120,92.0,Bug,Flying,Bug,,0,1,3505,4255,True
+turn3,Psybeam,Pinsir,120,56.0,Bug,Flying,Bug,,0,1,3505,4255,True
+turn4,Psybeam,Pinsir,120,23.0,Bug,Flying,Bug,,0,1,3505,4255,True
+turn5,Psybeam,Pinsir,120,-13.0,Bug,Flying,Bug,,0,1,3505,4255,True
+turn1,Sleep Powder,Tauros,5.0,79.0,Bug,Flying,Normal,,0,0,3505,5505,False
+turn2,Sleep Powder,Tauros,5.0,19.0,Bug,Flying,Normal,,0,1,3505,5505,False
+turn3,Sleep Powder,Tauros,-71.0,-7.0,Bug,Flying,Normal,,0,0,3505,5505,False
+turn1,Psybeam,Magikarp,120,80,Bug,Flying,Water,,0,0,3505,4005,True
+turn2,Psybeam,Magikarp,120,-42.0,Bug,Flying,Water,,0,1,3505,4005,True
+turn1,Sleep Powder,Gyarados,66.0,155,Bug,Flying,Water,Flying,0,0,3505,4055,False
+turn2,Sleep Powder,Gyarados,66.0,130.0,Bug,Flying,Water,Flying,0,1,3505,4055,False
+turn3,Sleep Powder,Gyarados,66.0,107.0,Bug,Flying,Water,Flying,0,1,3505,4055,False
+turn4,Sleep Powder,Gyarados,17.0,107.0,Bug,Flying,Water,Flying,0,0,3505,4055,False
+turn5,Sleep Powder,Gyarados,17.0,84.0,Bug,Flying,Water,Flying,0,1,3505,4055,False
+turn6,Sleep Powder,Gyarados,17.0,60.0,Bug,Flying,Water,Flying,0,1,3505,4055,False
+turn7,Sleep Powder,Gyarados,-39.0,60.0,Bug,Flying,Water,Flying,0,0,3505,4055,False
+turn1,Psybeam,Lapras,120,190,Bug,Flying,Water,Ice,0,0,3505,3005,True
+turn2,Psybeam,Lapras,120,190,Bug,Flying,Water,Ice,0,0,3505,3005,True
+turn3,Psybeam,Lapras,120,165.0,Bug,Flying,Water,Ice,0,1,3505,3005,True
+turn4,Psybeam,Lapras,120,137.0,Bug,Flying,Water,Ice,0,1,3505,3005,True
+turn5,Psybeam,Lapras,120,137.0,Bug,Flying,Water,Ice,0,0,3505,3005,True
+turn6,Psybeam,Lapras,120,113.0,Bug,Flying,Water,Ice,0,1,3505,3005,True
+turn7,Psybeam,Lapras,120,88.0,Bug,Flying,Water,Ice,0,1,3505,3005,True
+turn8,Psybeam,Lapras,120,88.0,Bug,Flying,Water,Ice,0,0,3505,3005,True
+turn9,Psybeam,Lapras,120,60.0,Bug,Flying,Water,Ice,0,1,3505,3005,True
+turn10,Psybeam,Lapras,120,34.0,Bug,Flying,Water,Ice,0,1,3505,3005,True
+turn11,Psybeam,Lapras,120,34.0,Bug,Flying,Water,Ice,0,0,3505,3005,True
+turn12,Psybeam,Lapras,120,5.0,Bug,Flying,Water,Ice,0,1,3505,3005,True
+turn13,Psybeam,Lapras,120,5.0,Bug,Flying,Water,Ice,0,0,3505,3005,True
+turn14,Psybeam,Lapras,120,-21.0,Bug,Flying,Water,Ice,0,1,3505,3005,True
+turn1,Psybeam,Ditto,120,108,Bug,Flying,Normal,,0,0,3505,2405,True
+turn2,Psybeam,Ditto,120,58.0,Bug,Flying,Normal,,0,1,3505,2405,True
+turn3,Psybeam,Ditto,120,10.0,Bug,Flying,Normal,,0,1,3505,2405,True
+turn4,Psybeam,Ditto,120,10.0,Bug,Flying,Normal,,0,0,3505,2405,True
+turn5,Psybeam,Ditto,120,-39.0,Bug,Flying,Normal,,0,1,3505,2405,True
+turn1,Psybeam,Eevee,120,115,Bug,Flying,Normal,,0,0,3505,2755,True
+turn2,Psybeam,Eevee,120,79.0,Bug,Flying,Normal,,0,1,3505,2755,True
+turn3,Psybeam,Eevee,120,39.0,Bug,Flying,Normal,,0,1,3505,2755,True
+turn4,Psybeam,Eevee,120,39.0,Bug,Flying,Normal,,0,0,3505,2755,True
+turn5,Psybeam,Eevee,120,1.0,Bug,Flying,Normal,,0,1,3505,2755,True
+turn6,Psybeam,Eevee,120,-36.0,Bug,Flying,Normal,,0,1,3505,2755,True
+turn1,Psybeam,Vaporeon,120,190,Bug,Flying,Water,,0,0,3505,3255,True
+turn2,Psybeam,Vaporeon,120,164.0,Bug,Flying,Water,,0,1,3505,3255,True
+turn3,Psybeam,Vaporeon,120,164.0,Bug,Flying,Water,,0,0,3505,3255,True
+turn4,Psybeam,Vaporeon,120,137.0,Bug,Flying,Water,,0,1,3505,3255,True
+turn5,Psybeam,Vaporeon,120,113.0,Bug,Flying,Water,,0,1,3505,3255,True
+turn6,Psybeam,Vaporeon,120,113.0,Bug,Flying,Water,,0,0,3505,3255,True
+turn7,Psybeam,Vaporeon,120,85.0,Bug,Flying,Water,,0,1,3505,3255,True
+turn8,Psybeam,Vaporeon,120,85.0,Bug,Flying,Water,,0,0,3505,3255,True
+turn9,Psybeam,Vaporeon,120,85.0,Bug,Flying,Water,,0,0,3505,3255,True
+turn10,Psybeam,Vaporeon,120,85.0,Bug,Flying,Water,,0,0,3505,3255,True
+turn11,Psybeam,Vaporeon,120,57.0,Bug,Flying,Water,,0,1,3505,3255,True
+turn12,Psybeam,Vaporeon,120,57.0,Bug,Flying,Water,,0,0,3505,3255,True
+turn13,Psybeam,Vaporeon,120,32.0,Bug,Flying,Water,,0,1,3505,3255,True
+turn14,Psybeam,Vaporeon,120,32.0,Bug,Flying,Water,,0,0,3505,3255,True
+turn15,Psybeam,Vaporeon,120,7.0,Bug,Flying,Water,,0,1,3505,3255,True
+turn16,Psybeam,Vaporeon,120,-20.0,Bug,Flying,Water,,0,1,3505,3255,True
+turn1,Psybeam,Jolteon,49.0,125,Bug,Flying,Electric,,0,0,3505,6505,True
+turn2,Psybeam,Jolteon,49.0,100.0,Bug,Flying,Electric,,0,1,3505,6505,True
+turn3,Psybeam,Jolteon,49.0,73.0,Bug,Flying,Electric,,0,1,3505,6505,True
+turn4,Psybeam,Jolteon,49.0,46.0,Bug,Flying,Electric,,0,1,3505,6505,True
+turn5,Psybeam,Jolteon,49.0,19.0,Bug,Flying,Electric,,0,1,3505,6505,True
+turn6,Psybeam,Jolteon,49.0,-8.0,Bug,Flying,Electric,,0,1,3505,6505,True
+turn1,Psybeam,Flareon,120,125,Bug,Flying,Fire,,0,0,3505,3255,True
+turn2,Psybeam,Flareon,120,103.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn3,Psybeam,Flareon,120,103.0,Bug,Flying,Fire,,0,0,3505,3255,True
+turn4,Psybeam,Flareon,120,82.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn5,Psybeam,Flareon,120,82.0,Bug,Flying,Fire,,0,0,3505,3255,True
+turn6,Psybeam,Flareon,120,58.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn7,Psybeam,Flareon,120,34.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn8,Psybeam,Flareon,120,34.0,Bug,Flying,Fire,,0,0,3505,3255,True
+turn9,Psybeam,Flareon,120,34.0,Bug,Flying,Fire,,0,0,3505,3255,True
+turn10,Psybeam,Flareon,120,10.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn11,Psybeam,Flareon,120,10.0,Bug,Flying,Fire,,0,0,3505,3255,True
+turn12,Psybeam,Flareon,120,10.0,Bug,Flying,Fire,,0,0,3505,3255,True
+turn13,Psybeam,Flareon,120,10.0,Bug,Flying,Fire,,0,0,3505,3255,True
+turn14,Psybeam,Flareon,120,-13.0,Bug,Flying,Fire,,0,1,3505,3255,True
+turn1,Psybeam,Porygon,120,125,Bug,Flying,Normal,,0,0,3505,2005,True
+turn2,Psybeam,Porygon,120,91.0,Bug,Flying,Normal,,0,1,3505,2005,True
+turn3,Psybeam,Porygon,120,59.0,Bug,Flying,Normal,,0,1,3505,2005,True
+turn4,Psybeam,Porygon,120,59.0,Bug,Flying,Normal,,0,0,3505,2005,True
+turn5,Psybeam,Porygon,120,27.0,Bug,Flying,Normal,,0,1,3505,2005,True
+turn6,Psybeam,Porygon,120,27.0,Bug,Flying,Normal,,0,0,3505,2005,True
+turn7,Psybeam,Porygon,120,-7.0,Bug,Flying,Normal,,0,1,3505,2005,True
+turn1,Psybeam,Omanyte,120,95,Bug,Flying,Rock,Water,0,0,3505,1755,True
+turn2,Psybeam,Omanyte,120,51.0,Bug,Flying,Rock,Water,0,1,3505,1755,True
+turn3,Psybeam,Omanyte,120,51.0,Bug,Flying,Rock,Water,0,0,3505,1755,True
+turn4,Psybeam,Omanyte,120,4.0,Bug,Flying,Rock,Water,0,1,3505,1755,True
+turn5,Psybeam,Omanyte,120,-44.0,Bug,Flying,Rock,Water,0,1,3505,1755,True
+turn1,Psybeam,Omastar,120,130,Bug,Flying,Rock,Water,0,0,3505,2755,True
+turn2,Psybeam,Omastar,120,130,Bug,Flying,Rock,Water,0,0,3505,2755,True
+turn3,Psybeam,Omastar,120,130,Bug,Flying,Rock,Water,0,0,3505,2755,True
+turn4,Psybeam,Omastar,120,92.0,Bug,Flying,Rock,Water,0,1,3505,2755,True
+turn5,Psybeam,Omastar,120,92.0,Bug,Flying,Rock,Water,0,0,3505,2755,True
+turn6,Psybeam,Omastar,120,92.0,Bug,Flying,Rock,Water,0,0,3505,2755,True
+turn7,Psybeam,Omastar,120,92.0,Bug,Flying,Rock,Water,0,0,3505,2755,True
+turn8,Psybeam,Omastar,120,59.0,Bug,Flying,Rock,Water,0,1,3505,2755,True
+turn9,Psybeam,Omastar,120,22.0,Bug,Flying,Rock,Water,0,1,3505,2755,True
+turn10,Psybeam,Omastar,120,22.0,Bug,Flying,Rock,Water,0,0,3505,2755,True
+turn11,Psybeam,Omastar,120,-15.0,Bug,Flying,Rock,Water,0,1,3505,2755,True
+turn1,Psybeam,Kabuto,120,90,Bug,Flying,Rock,Water,0,0,3505,2755,True
+turn2,Psybeam,Kabuto,120,33.0,Bug,Flying,Rock,Water,0,1,3505,2755,True
+turn3,Psybeam,Kabuto,120,33.0,Bug,Flying,Rock,Water,0,0,3505,2755,True
+turn4,Psybeam,Kabuto,120,-21.0,Bug,Flying,Rock,Water,0,1,3505,2755,True
+turn1,Sleep Powder,Kabutops,49.0,120,Bug,Flying,Rock,Water,0,0,3505,4005,False
+turn2,Sleep Powder,Kabutops,49.0,88.0,Bug,Flying,Rock,Water,0,1,3505,4005,False
+turn3,Sleep Powder,Kabutops,49.0,51.0,Bug,Flying,Rock,Water,0,1,3505,4005,False
+turn4,Sleep Powder,Kabutops,-17.0,51.0,Bug,Flying,Rock,Water,0,0,3505,4005,False
+turn1,Sleep Powder,Aerodactyl,-38.0,140,Bug,Flying,Rock,Flying,0,0,3505,6505,False
+turn1,Psybeam,Snorlax,120,220,Bug,Flying,Normal,,0,0,3505,1505,True
+turn2,Psybeam,Snorlax,120,195.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn3,Psybeam,Snorlax,120,173.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn4,Psybeam,Snorlax,120,173.0,Bug,Flying,Normal,,0,0,3505,1505,True
+turn5,Psybeam,Snorlax,120,150.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn6,Psybeam,Snorlax,120,150.0,Bug,Flying,Normal,,0,0,3505,1505,True
+turn7,Psybeam,Snorlax,120,126.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn8,Psybeam,Snorlax,120,104.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn9,Psybeam,Snorlax,120,104.0,Bug,Flying,Normal,,0,0,3505,1505,True
+turn10,Psybeam,Snorlax,120,81.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn11,Psybeam,Snorlax,120,81.0,Bug,Flying,Normal,,0,0,3505,1505,True
+turn12,Psybeam,Snorlax,120,56.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn13,Psybeam,Snorlax,120,32.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn14,Psybeam,Snorlax,120,32.0,Bug,Flying,Normal,,0,0,3505,1505,True
+turn15,Psybeam,Snorlax,120,9.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn16,Psybeam,Snorlax,120,-13.0,Bug,Flying,Normal,,0,1,3505,1505,True
+turn1,Sleep Powder,Articuno,-34.0,150,Bug,Flying,Ice,Flying,0,0,3505,4255,False
+turn1,Sleep Powder,Zapdos,-100.0,150,Bug,Flying,Electric,Flying,0,0,3505,5005,False
+turn1,Sleep Powder,Moltres,-240.0,150,Bug,Flying,Fire,Flying,0,0,3505,4505,False
+turn1,Psybeam,Dratini,120,101,Bug,Flying,Dragon,,0,0,3505,2505,True
+turn2,Psybeam,Dratini,120,54.0,Bug,Flying,Dragon,,0,1,3505,2505,True
+turn3,Psybeam,Dratini,120,54.0,Bug,Flying,Dragon,,0,0,3505,2505,True
+turn4,Psybeam,Dratini,120,7.0,Bug,Flying,Dragon,,0,1,3505,2505,True
+turn5,Psybeam,Dratini,120,-44.0,Bug,Flying,Dragon,,0,1,3505,2505,True
+turn1,Psybeam,Dragonair,120,121,Bug,Flying,Dragon,,0,0,3505,3505,True
+turn2,Psybeam,Dragonair,120,84.0,Bug,Flying,Dragon,,4,1,3505,3505,True
+turn3,Psybeam,Dragonair,80,84.0,Bug,Flying,Dragon,,4,0,3505,3505,True
+turn4,Psybeam,Dragonair,80,51.0,Bug,Flying,Dragon,,4,1,3505,3505,True
+turn5,Psybeam,Dragonair,80,18.0,Bug,Flying,Dragon,,4,1,3505,3505,True
+turn6,Psybeam,Dragonair,,,Bug,Flying,Dragon,,,,3505,3505,True
+turn1,Sleep Powder,Dragonite,120,151,Bug,Flying,Dragon,Flying,0,0,3505,4005,False
+turn2,Sleep Powder,Dragonite,80,151,Bug,Flying,Dragon,Flying,4,0,3505,4005,False
+turn3,Sleep Powder,Dragonite,80,128.0,Bug,Flying,Dragon,Flying,4,1,3505,4005,False
+turn4,Sleep Powder,Dragonite,80,102.0,Bug,Flying,Dragon,Flying,4,1,3505,4005,False
+turn5,Sleep Powder,Dragonite,80,79.0,Bug,Flying,Dragon,Flying,4,1,3505,4005,False
+turn6,Sleep Powder,Dragonite,80,52.0,Bug,Flying,Dragon,Flying,4,1,3505,4005,False
+turn7,Sleep Powder,Dragonite,80,52.0,Bug,Flying,Dragon,Flying,4,1,3505,4005,False
+turn8,Sleep Powder,Dragonite,40,52.0,Bug,Flying,Dragon,Flying,4,0,3505,4005,False
+turn9,Sleep Powder,Dragonite,40,52.0,Bug,Flying,Dragon,Flying,4,1,3505,4005,False
+turn10,Sleep Powder,Dragonite,0,52.0,Bug,Flying,Dragon,Flying,4,0,3505,4005,False
+turn1,Sleep Powder,Mewtwo,120,166,Bug,Flying,Psychic,,0,0,3505,6505,False
+turn2,Sleep Powder,Mewtwo,56.0,166,Bug,Flying,Psychic,,1,0,3505,6505,False
+turn3,Sleep Powder,Mewtwo,-7.0,166,Bug,Flying,Psychic,,1,0,3505,6505,False
+turn1,Sleep Powder,Mew,51.0,160,Bug,Flying,Psychic,,0,0,3505,5005,False
+turn2,Sleep Powder,Mew,51.0,147.0,Bug,Flying,Psychic,,0,1,3505,5005,False
+turn3,Sleep Powder,Mew,51.0,134.0,Bug,Flying,Psychic,,0,1,3505,5005,False
+turn4,Sleep Powder,Mew,-15.0,134.0,Bug,Flying,Psychic,,0,0,3505,5005,False

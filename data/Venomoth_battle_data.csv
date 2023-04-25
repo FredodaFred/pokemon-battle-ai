@@ -1,0 +1,666 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Psychic,Bulbasaur,130,0.0,Bug,Poison,Grass,Poison,0,0,4505,2255,True
+turn1,Psychic,Ivysaur,114,32.0,Bug,Poison,Grass,Poison,0,0,4505,3005,True
+turn2,Psychic,Ivysaur,114,-50.0,Bug,Poison,Grass,Poison,3,0,4505,3005,True
+turn1,Psychic,Venusaur,107.0,71.0,Bug,Poison,Grass,Poison,0,0,4505,4005,True
+turn2,Psychic,Venusaur,84.0,1.0,Bug,Poison,Grass,Poison,0,0,4505,4005,True
+turn3,Psychic,Venusaur,84.0,-65.0,Bug,Poison,Grass,Poison,0,0,4505,4005,True
+turn1,Psychic,Charmander,130,99,Bug,Poison,Fire,,0,0,4505,3255,True
+turn2,Psychic,Charmander,130,35.0,Bug,Poison,Fire,,0,1,4505,3255,True
+turn3,Psychic,Charmander,130,35.0,Bug,Poison,Fire,,0,0,4505,3255,True
+turn4,Psychic,Charmander,130,35.0,Bug,Poison,Fire,,0,0,4505,3255,True
+turn5,Psychic,Charmander,130,-28.0,Bug,Poison,Fire,,0,1,4505,3255,True
+turn1,Psychic,Charmeleon,130,118,Bug,Poison,Fire,,0,0,4505,4005,True
+turn2,Psychic,Charmeleon,130,118,Bug,Poison,Fire,,0,0,4505,4005,True
+turn3,Psychic,Charmeleon,130,68.0,Bug,Poison,Fire,,0,1,4505,4005,True
+turn4,Psychic,Charmeleon,130,68.0,Bug,Poison,Fire,,0,0,4505,4005,True
+turn5,Psychic,Charmeleon,130,20.0,Bug,Poison,Fire,,0,1,4505,4005,True
+turn6,Psychic,Charmeleon,130,20.0,Bug,Poison,Fire,,0,0,4505,4005,True
+turn7,Psychic,Charmeleon,130,-31.0,Bug,Poison,Fire,,0,1,4505,4005,True
+turn1,Sleep Powder,Charizard,-29.0,138,Bug,Poison,Fire,Flying,0,0,4505,5005,False
+turn1,Psychic,Squirtle,130,104,Bug,Poison,Water,,0,0,4505,2155,True
+turn2,Psychic,Squirtle,130,50.0,Bug,Poison,Water,,0,1,4505,2155,True
+turn3,Psychic,Squirtle,130,-1.0,Bug,Poison,Water,,0,1,4505,2155,True
+turn1,Psychic,Wartortle,130,119,Bug,Poison,Water,,0,0,4505,2905,True
+turn2,Psychic,Wartortle,130,75.0,Bug,Poison,Water,,0,1,4505,2905,True
+turn3,Psychic,Wartortle,130,30.0,Bug,Poison,Water,,0,1,4505,2905,True
+turn4,Psychic,Wartortle,130,30.0,Bug,Poison,Water,,0,0,4505,2905,True
+turn5,Psychic,Wartortle,130,-16.0,Bug,Poison,Water,,0,1,4505,2905,True
+turn1,Psychic,Blastoise,130,139,Bug,Poison,Water,,0,0,4505,3905,True
+turn2,Psychic,Blastoise,130,104.0,Bug,Poison,Water,,0,1,4505,3905,True
+turn3,Psychic,Blastoise,130,104.0,Bug,Poison,Water,,0,0,4505,3905,True
+turn4,Psychic,Blastoise,130,70.0,Bug,Poison,Water,,0,1,4505,3905,True
+turn5,Psychic,Blastoise,130,39.0,Bug,Poison,Water,,0,1,4505,3905,True
+turn6,Psychic,Blastoise,130,39.0,Bug,Poison,Water,,0,0,4505,3905,True
+turn7,Psychic,Blastoise,130,7.0,Bug,Poison,Water,,0,1,4505,3905,True
+turn8,Psychic,Blastoise,130,7.0,Bug,Poison,Water,,0,0,4505,3905,True
+turn9,Psychic,Blastoise,130,-25.0,Bug,Poison,Water,,0,1,4505,3905,True
+turn1,Psychic,Caterpie,130,105,Bug,Poison,Bug,,0,0,4505,2255,True
+turn2,Psychic,Caterpie,130,-56.0,Bug,Poison,Bug,,0,1,4505,2255,True
+turn1,Psychic,Metapod,130,110,Bug,Poison,Bug,,0,0,4505,1505,True
+turn2,Psychic,Metapod,130,-19.0,Bug,Poison,Bug,,0,1,4505,1505,True
+turn1,Psychic,Butterfree,130,120,Bug,Poison,Bug,Flying,0,0,4505,3505,True
+turn2,Psychic,Butterfree,130,80.0,Bug,Poison,Bug,Flying,0,1,4505,3505,True
+turn3,Psychic,Butterfree,130,80.0,Bug,Poison,Bug,Flying,0,0,4505,3505,True
+turn4,Psychic,Butterfree,130,38.0,Bug,Poison,Bug,Flying,0,1,4505,3505,True
+turn5,Psychic,Butterfree,130,-3.0,Bug,Poison,Bug,Flying,0,1,4505,3505,True
+turn1,Psychic,Weedle,130,-211.0,Bug,Poison,Bug,Poison,0,0,4505,2505,True
+turn1,Psychic,Kakuna,130,-140.0,Bug,Poison,Bug,Poison,0,0,4505,1755,True
+turn1,Psychic,Beedrill,26.0,42.0,Bug,Poison,Bug,Poison,0,0,4505,3755,True
+turn2,Psychic,Beedrill,26.0,-48.0,Bug,Poison,Bug,Poison,3,0,4505,3755,True
+turn1,Psychic,Pidgey,130,100,Bug,Poison,Normal,Flying,0,0,4505,2805,True
+turn2,Psychic,Pidgey,130,2.0,Bug,Poison,Normal,Flying,0,1,4505,2805,True
+turn3,Psychic,Pidgey,130,-100.0,Bug,Poison,Normal,Flying,0,1,4505,2805,True
+turn1,Psychic,Pidgeotto,130,123,Bug,Poison,Normal,Flying,0,0,4505,3555,True
+turn2,Psychic,Pidgeotto,130,56.0,Bug,Poison,Normal,Flying,0,1,4505,3555,True
+turn3,Psychic,Pidgeotto,130,-7.0,Bug,Poison,Normal,Flying,0,1,4505,3555,True
+turn1,Psychic,Pidgeot,22.0,143,Bug,Poison,Normal,Flying,0,0,4505,5055,True
+turn2,Psychic,Pidgeot,22.0,93.0,Bug,Poison,Normal,Flying,0,1,4505,5055,True
+turn3,Psychic,Pidgeot,22.0,41.0,Bug,Poison,Normal,Flying,0,1,4505,5055,True
+turn4,Psychic,Pidgeot,22.0,-8.0,Bug,Poison,Normal,Flying,0,1,4505,5055,True
+turn1,Psychic,Rattata,130,90,Bug,Poison,Normal,,0,0,4505,3605,True
+turn2,Psychic,Rattata,130,-9.0,Bug,Poison,Normal,,0,1,4505,3605,True
+turn1,Sleep Powder,Raticate,59.0,115,Bug,Poison,Normal,,0,0,4505,4855,False
+turn2,Sleep Powder,Raticate,59.0,69.0,Bug,Poison,Normal,,0,1,4505,4855,False
+turn3,Sleep Powder,Raticate,-6.0,69.0,Bug,Poison,Normal,,0,0,4505,4855,False
+turn1,Psychic,Spearow,130,100,Bug,Poison,Normal,Flying,0,0,4505,3505,True
+turn2,Psychic,Spearow,130,-16.0,Bug,Poison,Normal,Flying,0,1,4505,3505,True
+turn1,Sleep Powder,Fearow,-28.0,125,Bug,Poison,Normal,Flying,0,0,4505,5005,False
+turn1,Psychic,Ekans,130,-28.0,Bug,Poison,Poison,,0,0,4505,2755,True
+turn1,Psychic,Arbok,107.0,40.0,Bug,Poison,Poison,,0,0,4505,4005,True
+turn2,Psychic,Arbok,107.0,-42.0,Bug,Poison,Poison,,0,0,4505,4005,True
+turn1,Psychic,Pikachu,86.0,95,Bug,Poison,Electric,,0,0,4505,4505,True
+turn2,Psychic,Pikachu,86.0,30.0,Bug,Poison,Electric,,0,1,4505,4505,True
+turn3,Psychic,Pikachu,86.0,-39.0,Bug,Poison,Electric,,0,1,4505,4505,True
+turn1,Sleep Powder,Raichu,51.0,120,Bug,Poison,Electric,,0,0,4505,5505,False
+turn2,Sleep Powder,Raichu,51.0,80.0,Bug,Poison,Electric,,0,1,4505,5505,False
+turn3,Sleep Powder,Raichu,-29.0,80.0,Bug,Poison,Electric,,0,0,4505,5505,False
+turn1,Psychic,Sandshrew,130,110,Bug,Poison,Ground,,0,0,4505,2005,True
+turn2,Psychic,Sandshrew,130,110,Bug,Poison,Ground,,0,0,4505,2005,True
+turn3,Psychic,Sandshrew,130,8.0,Bug,Poison,Ground,,0,1,4505,2005,True
+turn4,Psychic,Sandshrew,130,8.0,Bug,Poison,Ground,,0,0,4505,2005,True
+turn5,Psychic,Sandshrew,130,8.0,Bug,Poison,Ground,,0,0,4505,2005,True
+turn6,Psychic,Sandshrew,130,-105.0,Bug,Poison,Ground,,0,1,4505,2005,True
+turn1,Psychic,Sandslash,130,135,Bug,Poison,Ground,,0,0,4505,3255,True
+turn2,Psychic,Sandslash,130,135,Bug,Poison,Ground,,0,0,4505,3255,True
+turn3,Psychic,Sandslash,130,135,Bug,Poison,Ground,,0,0,4505,3255,True
+turn4,Psychic,Sandslash,130,72.0,Bug,Poison,Ground,,0,1,4505,3255,True
+turn5,Psychic,Sandslash,130,14.0,Bug,Poison,Ground,,0,1,4505,3255,True
+turn6,Psychic,Sandslash,130,14.0,Bug,Poison,Ground,,0,0,4505,3255,True
+turn7,Psychic,Sandslash,130,14.0,Bug,Poison,Ground,,0,0,4505,3255,True
+turn8,Psychic,Sandslash,130,-51.0,Bug,Poison,Ground,,0,1,4505,3255,True
+turn1,Psychic,Nidoran♀,130,-64.0,Bug,Poison,Poison,,0,0,4505,2055,True
+turn1,Psychic,Nidorina,104.0,17.0,Bug,Poison,Poison,,0,0,4505,2805,True
+turn2,Psychic,Nidorina,104.0,-114.0,Bug,Poison,Poison,,0,0,4505,2805,True
+turn1,Psychic,Nidoqueen,71.0,74.0,Bug,Poison,Poison,Ground,0,0,4505,3805,True
+turn2,Psychic,Nidoqueen,71.0,-13.0,Bug,Poison,Poison,Ground,0,0,4505,3805,True
+turn1,Psychic,Nidoran♂,130,-55.0,Bug,Poison,Poison,,0,0,4505,2505,True
+turn1,Psychic,Nidorino,130,-3.0,Bug,Poison,Poison,,0,0,4505,3255,True
+turn1,Psychic,Nidoking,46.0,44.0,Bug,Poison,Poison,Ground,0,0,4505,4255,True
+turn2,Psychic,Nidoking,46.0,-46.0,Bug,Poison,Poison,Ground,0,0,4505,4255,True
+turn1,Psychic,Clefairy,130,130,Bug,Poison,Normal,,0,0,4505,1755,True
+turn2,Psychic,Clefairy,130,130,Bug,Poison,Normal,,0,0,4505,1755,True
+turn3,Psychic,Clefairy,130,130,Bug,Poison,Normal,,0,0,4505,1755,True
+turn4,Psychic,Clefairy,130,75.0,Bug,Poison,Normal,,0,1,4505,1755,True
+turn5,Psychic,Clefairy,130,75.0,Bug,Poison,Normal,,0,0,4505,1755,True
+turn6,Psychic,Clefairy,130,21.0,Bug,Poison,Normal,,0,1,4505,1755,True
+turn7,Psychic,Clefairy,130,-28.0,Bug,Poison,Normal,,0,1,4505,1755,True
+turn1,Psychic,Clefable,130,155,Bug,Poison,Normal,,0,0,4505,3005,True
+turn2,Psychic,Clefable,130,118.0,Bug,Poison,Normal,,0,1,4505,3005,True
+turn3,Psychic,Clefable,130,81.0,Bug,Poison,Normal,,0,1,4505,3005,True
+turn4,Psychic,Clefable,130,81.0,Bug,Poison,Normal,,0,0,4505,3005,True
+turn5,Psychic,Clefable,130,81.0,Bug,Poison,Normal,,0,0,4505,3005,True
+turn6,Psychic,Clefable,130,44.0,Bug,Poison,Normal,,0,1,4505,3005,True
+turn7,Psychic,Clefable,130,4.0,Bug,Poison,Normal,,0,1,4505,3005,True
+turn8,Psychic,Clefable,130,4.0,Bug,Poison,Normal,,0,0,4505,3005,True
+turn9,Psychic,Clefable,130,-33.0,Bug,Poison,Normal,,0,1,4505,3005,True
+turn1,Psychic,Vulpix,130,98,Bug,Poison,Fire,,0,0,4505,3255,True
+turn2,Psychic,Vulpix,130,98,Bug,Poison,Fire,,0,0,4505,3255,True
+turn3,Psychic,Vulpix,130,45.0,Bug,Poison,Fire,,0,1,4505,3255,True
+turn4,Psychic,Vulpix,130,-9.0,Bug,Poison,Fire,,0,1,4505,3255,True
+turn1,Psychic,Ninetales,76.0,133,Bug,Poison,Fire,,0,0,4505,5005,True
+turn2,Psychic,Ninetales,76.0,101.0,Bug,Poison,Fire,,0,1,4505,5005,True
+turn3,Psychic,Ninetales,76.0,65.0,Bug,Poison,Fire,,0,1,4505,5005,True
+turn4,Psychic,Ninetales,14.0,65.0,Bug,Poison,Fire,,0,0,4505,5005,True
+turn5,Psychic,Ninetales,14.0,30.0,Bug,Poison,Fire,,0,1,4505,5005,True
+turn6,Psychic,Ninetales,14.0,-4.0,Bug,Poison,Fire,,0,1,4505,5005,True
+turn1,Psychic,Jigglypuff,130,175,Bug,Poison,Normal,,0,0,4505,1005,True
+turn2,Psychic,Jigglypuff,130,39.0,Bug,Poison,Normal,,0,1,4505,1005,True
+turn3,Psychic,Jigglypuff,130,-87.0,Bug,Poison,Normal,,0,1,4505,1005,True
+turn1,Psychic,Wigglytuff,130,200,Bug,Poison,Normal,,0,0,4505,2255,True
+turn2,Psychic,Wigglytuff,130,131.0,Bug,Poison,Normal,,0,1,4505,2255,True
+turn3,Psychic,Wigglytuff,130,60.0,Bug,Poison,Normal,,0,1,4505,2255,True
+turn4,Psychic,Wigglytuff,130,60.0,Bug,Poison,Normal,,0,0,4505,2255,True
+turn5,Psychic,Wigglytuff,130,60.0,Bug,Poison,Normal,,0,0,4505,2255,True
+turn6,Psychic,Wigglytuff,130,-10.0,Bug,Poison,Normal,,0,1,4505,2255,True
+turn1,Psychic,Zubat,130,-67.0,Bug,Poison,Poison,Flying,0,0,4505,2755,True
+turn1,Psychic,Golbat,29.0,37.0,Bug,Poison,Poison,Flying,0,0,4505,4505,False
+turn2,Psychic,Golbat,-66.0,37.0,Bug,Poison,Poison,Flying,0,0,4505,4505,False
+turn1,Psychic,Oddish,113.0,7.0,Bug,Poison,Grass,Poison,0,0,4505,1505,True
+turn2,Psychic,Oddish,113.0,-103.0,Bug,Poison,Grass,Poison,0,0,4505,1505,True
+turn1,Psychic,Gloom,110.0,30.0,Bug,Poison,Grass,Poison,0,0,4505,2005,True
+turn2,Psychic,Gloom,110.0,-54.0,Bug,Poison,Grass,Poison,0,0,4505,2005,True
+turn1,Psychic,Vileplume,130,58.0,Bug,Poison,Grass,Poison,0,0,4505,2505,True
+turn2,Psychic,Vileplume,120.0,63.0,Bug,Poison,Grass,Poison,1,0,4505,2505,True
+turn3,Psychic,Vileplume,111.0,67.0,Bug,Poison,Grass,Poison,1,0,4505,2505,True
+turn4,Psychic,Vileplume,111.0,-15.0,Bug,Poison,Grass,Poison,0,0,4505,2505,True
+turn1,Psychic,Paras,130,95,Bug,Poison,Bug,Grass,0,0,4505,1255,True
+turn2,Psychic,Paras,130,33.0,Bug,Poison,Bug,Grass,0,1,4505,1255,True
+turn3,Psychic,Paras,130,33.0,Bug,Poison,Bug,Grass,0,0,4505,1255,True
+turn4,Psychic,Paras,130,-29.0,Bug,Poison,Bug,Grass,0,1,4505,1255,True
+turn1,Psychic,Parasect,130,120,Bug,Poison,Bug,Grass,0,0,4505,1505,True
+turn2,Psychic,Parasect,130,81.0,Bug,Poison,Bug,Grass,0,1,4505,1505,True
+turn3,Psychic,Parasect,130,81.0,Bug,Poison,Bug,Grass,0,0,4505,1505,True
+turn4,Psychic,Parasect,130,39.0,Bug,Poison,Bug,Grass,0,1,4505,1505,True
+turn5,Psychic,Parasect,130,39.0,Bug,Poison,Bug,Grass,0,0,4505,1505,True
+turn6,Psychic,Parasect,130,-2.0,Bug,Poison,Bug,Grass,0,1,4505,1505,True
+turn1,Psychic,Venonat,130,-4.0,Bug,Poison,Bug,Poison,0,0,4505,2255,True
+turn1,Psychic,Venomoth,44.0,31.0,Bug,Poison,Bug,Poison,0,0,4505,4505,False
+turn2,Psychic,Venomoth,-44.0,31.0,Bug,Poison,Bug,Poison,0,0,4505,4505,False
+turn1,Psychic,Diglett,74.0,70,Bug,Poison,Ground,,0,0,4505,4755,True
+turn2,Psychic,Diglett,74.0,-10.0,Bug,Poison,Ground,,0,1,4505,4755,True
+turn1,Psychic,Dugtrio,41.0,95,Bug,Poison,Ground,,0,0,4505,6005,True
+turn2,Psychic,Dugtrio,41.0,47.0,Bug,Poison,Ground,,0,1,4505,6005,True
+turn3,Psychic,Dugtrio,41.0,-4.0,Bug,Poison,Ground,,0,1,4505,6005,True
+turn1,Psychic,Meowth,102.0,100,Bug,Poison,Normal,,0,0,4505,4505,True
+turn2,Psychic,Meowth,102.0,21.0,Bug,Poison,Normal,,0,1,4505,4505,True
+turn3,Psychic,Meowth,102.0,-59.0,Bug,Poison,Normal,,0,1,4505,4505,True
+turn1,Psychic,Persian,81.0,125,Bug,Poison,Normal,,0,0,4505,5755,True
+turn2,Psychic,Persian,81.0,76.0,Bug,Poison,Normal,,0,1,4505,5755,True
+turn3,Psychic,Persian,81.0,25.0,Bug,Poison,Normal,,0,1,4505,5755,True
+turn4,Psychic,Persian,81.0,-30.0,Bug,Poison,Normal,,0,1,4505,5755,True
+turn1,Psychic,Psyduck,130,110,Bug,Poison,Water,,0,0,4505,2755,True
+turn2,Psychic,Psyduck,130,43.0,Bug,Poison,Water,,0,1,4505,2755,True
+turn3,Psychic,Psyduck,130,43.0,Bug,Poison,Water,,0,0,4505,2755,True
+turn4,Psychic,Psyduck,130,-21.0,Bug,Poison,Water,,0,1,4505,2755,True
+turn1,Psychic,Golduck,130,140,Bug,Poison,Water,,0,0,4505,4255,True
+turn2,Psychic,Golduck,130,140,Bug,Poison,Water,,0,0,4505,4255,True
+turn3,Psychic,Golduck,130,140,Bug,Poison,Water,,0,0,4505,4255,True
+turn4,Psychic,Golduck,130,140,Bug,Poison,Water,,0,0,4505,4255,True
+turn5,Psychic,Golduck,130,95.0,Bug,Poison,Water,,0,1,4505,4255,True
+turn6,Psychic,Golduck,130,95.0,Bug,Poison,Water,,0,0,4505,4255,True
+turn7,Psychic,Golduck,130,54.0,Bug,Poison,Water,,0,1,4505,4255,True
+turn8,Psychic,Golduck,130,54.0,Bug,Poison,Water,,0,0,4505,4255,True
+turn9,Psychic,Golduck,130,10.0,Bug,Poison,Water,,0,1,4505,4255,True
+turn10,Psychic,Golduck,130,10.0,Bug,Poison,Water,,0,0,4505,4255,True
+turn11,Psychic,Golduck,130,-35.0,Bug,Poison,Water,,0,1,4505,4255,True
+turn1,Psychic,Mankey,130,-52.0,Bug,Poison,Fighting,,0,0,4505,3505,True
+turn1,Psychic,Primeape,49.0,35.0,Bug,Poison,Fighting,,0,0,4505,4755,False
+turn2,Psychic,Primeape,-31.0,35.0,Bug,Poison,Fighting,,0,0,4505,4755,False
+turn1,Psychic,Growlithe,130,105.0,Bug,Poison,Fire,,0,0,4505,3005,True
+turn2,Psychic,Growlithe,130,32.0,Bug,Poison,Fire,,0,1,4505,3005,True
+turn3,Psychic,Growlithe,130,21.0,Bug,Poison,Fire,,0,0,4505,3005,True
+turn4,Psychic,Growlithe,130,10.0,Bug,Poison,Fire,,0,0,4505,3005,True
+turn5,Psychic,Growlithe,130,-69.0,Bug,Poison,Fire,,0,1,4505,3005,True
+turn1,Sleep Powder,Arcanine,-24.0,134.0,Bug,Poison,Fire,,0,0,4505,4755,False
+turn1,Sleep Powder,Poliwag,130,100,Bug,Poison,Water,,0,0,4505,4505,False
+turn2,Sleep Powder,Poliwag,99.0,100,Bug,Poison,Water,,1,0,4505,4505,False
+turn3,Sleep Powder,Poliwag,69.0,100,Bug,Poison,Water,,1,0,4505,4505,False
+turn4,Sleep Powder,Poliwag,37.0,100,Bug,Poison,Water,,1,0,4505,4505,False
+turn5,Sleep Powder,Poliwag,9.0,100,Bug,Poison,Water,,1,0,4505,4505,False
+turn6,Sleep Powder,Poliwag,-22.0,100,Bug,Poison,Water,,1,0,4505,4505,False
+turn1,Psychic,Poliwhirl,93.0,125,Bug,Poison,Water,,0,0,4505,4505,True
+turn2,Psychic,Poliwhirl,93.0,53.0,Bug,Poison,Water,,0,1,4505,4505,True
+turn3,Psychic,Poliwhirl,55.0,53.0,Bug,Poison,Water,,0,0,4505,4505,True
+turn4,Psychic,Poliwhirl,55.0,-19.0,Bug,Poison,Water,,0,1,4505,4505,True
+turn1,Psychic,Poliwrath,130,76.0,Bug,Poison,Water,Fighting,0,0,4505,3505,True
+turn2,Psychic,Poliwrath,130,5.0,Bug,Poison,Water,Fighting,0,0,4505,3505,True
+turn3,Psychic,Poliwrath,130,-78.0,Bug,Poison,Water,Fighting,0,0,4505,3505,True
+turn1,Psychic,Abra,130,85,Bug,Poison,Psychic,,0,0,4505,4505,True
+turn2,Psychic,Abra,130,53.0,Bug,Poison,Psychic,,0,1,4505,4505,True
+turn3,Psychic,Abra,130,22.0,Bug,Poison,Psychic,,0,1,4505,4505,True
+turn4,Psychic,Abra,130,-6.0,Bug,Poison,Psychic,,0,1,4505,4505,True
+turn1,Sleep Powder,Kadabra,0.0,100,Bug,Poison,Psychic,,0,0,4505,5255,False
+turn1,Sleep Powder,Alakazam,-74.0,115,Bug,Poison,Psychic,,0,0,4505,6005,False
+turn1,Psychic,Machop,130,-77.0,Bug,Poison,Fighting,,0,0,4505,1755,True
+turn1,Psychic,Machoke,75.0,27.0,Bug,Poison,Fighting,,0,0,4505,2255,True
+turn2,Psychic,Machoke,75.0,-81.0,Bug,Poison,Fighting,,0,0,4505,2255,True
+turn1,Psychic,Machamp,53.0,64.0,Bug,Poison,Fighting,,0,0,4505,2755,True
+turn2,Psychic,Machamp,53.0,-13.0,Bug,Poison,Fighting,,0,0,4505,2755,True
+turn1,Psychic,Bellsprout,130,-104.0,Bug,Poison,Grass,Poison,0,0,4505,2005,True
+turn1,Psychic,Weepinbell,130,-14.0,Bug,Poison,Grass,Poison,0,0,4505,2755,True
+turn1,Psychic,Victreebel,75.0,38.0,Bug,Poison,Grass,Poison,0,0,4505,3505,True
+turn2,Psychic,Victreebel,75.0,-61.0,Bug,Poison,Grass,Poison,0,0,4505,3505,True
+turn1,Psychic,Tentacool,110.0,26.0,Bug,Poison,Water,Poison,0,0,4505,3505,True
+turn2,Psychic,Tentacool,110.0,-41.0,Bug,Poison,Water,Poison,0,0,4505,3505,True
+turn1,Psychic,Tentacruel,86.0,77.0,Bug,Poison,Water,Poison,0,0,4505,5005,False
+turn2,Psychic,Tentacruel,40.0,20.0,Bug,Poison,Water,Poison,0,0,4505,5005,False
+turn3,Psychic,Tentacruel,-3.0,20.0,Bug,Poison,Water,Poison,0,0,4505,5005,False
+turn1,Psychic,Geodude,130,100,Bug,Poison,Rock,Ground,0,0,4505,1005,True
+turn2,Psychic,Geodude,130,100,Bug,Poison,Rock,Ground,0,0,4505,1005,True
+turn3,Psychic,Geodude,130,-6.0,Bug,Poison,Rock,Ground,0,1,4505,1005,True
+turn1,Psychic,Graveler,130,115,Bug,Poison,Rock,Ground,0,0,4505,1755,True
+turn2,Psychic,Graveler,130,115,Bug,Poison,Rock,Ground,0,0,4505,1755,True
+turn3,Psychic,Graveler,130,115,Bug,Poison,Rock,Ground,0,0,4505,1755,True
+turn4,Psychic,Graveler,130,115,Bug,Poison,Rock,Ground,0,0,4505,1755,True
+turn5,Psychic,Graveler,130,115,Bug,Poison,Rock,Ground,0,0,4505,1755,True
+turn6,Psychic,Graveler,130,39.0,Bug,Poison,Rock,Ground,0,1,4505,1755,True
+turn7,Psychic,Graveler,130,-34.0,Bug,Poison,Rock,Ground,0,1,4505,1755,True
+turn1,Psychic,Golem,130,140,Bug,Poison,Rock,Ground,0,0,4505,2255,True
+turn2,Psychic,Golem,130,90.0,Bug,Poison,Rock,Ground,0,1,4505,2255,True
+turn3,Psychic,Golem,130,90.0,Bug,Poison,Rock,Ground,0,0,4505,2255,True
+turn4,Psychic,Golem,130,90.0,Bug,Poison,Rock,Ground,0,0,4505,2255,True
+turn5,Psychic,Golem,130,37.0,Bug,Poison,Rock,Ground,0,1,4505,2255,True
+turn6,Psychic,Golem,130,-16.0,Bug,Poison,Rock,Ground,0,1,4505,2255,True
+turn1,Psychic,Ponyta,81.0,110,Bug,Poison,Fire,,0,0,4505,4505,True
+turn2,Psychic,Ponyta,81.0,59.0,Bug,Poison,Fire,,0,1,4505,4505,True
+turn3,Psychic,Ponyta,81.0,3.0,Bug,Poison,Fire,,0,1,4505,4505,True
+turn4,Psychic,Ponyta,35.0,3.0,Bug,Poison,Fire,,0,0,4505,4505,True
+turn5,Psychic,Ponyta,35.0,-50.0,Bug,Poison,Fire,,0,1,4505,4505,True
+turn1,Psychic,Rapidash,77.0,125,Bug,Poison,Fire,,0,0,4505,5255,True
+turn2,Psychic,Rapidash,77.0,85.0,Bug,Poison,Fire,,0,1,4505,5255,True
+turn3,Psychic,Rapidash,77.0,45.0,Bug,Poison,Fire,,0,1,4505,5255,True
+turn4,Psychic,Rapidash,77.0,1.0,Bug,Poison,Fire,,0,1,4505,5255,True
+turn5,Psychic,Rapidash,77.0,-41.0,Bug,Poison,Fire,,0,1,4505,5255,True
+turn1,Psychic,Slowpoke,130,150,Bug,Poison,Water,Psychic,0,0,4505,755,True
+turn2,Psychic,Slowpoke,130,108.0,Bug,Poison,Water,Psychic,0,1,4505,755,True
+turn3,Psychic,Slowpoke,130,108.0,Bug,Poison,Water,Psychic,0,0,4505,755,True
+turn4,Psychic,Slowpoke,130,67.0,Bug,Poison,Water,Psychic,0,1,4505,755,True
+turn5,Psychic,Slowpoke,130,67.0,Bug,Poison,Water,Psychic,0,0,4505,755,True
+turn6,Psychic,Slowpoke,130,26.0,Bug,Poison,Water,Psychic,0,1,4505,755,True
+turn7,Psychic,Slowpoke,130,-19.0,Bug,Poison,Water,Psychic,0,1,4505,755,True
+turn1,Psychic,Slowbro,130,155,Bug,Poison,Water,Psychic,0,0,4505,1505,True
+turn2,Psychic,Slowbro,130,135.0,Bug,Poison,Water,Psychic,0,1,4505,1505,True
+turn3,Psychic,Slowbro,130,135.0,Bug,Poison,Water,Psychic,0,0,4505,1505,True
+turn4,Psychic,Slowbro,130,115.0,Bug,Poison,Water,Psychic,0,1,4505,1505,True
+turn5,Psychic,Slowbro,130,115.0,Bug,Poison,Water,Psychic,0,0,4505,1505,True
+turn6,Psychic,Slowbro,130,94.0,Bug,Poison,Water,Psychic,0,1,4505,1505,True
+turn7,Psychic,Slowbro,130,73.0,Bug,Poison,Water,Psychic,0,1,4505,1505,True
+turn8,Psychic,Slowbro,130,73.0,Bug,Poison,Water,Psychic,0,0,4505,1505,True
+turn9,Psychic,Slowbro,130,51.0,Bug,Poison,Water,Psychic,0,1,4505,1505,True
+turn10,Psychic,Slowbro,130,30.0,Bug,Poison,Water,Psychic,0,1,4505,1505,True
+turn11,Psychic,Slowbro,130,30.0,Bug,Poison,Water,Psychic,0,0,4505,1505,True
+turn12,Psychic,Slowbro,130,8.0,Bug,Poison,Water,Psychic,0,1,4505,1505,True
+turn13,Psychic,Slowbro,130,-12.0,Bug,Poison,Water,Psychic,0,1,4505,1505,True
+turn1,Psychic,Magnemite,130,85,Bug,Poison,Electric,,0,0,4505,2255,True
+turn2,Psychic,Magnemite,130,19.0,Bug,Poison,Electric,,0,1,4505,2255,True
+turn3,Psychic,Magnemite,130,19.0,Bug,Poison,Electric,,0,0,4505,2255,True
+turn4,Psychic,Magnemite,130,-41.0,Bug,Poison,Electric,,0,1,4505,2255,True
+turn1,Psychic,Magneton,130,110,Bug,Poison,Electric,,0,0,4505,3505,True
+turn2,Psychic,Magneton,130,61.0,Bug,Poison,Electric,,0,1,4505,3505,True
+turn3,Psychic,Magneton,130,61.0,Bug,Poison,Electric,,0,0,4505,3505,True
+turn4,Psychic,Magneton,130,61.0,Bug,Poison,Electric,,0,0,4505,3505,True
+turn5,Psychic,Magneton,130,10.0,Bug,Poison,Electric,,0,1,4505,3505,True
+turn6,Psychic,Magneton,130,-35.0,Bug,Poison,Electric,,0,1,4505,3505,True
+turn1,Psychic,Farfetch'd,130,112,Bug,Poison,Normal,Flying,0,0,4505,3005,True
+turn2,Psychic,Farfetch'd,130,58.0,Bug,Poison,Normal,Flying,0,1,4505,3005,True
+turn3,Psychic,Farfetch'd,130,58.0,Bug,Poison,Normal,Flying,0,0,4505,3005,True
+turn4,Psychic,Farfetch'd,130,7.0,Bug,Poison,Normal,Flying,0,1,4505,3005,True
+turn5,Psychic,Farfetch'd,130,-45.0,Bug,Poison,Normal,Flying,0,1,4505,3005,True
+turn1,Psychic,Doduo,130,95,Bug,Poison,Normal,Flying,0,0,4505,3755,True
+turn2,Psychic,Doduo,130,-1.0,Bug,Poison,Normal,Flying,0,1,4505,3755,True
+turn1,Sleep Powder,Dodrio,-45.0,120,Bug,Poison,Normal,Flying,0,0,4505,5005,False
+turn1,Psychic,Seel,130,125,Bug,Poison,Water,,0,0,4505,2255,True
+turn2,Psychic,Seel,130,80.0,Bug,Poison,Water,,0,1,4505,2255,True
+turn3,Psychic,Seel,130,80.0,Bug,Poison,Water,,0,0,4505,2255,True
+turn4,Psychic,Seel,130,32.0,Bug,Poison,Water,,0,1,4505,2255,True
+turn5,Psychic,Seel,130,32.0,Bug,Poison,Water,,0,0,4505,2255,True
+turn6,Psychic,Seel,130,-14.0,Bug,Poison,Water,,0,1,4505,2255,True
+turn1,Psychic,Dewgong,130,150,Bug,Poison,Water,Ice,0,0,4505,3505,True
+turn2,Psychic,Dewgong,130,114.0,Bug,Poison,Water,Ice,0,1,4505,3505,True
+turn3,Psychic,Dewgong,130,114.0,Bug,Poison,Water,Ice,0,0,4505,3505,True
+turn4,Psychic,Dewgong,130,114.0,Bug,Poison,Water,Ice,0,0,4505,3505,True
+turn5,Psychic,Dewgong,130,77.0,Bug,Poison,Water,Ice,0,1,4505,3505,True
+turn6,Psychic,Dewgong,130,77.0,Bug,Poison,Water,Ice,0,0,4505,3505,True
+turn7,Psychic,Dewgong,130,77.0,Bug,Poison,Water,Ice,0,0,4505,3505,True
+turn8,Psychic,Dewgong,130,40.0,Bug,Poison,Water,Ice,0,1,4505,3505,True
+turn9,Psychic,Dewgong,130,40.0,Bug,Poison,Water,Ice,0,0,4505,3505,True
+turn10,Psychic,Dewgong,130,1.0,Bug,Poison,Water,Ice,0,1,4505,3505,True
+turn11,Psychic,Dewgong,130,1.0,Bug,Poison,Water,Ice,0,0,4505,3505,True
+turn12,Psychic,Dewgong,130,-33.0,Bug,Poison,Water,Ice,0,1,4505,3505,True
+turn1,Psychic,Grimer,130,-4.0,Bug,Poison,Poison,,0,0,4505,1255,True
+turn1,Psychic,Muk,49.0,94.0,Bug,Poison,Poison,,0,0,4505,2505,False
+turn2,Psychic,Muk,-33.0,20.0,Bug,Poison,Poison,,0,0,4505,2505,False
+turn1,Psychic,Shellder,130,90,Bug,Poison,Water,,0,0,4505,2005,True
+turn2,Psychic,Shellder,130,-50.0,Bug,Poison,Water,,0,1,4505,2005,True
+turn1,Psychic,Cloyster,130,110,Bug,Poison,Water,Ice,0,0,4505,3505,True
+turn2,Psychic,Cloyster,130,36.0,Bug,Poison,Water,Ice,0,1,4505,3505,True
+turn3,Psychic,Cloyster,130,-34.0,Bug,Poison,Water,Ice,0,1,4505,3505,True
+turn1,Psychic,Gastly,130,-89.0,Bug,Poison,Ghost,Poison,0,0,4505,4005,True
+turn1,Psychic,Haunter,111.0,105,Bug,Poison,Ghost,Poison,0,0,4505,4755,False
+turn2,Psychic,Haunter,43.0,105,Bug,Poison,Ghost,Poison,5,0,4505,4755,False
+turn3,Psychic,Haunter,-7.0,105,Bug,Poison,Ghost,Poison,5,0,4505,4755,False
+turn1,Psychic,Gengar,130,27.0,Bug,Poison,Ghost,Poison,0,0,4505,5505,False
+turn2,Psychic,Gengar,61.0,27.0,Bug,Poison,Ghost,Poison,5,0,4505,5505,False
+turn3,Psychic,Gengar,-8.0,27.0,Bug,Poison,Ghost,Poison,5,0,4505,5505,False
+turn1,Psychic,Onix,130,95,Bug,Poison,Rock,Ground,0,0,4505,3505,True
+turn2,Psychic,Onix,130,21.0,Bug,Poison,Rock,Ground,0,1,4505,3505,True
+turn3,Psychic,Onix,130,21.0,Bug,Poison,Rock,Ground,0,0,4505,3505,True
+turn4,Psychic,Onix,130,-50.0,Bug,Poison,Rock,Ground,0,1,4505,3505,True
+turn1,Psychic,Drowzee,130,120,Bug,Poison,Psychic,,0,0,4505,2105,True
+turn2,Psychic,Drowzee,130,101.0,Bug,Poison,Psychic,,0,1,4505,2105,True
+turn3,Psychic,Drowzee,130,84.0,Bug,Poison,Psychic,,0,1,4505,2105,True
+turn4,Psychic,Drowzee,130,84.0,Bug,Poison,Psychic,,0,0,4505,2105,True
+turn5,Psychic,Drowzee,130,67.0,Bug,Poison,Psychic,,0,1,4505,2105,True
+turn6,Psychic,Drowzee,130,50.0,Bug,Poison,Psychic,,0,1,4505,2105,True
+turn7,Psychic,Drowzee,130,50.0,Bug,Poison,Psychic,,0,0,4505,2105,True
+turn8,Psychic,Drowzee,130,31.0,Bug,Poison,Psychic,,0,1,4505,2105,True
+turn9,Psychic,Drowzee,130,31.0,Bug,Poison,Psychic,,0,0,4505,2105,True
+turn10,Psychic,Drowzee,130,31.0,Bug,Poison,Psychic,,0,0,4505,2105,True
+turn11,Psychic,Drowzee,130,13.0,Bug,Poison,Psychic,,0,1,4505,2105,True
+turn12,Psychic,Drowzee,130,-7.0,Bug,Poison,Psychic,,0,1,4505,2105,True
+turn1,Psychic,Hypno,130,145,Bug,Poison,Psychic,,0,0,4505,3355,True
+turn2,Psychic,Hypno,130,131.0,Bug,Poison,Psychic,,0,1,4505,3355,True
+turn3,Psychic,Hypno,130,131.0,Bug,Poison,Psychic,,0,0,4505,3355,True
+turn4,Psychic,Hypno,130,131.0,Bug,Poison,Psychic,,0,0,4505,3355,True
+turn5,Psychic,Hypno,130,116.0,Bug,Poison,Psychic,,0,1,4505,3355,True
+turn6,Psychic,Hypno,130,100.0,Bug,Poison,Psychic,,0,1,4505,3355,True
+turn7,Psychic,Hypno,130,100.0,Bug,Poison,Psychic,,0,0,4505,3355,True
+turn8,Psychic,Hypno,130,86.0,Bug,Poison,Psychic,,0,1,4505,3355,True
+turn9,Psychic,Hypno,130,72.0,Bug,Poison,Psychic,,0,1,4505,3355,True
+turn10,Psychic,Hypno,130,72.0,Bug,Poison,Psychic,,0,0,4505,3355,True
+turn11,Psychic,Hypno,130,72.0,Bug,Poison,Psychic,,0,0,4505,3355,True
+turn12,Psychic,Hypno,130,72.0,Bug,Poison,Psychic,,0,0,4505,3355,True
+turn13,Psychic,Hypno,130,57.0,Bug,Poison,Psychic,,0,1,4505,3355,True
+turn14,Psychic,Hypno,130,43.0,Bug,Poison,Psychic,,0,1,4505,3355,True
+turn15,Psychic,Hypno,130,43.0,Bug,Poison,Psychic,,0,0,4505,3355,True
+turn16,Psychic,Hypno,130,27.0,Bug,Poison,Psychic,,0,1,4505,3355,True
+turn17,Psychic,Hypno,130,13.0,Bug,Poison,Psychic,,0,1,4505,3355,True
+turn18,Psychic,Hypno,130,13.0,Bug,Poison,Psychic,,0,0,4505,3355,True
+turn19,Psychic,Hypno,130,-2.0,Bug,Poison,Psychic,,0,1,4505,3355,True
+turn1,Psychic,Krabby,130,90,Bug,Poison,Water,,0,0,4505,2505,True
+turn2,Psychic,Krabby,130,-35.0,Bug,Poison,Water,,0,1,4505,2505,True
+turn1,Psychic,Kingler,130,115,Bug,Poison,Water,,0,0,4505,3755,True
+turn2,Psychic,Kingler,130,43.0,Bug,Poison,Water,,0,1,4505,3755,True
+turn3,Psychic,Kingler,130,-19.0,Bug,Poison,Water,,0,1,4505,3755,True
+turn1,Psychic,Voltorb,79.0,100,Bug,Poison,Electric,,0,0,4505,5005,True
+turn2,Psychic,Voltorb,79.0,38.0,Bug,Poison,Electric,,0,1,4505,5005,True
+turn3,Psychic,Voltorb,79.0,-26.0,Bug,Poison,Electric,,0,1,4505,5005,True
+turn1,Psychic,Electrode,37.0,120,Bug,Poison,Electric,,0,0,4505,7005,True
+turn2,Psychic,Electrode,37.0,77.0,Bug,Poison,Electric,,0,1,4505,7005,True
+turn3,Psychic,Electrode,37.0,34.0,Bug,Poison,Electric,,0,1,4505,7005,True
+turn4,Psychic,Electrode,37.0,-7.0,Bug,Poison,Electric,,0,1,4505,7005,True
+turn1,Psychic,Exeggcute,130,120,Bug,Poison,Grass,Psychic,0,0,4505,2005,True
+turn2,Psychic,Exeggcute,130,120,Bug,Poison,Grass,Psychic,0,0,4505,2005,True
+turn3,Psychic,Exeggcute,130,83.0,Bug,Poison,Grass,Psychic,0,1,4505,2005,True
+turn4,Psychic,Exeggcute,130,49.0,Bug,Poison,Grass,Psychic,0,1,4505,2005,True
+turn5,Psychic,Exeggcute,130,49.0,Bug,Poison,Grass,Psychic,0,0,4505,2005,True
+turn6,Psychic,Exeggcute,130,12.0,Bug,Poison,Grass,Psychic,0,1,4505,2005,True
+turn7,Psychic,Exeggcute,130,-23.0,Bug,Poison,Grass,Psychic,0,1,4505,2005,True
+turn1,Psychic,Exeggutor,130,155,Bug,Poison,Grass,Psychic,0,0,4505,2755,True
+turn2,Psychic,Exeggutor,130,127.0,Bug,Poison,Grass,Psychic,0,1,4505,2755,True
+turn3,Psychic,Exeggutor,130,101.0,Bug,Poison,Grass,Psychic,0,1,4505,2755,True
+turn4,Psychic,Exeggutor,130,101.0,Bug,Poison,Grass,Psychic,0,0,4505,2755,True
+turn5,Psychic,Exeggutor,130,75.0,Bug,Poison,Grass,Psychic,0,1,4505,2755,True
+turn6,Psychic,Exeggutor,130,51.0,Bug,Poison,Grass,Psychic,0,1,4505,2755,True
+turn7,Psychic,Exeggutor,130,51.0,Bug,Poison,Grass,Psychic,0,0,4505,2755,True
+turn8,Psychic,Exeggutor,130,51.0,Bug,Poison,Grass,Psychic,0,0,4505,2755,True
+turn9,Psychic,Exeggutor,130,26.0,Bug,Poison,Grass,Psychic,0,1,4505,2755,True
+turn10,Psychic,Exeggutor,130,1.0,Bug,Poison,Grass,Psychic,0,1,4505,2755,True
+turn11,Psychic,Exeggutor,130,1.0,Bug,Poison,Grass,Psychic,0,0,4505,2755,True
+turn12,Psychic,Exeggutor,130,1.0,Bug,Poison,Grass,Psychic,0,0,4505,2755,True
+turn13,Psychic,Exeggutor,130,-27.0,Bug,Poison,Grass,Psychic,0,1,4505,2755,True
+turn1,Psychic,Cubone,130,110,Bug,Poison,Ground,,0,0,4505,1755,True
+turn2,Psychic,Cubone,130,110,Bug,Poison,Ground,,0,0,4505,1755,True
+turn3,Psychic,Cubone,130,48.0,Bug,Poison,Ground,,0,1,4505,1755,True
+turn4,Psychic,Cubone,130,48.0,Bug,Poison,Ground,,0,0,4505,1755,True
+turn5,Psychic,Cubone,130,-24.0,Bug,Poison,Ground,,0,1,4505,1755,True
+turn1,Psychic,Marowak,130,120,Bug,Poison,Ground,,0,0,4505,2255,True
+turn2,Psychic,Marowak,130,76.0,Bug,Poison,Ground,,0,1,4505,2255,True
+turn3,Psychic,Marowak,130,36.0,Bug,Poison,Ground,,0,1,4505,2255,True
+turn4,Psychic,Marowak,130,36.0,Bug,Poison,Ground,,0,0,4505,2255,True
+turn5,Psychic,Marowak,130,-9.0,Bug,Poison,Ground,,0,1,4505,2255,True
+turn1,Psychic,Hitmonlee,27.0,51.0,Bug,Poison,Fighting,,0,0,4505,4355,True
+turn2,Psychic,Hitmonlee,27.0,-12.0,Bug,Poison,Fighting,,0,0,4505,4355,True
+turn1,Psychic,Hitmonchan,3.0,42.0,Bug,Poison,Fighting,,0,0,4505,3805,True
+turn2,Psychic,Hitmonchan,3.0,-21.0,Bug,Poison,Fighting,,2,0,4505,3805,True
+turn1,Psychic,Lickitung,130,150,Bug,Poison,Normal,,0,0,4505,1505,True
+turn2,Psychic,Lickitung,130,150,Bug,Poison,Normal,,0,0,4505,1505,True
+turn3,Psychic,Lickitung,130,104.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn4,Psychic,Lickitung,130,61.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn5,Psychic,Lickitung,130,61.0,Bug,Poison,Normal,,0,0,4505,1505,True
+turn6,Psychic,Lickitung,130,61.0,Bug,Poison,Normal,,0,0,4505,1505,True
+turn7,Psychic,Lickitung,130,13.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn8,Psychic,Lickitung,130,13.0,Bug,Poison,Normal,,0,0,4505,1505,True
+turn9,Psychic,Lickitung,130,-33.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn1,Psychic,Koffing,130,-53.0,Bug,Poison,Poison,,0,0,4505,1755,True
+turn1,Psychic,Weezing,80.0,26.0,Bug,Poison,Poison,,0,0,4505,3005,True
+turn2,Psychic,Weezing,80.0,-65.0,Bug,Poison,Poison,,0,0,4505,3005,True
+turn1,Sleep Powder,Rhyhorn,130,127.0,Bug,Poison,Ground,Rock,0,0,4505,1255,True
+turn2,Sleep Powder,Rhyhorn,130,10.0,Bug,Poison,Ground,Rock,0,1,4505,1255,True
+turn3,Sleep Powder,Rhyhorn,130,-3.0,Bug,Poison,Ground,Rock,0,0,4505,1255,True
+turn1,Psychic,Rhydon,130,147.0,Bug,Poison,Ground,Rock,0,0,4505,2005,True
+turn2,Psychic,Rhydon,130,49.0,Bug,Poison,Ground,Rock,0,1,4505,2005,True
+turn3,Psychic,Rhydon,130,30.0,Bug,Poison,Ground,Rock,0,0,4505,2005,True
+turn4,Psychic,Rhydon,130,12.0,Bug,Poison,Ground,Rock,0,0,4505,2005,True
+turn5,Psychic,Rhydon,130,-88.0,Bug,Poison,Ground,Rock,0,1,4505,2005,True
+turn1,Psychic,Chansey,130,310,Bug,Poison,Normal,,0,0,4505,2505,True
+turn2,Psychic,Chansey,130,276.0,Bug,Poison,Normal,,0,1,4505,2505,True
+turn3,Psychic,Chansey,130,242.0,Bug,Poison,Normal,,0,1,4505,2505,True
+turn4,Psychic,Chansey,130,242.0,Bug,Poison,Normal,,0,0,4505,2505,True
+turn5,Psychic,Chansey,130,242.0,Bug,Poison,Normal,,0,0,4505,2505,True
+turn6,Psychic,Chansey,130,210.0,Bug,Poison,Normal,,0,1,4505,2505,True
+turn7,Psychic,Chansey,130,178.0,Bug,Poison,Normal,,0,1,4505,2505,True
+turn8,Psychic,Chansey,130,178.0,Bug,Poison,Normal,,0,0,4505,2505,True
+turn9,Psychic,Chansey,130,178.0,Bug,Poison,Normal,,0,0,4505,2505,True
+turn10,Psychic,Chansey,130,178.0,Bug,Poison,Normal,,0,0,4505,2505,True
+turn11,Psychic,Chansey,130,145.0,Bug,Poison,Normal,,0,1,4505,2505,True
+turn12,Psychic,Chansey,130,110.0,Bug,Poison,Normal,,0,1,4505,2505,True
+turn13,Psychic,Chansey,130,110.0,Bug,Poison,Normal,,0,0,4505,2505,True
+turn14,Psychic,Chansey,130,110.0,Bug,Poison,Normal,,0,0,4505,2505,True
+turn15,Psychic,Chansey,130,77.0,Bug,Poison,Normal,,0,1,4505,2505,True
+turn16,Psychic,Chansey,130,42.0,Bug,Poison,Normal,,0,1,4505,2505,True
+turn17,Psychic,Chansey,130,42.0,Bug,Poison,Normal,,0,0,4505,2505,True
+turn18,Psychic,Chansey,130,9.0,Bug,Poison,Normal,,0,1,4505,2505,True
+turn19,Psychic,Chansey,130,9.0,Bug,Poison,Normal,,0,0,4505,2505,True
+turn20,Psychic,Chansey,130,-22.0,Bug,Poison,Normal,,0,1,4505,2505,True
+turn1,Psychic,Tangela,130,125,Bug,Poison,Grass,,0,0,4505,3005,True
+turn2,Psychic,Tangela,130,125,Bug,Poison,Grass,,0,0,4505,3005,True
+turn3,Psychic,Tangela,130,125,Bug,Poison,Grass,,0,0,4505,3005,True
+turn4,Psychic,Tangela,130,125,Bug,Poison,Grass,,0,0,4505,3005,True
+turn5,Psychic,Tangela,130,48.0,Bug,Poison,Grass,,0,1,4505,3005,True
+turn6,Psychic,Tangela,130,48.0,Bug,Poison,Grass,,0,0,4505,3005,True
+turn7,Psychic,Tangela,130,48.0,Bug,Poison,Grass,,0,0,4505,3005,True
+turn8,Psychic,Tangela,130,-39.0,Bug,Poison,Grass,,0,1,4505,3005,True
+turn1,Sleep Powder,Kangaskhan,65.0,165,Bug,Poison,Normal,,0,0,4505,4505,False
+turn2,Sleep Powder,Kangaskhan,65.0,126.0,Bug,Poison,Normal,,0,1,4505,4505,False
+turn3,Sleep Powder,Kangaskhan,65.0,82.0,Bug,Poison,Normal,,0,1,4505,4505,False
+turn4,Sleep Powder,Kangaskhan,65.0,42.0,Bug,Poison,Normal,,0,1,4505,4505,False
+turn5,Sleep Powder,Kangaskhan,-3.0,42.0,Bug,Poison,Normal,,0,0,4505,4505,False
+turn1,Psychic,Horsea,130,90,Bug,Poison,Water,,0,0,4505,3005,True
+turn2,Psychic,Horsea,130,-50.0,Bug,Poison,Water,,0,1,4505,3005,True
+turn1,Psychic,Seadra,130,115,Bug,Poison,Water,,0,0,4505,4255,True
+turn2,Psychic,Seadra,130,115,Bug,Poison,Water,,0,0,4505,4255,True
+turn3,Psychic,Seadra,130,46.0,Bug,Poison,Water,,0,1,4505,4255,True
+turn4,Psychic,Seadra,130,-33.0,Bug,Poison,Water,,0,1,4505,4255,True
+turn1,Psychic,Goldeen,130,105,Bug,Poison,Water,,0,0,4505,3155,True
+turn2,Psychic,Goldeen,130,41.0,Bug,Poison,Water,,0,1,4505,3155,True
+turn3,Psychic,Goldeen,130,-27.0,Bug,Poison,Water,,0,1,4505,3155,True
+turn1,Psychic,Seaking,130,140,Bug,Poison,Water,,0,0,4505,3405,True
+turn2,Psychic,Seaking,130,94.0,Bug,Poison,Water,,0,1,4505,3405,True
+turn3,Psychic,Seaking,130,94.0,Bug,Poison,Water,,0,0,4505,3405,True
+turn4,Psychic,Seaking,130,52.0,Bug,Poison,Water,,0,1,4505,3405,True
+turn5,Psychic,Seaking,130,11.0,Bug,Poison,Water,,0,1,4505,3405,True
+turn6,Psychic,Seaking,130,11.0,Bug,Poison,Water,,0,0,4505,3405,True
+turn7,Psychic,Seaking,130,-32.0,Bug,Poison,Water,,0,1,4505,3405,True
+turn1,Psychic,Staryu,130,90,Bug,Poison,Water,,0,0,4505,4255,True
+turn2,Psychic,Staryu,130,27.0,Bug,Poison,Water,,0,1,4505,4255,True
+turn3,Psychic,Staryu,130,27.0,Bug,Poison,Water,,0,0,4505,4255,True
+turn4,Psychic,Staryu,130,-35.0,Bug,Poison,Water,,0,1,4505,4255,True
+turn1,Sleep Powder,Starmie,37.0,120,Bug,Poison,Water,Psychic,0,0,4505,5755,False
+turn2,Sleep Powder,Starmie,37.0,101.0,Bug,Poison,Water,Psychic,0,1,4505,5755,False
+turn3,Sleep Powder,Starmie,37.0,83.0,Bug,Poison,Water,Psychic,0,1,4505,5755,False
+turn4,Sleep Powder,Starmie,37.0,62.0,Bug,Poison,Water,Psychic,0,1,4505,5755,False
+turn5,Sleep Powder,Starmie,37.0,41.0,Bug,Poison,Water,Psychic,0,1,4505,5755,False
+turn6,Sleep Powder,Starmie,37.0,22.0,Bug,Poison,Water,Psychic,0,1,4505,5755,False
+turn7,Sleep Powder,Starmie,-61.0,22.0,Bug,Poison,Water,Psychic,0,0,4505,5755,False
+turn1,Sleep Powder,Mr. Mime,103.0,100,Bug,Poison,Psychic,Normal,0,0,4505,4505,False
+turn2,Sleep Powder,Mr. Mime,103.0,87.0,Bug,Poison,Psychic,Normal,0,1,4505,4505,False
+turn3,Sleep Powder,Mr. Mime,103.0,74.0,Bug,Poison,Psychic,Normal,0,1,4505,4505,False
+turn4,Sleep Powder,Mr. Mime,103.0,60.0,Bug,Poison,Psychic,Normal,0,1,4505,4505,False
+turn5,Sleep Powder,Mr. Mime,103.0,46.0,Bug,Poison,Psychic,Normal,0,1,4505,4505,False
+turn6,Sleep Powder,Mr. Mime,21.0,46.0,Bug,Poison,Psychic,Normal,0,0,4505,4505,False
+turn7,Sleep Powder,Mr. Mime,21.0,31.0,Bug,Poison,Psychic,Normal,0,1,4505,4505,False
+turn8,Sleep Powder,Mr. Mime,-72.0,31.0,Bug,Poison,Psychic,Normal,0,0,4505,4505,False
+turn1,Sleep Powder,Scyther,-18.0,130,Bug,Poison,Bug,Flying,0,0,4505,5255,False
+turn1,Sleep Powder,Jynx,89.0,125,Bug,Poison,Ice,Psychic,0,0,4505,4755,False
+turn2,Sleep Powder,Jynx,89.0,107.0,Bug,Poison,Ice,Psychic,0,1,4505,4755,False
+turn3,Sleep Powder,Jynx,89.0,89.0,Bug,Poison,Ice,Psychic,0,1,4505,4755,False
+turn4,Sleep Powder,Jynx,47.0,89.0,Bug,Poison,Ice,Psychic,0,0,4505,4755,False
+turn5,Sleep Powder,Jynx,47.0,72.0,Bug,Poison,Ice,Psychic,0,1,4505,4755,False
+turn6,Sleep Powder,Jynx,4.0,72.0,Bug,Poison,Ice,Psychic,0,0,4505,4755,False
+turn7,Sleep Powder,Jynx,4.0,55.0,Bug,Poison,Ice,Psychic,0,1,4505,4755,False
+turn8,Sleep Powder,Jynx,4.0,38.0,Bug,Poison,Ice,Psychic,0,1,4505,4755,False
+turn9,Sleep Powder,Jynx,4.0,21.0,Bug,Poison,Ice,Psychic,0,1,4505,4755,False
+turn10,Sleep Powder,Jynx,4.0,2.0,Bug,Poison,Ice,Psychic,0,1,4505,4755,False
+turn11,Sleep Powder,Jynx,-36.0,2.0,Bug,Poison,Ice,Psychic,0,0,4505,4755,False
+turn1,Sleep Powder,Electabuzz,62.0,125,Bug,Poison,Electric,,0,0,4505,5255,False
+turn2,Sleep Powder,Electabuzz,62.0,84.0,Bug,Poison,Electric,,4,1,4505,5255,False
+turn3,Sleep Powder,Electabuzz,62.0,84.0,Bug,Poison,Electric,,4,1,4505,5255,False
+turn4,Sleep Powder,Electabuzz,62.0,84.0,Bug,Poison,Electric,,4,1,4505,5255,False
+turn5,Sleep Powder,Electabuzz,-6.0,84.0,Bug,Poison,Electric,,4,0,4505,5255,False
+turn1,Sleep Powder,Magmar,-18.0,125,Bug,Poison,Fire,,0,0,4505,4655,False
+turn1,Psychic,Pinsir,130,125,Bug,Poison,Bug,,0,0,4505,4255,True
+turn2,Psychic,Pinsir,130,74.0,Bug,Poison,Bug,,0,1,4505,4255,True
+turn3,Psychic,Pinsir,130,27.0,Bug,Poison,Bug,,0,1,4505,4255,True
+turn4,Psychic,Pinsir,130,27.0,Bug,Poison,Bug,,0,0,4505,4255,True
+turn5,Psychic,Pinsir,130,-21.0,Bug,Poison,Bug,,0,1,4505,4255,True
+turn1,Psychic,Tauros,39.0,90.0,Bug,Poison,Normal,,0,0,4505,5505,True
+turn2,Psychic,Tauros,39.0,15.0,Bug,Poison,Normal,,0,1,4505,5505,True
+turn3,Psychic,Tauros,39.0,-56.0,Bug,Poison,Normal,,0,1,4505,5505,True
+turn1,Psychic,Magikarp,130,80,Bug,Poison,Water,,0,0,4505,4005,True
+turn2,Psychic,Magikarp,130,-86.0,Bug,Poison,Water,,0,1,4505,4005,True
+turn1,Psychic,Gyarados,130,155,Bug,Poison,Water,Flying,0,0,4505,4055,True
+turn2,Psychic,Gyarados,130,119.0,Bug,Poison,Water,Flying,0,1,4505,4055,True
+turn3,Psychic,Gyarados,130,119.0,Bug,Poison,Water,Flying,0,0,4505,4055,True
+turn4,Psychic,Gyarados,130,86.0,Bug,Poison,Water,Flying,0,1,4505,4055,True
+turn5,Psychic,Gyarados,130,86.0,Bug,Poison,Water,Flying,0,0,4505,4055,True
+turn6,Psychic,Gyarados,130,54.0,Bug,Poison,Water,Flying,0,1,4505,4055,True
+turn7,Psychic,Gyarados,130,54.0,Bug,Poison,Water,Flying,0,0,4505,4055,True
+turn8,Psychic,Gyarados,130,22.0,Bug,Poison,Water,Flying,0,1,4505,4055,True
+turn9,Psychic,Gyarados,130,-10.0,Bug,Poison,Water,Flying,0,1,4505,4055,True
+turn1,Psychic,Lapras,130,190,Bug,Poison,Water,Ice,0,0,4505,3005,True
+turn2,Psychic,Lapras,130,152.0,Bug,Poison,Water,Ice,0,1,4505,3005,True
+turn3,Psychic,Lapras,130,114.0,Bug,Poison,Water,Ice,0,1,4505,3005,True
+turn4,Psychic,Lapras,130,114.0,Bug,Poison,Water,Ice,0,0,4505,3005,True
+turn5,Psychic,Lapras,130,75.0,Bug,Poison,Water,Ice,0,1,4505,3005,True
+turn6,Psychic,Lapras,130,40.0,Bug,Poison,Water,Ice,0,1,4505,3005,True
+turn7,Psychic,Lapras,130,40.0,Bug,Poison,Water,Ice,0,0,4505,3005,True
+turn8,Psychic,Lapras,130,40.0,Bug,Poison,Water,Ice,0,0,4505,3005,True
+turn9,Psychic,Lapras,130,40.0,Bug,Poison,Water,Ice,0,0,4505,3005,True
+turn10,Psychic,Lapras,130,5.0,Bug,Poison,Water,Ice,0,1,4505,3005,True
+turn11,Psychic,Lapras,130,5.0,Bug,Poison,Water,Ice,0,0,4505,3005,True
+turn12,Psychic,Lapras,130,-32.0,Bug,Poison,Water,Ice,0,1,4505,3005,True
+turn1,Psychic,Ditto,130,108,Bug,Poison,Normal,,0,0,4505,2405,True
+turn2,Psychic,Ditto,130,34.0,Bug,Poison,Normal,,0,1,4505,2405,True
+turn3,Psychic,Ditto,130,34.0,Bug,Poison,Normal,,0,0,4505,2405,True
+turn4,Psychic,Ditto,130,-41.0,Bug,Poison,Normal,,0,1,4505,2405,True
+turn1,Psychic,Eevee,130,115,Bug,Poison,Normal,,0,0,4505,2755,True
+turn2,Psychic,Eevee,130,61.0,Bug,Poison,Normal,,0,1,4505,2755,True
+turn3,Psychic,Eevee,130,12.0,Bug,Poison,Normal,,0,1,4505,2755,True
+turn4,Psychic,Eevee,130,12.0,Bug,Poison,Normal,,0,0,4505,2755,True
+turn5,Psychic,Eevee,130,-39.0,Bug,Poison,Normal,,0,1,4505,2755,True
+turn1,Psychic,Vaporeon,130,190,Bug,Poison,Water,,0,0,4505,3255,True
+turn2,Psychic,Vaporeon,130,156.0,Bug,Poison,Water,,0,1,4505,3255,True
+turn3,Psychic,Vaporeon,130,156.0,Bug,Poison,Water,,0,0,4505,3255,True
+turn4,Psychic,Vaporeon,130,120.0,Bug,Poison,Water,,0,1,4505,3255,True
+turn5,Psychic,Vaporeon,130,120.0,Bug,Poison,Water,,0,0,4505,3255,True
+turn6,Psychic,Vaporeon,130,85.0,Bug,Poison,Water,,0,1,4505,3255,True
+turn7,Psychic,Vaporeon,130,85.0,Bug,Poison,Water,,0,0,4505,3255,True
+turn8,Psychic,Vaporeon,130,49.0,Bug,Poison,Water,,0,1,4505,3255,True
+turn9,Psychic,Vaporeon,130,15.0,Bug,Poison,Water,,0,1,4505,3255,True
+turn10,Psychic,Vaporeon,130,15.0,Bug,Poison,Water,,0,0,4505,3255,True
+turn11,Psychic,Vaporeon,130,-21.0,Bug,Poison,Water,,0,1,4505,3255,True
+turn1,Psychic,Jolteon,89.0,125,Bug,Poison,Electric,,0,0,4505,6505,True
+turn2,Psychic,Jolteon,89.0,88.0,Bug,Poison,Electric,,0,1,4505,6505,True
+turn3,Psychic,Jolteon,89.0,51.0,Bug,Poison,Electric,,0,1,4505,6505,True
+turn4,Psychic,Jolteon,49.0,51.0,Bug,Poison,Electric,,0,0,4505,6505,True
+turn5,Psychic,Jolteon,49.0,14.0,Bug,Poison,Electric,,0,1,4505,6505,True
+turn6,Psychic,Jolteon,49.0,-24.0,Bug,Poison,Electric,,0,1,4505,6505,True
+turn1,Psychic,Flareon,130,125,Bug,Poison,Fire,,0,0,4505,3255,True
+turn2,Psychic,Flareon,130,96.0,Bug,Poison,Fire,,0,1,4505,3255,True
+turn3,Psychic,Flareon,130,65.0,Bug,Poison,Fire,,0,1,4505,3255,True
+turn4,Psychic,Flareon,130,65.0,Bug,Poison,Fire,,0,0,4505,3255,True
+turn5,Psychic,Flareon,130,65.0,Bug,Poison,Fire,,0,0,4505,3255,True
+turn6,Psychic,Flareon,130,65.0,Bug,Poison,Fire,,0,0,4505,3255,True
+turn7,Psychic,Flareon,130,34.0,Bug,Poison,Fire,,0,1,4505,3255,True
+turn8,Psychic,Flareon,130,1.0,Bug,Poison,Fire,,0,1,4505,3255,True
+turn9,Psychic,Flareon,130,1.0,Bug,Poison,Fire,,0,0,4505,3255,True
+turn10,Psychic,Flareon,130,-28.0,Bug,Poison,Fire,,0,1,4505,3255,True
+turn1,Psychic,Porygon,130,125,Bug,Poison,Normal,,0,0,4505,2005,True
+turn2,Psychic,Porygon,130,125,Bug,Poison,Normal,,0,0,4505,2005,True
+turn3,Psychic,Porygon,130,82.0,Bug,Poison,Normal,,0,1,4505,2005,True
+turn4,Psychic,Porygon,130,82.0,Bug,Poison,Normal,,0,0,4505,2005,True
+turn5,Psychic,Porygon,130,82.0,Bug,Poison,Normal,,0,0,4505,2005,True
+turn6,Psychic,Porygon,130,34.0,Bug,Poison,Normal,,0,1,4505,2005,True
+turn7,Psychic,Porygon,130,34.0,Bug,Poison,Normal,,0,0,4505,2005,True
+turn8,Psychic,Porygon,130,-13.0,Bug,Poison,Normal,,0,1,4505,2005,True
+turn1,Psychic,Omanyte,130,95,Bug,Poison,Rock,Water,0,0,4505,1755,True
+turn2,Psychic,Omanyte,130,37.0,Bug,Poison,Rock,Water,0,1,4505,1755,True
+turn3,Psychic,Omanyte,130,37.0,Bug,Poison,Rock,Water,0,0,4505,1755,True
+turn4,Psychic,Omanyte,130,37.0,Bug,Poison,Rock,Water,0,0,4505,1755,True
+turn5,Psychic,Omanyte,130,37.0,Bug,Poison,Rock,Water,0,0,4505,1755,True
+turn6,Psychic,Omanyte,130,-20.0,Bug,Poison,Rock,Water,0,1,4505,1755,True
+turn1,Psychic,Omastar,130,130,Bug,Poison,Rock,Water,0,0,4505,2755,True
+turn2,Psychic,Omastar,130,130,Bug,Poison,Rock,Water,0,0,4505,2755,True
+turn3,Psychic,Omastar,130,82.0,Bug,Poison,Rock,Water,0,1,4505,2755,True
+turn4,Psychic,Omastar,130,37.0,Bug,Poison,Rock,Water,0,1,4505,2755,True
+turn5,Psychic,Omastar,130,37.0,Bug,Poison,Rock,Water,0,0,4505,2755,True
+turn6,Psychic,Omastar,130,-8.0,Bug,Poison,Rock,Water,0,1,4505,2755,True
+turn1,Psychic,Kabuto,130,90,Bug,Poison,Rock,Water,0,0,4505,2755,True
+turn2,Psychic,Kabuto,130,14.0,Bug,Poison,Rock,Water,0,1,4505,2755,True
+turn3,Psychic,Kabuto,130,-61.0,Bug,Poison,Rock,Water,0,1,4505,2755,True
+turn1,Psychic,Kabutops,130,120,Bug,Poison,Rock,Water,0,0,4505,4005,True
+turn2,Psychic,Kabutops,130,72.0,Bug,Poison,Rock,Water,0,1,4505,4005,True
+turn3,Psychic,Kabutops,130,72.0,Bug,Poison,Rock,Water,0,0,4505,4005,True
+turn4,Psychic,Kabutops,130,72.0,Bug,Poison,Rock,Water,0,0,4505,4005,True
+turn5,Psychic,Kabutops,130,72.0,Bug,Poison,Rock,Water,0,0,4505,4005,True
+turn6,Psychic,Kabutops,130,26.0,Bug,Poison,Rock,Water,0,1,4505,4005,True
+turn7,Psychic,Kabutops,130,-19.0,Bug,Poison,Rock,Water,0,1,4505,4005,True
+turn1,Sleep Powder,Aerodactyl,-9.0,140,Bug,Poison,Rock,Flying,0,0,4505,6505,False
+turn1,Psychic,Snorlax,130,220,Bug,Poison,Normal,,0,0,4505,1505,True
+turn2,Psychic,Snorlax,130,220,Bug,Poison,Normal,,0,0,4505,1505,True
+turn3,Psychic,Snorlax,130,188.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn4,Psychic,Snorlax,130,188.0,Bug,Poison,Normal,,0,0,4505,1505,True
+turn5,Psychic,Snorlax,130,156.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn6,Psychic,Snorlax,130,156.0,Bug,Poison,Normal,,0,0,4505,1505,True
+turn7,Psychic,Snorlax,130,125.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn8,Psychic,Snorlax,130,125.0,Bug,Poison,Normal,,0,0,4505,1505,True
+turn9,Psychic,Snorlax,130,94.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn10,Psychic,Snorlax,130,94.0,Bug,Poison,Normal,,0,0,4505,1505,True
+turn11,Psychic,Snorlax,130,64.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn12,Psychic,Snorlax,130,30.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn13,Psychic,Snorlax,130,30.0,Bug,Poison,Normal,,0,0,4505,1505,True
+turn14,Psychic,Snorlax,130,-3.0,Bug,Poison,Normal,,0,1,4505,1505,True
+turn1,Psychic,Articuno,130,150,Bug,Poison,Ice,Flying,0,0,4505,4255,True
+turn2,Psychic,Articuno,130,123.0,Bug,Poison,Ice,Flying,0,1,4505,4255,True
+turn3,Psychic,Articuno,130,95.0,Bug,Poison,Ice,Flying,0,1,4505,4255,True
+turn4,Psychic,Articuno,130,95.0,Bug,Poison,Ice,Flying,0,0,4505,4255,True
+turn5,Psychic,Articuno,130,95.0,Bug,Poison,Ice,Flying,0,0,4505,4255,True
+turn6,Psychic,Articuno,130,95.0,Bug,Poison,Ice,Flying,0,0,4505,4255,True
+turn7,Psychic,Articuno,130,70.0,Bug,Poison,Ice,Flying,0,1,4505,4255,True
+turn8,Psychic,Articuno,130,43.0,Bug,Poison,Ice,Flying,0,1,4505,4255,True
+turn9,Psychic,Articuno,130,43.0,Bug,Poison,Ice,Flying,0,0,4505,4255,True
+turn10,Psychic,Articuno,130,16.0,Bug,Poison,Ice,Flying,0,1,4505,4255,True
+turn11,Psychic,Articuno,130,-13.0,Bug,Poison,Ice,Flying,0,1,4505,4255,True
+turn1,Sleep Powder,Zapdos,7.0,150,Bug,Poison,Electric,Flying,0,0,4505,5005,False
+turn2,Sleep Powder,Zapdos,7.0,114.0,Bug,Poison,Electric,Flying,0,1,4505,5005,False
+turn3,Sleep Powder,Zapdos,7.0,78.0,Bug,Poison,Electric,Flying,0,1,4505,5005,False
+turn4,Sleep Powder,Zapdos,7.0,39.0,Bug,Poison,Electric,Flying,0,1,4505,5005,False
+turn5,Sleep Powder,Zapdos,-103.0,39.0,Bug,Poison,Electric,Flying,0,0,4505,5005,False
+turn1,Sleep Powder,Moltres,-167.0,150,Bug,Poison,Fire,Flying,0,0,4505,4505,False
+turn1,Psychic,Dratini,130,101,Bug,Poison,Dragon,,0,0,4505,2505,True
+turn2,Psychic,Dratini,130,101,Bug,Poison,Dragon,,0,0,4505,2505,True
+turn3,Psychic,Dratini,130,31.0,Bug,Poison,Dragon,,0,1,4505,2505,True
+turn4,Psychic,Dratini,130,31.0,Bug,Poison,Dragon,,0,0,4505,2505,True
+turn5,Psychic,Dratini,130,31.0,Bug,Poison,Dragon,,0,0,4505,2505,True
+turn6,Psychic,Dratini,130,31.0,Bug,Poison,Dragon,,0,0,4505,2505,True
+turn7,Psychic,Dratini,130,-39.0,Bug,Poison,Dragon,,0,1,4505,2505,True
+turn1,Psychic,Dragonair,130,121,Bug,Poison,Dragon,,0,0,4505,3505,True
+turn2,Psychic,Dragonair,130,76.0,Bug,Poison,Dragon,,0,1,4505,3505,True
+turn3,Psychic,Dragonair,130,76.0,Bug,Poison,Dragon,,0,0,4505,3505,True
+turn4,Psychic,Dragonair,130,26.0,Bug,Poison,Dragon,,0,1,4505,3505,True
+turn5,Psychic,Dragonair,130,-24.0,Bug,Poison,Dragon,,0,1,4505,3505,True
+turn1,Psychic,Dragonite,130,151,Bug,Poison,Dragon,Flying,0,0,4505,4005,True
+turn2,Psychic,Dragonite,130,116.0,Bug,Poison,Dragon,Flying,0,1,4505,4005,True
+turn3,Psychic,Dragonite,130,116.0,Bug,Poison,Dragon,Flying,0,0,4505,4005,True
+turn4,Psychic,Dragonite,130,116.0,Bug,Poison,Dragon,Flying,0,0,4505,4005,True
+turn5,Psychic,Dragonite,130,116.0,Bug,Poison,Dragon,Flying,0,0,4505,4005,True
+turn6,Psychic,Dragonite,130,80.0,Bug,Poison,Dragon,Flying,0,1,4505,4005,True
+turn7,Psychic,Dragonite,130,47.0,Bug,Poison,Dragon,Flying,0,1,4505,4005,True
+turn8,Psychic,Dragonite,130,47.0,Bug,Poison,Dragon,Flying,0,0,4505,4005,True
+turn9,Psychic,Dragonite,130,15.0,Bug,Poison,Dragon,Flying,0,1,4505,4005,True
+turn10,Psychic,Dragonite,130,15.0,Bug,Poison,Dragon,Flying,0,0,4505,4005,True
+turn11,Psychic,Dragonite,130,-22.0,Bug,Poison,Dragon,Flying,0,1,4505,4005,True
+turn1,Sleep Powder,Mewtwo,-9.0,166,Bug,Poison,Psychic,,0,0,4505,6505,False
+turn1,Sleep Powder,Mew,-31.0,160,Bug,Poison,Psychic,,0,0,4505,5005,False

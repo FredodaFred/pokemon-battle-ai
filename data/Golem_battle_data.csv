@@ -1,0 +1,249 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Earthquake,Bulbasaur,79.0,-54.0,Rock,Ground,Grass,Poison,0,0,2255,2255,True
+turn1,Earthquake,Ivysaur,62.0,-3.0,Rock,Ground,Grass,Poison,0,0,2255,3005,True
+turn1,Earthquake,Venusaur,-335.0,140,Rock,Ground,Grass,Poison,0,0,2255,4005,False
+turn1,Earthquake,Charmander,115.0,-238.0,Rock,Ground,Fire,,0,0,2255,3255,True
+turn1,Earthquake,Charmeleon,107.0,-128.0,Rock,Ground,Fire,,0,0,2255,4005,True
+turn1,Rock Slide,Charizard,95.0,-131.0,Rock,Ground,Fire,Flying,0,0,2255,5005,True
+turn1,Earthquake,Squirtle,140,-12.0,Rock,Ground,Water,,0,0,2255,2155,True
+turn1,Earthquake,Wartortle,-154.0,119,Rock,Ground,Water,,0,0,2255,2905,False
+turn1,Earthquake,Blastoise,121.0,69.0,Rock,Ground,Water,,0,0,2255,3905,True
+turn2,Earthquake,Blastoise,105.0,-8.0,Rock,Ground,Water,,0,0,2255,3905,True
+turn1,Rock Slide,Caterpie,138.0,-191.0,Rock,Ground,Bug,,0,0,2255,2255,True
+turn1,Rock Slide,Metapod,140,-83.0,Rock,Ground,Bug,,0,0,2255,1505,True
+turn1,Rock Slide,Butterfree,140,120,Rock,Ground,Bug,Flying,0,0,2255,3505,False
+turn2,Rock Slide,Butterfree,99.0,120,Rock,Ground,Bug,Flying,1,0,2255,3505,False
+turn3,Rock Slide,Butterfree,61.0,120,Rock,Ground,Bug,Flying,1,0,2255,3505,False
+turn4,Rock Slide,Butterfree,21.0,120,Rock,Ground,Bug,Flying,1,0,2255,3505,False
+turn5,Rock Slide,Butterfree,-20.0,120,Rock,Ground,Bug,Flying,1,0,2255,3505,False
+turn1,Earthquake,Weedle,140,-145.0,Rock,Ground,Bug,Poison,0,0,2255,2505,True
+turn1,Earthquake,Kakuna,140,-34.0,Rock,Ground,Bug,Poison,0,0,2255,1755,True
+turn1,Earthquake,Beedrill,116.0,-73.0,Rock,Ground,Bug,Poison,0,0,2255,3755,True
+turn1,Rock Slide,Pidgey,133.0,-194.0,Rock,Ground,Normal,Flying,0,0,2255,2805,True
+turn1,Rock Slide,Pidgeotto,130.0,-73.0,Rock,Ground,Normal,Flying,0,0,2255,3555,True
+turn1,Rock Slide,Pidgeot,128.0,-12.0,Rock,Ground,Normal,Flying,0,0,2255,5055,True
+turn1,Earthquake,Rattata,129.0,-111.0,Rock,Ground,Normal,,0,0,2255,3605,True
+turn1,Earthquake,Raticate,123.0,0.0,Rock,Ground,Normal,,0,0,2255,4855,True
+turn1,Rock Slide,Spearow,128.0,-241.0,Rock,Ground,Normal,Flying,0,0,2255,3505,True
+turn1,Rock Slide,Fearow,123.0,-36.0,Rock,Ground,Normal,Flying,0,0,2255,5005,True
+turn1,Earthquake,Ekans,,,Rock,Ground,Poison,,,,2255,2755,True
+turn1,Earthquake,Arbok,,,Rock,Ground,Poison,,,,2255,4005,True
+turn1,Earthquake,Pikachu,131.0,-284.0,Rock,Ground,Electric,,0,0,2255,4505,True
+turn1,Earthquake,Raichu,140,-66.0,Rock,Ground,Electric,,0,0,2255,5505,True
+turn1,Earthquake,Sandshrew,131.0,25.0,Rock,Ground,Ground,,0,0,2255,2005,True
+turn2,Earthquake,Sandshrew,131.0,-67.0,Rock,Ground,Ground,,0,0,2255,2005,True
+turn1,Earthquake,Sandslash,129.0,62.0,Rock,Ground,Ground,,0,0,2255,3255,True
+turn2,Earthquake,Sandslash,117.0,-7.0,Rock,Ground,Ground,,0,0,2255,3255,True
+turn1,Earthquake,Nidoran♀,140,-159.0,Rock,Ground,Poison,,0,0,2255,2055,True
+turn1,Earthquake,Nidorina,110.0,-98.0,Rock,Ground,Poison,,0,0,2255,2805,True
+turn1,Earthquake,Nidoqueen,127.0,-37.0,Rock,Ground,Poison,Ground,0,0,2255,3805,True
+turn1,Earthquake,Nidoran♂,114.0,-262.0,Rock,Ground,Poison,,0,0,2255,2505,True
+turn1,Earthquake,Nidorino,106.0,-139.0,Rock,Ground,Poison,,0,0,2255,3255,True
+turn1,Earthquake,Nidoking,120.0,-45.0,Rock,Ground,Poison,Ground,0,0,2255,4255,True
+turn1,Earthquake,Clefairy,140,-22.0,Rock,Ground,Normal,,0,0,2255,1755,True
+turn1,Earthquake,Clefable,140,155,Rock,Ground,Normal,,0,0,2255,3005,False
+turn2,Earthquake,Clefable,128.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn3,Earthquake,Clefable,119.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn4,Earthquake,Clefable,119.0,155,Rock,Ground,Normal,,0,0,2255,3005,False
+turn5,Earthquake,Clefable,113.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn6,Earthquake,Clefable,107.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn7,Earthquake,Clefable,107.0,155,Rock,Ground,Normal,,0,0,2255,3005,False
+turn8,Earthquake,Clefable,99.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn9,Earthquake,Clefable,84.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn10,Earthquake,Clefable,68.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn11,Earthquake,Clefable,56.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn12,Earthquake,Clefable,56.0,155,Rock,Ground,Normal,,0,0,2255,3005,False
+turn13,Earthquake,Clefable,48.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn14,Earthquake,Clefable,39.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn15,Earthquake,Clefable,24.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn16,Earthquake,Clefable,24.0,155,Rock,Ground,Normal,,0,0,2255,3005,False
+turn17,Earthquake,Clefable,18.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn18,Earthquake,Clefable,9.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn19,Earthquake,Clefable,-11.0,155,Rock,Ground,Normal,,1,0,2255,3005,False
+turn1,Earthquake,Vulpix,117.0,-298.0,Rock,Ground,Fire,,0,0,2255,3255,True
+turn1,Earthquake,Ninetales,124.0,-73.0,Rock,Ground,Fire,,0,0,2255,5005,True
+turn1,Earthquake,Jigglypuff,140,-222.0,Rock,Ground,Normal,,0,0,2255,1005,True
+turn1,Earthquake,Wigglytuff,140,200,Rock,Ground,Normal,,0,0,2255,2255,False
+turn2,Earthquake,Wigglytuff,125.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn3,Earthquake,Wigglytuff,119.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn4,Earthquake,Wigglytuff,107.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn5,Earthquake,Wigglytuff,92.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn6,Earthquake,Wigglytuff,86.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn7,Earthquake,Wigglytuff,86.0,200,Rock,Ground,Normal,,0,0,2255,2255,False
+turn8,Earthquake,Wigglytuff,80.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn9,Earthquake,Wigglytuff,72.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn10,Earthquake,Wigglytuff,72.0,200,Rock,Ground,Normal,,0,0,2255,2255,False
+turn11,Earthquake,Wigglytuff,66.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn12,Earthquake,Wigglytuff,54.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn13,Earthquake,Wigglytuff,45.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn14,Earthquake,Wigglytuff,45.0,200,Rock,Ground,Normal,,0,0,2255,2255,False
+turn15,Earthquake,Wigglytuff,36.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn16,Earthquake,Wigglytuff,30.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn17,Earthquake,Wigglytuff,18.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn18,Earthquake,Wigglytuff,10.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn19,Earthquake,Wigglytuff,-5.0,200,Rock,Ground,Normal,,1,0,2255,2255,False
+turn1,Rock Slide,Zubat,140,-243.0,Rock,Ground,Poison,Flying,0,0,2255,2755,True
+turn1,Rock Slide,Golbat,140,-19.0,Rock,Ground,Poison,Flying,0,0,2255,4505,True
+turn1,Earthquake,Oddish,140,-29.0,Rock,Ground,Grass,Poison,0,0,2255,1505,True
+turn1,Earthquake,Gloom,-281.0,18.0,Rock,Ground,Grass,Poison,0,0,2255,2005,False
+turn1,Earthquake,Vileplume,-31.0,135,Rock,Ground,Grass,Poison,0,0,2255,2505,False
+turn1,Rock Slide,Paras,140,-125.0,Rock,Ground,Bug,Grass,0,0,2255,1255,True
+turn1,Rock Slide,Parasect,140,-27.0,Rock,Ground,Bug,Grass,0,0,2255,1505,True
+turn1,Earthquake,Venonat,140,120,Rock,Ground,Bug,Poison,0,0,2255,2255,False
+turn2,Earthquake,Venonat,116.0,120,Rock,Ground,Bug,Poison,1,0,2255,2255,False
+turn3,Earthquake,Venonat,92.0,120,Rock,Ground,Bug,Poison,1,0,2255,2255,False
+turn4,Earthquake,Venonat,68.0,120,Rock,Ground,Bug,Poison,1,0,2255,2255,False
+turn5,Earthquake,Venonat,68.0,120,Rock,Ground,Bug,Poison,0,0,2255,2255,False
+turn6,Earthquake,Venonat,46.0,120,Rock,Ground,Bug,Poison,1,0,2255,2255,False
+turn7,Earthquake,Venonat,46.0,120,Rock,Ground,Bug,Poison,0,0,2255,2255,False
+turn8,Earthquake,Venonat,24.0,120,Rock,Ground,Bug,Poison,1,0,2255,2255,False
+turn9,Earthquake,Venonat,1.0,120,Rock,Ground,Bug,Poison,1,0,2255,2255,False
+turn10,Earthquake,Venonat,-23.0,120,Rock,Ground,Bug,Poison,1,0,2255,2255,False
+turn1,Earthquake,Venomoth,140,130,Rock,Ground,Bug,Poison,0,0,2255,4505,False
+turn2,Earthquake,Venomoth,90.0,130,Rock,Ground,Bug,Poison,1,0,2255,4505,False
+turn3,Earthquake,Venomoth,35.0,130,Rock,Ground,Bug,Poison,1,0,2255,4505,False
+turn4,Earthquake,Venomoth,35.0,130,Rock,Ground,Bug,Poison,0,0,2255,4505,False
+turn5,Earthquake,Venomoth,-21.0,130,Rock,Ground,Bug,Poison,1,0,2255,4505,False
+turn1,Earthquake,Diglett,82.0,-222.0,Rock,Ground,Ground,,0,0,2255,4755,True
+turn1,Earthquake,Dugtrio,55.0,-63.0,Rock,Ground,Ground,,0,0,2255,6005,True
+turn1,Earthquake,Meowth,132.0,-114.0,Rock,Ground,Normal,,0,0,2255,4505,True
+turn1,Earthquake,Persian,127.0,-5.0,Rock,Ground,Normal,,0,0,2255,5755,True
+turn1,Earthquake,Psyduck,31.0,-36.0,Rock,Ground,Water,,0,0,2255,2755,True
+turn1,Earthquake,Golduck,-10.0,140,Rock,Ground,Water,,0,0,2255,4255,False
+turn1,Earthquake,Mankey,96.0,-117.0,Rock,Ground,Fighting,,0,0,2255,3505,True
+turn1,Earthquake,Primeape,122.0,-5.0,Rock,Ground,Fighting,,0,0,2255,4755,True
+turn1,Earthquake,Growlithe,129.0,-214.0,Rock,Ground,Fire,,0,0,2255,3005,True
+turn1,Earthquake,Arcanine,98.0,-55.0,Rock,Ground,Fire,,0,0,2255,4755,True
+turn1,Earthquake,Poliwag,65.0,-75.0,Rock,Ground,Water,,0,0,2255,4505,True
+turn1,Earthquake,Poliwhirl,3.0,13.0,Rock,Ground,Water,,0,0,2255,4505,False
+turn2,Earthquake,Poliwhirl,-125.0,13.0,Rock,Ground,Water,,0,0,2255,4505,False
+turn1,Earthquake,Poliwrath,-56.0,150,Rock,Ground,Water,Fighting,0,0,2255,3505,False
+turn1,Earthquake,Abra,140,-399.0,Rock,Ground,Psychic,,0,0,2255,4505,True
+turn1,Earthquake,Kadabra,69.0,-138.0,Rock,Ground,Psychic,,0,0,2255,5255,True
+turn1,Earthquake,Alakazam,20.0,-53.0,Rock,Ground,Psychic,,0,0,2255,6005,True
+turn1,Earthquake,Machop,140,-20.0,Rock,Ground,Fighting,,0,0,2255,1755,True
+turn1,Earthquake,Machoke,88.0,30.0,Rock,Ground,Fighting,,0,0,2255,2255,True
+turn2,Earthquake,Machoke,39.0,-81.0,Rock,Ground,Fighting,,0,0,2255,2255,True
+turn1,Earthquake,Machamp,76.0,49.0,Rock,Ground,Fighting,,0,0,2255,2755,True
+turn2,Earthquake,Machamp,11.0,-49.0,Rock,Ground,Fighting,,0,0,2255,2755,True
+turn1,Earthquake,Bellsprout,140,-105.0,Rock,Ground,Grass,Poison,0,0,2255,2005,True
+turn1,Earthquake,Weepinbell,54.0,-21.0,Rock,Ground,Grass,Poison,0,0,2255,2755,True
+turn1,Earthquake,Victreebel,28.0,16.0,Rock,Ground,Grass,Poison,0,0,2255,3505,False
+turn2,Earthquake,Victreebel,-100.0,16.0,Rock,Ground,Grass,Poison,0,0,2255,3505,False
+turn1,Earthquake,Tentacool,57.0,-355.0,Rock,Ground,Water,Poison,0,0,2255,3505,True
+turn1,Earthquake,Tentacruel,-70.0,140,Rock,Ground,Water,Poison,0,0,2255,5005,False
+turn1,Earthquake,Geodude,140,-55.0,Rock,Ground,Rock,Ground,0,0,2255,1005,True
+turn1,Earthquake,Graveler,140,-14.0,Rock,Ground,Rock,Ground,0,0,2255,1755,True
+turn1,Earthquake,Golem,23.0,24.0,Rock,Ground,Rock,Ground,0,0,2255,2255,False
+turn2,Earthquake,Golem,-88.0,24.0,Rock,Ground,Rock,Ground,0,0,2255,2255,False
+turn1,Earthquake,Ponyta,132.0,-180.0,Rock,Ground,Fire,,0,0,2255,4505,True
+turn1,Earthquake,Rapidash,129.0,-96.0,Rock,Ground,Fire,,0,0,2255,5255,True
+turn1,Earthquake,Slowpoke,69.0,37.0,Rock,Ground,Water,Psychic,0,0,2255,755,True
+turn2,Earthquake,Slowpoke,69.0,-76.0,Rock,Ground,Water,Psychic,0,0,2255,755,True
+turn1,Earthquake,Slowbro,-282.0,89.0,Rock,Ground,Water,Psychic,0,0,2255,1505,False
+turn1,Earthquake,Magnemite,140,-135.0,Rock,Ground,Electric,,0,0,2255,2255,True
+turn1,Earthquake,Magneton,132.0,110,Rock,Ground,Electric,,0,0,2255,3505,True
+turn2,Earthquake,Magneton,104.0,110,Rock,Ground,Electric,,5,0,2255,3505,True
+turn3,Earthquake,Magneton,76.0,110,Rock,Ground,Electric,,5,0,2255,3505,True
+turn4,Earthquake,Magneton,56.0,-51.0,Rock,Ground,Electric,,5,0,2255,3505,True
+turn1,Rock Slide,Farfetch'd,128.0,-96.0,Rock,Ground,Normal,Flying,0,0,2255,3005,True
+turn1,Rock Slide,Doduo,131.0,-149.0,Rock,Ground,Normal,Flying,0,0,2255,3755,True
+turn1,Rock Slide,Dodrio,120.0,-46.0,Rock,Ground,Normal,Flying,0,0,2255,5005,True
+turn1,Earthquake,Seel,56.0,-11.0,Rock,Ground,Water,,0,0,2255,2255,True
+turn1,Earthquake,Dewgong,-171.0,150,Rock,Ground,Water,Ice,0,0,2255,3505,False
+turn1,Earthquake,Grimer,140,-168.0,Rock,Ground,Poison,,0,0,2255,1255,True
+turn1,Earthquake,Muk,121.0,-26.0,Rock,Ground,Poison,,0,0,2255,2505,True
+turn1,Earthquake,Shellder,140,10.0,Rock,Ground,Water,,0,0,2255,2005,False
+turn2,Earthquake,Shellder,113.0,10.0,Rock,Ground,Water,,5,0,2255,2005,False
+turn3,Earthquake,Shellder,84.0,10.0,Rock,Ground,Water,,5,0,2255,2005,False
+turn4,Earthquake,Shellder,55.0,10.0,Rock,Ground,Water,,5,0,2255,2005,False
+turn5,Earthquake,Shellder,27.0,10.0,Rock,Ground,Water,,5,0,2255,2005,False
+turn6,Earthquake,Shellder,-2.0,10.0,Rock,Ground,Water,,5,0,2255,2005,False
+turn1,Earthquake,Cloyster,-23.0,110,Rock,Ground,Water,Ice,0,0,2255,3505,False
+turn1,Earthquake,Gastly,140,-388.0,Rock,Ground,Ghost,Poison,0,0,2255,4005,True
+turn1,Earthquake,Haunter,132.0,105,Rock,Ground,Ghost,Poison,0,0,2255,4755,False
+turn2,Earthquake,Haunter,74.0,105,Rock,Ground,Ghost,Poison,5,0,2255,4755,False
+turn3,Earthquake,Haunter,16.0,105,Rock,Ground,Ghost,Poison,5,0,2255,4755,False
+turn4,Earthquake,Haunter,-34.0,105,Rock,Ground,Ghost,Poison,5,0,2255,4755,False
+turn1,Earthquake,Gengar,140,-130.0,Rock,Ground,Ghost,Poison,0,0,2255,5505,True
+turn1,Earthquake,Onix,95.0,5.0,Rock,Ground,Rock,Ground,0,0,2255,3505,True
+turn2,Earthquake,Onix,46.0,-94.0,Rock,Ground,Rock,Ground,0,0,2255,3505,True
+turn1,Earthquake,Drowzee,140,-58.0,Rock,Ground,Psychic,,0,0,2255,2105,True
+turn1,Earthquake,Hypno,78.0,35.0,Rock,Ground,Psychic,,0,0,2255,3355,True
+turn2,Earthquake,Hypno,17.0,-80.0,Rock,Ground,Psychic,,0,0,2255,3355,True
+turn1,Earthquake,Krabby,-51.0,90,Rock,Ground,Water,,0,0,2255,2505,False
+turn1,Earthquake,Kingler,-95.0,115,Rock,Ground,Water,,0,0,2255,3755,False
+turn1,Earthquake,Voltorb,128.0,-219.0,Rock,Ground,Electric,,0,0,2255,5005,True
+turn1,Earthquake,Electrode,120.0,-105.0,Rock,Ground,Electric,,0,0,2255,7005,True
+turn1,Earthquake,Exeggcute,47.0,116.0,Rock,Ground,Grass,Psychic,0,0,2255,2005,False
+turn2,Earthquake,Exeggcute,-58.0,120,Rock,Ground,Grass,Psychic,0,0,2255,2005,False
+turn1,Earthquake,Exeggutor,22.0,114.0,Rock,Ground,Grass,Psychic,0,0,2255,2755,False
+turn2,Earthquake,Exeggutor,-82.0,114.0,Rock,Ground,Grass,Psychic,0,0,2255,2755,False
+turn1,Earthquake,Cubone,105.0,34.0,Rock,Ground,Ground,,0,0,2255,1755,True
+turn2,Earthquake,Cubone,105.0,-41.0,Rock,Ground,Ground,,0,0,2255,1755,True
+turn1,Earthquake,Marowak,85.0,46.0,Rock,Ground,Ground,,0,0,2255,2255,True
+turn2,Earthquake,Marowak,32.0,-19.0,Rock,Ground,Ground,,0,0,2255,2255,True
+turn1,Earthquake,Hitmonlee,13.0,-39.0,Rock,Ground,Fighting,,0,0,2255,4355,True
+turn1,Earthquake,Hitmonchan,113.0,17.0,Rock,Ground,Fighting,,0,0,2255,3805,True
+turn2,Earthquake,Hitmonchan,89.0,-79.0,Rock,Ground,Fighting,,0,0,2255,3805,True
+turn1,Earthquake,Lickitung,130.0,46.0,Rock,Ground,Normal,,0,0,2255,1505,True
+turn2,Earthquake,Lickitung,130.0,-58.0,Rock,Ground,Normal,,0,0,2255,1505,True
+turn1,Earthquake,Koffing,140,-55.0,Rock,Ground,Poison,,0,0,2255,1755,True
+turn1,Earthquake,Weezing,140,-4.0,Rock,Ground,Poison,,0,0,2255,3005,True
+turn1,Earthquake,Rhyhorn,140,-28.0,Rock,Ground,Ground,Rock,0,0,2255,1255,True
+turn1,Earthquake,Rhydon,121.0,33.0,Rock,Ground,Ground,Rock,0,0,2255,2005,True
+turn2,Earthquake,Rhydon,121.0,-92.0,Rock,Ground,Ground,Rock,0,0,2255,2005,True
+turn1,Earthquake,Chansey,138.0,-1057.0,Rock,Ground,Normal,,0,0,2255,2505,True
+turn1,Earthquake,Tangela,81.0,93.0,Rock,Ground,Grass,,0,0,2255,3005,False
+turn2,Earthquake,Tangela,19.0,60.0,Rock,Ground,Grass,,0,0,2255,3005,False
+turn3,Earthquake,Tangela,-36.0,60.0,Rock,Ground,Grass,,0,0,2255,3005,False
+turn1,Earthquake,Kangaskhan,125.0,79.0,Rock,Ground,Normal,,0,0,2255,4505,True
+turn2,Earthquake,Kangaskhan,105.0,-18.0,Rock,Ground,Normal,,0,0,2255,4505,True
+turn1,Earthquake,Horsea,18.0,-11.0,Rock,Ground,Water,,0,0,2255,3005,True
+turn1,Earthquake,Seadra,-272.0,115,Rock,Ground,Water,,0,0,2255,4255,False
+turn1,Earthquake,Goldeen,73.0,-17.0,Rock,Ground,Water,,0,0,2255,3155,True
+turn1,Earthquake,Seaking,27.0,18.0,Rock,Ground,Water,,0,0,2255,3405,False
+turn2,Earthquake,Seaking,-78.0,18.0,Rock,Ground,Water,,0,0,2255,3405,False
+turn1,Earthquake,Staryu,16.0,-43.0,Rock,Ground,Water,,0,0,2255,4255,True
+turn1,Earthquake,Starmie,-289.0,120,Rock,Ground,Water,Psychic,0,0,2255,5755,False
+turn1,Earthquake,Mr. Mime,94.0,-11.0,Rock,Ground,Psychic,Normal,0,0,2255,4505,True
+turn1,Rock Slide,Scyther,123.0,-170.0,Rock,Ground,Bug,Flying,0,0,2255,5255,True
+turn1,Earthquake,Jynx,119.0,-87.0,Rock,Ground,Ice,Psychic,0,0,2255,4755,True
+turn1,Earthquake,Electabuzz,134.0,-133.0,Rock,Ground,Electric,,0,0,2255,5255,True
+turn1,Earthquake,Magmar,95.0,-130.0,Rock,Ground,Fire,,0,0,2255,4655,True
+turn1,Rock Slide,Pinsir,140,6.0,Rock,Ground,Bug,,0,0,2255,4255,True
+turn2,Rock Slide,Pinsir,140,-109.0,Rock,Ground,Bug,,0,0,2255,4255,True
+turn1,Earthquake,Tauros,119.0,45.0,Rock,Ground,Normal,,0,0,2255,5505,True
+turn2,Earthquake,Tauros,98.0,-38.0,Rock,Ground,Normal,,0,0,2255,5505,True
+turn1,Earthquake,Magikarp,140,-47.0,Rock,Ground,Water,,0,0,2255,4005,True
+turn1,Rock Slide,Gyarados,-120.0,155,Rock,Ground,Water,Flying,0,0,2255,4055,False
+turn1,Earthquake,Lapras,-182.0,190,Rock,Ground,Water,Ice,0,0,2255,3005,False
+turn1,Earthquake,Ditto,140,-38.0,Rock,Ground,Normal,,0,0,2255,2405,True
+turn1,Earthquake,Eevee,131.0,-39.0,Rock,Ground,Normal,,0,0,2255,2755,True
+turn1,Earthquake,Vaporeon,-233.0,190,Rock,Ground,Water,,0,0,2255,3255,False
+turn1,Earthquake,Jolteon,135.0,-136.0,Rock,Ground,Electric,,0,0,2255,6505,True
+turn1,Earthquake,Flareon,89.0,-104.0,Rock,Ground,Fire,,0,0,2255,3255,True
+turn1,Earthquake,Porygon,109.0,13.0,Rock,Ground,Normal,,0,0,2255,2005,True
+turn2,Earthquake,Porygon,109.0,-89.0,Rock,Ground,Normal,,0,0,2255,2005,True
+turn1,Earthquake,Omanyte,140,-66.0,Rock,Ground,Rock,Water,0,0,2255,1755,True
+turn1,Earthquake,Omastar,-46.0,130,Rock,Ground,Rock,Water,0,0,2255,2755,False
+turn1,Earthquake,Kabuto,131.0,-75.0,Rock,Ground,Rock,Water,0,0,2255,2755,True
+turn1,Earthquake,Kabutops,127.0,-34.0,Rock,Ground,Rock,Water,0,0,2255,4005,True
+turn1,Rock Slide,Aerodactyl,124.0,-35.0,Rock,Ground,Rock,Flying,0,0,2255,6505,True
+turn1,Earthquake,Snorlax,108.0,111.0,Rock,Ground,Normal,,0,0,2255,1505,True
+turn2,Earthquake,Snorlax,108.0,-12.0,Rock,Ground,Normal,,0,0,2255,1505,True
+turn1,Rock Slide,Articuno,36.0,150,Rock,Ground,Ice,Flying,0,0,2255,4255,False
+turn2,Rock Slide,Articuno,-61.0,150,Rock,Ground,Ice,Flying,0,0,2255,4255,False
+turn1,Rock Slide,Zapdos,123.0,22.0,Rock,Ground,Electric,Flying,0,0,2255,5005,True
+turn2,Rock Slide,Zapdos,104.0,-118.0,Rock,Ground,Electric,Flying,0,0,2255,5005,True
+turn1,Rock Slide,Moltres,108.0,-115.0,Rock,Ground,Fire,Flying,0,0,2255,4505,True
+turn1,Earthquake,Dratini,131.0,-69.0,Rock,Ground,Dragon,,0,0,2255,2505,True
+turn1,Earthquake,Dragonair,100,0.0,Rock,Ground,Dragon,,0,0,2255,3505,True
+turn1,Rock Slide,Dragonite,100,23.0,Rock,Ground,Dragon,Flying,0,0,2255,4005,True
+turn2,Rock Slide,Dragonite,60,-94.0,Rock,Ground,Dragon,Flying,0,0,2255,4005,True
+turn1,Earthquake,Mewtwo,140,166,Rock,Ground,Psychic,,0,0,2255,6505,False
+turn2,Earthquake,Mewtwo,65.0,166,Rock,Ground,Psychic,,1,0,2255,6505,False
+turn3,Earthquake,Mewtwo,65.0,166,Rock,Ground,Psychic,,0,0,2255,6505,False
+turn4,Earthquake,Mewtwo,-7.0,166,Rock,Ground,Psychic,,1,0,2255,6505,False
+turn1,Earthquake,Mew,53.0,89.0,Rock,Ground,Psychic,,0,0,2255,5005,False
+turn2,Earthquake,Mew,-32.0,89.0,Rock,Ground,Psychic,,0,0,2255,5005,False

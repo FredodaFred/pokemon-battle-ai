@@ -1,0 +1,442 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Confusion,Bulbasaur,103.0,111,Grass,Psychic,Grass,Poison,0,0,2005,2255,True
+turn2,Confusion,Bulbasaur,85.0,51.0,Grass,Psychic,Grass,Poison,0,7,2005,2255,True
+turn3,Confusion,Bulbasaur,73.0,-8.0,Grass,Psychic,Grass,Poison,0,7,2005,2255,True
+turn1,Confusion,Ivysaur,106,127,Grass,Psychic,Grass,Poison,0,0,2005,3005,True
+turn2,Confusion,Ivysaur,78.0,82.0,Grass,Psychic,Grass,Poison,3,7,2005,3005,True
+turn3,Confusion,Ivysaur,49.0,39.0,Grass,Psychic,Grass,Poison,3,7,2005,3005,True
+turn4,Confusion,Ivysaur,36.0,-11.0,Grass,Psychic,Grass,Poison,3,7,2005,3005,True
+turn1,Confusion,Venusaur,35.0,148,Grass,Psychic,Grass,Poison,0,0,2005,4005,False
+turn2,Confusion,Venusaur,-42.0,148,Grass,Psychic,Grass,Poison,0,7,2005,4005,False
+turn1,Leech Seed,Charmander,-43.0,99,Grass,Psychic,Fire,,0,0,2005,3255,False
+turn1,Leech Seed,Charmeleon,-64.0,118,Grass,Psychic,Fire,,0,0,2005,4005,False
+turn1,Leech Seed,Charizard,-136.0,138,Grass,Psychic,Fire,Flying,0,0,2005,5005,False
+turn1,Mega Drain,Squirtle,81.0,110,Grass,Psychic,Water,,0,0,2005,2155,False
+turn2,Mega Drain,Squirtle,56.0,89.0,Grass,Psychic,Water,,0,7,2005,2155,False
+turn3,Mega Drain,Squirtle,28.0,72.0,Grass,Psychic,Water,,0,7,2005,2155,False
+turn4,Mega Drain,Squirtle,-6.0,72.0,Grass,Psychic,Water,,0,7,2005,2155,False
+turn1,Mega Drain,Wartortle,68.0,126,Grass,Psychic,Water,,0,0,2005,2905,False
+turn2,Mega Drain,Wartortle,25.0,114.0,Grass,Psychic,Water,,0,7,2005,2905,False
+turn3,Mega Drain,Wartortle,-18.0,114.0,Grass,Psychic,Water,,0,7,2005,2905,False
+turn1,Mega Drain,Blastoise,55.0,147,Grass,Psychic,Water,,0,0,2005,3905,False
+turn2,Mega Drain,Blastoise,-5.0,147,Grass,Psychic,Water,,0,7,2005,3905,False
+turn1,Confusion,Caterpie,106.0,111,Grass,Psychic,Bug,,0,0,2005,2255,True
+turn2,Confusion,Caterpie,93.0,28.0,Grass,Psychic,Bug,,0,7,2005,2255,True
+turn3,Confusion,Caterpie,85.0,-61.0,Grass,Psychic,Bug,,0,7,2005,2255,True
+turn1,Confusion,Metapod,103.0,122,Grass,Psychic,Bug,,0,0,2005,1505,True
+turn2,Confusion,Metapod,85.0,58.0,Grass,Psychic,Bug,,0,7,2005,1505,True
+turn3,Confusion,Metapod,85.0,-15.0,Grass,Psychic,Bug,,0,7,2005,1505,True
+turn1,Leech Seed,Butterfree,120,120,Grass,Psychic,Bug,Flying,0,0,2005,3505,False
+turn2,Leech Seed,Butterfree,92.0,120,Grass,Psychic,Bug,Flying,1,0,2005,3505,False
+turn3,Leech Seed,Butterfree,92.0,120,Grass,Psychic,Bug,Flying,0,0,2005,3505,False
+turn4,Leech Seed,Butterfree,63.0,120,Grass,Psychic,Bug,Flying,1,0,2005,3505,False
+turn5,Leech Seed,Butterfree,36.0,120,Grass,Psychic,Bug,Flying,1,0,2005,3505,False
+turn6,Leech Seed,Butterfree,36.0,120,Grass,Psychic,Bug,Flying,0,0,2005,3505,False
+turn7,Leech Seed,Butterfree,11.0,120,Grass,Psychic,Bug,Flying,1,0,2005,3505,False
+turn8,Leech Seed,Butterfree,-17.0,120,Grass,Psychic,Bug,Flying,1,0,2005,3505,False
+turn1,Confusion,Weedle,102.0,106,Grass,Psychic,Bug,Poison,0,0,2005,2505,True
+turn2,Confusion,Weedle,89.0,-94.0,Grass,Psychic,Bug,Poison,0,7,2005,2505,True
+turn1,Confusion,Kakuna,101.0,117,Grass,Psychic,Bug,Poison,0,0,2005,1755,True
+turn2,Confusion,Kakuna,101.0,-35.0,Grass,Psychic,Bug,Poison,0,7,2005,1755,True
+turn1,Leech Seed,Beedrill,-30.0,125,Grass,Psychic,Bug,Poison,0,0,2005,3755,False
+turn1,Confusion,Pidgey,70.0,106,Grass,Psychic,Normal,Flying,0,0,2005,2805,False
+turn2,Confusion,Pidgey,17.0,53.0,Grass,Psychic,Normal,Flying,0,7,2005,2805,False
+turn3,Confusion,Pidgey,-27.0,53.0,Grass,Psychic,Normal,Flying,0,7,2005,2805,False
+turn1,Confusion,Pidgeotto,49.0,130,Grass,Psychic,Normal,Flying,0,0,2005,3555,False
+turn2,Confusion,Pidgeotto,-12.0,130,Grass,Psychic,Normal,Flying,0,7,2005,3555,False
+turn1,Confusion,Pidgeot,40.0,151,Grass,Psychic,Normal,Flying,0,0,2005,5055,False
+turn2,Confusion,Pidgeot,-35.0,151,Grass,Psychic,Normal,Flying,0,7,2005,5055,False
+turn1,Confusion,Rattata,79.0,95,Grass,Psychic,Normal,,0,0,2005,3605,True
+turn2,Confusion,Rattata,39.0,50.0,Grass,Psychic,Normal,,0,7,2005,3605,True
+turn3,Confusion,Rattata,4.0,0.0,Grass,Psychic,Normal,,0,7,2005,3605,True
+turn1,Confusion,Raticate,65.0,122,Grass,Psychic,Normal,,0,0,2005,4855,False
+turn2,Confusion,Raticate,8.0,102.0,Grass,Psychic,Normal,,0,7,2005,4855,False
+turn3,Confusion,Raticate,-45.0,102.0,Grass,Psychic,Normal,,0,7,2005,4855,False
+turn1,Confusion,Spearow,30.0,106,Grass,Psychic,Normal,Flying,0,0,2005,3505,False
+turn2,Confusion,Spearow,-50.0,106,Grass,Psychic,Normal,Flying,0,7,2005,3505,False
+turn1,Confusion,Fearow,3.0,132,Grass,Psychic,Normal,Flying,0,0,2005,5005,False
+turn2,Confusion,Fearow,-106.0,132,Grass,Psychic,Normal,Flying,0,7,2005,5005,False
+turn1,Confusion,Ekans,66.0,100,Grass,Psychic,Poison,,0,0,2005,2755,False
+turn2,Confusion,Ekans,10.0,34.0,Grass,Psychic,Poison,,0,7,2005,2755,False
+turn3,Confusion,Ekans,-39.0,34.0,Grass,Psychic,Poison,,0,7,2005,2755,False
+turn1,Confusion,Arbok,37.0,127,Grass,Psychic,Poison,,0,0,2005,4005,False
+turn2,Confusion,Arbok,-36.0,127,Grass,Psychic,Poison,,0,7,2005,4005,False
+turn1,Confusion,Pikachu,74.0,100,Grass,Psychic,Electric,,0,0,2005,4505,False
+turn2,Confusion,Pikachu,32.0,69.0,Grass,Psychic,Electric,,0,7,2005,4505,False
+turn3,Confusion,Pikachu,-9.0,69.0,Grass,Psychic,Electric,,0,7,2005,4505,False
+turn1,Confusion,Raichu,40.0,127,Grass,Psychic,Electric,,0,0,2005,5505,False
+turn2,Confusion,Raichu,-34.0,127,Grass,Psychic,Electric,,0,7,2005,5505,False
+turn1,Mega Drain,Sandshrew,88.0,116,Grass,Psychic,Ground,,0,0,2005,2005,True
+turn2,Mega Drain,Sandshrew,78.0,75.0,Grass,Psychic,Ground,,0,7,2005,2005,True
+turn3,Mega Drain,Sandshrew,71.0,29.0,Grass,Psychic,Ground,,0,7,2005,2005,True
+turn4,Mega Drain,Sandshrew,69.0,-26.0,Grass,Psychic,Ground,,0,7,2005,2005,True
+turn1,Mega Drain,Sandslash,76.0,143,Grass,Psychic,Ground,,0,0,2005,3255,False
+turn2,Mega Drain,Sandslash,46.0,122.0,Grass,Psychic,Ground,,0,7,2005,3255,False
+turn3,Mega Drain,Sandslash,11.0,103.0,Grass,Psychic,Ground,,0,7,2005,3255,False
+turn4,Mega Drain,Sandslash,-27.0,103.0,Grass,Psychic,Ground,,0,7,2005,3255,False
+turn1,Confusion,Nidoran♀,98.0,122,Grass,Psychic,Poison,,0,0,2005,2055,True
+turn2,Confusion,Nidoran♀,76.0,38.0,Grass,Psychic,Poison,,0,7,2005,2055,True
+turn3,Confusion,Nidoran♀,59.0,-54.0,Grass,Psychic,Poison,,0,7,2005,2055,True
+turn1,Confusion,Nidorina,92.0,138,Grass,Psychic,Poison,,0,0,2005,2805,True
+turn2,Confusion,Nidorina,65.0,73.0,Grass,Psychic,Poison,,0,7,2005,2805,True
+turn3,Confusion,Nidorina,44.0,-4.0,Grass,Psychic,Poison,,0,7,2005,2805,True
+turn1,Confusion,Nidoqueen,69.0,159,Grass,Psychic,Poison,Ground,0,0,2005,3805,False
+turn2,Confusion,Nidoqueen,18.0,120.0,Grass,Psychic,Poison,Ground,0,7,2005,3805,False
+turn3,Confusion,Nidoqueen,-23.0,120.0,Grass,Psychic,Poison,Ground,0,7,2005,3805,False
+turn1,Confusion,Nidoran♂,114,112,Grass,Psychic,Poison,,0,0,2005,2505,True
+turn2,Confusion,Nidoran♂,108,18.0,Grass,Psychic,Poison,,0,7,2005,2505,True
+turn3,Confusion,Nidoran♂,108,-72.0,Grass,Psychic,Poison,,0,7,2005,2505,True
+turn1,Confusion,Nidorino,113,128,Grass,Psychic,Poison,,0,0,2005,3255,False
+turn2,Confusion,Nidorino,92.0,66.0,Grass,Psychic,Poison,,0,7,2005,3255,False
+turn3,Confusion,Nidorino,-65443.0,66.0,Grass,Psychic,Poison,,0,7,2005,3255,False
+turn1,Confusion,Nidoking,51.0,149,Grass,Psychic,Poison,Ground,0,0,2005,4255,False
+turn2,Confusion,Nidoking,-9.0,149,Grass,Psychic,Poison,Ground,0,7,2005,4255,False
+turn1,Confusion,Clefairy,64.0,146,Grass,Psychic,Normal,,0,0,2005,1755,False
+turn2,Confusion,Clefairy,13.0,134.0,Grass,Psychic,Normal,,0,7,2005,1755,False
+turn3,Confusion,Clefairy,-15.0,103.0,Grass,Psychic,Normal,,0,7,2005,1755,False
+turn1,Leech Seed,Clefable,120,155,Grass,Psychic,Normal,,0,0,2005,3005,False
+turn2,Leech Seed,Clefable,87.0,155,Grass,Psychic,Normal,,1,0,2005,3005,False
+turn3,Leech Seed,Clefable,87.0,155,Grass,Psychic,Normal,,0,0,2005,3005,False
+turn4,Leech Seed,Clefable,65.0,155,Grass,Psychic,Normal,,1,0,2005,3005,False
+turn5,Leech Seed,Clefable,35.0,155,Grass,Psychic,Normal,,1,0,2005,3005,False
+turn6,Leech Seed,Clefable,35.0,155,Grass,Psychic,Normal,,0,0,2005,3005,False
+turn7,Leech Seed,Clefable,2.0,155,Grass,Psychic,Normal,,1,0,2005,3005,False
+turn8,Leech Seed,Clefable,2.0,155,Grass,Psychic,Normal,,0,0,2005,3005,False
+turn9,Leech Seed,Clefable,-20.0,155,Grass,Psychic,Normal,,1,0,2005,3005,False
+turn1,Leech Seed,Vulpix,-9.0,98,Grass,Psychic,Fire,,0,0,2005,3255,False
+turn1,Confusion,Ninetales,16.0,141,Grass,Psychic,Fire,,0,0,2005,5005,False
+turn2,Confusion,Ninetales,-75.0,141,Grass,Psychic,Fire,,0,7,2005,5005,False
+turn1,Confusion,Jigglypuff,59.0,195,Grass,Psychic,Normal,,0,0,2005,1005,False
+turn2,Confusion,Jigglypuff,-2.0,141.0,Grass,Psychic,Normal,,0,7,2005,1005,False
+turn1,Leech Seed,Wigglytuff,120,200,Grass,Psychic,Normal,,0,0,2005,2255,False
+turn2,Leech Seed,Wigglytuff,90.0,200,Grass,Psychic,Normal,,1,0,2005,2255,False
+turn3,Leech Seed,Wigglytuff,40.0,200,Grass,Psychic,Normal,,1,0,2005,2255,False
+turn4,Leech Seed,Wigglytuff,20.0,200,Grass,Psychic,Normal,,1,0,2005,2255,False
+turn5,Leech Seed,Wigglytuff,-10.0,200,Grass,Psychic,Normal,,1,0,2005,2255,False
+turn1,Confusion,Zubat,64.0,106,Grass,Psychic,Poison,Flying,0,0,2005,2755,False
+turn2,Confusion,Zubat,11.0,12.0,Grass,Psychic,Poison,Flying,0,7,2005,2755,False
+turn3,Confusion,Zubat,-37.0,12.0,Grass,Psychic,Poison,Flying,0,7,2005,2755,False
+turn1,Confusion,Golbat,37.0,143,Grass,Psychic,Poison,Flying,0,0,2005,4505,False
+turn2,Confusion,Golbat,-43.0,143,Grass,Psychic,Poison,Flying,0,7,2005,4505,False
+turn1,Confusion,Oddish,47.0,117,Grass,Psychic,Grass,Poison,0,0,2005,1505,False
+turn2,Confusion,Oddish,-18.0,54.0,Grass,Psychic,Grass,Poison,0,7,2005,1505,False
+turn1,Confusion,Gloom,38.0,127,Grass,Psychic,Grass,Poison,0,0,2005,2005,False
+turn2,Confusion,Gloom,-30.0,127,Grass,Psychic,Grass,Poison,0,7,2005,2005,False
+turn1,Leech Seed,Vileplume,120,135,Grass,Psychic,Grass,Poison,0,0,2005,2505,False
+turn2,Leech Seed,Vileplume,89.0,135,Grass,Psychic,Grass,Poison,1,0,2005,2505,False
+turn3,Leech Seed,Vileplume,59.0,135,Grass,Psychic,Grass,Poison,1,0,2005,2505,False
+turn4,Leech Seed,Vileplume,28.0,135,Grass,Psychic,Grass,Poison,1,0,2005,2505,False
+turn5,Leech Seed,Vileplume,28.0,135,Grass,Psychic,Grass,Poison,0,0,2005,2505,False
+turn6,Leech Seed,Vileplume,-3.0,135,Grass,Psychic,Grass,Poison,1,0,2005,2505,False
+turn1,Leech Seed,Paras,-72.0,95,Grass,Psychic,Bug,Grass,0,0,2005,1255,False
+turn1,Leech Seed,Parasect,-139.0,120,Grass,Psychic,Bug,Grass,0,0,2005,1505,False
+turn1,Leech Seed,Venonat,120,120,Grass,Psychic,Bug,Poison,0,0,2005,2255,False
+turn2,Leech Seed,Venonat,102.0,120,Grass,Psychic,Bug,Poison,1,0,2005,2255,False
+turn3,Leech Seed,Venonat,102.0,120,Grass,Psychic,Bug,Poison,0,0,2005,2255,False
+turn4,Leech Seed,Venonat,86.0,120,Grass,Psychic,Bug,Poison,1,0,2005,2255,False
+turn5,Leech Seed,Venonat,69.0,120,Grass,Psychic,Bug,Poison,1,0,2005,2255,False
+turn6,Leech Seed,Venonat,51.0,120,Grass,Psychic,Bug,Poison,1,0,2005,2255,False
+turn7,Leech Seed,Venonat,36.0,120,Grass,Psychic,Bug,Poison,1,0,2005,2255,False
+turn8,Leech Seed,Venonat,19.0,120,Grass,Psychic,Bug,Poison,1,0,2005,2255,False
+turn9,Leech Seed,Venonat,19.0,120,Grass,Psychic,Bug,Poison,0,0,2005,2255,False
+turn10,Leech Seed,Venonat,1.0,120,Grass,Psychic,Bug,Poison,1,0,2005,2255,False
+turn11,Leech Seed,Venonat,1.0,120,Grass,Psychic,Bug,Poison,0,0,2005,2255,False
+turn12,Leech Seed,Venonat,-14.0,120,Grass,Psychic,Bug,Poison,1,0,2005,2255,False
+turn1,Leech Seed,Venomoth,120,130,Grass,Psychic,Bug,Poison,0,0,2005,4505,False
+turn2,Leech Seed,Venomoth,81.0,130,Grass,Psychic,Bug,Poison,1,0,2005,4505,False
+turn3,Leech Seed,Venomoth,41.0,130,Grass,Psychic,Bug,Poison,1,0,2005,4505,False
+turn4,Leech Seed,Venomoth,4.0,130,Grass,Psychic,Bug,Poison,1,0,2005,4505,False
+turn5,Leech Seed,Venomoth,-34.0,130,Grass,Psychic,Bug,Poison,1,0,2005,4505,False
+turn1,Mega Drain,Diglett,93.0,74,Grass,Psychic,Ground,,0,0,2005,4755,True
+turn2,Mega Drain,Diglett,84.0,44.0,Grass,Psychic,Ground,,0,7,2005,4755,True
+turn3,Mega Drain,Diglett,77.0,13.0,Grass,Psychic,Ground,,0,7,2005,4755,True
+turn4,Mega Drain,Diglett,72.0,-21.0,Grass,Psychic,Ground,,0,7,2005,4755,True
+turn1,Mega Drain,Dugtrio,84.0,100,Grass,Psychic,Ground,,0,0,2005,6005,False
+turn2,Mega Drain,Dugtrio,57.0,84.0,Grass,Psychic,Ground,,0,7,2005,6005,False
+turn3,Mega Drain,Dugtrio,35.0,65.0,Grass,Psychic,Ground,,0,7,2005,6005,False
+turn4,Mega Drain,Dugtrio,11.0,46.0,Grass,Psychic,Ground,,0,7,2005,6005,False
+turn5,Mega Drain,Dugtrio,-22.0,46.0,Grass,Psychic,Ground,,0,7,2005,6005,False
+turn1,Confusion,Meowth,91.0,106,Grass,Psychic,Normal,,0,0,2005,4505,True
+turn2,Confusion,Meowth,64.0,67.0,Grass,Psychic,Normal,,0,7,2005,4505,True
+turn3,Confusion,Meowth,36.0,23.0,Grass,Psychic,Normal,,0,7,2005,4505,True
+turn4,Confusion,Meowth,12.0,-25.0,Grass,Psychic,Normal,,0,7,2005,4505,True
+turn1,Confusion,Persian,74.0,132,Grass,Psychic,Normal,,0,0,2005,5755,False
+turn2,Confusion,Persian,25.0,107.0,Grass,Psychic,Normal,,0,7,2005,5755,False
+turn3,Confusion,Persian,-14.0,107.0,Grass,Psychic,Normal,,0,7,2005,5755,False
+turn1,Mega Drain,Psyduck,95.0,116,Grass,Psychic,Water,,0,0,2005,2755,True
+turn2,Mega Drain,Psyduck,87.0,92.0,Grass,Psychic,Water,,0,7,2005,2755,True
+turn3,Mega Drain,Psyduck,78.0,65.0,Grass,Psychic,Water,,0,7,2005,2755,True
+turn4,Mega Drain,Psyduck,70.0,41.0,Grass,Psychic,Water,,0,7,2005,2755,True
+turn5,Mega Drain,Psyduck,64.0,13.0,Grass,Psychic,Water,,0,7,2005,2755,True
+turn6,Mega Drain,Psyduck,62.0,-17.0,Grass,Psychic,Water,,0,7,2005,2755,True
+turn1,Mega Drain,Golduck,71.0,148,Grass,Psychic,Water,,0,0,2005,4255,False
+turn2,Mega Drain,Golduck,33.0,135.0,Grass,Psychic,Water,,0,7,2005,4255,False
+turn3,Mega Drain,Golduck,-3.0,135.0,Grass,Psychic,Water,,0,7,2005,4255,False
+turn1,Confusion,Mankey,98.0,106,Grass,Psychic,Fighting,,0,0,2005,3505,True
+turn2,Confusion,Mankey,77.0,26.0,Grass,Psychic,Fighting,,0,7,2005,3505,True
+turn3,Confusion,Mankey,62.0,-59.0,Grass,Psychic,Fighting,,0,7,2005,3505,True
+turn1,Confusion,Primeape,48.0,132,Grass,Psychic,Fighting,,0,0,2005,4755,False
+turn2,Confusion,Primeape,-22.0,132,Grass,Psychic,Fighting,,0,7,2005,4755,False
+turn1,Confusion,Growlithe,82.0,107.0,Grass,Psychic,Fire,,0,0,2005,3005,True
+turn2,Confusion,Growlithe,41.0,57.0,Grass,Psychic,Fire,,0,7,2005,3005,True
+turn3,Confusion,Growlithe,8.0,-1.0,Grass,Psychic,Fire,,0,7,2005,3005,True
+turn1,Leech Seed,Arcanine,-126.0,138.0,Grass,Psychic,Fire,,0,0,2005,4755,False
+turn1,Leech Seed,Poliwag,120,100,Grass,Psychic,Water,,0,0,2005,4505,False
+turn2,Leech Seed,Poliwag,95.0,100,Grass,Psychic,Water,,1,0,2005,4505,False
+turn3,Leech Seed,Poliwag,72.0,100,Grass,Psychic,Water,,1,0,2005,4505,False
+turn4,Leech Seed,Poliwag,50.0,100,Grass,Psychic,Water,,1,0,2005,4505,False
+turn5,Leech Seed,Poliwag,28.0,100,Grass,Psychic,Water,,1,0,2005,4505,False
+turn6,Leech Seed,Poliwag,28.0,100,Grass,Psychic,Water,,0,0,2005,4505,False
+turn7,Leech Seed,Poliwag,7.0,100,Grass,Psychic,Water,,1,0,2005,4505,False
+turn8,Leech Seed,Poliwag,-15.0,100,Grass,Psychic,Water,,1,0,2005,4505,False
+turn1,Mega Drain,Poliwhirl,59.0,132,Grass,Psychic,Water,,0,0,2005,4505,False
+turn2,Mega Drain,Poliwhirl,-4.0,139,Grass,Psychic,Water,,0,7,2005,4505,False
+turn1,Confusion,Poliwrath,40.0,159,Grass,Psychic,Water,Fighting,0,0,2005,3505,False
+turn2,Confusion,Poliwrath,-30.0,159,Grass,Psychic,Water,Fighting,0,7,2005,3505,False
+turn1,Confusion,Abra,115,90,Grass,Psychic,Psychic,,0,0,2005,4505,True
+turn2,Confusion,Abra,110,78.0,Grass,Psychic,Psychic,,0,7,2005,4505,True
+turn3,Confusion,Abra,105,64.0,Grass,Psychic,Psychic,,0,7,2005,4505,True
+turn4,Confusion,Abra,100,51.0,Grass,Psychic,Psychic,,0,7,2005,4505,True
+turn5,Confusion,Abra,95,37.0,Grass,Psychic,Psychic,,0,7,2005,4505,True
+turn6,Confusion,Abra,90,24.0,Grass,Psychic,Psychic,,0,7,2005,4505,True
+turn7,Confusion,Abra,85,13.0,Grass,Psychic,Psychic,,0,7,2005,4505,True
+turn8,Confusion,Abra,85,-6.0,Grass,Psychic,Psychic,,0,7,2005,4505,True
+turn1,Confusion,Kadabra,65.0,106,Grass,Psychic,Psychic,,0,0,2005,5255,False
+turn2,Confusion,Kadabra,9.0,97.0,Grass,Psychic,Psychic,,0,7,2005,5255,False
+turn3,Confusion,Kadabra,-44.0,97.0,Grass,Psychic,Psychic,,0,7,2005,5255,False
+turn1,Confusion,Alakazam,29.0,122,Grass,Psychic,Psychic,,0,0,2005,6005,False
+turn2,Confusion,Alakazam,-49.0,122,Grass,Psychic,Psychic,,0,7,2005,6005,False
+turn1,Confusion,Machop,71.0,146,Grass,Psychic,Fighting,,0,0,2005,1755,True
+turn2,Confusion,Machop,21.0,48.0,Grass,Psychic,Fighting,,0,7,2005,1755,True
+turn3,Confusion,Machop,21.0,-57.0,Grass,Psychic,Fighting,,0,7,2005,1755,True
+turn1,Confusion,Machoke,72.0,148,Grass,Psychic,Fighting,,0,0,2005,2255,False
+turn2,Confusion,Machoke,21.0,86.0,Grass,Psychic,Fighting,,0,7,2005,2255,False
+turn3,Confusion,Machoke,-19.0,86.0,Grass,Psychic,Fighting,,0,7,2005,2255,False
+turn1,Confusion,Machamp,61.0,159,Grass,Psychic,Fighting,,0,0,2005,2755,False
+turn2,Confusion,Machamp,2.0,121.0,Grass,Psychic,Fighting,,0,7,2005,2755,False
+turn3,Confusion,Machamp,-48.0,121.0,Grass,Psychic,Fighting,,0,7,2005,2755,False
+turn1,Confusion,Bellsprout,107,116,Grass,Psychic,Grass,Poison,0,0,2005,2005,True
+turn2,Confusion,Bellsprout,94.0,-18.0,Grass,Psychic,Grass,Poison,3,7,2005,2005,True
+turn1,Confusion,Weepinbell,106,132,Grass,Psychic,Grass,Poison,0,0,2005,2755,False
+turn2,Confusion,Weepinbell,-10.0,57.0,Grass,Psychic,Grass,Poison,3,7,2005,2755,False
+turn1,Confusion,Victreebel,6.0,148,Grass,Psychic,Grass,Poison,0,0,2005,3505,False
+turn2,Confusion,Victreebel,-110.0,148,Grass,Psychic,Grass,Poison,0,7,2005,3505,False
+turn1,Confusion,Tentacool,58.0,106,Grass,Psychic,Water,Poison,0,0,2005,3505,False
+turn2,Confusion,Tentacool,-3.0,106,Grass,Psychic,Water,Poison,0,7,2005,3505,False
+turn1,Confusion,Tentacruel,105,148,Grass,Psychic,Water,Poison,0,0,2005,5005,False
+turn2,Confusion,Tentacruel,53.0,118.0,Grass,Psychic,Water,Poison,3,7,2005,5005,False
+turn3,Confusion,Tentacruel,-1.0,91.0,Grass,Psychic,Water,Poison,3,7,2005,5005,False
+turn1,Mega Drain,Geodude,120,-98.0,Grass,Psychic,Rock,Ground,0,0,2005,1005,True
+turn1,Mega Drain,Graveler,120,-30.0,Grass,Psychic,Rock,Ground,0,0,2005,1755,True
+turn1,Mega Drain,Golem,120,39.0,Grass,Psychic,Rock,Ground,0,0,2005,2255,True
+turn2,Mega Drain,Golem,120,-65.0,Grass,Psychic,Rock,Ground,0,0,2005,2255,True
+turn1,Confusion,Ponyta,42.0,116,Grass,Psychic,Fire,,0,0,2005,4505,False
+turn2,Confusion,Ponyta,-32.0,116,Grass,Psychic,Fire,,0,7,2005,4505,False
+turn1,Confusion,Rapidash,22.0,132,Grass,Psychic,Fire,,0,0,2005,5255,False
+turn2,Confusion,Rapidash,-73.0,132,Grass,Psychic,Fire,,2,7,2005,5255,False
+turn1,Mega Drain,Slowpoke,77.0,168,Grass,Psychic,Water,Psychic,0,0,2005,755,True
+turn2,Mega Drain,Slowpoke,73.0,111.0,Grass,Psychic,Water,Psychic,0,7,2005,755,True
+turn3,Mega Drain,Slowpoke,69.0,55.0,Grass,Psychic,Water,Psychic,0,7,2005,755,True
+turn4,Mega Drain,Slowpoke,109.0,-26.0,Grass,Psychic,Water,Psychic,0,7,2005,755,True
+turn1,Mega Drain,Slowbro,26.0,173,Grass,Psychic,Water,Psychic,0,0,2005,1505,False
+turn2,Mega Drain,Slowbro,-28.0,132.0,Grass,Psychic,Water,Psychic,0,7,2005,1505,False
+turn1,Confusion,Magnemite,115,90,Grass,Psychic,Electric,,0,0,2005,2255,False
+turn2,Confusion,Magnemite,83.0,61.0,Grass,Psychic,Electric,,5,7,2005,2255,False
+turn3,Confusion,Magnemite,53.0,28.0,Grass,Psychic,Electric,,5,7,2005,2255,False
+turn4,Confusion,Magnemite,11.0,33.0,Grass,Psychic,Electric,,5,7,2005,2255,False
+turn5,Confusion,Magnemite,-18.0,33.0,Grass,Psychic,Electric,,5,7,2005,2255,False
+turn1,Confusion,Magneton,34.0,116,Grass,Psychic,Electric,,0,0,2005,3505,False
+turn2,Confusion,Magneton,-38.0,116,Grass,Psychic,Electric,,0,7,2005,3505,False
+turn1,Confusion,Farfetch'd,77.0,119,Grass,Psychic,Normal,Flying,0,0,2005,3005,False
+turn2,Confusion,Farfetch'd,34.0,94.0,Grass,Psychic,Normal,Flying,0,7,2005,3005,False
+turn3,Confusion,Farfetch'd,0.0,94.0,Grass,Psychic,Normal,Flying,0,7,2005,3005,False
+turn1,Confusion,Doduo,70.0,100,Grass,Psychic,Normal,Flying,0,0,2005,3755,False
+turn2,Confusion,Doduo,23.0,47.0,Grass,Psychic,Normal,Flying,0,7,2005,3755,False
+turn3,Confusion,Doduo,-17.0,47.0,Grass,Psychic,Normal,Flying,0,7,2005,3755,False
+turn1,Leech Seed,Dodrio,-21.0,120,Grass,Psychic,Normal,Flying,0,0,2005,5005,False
+turn1,Mega Drain,Seel,31.0,132,Grass,Psychic,Water,,0,0,2005,2255,False
+turn2,Mega Drain,Seel,-39.0,132,Grass,Psychic,Water,,0,7,2005,2255,False
+turn1,Leech Seed,Dewgong,-104.0,150,Grass,Psychic,Water,Ice,0,0,2005,3505,False
+turn1,Confusion,Grimer,32.0,156,Grass,Psychic,Poison,,0,0,2005,1255,False
+turn2,Confusion,Grimer,-38.0,82.0,Grass,Psychic,Poison,,0,7,2005,1255,False
+turn1,Confusion,Muk,42.0,175,Grass,Psychic,Poison,,0,0,2005,2505,False
+turn2,Confusion,Muk,-24.0,175,Grass,Psychic,Poison,,0,7,2005,2505,False
+turn1,Mega Drain,Shellder,63.0,95,Grass,Psychic,Water,,0,0,2005,2005,False
+turn2,Mega Drain,Shellder,27.0,41.0,Grass,Psychic,Water,,0,7,2005,2005,False
+turn3,Mega Drain,Shellder,-30.0,41.0,Grass,Psychic,Water,,0,7,2005,2005,False
+turn1,Leech Seed,Cloyster,-106.0,110,Grass,Psychic,Water,Ice,0,0,2005,3505,False
+turn1,Leech Seed,Gastly,111.0,90,Grass,Psychic,Ghost,Poison,0,0,2005,4005,False
+turn2,Leech Seed,Gastly,51.0,90,Grass,Psychic,Ghost,Poison,5,0,2005,4005,False
+turn3,Leech Seed,Gastly,-9.0,90,Grass,Psychic,Ghost,Poison,5,0,2005,4005,False
+turn1,Confusion,Haunter,114,111,Grass,Psychic,Ghost,Poison,0,0,2005,4755,False
+turn2,Confusion,Haunter,49.0,117,Grass,Psychic,Ghost,Poison,5,7,2005,4755,False
+turn3,Confusion,Haunter,-1.0,117,Grass,Psychic,Ghost,Poison,5,7,2005,4755,False
+turn1,Leech Seed,Gengar,110.0,120,Grass,Psychic,Ghost,Poison,0,0,2005,5505,False
+turn2,Leech Seed,Gengar,50.0,120,Grass,Psychic,Ghost,Poison,5,0,2005,5505,False
+turn3,Leech Seed,Gengar,0.0,120,Grass,Psychic,Ghost,Poison,5,0,2005,5505,False
+turn1,Mega Drain,Onix,120,-41.0,Grass,Psychic,Rock,Ground,0,0,2005,3505,True
+turn1,Leech Seed,Drowzee,120,120,Grass,Psychic,Psychic,,0,0,2005,2105,False
+turn2,Leech Seed,Drowzee,105.0,120,Grass,Psychic,Psychic,,1,0,2005,2105,False
+turn3,Leech Seed,Drowzee,89.0,120,Grass,Psychic,Psychic,,1,0,2005,2105,False
+turn4,Leech Seed,Drowzee,74.0,120,Grass,Psychic,Psychic,,1,0,2005,2105,False
+turn5,Leech Seed,Drowzee,60.0,120,Grass,Psychic,Psychic,,1,0,2005,2105,False
+turn6,Leech Seed,Drowzee,60.0,120,Grass,Psychic,Psychic,,0,0,2005,2105,False
+turn7,Leech Seed,Drowzee,44.0,120,Grass,Psychic,Psychic,,1,0,2005,2105,False
+turn8,Leech Seed,Drowzee,44.0,120,Grass,Psychic,Psychic,,0,0,2005,2105,False
+turn9,Leech Seed,Drowzee,29.0,120,Grass,Psychic,Psychic,,1,0,2005,2105,False
+turn10,Leech Seed,Drowzee,12.0,120,Grass,Psychic,Psychic,,1,0,2005,2105,False
+turn11,Leech Seed,Drowzee,-3.0,120,Grass,Psychic,Psychic,,1,0,2005,2105,False
+turn1,Confusion,Hypno,66.0,154,Grass,Psychic,Psychic,,0,0,2005,3355,False
+turn2,Confusion,Hypno,12.0,153.0,Grass,Psychic,Psychic,,0,7,2005,3355,False
+turn3,Confusion,Hypno,-31.0,153.0,Grass,Psychic,Psychic,,0,7,2005,3355,False
+turn1,Mega Drain,Krabby,75.0,95,Grass,Psychic,Water,,0,0,2005,2505,True
+turn2,Mega Drain,Krabby,56.0,44.0,Grass,Psychic,Water,,0,7,2005,2505,True
+turn3,Mega Drain,Krabby,48.0,-16.0,Grass,Psychic,Water,,0,7,2005,2505,True
+turn1,Mega Drain,Kingler,65.0,122,Grass,Psychic,Water,,0,0,2005,3755,False
+turn2,Mega Drain,Kingler,21.0,95.0,Grass,Psychic,Water,,0,7,2005,3755,False
+turn3,Mega Drain,Kingler,-32.0,95.0,Grass,Psychic,Water,,0,7,2005,3755,False
+turn1,Confusion,Voltorb,76.0,106,Grass,Psychic,Electric,,0,0,2005,5005,False
+turn2,Confusion,Voltorb,32.0,78.0,Grass,Psychic,Electric,,0,7,2005,5005,False
+turn3,Confusion,Voltorb,-5.0,78.0,Grass,Psychic,Electric,,0,7,2005,5005,False
+turn1,Confusion,Electrode,51.0,127,Grass,Psychic,Electric,,0,0,2005,7005,False
+turn2,Confusion,Electrode,-10.0,127,Grass,Psychic,Electric,,0,7,2005,7005,False
+turn1,Confusion,Exeggcute,120,120,Grass,Psychic,Grass,Psychic,0,0,2005,2005,False
+turn2,Confusion,Exeggcute,98.0,100.0,Grass,Psychic,Grass,Psychic,7,7,2005,2005,False
+turn3,Confusion,Exeggcute,76.0,80.0,Grass,Psychic,Grass,Psychic,7,7,2005,2005,False
+turn4,Confusion,Exeggcute,54.0,60.0,Grass,Psychic,Grass,Psychic,7,7,2005,2005,False
+turn5,Confusion,Exeggcute,31.0,40.0,Grass,Psychic,Grass,Psychic,7,7,2005,2005,False
+turn6,Confusion,Exeggcute,11.0,19.0,Grass,Psychic,Grass,Psychic,7,7,2005,2005,False
+turn7,Confusion,Exeggcute,-12.0,19.0,Grass,Psychic,Grass,Psychic,7,7,2005,2005,False
+turn1,Confusion,Exeggutor,55.0,164,Grass,Psychic,Grass,Psychic,0,0,2005,2755,False
+turn2,Confusion,Exeggutor,-2.0,164,Grass,Psychic,Grass,Psychic,0,7,2005,2755,False
+turn1,Mega Drain,Cubone,96.0,122,Grass,Psychic,Ground,,0,0,2005,1755,True
+turn2,Mega Drain,Cubone,88.0,102.0,Grass,Psychic,Ground,,0,7,2005,1755,True
+turn3,Mega Drain,Cubone,79.0,83.0,Grass,Psychic,Ground,,0,7,2005,1755,True
+turn4,Mega Drain,Cubone,68.0,66.0,Grass,Psychic,Ground,,0,7,2005,1755,True
+turn5,Mega Drain,Cubone,57.0,48.0,Grass,Psychic,Ground,,0,7,2005,1755,True
+turn6,Mega Drain,Cubone,49.0,27.0,Grass,Psychic,Ground,,0,7,2005,1755,True
+turn7,Mega Drain,Cubone,64.0,-4.0,Grass,Psychic,Ground,,0,7,2005,1755,True
+turn1,Mega Drain,Marowak,92.0,127,Grass,Psychic,Ground,,0,0,2005,2255,False
+turn2,Mega Drain,Marowak,73.0,114.0,Grass,Psychic,Ground,,0,7,2005,2255,False
+turn3,Mega Drain,Marowak,56.0,99.0,Grass,Psychic,Ground,,0,7,2005,2255,False
+turn4,Mega Drain,Marowak,38.0,86.0,Grass,Psychic,Ground,,0,7,2005,2255,False
+turn5,Mega Drain,Marowak,21.0,73.0,Grass,Psychic,Ground,,0,7,2005,2255,False
+turn6,Mega Drain,Marowak,-1.0,73.0,Grass,Psychic,Ground,,0,7,2005,2255,False
+turn1,Confusion,Hitmonlee,36.0,116,Grass,Psychic,Fighting,,0,0,2005,4355,False
+turn2,Confusion,Hitmonlee,-39.0,116,Grass,Psychic,Fighting,,0,7,2005,4355,False
+turn1,Confusion,Hitmonchan,35.0,116,Grass,Psychic,Fighting,,0,0,2005,3805,False
+turn2,Confusion,Hitmonchan,-42.0,116,Grass,Psychic,Fighting,,0,7,2005,3805,False
+turn1,Confusion,Lickitung,75.0,168,Grass,Psychic,Normal,,0,0,2005,1505,False
+turn2,Confusion,Lickitung,26.0,160.0,Grass,Psychic,Normal,,0,7,2005,1505,False
+turn3,Confusion,Lickitung,-2.0,131.0,Grass,Psychic,Normal,,0,7,2005,1505,False
+turn1,Confusion,Koffing,94,112,Grass,Psychic,Poison,,0,0,2005,1755,True
+turn2,Confusion,Koffing,10.0,32.0,Grass,Psychic,Poison,,3,7,2005,1755,True
+turn3,Confusion,Koffing,10.0,-49.0,Grass,Psychic,Poison,,3,7,2005,1755,True
+turn1,Leech Seed,Weezing,-44.0,125,Grass,Psychic,Poison,,0,0,2005,3005,False
+turn1,Mega Drain,Rhyhorn,120,-91.0,Grass,Psychic,Ground,Rock,0,0,2005,1255,True
+turn1,Mega Drain,Rhydon,120,-16.0,Grass,Psychic,Ground,Rock,0,0,2005,2005,True
+turn1,Confusion,Chansey,95.0,329,Grass,Psychic,Normal,,0,0,2005,2505,False
+turn2,Confusion,Chansey,70.0,330.0,Grass,Psychic,Normal,,0,7,2005,2505,False
+turn3,Confusion,Chansey,45.0,328.0,Grass,Psychic,Normal,,0,7,2005,2505,False
+turn4,Confusion,Chansey,20.0,328.0,Grass,Psychic,Normal,,0,7,2005,2505,False
+turn5,Confusion,Chansey,-5.0,329.0,Grass,Psychic,Normal,,0,7,2005,2505,False
+turn1,Confusion,Tangela,120,125,Grass,Psychic,Grass,,0,0,2005,3005,True
+turn2,Confusion,Tangela,110.0,76.0,Grass,Psychic,Grass,,7,7,2005,3005,True
+turn3,Confusion,Tangela,99.0,24.0,Grass,Psychic,Grass,,7,7,2005,3005,True
+turn4,Confusion,Tangela,88.0,-27.0,Grass,Psychic,Grass,,7,7,2005,3005,True
+turn1,Confusion,Kangaskhan,58.0,175,Grass,Psychic,Normal,,0,0,2005,4505,False
+turn2,Confusion,Kangaskhan,-1.0,160.0,Grass,Psychic,Normal,,0,7,2005,4505,False
+turn1,Mega Drain,Horsea,96.0,95,Grass,Psychic,Water,,0,0,2005,3005,True
+turn2,Mega Drain,Horsea,100.0,43.0,Grass,Psychic,Water,,0,7,2005,3005,True
+turn3,Mega Drain,Horsea,110.0,-15.0,Grass,Psychic,Water,,0,7,2005,3005,True
+turn1,Mega Drain,Seadra,41.0,122,Grass,Psychic,Water,,0,0,2005,4255,False
+turn2,Mega Drain,Seadra,-34.0,122,Grass,Psychic,Water,,0,7,2005,4255,False
+turn1,Mega Drain,Goldeen,90.0,111,Grass,Psychic,Water,,0,0,2005,3155,True
+turn2,Mega Drain,Goldeen,77.0,85.0,Grass,Psychic,Water,,0,7,2005,3155,True
+turn3,Mega Drain,Goldeen,65.0,57.0,Grass,Psychic,Water,,0,7,2005,3155,True
+turn4,Mega Drain,Goldeen,52.0,30.0,Grass,Psychic,Water,,0,7,2005,3155,True
+turn5,Mega Drain,Goldeen,45.0,-3.0,Grass,Psychic,Water,,0,7,2005,3155,True
+turn1,Leech Seed,Seaking,-65415,140,Grass,Psychic,Water,,0,0,2005,3405,False
+turn1,Mega Drain,Staryu,115,95,Grass,Psychic,Water,,0,0,2005,4255,False
+turn2,Mega Drain,Staryu,64.0,100,Grass,Psychic,Water,,5,7,2005,4255,False
+turn3,Mega Drain,Staryu,32.0,76.0,Grass,Psychic,Water,,5,7,2005,4255,False
+turn4,Mega Drain,Staryu,-10.0,76.0,Grass,Psychic,Water,,5,7,2005,4255,False
+turn1,Mega Drain,Starmie,43.0,127,Grass,Psychic,Water,Psychic,0,0,2005,5755,False
+turn2,Mega Drain,Starmie,-33.0,127,Grass,Psychic,Water,Psychic,0,7,2005,5755,False
+turn1,Mega Drain,Mr. Mime,79.0,106,Grass,Psychic,Psychic,Normal,0,0,2005,4505,False
+turn2,Mega Drain,Mr. Mime,56.0,98.0,Grass,Psychic,Psychic,Normal,0,7,2005,4505,False
+turn3,Mega Drain,Mr. Mime,36.0,89.0,Grass,Psychic,Psychic,Normal,0,7,2005,4505,False
+turn4,Mega Drain,Mr. Mime,21.0,80.0,Grass,Psychic,Psychic,Normal,0,7,2005,4505,False
+turn5,Mega Drain,Mr. Mime,-7.0,80.0,Grass,Psychic,Psychic,Normal,0,7,2005,4505,False
+turn1,Confusion,Scyther,1.0,138,Grass,Psychic,Bug,Flying,0,0,2005,5255,False
+turn2,Confusion,Scyther,-110.0,138,Grass,Psychic,Bug,Flying,0,7,2005,5255,False
+turn1,Mega Drain,Jynx,48.0,132,Grass,Psychic,Ice,Psychic,0,0,2005,4755,False
+turn2,Mega Drain,Jynx,-10.0,132,Grass,Psychic,Ice,Psychic,0,7,2005,4755,False
+turn1,Confusion,Electabuzz,89.0,132,Grass,Psychic,Electric,,0,0,2005,5255,False
+turn2,Confusion,Electabuzz,56.0,113.0,Grass,Psychic,Electric,,0,7,2005,5255,False
+turn3,Confusion,Electabuzz,26.0,96.0,Grass,Psychic,Electric,,0,7,2005,5255,False
+turn4,Confusion,Electabuzz,-5.0,78.0,Grass,Psychic,Electric,,0,7,2005,5255,False
+turn1,Leech Seed,Magmar,-119.0,125,Grass,Psychic,Fire,,0,0,2005,4655,False
+turn1,Confusion,Pinsir,113,132,Grass,Psychic,Bug,,0,0,2005,4255,False
+turn2,Confusion,Pinsir,106,109.0,Grass,Psychic,Bug,,0,7,2005,4255,False
+turn3,Confusion,Pinsir,99,89.0,Grass,Psychic,Bug,,0,7,2005,4255,False
+turn4,Confusion,Pinsir,92,65.0,Grass,Psychic,Bug,,0,7,2005,4255,False
+turn5,Confusion,Pinsir,-65443,65.0,Grass,Psychic,Bug,,0,7,2005,4255,False
+turn1,Confusion,Tauros,37.0,108.0,Grass,Psychic,Normal,,0,0,2005,5505,False
+turn2,Confusion,Tauros,-33.0,74.0,Grass,Psychic,Normal,,0,7,2005,5505,False
+turn1,Mega Drain,Magikarp,115,85,Grass,Psychic,Water,,0,0,2005,4005,True
+turn2,Mega Drain,Magikarp,115,13.0,Grass,Psychic,Water,,0,7,2005,4005,True
+turn3,Mega Drain,Magikarp,120,-62.0,Grass,Psychic,Water,,0,7,2005,4005,True
+turn1,Mega Drain,Gyarados,69.0,164,Grass,Psychic,Water,Flying,0,0,2005,4055,False
+turn2,Mega Drain,Gyarados,25.0,157.0,Grass,Psychic,Water,Flying,0,7,2005,4055,False
+turn3,Mega Drain,Gyarados,-24.0,157.0,Grass,Psychic,Water,Flying,0,7,2005,4055,False
+turn1,Leech Seed,Lapras,-125.0,190,Grass,Psychic,Water,Ice,0,0,2005,3005,False
+turn1,Confusion,Ditto,114,114,Grass,Psychic,Normal,,0,0,2005,2405,True
+turn2,Confusion,Ditto,108,82.0,Grass,Psychic,Normal,,0,7,2005,2405,True
+turn3,Confusion,Ditto,102,47.0,Grass,Psychic,Normal,,0,7,2005,2405,True
+turn4,Confusion,Ditto,96,11.0,Grass,Psychic,Normal,,0,7,2005,2405,True
+turn5,Confusion,Ditto,96,-29.0,Grass,Psychic,Normal,,0,7,2005,2405,True
+turn1,Confusion,Eevee,84.0,122,Grass,Psychic,Normal,,0,0,2005,2755,False
+turn2,Confusion,Eevee,48.0,96.0,Grass,Psychic,Normal,,0,7,2005,2755,False
+turn3,Confusion,Eevee,11.0,74.0,Grass,Psychic,Normal,,0,7,2005,2755,False
+turn4,Confusion,Eevee,-17.0,74.0,Grass,Psychic,Normal,,0,7,2005,2755,False
+turn1,Leech Seed,Vaporeon,-102.0,190,Grass,Psychic,Water,,0,0,2005,3255,False
+turn1,Confusion,Jolteon,113,132,Grass,Psychic,Electric,,0,0,2005,6505,False
+turn2,Confusion,Jolteon,77.0,117.0,Grass,Psychic,Electric,,4,7,2005,6505,False
+turn3,Confusion,Jolteon,41.0,124.0,Grass,Psychic,Electric,,4,7,2005,6505,False
+turn4,Confusion,Jolteon,5.0,108.0,Grass,Psychic,Electric,,4,7,2005,6505,False
+turn5,Confusion,Jolteon,-28.0,108.0,Grass,Psychic,Electric,,4,7,2005,6505,False
+turn1,Leech Seed,Flareon,-192.0,125,Grass,Psychic,Fire,,0,0,2005,3255,False
+turn1,Confusion,Porygon,12.0,132,Grass,Psychic,Normal,,0,0,2005,2005,False
+turn2,Confusion,Porygon,-76.0,132,Grass,Psychic,Normal,,0,7,2005,2005,False
+turn1,Mega Drain,Omanyte,120,-23.0,Grass,Psychic,Rock,Water,0,0,2005,1755,True
+turn1,Mega Drain,Omastar,120,41.0,Grass,Psychic,Rock,Water,0,0,2005,2755,True
+turn2,Mega Drain,Omastar,120,-58.0,Grass,Psychic,Rock,Water,0,0,2005,2755,True
+turn1,Mega Drain,Kabuto,120,-41.0,Grass,Psychic,Rock,Water,0,0,2005,2755,True
+turn1,Mega Drain,Kabutops,120,25.0,Grass,Psychic,Rock,Water,0,0,2005,4005,True
+turn2,Mega Drain,Kabutops,120,-67.0,Grass,Psychic,Rock,Water,0,0,2005,4005,True
+turn1,Mega Drain,Aerodactyl,15.0,148,Grass,Psychic,Rock,Flying,0,0,2005,6505,False
+turn2,Mega Drain,Aerodactyl,-82.0,148,Grass,Psychic,Rock,Flying,0,7,2005,6505,False
+turn1,Leech Seed,Snorlax,-2.0,246,Grass,Psychic,Normal,,0,0,2005,1505,False
+turn1,Leech Seed,Articuno,-190.0,150,Grass,Psychic,Ice,Flying,0,0,2005,4255,False
+turn1,Confusion,Zapdos,1.0,159,Grass,Psychic,Electric,Flying,0,0,2005,5005,False
+turn2,Confusion,Zapdos,-106.0,159,Grass,Psychic,Electric,Flying,0,7,2005,5005,False
+turn1,Leech Seed,Moltres,-97.0,150,Grass,Psychic,Fire,Flying,0,0,2005,4505,False
+turn1,Confusion,Dratini,87.0,107,Grass,Psychic,Dragon,,0,0,2005,2505,False
+turn2,Confusion,Dratini,54.0,71.0,Grass,Psychic,Dragon,,0,7,2005,2505,False
+turn3,Confusion,Dratini,22.0,36.0,Grass,Psychic,Dragon,,0,7,2005,2505,False
+turn4,Confusion,Dratini,-4.0,36.0,Grass,Psychic,Dragon,,0,7,2005,2505,False
+turn1,Confusion,Dragonair,120,121,Grass,Psychic,Dragon,,0,0,2005,3505,False
+turn2,Confusion,Dragonair,80,121,Grass,Psychic,Dragon,,4,0,2005,3505,False
+turn3,Confusion,Dragonair,33,128,Grass,Psychic,Dragon,,4,0,2005,3505,False
+turn4,Confusion,Dragonair,-7,128,Grass,Psychic,Dragon,,4,7,2005,3505,False
+turn1,Confusion,Dragonite,111,160,Grass,Psychic,Dragon,Flying,0,0,2005,4005,False
+turn2,Confusion,Dragonite,62,150.0,Grass,Psychic,Dragon,Flying,4,7,2005,4005,False
+turn3,Confusion,Dragonite,13,138.0,Grass,Psychic,Dragon,Flying,4,7,2005,4005,False
+turn4,Confusion,Dragonite,-27,138.0,Grass,Psychic,Dragon,Flying,4,7,2005,4005,False
+turn1,Leech Seed,Mewtwo,120,166,Grass,Psychic,Psychic,,0,0,2005,6505,False
+turn2,Leech Seed,Mewtwo,64.0,166,Grass,Psychic,Psychic,,1,0,2005,6505,False
+turn3,Leech Seed,Mewtwo,13.0,166,Grass,Psychic,Psychic,,1,0,2005,6505,False
+turn4,Leech Seed,Mewtwo,-36.0,166,Grass,Psychic,Psychic,,1,0,2005,6505,False
+turn1,Confusion,Mew,44.0,170,Grass,Psychic,Psychic,,0,0,2005,5005,False
+turn2,Confusion,Mew,-19.0,170,Grass,Psychic,Psychic,,0,7,2005,5005,False

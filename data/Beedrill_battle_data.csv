@@ -1,0 +1,275 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Pin Missile,Bulbasaur,125,-129.0,Bug,Poison,Grass,Poison,0,0,3755,2255,True
+turn1,Pin Missile,Ivysaur,125,-82.0,Bug,Poison,Grass,Poison,0,3,3755,3005,True
+turn1,Pin Missile,Venusaur,100.0,-176.0,Bug,Poison,Grass,Poison,0,0,3755,4005,True
+turn1,Twineedle,Charmander,39.0,9.0,Bug,Poison,Fire,,0,0,3755,3255,True
+turn2,Twineedle,Charmander,39.0,-23.0,Bug,Poison,Fire,,0,3,3755,3255,True
+turn1,Pin Missile,Charmeleon,9.0,79.0,Bug,Poison,Fire,,0,0,3755,4005,False
+turn2,Pin Missile,Charmeleon,-112.0,79.0,Bug,Poison,Fire,,0,0,3755,4005,False
+turn1,Twineedle,Charizard,-23.0,138,Bug,Poison,Fire,Flying,0,0,3755,5005,False
+turn1,Twineedle,Squirtle,59.0,20.0,Bug,Poison,Water,,0,3,3755,2155,True
+turn2,Twineedle,Squirtle,59.0,-28.0,Bug,Poison,Water,,0,3,3755,2155,True
+turn1,Pin Missile,Wartortle,37.0,79.0,Bug,Poison,Water,,0,0,3755,2905,False
+turn2,Pin Missile,Wartortle,-51.0,41.0,Bug,Poison,Water,,0,0,3755,2905,False
+turn1,Pin Missile,Blastoise,11.0,88.0,Bug,Poison,Water,,0,0,3755,3905,False
+turn2,Pin Missile,Blastoise,-105.0,88.0,Bug,Poison,Water,,0,0,3755,3905,False
+turn1,Pin Missile,Caterpie,125,-105.0,Bug,Poison,Bug,,0,0,3755,2255,True
+turn1,Pin Missile,Metapod,116.0,35.0,Bug,Poison,Bug,,0,0,3755,1505,True
+turn2,Pin Missile,Metapod,116.0,-21.0,Bug,Poison,Bug,,0,0,3755,1505,True
+turn1,Pin Missile,Butterfree,125,64.0,Bug,Poison,Bug,Flying,0,0,3755,3505,True
+turn2,Pin Missile,Butterfree,58.0,64.0,Bug,Poison,Bug,Flying,1,0,3755,3505,True
+turn3,Pin Missile,Butterfree,58.0,36.0,Bug,Poison,Bug,Flying,0,0,3755,3505,True
+turn4,Pin Missile,Butterfree,58.0,-9.0,Bug,Poison,Bug,Flying,0,0,3755,3505,True
+turn1,Pin Missile,Weedle,125,-188.0,Bug,Poison,Bug,Poison,0,0,3755,2505,True
+turn1,Pin Missile,Kakuna,125,-60.0,Bug,Poison,Bug,Poison,0,0,3755,1755,True
+turn1,Twineedle,Beedrill,-112.0,125,Bug,Poison,Bug,Poison,0,3,3755,3755,False
+turn1,Pin Missile,Pidgey,42.0,15.0,Bug,Poison,Normal,Flying,0,0,3755,2805,True
+turn2,Pin Missile,Pidgey,42.0,-39.0,Bug,Poison,Normal,Flying,0,3,3755,2805,True
+turn1,Twineedle,Pidgeotto,15.0,99.0,Bug,Poison,Normal,Flying,0,0,3755,3555,False
+turn2,Twineedle,Pidgeotto,-98.0,71.0,Bug,Poison,Normal,Flying,0,3,3755,3555,False
+turn1,Twineedle,Pidgeot,-19.0,143,Bug,Poison,Normal,Flying,0,0,3755,5055,False
+turn1,Twineedle,Rattata,55.0,8.0,Bug,Poison,Normal,,0,0,3755,3605,True
+turn2,Twineedle,Rattata,55.0,-80.0,Bug,Poison,Normal,,0,0,3755,3605,True
+turn1,Pin Missile,Raticate,30.0,61.0,Bug,Poison,Normal,,0,0,3755,4855,False
+turn2,Pin Missile,Raticate,-67.0,61.0,Bug,Poison,Normal,,0,0,3755,4855,False
+turn1,Pin Missile,Spearow,-16.0,56.0,Bug,Poison,Normal,Flying,0,0,3755,3505,False
+turn1,Pin Missile,Fearow,-90.0,125,Bug,Poison,Normal,Flying,0,0,3755,5005,False
+turn1,Pin Missile,Ekans,125,-185.0,Bug,Poison,Poison,,0,0,3755,2755,True
+turn1,Pin Missile,Arbok,102.0,-72.0,Bug,Poison,Poison,,0,0,3755,4005,True
+turn1,Twineedle,Pikachu,79.0,20.0,Bug,Poison,Electric,,0,0,3755,4505,True
+turn2,Twineedle,Pikachu,36.0,-50.0,Bug,Poison,Electric,,0,3,3755,4505,True
+turn1,Pin Missile,Raichu,47.0,68.0,Bug,Poison,Electric,,0,0,3755,5505,False
+turn2,Pin Missile,Raichu,-25.0,68.0,Bug,Poison,Electric,,0,3,3755,5505,False
+turn1,Twineedle,Sandshrew,74.0,34.0,Bug,Poison,Ground,,0,0,3755,2005,True
+turn2,Twineedle,Sandshrew,74.0,-6.0,Bug,Poison,Ground,,0,0,3755,2005,True
+turn1,Twineedle,Sandslash,47.0,87.0,Bug,Poison,Ground,,0,0,3755,3255,False
+turn2,Twineedle,Sandslash,-23.0,59.0,Bug,Poison,Ground,,0,0,3755,3255,False
+turn1,Twineedle,Nidoran♀,125,-3.0,Bug,Poison,Poison,,0,0,3755,2055,True
+turn1,Pin Missile,Nidorina,88.0,46.0,Bug,Poison,Poison,,0,0,3755,2805,True
+turn2,Pin Missile,Nidorina,88.0,-44.0,Bug,Poison,Poison,,0,0,3755,2805,True
+turn1,Pin Missile,Nidoqueen,42.0,71.0,Bug,Poison,Poison,Ground,0,3,3755,3805,False
+turn2,Pin Missile,Nidoqueen,-33.0,71.0,Bug,Poison,Poison,Ground,0,3,3755,3805,False
+turn1,Pin Missile,Nidoran♂,125,-36.0,Bug,Poison,Poison,,0,0,3755,2505,True
+turn1,Pin Missile,Nidorino,125,-38.0,Bug,Poison,Poison,,0,0,3755,3255,True
+turn1,Twineedle,Nidoking,-7.0,141,Bug,Poison,Poison,Ground,0,0,3755,4255,False
+turn1,Pin Missile,Clefairy,125,52.0,Bug,Poison,Normal,,0,3,3755,1755,True
+turn2,Pin Missile,Clefairy,125,-4.0,Bug,Poison,Normal,,0,3,3755,1755,True
+turn1,Pin Missile,Clefable,125,113.0,Bug,Poison,Normal,,0,0,3755,3005,True
+turn2,Pin Missile,Clefable,74.0,113.0,Bug,Poison,Normal,,1,0,3755,3005,True
+turn3,Pin Missile,Clefable,36.0,113.0,Bug,Poison,Normal,,1,0,3755,3005,True
+turn4,Pin Missile,Clefable,36.0,51.0,Bug,Poison,Normal,,0,0,3755,3005,True
+turn5,Pin Missile,Clefable,36.0,-59.0,Bug,Poison,Normal,,0,3,3755,3005,True
+turn1,Pin Missile,Vulpix,47.0,13.0,Bug,Poison,Fire,,0,0,3755,3255,True
+turn2,Pin Missile,Vulpix,47.0,-23.0,Bug,Poison,Fire,,0,0,3755,3255,True
+turn1,Pin Missile,Ninetales,68.0,103.0,Bug,Poison,Fire,,0,0,3755,5005,False
+turn2,Pin Missile,Ninetales,11.0,75.0,Bug,Poison,Fire,,2,3,3755,5005,False
+turn3,Pin Missile,Ninetales,-39.0,75.0,Bug,Poison,Fire,,2,3,3755,5005,False
+turn1,Pin Missile,Jigglypuff,34.0,35.0,Bug,Poison,Normal,,0,0,3755,1005,True
+turn2,Pin Missile,Jigglypuff,34.0,-109.0,Bug,Poison,Normal,,0,0,3755,1005,True
+turn1,Twineedle,Wigglytuff,71.0,104.0,Bug,Poison,Normal,,0,0,3755,2255,True
+turn2,Twineedle,Wigglytuff,71.0,2.0,Bug,Poison,Normal,,0,0,3755,2255,True
+turn3,Twineedle,Wigglytuff,71.0,-64.0,Bug,Poison,Normal,,0,3,3755,2255,True
+turn1,Pin Missile,Zubat,125,-26.0,Bug,Poison,Poison,Flying,0,0,3755,2755,True
+turn1,Pin Missile,Golbat,-34.0,135,Bug,Poison,Poison,Flying,0,0,3755,4505,False
+turn1,Twineedle,Oddish,125,-103.0,Bug,Poison,Grass,Poison,0,0,3755,1505,True
+turn1,Pin Missile,Gloom,125,-52.0,Bug,Poison,Grass,Poison,0,0,3755,2005,True
+turn1,Pin Missile,Vileplume,125,-96.0,Bug,Poison,Grass,Poison,0,0,3755,2505,True
+turn1,Twineedle,Paras,125,-9.0,Bug,Poison,Bug,Grass,0,0,3755,1255,True
+turn1,Twineedle,Parasect,-112.0,120,Bug,Poison,Bug,Grass,0,0,3755,1505,False
+turn1,Pin Missile,Venonat,85.0,6.0,Bug,Poison,Bug,Poison,0,0,3755,2255,True
+turn2,Pin Missile,Venonat,85.0,-110.0,Bug,Poison,Bug,Poison,0,0,3755,2255,True
+turn1,Pin Missile,Venomoth,33.0,-20.0,Bug,Poison,Bug,Poison,0,3,3755,4505,True
+turn1,Pin Missile,Diglett,42.0,-104.0,Bug,Poison,Ground,,0,0,3755,4755,True
+turn1,Twineedle,Dugtrio,-9.0,95,Bug,Poison,Ground,,0,0,3755,6005,False
+turn1,Pin Missile,Meowth,81.0,12.0,Bug,Poison,Normal,,0,0,3755,4505,True
+turn2,Pin Missile,Meowth,40.0,-140.0,Bug,Poison,Normal,,0,0,3755,4505,True
+turn1,Twineedle,Persian,42.0,68.0,Bug,Poison,Normal,,0,0,3755,5755,False
+turn2,Twineedle,Persian,-29.0,68.0,Bug,Poison,Normal,,0,3,3755,5755,False
+turn1,Twineedle,Psyduck,88.0,32.0,Bug,Poison,Water,,0,3,3755,2755,True
+turn2,Twineedle,Psyduck,88.0,-24.0,Bug,Poison,Water,,0,3,3755,2755,True
+turn1,Pin Missile,Golduck,41.0,83.0,Bug,Poison,Water,,0,0,3755,4255,False
+turn2,Pin Missile,Golduck,-47.0,83.0,Bug,Poison,Water,,0,3,3755,4255,False
+turn1,Twineedle,Mankey,110.0,37.0,Bug,Poison,Fighting,,0,0,3755,3505,True
+turn2,Twineedle,Mankey,110.0,-5.0,Bug,Poison,Fighting,,0,0,3755,3505,True
+turn1,Twineedle,Primeape,-9.0,125,Bug,Poison,Fighting,,0,0,3755,4755,False
+turn1,Pin Missile,Growlithe,55.0,15.0,Bug,Poison,Fire,,0,0,3755,3005,True
+turn2,Pin Missile,Growlithe,55.0,-31.0,Bug,Poison,Fire,,0,0,3755,3005,True
+turn1,Pin Missile,Arcanine,-28.0,127.0,Bug,Poison,Fire,,0,0,3755,4755,False
+turn1,Pin Missile,Poliwag,125,100,Bug,Poison,Water,,0,0,3755,4505,False
+turn2,Pin Missile,Poliwag,78.0,100,Bug,Poison,Water,,1,0,3755,4505,False
+turn3,Pin Missile,Poliwag,35.0,100,Bug,Poison,Water,,1,0,3755,4505,False
+turn4,Pin Missile,Poliwag,-10.0,100,Bug,Poison,Water,,1,0,3755,4505,False
+turn1,Pin Missile,Poliwhirl,71.0,77.0,Bug,Poison,Water,,0,0,3755,4505,False
+turn2,Pin Missile,Poliwhirl,11.0,8.0,Bug,Poison,Water,,0,0,3755,4505,False
+turn3,Pin Missile,Poliwhirl,-47.0,8.0,Bug,Poison,Water,,0,0,3755,4505,False
+turn1,Twineedle,Poliwrath,125,110.0,Bug,Poison,Water,Fighting,0,0,3755,3505,False
+turn2,Twineedle,Poliwrath,89.0,110.0,Bug,Poison,Water,Fighting,1,0,3755,3505,False
+turn3,Twineedle,Poliwrath,89.0,78.0,Bug,Poison,Water,Fighting,0,0,3755,3505,False
+turn4,Twineedle,Poliwrath,51.0,78.0,Bug,Poison,Water,Fighting,1,0,3755,3505,False
+turn5,Twineedle,Poliwrath,12.0,78.0,Bug,Poison,Water,Fighting,1,0,3755,3505,False
+turn6,Twineedle,Poliwrath,12.0,62.0,Bug,Poison,Water,Fighting,0,0,3755,3505,False
+turn7,Twineedle,Poliwrath,12.0,46.0,Bug,Poison,Water,Fighting,0,0,3755,3505,False
+turn8,Twineedle,Poliwrath,-25.0,46.0,Bug,Poison,Water,Fighting,1,0,3755,3505,False
+turn1,Pin Missile,Abra,125,-687.0,Bug,Poison,Psychic,,0,0,3755,4505,True
+turn1,Pin Missile,Kadabra,1.0,-380.0,Bug,Poison,Psychic,,0,0,3755,5255,True
+turn1,Twineedle,Alakazam,-74.0,115,Bug,Poison,Psychic,,0,3,3755,6005,False
+turn1,Pin Missile,Machop,57.0,100.0,Bug,Poison,Fighting,,0,0,3755,1755,False
+turn2,Pin Missile,Machop,-6.0,52.0,Bug,Poison,Fighting,,0,0,3755,1755,False
+turn1,Pin Missile,Machoke,41.0,107.0,Bug,Poison,Fighting,,0,0,3755,2255,False
+turn2,Pin Missile,Machoke,-37.0,87.0,Bug,Poison,Fighting,,0,3,3755,2255,False
+turn1,Twineedle,Machamp,15.0,92.0,Bug,Poison,Fighting,,0,3,3755,2755,False
+turn2,Twineedle,Machamp,-85.0,72.0,Bug,Poison,Fighting,,0,3,3755,2755,False
+turn1,Twineedle,Bellsprout,125,-252.0,Bug,Poison,Grass,Poison,0,0,3755,2005,True
+turn1,Pin Missile,Weepinbell,125,-129.0,Bug,Poison,Grass,Poison,0,0,3755,2755,True
+turn1,Pin Missile,Victreebel,125,-64.0,Bug,Poison,Grass,Poison,0,0,3755,3505,True
+turn1,Pin Missile,Tentacool,125,-68.0,Bug,Poison,Water,Poison,0,0,3755,3505,True
+turn1,Pin Missile,Tentacruel,86.0,-7.0,Bug,Poison,Water,Poison,0,3,3755,5005,True
+turn1,Twineedle,Geodude,-11.0,66.0,Bug,Poison,Rock,Ground,0,3,3755,1005,False
+turn1,Twineedle,Graveler,-108.0,87.0,Bug,Poison,Rock,Ground,0,0,3755,1755,False
+turn1,Pin Missile,Golem,-52.0,104.0,Bug,Poison,Rock,Ground,0,0,3755,2255,False
+turn1,Pin Missile,Ponyta,83.0,78.0,Bug,Poison,Fire,,0,3,3755,4505,False
+turn2,Pin Missile,Ponyta,40.0,44.0,Bug,Poison,Fire,,0,3,3755,4505,False
+turn3,Pin Missile,Ponyta,-5.0,44.0,Bug,Poison,Fire,,0,3,3755,4505,False
+turn1,Pin Missile,Rapidash,74.0,85.0,Bug,Poison,Fire,,0,0,3755,5255,False
+turn2,Pin Missile,Rapidash,23.0,65.0,Bug,Poison,Fire,,0,0,3755,5255,False
+turn3,Pin Missile,Rapidash,-33.0,65.0,Bug,Poison,Fire,,0,0,3755,5255,False
+turn1,Pin Missile,Slowpoke,88.0,15.0,Bug,Poison,Water,Psychic,0,0,3755,755,True
+turn2,Pin Missile,Slowpoke,88.0,-225.0,Bug,Poison,Water,Psychic,0,3,3755,755,True
+turn1,Pin Missile,Slowbro,39.0,75.0,Bug,Poison,Water,Psychic,0,0,3755,1505,False
+turn2,Pin Missile,Slowbro,-41.0,19.0,Bug,Poison,Water,Psychic,0,3,3755,1505,False
+turn1,Twineedle,Magnemite,125,31.0,Bug,Poison,Electric,,0,3,3755,2255,True
+turn2,Twineedle,Magnemite,125,-15.0,Bug,Poison,Electric,,5,3,3755,2255,True
+turn1,Pin Missile,Magneton,35.0,64.0,Bug,Poison,Electric,,0,0,3755,3505,False
+turn2,Pin Missile,Magneton,-53.0,30.0,Bug,Poison,Electric,,0,3,3755,3505,False
+turn1,Pin Missile,Farfetch'd,56.0,84.0,Bug,Poison,Normal,Flying,0,0,3755,3005,False
+turn2,Pin Missile,Farfetch'd,-12.0,56.0,Bug,Poison,Normal,Flying,0,3,3755,3005,False
+turn1,Pin Missile,Doduo,100.0,63.0,Bug,Poison,Normal,Flying,0,0,3755,3755,True
+turn2,Pin Missile,Doduo,72.0,29.0,Bug,Poison,Normal,Flying,0,0,3755,3755,True
+turn3,Pin Missile,Doduo,47.0,-5.0,Bug,Poison,Normal,Flying,0,0,3755,3755,True
+turn1,Twineedle,Dodrio,-140.0,120,Bug,Poison,Normal,Flying,0,0,3755,5005,False
+turn1,Twineedle,Seel,104.0,69.0,Bug,Poison,Water,,0,0,3755,2255,True
+turn2,Twineedle,Seel,80.0,15.0,Bug,Poison,Water,,0,0,3755,2255,True
+turn3,Twineedle,Seel,80.0,-41.0,Bug,Poison,Water,,0,3,3755,2255,True
+turn1,Pin Missile,Dewgong,62.0,108.0,Bug,Poison,Water,Ice,0,0,3755,3505,False
+turn2,Pin Missile,Dewgong,-2.0,66.0,Bug,Poison,Water,Ice,0,0,3755,3505,False
+turn1,Pin Missile,Grimer,125,-165.0,Bug,Poison,Poison,,0,0,3755,1255,True
+turn1,Pin Missile,Muk,-12.0,30.0,Bug,Poison,Poison,,0,0,3755,2505,False
+turn1,Pin Missile,Shellder,125,56.0,Bug,Poison,Water,,0,0,3755,2005,True
+turn2,Pin Missile,Shellder,110.0,24.0,Bug,Poison,Water,,5,0,3755,2005,True
+turn3,Pin Missile,Shellder,56.0,24.0,Bug,Poison,Water,,5,0,3755,2005,True
+turn4,Pin Missile,Shellder,56.0,-21.0,Bug,Poison,Water,,5,3,3755,2005,True
+turn1,Twineedle,Cloyster,61.0,92.0,Bug,Poison,Water,Ice,0,0,3755,3505,False
+turn2,Twineedle,Cloyster,0.0,72.0,Bug,Poison,Water,Ice,0,0,3755,3505,False
+turn1,Pin Missile,Gastly,125,-110.0,Bug,Poison,Ghost,Poison,0,0,3755,4005,True
+turn1,Pin Missile,Haunter,125,39.0,Bug,Poison,Ghost,Poison,0,0,3755,4755,True
+turn2,Pin Missile,Haunter,75,-57.0,Bug,Poison,Ghost,Poison,5,0,3755,4755,True
+turn1,Pin Missile,Gengar,86.0,120,Bug,Poison,Ghost,Poison,0,0,3755,5505,False
+turn2,Pin Missile,Gengar,-3.0,120,Bug,Poison,Ghost,Poison,5,0,3755,5505,False
+turn1,Pin Missile,Onix,58.0,75.0,Bug,Poison,Rock,Ground,0,0,3755,3505,False
+turn2,Pin Missile,Onix,-17.0,42.0,Bug,Poison,Rock,Ground,0,0,3755,3505,False
+turn1,Pin Missile,Drowzee,125,-72.0,Bug,Poison,Psychic,,0,0,3755,2105,True
+turn1,Twineedle,Hypno,19.0,57.0,Bug,Poison,Psychic,,0,0,3755,3355,True
+turn2,Twineedle,Hypno,19.0,-39.0,Bug,Poison,Psychic,,0,0,3755,3355,True
+turn1,Pin Missile,Krabby,-31.0,42.0,Bug,Poison,Water,,0,0,3755,2505,False
+turn1,Pin Missile,Kingler,-82.0,115,Bug,Poison,Water,,0,0,3755,3755,False
+turn1,Pin Missile,Voltorb,49.0,38.0,Bug,Poison,Electric,,0,0,3755,5005,False
+turn2,Pin Missile,Voltorb,-22.0,38.0,Bug,Poison,Electric,,0,3,3755,5005,False
+turn1,Twineedle,Electrode,-12.0,120,Bug,Poison,Electric,,0,0,3755,7005,False
+turn1,Pin Missile,Exeggcute,125,-102.0,Bug,Poison,Grass,Psychic,0,0,3755,2005,True
+turn1,Twineedle,Exeggutor,-12.0,11.0,Bug,Poison,Grass,Psychic,0,3,3755,2755,False
+turn1,Twineedle,Cubone,73.0,78.0,Bug,Poison,Ground,,0,0,3755,1755,False
+turn2,Twineedle,Cubone,20.0,42.0,Bug,Poison,Ground,,0,0,3755,1755,False
+turn3,Twineedle,Cubone,-32.0,8.0,Bug,Poison,Ground,,0,3,3755,1755,False
+turn1,Pin Missile,Marowak,49.0,78.0,Bug,Poison,Ground,,0,3,3755,2255,False
+turn2,Pin Missile,Marowak,-31.0,22.0,Bug,Poison,Ground,,0,3,3755,2255,False
+turn1,Twineedle,Hitmonlee,-22.0,110,Bug,Poison,Fighting,,0,0,3755,4355,False
+turn1,Pin Missile,Hitmonchan,-30.0,110,Bug,Poison,Fighting,,0,0,3755,3805,False
+turn1,Twineedle,Lickitung,72.0,87.0,Bug,Poison,Normal,,0,0,3755,1505,False
+turn2,Twineedle,Lickitung,12.0,45.0,Bug,Poison,Normal,,0,0,3755,1505,False
+turn3,Twineedle,Lickitung,-48.0,5.0,Bug,Poison,Normal,,0,3,3755,1505,False
+turn1,Twineedle,Koffing,111,38.0,Bug,Poison,Poison,,0,0,3755,1755,True
+turn2,Twineedle,Koffing,111,-28.0,Bug,Poison,Poison,,3,0,3755,1755,True
+turn1,Twineedle,Weezing,80.0,47.0,Bug,Poison,Poison,,0,0,3755,3005,True
+turn2,Twineedle,Weezing,80.0,-9.0,Bug,Poison,Poison,,0,0,3755,3005,True
+turn1,Pin Missile,Rhyhorn,41.0,69.0,Bug,Poison,Ground,Rock,0,0,3755,1255,True
+turn2,Pin Missile,Rhyhorn,41.0,-3.0,Bug,Poison,Ground,Rock,0,0,3755,1255,True
+turn1,Pin Missile,Rhydon,1.0,76.0,Bug,Poison,Ground,Rock,0,0,3755,2005,False
+turn2,Pin Missile,Rhydon,-119.0,-27.0,Bug,Poison,Ground,Rock,0,0,3755,2005,False
+turn1,Pin Missile,Chansey,125,-467.0,Bug,Poison,Normal,,0,3,3755,2505,True
+turn1,Pin Missile,Tangela,139,53.0,Bug,Poison,Grass,,0,0,3755,3005,True
+turn2,Pin Missile,Tangela,139,-7.0,Bug,Poison,Grass,,7,0,3755,3005,True
+turn1,Twineedle,Kangaskhan,30.0,119.0,Bug,Poison,Normal,,0,3,3755,4505,False
+turn2,Twineedle,Kangaskhan,-61.0,119.0,Bug,Poison,Normal,,0,3,3755,4505,False
+turn1,Twineedle,Horsea,102.0,48.0,Bug,Poison,Water,,0,0,3755,3005,True
+turn2,Twineedle,Horsea,78.0,8.0,Bug,Poison,Water,,0,0,3755,3005,True
+turn3,Twineedle,Horsea,78.0,-36.0,Bug,Poison,Water,,0,3,3755,3005,True
+turn1,Pin Missile,Seadra,46.0,44.0,Bug,Poison,Water,,0,3,3755,4255,False
+turn2,Pin Missile,Seadra,-43.0,44.0,Bug,Poison,Water,,0,3,3755,4255,False
+turn1,Pin Missile,Goldeen,76.0,53.0,Bug,Poison,Water,,0,0,3755,3155,True
+turn2,Pin Missile,Goldeen,76.0,-82.0,Bug,Poison,Water,,0,0,3755,3155,True
+turn1,Twineedle,Seaking,125,94.0,Bug,Poison,Water,,0,0,3755,3405,True
+turn2,Twineedle,Seaking,125,48.0,Bug,Poison,Water,,0,0,3755,3405,True
+turn3,Twineedle,Seaking,125,-2.0,Bug,Poison,Water,,0,0,3755,3405,True
+turn1,Pin Missile,Staryu,89.0,90,Bug,Poison,Water,,0,0,3755,4255,False
+turn2,Pin Missile,Staryu,24.0,90,Bug,Poison,Water,,5,0,3755,4255,False
+turn3,Pin Missile,Staryu,-1.0,90,Bug,Poison,Water,,5,0,3755,4255,False
+turn1,Pin Missile,Starmie,37.0,48.0,Bug,Poison,Water,Psychic,0,0,3755,5755,False
+turn2,Pin Missile,Starmie,-46.0,48.0,Bug,Poison,Water,Psychic,0,0,3755,5755,False
+turn1,Pin Missile,Mr. Mime,50.0,-140.0,Bug,Poison,Psychic,Normal,0,0,3755,4505,True
+turn1,Pin Missile,Scyther,-81.0,130,Bug,Poison,Bug,Flying,0,3,3755,5255,False
+turn1,Pin Missile,Jynx,70.0,-121.0,Bug,Poison,Ice,Psychic,0,0,3755,4755,True
+turn1,Pin Missile,Electabuzz,22.0,13.0,Bug,Poison,Electric,,0,0,3755,5255,False
+turn2,Pin Missile,Electabuzz,-70.0,13.0,Bug,Poison,Electric,,0,0,3755,5255,False
+turn1,Pin Missile,Magmar,-14.0,125,Bug,Poison,Fire,,0,0,3755,4655,False
+turn1,Pin Missile,Pinsir,125,74.0,Bug,Poison,Bug,,0,0,3755,4255,False
+turn2,Pin Missile,Pinsir,125,40.0,Bug,Poison,Bug,,0,0,3755,4255,False
+turn3,Pin Missile,Pinsir,-65410,40.0,Bug,Poison,Bug,,0,0,3755,4255,False
+turn1,Pin Missile,Tauros,-5.0,69.0,Bug,Poison,Normal,,0,0,3755,5505,False
+turn1,Pin Missile,Magikarp,125,26.0,Bug,Poison,Water,,0,0,3755,4005,True
+turn2,Pin Missile,Magikarp,125,-28.0,Bug,Poison,Water,,0,0,3755,4005,True
+turn1,Pin Missile,Gyarados,68.0,135.0,Bug,Poison,Water,Flying,0,0,3755,4055,False
+turn2,Pin Missile,Gyarados,19.0,90.0,Bug,Poison,Water,Flying,0,3,3755,4055,False
+turn3,Pin Missile,Gyarados,-33.0,90.0,Bug,Poison,Water,Flying,0,3,3755,4055,False
+turn1,Pin Missile,Lapras,49.0,130.0,Bug,Poison,Water,Ice,0,3,3755,3005,False
+turn2,Pin Missile,Lapras,-19.0,130.0,Bug,Poison,Water,Ice,6,3,3755,3005,False
+turn1,Pin Missile,Ditto,125,46.0,Bug,Poison,Normal,,0,0,3755,2405,True
+turn2,Pin Missile,Ditto,125,-41.0,Bug,Poison,Normal,,0,0,3755,2405,True
+turn1,Pin Missile,Eevee,74.0,39.0,Bug,Poison,Normal,,0,3,3755,2755,True
+turn2,Pin Missile,Eevee,74.0,-21.0,Bug,Poison,Normal,,0,3,3755,2755,True
+turn1,Pin Missile,Vaporeon,48.0,82.0,Bug,Poison,Water,,0,0,3755,3255,True
+turn2,Pin Missile,Vaporeon,48.0,-43.0,Bug,Poison,Water,,0,0,3755,3255,True
+turn1,Pin Missile,Jolteon,87.0,75.0,Bug,Poison,Electric,,0,0,3755,6505,True
+turn2,Pin Missile,Jolteon,48.0,21.0,Bug,Poison,Electric,,0,0,3755,6505,True
+turn3,Pin Missile,Jolteon,11.0,-87.0,Bug,Poison,Electric,,0,3,3755,6505,True
+turn1,Twineedle,Flareon,-51.0,99.0,Bug,Poison,Fire,,0,0,3755,3255,False
+turn1,Pin Missile,Porygon,72.0,81.0,Bug,Poison,Normal,,0,0,3755,2005,True
+turn2,Pin Missile,Porygon,18.0,18.0,Bug,Poison,Normal,,0,0,3755,2005,True
+turn3,Pin Missile,Porygon,18.0,-48.0,Bug,Poison,Normal,,0,3,3755,2005,True
+turn1,Pin Missile,Omanyte,99.0,65.0,Bug,Poison,Rock,Water,0,0,3755,1755,True
+turn2,Pin Missile,Omanyte,73.0,23.0,Bug,Poison,Rock,Water,0,3,3755,1755,True
+turn3,Pin Missile,Omanyte,73.0,-28.0,Bug,Poison,Rock,Water,0,3,3755,1755,True
+turn1,Pin Missile,Omastar,83.0,86.0,Bug,Poison,Rock,Water,0,0,3755,2755,True
+turn2,Pin Missile,Omastar,39.0,31.0,Bug,Poison,Rock,Water,0,3,3755,2755,True
+turn3,Pin Missile,Omastar,39.0,-5.0,Bug,Poison,Rock,Water,0,3,3755,2755,True
+turn1,Pin Missile,Kabuto,71.0,36.0,Bug,Poison,Rock,Water,0,0,3755,2755,True
+turn2,Pin Missile,Kabuto,71.0,-18.0,Bug,Poison,Rock,Water,0,0,3755,2755,True
+turn1,Twineedle,Kabutops,43.0,83.0,Bug,Poison,Rock,Water,0,3,3755,4005,False
+turn2,Twineedle,Kabutops,-36.0,83.0,Bug,Poison,Rock,Water,0,3,3755,4005,False
+turn1,Twineedle,Aerodactyl,-67.0,140,Bug,Poison,Rock,Flying,0,0,3755,6505,False
+turn1,Twineedle,Snorlax,-63.0,176.0,Bug,Poison,Normal,,0,0,3755,1505,False
+turn1,Twineedle,Articuno,47.0,150,Bug,Poison,Ice,Flying,0,0,3755,4255,False
+turn2,Twineedle,Articuno,-28.0,150,Bug,Poison,Ice,Flying,6,0,3755,4255,False
+turn1,Twineedle,Zapdos,12.0,130.0,Bug,Poison,Electric,Flying,0,0,3755,5005,False
+turn2,Twineedle,Zapdos,-100.0,130.0,Bug,Poison,Electric,Flying,0,0,3755,5005,False
+turn1,Twineedle,Moltres,-309.0,150,Bug,Poison,Fire,Flying,0,0,3755,4505,False
+turn1,Pin Missile,Dratini,125,-23.0,Bug,Poison,Dragon,,0,0,3755,2505,True
+turn1,Pin Missile,Dragonair,125,59.0,Bug,Poison,Dragon,,0,3,3755,3505,True
+turn2,Pin Missile,Dragonair,125,-16.0,Bug,Poison,Dragon,,4,3,3755,3505,True
+turn1,Twineedle,Dragonite,125,127.0,Bug,Poison,Dragon,Flying,0,0,3755,4005,False
+turn2,Twineedle,Dragonite,85,103.0,Bug,Poison,Dragon,Flying,4,0,3755,4005,False
+turn3,Twineedle,Dragonite,45,79.0,Bug,Poison,Dragon,Flying,4,0,3755,4005,False
+turn4,Twineedle,Dragonite,5,63.0,Bug,Poison,Dragon,Flying,4,0,3755,4005,False
+turn5,Twineedle,Dragonite,-35,63.0,Bug,Poison,Dragon,Flying,4,3,3755,4005,False
+turn1,Pin Missile,Mewtwo,9.0,88.0,Bug,Poison,Psychic,,0,0,3755,6505,False
+turn2,Pin Missile,Mewtwo,-121.0,88.0,Bug,Poison,Psychic,,0,0,3755,6505,False
+turn1,Pin Missile,Mew,-13.0,160,Bug,Poison,Psychic,,0,0,3755,5005,False

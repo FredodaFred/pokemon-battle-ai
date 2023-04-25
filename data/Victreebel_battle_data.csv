@@ -1,0 +1,338 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Slam,Bulbasaur,134.0,39.0,Grass,Poison,Grass,Poison,0,0,3505,2255,True
+turn2,Slam,Bulbasaur,134.0,-32.0,Grass,Poison,Grass,Poison,0,0,3505,2255,True
+turn1,Slam,Ivysaur,124,61.0,Grass,Poison,Grass,Poison,0,0,3505,3005,True
+turn2,Slam,Ivysaur,99.0,9.0,Grass,Poison,Grass,Poison,3,0,3505,3005,True
+turn3,Slam,Ivysaur,99.0,-47.0,Grass,Poison,Grass,Poison,3,0,3505,3005,True
+turn1,Slam,Venusaur,114.0,98.0,Grass,Poison,Grass,Poison,0,0,3505,4005,True
+turn2,Slam,Venusaur,90.0,53.0,Grass,Poison,Grass,Poison,0,0,3505,4005,True
+turn3,Slam,Venusaur,63.0,8.0,Grass,Poison,Grass,Poison,0,0,3505,4005,True
+turn4,Slam,Venusaur,39.0,-34.0,Grass,Poison,Grass,Poison,0,0,3505,4005,True
+turn1,Slam,Charmander,45.0,14.0,Grass,Poison,Fire,,0,0,3505,3255,True
+turn2,Slam,Charmander,45.0,-68.0,Grass,Poison,Fire,,0,0,3505,3255,True
+turn1,Slam,Charmeleon,10.0,55.0,Grass,Poison,Fire,,0,0,3505,4005,False
+turn2,Slam,Charmeleon,-120.0,55.0,Grass,Poison,Fire,,0,0,3505,4005,False
+turn1,Slam,Charizard,-32.0,138,Grass,Poison,Fire,Flying,0,0,3505,5005,False
+turn1,Razor Leaf,Squirtle,98.0,45.0,Grass,Poison,Water,,0,0,3505,2155,True
+turn2,Razor Leaf,Squirtle,98.0,-12.0,Grass,Poison,Water,,0,0,3505,2155,True
+turn1,Razor Leaf,Wartortle,89.0,69.0,Grass,Poison,Water,,0,0,3505,2905,True
+turn2,Razor Leaf,Wartortle,34.0,26.0,Grass,Poison,Water,,0,0,3505,2905,True
+turn3,Razor Leaf,Wartortle,34.0,-22.0,Grass,Poison,Water,,0,0,3505,2905,True
+turn1,Razor Leaf,Blastoise,71.0,101.0,Grass,Poison,Water,,0,0,3505,3905,False
+turn2,Razor Leaf,Blastoise,6.0,65.0,Grass,Poison,Water,,0,0,3505,3905,False
+turn3,Razor Leaf,Blastoise,-69.0,65.0,Grass,Poison,Water,,0,0,3505,3905,False
+turn1,Acid,Caterpie,140,-142.0,Grass,Poison,Bug,,0,0,3505,2255,True
+turn1,Acid,Metapod,140,-86.0,Grass,Poison,Bug,,0,0,3505,1505,True
+turn1,Acid,Butterfree,140,120,Grass,Poison,Bug,Flying,0,0,3505,3505,False
+turn2,Acid,Butterfree,72.0,120,Grass,Poison,Bug,Flying,1,0,3505,3505,False
+turn3,Acid,Butterfree,3.0,120,Grass,Poison,Bug,Flying,1,0,3505,3505,False
+turn4,Acid,Butterfree,3.0,120,Grass,Poison,Bug,Flying,0,0,3505,3505,False
+turn5,Acid,Butterfree,-63.0,120,Grass,Poison,Bug,Flying,1,0,3505,3505,False
+turn1,Slam,Weedle,140,-22.0,Grass,Poison,Bug,Poison,0,0,3505,2505,True
+turn1,Slam,Kakuna,133.0,37.0,Grass,Poison,Bug,Poison,0,0,3505,1755,True
+turn2,Slam,Kakuna,133.0,-34.0,Grass,Poison,Bug,Poison,0,0,3505,1755,True
+turn1,Slam,Beedrill,-46.0,125,Grass,Poison,Bug,Poison,3,0,3505,3755,False
+turn1,Slam,Pidgey,86.0,14.0,Grass,Poison,Normal,Flying,0,0,3505,2805,True
+turn2,Slam,Pidgey,86.0,-77.0,Grass,Poison,Normal,Flying,0,0,3505,2805,True
+turn1,Slam,Pidgeotto,71.0,56.0,Grass,Poison,Normal,Flying,0,0,3505,3555,False
+turn2,Slam,Pidgeotto,0.0,56.0,Grass,Poison,Normal,Flying,0,0,3505,3555,False
+turn1,Slam,Pidgeot,41.0,94.0,Grass,Poison,Normal,Flying,0,0,3505,5055,False
+turn2,Slam,Pidgeot,-60.0,94.0,Grass,Poison,Normal,Flying,0,0,3505,5055,False
+turn1,Slam,Rattata,92.0,-9.0,Grass,Poison,Normal,,0,0,3505,3605,True
+turn1,Slam,Raticate,81.0,52.0,Grass,Poison,Normal,,0,0,3505,4855,True
+turn2,Slam,Raticate,14.0,-6.0,Grass,Poison,Normal,,0,0,3505,4855,True
+turn1,Slam,Spearow,46.0,-23.0,Grass,Poison,Normal,Flying,0,0,3505,3505,True
+turn1,Slam,Fearow,-9.0,125,Grass,Poison,Normal,Flying,0,0,3505,5005,False
+turn1,Slam,Ekans,123.0,17.0,Grass,Poison,Poison,,0,0,3505,2755,True
+turn2,Slam,Ekans,123.0,-56.0,Grass,Poison,Poison,,0,0,3505,2755,True
+turn1,Slam,Arbok,115.0,68.0,Grass,Poison,Poison,,0,0,3505,4005,True
+turn2,Slam,Arbok,90.0,15.0,Grass,Poison,Poison,,0,0,3505,4005,True
+turn3,Slam,Arbok,67.0,-35.0,Grass,Poison,Poison,,0,0,3505,4005,True
+turn1,Slam,Pikachu,114.0,2.0,Grass,Poison,Electric,,0,0,3505,4505,True
+turn2,Slam,Pikachu,89.0,-81.0,Grass,Poison,Electric,,0,0,3505,4505,True
+turn1,Slam,Raichu,99.0,62.0,Grass,Poison,Electric,,0,0,3505,5505,True
+turn2,Slam,Raichu,55.0,-2.0,Grass,Poison,Electric,,0,0,3505,5505,True
+turn1,Razor Leaf,Sandshrew,105.0,68.0,Grass,Poison,Ground,,0,0,3505,2005,True
+turn2,Razor Leaf,Sandshrew,69.0,27.0,Grass,Poison,Ground,,0,0,3505,2005,True
+turn3,Razor Leaf,Sandshrew,69.0,-18.0,Grass,Poison,Ground,,0,0,3505,2005,True
+turn1,Razor Leaf,Sandslash,94.0,100.0,Grass,Poison,Ground,,0,0,3505,3255,True
+turn2,Razor Leaf,Sandslash,49.0,64.0,Grass,Poison,Ground,,0,0,3505,3255,True
+turn3,Razor Leaf,Sandslash,1.0,31.0,Grass,Poison,Ground,,0,0,3505,3255,True
+turn4,Razor Leaf,Sandslash,1.0,-3.0,Grass,Poison,Ground,,0,0,3505,3255,True
+turn1,Slam,Nidoran♀,122.0,47.0,Grass,Poison,Poison,,0,0,3505,2055,True
+turn2,Slam,Nidoran♀,122.0,-20.0,Grass,Poison,Poison,,0,0,3505,2055,True
+turn1,Slam,Nidorina,116.0,78.0,Grass,Poison,Poison,,0,0,3505,2805,True
+turn2,Slam,Nidorina,90.0,29.0,Grass,Poison,Poison,,0,0,3505,2805,True
+turn3,Slam,Nidorina,90.0,-24.0,Grass,Poison,Poison,,0,0,3505,2805,True
+turn1,Razor Leaf,Nidoqueen,92.0,111.0,Grass,Poison,Poison,Ground,0,0,3505,3805,False
+turn2,Razor Leaf,Nidoqueen,38.0,69.0,Grass,Poison,Poison,Ground,0,0,3505,3805,False
+turn3,Razor Leaf,Nidoqueen,-12.0,69.0,Grass,Poison,Poison,Ground,0,0,3505,3805,False
+turn1,Slam,Nidoran♂,140,19.0,Grass,Poison,Poison,,0,0,3505,2505,True
+turn2,Slam,Nidoran♂,140,-67.0,Grass,Poison,Poison,,0,0,3505,2505,True
+turn1,Slam,Nidorino,-65395,57.0,Grass,Poison,Poison,,0,0,3505,3255,False
+turn1,Razor Leaf,Nidoking,57.0,95.0,Grass,Poison,Poison,Ground,0,0,3505,4255,False
+turn2,Razor Leaf,Nidoking,-21.0,95.0,Grass,Poison,Poison,Ground,0,0,3505,4255,False
+turn1,Slam,Clefairy,95.0,53.0,Grass,Poison,Normal,,0,0,3505,1755,True
+turn2,Slam,Clefairy,95.0,-21.0,Grass,Poison,Normal,,0,0,3505,1755,True
+turn1,Slam,Clefable,140,105.0,Grass,Poison,Normal,,0,0,3505,3005,False
+turn2,Slam,Clefable,107.0,105.0,Grass,Poison,Normal,,1,0,3505,3005,False
+turn3,Slam,Clefable,59.0,105.0,Grass,Poison,Normal,,1,0,3505,3005,False
+turn4,Slam,Clefable,15.0,55.0,Grass,Poison,Normal,,0,0,3505,3005,False
+turn5,Slam,Clefable,15.0,8.0,Grass,Poison,Normal,,0,0,3505,3005,False
+turn6,Slam,Clefable,-33.0,8.0,Grass,Poison,Normal,,1,0,3505,3005,False
+turn1,Slam,Vulpix,53.0,5.0,Grass,Poison,Fire,,0,0,3505,3255,True
+turn2,Slam,Vulpix,53.0,-85.0,Grass,Poison,Fire,,0,0,3505,3255,True
+turn1,Slam,Ninetales,83.0,84.0,Grass,Poison,Fire,,0,0,3505,5005,False
+turn2,Slam,Ninetales,25.0,39.0,Grass,Poison,Fire,,0,0,3505,5005,False
+turn3,Slam,Ninetales,-38.0,39.0,Grass,Poison,Fire,,0,0,3505,5005,False
+turn1,Slam,Jigglypuff,85.0,15.0,Grass,Poison,Normal,,0,0,3505,1005,True
+turn2,Slam,Jigglypuff,85.0,-157.0,Grass,Poison,Normal,,0,0,3505,1005,True
+turn1,Slam,Wigglytuff,140,124.0,Grass,Poison,Normal,,0,0,3505,2255,True
+turn2,Slam,Wigglytuff,116.0,124.0,Grass,Poison,Normal,,1,0,3505,2255,True
+turn3,Slam,Wigglytuff,68.0,124.0,Grass,Poison,Normal,,1,0,3505,2255,True
+turn4,Slam,Wigglytuff,68.0,53.0,Grass,Poison,Normal,,0,0,3505,2255,True
+turn5,Slam,Wigglytuff,32.0,53.0,Grass,Poison,Normal,,1,0,3505,2255,True
+turn6,Slam,Wigglytuff,32.0,-19.0,Grass,Poison,Normal,,0,0,3505,2255,True
+turn1,Slam,Zubat,140,-6.0,Grass,Poison,Poison,Flying,0,0,3505,2755,True
+turn1,Slam,Golbat,48.0,84.0,Grass,Poison,Poison,Flying,0,0,3505,4505,False
+turn2,Slam,Golbat,-45.0,84.0,Grass,Poison,Poison,Flying,0,0,3505,4505,False
+turn1,Slam,Oddish,119.0,41.0,Grass,Poison,Grass,Poison,0,0,3505,1505,True
+turn2,Slam,Oddish,119.0,-18.0,Grass,Poison,Grass,Poison,0,0,3505,1505,True
+turn1,Slam,Gloom,118.0,67.0,Grass,Poison,Grass,Poison,0,0,3505,2005,True
+turn2,Slam,Gloom,96.0,13.0,Grass,Poison,Grass,Poison,0,0,3505,2005,True
+turn3,Slam,Gloom,96.0,-40.0,Grass,Poison,Grass,Poison,0,0,3505,2005,True
+turn1,Slam,Vileplume,140,94.0,Grass,Poison,Grass,Poison,0,0,3505,2505,True
+turn2,Slam,Vileplume,131.0,98.0,Grass,Poison,Grass,Poison,1,0,3505,2505,True
+turn3,Slam,Vileplume,121.0,103.0,Grass,Poison,Grass,Poison,1,0,3505,2505,True
+turn4,Slam,Vileplume,121.0,61.0,Grass,Poison,Grass,Poison,0,0,3505,2505,True
+turn5,Slam,Vileplume,112.0,65.0,Grass,Poison,Grass,Poison,1,0,3505,2505,True
+turn6,Slam,Vileplume,112.0,24.0,Grass,Poison,Grass,Poison,0,0,3505,2505,True
+turn7,Slam,Vileplume,112.0,-21.0,Grass,Poison,Grass,Poison,0,0,3505,2505,True
+turn1,Acid,Paras,140,-105.0,Grass,Poison,Bug,Grass,0,0,3505,1255,True
+turn1,Acid,Parasect,140,-8.0,Grass,Poison,Bug,Grass,0,0,3505,1505,True
+turn1,Slam,Venonat,96.0,54.0,Grass,Poison,Bug,Poison,0,0,3505,2255,True
+turn2,Slam,Venonat,96.0,-13.0,Grass,Poison,Bug,Poison,0,0,3505,2255,True
+turn1,Slam,Venomoth,40.0,72.0,Grass,Poison,Bug,Poison,0,0,3505,4505,False
+turn2,Slam,Venomoth,-55.0,72.0,Grass,Poison,Bug,Poison,0,0,3505,4505,False
+turn1,Razor Leaf,Diglett,87.0,-64.0,Grass,Poison,Ground,,0,0,3505,4755,True
+turn1,Razor Leaf,Dugtrio,67.0,25.0,Grass,Poison,Ground,,0,0,3505,6005,False
+turn2,Razor Leaf,Dugtrio,-14.0,25.0,Grass,Poison,Ground,,0,0,3505,6005,False
+turn1,Slam,Meowth,113.0,8.0,Grass,Poison,Normal,,0,0,3505,4505,True
+turn2,Slam,Meowth,85.0,-96.0,Grass,Poison,Normal,,0,0,3505,4505,True
+turn1,Slam,Persian,88.0,66.0,Grass,Poison,Normal,,0,0,3505,5755,False
+turn2,Slam,Persian,37.0,11.0,Grass,Poison,Normal,,0,0,3505,5755,False
+turn3,Slam,Persian,-12.0,11.0,Grass,Poison,Normal,,0,0,3505,5755,False
+turn1,Razor Leaf,Psyduck,100.0,36.0,Grass,Poison,Water,,0,0,3505,2755,True
+turn2,Razor Leaf,Psyduck,100.0,-37.0,Grass,Poison,Water,,0,0,3505,2755,True
+turn1,Razor Leaf,Golduck,30.0,95.0,Grass,Poison,Water,,0,0,3505,4255,False
+turn2,Razor Leaf,Golduck,-76.0,95.0,Grass,Poison,Water,,0,0,3505,4255,False
+turn1,Slam,Mankey,121.0,8.0,Grass,Poison,Fighting,,0,0,3505,3505,True
+turn2,Slam,Mankey,100.0,-89.0,Grass,Poison,Fighting,,0,0,3505,3505,True
+turn1,Slam,Primeape,66.0,67.0,Grass,Poison,Fighting,,0,0,3505,4755,False
+turn2,Slam,Primeape,-15.0,67.0,Grass,Poison,Fighting,,0,0,3505,4755,False
+turn1,Slam,Growlithe,98.0,17.0,Grass,Poison,Fire,,0,0,3505,3005,True
+turn2,Slam,Growlithe,98.0,-71.0,Grass,Poison,Fire,,0,0,3505,3005,True
+turn1,Slam,Arcanine,-33.0,134.0,Grass,Poison,Fire,,0,0,3505,4755,False
+turn1,Razor Leaf,Poliwag,140,100,Grass,Poison,Water,,0,0,3505,4505,False
+turn2,Razor Leaf,Poliwag,110.0,100,Grass,Poison,Water,,1,0,3505,4505,False
+turn3,Razor Leaf,Poliwag,82.0,100,Grass,Poison,Water,,1,0,3505,4505,False
+turn4,Razor Leaf,Poliwag,53.0,100,Grass,Poison,Water,,1,0,3505,4505,False
+turn5,Razor Leaf,Poliwag,23.0,100,Grass,Poison,Water,,1,0,3505,4505,False
+turn6,Razor Leaf,Poliwag,-5.0,100,Grass,Poison,Water,,1,0,3505,4505,False
+turn1,Razor Leaf,Poliwhirl,72.0,70.0,Grass,Poison,Water,,0,0,3505,4505,False
+turn2,Razor Leaf,Poliwhirl,10.0,10.0,Grass,Poison,Water,,0,0,3505,4505,False
+turn3,Razor Leaf,Poliwhirl,-53.0,10.0,Grass,Poison,Water,,0,0,3505,4505,False
+turn1,Razor Leaf,Poliwrath,53.0,66.0,Grass,Poison,Water,Fighting,0,0,3505,3505,False
+turn2,Razor Leaf,Poliwrath,-32.0,66.0,Grass,Poison,Water,Fighting,0,0,3505,3505,False
+turn1,Slam,Abra,140,-155.0,Grass,Poison,Psychic,,0,0,3505,4505,True
+turn1,Slam,Kadabra,9.0,-11.0,Grass,Poison,Psychic,,0,0,3505,5255,True
+turn1,Slam,Alakazam,-86.0,115,Grass,Poison,Psychic,,0,0,3505,6005,False
+turn1,Slam,Machop,97.0,60.0,Grass,Poison,Fighting,,0,0,3505,1755,True
+turn2,Slam,Machop,97.0,-13.0,Grass,Poison,Fighting,,0,0,3505,1755,True
+turn1,Slam,Machoke,92.0,88.0,Grass,Poison,Fighting,,0,0,3505,2255,True
+turn2,Slam,Machoke,41.0,35.0,Grass,Poison,Fighting,,0,0,3505,2255,True
+turn3,Slam,Machoke,41.0,-15.0,Grass,Poison,Fighting,,0,0,3505,2255,True
+turn1,Slam,Machamp,72.0,103.0,Grass,Poison,Fighting,,0,0,3505,2755,False
+turn2,Slam,Machamp,5.0,62.0,Grass,Poison,Fighting,,0,0,3505,2755,False
+turn3,Slam,Machamp,-64.0,20.0,Grass,Poison,Fighting,,0,0,3505,2755,False
+turn1,Slam,Bellsprout,124,11.0,Grass,Poison,Grass,Poison,0,0,3505,2005,True
+turn2,Slam,Bellsprout,124,-86.0,Grass,Poison,Grass,Poison,3,0,3505,2005,True
+turn1,Slam,Weepinbell,124,59.0,Grass,Poison,Grass,Poison,0,0,3505,2755,True
+turn2,Slam,Weepinbell,124,-15.0,Grass,Poison,Grass,Poison,3,0,3505,2755,True
+turn1,Slam,Victreebel,83.0,87.0,Grass,Poison,Grass,Poison,0,0,3505,3505,False
+turn2,Slam,Victreebel,31.0,30.0,Grass,Poison,Grass,Poison,0,0,3505,3505,False
+turn3,Slam,Victreebel,-23.0,30.0,Grass,Poison,Grass,Poison,0,0,3505,3505,False
+turn1,Razor Leaf,Tentacool,119.0,-5.0,Grass,Poison,Water,Poison,0,0,3505,3505,True
+turn1,Razor Leaf,Tentacruel,132,80.0,Grass,Poison,Water,Poison,0,0,3505,5005,True
+turn2,Razor Leaf,Tentacruel,99.0,24.0,Grass,Poison,Water,Poison,3,0,3505,5005,True
+turn3,Razor Leaf,Tentacruel,77.0,-33.0,Grass,Poison,Water,Poison,3,0,3505,5005,True
+turn1,Razor Leaf,Geodude,140,-43.0,Grass,Poison,Rock,Ground,0,0,3505,1005,True
+turn1,Razor Leaf,Graveler,140,-8.0,Grass,Poison,Rock,Ground,0,0,3505,1755,True
+turn1,Razor Leaf,Golem,17.0,23.0,Grass,Poison,Rock,Ground,0,0,3505,2255,True
+turn2,Razor Leaf,Golem,17.0,-100.0,Grass,Poison,Rock,Ground,0,0,3505,2255,True
+turn1,Slam,Ponyta,88.0,50.0,Grass,Poison,Fire,,0,0,3505,4505,True
+turn2,Slam,Ponyta,41.0,-15.0,Grass,Poison,Fire,,0,0,3505,4505,True
+turn1,Slam,Rapidash,81.0,79.0,Grass,Poison,Fire,,0,0,3505,5255,False
+turn2,Slam,Rapidash,17.0,31.0,Grass,Poison,Fire,,0,0,3505,5255,False
+turn3,Slam,Rapidash,-42.0,31.0,Grass,Poison,Fire,,0,0,3505,5255,False
+turn1,Razor Leaf,Slowpoke,98.0,40.0,Grass,Poison,Water,Psychic,0,0,3505,755,True
+turn2,Razor Leaf,Slowpoke,98.0,-79.0,Grass,Poison,Water,Psychic,0,0,3505,755,True
+turn1,Razor Leaf,Slowbro,89.0,81.0,Grass,Poison,Water,Psychic,0,0,3505,1505,True
+turn2,Razor Leaf,Slowbro,41.0,14.0,Grass,Poison,Water,Psychic,0,0,3505,1505,True
+turn3,Razor Leaf,Slowbro,41.0,-55.0,Grass,Poison,Water,Psychic,0,0,3505,1505,True
+turn1,Slam,Magnemite,140,38.0,Grass,Poison,Electric,,0,0,3505,2255,True
+turn2,Slam,Magnemite,140,-11.0,Grass,Poison,Electric,,5,0,3505,2255,True
+turn1,Slam,Magneton,94.0,74.0,Grass,Poison,Electric,,0,0,3505,3505,False
+turn2,Slam,Magneton,46.0,40.0,Grass,Poison,Electric,,0,0,3505,3505,False
+turn3,Slam,Magneton,0.0,40.0,Grass,Poison,Electric,,0,0,3505,3505,False
+turn1,Slam,Farfetch'd,98.0,45.0,Grass,Poison,Normal,Flying,0,0,3505,3005,True
+turn2,Slam,Farfetch'd,98.0,-16.0,Grass,Poison,Normal,Flying,0,0,3505,3005,True
+turn1,Slam,Doduo,108.0,16.0,Grass,Poison,Normal,Flying,0,0,3505,3755,True
+turn2,Slam,Doduo,79.0,-62.0,Grass,Poison,Normal,Flying,0,0,3505,3755,True
+turn1,Slam,Dodrio,-35.0,120,Grass,Poison,Normal,Flying,0,0,3505,5005,False
+turn1,Razor Leaf,Seel,93.0,60.0,Grass,Poison,Water,,0,0,3505,2255,False
+turn2,Razor Leaf,Seel,40.0,60.0,Grass,Poison,Water,,6,0,3505,2255,False
+turn3,Razor Leaf,Seel,-6.0,60.0,Grass,Poison,Water,,6,0,3505,2255,False
+turn1,Razor Leaf,Dewgong,7.0,54.0,Grass,Poison,Water,Ice,0,0,3505,3505,False
+turn2,Razor Leaf,Dewgong,-128.0,54.0,Grass,Poison,Water,Ice,0,0,3505,3505,False
+turn1,Slam,Grimer,117.0,67.0,Grass,Poison,Poison,,0,0,3505,1255,True
+turn2,Slam,Grimer,117.0,-6.0,Grass,Poison,Poison,,0,0,3505,1255,True
+turn1,Slam,Muk,63.0,115.0,Grass,Poison,Poison,,0,0,3505,2505,False
+turn2,Slam,Muk,-13.0,64.0,Grass,Poison,Poison,,0,0,3505,2505,False
+turn1,Razor Leaf,Shellder,105.0,53.0,Grass,Poison,Water,,0,0,3505,2005,True
+turn2,Razor Leaf,Shellder,66.0,15.0,Grass,Poison,Water,,0,0,3505,2005,True
+turn3,Razor Leaf,Shellder,66.0,-22.0,Grass,Poison,Water,,0,0,3505,2005,True
+turn1,Razor Leaf,Cloyster,1.0,68.0,Grass,Poison,Water,Ice,0,0,3505,3505,False
+turn2,Razor Leaf,Cloyster,-145.0,68.0,Grass,Poison,Water,Ice,0,0,3505,3505,False
+turn1,Razor Leaf,Gastly,114.0,90,Grass,Poison,Ghost,Poison,0,0,3505,4005,False
+turn2,Razor Leaf,Gastly,37.0,90,Grass,Poison,Ghost,Poison,5,0,3505,4005,False
+turn3,Razor Leaf,Gastly,-13.0,90,Grass,Poison,Ghost,Poison,5,0,3505,4005,False
+turn1,Razor Leaf,Haunter,112.0,105,Grass,Poison,Ghost,Poison,0,0,3505,4755,False
+turn2,Razor Leaf,Haunter,32.0,105,Grass,Poison,Ghost,Poison,5,0,3505,4755,False
+turn3,Razor Leaf,Haunter,-18.0,105,Grass,Poison,Ghost,Poison,5,0,3505,4755,False
+turn1,Razor Leaf,Gengar,112.0,120,Grass,Poison,Ghost,Poison,0,0,3505,5505,False
+turn2,Razor Leaf,Gengar,62.0,104.0,Grass,Poison,Ghost,Poison,5,0,3505,5505,False
+turn3,Razor Leaf,Gengar,12.0,88.0,Grass,Poison,Ghost,Poison,5,0,3505,5505,False
+turn4,Razor Leaf,Gengar,-38.0,88.0,Grass,Poison,Ghost,Poison,5,0,3505,5505,False
+turn1,Razor Leaf,Onix,93.0,1.0,Grass,Poison,Rock,Ground,0,0,3505,3505,True
+turn2,Razor Leaf,Onix,49.0,-93.0,Grass,Poison,Rock,Ground,0,0,3505,3505,True
+turn1,Slam,Drowzee,96.0,44.0,Grass,Poison,Psychic,,0,0,3505,2105,True
+turn2,Slam,Drowzee,96.0,-27.0,Grass,Poison,Psychic,,0,0,3505,2105,True
+turn1,Slam,Hypno,24.0,96.0,Grass,Poison,Psychic,,0,0,3505,3355,False
+turn2,Slam,Hypno,-103.0,46.0,Grass,Poison,Psychic,,0,0,3505,3355,False
+turn1,Razor Leaf,Krabby,91.0,51.0,Grass,Poison,Water,,0,0,3505,2505,True
+turn2,Razor Leaf,Krabby,45.0,11.0,Grass,Poison,Water,,0,0,3505,2505,True
+turn3,Razor Leaf,Krabby,45.0,-31.0,Grass,Poison,Water,,0,0,3505,2505,True
+turn1,Razor Leaf,Kingler,82.0,84.0,Grass,Poison,Water,,0,0,3505,3755,False
+turn2,Razor Leaf,Kingler,16.0,51.0,Grass,Poison,Water,,0,0,3505,3755,False
+turn3,Razor Leaf,Kingler,-48.0,51.0,Grass,Poison,Water,,0,0,3505,3755,False
+turn1,Slam,Voltorb,90.0,34.0,Grass,Poison,Electric,,0,0,3505,5005,True
+turn2,Slam,Voltorb,40.0,-37.0,Grass,Poison,Electric,,0,0,3505,5005,True
+turn1,Slam,Electrode,65.0,71.0,Grass,Poison,Electric,,0,0,3505,7005,False
+turn2,Slam,Electrode,-12.0,71.0,Grass,Poison,Electric,,0,0,3505,7005,False
+turn1,Acid,Exeggcute,156,-1.0,Grass,Poison,Grass,Psychic,0,0,3505,2005,True
+turn1,Acid,Exeggutor,-4.0,72.0,Grass,Poison,Grass,Psychic,0,0,3505,2755,False
+turn1,Razor Leaf,Cubone,109.0,70.0,Grass,Poison,Ground,,0,0,3505,1755,True
+turn2,Razor Leaf,Cubone,75.0,32.0,Grass,Poison,Ground,,0,0,3505,1755,True
+turn3,Razor Leaf,Cubone,75.0,-7.0,Grass,Poison,Ground,,0,0,3505,1755,True
+turn1,Razor Leaf,Marowak,92.0,86.0,Grass,Poison,Ground,,0,0,3505,2255,False
+turn2,Razor Leaf,Marowak,37.0,50.0,Grass,Poison,Ground,,0,0,3505,2255,False
+turn3,Razor Leaf,Marowak,-13.0,14.0,Grass,Poison,Ground,,0,0,3505,2255,False
+turn1,Slam,Hitmonlee,44.0,48.0,Grass,Poison,Fighting,,0,0,3505,4355,False
+turn2,Slam,Hitmonlee,-43.0,48.0,Grass,Poison,Fighting,,0,0,3505,4355,False
+turn1,Slam,Hitmonchan,29.0,64.0,Grass,Poison,Fighting,,0,0,3505,3805,False
+turn2,Slam,Hitmonchan,-65.0,64.0,Grass,Poison,Fighting,,2,0,3505,3805,False
+turn1,Slam,Lickitung,101.0,107.0,Grass,Poison,Normal,,0,0,3505,1505,True
+turn2,Slam,Lickitung,65.0,58.0,Grass,Poison,Normal,,0,0,3505,1505,True
+turn3,Slam,Lickitung,26.0,8.0,Grass,Poison,Normal,,0,0,3505,1505,True
+turn4,Slam,Lickitung,26.0,-39.0,Grass,Poison,Normal,,0,0,3505,1505,True
+turn1,Slam,Koffing,124,64.0,Grass,Poison,Poison,,0,0,3505,1755,True
+turn2,Slam,Koffing,90.0,26.0,Grass,Poison,Poison,,3,0,3505,1755,True
+turn3,Slam,Koffing,90.0,-12.0,Grass,Poison,Poison,,3,0,3505,1755,True
+turn1,Slam,Weezing,92.0,94.0,Grass,Poison,Poison,,0,0,3505,3005,False
+turn2,Slam,Weezing,42.0,62.0,Grass,Poison,Poison,,0,0,3505,3005,False
+turn3,Slam,Weezing,-10.0,33.0,Grass,Poison,Poison,,0,0,3505,3005,False
+turn1,Razor Leaf,Rhyhorn,140,-27.0,Grass,Poison,Ground,Rock,0,0,3505,1255,True
+turn1,Razor Leaf,Rhydon,62.0,-9.0,Grass,Poison,Ground,Rock,0,0,3505,2005,True
+turn1,Slam,Chansey,140,-408.0,Grass,Poison,Normal,,0,0,3505,2505,True
+turn1,Acid,Tangela,148,-5.0,Grass,Poison,Grass,,0,0,3505,3005,True
+turn1,Slam,Kangaskhan,77.0,119.0,Grass,Poison,Normal,,0,0,3505,4505,False
+turn2,Slam,Kangaskhan,43.0,71.0,Grass,Poison,Normal,,0,0,3505,4505,False
+turn3,Slam,Kangaskhan,-13.0,71.0,Grass,Poison,Normal,,0,0,3505,4505,False
+turn1,Razor Leaf,Horsea,127.0,36.0,Grass,Poison,Water,,0,0,3505,3005,True
+turn2,Razor Leaf,Horsea,127.0,-18.0,Grass,Poison,Water,,0,0,3505,3005,True
+turn1,Razor Leaf,Seadra,93.0,75.0,Grass,Poison,Water,,0,0,3505,4255,False
+turn2,Razor Leaf,Seadra,44.0,35.0,Grass,Poison,Water,,0,0,3505,4255,False
+turn3,Razor Leaf,Seadra,-2.0,35.0,Grass,Poison,Water,,0,0,3505,4255,False
+turn1,Razor Leaf,Goldeen,112.0,46.0,Grass,Poison,Water,,0,0,3505,3155,True
+turn2,Razor Leaf,Goldeen,112.0,-13.0,Grass,Poison,Water,,0,0,3505,3155,True
+turn1,Razor Leaf,Seaking,140,79.0,Grass,Poison,Water,,0,0,3505,3405,True
+turn2,Razor Leaf,Seaking,140,23.0,Grass,Poison,Water,,0,0,3505,3405,True
+turn3,Razor Leaf,Seaking,140,-37.0,Grass,Poison,Water,,0,0,3505,3405,True
+turn1,Razor Leaf,Staryu,114.0,90,Grass,Poison,Water,,0,0,3505,4255,True
+turn2,Razor Leaf,Staryu,90.0,26.0,Grass,Poison,Water,,5,0,3505,4255,True
+turn3,Razor Leaf,Staryu,62.0,-43.0,Grass,Poison,Water,,5,0,3505,4255,True
+turn1,Razor Leaf,Starmie,89.0,31.0,Grass,Poison,Water,Psychic,0,0,3505,5755,True
+turn2,Razor Leaf,Starmie,37.0,-59.0,Grass,Poison,Water,Psychic,0,0,3505,5755,True
+turn1,Slam,Mr. Mime,46.0,50.0,Grass,Poison,Psychic,Normal,0,0,3505,4505,False
+turn2,Slam,Mr. Mime,-40.0,50.0,Grass,Poison,Psychic,Normal,0,0,3505,4505,False
+turn1,Acid,Scyther,3.0,66.0,Grass,Poison,Bug,Flying,0,0,3505,5255,False
+turn2,Acid,Scyther,-125.0,66.0,Grass,Poison,Bug,Flying,0,0,3505,5255,False
+turn1,Slam,Jynx,71.0,33.0,Grass,Poison,Ice,Psychic,0,0,3505,4755,False
+turn2,Slam,Jynx,0.0,33.0,Grass,Poison,Ice,Psychic,0,0,3505,4755,False
+turn1,Slam,Electabuzz,111.0,68.0,Grass,Poison,Electric,,0,0,3505,5255,True
+turn2,Slam,Electabuzz,83.0,6.0,Grass,Poison,Electric,,0,0,3505,5255,True
+turn3,Slam,Electabuzz,55.0,-55.0,Grass,Poison,Electric,,0,0,3505,5255,True
+turn1,Slam,Magmar,-28.0,125,Grass,Poison,Fire,,0,0,3505,4655,False
+turn1,Acid,Pinsir,-65395,125,Grass,Poison,Bug,,0,0,3505,4255,False
+turn1,Slam,Tauros,56.0,56.0,Grass,Poison,Normal,,0,0,3505,5505,False
+turn2,Slam,Tauros,-30.0,15.0,Grass,Poison,Normal,,0,0,3505,5505,False
+turn1,Razor Leaf,Magikarp,140,10.0,Grass,Poison,Water,,0,0,3505,4005,True
+turn2,Razor Leaf,Magikarp,140,-52.0,Grass,Poison,Water,,0,0,3505,4005,True
+turn1,Razor Leaf,Gyarados,108.0,109.0,Grass,Poison,Water,Flying,0,0,3505,4055,True
+turn2,Razor Leaf,Gyarados,78.0,65.0,Grass,Poison,Water,Flying,0,0,3505,4055,True
+turn3,Razor Leaf,Gyarados,48.0,20.0,Grass,Poison,Water,Flying,0,0,3505,4055,True
+turn4,Razor Leaf,Gyarados,20.0,-29.0,Grass,Poison,Water,Flying,0,0,3505,4055,True
+turn1,Razor Leaf,Lapras,-16.0,98.0,Grass,Poison,Water,Ice,0,0,3505,3005,False
+turn1,Slam,Ditto,140,34.0,Grass,Poison,Normal,,0,0,3505,2405,True
+turn2,Slam,Ditto,140,-35.0,Grass,Poison,Normal,,0,0,3505,2405,True
+turn1,Slam,Eevee,106.0,46.0,Grass,Poison,Normal,,0,0,3505,2755,True
+turn2,Slam,Eevee,106.0,-26.0,Grass,Poison,Normal,,0,0,3505,2755,True
+turn1,Razor Leaf,Vaporeon,5.0,132.0,Grass,Poison,Water,,0,0,3505,3255,False
+turn2,Razor Leaf,Vaporeon,-143.0,68.0,Grass,Poison,Water,,0,0,3505,3255,False
+turn1,Slam,Jolteon,140,125,Grass,Poison,Electric,,0,0,3505,6505,True
+turn2,Slam,Jolteon,120.0,71.0,Grass,Poison,Electric,,4,0,3505,6505,True
+turn3,Slam,Jolteon,100.0,15.0,Grass,Poison,Electric,,4,0,3505,6505,True
+turn4,Slam,Jolteon,79.0,15.0,Grass,Poison,Electric,,4,0,3505,6505,True
+turn5,Slam,Jolteon,59.0,15.0,Grass,Poison,Electric,,4,0,3505,6505,True
+turn6,Slam,Jolteon,,,Grass,Poison,Electric,,,,3505,6505,True
+turn1,Slam,Flareon,-32.0,62.0,Grass,Poison,Fire,,0,0,3505,3255,False
+turn1,Slam,Porygon,77.0,72.0,Grass,Poison,Normal,,0,0,3505,2005,True
+turn2,Slam,Porygon,19.0,19.0,Grass,Poison,Normal,,0,0,3505,2005,True
+turn3,Slam,Porygon,19.0,-33.0,Grass,Poison,Normal,,0,0,3505,2005,True
+turn1,Razor Leaf,Omanyte,140,-55.0,Grass,Poison,Rock,Water,0,0,3505,1755,True
+turn1,Razor Leaf,Omastar,116.0,7.0,Grass,Poison,Rock,Water,0,0,3505,2755,True
+turn2,Razor Leaf,Omastar,116.0,-110.0,Grass,Poison,Rock,Water,0,0,3505,2755,True
+turn1,Razor Leaf,Kabuto,140,-68.0,Grass,Poison,Rock,Water,0,0,3505,2755,True
+turn1,Razor Leaf,Kabutops,84.0,-35.0,Grass,Poison,Rock,Water,0,0,3505,4005,True
+turn1,Razor Leaf,Aerodactyl,8.0,82.0,Grass,Poison,Rock,Flying,0,0,3505,6505,False
+turn2,Razor Leaf,Aerodactyl,-113.0,82.0,Grass,Poison,Rock,Flying,0,0,3505,6505,False
+turn1,Slam,Snorlax,14.0,168.0,Grass,Poison,Normal,,0,0,3505,1505,False
+turn2,Slam,Snorlax,-116.0,114.0,Grass,Poison,Normal,,0,0,3505,1505,False
+turn1,Slam,Articuno,-61.0,150,Grass,Poison,Ice,Flying,0,0,3505,4255,False
+turn1,Slam,Zapdos,-12.0,150,Grass,Poison,Electric,Flying,0,0,3505,5005,False
+turn1,Slam,Moltres,-145.0,150,Grass,Poison,Fire,Flying,0,0,3505,4505,False
+turn1,Slam,Dratini,105.0,23.0,Grass,Poison,Dragon,,0,0,3505,2505,True
+turn2,Slam,Dratini,105.0,-54.0,Grass,Poison,Dragon,,0,0,3505,2505,True
+turn1,Slam,Dragonair,140,64.0,Grass,Poison,Dragon,,0,0,3505,3505,True
+turn2,Slam,Dragonair,100,64.0,Grass,Poison,Dragon,,4,0,3505,3505,True
+turn3,Slam,Dragonair,60,12.0,Grass,Poison,Dragon,,4,0,3505,3505,True
+turn4,Slam,Dragonair,,,Grass,Poison,Dragon,,,,3505,3505,True
+turn1,Slam,Dragonite,140,114.0,Grass,Poison,Dragon,Flying,0,0,3505,4005,False
+turn2,Slam,Dragonite,100,114.0,Grass,Poison,Dragon,Flying,4,0,3505,4005,False
+turn3,Slam,Dragonite,60,79.0,Grass,Poison,Dragon,Flying,4,0,3505,4005,False
+turn4,Slam,Dragonite,20,42.0,Grass,Poison,Dragon,Flying,4,0,3505,4005,False
+turn5,Slam,Dragonite,-20,42.0,Grass,Poison,Dragon,Flying,4,0,3505,4005,False
+turn1,Slam,Mewtwo,3.0,128.0,Grass,Poison,Psychic,,0,0,3505,6505,False
+turn2,Slam,Mewtwo,-138.0,128.0,Grass,Poison,Psychic,,0,0,3505,6505,False
+turn1,Slam,Mew,-11.0,160,Grass,Poison,Psychic,,0,0,3505,5005,False

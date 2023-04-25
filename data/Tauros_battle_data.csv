@@ -1,0 +1,305 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Take Down,Bulbasaur,79.0,-16.0,Normal,,Grass,Poison,0,0,5505,2255,True
+turn1,Take Down,Ivysaur,75.0,32.0,Normal,,Grass,Poison,0,0,5505,3005,True
+turn2,Take Down,Ivysaur,31.0,-54.0,Normal,,Grass,Poison,3,0,5505,3005,True
+turn1,Take Down,Venusaur,51.0,69.0,Normal,,Grass,Poison,0,0,5505,4005,False
+turn2,Take Down,Venusaur,-34.0,6.0,Normal,,Grass,Poison,0,0,5505,4005,False
+turn1,Take Down,Charmander,71.0,-37.0,Normal,,Fire,,0,0,5505,3255,True
+turn1,Take Down,Charmeleon,53.0,21.0,Normal,,Fire,,0,0,5505,4005,True
+turn2,Take Down,Charmeleon,5.0,-81.0,Normal,,Fire,,0,0,5505,4005,True
+turn1,Take Down,Charizard,59.0,63.0,Normal,,Fire,Flying,0,0,5505,5005,True
+turn2,Take Down,Charizard,23.0,-13.0,Normal,,Fire,Flying,0,0,5505,5005,True
+turn1,Take Down,Squirtle,65.0,24.0,Normal,,Water,,0,0,5505,2155,True
+turn2,Take Down,Squirtle,20.0,-64.0,Normal,,Water,,0,0,5505,2155,True
+turn1,Take Down,Wartortle,62.0,44.0,Normal,,Water,,0,0,5505,2905,True
+turn2,Take Down,Wartortle,27.0,-24.0,Normal,,Water,,0,0,5505,2905,True
+turn1,Take Down,Blastoise,60.0,79.0,Normal,,Water,,0,0,5505,3905,False
+turn2,Take Down,Blastoise,-17.0,22.0,Normal,,Water,,0,0,5505,3905,False
+turn1,Take Down,Caterpie,56.0,-54.0,Normal,,Bug,,0,0,5505,2255,True
+turn1,Take Down,Metapod,81.0,11.0,Normal,,Bug,,0,0,5505,1505,True
+turn2,Take Down,Metapod,30.0,-86.0,Normal,,Bug,,0,0,5505,1505,True
+turn1,Stomp,Butterfree,83.0,14.0,Normal,,Bug,Flying,0,0,5505,3505,False
+turn2,Stomp,Butterfree,21.0,14.0,Normal,,Bug,Flying,1,0,5505,3505,False
+turn3,Stomp,Butterfree,-41.0,14.0,Normal,,Bug,Flying,1,0,5505,3505,False
+turn1,Take Down,Weedle,41.0,-90.0,Normal,,Bug,Poison,0,0,5505,2505,True
+turn1,Take Down,Kakuna,76.0,-15.0,Normal,,Bug,Poison,0,0,5505,1755,True
+turn1,Take Down,Beedrill,68.0,-6.0,Normal,,Bug,Poison,0,0,5505,3755,True
+turn1,Take Down,Pidgey,66.0,-44.0,Normal,,Normal,Flying,0,0,5505,2805,True
+turn1,Take Down,Pidgeotto,59.0,17.0,Normal,,Normal,Flying,0,0,5505,3555,True
+turn2,Take Down,Pidgeotto,9.0,-83.0,Normal,,Normal,Flying,0,0,5505,3555,True
+turn1,Take Down,Pidgeot,67.0,69.0,Normal,,Normal,Flying,0,0,5505,5055,True
+turn2,Take Down,Pidgeot,31.0,-6.0,Normal,,Normal,Flying,0,0,5505,5055,True
+turn1,Take Down,Rattata,57.0,-57.0,Normal,,Normal,,0,0,5505,3605,True
+turn1,Stomp,Raticate,45.0,21.0,Normal,,Normal,,0,0,5505,4855,True
+turn2,Stomp,Raticate,22.0,-45.0,Normal,,Normal,,0,0,5505,4855,True
+turn1,Take Down,Spearow,46.0,-73.0,Normal,,Normal,Flying,0,0,5505,3505,True
+turn1,Take Down,Fearow,47.0,31.0,Normal,,Normal,Flying,0,0,5505,5005,True
+turn2,Take Down,Fearow,4.0,-55.0,Normal,,Normal,Flying,0,0,5505,5005,True
+turn1,Take Down,Ekans,72.0,-41.0,Normal,,Poison,,0,0,5505,2755,True
+turn1,Take Down,Arbok,68.0,35.0,Normal,,Poison,,0,0,5505,4005,True
+turn2,Take Down,Arbok,30.0,-42.0,Normal,,Poison,,0,0,5505,4005,True
+turn1,Take Down,Pikachu,61.0,-56.0,Normal,,Electric,,0,0,5505,4505,True
+turn1,Stomp,Raichu,42.0,17.0,Normal,,Electric,,0,0,5505,5505,False
+turn2,Stomp,Raichu,-25.0,17.0,Normal,,Electric,,0,0,5505,5505,False
+turn1,Take Down,Sandshrew,78.0,44.0,Normal,,Ground,,0,0,5505,2005,True
+turn2,Take Down,Sandshrew,46.0,-23.0,Normal,,Ground,,0,0,5505,2005,True
+turn1,Stomp,Sandslash,77.0,79.0,Normal,,Ground,,0,0,5505,3255,True
+turn2,Stomp,Sandslash,22.0,31.0,Normal,,Ground,,0,0,5505,3255,True
+turn3,Stomp,Sandslash,8.0,-4.0,Normal,,Ground,,0,0,5505,3255,True
+turn1,Take Down,Nidoran♀,80.0,-1.0,Normal,,Poison,,0,0,5505,2055,True
+turn1,Take Down,Nidorina,56.0,40.0,Normal,,Poison,,0,0,5505,2805,True
+turn2,Take Down,Nidorina,15.0,-45.0,Normal,,Poison,,0,0,5505,2805,True
+turn1,Stomp,Nidoqueen,67.0,80.0,Normal,,Poison,Ground,0,0,5505,3805,True
+turn2,Stomp,Nidoqueen,1.0,17.0,Normal,,Poison,Ground,0,0,5505,3805,True
+turn3,Stomp,Nidoqueen,-14.0,-31.0,Normal,,Poison,Ground,0,0,5505,3805,True
+turn1,Take Down,Nidoran♂,66.0,-39.0,Normal,,Poison,,0,0,5505,2505,True
+turn1,Stomp,Nidorino,40.0,17.0,Normal,,Poison,,0,0,5505,3255,True
+turn2,Stomp,Nidorino,16.0,-50.0,Normal,,Poison,,0,0,5505,3255,True
+turn1,Take Down,Nidoking,45.0,70.0,Normal,,Poison,Ground,0,0,5505,4255,True
+turn2,Take Down,Nidoking,10.0,-3.0,Normal,,Poison,Ground,0,0,5505,4255,True
+turn1,Stomp,Clefairy,56.0,9.0,Normal,,Normal,,0,0,5505,1755,True
+turn2,Stomp,Clefairy,26.0,-83.0,Normal,,Normal,,0,0,5505,1755,True
+turn1,Stomp,Clefable,99.0,80.0,Normal,,Normal,,0,0,5505,3005,False
+turn2,Stomp,Clefable,57.0,80.0,Normal,,Normal,,1,0,5505,3005,False
+turn3,Stomp,Clefable,20.0,3.0,Normal,,Normal,,0,0,5505,3005,False
+turn4,Stomp,Clefable,-19.0,3.0,Normal,,Normal,,1,0,5505,3005,False
+turn1,Take Down,Vulpix,65.0,-43.0,Normal,,Fire,,0,0,5505,3255,True
+turn1,Take Down,Ninetales,64.0,57.0,Normal,,Fire,,0,0,5505,5005,True
+turn2,Take Down,Ninetales,26.0,-17.0,Normal,,Fire,,2,0,5505,5005,True
+turn1,Stomp,Jigglypuff,66.0,-28.0,Normal,,Normal,,0,0,5505,1005,True
+turn1,Take Down,Wigglytuff,72.0,74.0,Normal,,Normal,,0,0,5505,2255,False
+turn2,Take Down,Wigglytuff,-6.0,74.0,Normal,,Normal,,1,0,5505,2255,False
+turn1,Take Down,Zubat,57.0,-69.0,Normal,,Poison,Flying,0,0,5505,2755,True
+turn1,Take Down,Golbat,64.0,59.0,Normal,,Poison,Flying,0,0,5505,4505,True
+turn2,Take Down,Golbat,22.0,-25.0,Normal,,Poison,Flying,0,0,5505,4505,True
+turn1,Stomp,Oddish,44.0,6.0,Normal,,Grass,Poison,0,0,5505,1505,True
+turn2,Stomp,Oddish,18.0,-72.0,Normal,,Grass,Poison,0,0,5505,1505,True
+turn1,Take Down,Gloom,49.0,45.0,Normal,,Grass,Poison,0,0,5505,2005,True
+turn2,Take Down,Gloom,10.0,-35.0,Normal,,Grass,Poison,0,0,5505,2005,True
+turn1,Stomp,Vileplume,102.0,64.0,Normal,,Grass,Poison,0,0,5505,2505,True
+turn2,Stomp,Vileplume,64.0,74.0,Normal,,Grass,Poison,1,0,5505,2505,True
+turn3,Stomp,Vileplume,28.0,83.0,Normal,,Grass,Poison,1,0,5505,2505,True
+turn4,Stomp,Vileplume,12.0,36.0,Normal,,Grass,Poison,0,0,5505,2505,True
+turn5,Stomp,Vileplume,-4.0,-10.0,Normal,,Grass,Poison,0,0,5505,2505,True
+turn1,Take Down,Paras,86.0,-3.0,Normal,,Bug,Grass,0,0,5505,1255,True
+turn1,Take Down,Parasect,54.0,77.0,Normal,,Bug,Grass,0,0,5505,1505,False
+turn2,Take Down,Parasect,-28.0,26.0,Normal,,Bug,Grass,0,0,5505,1505,False
+turn1,Stomp,Venonat,83.0,15.0,Normal,,Bug,Poison,0,0,5505,2255,True
+turn2,Stomp,Venonat,32.0,15.0,Normal,,Bug,Poison,1,0,5505,2255,True
+turn3,Stomp,Venonat,5.0,-71.0,Normal,,Bug,Poison,0,0,5505,2255,True
+turn1,Stomp,Venomoth,92.0,39.0,Normal,,Bug,Poison,0,0,5505,4505,True
+turn2,Stomp,Venomoth,18.0,39.0,Normal,,Bug,Poison,1,0,5505,4505,True
+turn3,Stomp,Venomoth,-6.0,-27.0,Normal,,Bug,Poison,0,0,5505,4505,True
+turn1,Take Down,Diglett,21.0,-161.0,Normal,,Ground,,0,0,5505,4755,True
+turn1,Take Down,Dugtrio,26.0,-17.0,Normal,,Ground,,0,0,5505,6005,True
+turn1,Take Down,Meowth,59.0,-50.0,Normal,,Normal,,0,0,5505,4505,True
+turn1,Take Down,Persian,55.0,27.0,Normal,,Normal,,0,0,5505,5755,False
+turn2,Take Down,Persian,-5.0,27.0,Normal,,Normal,,0,0,5505,5755,False
+turn1,Take Down,Psyduck,75.0,-7.0,Normal,,Water,,0,0,5505,2755,True
+turn1,Take Down,Golduck,44.0,72.0,Normal,,Water,,0,0,5505,4255,False
+turn2,Take Down,Golduck,-42.0,1.0,Normal,,Water,,0,0,5505,4255,False
+turn1,Take Down,Mankey,53.0,-71.0,Normal,,Fighting,,0,0,5505,3505,True
+turn1,Stomp,Primeape,33.0,25.0,Normal,,Fighting,,0,0,5505,4755,True
+turn2,Stomp,Primeape,8.0,-47.0,Normal,,Fighting,,0,0,5505,4755,True
+turn1,Take Down,Growlithe,76.0,-17.0,Normal,,Fire,,0,0,5505,3005,True
+turn1,Take Down,Arcanine,59.0,68.0,Normal,,Fire,,0,0,5505,4755,True
+turn2,Take Down,Arcanine,23.0,-19.0,Normal,,Fire,,0,0,5505,4755,True
+turn1,Take Down,Poliwag,63.0,-40.0,Normal,,Water,,0,0,5505,4505,True
+turn1,Take Down,Poliwhirl,66.0,35.0,Normal,,Water,,0,0,5505,4505,True
+turn2,Take Down,Poliwhirl,21.0,-57.0,Normal,,Water,,0,0,5505,4505,True
+turn1,Stomp,Poliwrath,104.0,90.0,Normal,,Water,Fighting,0,0,5505,3505,False
+turn2,Stomp,Poliwrath,53.0,90.0,Normal,,Water,Fighting,1,0,5505,3505,False
+turn3,Stomp,Poliwrath,24.0,29.0,Normal,,Water,Fighting,0,0,5505,3505,False
+turn4,Stomp,Poliwrath,-30.0,29.0,Normal,,Water,Fighting,1,0,5505,3505,False
+turn1,Stomp,Abra,50.0,-166.0,Normal,,Psychic,,0,0,5505,4505,True
+turn1,Take Down,Kadabra,43.0,-89.0,Normal,,Psychic,,0,0,5505,5255,True
+turn1,Take Down,Alakazam,-11.0,115,Normal,,Psychic,,0,0,5505,6005,False
+turn1,Stomp,Machop,24.0,20.0,Normal,,Fighting,,0,0,5505,1755,True
+turn2,Stomp,Machop,-5.0,-61.0,Normal,,Fighting,,0,0,5505,1755,True
+turn1,Stomp,Machoke,20.0,63.0,Normal,,Fighting,,0,0,5505,2255,False
+turn2,Stomp,Machoke,-70.0,3.0,Normal,,Fighting,,0,0,5505,2255,False
+turn1,Stomp,Machamp,13.0,76.0,Normal,,Fighting,,0,0,5505,2755,False
+turn2,Stomp,Machamp,-96.0,27.0,Normal,,Fighting,,0,0,5505,2755,False
+turn1,Take Down,Bellsprout,52.0,-61.0,Normal,,Grass,Poison,0,0,5505,2005,True
+turn1,Take Down,Weepinbell,67.0,20.0,Normal,,Grass,Poison,0,0,5505,2755,True
+turn2,Take Down,Weepinbell,12.0,-92.0,Normal,,Grass,Poison,3,0,5505,2755,True
+turn1,Take Down,Victreebel,60.0,58.0,Normal,,Grass,Poison,0,0,5505,3505,True
+turn2,Take Down,Victreebel,16.0,-27.0,Normal,,Grass,Poison,0,0,5505,3505,True
+turn1,Take Down,Tentacool,51.0,-69.0,Normal,,Water,Poison,0,0,5505,3505,True
+turn1,Take Down,Tentacruel,76.0,58.0,Normal,,Water,Poison,0,0,5505,5005,True
+turn2,Take Down,Tentacruel,34.0,-32.0,Normal,,Water,Poison,3,0,5505,5005,True
+turn1,Stomp,Geodude,93.0,73.0,Normal,,Rock,Ground,0,0,5505,1005,True
+turn2,Stomp,Geodude,51.0,43.0,Normal,,Rock,Ground,0,0,5505,1005,True
+turn3,Stomp,Geodude,10.0,12.0,Normal,,Rock,Ground,0,0,5505,1005,True
+turn4,Stomp,Geodude,4.0,-9.0,Normal,,Rock,Ground,0,0,5505,1005,True
+turn1,Take Down,Graveler,78.0,89.0,Normal,,Rock,Ground,0,0,5505,1755,False
+turn2,Take Down,Graveler,15.0,63.0,Normal,,Rock,Ground,0,0,5505,1755,False
+turn3,Take Down,Graveler,-47.0,39.0,Normal,,Rock,Ground,0,0,5505,1755,False
+turn1,Take Down,Golem,42.0,118.0,Normal,,Rock,Ground,0,0,5505,2255,False
+turn2,Take Down,Golem,-47.0,96.0,Normal,,Rock,Ground,0,0,5505,2255,False
+turn1,Take Down,Ponyta,64.0,16.0,Normal,,Fire,,0,0,5505,4505,True
+turn2,Take Down,Ponyta,14.0,-93.0,Normal,,Fire,,0,0,5505,4505,True
+turn1,Take Down,Rapidash,66.0,47.0,Normal,,Fire,,0,0,5505,5255,True
+turn2,Take Down,Rapidash,25.0,-33.0,Normal,,Fire,,0,0,5505,5255,True
+turn1,Take Down,Slowpoke,70.0,60.0,Normal,,Water,Psychic,0,0,5505,755,True
+turn2,Take Down,Slowpoke,26.0,-31.0,Normal,,Water,Psychic,0,0,5505,755,True
+turn1,Take Down,Slowbro,63.0,103.0,Normal,,Water,Psychic,0,0,5505,1505,False
+turn2,Take Down,Slowbro,-8.0,53.0,Normal,,Water,Psychic,0,0,5505,1505,False
+turn1,Take Down,Magnemite,97.0,6.0,Normal,,Electric,,0,0,5505,2255,True
+turn2,Take Down,Magnemite,57.0,-71.0,Normal,,Electric,,5,0,5505,2255,True
+turn1,Take Down,Magneton,59.0,53.0,Normal,,Electric,,0,0,5505,3505,True
+turn2,Take Down,Magneton,30.0,-6.0,Normal,,Electric,,0,0,5505,3505,True
+turn1,Take Down,Farfetch'd,55.0,15.0,Normal,,Normal,Flying,0,0,5505,3005,True
+turn2,Take Down,Farfetch'd,4.0,-91.0,Normal,,Normal,Flying,0,0,5505,3005,True
+turn1,Take Down,Doduo,52.0,-34.0,Normal,,Normal,Flying,0,0,5505,3755,True
+turn1,Take Down,Dodrio,41.0,44.0,Normal,,Normal,Flying,0,0,5505,5005,True
+turn2,Take Down,Dodrio,1.0,-37.0,Normal,,Normal,Flying,0,0,5505,5005,True
+turn1,Take Down,Seel,74.0,25.0,Normal,,Water,,0,0,5505,2255,True
+turn2,Take Down,Seel,25.0,-75.0,Normal,,Water,,0,0,5505,2255,True
+turn1,Take Down,Dewgong,66.0,83.0,Normal,,Water,Ice,0,0,5505,3505,False
+turn2,Take Down,Dewgong,-3.0,14.0,Normal,,Water,Ice,0,0,5505,3505,False
+turn1,Take Down,Grimer,55.0,31.0,Normal,,Poison,,0,0,5505,1255,True
+turn2,Take Down,Grimer,0.0,-86.0,Normal,,Poison,,0,0,5505,1255,True
+turn1,Take Down,Muk,38.0,83.0,Normal,,Poison,,0,0,5505,2505,False
+turn2,Take Down,Muk,-56.0,3.0,Normal,,Poison,,0,0,5505,2505,False
+turn1,Take Down,Shellder,107.0,34.0,Normal,,Water,,0,0,5505,2005,True
+turn2,Take Down,Shellder,53.0,34.0,Normal,,Water,,5,0,5505,2005,True
+turn3,Take Down,Shellder,25.0,-22.0,Normal,,Water,,5,0,5505,2005,True
+turn1,Take Down,Cloyster,86.0,75.0,Normal,,Water,Ice,0,0,5505,3505,False
+turn2,Take Down,Cloyster,37.0,40.0,Normal,,Water,Ice,0,0,5505,3505,False
+turn3,Take Down,Cloyster,-15.0,8.0,Normal,,Water,Ice,0,0,5505,3505,False
+turn1,Tackle,Gastly,135,90.0,Normal,,Ghost,Poison,0,0,5505,4005,False
+turn2,Tackle,Gastly,85,90.0,Normal,,Ghost,Poison,5,0,5505,4005,False
+turn3,Tackle,Gastly,6.0,90.0,Normal,,Ghost,Poison,5,0,5505,4005,False
+turn4,Tackle,Gastly,-44.0,90.0,Normal,,Ghost,Poison,5,0,5505,4005,False
+turn1,Tackle,Haunter,135,105.0,Normal,,Ghost,Poison,0,0,5505,4755,False
+turn2,Tackle,Haunter,85,105.0,Normal,,Ghost,Poison,5,0,5505,4755,False
+turn3,Tackle,Haunter,6.0,105.0,Normal,,Ghost,Poison,5,0,5505,4755,False
+turn4,Tackle,Haunter,-74.0,105.0,Normal,,Ghost,Poison,5,0,5505,4755,False
+turn1,Tackle,Gengar,135,120.0,Normal,,Ghost,Poison,0,0,5505,5505,False
+turn2,Tackle,Gengar,85,120.0,Normal,,Ghost,Poison,5,0,5505,5505,False
+turn3,Tackle,Gengar,7.0,120.0,Normal,,Ghost,Poison,5,0,5505,5505,False
+turn4,Tackle,Gengar,-43.0,120.0,Normal,,Ghost,Poison,5,0,5505,5505,False
+turn1,Take Down,Onix,96.0,78.0,Normal,,Rock,Ground,0,0,5505,3505,False
+turn2,Take Down,Onix,58.0,60.0,Normal,,Rock,Ground,0,0,5505,3505,False
+turn3,Take Down,Onix,21.0,43.0,Normal,,Rock,Ground,0,0,5505,3505,False
+turn4,Take Down,Onix,-19.0,26.0,Normal,,Rock,Ground,0,0,5505,3505,False
+turn1,Take Down,Drowzee,74.0,-8.0,Normal,,Psychic,,0,0,5505,2105,True
+turn1,Stomp,Hypno,35.0,65.0,Normal,,Psychic,,0,0,5505,3355,False
+turn2,Stomp,Hypno,-40.0,5.0,Normal,,Psychic,,0,0,5505,3355,False
+turn1,Take Down,Krabby,67.0,24.0,Normal,,Water,,0,0,5505,2505,True
+turn2,Take Down,Krabby,37.0,-43.0,Normal,,Water,,0,0,5505,2505,True
+turn1,Take Down,Kingler,67.0,66.0,Normal,,Water,,0,0,5505,3755,False
+turn2,Take Down,Kingler,-3.0,14.0,Normal,,Water,,0,0,5505,3755,False
+turn1,Take Down,Voltorb,77.0,-21.0,Normal,,Electric,,0,0,5505,5005,True
+turn1,Stomp,Electrode,36.0,40.0,Normal,,Electric,,0,0,5505,7005,False
+turn2,Stomp,Electrode,-43.0,40.0,Normal,,Electric,,0,0,5505,7005,False
+turn1,Take Down,Exeggcute,116.0,31.0,Normal,,Grass,Psychic,0,0,5505,2005,True
+turn2,Take Down,Exeggcute,82.0,-42.0,Normal,,Grass,Psychic,7,0,5505,2005,True
+turn1,Take Down,Exeggutor,34.0,92.0,Normal,,Grass,Psychic,0,0,5505,2755,False
+turn2,Take Down,Exeggutor,-70.0,30.0,Normal,,Grass,Psychic,0,0,5505,2755,False
+turn1,Take Down,Cubone,84.0,49.0,Normal,,Ground,,0,0,5505,1755,True
+turn2,Take Down,Cubone,55.0,-10.0,Normal,,Ground,,0,0,5505,1755,True
+turn1,Stomp,Marowak,75.0,68.0,Normal,,Ground,,0,0,5505,2255,True
+turn2,Stomp,Marowak,13.0,15.0,Normal,,Ground,,0,0,5505,2255,True
+turn3,Stomp,Marowak,1.0,-22.0,Normal,,Ground,,0,0,5505,2255,True
+turn1,Take Down,Hitmonlee,-81.0,10.0,Normal,,Fighting,,0,0,5505,4355,False
+turn1,Take Down,Hitmonchan,64.0,35.0,Normal,,Fighting,,0,0,5505,3805,True
+turn2,Take Down,Hitmonchan,30.0,-35.0,Normal,,Fighting,,0,0,5505,3805,True
+turn1,Stomp,Lickitung,72.0,78.0,Normal,,Normal,,0,0,5505,1505,True
+turn2,Stomp,Lickitung,10.0,8.0,Normal,,Normal,,0,0,5505,1505,True
+turn3,Stomp,Lickitung,-9.0,-43.0,Normal,,Normal,,0,0,5505,1505,True
+turn1,Take Down,Koffing,91.0,41.0,Normal,,Poison,,0,0,5505,1755,True
+turn2,Take Down,Koffing,61.0,-22.0,Normal,,Poison,,3,0,5505,1755,True
+turn1,Take Down,Weezing,64.0,73.0,Normal,,Poison,,0,0,5505,3005,False
+turn2,Take Down,Weezing,-10.0,21.0,Normal,,Poison,,0,0,5505,3005,False
+turn1,Take Down,Rhyhorn,89.0,95.0,Normal,,Ground,Rock,0,0,5505,1255,False
+turn2,Take Down,Rhyhorn,42.0,47.0,Normal,,Ground,Rock,0,0,5505,1255,False
+turn3,Take Down,Rhyhorn,-9.0,1.0,Normal,,Ground,Rock,0,0,5505,1255,False
+turn1,Take Down,Rhydon,74.0,115.0,Normal,,Ground,Rock,0,0,5505,2005,False
+turn2,Take Down,Rhydon,12.0,65.0,Normal,,Ground,Rock,0,0,5505,2005,False
+turn3,Take Down,Rhydon,-53.0,16.0,Normal,,Ground,Rock,0,0,5505,2005,False
+turn1,Stomp,Chansey,-115.0,-535.0,Normal,,Normal,,0,0,5505,2505,True
+turn1,Take Down,Tangela,128.0,60.0,Normal,,Grass,,0,0,5505,3005,True
+turn2,Take Down,Tangela,112.0,-2.0,Normal,,Grass,,7,0,5505,3005,True
+turn1,Take Down,Kangaskhan,58.0,97.0,Normal,,Normal,,0,0,5505,4505,False
+turn2,Take Down,Kangaskhan,-21.0,22.0,Normal,,Normal,,0,0,5505,4505,False
+turn1,Take Down,Horsea,80.0,4.0,Normal,,Water,,0,0,5505,3005,True
+turn2,Take Down,Horsea,41.0,-73.0,Normal,,Water,,0,0,5505,3005,True
+turn1,Take Down,Seadra,56.0,52.0,Normal,,Water,,0,0,5505,4255,True
+turn2,Take Down,Seadra,26.0,-13.0,Normal,,Water,,0,0,5505,4255,True
+turn1,Take Down,Goldeen,70.0,9.0,Normal,,Water,,0,0,5505,3155,True
+turn2,Take Down,Goldeen,23.0,-86.0,Normal,,Water,,0,0,5505,3155,True
+turn1,Take Down,Seaking,92.0,47.0,Normal,,Water,,0,0,5505,3405,True
+turn2,Take Down,Seaking,52.0,-36.0,Normal,,Water,,0,0,5505,3405,True
+turn1,Take Down,Staryu,85.0,-15.0,Normal,,Water,,0,0,5505,4255,True
+turn1,Take Down,Starmie,47.0,48.0,Normal,,Water,Psychic,0,0,5505,5755,False
+turn2,Take Down,Starmie,-20.0,48.0,Normal,,Water,Psychic,0,0,5505,5755,False
+turn1,Take Down,Mr. Mime,47.0,12.0,Normal,,Psychic,Normal,0,0,5505,4505,True
+turn2,Take Down,Mr. Mime,3.0,-76.0,Normal,,Psychic,Normal,0,0,5505,4505,True
+turn1,Take Down,Scyther,55.0,58.0,Normal,,Bug,Flying,0,0,5505,5255,True
+turn2,Take Down,Scyther,19.0,-16.0,Normal,,Bug,Flying,0,0,5505,5255,True
+turn1,Take Down,Jynx,56.0,-33.0,Normal,,Ice,Psychic,0,0,5505,4755,True
+turn1,Take Down,Electabuzz,64.0,29.0,Normal,,Electric,,0,0,5505,5255,True
+turn2,Take Down,Electabuzz,13.0,-74.0,Normal,,Electric,,0,0,5505,5255,True
+turn1,Stomp,Magmar,48.0,31.0,Normal,,Fire,,0,0,5505,4655,True
+turn2,Stomp,Magmar,24.0,-42.0,Normal,,Fire,,0,0,5505,4655,True
+turn1,Take Down,Pinsir,108.0,72.0,Normal,,Bug,,0,0,5505,4255,True
+turn2,Take Down,Pinsir,81.0,19.0,Normal,,Bug,,0,0,5505,4255,True
+turn3,Take Down,Pinsir,53.0,-41.0,Normal,,Bug,,0,0,5505,4255,True
+turn1,Take Down,Tauros,49.0,46.0,Normal,,Normal,,0,0,5505,5505,False
+turn2,Take Down,Tauros,-31.0,16.0,Normal,,Normal,,0,0,5505,5505,False
+turn1,Take Down,Magikarp,87.0,-21.0,Normal,,Water,,0,0,5505,4005,True
+turn1,Stomp,Gyarados,69.0,82.0,Normal,,Water,Flying,0,0,5505,4055,True
+turn2,Stomp,Gyarados,6.0,10.0,Normal,,Water,Flying,0,0,5505,4055,True
+turn3,Stomp,Gyarados,-13.0,-40.0,Normal,,Water,Flying,0,0,5505,4055,True
+turn1,Take Down,Lapras,58.0,120.0,Normal,,Water,Ice,0,0,5505,3005,False
+turn2,Take Down,Lapras,-15.0,49.0,Normal,,Water,Ice,0,0,5505,3005,False
+turn1,Take Down,Ditto,74.0,-16.0,Normal,,Normal,,0,0,5505,2405,True
+turn1,Take Down,Eevee,55.0,7.0,Normal,,Normal,,0,0,5505,2755,True
+turn2,Take Down,Eevee,3.0,-100.0,Normal,,Normal,,0,0,5505,2755,True
+turn1,Stomp,Vaporeon,44.0,99.0,Normal,,Water,,0,0,5505,3255,False
+turn2,Stomp,Vaporeon,-22.0,29.0,Normal,,Water,,0,0,5505,3255,False
+turn1,Take Down,Jolteon,89.0,37.0,Normal,,Electric,,0,0,5505,6505,True
+turn2,Take Down,Jolteon,45.0,37.0,Normal,,Electric,,4,0,5505,6505,True
+turn3,Take Down,Jolteon,,,Normal,,Electric,,,,5505,6505,True
+turn1,Stomp,Flareon,44.0,26.0,Normal,,Fire,,0,0,5505,3255,True
+turn2,Stomp,Flareon,20.0,-45.0,Normal,,Fire,,0,0,5505,3255,True
+turn1,Stomp,Porygon,35.0,41.0,Normal,,Normal,,0,0,5505,2005,True
+turn2,Stomp,Porygon,16.0,-14.0,Normal,,Normal,,0,0,5505,2005,True
+turn1,Take Down,Omanyte,109.0,69.0,Normal,,Rock,Water,0,0,5505,1755,True
+turn2,Take Down,Omanyte,83.0,41.0,Normal,,Rock,Water,0,0,5505,1755,True
+turn3,Take Down,Omanyte,58.0,14.0,Normal,,Rock,Water,0,0,5505,1755,True
+turn4,Take Down,Omanyte,44.0,-15.0,Normal,,Rock,Water,0,0,5505,1755,True
+turn1,Take Down,Omastar,108.0,108.0,Normal,,Rock,Water,0,0,5505,2755,False
+turn2,Take Down,Omastar,81.0,86.0,Normal,,Rock,Water,0,0,5505,2755,False
+turn3,Take Down,Omastar,52.0,64.0,Normal,,Rock,Water,0,0,5505,2755,False
+turn4,Take Down,Omastar,24.0,42.0,Normal,,Rock,Water,0,0,5505,2755,False
+turn5,Take Down,Omastar,-3.0,21.0,Normal,,Rock,Water,0,0,5505,2755,False
+turn1,Take Down,Kabuto,96.0,60.0,Normal,,Rock,Water,0,0,5505,2755,True
+turn2,Take Down,Kabuto,56.0,28.0,Normal,,Rock,Water,0,0,5505,2755,True
+turn3,Take Down,Kabuto,40.0,-5.0,Normal,,Rock,Water,0,0,5505,2755,True
+turn1,Take Down,Kabutops,85.0,93.0,Normal,,Rock,Water,0,0,5505,4005,False
+turn2,Take Down,Kabutops,36.0,67.0,Normal,,Rock,Water,0,0,5505,4005,False
+turn3,Take Down,Kabutops,-14.0,38.0,Normal,,Rock,Water,0,0,5505,4005,False
+turn1,Stomp,Aerodactyl,70.0,96.0,Normal,,Rock,Flying,0,0,5505,6505,False
+turn2,Stomp,Aerodactyl,3.0,53.0,Normal,,Rock,Flying,0,0,5505,6505,False
+turn3,Stomp,Aerodactyl,-50.0,53.0,Normal,,Rock,Flying,0,0,5505,6505,False
+turn1,Stomp,Snorlax,10.0,137.0,Normal,,Normal,,0,0,5505,1505,False
+turn2,Stomp,Snorlax,-91.0,72.0,Normal,,Normal,,0,0,5505,1505,False
+turn1,Take Down,Articuno,59.0,97.0,Normal,,Ice,Flying,0,0,5505,4255,False
+turn2,Take Down,Articuno,-16.0,42.0,Normal,,Ice,Flying,0,0,5505,4255,False
+turn1,Take Down,Zapdos,39.0,85.0,Normal,,Electric,Flying,0,0,5505,5005,False
+turn2,Take Down,Zapdos,-53.0,13.0,Normal,,Electric,Flying,0,0,5505,5005,False
+turn1,Stomp,Moltres,1.0,82.0,Normal,,Fire,Flying,0,0,5505,4505,False
+turn2,Stomp,Moltres,-112.0,36.0,Normal,,Fire,Flying,0,0,5505,4505,False
+turn1,Take Down,Dratini,70.0,-33.0,Normal,,Dragon,,0,0,5505,2505,True
+turn1,Take Down,Dragonair,50.0,32.0,Normal,,Dragon,,0,0,5505,3505,True
+turn2,Take Down,Dragonair,7.0,-54.0,Normal,,Dragon,,0,0,5505,3505,True
+turn1,Take Down,Dragonite,67.0,95.0,Normal,,Dragon,Flying,0,0,5505,4005,False
+turn2,Take Down,Dragonite,-2.0,38.0,Normal,,Dragon,Flying,0,0,5505,4005,False
+turn1,Take Down,Mewtwo,118.0,166,Normal,,Psychic,,0,0,5505,6505,False
+turn2,Take Down,Mewtwo,36.0,166,Normal,,Psychic,,1,0,5505,6505,False
+turn3,Take Down,Mewtwo,-45.0,166,Normal,,Psychic,,1,0,5505,6505,False
+turn1,Take Down,Mew,33.0,104.0,Normal,,Psychic,,0,0,5505,5005,False
+turn2,Take Down,Mew,-79.0,48.0,Normal,,Psychic,,0,0,5505,5005,False

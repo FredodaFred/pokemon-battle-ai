@@ -1,0 +1,489 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Thunder Shock,Bulbasaur,73.0,105,Electric,,Grass,Poison,0,0,2255,2255,True
+turn2,Thunder Shock,Bulbasaur,60.0,85.0,Electric,,Grass,Poison,0,5,2255,2255,True
+turn3,Thunder Shock,Bulbasaur,48.0,66.0,Electric,,Grass,Poison,0,5,2255,2255,True
+turn4,Thunder Shock,Bulbasaur,35.0,48.0,Electric,,Grass,Poison,0,5,2255,2255,True
+turn5,Thunder Shock,Bulbasaur,35.0,12.0,Electric,,Grass,Poison,0,5,2255,2255,True
+turn6,Thunder Shock,Bulbasaur,22.0,-6.0,Electric,,Grass,Poison,0,5,2255,2255,True
+turn1,Thunder Shock,Ivysaur,80,120,Electric,,Grass,Poison,0,0,2255,3005,True
+turn2,Thunder Shock,Ivysaur,75,88.0,Electric,,Grass,Poison,3,5,2255,3005,True
+turn3,Thunder Shock,Ivysaur,55.0,73.0,Electric,,Grass,Poison,3,5,2255,3005,True
+turn4,Thunder Shock,Ivysaur,50.0,39.0,Electric,,Grass,Poison,3,5,2255,3005,True
+turn5,Thunder Shock,Ivysaur,45.0,4.0,Electric,,Grass,Poison,3,5,2255,3005,True
+turn6,Thunder Shock,Ivysaur,45.0,-26.0,Electric,,Grass,Poison,3,5,2255,3005,True
+turn1,Thunder Shock,Venusaur,13.0,140,Electric,,Grass,Poison,0,0,2255,4005,False
+turn2,Thunder Shock,Venusaur,13.0,110.0,Electric,,Grass,Poison,0,5,2255,4005,False
+turn3,Thunder Shock,Venusaur,13.0,81.0,Electric,,Grass,Poison,0,5,2255,4005,False
+turn4,Thunder Shock,Venusaur,-60.0,81.0,Electric,,Grass,Poison,0,5,2255,4005,False
+turn1,Thunder Shock,Charmander,53.0,99,Electric,,Fire,,0,0,2255,3255,False
+turn2,Thunder Shock,Charmander,16.0,74.0,Electric,,Fire,,0,5,2255,3255,False
+turn3,Thunder Shock,Charmander,-14.0,74.0,Electric,,Fire,,2,5,2255,3255,False
+turn1,Thunder Shock,Charmeleon,42.0,118,Electric,,Fire,,0,0,2255,4005,False
+turn2,Thunder Shock,Charmeleon,-2.0,118,Electric,,Fire,,0,5,2255,4005,False
+turn1,Thunder Shock,Charizard,27.0,79.0,Electric,,Fire,Flying,0,0,2255,5005,False
+turn2,Thunder Shock,Charizard,-26.0,79.0,Electric,,Fire,Flying,0,0,2255,5005,False
+turn1,Thunder Shock,Squirtle,45.0,66.0,Electric,,Water,,0,0,2255,2155,True
+turn2,Thunder Shock,Squirtle,6.0,24.0,Electric,,Water,,0,0,2255,2155,True
+turn3,Thunder Shock,Squirtle,6.0,-13.0,Electric,,Water,,0,0,2255,2155,True
+turn1,Thunder Shock,Wartortle,38.0,89.0,Electric,,Water,,0,0,2255,2905,False
+turn2,Thunder Shock,Wartortle,-9.0,89.0,Electric,,Water,,0,0,2255,2905,False
+turn1,Thunder Shock,Blastoise,20.0,115.0,Electric,,Water,,0,0,2255,3905,False
+turn2,Thunder Shock,Blastoise,-43.0,115.0,Electric,,Water,,0,0,2255,3905,False
+turn1,Thunder Shock,Caterpie,76.0,105,Electric,,Bug,,0,0,2255,2255,True
+turn2,Thunder Shock,Caterpie,67.0,44.0,Electric,,Bug,,0,5,2255,2255,True
+turn3,Thunder Shock,Caterpie,59.0,-19.0,Electric,,Bug,,0,5,2255,2255,True
+turn1,Thunder Shock,Metapod,85,103.0,Electric,,Bug,,0,0,2255,1505,True
+turn2,Thunder Shock,Metapod,85,51.0,Electric,,Bug,,0,5,2255,1505,True
+turn3,Thunder Shock,Metapod,85,-3.0,Electric,,Bug,,0,5,2255,1505,True
+turn1,Thunder Shock,Butterfree,85,120,Electric,,Bug,Flying,0,0,2255,3505,False
+turn2,Thunder Shock,Butterfree,44.0,120,Electric,,Bug,Flying,1,0,2255,3505,False
+turn3,Thunder Shock,Butterfree,44.0,120,Electric,,Bug,Flying,0,0,2255,3505,False
+turn4,Thunder Shock,Butterfree,-4.0,120,Electric,,Bug,Flying,1,0,2255,3505,False
+turn1,Thunder Shock,Weedle,78.0,100,Electric,,Bug,Poison,0,0,2255,2505,True
+turn2,Thunder Shock,Weedle,71.0,-19.0,Electric,,Bug,Poison,0,5,2255,2505,True
+turn1,Thunder Shock,Kakuna,85,95.0,Electric,,Bug,Poison,0,0,2255,1755,True
+turn2,Thunder Shock,Kakuna,77.0,7.0,Electric,,Bug,Poison,0,5,2255,1755,True
+turn3,Thunder Shock,Kakuna,77.0,-94.0,Electric,,Bug,Poison,0,5,2255,1755,True
+turn1,Thunder Shock,Beedrill,16.0,125,Electric,,Bug,Poison,0,0,2255,3755,True
+turn2,Thunder Shock,Beedrill,16.0,59.0,Electric,,Bug,Poison,0,5,2255,3755,True
+turn3,Thunder Shock,Beedrill,16.0,-10.0,Electric,,Bug,Poison,0,5,2255,3755,True
+turn1,Thunder Shock,Pidgey,73.0,-44.0,Electric,,Normal,Flying,0,0,2255,2805,True
+turn1,Thunder Shock,Pidgeotto,69.0,18.0,Electric,,Normal,Flying,0,0,2255,3555,True
+turn2,Thunder Shock,Pidgeotto,53.0,-77.0,Electric,,Normal,Flying,0,0,2255,3555,True
+turn1,Thunder Shock,Pidgeot,62.0,66.0,Electric,,Normal,Flying,0,0,2255,5055,True
+turn2,Thunder Shock,Pidgeot,40.0,-4.0,Electric,,Normal,Flying,0,0,2255,5055,True
+turn1,Thunder Shock,Rattata,46.0,90,Electric,,Normal,,0,0,2255,3605,True
+turn2,Thunder Shock,Rattata,1.0,55.0,Electric,,Normal,,0,5,2255,3605,True
+turn3,Thunder Shock,Rattata,1.0,-19.0,Electric,,Normal,,0,5,2255,3605,True
+turn1,Thunder Shock,Raticate,25.0,115,Electric,,Normal,,0,0,2255,4855,False
+turn2,Thunder Shock,Raticate,25.0,62.0,Electric,,Normal,,0,5,2255,4855,False
+turn3,Thunder Shock,Raticate,25.0,10.0,Electric,,Normal,,0,5,2255,4855,False
+turn4,Thunder Shock,Raticate,-35.0,10.0,Electric,,Normal,,0,5,2255,4855,False
+turn1,Thunder Shock,Spearow,64.0,-43.0,Electric,,Normal,Flying,0,0,2255,3505,True
+turn1,Thunder Shock,Fearow,54.0,48.0,Electric,,Normal,Flying,0,0,2255,5005,False
+turn2,Thunder Shock,Fearow,-6.0,48.0,Electric,,Normal,Flying,0,0,2255,5005,False
+turn1,Thunder Shock,Ekans,62.0,95,Electric,,Poison,,0,0,2255,2755,True
+turn2,Thunder Shock,Ekans,62.0,48.0,Electric,,Poison,,0,5,2255,2755,True
+turn3,Thunder Shock,Ekans,62.0,2.0,Electric,,Poison,,0,5,2255,2755,True
+turn4,Thunder Shock,Ekans,62.0,-43.0,Electric,,Poison,,0,5,2255,2755,True
+turn1,Thunder Shock,Arbok,52.0,120,Electric,,Poison,,0,0,2255,4005,False
+turn2,Thunder Shock,Arbok,23.0,103.0,Electric,,Poison,,0,5,2255,4005,False
+turn3,Thunder Shock,Arbok,23.0,66.0,Electric,,Poison,,0,5,2255,4005,False
+turn4,Thunder Shock,Arbok,23.0,30.0,Electric,,Poison,,0,5,2255,4005,False
+turn5,Thunder Shock,Arbok,-10.0,30.0,Electric,,Poison,,0,5,2255,4005,False
+turn1,Thunder Shock,Pikachu,69.0,95,Electric,,Electric,,0,0,2255,4505,True
+turn2,Thunder Shock,Pikachu,69.0,58.0,Electric,,Electric,,0,5,2255,4505,True
+turn3,Thunder Shock,Pikachu,54.0,46.0,Electric,,Electric,,0,5,2255,4505,True
+turn4,Thunder Shock,Pikachu,54.0,11.0,Electric,,Electric,,0,5,2255,4505,True
+turn5,Thunder Shock,Pikachu,54.0,-26.0,Electric,,Electric,,0,5,2255,4505,True
+turn1,Thunder Shock,Raichu,57.0,120,Electric,,Electric,,0,0,2255,5505,False
+turn2,Thunder Shock,Raichu,28.0,113.0,Electric,,Electric,,0,5,2255,5505,False
+turn3,Thunder Shock,Raichu,-1.0,113.0,Electric,,Electric,,0,5,2255,5505,False
+turn1,Tackle,Sandshrew,85,95.0,Electric,,Ground,,0,0,2255,2005,True
+turn2,Tackle,Sandshrew,85,70.0,Electric,,Ground,,0,5,2255,2005,True
+turn3,Tackle,Sandshrew,51.0,62.0,Electric,,Ground,,0,5,2255,2005,True
+turn4,Tackle,Sandshrew,51.0,38.0,Electric,,Ground,,0,5,2255,2005,True
+turn5,Tackle,Sandshrew,51.0,14.0,Electric,,Ground,,0,5,2255,2005,True
+turn6,Tackle,Sandshrew,51.0,-9.0,Electric,,Ground,,0,5,2255,2005,True
+turn1,Tackle,Sandslash,46.0,135,Electric,,Ground,,0,0,2255,3255,False
+turn2,Tackle,Sandslash,1.0,128.0,Electric,,Ground,,0,5,2255,3255,False
+turn3,Tackle,Sandslash,-40.0,128.0,Electric,,Ground,,0,5,2255,3255,False
+turn1,Thunder Shock,Nidoran♀,85,99.0,Electric,,Poison,,0,0,2255,2055,True
+turn2,Thunder Shock,Nidoran♀,69.0,69.0,Electric,,Poison,,0,5,2255,2055,True
+turn3,Thunder Shock,Nidoran♀,69.0,24.0,Electric,,Poison,,0,5,2255,2055,True
+turn4,Thunder Shock,Nidoran♀,69.0,-6.0,Electric,,Poison,,0,5,2255,2055,True
+turn1,Thunder Shock,Nidorina,63.0,130,Electric,,Poison,,0,0,2255,2805,True
+turn2,Thunder Shock,Nidorina,63.0,92.0,Electric,,Poison,,0,5,2255,2805,True
+turn3,Thunder Shock,Nidorina,63.0,56.0,Electric,,Poison,,0,5,2255,2805,True
+turn4,Thunder Shock,Nidorina,63.0,15.0,Electric,,Poison,,0,5,2255,2805,True
+turn5,Thunder Shock,Nidorina,63.0,-25.0,Electric,,Poison,,0,5,2255,2805,True
+turn1,Tackle,Nidoqueen,41.0,150,Electric,,Poison,Ground,0,0,2255,3805,False
+turn2,Tackle,Nidoqueen,41.0,122.0,Electric,,Poison,Ground,0,5,2255,3805,False
+turn3,Tackle,Nidoqueen,-4.0,122.0,Electric,,Poison,Ground,0,5,2255,3805,False
+turn1,Supersonic,Nidoran♂,-65450,106,Electric,,Poison,,0,0,2255,2505,False
+turn1,Supersonic,Nidorino,-65450,121,Electric,,Poison,,0,0,2255,3255,False
+turn1,Tackle,Nidoking,15.0,141,Electric,,Poison,Ground,0,0,2255,4255,False
+turn2,Tackle,Nidoking,15.0,112.0,Electric,,Poison,Ground,0,5,2255,4255,False
+turn3,Tackle,Nidoking,15.0,78.0,Electric,,Poison,Ground,0,5,2255,4255,False
+turn4,Tackle,Nidoking,-53.0,78.0,Electric,,Poison,Ground,0,5,2255,4255,False
+turn1,Thunder Shock,Clefairy,85,104.0,Electric,,Normal,,0,0,2255,1755,True
+turn2,Thunder Shock,Clefairy,61.0,87.0,Electric,,Normal,,0,5,2255,1755,True
+turn3,Thunder Shock,Clefairy,61.0,41.0,Electric,,Normal,,0,5,2255,1755,True
+turn4,Thunder Shock,Clefairy,43.0,23.0,Electric,,Normal,,0,5,2255,1755,True
+turn5,Thunder Shock,Clefairy,43.0,-20.0,Electric,,Normal,,0,5,2255,1755,True
+turn1,Supersonic,Clefable,85,155,Electric,,Normal,,0,0,2255,3005,False
+turn2,Supersonic,Clefable,61.0,155,Electric,,Normal,,1,0,2255,3005,False
+turn3,Supersonic,Clefable,28.0,155,Electric,,Normal,,1,0,2255,3005,False
+turn4,Supersonic,Clefable,-20.0,155,Electric,,Normal,,1,0,2255,3005,False
+turn1,Thunder Shock,Vulpix,59.0,98,Electric,,Fire,,0,0,2255,3255,True
+turn2,Thunder Shock,Vulpix,35.0,78.0,Electric,,Fire,,0,5,2255,3255,True
+turn3,Thunder Shock,Vulpix,35.0,41.0,Electric,,Fire,,0,5,2255,3255,True
+turn4,Thunder Shock,Vulpix,35.0,4.0,Electric,,Fire,,0,5,2255,3255,True
+turn5,Thunder Shock,Vulpix,10.0,-16.0,Electric,,Fire,,0,5,2255,3255,True
+turn1,Thunder Shock,Ninetales,67.0,133,Electric,,Fire,,0,0,2255,5005,True
+turn2,Thunder Shock,Ninetales,67.0,102.0,Electric,,Fire,,0,5,2255,5005,True
+turn3,Thunder Shock,Ninetales,67.0,71.0,Electric,,Fire,,0,5,2255,5005,True
+turn4,Thunder Shock,Ninetales,67.0,42.0,Electric,,Fire,,0,5,2255,5005,True
+turn5,Thunder Shock,Ninetales,47.0,30.0,Electric,,Fire,,0,5,2255,5005,True
+turn6,Thunder Shock,Ninetales,28.0,18.0,Electric,,Fire,,0,5,2255,5005,True
+turn7,Thunder Shock,Ninetales,28.0,-12.0,Electric,,Fire,,0,5,2255,5005,True
+turn1,Thunder Shock,Jigglypuff,85,117.0,Electric,,Normal,,0,0,2255,1005,True
+turn2,Thunder Shock,Jigglypuff,39.0,66.0,Electric,,Normal,,0,5,2255,1005,True
+turn3,Thunder Shock,Jigglypuff,39.0,-46.0,Electric,,Normal,,0,5,2255,1005,True
+turn1,Supersonic,Wigglytuff,85,200,Electric,,Normal,,0,0,2255,2255,False
+turn2,Supersonic,Wigglytuff,52.0,200,Electric,,Normal,,1,0,2255,2255,False
+turn3,Supersonic,Wigglytuff,30.0,200,Electric,,Normal,,1,0,2255,2255,False
+turn4,Supersonic,Wigglytuff,-6.0,200,Electric,,Normal,,1,0,2255,2255,False
+turn1,Thunder Shock,Zubat,75.0,100,Electric,,Poison,Flying,0,0,2255,2755,True
+turn2,Thunder Shock,Zubat,53.0,100,Electric,,Poison,Flying,5,0,2255,2755,True
+turn3,Thunder Shock,Zubat,39.0,-27.0,Electric,,Poison,Flying,5,0,2255,2755,True
+turn1,Thunder Shock,Golbat,76.0,135,Electric,,Poison,Flying,0,0,2255,4505,True
+turn2,Thunder Shock,Golbat,53.0,68.0,Electric,,Poison,Flying,5,0,2255,4505,True
+turn3,Thunder Shock,Golbat,31.0,5.0,Electric,,Poison,Flying,5,0,2255,4505,True
+turn4,Thunder Shock,Golbat,9.0,-59.0,Electric,,Poison,Flying,5,0,2255,4505,True
+turn1,Thunder Shock,Oddish,85,89.0,Electric,,Grass,Poison,0,0,2255,1505,False
+turn2,Thunder Shock,Oddish,32.0,71.0,Electric,,Grass,Poison,0,5,2255,1505,False
+turn3,Thunder Shock,Oddish,-20.0,52.0,Electric,,Grass,Poison,0,5,2255,1505,False
+turn1,Thunder Shock,Gloom,85,102.0,Electric,,Grass,Poison,0,0,2255,2005,False
+turn2,Thunder Shock,Gloom,23.0,85.0,Electric,,Grass,Poison,0,5,2255,2005,False
+turn3,Thunder Shock,Gloom,23.0,51.0,Electric,,Grass,Poison,0,5,2255,2005,False
+turn4,Thunder Shock,Gloom,-35.0,36.0,Electric,,Grass,Poison,0,5,2255,2005,False
+turn1,Supersonic,Vileplume,85,135,Electric,,Grass,Poison,0,0,2255,2505,False
+turn2,Supersonic,Vileplume,59.0,135,Electric,,Grass,Poison,1,0,2255,2505,False
+turn3,Supersonic,Vileplume,32.0,135,Electric,,Grass,Poison,1,0,2255,2505,False
+turn4,Supersonic,Vileplume,6.0,135,Electric,,Grass,Poison,1,0,2255,2505,False
+turn5,Supersonic,Vileplume,-18.0,135,Electric,,Grass,Poison,1,0,2255,2505,False
+turn1,Thunder Shock,Paras,85,73.0,Electric,,Bug,Grass,0,0,2255,1255,False
+turn2,Thunder Shock,Paras,31.0,77.0,Electric,,Bug,Grass,0,5,2255,1255,False
+turn3,Thunder Shock,Paras,-19.0,82.0,Electric,,Bug,Grass,0,5,2255,1255,False
+turn1,Thunder Shock,Parasect,13.0,120,Electric,,Bug,Grass,0,0,2255,1505,False
+turn2,Thunder Shock,Parasect,13.0,82.0,Electric,,Bug,Grass,0,5,2255,1505,False
+turn3,Thunder Shock,Parasect,-56.0,102.0,Electric,,Bug,Grass,0,5,2255,1505,False
+turn1,Supersonic,Venonat,85,120,Electric,,Bug,Poison,0,0,2255,2255,False
+turn2,Supersonic,Venonat,55.0,120,Electric,,Bug,Poison,1,0,2255,2255,False
+turn3,Supersonic,Venonat,26.0,120,Electric,,Bug,Poison,1,0,2255,2255,False
+turn4,Supersonic,Venonat,0.0,120,Electric,,Bug,Poison,1,0,2255,2255,False
+turn1,Supersonic,Venomoth,85,130,Electric,,Bug,Poison,0,0,2255,4505,False
+turn2,Supersonic,Venomoth,20.0,130,Electric,,Bug,Poison,1,0,2255,4505,False
+turn3,Supersonic,Venomoth,-41.0,130,Electric,,Bug,Poison,1,0,2255,4505,False
+turn1,Supersonic,Diglett,-23.0,70,Electric,,Ground,,0,0,2255,4755,False
+turn1,Supersonic,Dugtrio,-71.0,95,Electric,,Ground,,0,0,2255,6005,False
+turn1,Thunder Shock,Meowth,61.0,100,Electric,,Normal,,0,0,2255,4505,True
+turn2,Thunder Shock,Meowth,61.0,37.0,Electric,,Normal,,0,5,2255,4505,True
+turn3,Thunder Shock,Meowth,34.0,5.0,Electric,,Normal,,0,5,2255,4505,True
+turn4,Thunder Shock,Meowth,7.0,-23.0,Electric,,Normal,,0,5,2255,4505,True
+turn1,Thunder Shock,Persian,39.0,125,Electric,,Normal,,0,0,2255,5755,False
+turn2,Thunder Shock,Persian,39.0,76.0,Electric,,Normal,,0,5,2255,5755,False
+turn3,Thunder Shock,Persian,39.0,25.0,Electric,,Normal,,0,5,2255,5755,False
+turn4,Thunder Shock,Persian,-6.0,25.0,Electric,,Normal,,0,5,2255,5755,False
+turn1,Thunder Shock,Psyduck,60.0,57.0,Electric,,Water,,0,0,2255,2755,True
+turn2,Thunder Shock,Psyduck,35.0,11.0,Electric,,Water,,0,0,2255,2755,True
+turn3,Thunder Shock,Psyduck,12.0,-36.0,Electric,,Water,,0,0,2255,2755,True
+turn1,Thunder Shock,Golduck,21.0,108.0,Electric,,Water,,0,0,2255,4255,False
+turn2,Thunder Shock,Golduck,-41.0,108.0,Electric,,Water,,0,0,2255,4255,False
+turn1,Thunder Shock,Mankey,45.0,100,Electric,,Fighting,,0,0,2255,3505,False
+turn2,Thunder Shock,Mankey,45.0,36.0,Electric,,Fighting,,0,5,2255,3505,False
+turn3,Thunder Shock,Mankey,7.0,11.0,Electric,,Fighting,,0,5,2255,3505,False
+turn4,Thunder Shock,Mankey,-33.0,11.0,Electric,,Fighting,,0,5,2255,3505,False
+turn1,Thunder Shock,Primeape,16.0,125,Electric,,Fighting,,0,0,2255,4755,False
+turn2,Thunder Shock,Primeape,-54.0,125,Electric,,Fighting,,0,5,2255,4755,False
+turn1,Thunder Shock,Growlithe,50.0,98.0,Electric,,Fire,,0,0,2255,3005,True
+turn2,Thunder Shock,Growlithe,12.0,56.0,Electric,,Fire,,0,5,2255,3005,True
+turn3,Thunder Shock,Growlithe,12.0,-4.0,Electric,,Fire,,0,5,2255,3005,True
+turn1,Thunder Shock,Arcanine,36.0,136.0,Electric,,Fire,,0,0,2255,4755,False
+turn2,Thunder Shock,Arcanine,-17.0,122.0,Electric,,Fire,,0,5,2255,4755,False
+turn1,Thunder Shock,Poliwag,85,100,Electric,,Water,,0,0,2255,4505,False
+turn2,Thunder Shock,Poliwag,60.0,100,Electric,,Water,,1,0,2255,4505,False
+turn3,Thunder Shock,Poliwag,60.0,100,Electric,,Water,,0,0,2255,4505,False
+turn4,Thunder Shock,Poliwag,35.0,100,Electric,,Water,,1,0,2255,4505,False
+turn5,Thunder Shock,Poliwag,35.0,100,Electric,,Water,,0,0,2255,4505,False
+turn6,Thunder Shock,Poliwag,9.0,100,Electric,,Water,,1,0,2255,4505,False
+turn7,Thunder Shock,Poliwag,-18.0,100,Electric,,Water,,1,0,2255,4505,False
+turn1,Thunder Shock,Poliwhirl,53.0,78.0,Electric,,Water,,0,0,2255,4505,False
+turn2,Thunder Shock,Poliwhirl,17.0,27.0,Electric,,Water,,4,0,2255,4505,False
+turn3,Thunder Shock,Poliwhirl,-16.0,27.0,Electric,,Water,,4,0,2255,4505,False
+turn1,Thunder Shock,Poliwrath,85,150,Electric,,Water,Fighting,0,0,2255,3505,False
+turn2,Thunder Shock,Poliwrath,33.0,150,Electric,,Water,Fighting,1,0,2255,3505,False
+turn3,Thunder Shock,Poliwrath,-14.0,150,Electric,,Water,Fighting,1,0,2255,3505,False
+turn1,Thunder Shock,Abra,85,85,Electric,,Psychic,,0,0,2255,4505,True
+turn2,Thunder Shock,Abra,85,40.0,Electric,,Psychic,,0,5,2255,4505,True
+turn3,Thunder Shock,Abra,85,17.0,Electric,,Psychic,,0,5,2255,4505,True
+turn4,Thunder Shock,Abra,85,-5.0,Electric,,Psychic,,0,5,2255,4505,True
+turn1,Thunder Shock,Kadabra,3.0,100,Electric,,Psychic,,0,0,2255,5255,False
+turn2,Thunder Shock,Kadabra,3.0,62.0,Electric,,Psychic,,0,5,2255,5255,False
+turn3,Thunder Shock,Kadabra,-90.0,62.0,Electric,,Psychic,,0,5,2255,5255,False
+turn1,Supersonic,Alakazam,-52.0,115,Electric,,Psychic,,0,0,2255,6005,False
+turn1,Thunder Shock,Machop,48.0,130,Electric,,Fighting,,0,0,2255,1755,True
+turn2,Thunder Shock,Machop,48.0,71.0,Electric,,Fighting,,0,5,2255,1755,True
+turn3,Thunder Shock,Machop,8.0,35.0,Electric,,Fighting,,0,5,2255,1755,True
+turn4,Thunder Shock,Machop,8.0,0.0,Electric,,Fighting,,0,5,2255,1755,True
+turn1,Thunder Shock,Machoke,39.0,140,Electric,,Fighting,,0,0,2255,2255,False
+turn2,Thunder Shock,Machoke,-12.0,140,Electric,,Fighting,,0,5,2255,2255,False
+turn1,Thunder Shock,Machamp,24.0,150,Electric,,Fighting,,0,0,2255,2755,True
+turn2,Thunder Shock,Machamp,24.0,109.0,Electric,,Fighting,,0,5,2255,2755,True
+turn3,Thunder Shock,Machamp,24.0,66.0,Electric,,Fighting,,0,5,2255,2755,True
+turn4,Thunder Shock,Machamp,24.0,24.0,Electric,,Fighting,,0,5,2255,2755,True
+turn5,Thunder Shock,Machamp,24.0,-18.0,Electric,,Fighting,,0,5,2255,2755,True
+turn1,Thunder Shock,Bellsprout,85,71.0,Electric,,Grass,Poison,0,0,2255,2005,True
+turn2,Thunder Shock,Bellsprout,75,28.0,Electric,,Grass,Poison,0,5,2255,2005,True
+turn3,Thunder Shock,Bellsprout,75,-11.0,Electric,,Grass,Poison,3,5,2255,2005,True
+turn1,Thunder Shock,Weepinbell,80,125,Electric,,Grass,Poison,0,0,2255,2755,False
+turn2,Thunder Shock,Weepinbell,31.0,101.0,Electric,,Grass,Poison,3,5,2255,2755,False
+turn3,Thunder Shock,Weepinbell,-12.0,101.0,Electric,,Grass,Poison,3,5,2255,2755,False
+turn1,Thunder Shock,Victreebel,32.0,140,Electric,,Grass,Poison,0,0,2255,3505,False
+turn2,Thunder Shock,Victreebel,32.0,95.0,Electric,,Grass,Poison,0,5,2255,3505,False
+turn3,Thunder Shock,Victreebel,32.0,49.0,Electric,,Grass,Poison,0,5,2255,3505,False
+turn4,Thunder Shock,Victreebel,-18.0,49.0,Electric,,Grass,Poison,0,5,2255,3505,False
+turn1,Thunder Shock,Tentacool,75.0,100,Electric,,Water,Poison,0,0,2255,3505,True
+turn2,Thunder Shock,Tentacool,51.0,49.0,Electric,,Water,Poison,5,0,2255,3505,True
+turn3,Thunder Shock,Tentacool,27.0,-4.0,Electric,,Water,Poison,5,0,2255,3505,True
+turn1,Thunder Shock,Tentacruel,80,100.0,Electric,,Water,Poison,0,0,2255,5005,True
+turn2,Thunder Shock,Tentacruel,60.0,59.0,Electric,,Water,Poison,3,0,2255,5005,True
+turn3,Thunder Shock,Tentacruel,39.0,15.0,Electric,,Water,Poison,3,0,2255,5005,True
+turn4,Thunder Shock,Tentacruel,24.0,-26.0,Electric,,Water,Poison,3,0,2255,5005,True
+turn1,Tackle,Geodude,85,93.0,Electric,,Rock,Ground,0,0,2255,1005,False
+turn2,Tackle,Geodude,85,82.0,Electric,,Rock,Ground,0,5,2255,1005,False
+turn3,Tackle,Geodude,85,71.0,Electric,,Rock,Ground,0,5,2255,1005,False
+turn4,Tackle,Geodude,49.0,68.0,Electric,,Rock,Ground,0,5,2255,1005,False
+turn5,Tackle,Geodude,49.0,57.0,Electric,,Rock,Ground,0,5,2255,1005,False
+turn6,Tackle,Geodude,9.0,53.0,Electric,,Rock,Ground,0,5,2255,1005,False
+turn7,Tackle,Geodude,9.0,43.0,Electric,,Rock,Ground,0,5,2255,1005,False
+turn8,Tackle,Geodude,-28.0,40.0,Electric,,Rock,Ground,0,5,2255,1005,False
+turn1,Tackle,Graveler,85,107.0,Electric,,Rock,Ground,0,0,2255,1755,False
+turn2,Tackle,Graveler,85,97.0,Electric,,Rock,Ground,0,5,2255,1755,False
+turn3,Tackle,Graveler,18.0,94.0,Electric,,Rock,Ground,0,5,2255,1755,False
+turn4,Tackle,Graveler,18.0,84.0,Electric,,Rock,Ground,0,5,2255,1755,False
+turn5,Tackle,Graveler,18.0,73.0,Electric,,Rock,Ground,0,5,2255,1755,False
+turn6,Tackle,Graveler,-47.0,70.0,Electric,,Rock,Ground,0,5,2255,1755,False
+turn1,Supersonic,Golem,-145.0,140,Electric,,Rock,Ground,0,0,2255,2255,False
+turn1,Thunder Shock,Ponyta,51.0,110,Electric,,Fire,,0,0,2255,4505,False
+turn2,Thunder Shock,Ponyta,17.0,92.0,Electric,,Fire,,0,5,2255,4505,False
+turn3,Thunder Shock,Ponyta,-15.0,92.0,Electric,,Fire,,0,5,2255,4505,False
+turn1,Thunder Shock,Rapidash,47.0,125,Electric,,Fire,,0,0,2255,5255,False
+turn2,Thunder Shock,Rapidash,5.0,109.0,Electric,,Fire,,0,5,2255,5255,False
+turn3,Thunder Shock,Rapidash,-32.0,109.0,Electric,,Fire,,0,5,2255,5255,False
+turn1,Thunder Shock,Slowpoke,62.0,34.0,Electric,,Water,Psychic,0,0,2255,755,True
+turn2,Thunder Shock,Slowpoke,62.0,-80.0,Electric,,Water,Psychic,0,0,2255,755,True
+turn1,Thunder Shock,Slowbro,57.0,95.0,Electric,,Water,Psychic,0,0,2255,1505,True
+turn2,Thunder Shock,Slowbro,29.0,30.0,Electric,,Water,Psychic,0,0,2255,1505,True
+turn3,Thunder Shock,Slowbro,29.0,-35.0,Electric,,Water,Psychic,0,0,2255,1505,True
+turn1,Thunder Shock,Magnemite,85,85,Electric,,Electric,,0,0,2255,2255,True
+turn2,Thunder Shock,Magnemite,85,66.0,Electric,,Electric,,5,5,2255,2255,True
+turn3,Thunder Shock,Magnemite,75.0,57.0,Electric,,Electric,,5,5,2255,2255,True
+turn4,Thunder Shock,Magnemite,64.0,46.0,Electric,,Electric,,5,5,2255,2255,True
+turn5,Thunder Shock,Magnemite,53.0,34.0,Electric,,Electric,,5,5,2255,2255,True
+turn6,Thunder Shock,Magnemite,32.0,34.0,Electric,,Electric,,5,5,2255,2255,True
+turn7,Thunder Shock,Magnemite,32.0,14.0,Electric,,Electric,,5,5,2255,2255,True
+turn8,Thunder Shock,Magnemite,21.0,4.0,Electric,,Electric,,5,5,2255,2255,True
+turn9,Thunder Shock,Magnemite,21.0,-18.0,Electric,,Electric,,5,5,2255,2255,True
+turn1,Thunder Shock,Magneton,57.0,110,Electric,,Electric,,0,0,2255,3505,False
+turn2,Thunder Shock,Magneton,27.0,102.0,Electric,,Electric,,0,5,2255,3505,False
+turn3,Thunder Shock,Magneton,-1.0,102.0,Electric,,Electric,,0,5,2255,3505,False
+turn1,Thunder Shock,Farfetch'd,44.0,31.0,Electric,,Normal,Flying,0,0,2255,3005,True
+turn2,Thunder Shock,Farfetch'd,3.0,-46.0,Electric,,Normal,Flying,0,0,2255,3005,True
+turn1,Thunder Shock,Doduo,51.0,-46.0,Electric,,Normal,Flying,0,0,2255,3755,True
+turn1,Thunder Shock,Dodrio,29.0,38.0,Electric,,Normal,Flying,0,0,2255,5005,False
+turn2,Thunder Shock,Dodrio,-23.0,38.0,Electric,,Normal,Flying,0,0,2255,5005,False
+turn1,Thunder Shock,Seel,69.0,90.0,Electric,,Water,,0,0,2255,2255,True
+turn2,Thunder Shock,Seel,53.0,53.0,Electric,,Water,,0,0,2255,2255,True
+turn3,Thunder Shock,Seel,39.0,15.0,Electric,,Water,,0,0,2255,2255,True
+turn4,Thunder Shock,Seel,24.0,-23.0,Electric,,Water,,0,0,2255,2255,True
+turn1,Thunder Shock,Dewgong,43.0,98.0,Electric,,Water,Ice,0,0,2255,3505,False
+turn2,Thunder Shock,Dewgong,-4.0,98.0,Electric,,Water,Ice,0,0,2255,3505,False
+turn1,Thunder Shock,Grimer,85,113.0,Electric,,Poison,,0,0,2255,1255,True
+turn2,Thunder Shock,Grimer,52.0,89.0,Electric,,Poison,,0,5,2255,1255,True
+turn3,Thunder Shock,Grimer,20.0,66.0,Electric,,Poison,,0,5,2255,1255,True
+turn4,Thunder Shock,Grimer,20.0,16.0,Electric,,Poison,,0,5,2255,1255,True
+turn5,Thunder Shock,Grimer,20.0,-7.0,Electric,,Poison,,0,5,2255,1255,True
+turn1,Thunder Shock,Muk,6.0,165,Electric,,Poison,,0,0,2255,2505,False
+turn2,Thunder Shock,Muk,-64.0,165,Electric,,Poison,,0,5,2255,2505,False
+turn1,Thunder Shock,Shellder,85,1.0,Electric,,Water,,0,0,2255,2005,True
+turn2,Thunder Shock,Shellder,85,-86.0,Electric,,Water,,5,0,2255,2005,True
+turn1,Thunder Shock,Cloyster,39.0,10.0,Electric,,Water,Ice,0,0,2255,3505,False
+turn2,Thunder Shock,Cloyster,-3.0,10.0,Electric,,Water,Ice,0,0,2255,3505,False
+turn1,Thunder Shock,Gastly,85,20.0,Electric,,Ghost,Poison,0,0,2255,4005,True
+turn2,Thunder Shock,Gastly,35,-48.0,Electric,,Ghost,Poison,5,0,2255,4005,True
+turn1,Thunder Shock,Haunter,85,63.0,Electric,,Ghost,Poison,0,0,2255,4755,False
+turn2,Thunder Shock,Haunter,35,19.0,Electric,,Ghost,Poison,5,0,2255,4755,False
+turn3,Thunder Shock,Haunter,-15,19.0,Electric,,Ghost,Poison,5,0,2255,4755,False
+turn1,Thunder Shock,Gengar,75.0,120,Electric,,Ghost,Poison,0,0,2255,5505,False
+turn2,Thunder Shock,Gengar,16.0,120,Electric,,Ghost,Poison,5,0,2255,5505,False
+turn3,Thunder Shock,Gengar,-34.0,120,Electric,,Ghost,Poison,5,0,2255,5505,False
+turn1,Tackle,Onix,8.0,95,Electric,,Rock,Ground,0,0,2255,3505,False
+turn2,Tackle,Onix,-73.0,95,Electric,,Rock,Ground,0,5,2255,3505,False
+turn1,Thunder Shock,Drowzee,85,120,Electric,,Psychic,,0,0,2255,2105,True
+turn2,Thunder Shock,Drowzee,60.0,120,Electric,,Psychic,,1,5,2255,2105,True
+turn3,Thunder Shock,Drowzee,60.0,87.0,Electric,,Psychic,,0,5,2255,2105,True
+turn4,Thunder Shock,Drowzee,60.0,53.0,Electric,,Psychic,,0,5,2255,2105,True
+turn5,Thunder Shock,Drowzee,60.0,39.0,Electric,,Psychic,,0,5,2255,2105,True
+turn6,Thunder Shock,Drowzee,35.0,39.0,Electric,,Psychic,,1,5,2255,2105,True
+turn7,Thunder Shock,Drowzee,35.0,26.0,Electric,,Psychic,,0,5,2255,2105,True
+turn8,Thunder Shock,Drowzee,35.0,8.0,Electric,,Psychic,,1,5,2255,2105,True
+turn9,Thunder Shock,Drowzee,11.0,8.0,Electric,,Psychic,,1,5,2255,2105,True
+turn10,Thunder Shock,Drowzee,11.0,-5.0,Electric,,Psychic,,0,5,2255,2105,True
+turn1,Thunder Shock,Hypno,10.0,145,Electric,,Psychic,,0,0,2255,3355,False
+turn2,Thunder Shock,Hypno,-63.0,145,Electric,,Psychic,,0,5,2255,3355,False
+turn1,Thunder Shock,Krabby,63.0,-4.0,Electric,,Water,,0,0,2255,2505,True
+turn1,Thunder Shock,Kingler,57.0,68.0,Electric,,Water,,0,0,2255,3755,False
+turn2,Thunder Shock,Kingler,27.0,21.0,Electric,,Water,,0,0,2255,3755,False
+turn3,Thunder Shock,Kingler,0.0,21.0,Electric,,Water,,0,0,2255,3755,False
+turn1,Thunder Shock,Voltorb,41.0,100,Electric,,Electric,,0,0,2255,5005,False
+turn2,Thunder Shock,Voltorb,41.0,77.0,Electric,,Electric,,0,5,2255,5005,False
+turn3,Thunder Shock,Voltorb,-5.0,77.0,Electric,,Electric,,0,5,2255,5005,False
+turn1,Thunder Shock,Electrode,14.0,120,Electric,,Electric,,0,0,2255,7005,False
+turn2,Thunder Shock,Electrode,14.0,100.0,Electric,,Electric,,0,5,2255,7005,False
+turn3,Thunder Shock,Electrode,-60.0,100.0,Electric,,Electric,,0,5,2255,7005,False
+turn1,Thunder Shock,Exeggcute,95,110,Electric,,Grass,Psychic,0,0,2255,2005,True
+turn2,Thunder Shock,Exeggcute,105,63.0,Electric,,Grass,Psychic,7,5,2255,2005,True
+turn3,Thunder Shock,Exeggcute,115,17.0,Electric,,Grass,Psychic,7,5,2255,2005,True
+turn4,Thunder Shock,Exeggcute,115,-12.0,Electric,,Grass,Psychic,7,5,2255,2005,True
+turn1,Supersonic,Exeggutor,-4.0,155,Electric,,Grass,Psychic,0,0,2255,2755,False
+turn1,Tackle,Cubone,21.0,110,Electric,,Ground,,0,0,2255,1755,False
+turn2,Tackle,Cubone,-39.0,103.0,Electric,,Ground,,0,5,2255,1755,False
+turn1,Supersonic,Marowak,-8.0,120,Electric,,Ground,,0,0,2255,2255,False
+turn1,Supersonic,Hitmonlee,-5.0,110,Electric,,Fighting,,0,0,2255,4355,False
+turn1,Thunder Shock,Hitmonchan,45.0,110,Electric,,Fighting,,0,0,2255,3805,False
+turn2,Thunder Shock,Hitmonchan,45.0,76.0,Electric,,Fighting,,0,5,2255,3805,False
+turn3,Thunder Shock,Hitmonchan,3.0,65.0,Electric,,Fighting,,0,5,2255,3805,False
+turn4,Thunder Shock,Hitmonchan,-42.0,65.0,Electric,,Fighting,,0,5,2255,3805,False
+turn1,Thunder Shock,Lickitung,52.0,150,Electric,,Normal,,0,0,2255,1505,False
+turn2,Thunder Shock,Lickitung,17.0,135.0,Electric,,Normal,,0,5,2255,1505,False
+turn3,Thunder Shock,Lickitung,-18.0,119.0,Electric,,Normal,,0,5,2255,1505,False
+turn1,Thunder Shock,Koffing,85,87.0,Electric,,Poison,,0,0,2255,1755,True
+turn2,Thunder Shock,Koffing,75,59.0,Electric,,Poison,,0,5,2255,1755,True
+turn3,Thunder Shock,Koffing,41.0,32.0,Electric,,Poison,,3,5,2255,1755,True
+turn4,Thunder Shock,Koffing,10.0,7.0,Electric,,Poison,,3,5,2255,1755,True
+turn5,Thunder Shock,Koffing,10.0,-20.0,Electric,,Poison,,3,5,2255,1755,True
+turn1,Thunder Shock,Weezing,24.0,125,Electric,,Poison,,0,0,2255,3005,False
+turn2,Thunder Shock,Weezing,24.0,94.0,Electric,,Poison,,0,5,2255,3005,False
+turn3,Thunder Shock,Weezing,-37.0,94.0,Electric,,Poison,,0,5,2255,3005,False
+turn1,Tackle,Rhyhorn,85,120.0,Electric,,Ground,Rock,0,0,2255,1255,False
+turn2,Tackle,Rhyhorn,85,98.0,Electric,,Ground,Rock,0,5,2255,1255,False
+turn3,Tackle,Rhyhorn,85,75.0,Electric,,Ground,Rock,0,5,2255,1255,False
+turn4,Tackle,Rhyhorn,36.0,49.0,Electric,,Ground,Rock,0,5,2255,1255,False
+turn5,Tackle,Rhyhorn,-9.0,23.0,Electric,,Ground,Rock,0,5,2255,1255,False
+turn1,Tackle,Rhydon,85,139.0,Electric,,Ground,Rock,0,0,2255,2005,False
+turn2,Tackle,Rhydon,85,110.0,Electric,,Ground,Rock,0,5,2255,2005,False
+turn3,Tackle,Rhydon,19.0,73.0,Electric,,Ground,Rock,0,5,2255,2005,False
+turn4,Tackle,Rhydon,-47.0,36.0,Electric,,Ground,Rock,0,5,2255,2005,False
+turn1,Thunder Shock,Chansey,78.0,310,Electric,,Normal,,0,0,2255,2505,True
+turn2,Thunder Shock,Chansey,78.0,270.0,Electric,,Normal,,0,5,2255,2505,True
+turn3,Thunder Shock,Chansey,78.0,230.0,Electric,,Normal,,0,5,2255,2505,True
+turn4,Thunder Shock,Chansey,78.0,191.0,Electric,,Normal,,0,5,2255,2505,True
+turn5,Thunder Shock,Chansey,78.0,154.0,Electric,,Normal,,0,5,2255,2505,True
+turn6,Thunder Shock,Chansey,71.0,142.0,Electric,,Normal,,0,5,2255,2505,True
+turn7,Thunder Shock,Chansey,64.0,131.0,Electric,,Normal,,0,5,2255,2505,True
+turn8,Thunder Shock,Chansey,64.0,90.0,Electric,,Normal,,0,5,2255,2505,True
+turn9,Thunder Shock,Chansey,64.0,50.0,Electric,,Normal,,0,5,2255,2505,True
+turn10,Thunder Shock,Chansey,64.0,11.0,Electric,,Normal,,0,5,2255,2505,True
+turn11,Thunder Shock,Chansey,58.0,-1.0,Electric,,Normal,,0,5,2255,2505,True
+turn1,Thunder Shock,Tangela,90,120,Electric,,Grass,,0,0,2255,3005,True
+turn2,Thunder Shock,Tangela,95,92.0,Electric,,Grass,,7,5,2255,3005,True
+turn3,Thunder Shock,Tangela,89.0,73.0,Electric,,Grass,,7,5,2255,3005,True
+turn4,Thunder Shock,Tangela,94.0,43.0,Electric,,Grass,,7,5,2255,3005,True
+turn5,Thunder Shock,Tangela,99.0,15.0,Electric,,Grass,,7,5,2255,3005,True
+turn6,Thunder Shock,Tangela,99.0,-11.0,Electric,,Grass,,7,5,2255,3005,True
+turn1,Thunder Shock,Kangaskhan,31.0,165,Electric,,Normal,,0,0,2255,4505,False
+turn2,Thunder Shock,Kangaskhan,-29.0,165,Electric,,Normal,,0,5,2255,4505,False
+turn1,Thunder Shock,Horsea,77.0,-9.0,Electric,,Water,,0,0,2255,3005,True
+turn1,Thunder Shock,Seadra,58.0,61.0,Electric,,Water,,0,0,2255,4255,False
+turn2,Thunder Shock,Seadra,28.0,7.0,Electric,,Water,,0,0,2255,4255,False
+turn3,Thunder Shock,Seadra,-2.0,7.0,Electric,,Water,,0,0,2255,4255,False
+turn1,Thunder Shock,Goldeen,58.0,56.0,Electric,,Water,,0,0,2255,3155,True
+turn2,Thunder Shock,Goldeen,31.0,9.0,Electric,,Water,,0,0,2255,3155,True
+turn3,Thunder Shock,Goldeen,4.0,-37.0,Electric,,Water,,0,0,2255,3155,True
+turn1,Thunder Shock,Seaking,-65450,140,Electric,,Water,,0,0,2255,3405,False
+turn1,Thunder Shock,Staryu,85,47.0,Electric,,Water,,0,0,2255,4255,False
+turn2,Thunder Shock,Staryu,44.0,47.0,Electric,,Water,,5,0,2255,4255,False
+turn3,Thunder Shock,Staryu,4.0,47.0,Electric,,Water,,5,0,2255,4255,False
+turn4,Thunder Shock,Staryu,-26.0,47.0,Electric,,Water,,5,0,2255,4255,False
+turn1,Thunder Shock,Starmie,56.0,59.0,Electric,,Water,Psychic,0,0,2255,5755,True
+turn2,Thunder Shock,Starmie,23.0,0.0,Electric,,Water,Psychic,0,0,2255,5755,True
+turn1,Thunder Shock,Mr. Mime,26.0,100,Electric,,Psychic,Normal,0,0,2255,4505,False
+turn2,Thunder Shock,Mr. Mime,10.0,78.0,Electric,,Psychic,Normal,0,5,2255,4505,False
+turn3,Thunder Shock,Mr. Mime,-6.0,78.0,Electric,,Psychic,Normal,0,5,2255,4505,False
+turn1,Thunder Shock,Scyther,50.0,65.0,Electric,,Bug,Flying,0,0,2255,5255,False
+turn2,Thunder Shock,Scyther,17.0,5.0,Electric,,Bug,Flying,0,0,2255,5255,False
+turn3,Thunder Shock,Scyther,-16.0,5.0,Electric,,Bug,Flying,0,0,2255,5255,False
+turn1,Supersonic,Jynx,68.0,125,Electric,,Ice,Psychic,0,0,2255,4755,False
+turn2,Supersonic,Jynx,50.0,125,Electric,,Ice,Psychic,6,0,2255,4755,False
+turn3,Supersonic,Jynx,33.0,125,Electric,,Ice,Psychic,6,0,2255,4755,False
+turn4,Supersonic,Jynx,15.0,125,Electric,,Ice,Psychic,6,0,2255,4755,False
+turn5,Supersonic,Jynx,-1.0,125,Electric,,Ice,Psychic,6,0,2255,4755,False
+turn1,Thunder Shock,Electabuzz,72.0,125,Electric,,Electric,,0,0,2255,5255,False
+turn2,Thunder Shock,Electabuzz,58.0,125,Electric,,Electric,,4,0,2255,5255,False
+turn3,Thunder Shock,Electabuzz,45.0,118.0,Electric,,Electric,,4,5,2255,5255,False
+turn4,Thunder Shock,Electabuzz,31.0,110.0,Electric,,Electric,,4,5,2255,5255,False
+turn5,Thunder Shock,Electabuzz,18.0,110.0,Electric,,Electric,,4,5,2255,5255,False
+turn6,Thunder Shock,Electabuzz,4.0,103.0,Electric,,Electric,,4,5,2255,5255,False
+turn7,Thunder Shock,Electabuzz,-9.0,103.0,Electric,,Electric,,4,5,2255,5255,False
+turn1,Thunder Shock,Magmar,31.0,125,Electric,,Fire,,0,0,2255,4655,False
+turn2,Thunder Shock,Magmar,-19.0,125,Electric,,Fire,,2,5,2255,4655,False
+turn1,Thunder Shock,Pinsir,85,125,Electric,,Bug,,0,0,2255,4255,False
+turn2,Thunder Shock,Pinsir,-65450,125,Electric,,Bug,,0,5,2255,4255,False
+turn1,Supersonic,Tauros,-1.0,95.0,Electric,,Normal,,0,0,2255,5505,False
+turn1,Thunder Shock,Magikarp,85,-41.0,Electric,,Water,,0,0,2255,4005,True
+turn1,Thunder Shock,Gyarados,67.0,44.0,Electric,,Water,Flying,0,0,2255,4055,True
+turn2,Thunder Shock,Gyarados,48.0,-60.0,Electric,,Water,Flying,0,0,2255,4055,True
+turn1,Thunder Shock,Lapras,31.0,132.0,Electric,,Water,Ice,0,0,2255,3005,False
+turn2,Thunder Shock,Lapras,-25.0,132.0,Electric,,Water,Ice,0,0,2255,3005,False
+turn1,Thunder Shock,Ditto,85,108,Electric,,Normal,,0,0,2255,2405,True
+turn2,Thunder Shock,Ditto,85,54.0,Electric,,Normal,,0,5,2255,2405,True
+turn3,Thunder Shock,Ditto,85,2.0,Electric,,Normal,,0,5,2255,2405,True
+turn4,Thunder Shock,Ditto,85,-24.0,Electric,,Normal,,0,5,2255,2405,True
+turn1,Thunder Shock,Eevee,54.0,115,Electric,,Normal,,0,0,2255,2755,True
+turn2,Thunder Shock,Eevee,54.0,68.0,Electric,,Normal,,0,5,2255,2755,True
+turn3,Thunder Shock,Eevee,54.0,21.0,Electric,,Normal,,0,5,2255,2755,True
+turn4,Thunder Shock,Eevee,21.0,1.0,Electric,,Normal,,0,5,2255,2755,True
+turn5,Thunder Shock,Eevee,21.0,-46.0,Electric,,Normal,,0,5,2255,2755,True
+turn1,Thunder Shock,Vaporeon,40.0,165.0,Electric,,Water,,0,0,2255,3255,False
+turn2,Thunder Shock,Vaporeon,-5.0,165.0,Electric,,Water,,0,0,2255,3255,False
+turn1,Thunder Shock,Jolteon,85,125,Electric,,Electric,,0,0,2255,6505,True
+turn2,Thunder Shock,Jolteon,85,106.0,Electric,,Electric,,4,5,2255,6505,True
+turn3,Thunder Shock,Jolteon,85,80.0,Electric,,Electric,,4,5,2255,6505,True
+turn4,Thunder Shock,Jolteon,85,55.0,Electric,,Electric,,4,5,2255,6505,True
+turn5,Thunder Shock,Jolteon,72.0,55.0,Electric,,Electric,,4,5,2255,6505,True
+turn6,Thunder Shock,Jolteon,59.0,49.0,Electric,,Electric,,4,5,2255,6505,True
+turn7,Thunder Shock,Jolteon,46.0,49.0,Electric,,Electric,,4,5,2255,6505,True
+turn8,Thunder Shock,Jolteon,46.0,23.0,Electric,,Electric,,4,5,2255,6505,True
+turn9,Thunder Shock,Jolteon,33.0,17.0,Electric,,Electric,,4,5,2255,6505,True
+turn10,Thunder Shock,Jolteon,,,Electric,,Electric,,,,2255,6505,True
+turn1,Thunder Shock,Flareon,25.0,125,Electric,,Fire,,0,0,2255,3255,False
+turn2,Thunder Shock,Flareon,-34.0,125,Electric,,Fire,,0,5,2255,3255,False
+turn1,Thunder Shock,Porygon,85,101.0,Electric,,Normal,,0,0,2255,2005,False
+turn2,Thunder Shock,Porygon,12.0,86.0,Electric,,Normal,,0,5,2255,2005,False
+turn3,Thunder Shock,Porygon,-63.0,70.0,Electric,,Normal,,0,5,2255,2005,False
+turn1,Thunder Shock,Omanyte,69.0,9.0,Electric,,Rock,Water,0,0,2255,1755,True
+turn2,Thunder Shock,Omanyte,69.0,-79.0,Electric,,Rock,Water,0,0,2255,1755,True
+turn1,Thunder Shock,Omastar,63.0,57.0,Electric,,Rock,Water,0,0,2255,2755,True
+turn2,Thunder Shock,Omastar,39.0,-13.0,Electric,,Rock,Water,0,0,2255,2755,True
+turn1,Thunder Shock,Kabuto,53.0,-10.0,Electric,,Rock,Water,0,0,2255,2755,True
+turn1,Thunder Shock,Kabutops,36.0,54.0,Electric,,Rock,Water,0,0,2255,4005,False
+turn2,Thunder Shock,Kabutops,-16.0,54.0,Electric,,Rock,Water,0,0,2255,4005,False
+turn1,Thunder Shock,Aerodactyl,55.0,74.0,Electric,,Rock,Flying,0,0,2255,6505,False
+turn2,Thunder Shock,Aerodactyl,24.0,5.0,Electric,,Rock,Flying,0,0,2255,6505,False
+turn3,Thunder Shock,Aerodactyl,-2.0,5.0,Electric,,Rock,Flying,0,0,2255,6505,False
+turn1,Supersonic,Snorlax,-23.0,220,Electric,,Normal,,0,0,2255,1505,False
+turn1,Thunder Shock,Articuno,31.0,106.0,Electric,,Ice,Flying,0,0,2255,4255,False
+turn2,Thunder Shock,Articuno,-29.0,106.0,Electric,,Ice,Flying,0,0,2255,4255,False
+turn1,Thunder Shock,Zapdos,48.0,120.0,Electric,,Electric,Flying,0,0,2255,5005,False
+turn2,Thunder Shock,Zapdos,12.0,90.0,Electric,,Electric,Flying,0,0,2255,5005,False
+turn3,Thunder Shock,Zapdos,-24.0,90.0,Electric,,Electric,Flying,0,0,2255,5005,False
+turn1,Thunder Shock,Moltres,27.0,90.0,Electric,,Fire,Flying,0,0,2255,4505,False
+turn2,Thunder Shock,Moltres,-33.0,90.0,Electric,,Fire,Flying,0,0,2255,4505,False
+turn1,Thunder Shock,Dratini,54.0,101,Electric,,Dragon,,0,0,2255,2505,False
+turn2,Thunder Shock,Dratini,54.0,65.0,Electric,,Dragon,,0,5,2255,2505,False
+turn3,Thunder Shock,Dratini,20.0,53.0,Electric,,Dragon,,0,5,2255,2505,False
+turn4,Thunder Shock,Dratini,-13.0,53.0,Electric,,Dragon,,0,5,2255,2505,False
+turn1,Thunder Shock,Dragonair,45,121,Electric,,Dragon,,0,0,2255,3505,True
+turn2,Thunder Shock,Dragonair,45,89.0,Electric,,Dragon,,0,5,2255,3505,True
+turn3,Thunder Shock,Dragonair,45,58.0,Electric,,Dragon,,0,5,2255,3505,True
+turn4,Thunder Shock,Dragonair,5,49.0,Electric,,Dragon,,0,5,2255,3505,True
+turn5,Thunder Shock,Dragonair,5,17.0,Electric,,Dragon,,0,5,2255,3505,True
+turn6,Thunder Shock,Dragonair,5,-15.0,Electric,,Dragon,,0,5,2255,3505,True
+turn1,Thunder Shock,Dragonite,45,125.0,Electric,,Dragon,Flying,0,0,2255,4005,False
+turn2,Thunder Shock,Dragonite,5,99.0,Electric,,Dragon,Flying,0,0,2255,4005,False
+turn3,Thunder Shock,Dragonite,-35,99.0,Electric,,Dragon,Flying,0,0,2255,4005,False
+turn1,Supersonic,Mewtwo,85,166,Electric,,Psychic,,0,0,2255,6505,False
+turn2,Supersonic,Mewtwo,-3.0,166,Electric,,Psychic,,1,0,2255,6505,False
+turn1,Supersonic,Mew,-18.0,160,Electric,,Psychic,,0,0,2255,5005,False

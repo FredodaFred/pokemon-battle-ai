@@ -1,0 +1,434 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Ice Beam,Bulbasaur,110,-53.0,Water,Ice,Grass,Poison,0,0,3505,2255,True
+turn1,Ice Beam,Ivysaur,110,-1.0,Water,Ice,Grass,Poison,0,0,3505,3005,True
+turn1,Ice Beam,Venusaur,-246.0,140,Water,Ice,Grass,Poison,0,0,3505,4005,False
+turn1,Waterfall,Charmander,110,-20.0,Water,Ice,Fire,,0,0,3505,3255,True
+turn1,Waterfall,Charmeleon,14.0,30.0,Water,Ice,Fire,,0,0,3505,4005,False
+turn2,Waterfall,Charmeleon,-79.0,30.0,Water,Ice,Fire,,0,0,3505,4005,False
+turn1,Ice Beam,Charizard,-30.0,138,Water,Ice,Fire,Flying,0,0,3505,5005,False
+turn1,Ice Beam,Squirtle,94.0,84.0,Water,Ice,Water,,0,0,3505,2155,True
+turn2,Ice Beam,Squirtle,94.0,65.0,Water,Ice,Water,,0,0,3505,2155,True
+turn3,Ice Beam,Squirtle,94.0,47.0,Water,Ice,Water,,0,6,3505,2155,True
+turn4,Ice Beam,Squirtle,94.0,28.0,Water,Ice,Water,,0,6,3505,2155,True
+turn5,Ice Beam,Squirtle,79.0,8.0,Water,Ice,Water,,0,0,3505,2155,True
+turn6,Ice Beam,Squirtle,79.0,-9.0,Water,Ice,Water,,0,0,3505,2155,True
+turn1,Ice Beam,Wartortle,90.0,104.0,Water,Ice,Water,,0,0,3505,2905,False
+turn2,Ice Beam,Wartortle,70.0,88.0,Water,Ice,Water,,0,0,3505,2905,False
+turn3,Ice Beam,Wartortle,49.0,74.0,Water,Ice,Water,,0,0,3505,2905,False
+turn4,Ice Beam,Wartortle,30.0,58.0,Water,Ice,Water,,0,0,3505,2905,False
+turn5,Ice Beam,Wartortle,10.0,42.0,Water,Ice,Water,,0,0,3505,2905,False
+turn6,Ice Beam,Wartortle,-10.0,27.0,Water,Ice,Water,,0,0,3505,2905,False
+turn1,Ice Beam,Blastoise,86.0,128.0,Water,Ice,Water,,0,0,3505,3905,False
+turn2,Ice Beam,Blastoise,61.0,116.0,Water,Ice,Water,,0,0,3505,3905,False
+turn3,Ice Beam,Blastoise,37.0,104.0,Water,Ice,Water,,0,0,3505,3905,False
+turn4,Ice Beam,Blastoise,12.0,93.0,Water,Ice,Water,,0,0,3505,3905,False
+turn5,Ice Beam,Blastoise,-15.0,93.0,Water,Ice,Water,,0,0,3505,3905,False
+turn1,Ice Beam,Caterpie,110,-7.0,Water,Ice,Bug,,0,0,3505,2255,True
+turn1,Ice Beam,Metapod,107.0,18.0,Water,Ice,Bug,,0,0,3505,1505,True
+turn2,Ice Beam,Metapod,107.0,-70.0,Water,Ice,Bug,,0,0,3505,1505,True
+turn1,Ice Beam,Butterfree,110,120,Water,Ice,Bug,Flying,0,0,3505,3505,False
+turn2,Ice Beam,Butterfree,59.0,120,Water,Ice,Bug,Flying,1,0,3505,3505,False
+turn3,Ice Beam,Butterfree,1.0,120,Water,Ice,Bug,Flying,1,0,3505,3505,False
+turn4,Ice Beam,Butterfree,1.0,120,Water,Ice,Bug,Flying,0,0,3505,3505,False
+turn5,Ice Beam,Butterfree,-53.0,120,Water,Ice,Bug,Flying,1,0,3505,3505,False
+turn1,Ice Beam,Weedle,110,-150.0,Water,Ice,Bug,Poison,0,0,3505,2505,True
+turn1,Ice Beam,Kakuna,110,-95.0,Water,Ice,Bug,Poison,0,0,3505,1755,True
+turn1,Ice Beam,Beedrill,88.0,66.0,Water,Ice,Bug,Poison,0,0,3505,3755,True
+turn2,Ice Beam,Beedrill,70.0,9.0,Water,Ice,Bug,Poison,0,0,3505,3755,True
+turn3,Ice Beam,Beedrill,50.0,-50.0,Water,Ice,Bug,Poison,0,0,3505,3755,True
+turn1,Ice Beam,Pidgey,110,-189.0,Water,Ice,Normal,Flying,0,0,3505,2805,True
+turn1,Ice Beam,Pidgeotto,96.0,-67.0,Water,Ice,Normal,Flying,0,0,3505,3555,True
+turn1,Ice Beam,Pidgeot,92.0,14.0,Water,Ice,Normal,Flying,0,0,3505,5055,True
+turn2,Ice Beam,Pidgeot,92.0,-125.0,Water,Ice,Normal,Flying,0,6,3505,5055,True
+turn1,Ice Beam,Rattata,92.0,22.0,Water,Ice,Normal,,0,0,3505,3605,True
+turn2,Ice Beam,Rattata,92.0,-44.0,Water,Ice,Normal,,0,6,3505,3605,True
+turn1,Ice Beam,Raticate,86.0,84.0,Water,Ice,Normal,,0,0,3505,4855,True
+turn2,Ice Beam,Raticate,62.0,53.0,Water,Ice,Normal,,0,0,3505,4855,True
+turn3,Ice Beam,Raticate,38.0,19.0,Water,Ice,Normal,,0,0,3505,4855,True
+turn4,Ice Beam,Raticate,14.0,-13.0,Water,Ice,Normal,,0,0,3505,4855,True
+turn1,Ice Beam,Spearow,91.0,-196.0,Water,Ice,Normal,Flying,0,0,3505,3505,True
+turn1,Ice Beam,Fearow,82.0,-22.0,Water,Ice,Normal,Flying,0,0,3505,5005,True
+turn1,Ice Beam,Ekans,100.0,50.0,Water,Ice,Poison,,0,0,3505,2755,True
+turn2,Ice Beam,Ekans,91.0,8.0,Water,Ice,Poison,,0,0,3505,2755,True
+turn3,Ice Beam,Ekans,91.0,-37.0,Water,Ice,Poison,,0,0,3505,2755,True
+turn1,Ice Beam,Arbok,98.0,87.0,Water,Ice,Poison,,0,0,3505,4005,True
+turn2,Ice Beam,Arbok,84.0,55.0,Water,Ice,Poison,,0,0,3505,4005,True
+turn3,Ice Beam,Arbok,71.0,24.0,Water,Ice,Poison,,0,0,3505,4005,True
+turn4,Ice Beam,Arbok,59.0,-5.0,Water,Ice,Poison,,0,0,3505,4005,True
+turn1,Ice Beam,Pikachu,-54.0,95,Water,Ice,Electric,,0,0,3505,4505,False
+turn1,Ice Beam,Raichu,-155.0,120,Water,Ice,Electric,,0,0,3505,5505,False
+turn1,Waterfall,Sandshrew,98.0,57.0,Water,Ice,Ground,,0,0,3505,2005,True
+turn2,Waterfall,Sandshrew,98.0,-3.0,Water,Ice,Ground,,0,0,3505,2005,True
+turn1,Waterfall,Sandslash,92.0,94.0,Water,Ice,Ground,,0,0,3505,3255,True
+turn2,Waterfall,Sandslash,75.0,52.0,Water,Ice,Ground,,0,0,3505,3255,True
+turn3,Waterfall,Sandslash,57.0,5.0,Water,Ice,Ground,,0,0,3505,3255,True
+turn4,Waterfall,Sandslash,57.0,-39.0,Water,Ice,Ground,,0,0,3505,3255,True
+turn1,Ice Beam,Nidoran♀,90.0,60.0,Water,Ice,Poison,,0,0,3505,2055,True
+turn2,Ice Beam,Nidoran♀,90.0,0.0,Water,Ice,Poison,,0,0,3505,2055,True
+turn1,Ice Beam,Nidorina,86.0,85.0,Water,Ice,Poison,,0,0,3505,2805,True
+turn2,Ice Beam,Nidorina,64.0,39.0,Water,Ice,Poison,,0,0,3505,2805,True
+turn3,Ice Beam,Nidorina,64.0,-4.0,Water,Ice,Poison,,0,0,3505,2805,True
+turn1,Waterfall,Nidoqueen,92.0,41.0,Water,Ice,Poison,Ground,0,0,3505,3805,True
+turn2,Waterfall,Nidoqueen,,,Water,Ice,Poison,Ground,,,3505,3805,True
+turn1,Ice Beam,Nidoran♂,88.0,45.0,Water,Ice,Poison,,0,0,3505,2505,True
+turn2,Ice Beam,Nidoran♂,88.0,-12.0,Water,Ice,Poison,,0,0,3505,2505,True
+turn1,Ice Beam,Nidorino,82.0,75.0,Water,Ice,Poison,,0,0,3505,3255,True
+turn2,Ice Beam,Nidorino,56.0,35.0,Water,Ice,Poison,,0,0,3505,3255,True
+turn3,Ice Beam,Nidorino,56.0,-9.0,Water,Ice,Poison,,0,0,3505,3255,True
+turn1,Waterfall,Nidoking,79.0,7.0,Water,Ice,Poison,Ground,0,0,3505,4255,True
+turn2,Waterfall,Nidoking,49.0,-110.0,Water,Ice,Poison,Ground,0,0,3505,4255,True
+turn1,Ice Beam,Clefairy,95.0,95.0,Water,Ice,Normal,,0,0,3505,1755,True
+turn2,Ice Beam,Clefairy,85.0,56.0,Water,Ice,Normal,,0,0,3505,1755,True
+turn3,Ice Beam,Clefairy,65.0,17.0,Water,Ice,Normal,,0,0,3505,1755,True
+turn4,Ice Beam,Clefairy,65.0,-22.0,Water,Ice,Normal,,0,0,3505,1755,True
+turn1,Ice Beam,Clefable,110,129.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn2,Ice Beam,Clefable,86.0,129.0,Water,Ice,Normal,,1,0,3505,3005,True
+turn3,Ice Beam,Clefable,86.0,101.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn4,Ice Beam,Clefable,74.0,101.0,Water,Ice,Normal,,1,0,3505,3005,True
+turn5,Ice Beam,Clefable,74.0,73.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn6,Ice Beam,Clefable,62.0,73.0,Water,Ice,Normal,,1,0,3505,3005,True
+turn7,Ice Beam,Clefable,62.0,46.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn8,Ice Beam,Clefable,62.0,17.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn9,Ice Beam,Clefable,32.0,17.0,Water,Ice,Normal,,1,0,3505,3005,True
+turn10,Ice Beam,Clefable,32.0,-8.0,Water,Ice,Normal,,0,0,3505,3005,True
+turn1,Waterfall,Vulpix,110,-28.0,Water,Ice,Fire,,0,0,3505,3255,True
+turn1,Waterfall,Ninetales,66.0,69.0,Water,Ice,Fire,,0,0,3505,5005,True
+turn2,Waterfall,Ninetales,23.0,0.0,Water,Ice,Fire,,0,0,3505,5005,True
+turn1,Ice Beam,Jigglypuff,91.0,84.0,Water,Ice,Normal,,0,0,3505,1005,True
+turn2,Ice Beam,Jigglypuff,91.0,-6.0,Water,Ice,Normal,,0,0,3505,1005,True
+turn1,Ice Beam,Wigglytuff,86.0,153.0,Water,Ice,Normal,,0,0,3505,2255,True
+turn2,Ice Beam,Wigglytuff,86.0,103.0,Water,Ice,Normal,,0,0,3505,2255,True
+turn3,Ice Beam,Wigglytuff,68.0,103.0,Water,Ice,Normal,,1,0,3505,2255,True
+turn4,Ice Beam,Wigglytuff,50.0,103.0,Water,Ice,Normal,,1,0,3505,2255,True
+turn5,Ice Beam,Wigglytuff,50.0,52.0,Water,Ice,Normal,,0,0,3505,2255,True
+turn6,Ice Beam,Wigglytuff,26.0,52.0,Water,Ice,Normal,,1,0,3505,2255,True
+turn7,Ice Beam,Wigglytuff,26.0,4.0,Water,Ice,Normal,,0,0,3505,2255,True
+turn8,Ice Beam,Wigglytuff,8.0,4.0,Water,Ice,Normal,,1,0,3505,2255,True
+turn9,Ice Beam,Wigglytuff,8.0,-42.0,Water,Ice,Normal,,0,0,3505,2255,True
+turn1,Ice Beam,Zubat,110,-134.0,Water,Ice,Poison,Flying,0,0,3505,2755,True
+turn1,Ice Beam,Golbat,92.0,9.0,Water,Ice,Poison,Flying,0,0,3505,4505,True
+turn2,Ice Beam,Golbat,73.0,-115.0,Water,Ice,Poison,Flying,0,0,3505,4505,True
+turn1,Ice Beam,Oddish,110,-32.0,Water,Ice,Grass,Poison,0,0,3505,1505,True
+turn1,Ice Beam,Gloom,110,-12.0,Water,Ice,Grass,Poison,0,0,3505,2005,True
+turn1,Ice Beam,Vileplume,110,30.0,Water,Ice,Grass,Poison,0,0,3505,2505,False
+turn2,Ice Beam,Vileplume,-9.0,89.0,Water,Ice,Grass,Poison,1,0,3505,2505,False
+turn1,Ice Beam,Paras,110,-84.0,Water,Ice,Bug,Grass,0,0,3505,1255,True
+turn1,Ice Beam,Parasect,110,-6.0,Water,Ice,Bug,Grass,0,0,3505,1505,True
+turn1,Ice Beam,Venonat,110,33.0,Water,Ice,Bug,Poison,0,0,3505,2255,True
+turn2,Ice Beam,Venonat,74.0,33.0,Water,Ice,Bug,Poison,1,0,3505,2255,True
+turn3,Ice Beam,Venonat,74.0,-58.0,Water,Ice,Bug,Poison,0,0,3505,2255,True
+turn1,Ice Beam,Venomoth,110,130,Water,Ice,Bug,Poison,0,0,3505,4505,False
+turn2,Ice Beam,Venomoth,34.0,130,Water,Ice,Bug,Poison,1,0,3505,4505,False
+turn3,Ice Beam,Venomoth,34.0,130,Water,Ice,Bug,Poison,0,0,3505,4505,False
+turn4,Ice Beam,Venomoth,-46.0,130,Water,Ice,Bug,Poison,1,0,3505,4505,False
+turn1,Waterfall,Diglett,89.0,-119.0,Water,Ice,Ground,,0,0,3505,4755,True
+turn1,Waterfall,Dugtrio,82.0,4.0,Water,Ice,Ground,,0,0,3505,6005,True
+turn2,Waterfall,Dugtrio,51.0,-94.0,Water,Ice,Ground,,0,0,3505,6005,True
+turn1,Ice Beam,Meowth,98.0,37.0,Water,Ice,Normal,,0,0,3505,4505,True
+turn2,Ice Beam,Meowth,98.0,-25.0,Water,Ice,Normal,,0,6,3505,4505,True
+turn1,Ice Beam,Persian,90.0,89.0,Water,Ice,Normal,,0,0,3505,5755,True
+turn2,Ice Beam,Persian,71.0,51.0,Water,Ice,Normal,,0,0,3505,5755,True
+turn3,Ice Beam,Persian,53.0,15.0,Water,Ice,Normal,,0,0,3505,5755,True
+turn4,Ice Beam,Persian,34.0,-22.0,Water,Ice,Normal,,0,0,3505,5755,True
+turn1,Ice Beam,Psyduck,90.0,88.0,Water,Ice,Water,,0,0,3505,2755,True
+turn2,Ice Beam,Psyduck,72.0,66.0,Water,Ice,Water,,0,0,3505,2755,True
+turn3,Ice Beam,Psyduck,54.0,42.0,Water,Ice,Water,,0,0,3505,2755,True
+turn4,Ice Beam,Psyduck,35.0,17.0,Water,Ice,Water,,0,0,3505,2755,True
+turn5,Ice Beam,Psyduck,35.0,-7.0,Water,Ice,Water,,0,0,3505,2755,True
+turn1,Ice Beam,Golduck,33.0,124.0,Water,Ice,Water,,0,0,3505,4255,False
+turn2,Ice Beam,Golduck,-46.0,124.0,Water,Ice,Water,,0,0,3505,4255,False
+turn1,Ice Beam,Mankey,78.0,46.0,Water,Ice,Fighting,,0,0,3505,3505,True
+turn2,Ice Beam,Mankey,78.0,-9.0,Water,Ice,Fighting,,0,6,3505,3505,True
+turn1,Ice Beam,Primeape,79.0,92.0,Water,Ice,Fighting,,0,0,3505,4755,False
+turn2,Ice Beam,Primeape,50.0,59.0,Water,Ice,Fighting,,0,0,3505,4755,False
+turn3,Ice Beam,Primeape,20.0,22.0,Water,Ice,Fighting,,0,0,3505,4755,False
+turn4,Ice Beam,Primeape,-8.0,22.0,Water,Ice,Fighting,,0,0,3505,4755,False
+turn1,Waterfall,Growlithe,94.0,11.0,Water,Ice,Fire,,0,0,3505,3005,True
+turn2,Waterfall,Growlithe,94.0,-99.0,Water,Ice,Fire,,0,0,3505,3005,True
+turn1,Waterfall,Arcanine,-20.0,144.0,Water,Ice,Fire,,0,0,3505,4755,False
+turn1,Ice Beam,Poliwag,110,100,Water,Ice,Water,,0,0,3505,4505,False
+turn2,Ice Beam,Poliwag,99.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn3,Ice Beam,Poliwag,88.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn4,Ice Beam,Poliwag,76.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn5,Ice Beam,Poliwag,66.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn6,Ice Beam,Poliwag,66.0,100,Water,Ice,Water,,0,0,3505,4505,False
+turn7,Ice Beam,Poliwag,54.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn8,Ice Beam,Poliwag,44.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn9,Ice Beam,Poliwag,44.0,100,Water,Ice,Water,,0,0,3505,4505,False
+turn10,Ice Beam,Poliwag,33.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn11,Ice Beam,Poliwag,22.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn12,Ice Beam,Poliwag,12.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn13,Ice Beam,Poliwag,0.0,100,Water,Ice,Water,,1,0,3505,4505,False
+turn1,Ice Beam,Poliwhirl,97.0,103.0,Water,Ice,Water,,0,0,3505,4505,True
+turn2,Ice Beam,Poliwhirl,83.0,78.0,Water,Ice,Water,,4,0,3505,4505,True
+turn3,Ice Beam,Poliwhirl,69.0,54.0,Water,Ice,Water,,4,0,3505,4505,True
+turn4,Ice Beam,Poliwhirl,56.0,29.0,Water,Ice,Water,,4,0,3505,4505,True
+turn5,Ice Beam,Poliwhirl,41.0,4.0,Water,Ice,Water,,4,0,3505,4505,True
+turn6,Ice Beam,Poliwhirl,41.0,4.0,Water,Ice,Water,,4,6,3505,4505,True
+turn7,Ice Beam,Poliwhirl,,,Water,Ice,Water,,,,3505,4505,True
+turn1,Ice Beam,Poliwrath,110,150,Water,Ice,Water,Fighting,0,0,3505,3505,False
+turn2,Ice Beam,Poliwrath,90.0,150,Water,Ice,Water,Fighting,1,0,3505,3505,False
+turn3,Ice Beam,Poliwrath,90.0,150,Water,Ice,Water,Fighting,0,0,3505,3505,False
+turn4,Ice Beam,Poliwrath,71.0,150,Water,Ice,Water,Fighting,1,0,3505,3505,False
+turn5,Ice Beam,Poliwrath,71.0,150,Water,Ice,Water,Fighting,0,0,3505,3505,False
+turn6,Ice Beam,Poliwrath,52.0,150,Water,Ice,Water,Fighting,1,0,3505,3505,False
+turn7,Ice Beam,Poliwrath,34.0,150,Water,Ice,Water,Fighting,1,0,3505,3505,False
+turn8,Ice Beam,Poliwrath,14.0,150,Water,Ice,Water,Fighting,1,0,3505,3505,False
+turn9,Ice Beam,Poliwrath,-7.0,150,Water,Ice,Water,Fighting,1,0,3505,3505,False
+turn1,Ice Beam,Abra,110,41.0,Water,Ice,Psychic,,0,0,3505,4505,True
+turn2,Ice Beam,Abra,110,-4.0,Water,Ice,Psychic,,0,0,3505,4505,True
+turn1,Ice Beam,Kadabra,-5.0,100,Water,Ice,Psychic,,0,0,3505,5255,False
+turn1,Ice Beam,Alakazam,-46.0,115,Water,Ice,Psychic,,0,0,3505,6005,False
+turn1,Ice Beam,Machop,79.0,68.0,Water,Ice,Fighting,,0,0,3505,1755,True
+turn2,Ice Beam,Machop,79.0,-2.0,Water,Ice,Fighting,,0,0,3505,1755,True
+turn1,Ice Beam,Machoke,72.0,99.0,Water,Ice,Fighting,,0,0,3505,2255,False
+turn2,Ice Beam,Machoke,30.0,56.0,Water,Ice,Fighting,,0,0,3505,2255,False
+turn3,Ice Beam,Machoke,-7.0,18.0,Water,Ice,Fighting,,0,0,3505,2255,False
+turn1,Ice Beam,Machamp,59.0,123.0,Water,Ice,Fighting,,0,0,3505,2755,False
+turn2,Ice Beam,Machamp,14.0,95.0,Water,Ice,Fighting,,0,0,3505,2755,False
+turn3,Ice Beam,Machamp,-31.0,65.0,Water,Ice,Fighting,,0,0,3505,2755,False
+turn1,Ice Beam,Bellsprout,110,-187.0,Water,Ice,Grass,Poison,0,0,3505,2005,True
+turn1,Ice Beam,Weepinbell,110,-95.0,Water,Ice,Grass,Poison,0,0,3505,2755,True
+turn1,Ice Beam,Victreebel,63.0,11.0,Water,Ice,Grass,Poison,0,0,3505,3505,True
+turn2,Ice Beam,Victreebel,22.0,-132.0,Water,Ice,Grass,Poison,0,0,3505,3505,True
+turn1,Ice Beam,Tentacool,110,74.0,Water,Ice,Water,Poison,0,0,3505,3505,False
+turn2,Ice Beam,Tentacool,69.0,74.0,Water,Ice,Water,Poison,5,0,3505,3505,False
+turn3,Ice Beam,Tentacool,40.0,51.0,Water,Ice,Water,Poison,5,0,3505,3505,False
+turn4,Ice Beam,Tentacool,31.0,51.0,Water,Ice,Water,Poison,5,6,3505,3505,False
+turn5,Ice Beam,Tentacool,3.0,25.0,Water,Ice,Water,Poison,5,0,3505,3505,False
+turn6,Ice Beam,Tentacool,-29.0,25.0,Water,Ice,Water,Poison,5,0,3505,3505,False
+turn1,Ice Beam,Tentacruel,104,121.0,Water,Ice,Water,Poison,0,0,3505,5005,False
+turn2,Ice Beam,Tentacruel,62.0,102.0,Water,Ice,Water,Poison,3,0,3505,5005,False
+turn3,Ice Beam,Tentacruel,17.0,83.0,Water,Ice,Water,Poison,3,0,3505,5005,False
+turn4,Ice Beam,Tentacruel,-20.0,83.0,Water,Ice,Water,Poison,3,0,3505,5005,False
+turn1,Waterfall,Geodude,110,-111.0,Water,Ice,Rock,Ground,0,0,3505,1005,True
+turn1,Waterfall,Graveler,110,-62.0,Water,Ice,Rock,Ground,0,0,3505,1755,True
+turn1,Waterfall,Golem,110,-6.0,Water,Ice,Rock,Ground,0,0,3505,2255,True
+turn1,Waterfall,Ponyta,75.0,23.0,Water,Ice,Fire,,0,0,3505,4505,True
+turn2,Waterfall,Ponyta,36.0,-61.0,Water,Ice,Fire,,0,0,3505,4505,True
+turn1,Waterfall,Rapidash,67.0,52.0,Water,Ice,Fire,,0,0,3505,5255,True
+turn2,Waterfall,Rapidash,18.0,-20.0,Water,Ice,Fire,,0,0,3505,5255,True
+turn1,Ice Beam,Slowpoke,79.0,89.0,Water,Ice,Water,Psychic,0,0,3505,755,True
+turn2,Ice Beam,Slowpoke,49.0,27.0,Water,Ice,Water,Psychic,0,0,3505,755,True
+turn3,Ice Beam,Slowpoke,49.0,-28.0,Water,Ice,Water,Psychic,0,0,3505,755,True
+turn1,Ice Beam,Slowbro,110,124.0,Water,Ice,Water,Psychic,0,0,3505,1505,False
+turn2,Ice Beam,Slowbro,110,96.0,Water,Ice,Water,Psychic,0,6,3505,1505,False
+turn3,Ice Beam,Slowbro,110,65.0,Water,Ice,Water,Psychic,0,6,3505,1505,False
+turn4,Ice Beam,Slowbro,28.0,34.0,Water,Ice,Water,Psychic,0,0,3505,1505,False
+turn5,Ice Beam,Slowbro,-46.0,3.0,Water,Ice,Water,Psychic,0,0,3505,1505,False
+turn1,Ice Beam,Magnemite,-1.0,41.0,Water,Ice,Electric,,0,0,3505,2255,False
+turn1,Ice Beam,Magneton,-174.0,110,Water,Ice,Electric,,0,0,3505,3505,False
+turn1,Ice Beam,Farfetch'd,110,-36.0,Water,Ice,Normal,Flying,0,0,3505,3005,True
+turn1,Ice Beam,Doduo,97.0,-173.0,Water,Ice,Normal,Flying,0,0,3505,3755,True
+turn1,Ice Beam,Dodrio,76.0,-30.0,Water,Ice,Normal,Flying,0,0,3505,5005,True
+turn1,Ice Beam,Seel,101.0,107.0,Water,Ice,Water,,0,0,3505,2255,True
+turn2,Ice Beam,Seel,101.0,89.0,Water,Ice,Water,,0,0,3505,2255,True
+turn3,Ice Beam,Seel,92.0,72.0,Water,Ice,Water,,0,0,3505,2255,True
+turn4,Ice Beam,Seel,92.0,56.0,Water,Ice,Water,,0,0,3505,2255,True
+turn5,Ice Beam,Seel,92.0,40.0,Water,Ice,Water,,0,6,3505,2255,True
+turn6,Ice Beam,Seel,92.0,24.0,Water,Ice,Water,,0,6,3505,2255,True
+turn7,Ice Beam,Seel,84.0,6.0,Water,Ice,Water,,0,0,3505,2255,True
+turn8,Ice Beam,Seel,84.0,-10.0,Water,Ice,Water,,0,0,3505,2255,True
+turn1,Waterfall,Dewgong,60.0,120.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn2,Waterfall,Dewgong,3.0,89.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn3,Waterfall,Dewgong,-51.0,89.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn1,Ice Beam,Grimer,75.0,96.0,Water,Ice,Poison,,0,0,3505,1255,False
+turn2,Ice Beam,Grimer,37.0,51.0,Water,Ice,Poison,,0,0,3505,1255,False
+turn3,Ice Beam,Grimer,-1.0,2.0,Water,Ice,Poison,,0,0,3505,1255,False
+turn1,Ice Beam,Muk,78.0,141.0,Water,Ice,Poison,,0,0,3505,2505,False
+turn2,Ice Beam,Muk,49.0,116.0,Water,Ice,Poison,,0,0,3505,2505,False
+turn3,Ice Beam,Muk,18.0,92.0,Water,Ice,Poison,,0,0,3505,2505,False
+turn4,Ice Beam,Muk,18.0,66.0,Water,Ice,Poison,,0,0,3505,2505,False
+turn5,Ice Beam,Muk,-12.0,41.0,Water,Ice,Poison,,0,0,3505,2505,False
+turn1,Ice Beam,Shellder,110,42.0,Water,Ice,Water,,0,0,3505,2005,True
+turn2,Ice Beam,Shellder,110,-5.0,Water,Ice,Water,,5,0,3505,2005,True
+turn1,Waterfall,Cloyster,96.0,95.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn2,Waterfall,Cloyster,81.0,80.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn3,Waterfall,Cloyster,68.0,66.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn4,Waterfall,Cloyster,54.0,51.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn5,Waterfall,Cloyster,41.0,38.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn6,Waterfall,Cloyster,26.0,24.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn7,Waterfall,Cloyster,12.0,11.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn8,Waterfall,Cloyster,-3.0,11.0,Water,Ice,Water,Ice,0,0,3505,3505,False
+turn1,Ice Beam,Gastly,99.0,90,Water,Ice,Ghost,Poison,0,0,3505,4005,True
+turn2,Ice Beam,Gastly,49.0,-49.0,Water,Ice,Ghost,Poison,5,0,3505,4005,True
+turn1,Ice Beam,Haunter,100.0,105,Water,Ice,Ghost,Poison,0,0,3505,4755,False
+turn2,Ice Beam,Haunter,50.0,21.0,Water,Ice,Ghost,Poison,5,0,3505,4755,False
+turn3,Ice Beam,Haunter,0.0,21.0,Water,Ice,Ghost,Poison,5,0,3505,4755,False
+turn1,Ice Beam,Gengar,110,51.0,Water,Ice,Ghost,Poison,0,0,3505,5505,False
+turn2,Ice Beam,Gengar,49.0,51.0,Water,Ice,Ghost,Poison,5,0,3505,5505,False
+turn3,Ice Beam,Gengar,-1.0,51.0,Water,Ice,Ghost,Poison,5,0,3505,5505,False
+turn1,Waterfall,Onix,94.0,-27.0,Water,Ice,Rock,Ground,0,0,3505,3505,True
+turn1,Ice Beam,Drowzee,110,93.0,Water,Ice,Psychic,,0,0,3505,2105,False
+turn2,Ice Beam,Drowzee,81.0,93.0,Water,Ice,Psychic,,1,0,3505,2105,False
+turn3,Ice Beam,Drowzee,51.0,93.0,Water,Ice,Psychic,,1,0,3505,2105,False
+turn4,Ice Beam,Drowzee,51.0,65.0,Water,Ice,Psychic,,0,0,3505,2105,False
+turn5,Ice Beam,Drowzee,21.0,65.0,Water,Ice,Psychic,,1,0,3505,2105,False
+turn6,Ice Beam,Drowzee,-12.0,65.0,Water,Ice,Psychic,,1,0,3505,2105,False
+turn1,Ice Beam,Hypno,22.0,126.0,Water,Ice,Psychic,,0,0,3505,3355,False
+turn2,Ice Beam,Hypno,-63.0,106.0,Water,Ice,Psychic,,0,0,3505,3355,False
+turn1,Ice Beam,Krabby,91.0,41.0,Water,Ice,Water,,0,0,3505,2505,True
+turn2,Ice Beam,Krabby,91.0,-8.0,Water,Ice,Water,,0,0,3505,2505,True
+turn1,Ice Beam,Kingler,89.0,90.0,Water,Ice,Water,,0,0,3505,3755,True
+turn2,Ice Beam,Kingler,65.0,65.0,Water,Ice,Water,,0,0,3505,3755,True
+turn3,Ice Beam,Kingler,65.0,40.0,Water,Ice,Water,,0,6,3505,3755,True
+turn4,Ice Beam,Kingler,43.0,18.0,Water,Ice,Water,,0,0,3505,3755,True
+turn5,Ice Beam,Kingler,22.0,-5.0,Water,Ice,Water,,0,0,3505,3755,True
+turn1,Ice Beam,Voltorb,92.0,55.0,Water,Ice,Electric,,0,0,3505,5005,True
+turn2,Ice Beam,Voltorb,75.0,9.0,Water,Ice,Electric,,0,0,3505,5005,True
+turn3,Ice Beam,Voltorb,56.0,-37.0,Water,Ice,Electric,,0,0,3505,5005,True
+turn1,Ice Beam,Electrode,82.0,91.0,Water,Ice,Electric,,0,0,3505,7005,False
+turn2,Ice Beam,Electrode,53.0,58.0,Water,Ice,Electric,,0,0,3505,7005,False
+turn3,Ice Beam,Electrode,23.0,28.0,Water,Ice,Electric,,0,0,3505,7005,False
+turn4,Ice Beam,Electrode,-6.0,28.0,Water,Ice,Electric,,0,0,3505,7005,False
+turn1,Ice Beam,Exeggcute,110,-99.0,Water,Ice,Grass,Psychic,0,0,3505,2005,True
+turn1,Ice Beam,Exeggutor,110,-6.0,Water,Ice,Grass,Psychic,0,0,3505,2755,True
+turn1,Waterfall,Cubone,96.0,57.0,Water,Ice,Ground,,0,0,3505,1755,True
+turn2,Waterfall,Cubone,83.0,7.0,Water,Ice,Ground,,0,0,3505,1755,True
+turn3,Waterfall,Cubone,83.0,-44.0,Water,Ice,Ground,,0,0,3505,1755,True
+turn1,Waterfall,Marowak,89.0,77.0,Water,Ice,Ground,,0,0,3505,2255,True
+turn2,Waterfall,Marowak,71.0,35.0,Water,Ice,Ground,,0,0,3505,2255,True
+turn3,Waterfall,Marowak,71.0,-12.0,Water,Ice,Ground,,0,0,3505,2255,True
+turn1,Ice Beam,Hitmonlee,18.0,89.0,Water,Ice,Fighting,,0,0,3505,4355,False
+turn2,Ice Beam,Hitmonlee,-72.0,89.0,Water,Ice,Fighting,,0,0,3505,4355,False
+turn1,Ice Beam,Hitmonchan,73.0,89.0,Water,Ice,Fighting,,0,0,3505,3805,True
+turn2,Ice Beam,Hitmonchan,73.0,67.0,Water,Ice,Fighting,,0,6,3505,3805,True
+turn3,Ice Beam,Hitmonchan,73.0,44.0,Water,Ice,Fighting,,0,6,3505,3805,True
+turn4,Ice Beam,Hitmonchan,73.0,22.0,Water,Ice,Fighting,,0,6,3505,3805,True
+turn5,Ice Beam,Hitmonchan,73.0,0.0,Water,Ice,Fighting,,0,6,3505,3805,True
+turn1,Ice Beam,Lickitung,97.0,116.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn2,Ice Beam,Lickitung,82.0,86.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn3,Ice Beam,Lickitung,67.0,51.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn4,Ice Beam,Lickitung,52.0,21.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn5,Ice Beam,Lickitung,52.0,-12.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn1,Ice Beam,Koffing,98,44.0,Water,Ice,Poison,,0,0,3505,1755,True
+turn2,Ice Beam,Koffing,98,-9.0,Water,Ice,Poison,,3,0,3505,1755,True
+turn1,Ice Beam,Weezing,33.0,90.0,Water,Ice,Poison,,0,0,3505,3005,False
+turn2,Ice Beam,Weezing,-49.0,54.0,Water,Ice,Poison,,0,0,3505,3005,False
+turn1,Waterfall,Rhyhorn,110,-79.0,Water,Ice,Ground,Rock,0,0,3505,1255,True
+turn1,Waterfall,Rhydon,110,-8.0,Water,Ice,Ground,Rock,0,0,3505,2005,True
+turn1,Ice Beam,Chansey,106.0,287.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn2,Ice Beam,Chansey,102.0,264.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn3,Ice Beam,Chansey,98.0,240.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn4,Ice Beam,Chansey,94.0,218.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn5,Ice Beam,Chansey,90.0,195.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn6,Ice Beam,Chansey,86.0,174.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn7,Ice Beam,Chansey,82.0,150.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn8,Ice Beam,Chansey,78.0,126.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn9,Ice Beam,Chansey,74.0,102.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn10,Ice Beam,Chansey,70.0,78.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn11,Ice Beam,Chansey,66.0,55.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn12,Ice Beam,Chansey,62.0,31.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn13,Ice Beam,Chansey,58.0,10.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn14,Ice Beam,Chansey,58.0,-15.0,Water,Ice,Normal,,0,0,3505,2505,True
+turn1,Ice Beam,Tangela,110,-4.0,Water,Ice,Grass,,0,0,3505,3005,True
+turn1,Ice Beam,Kangaskhan,86.0,137.0,Water,Ice,Normal,,0,0,3505,4505,False
+turn2,Ice Beam,Kangaskhan,46.0,109.0,Water,Ice,Normal,,0,0,3505,4505,False
+turn3,Ice Beam,Kangaskhan,25.0,76.0,Water,Ice,Normal,,0,0,3505,4505,False
+turn4,Ice Beam,Kangaskhan,25.0,47.0,Water,Ice,Normal,,0,6,3505,4505,False
+turn5,Ice Beam,Kangaskhan,25.0,15.0,Water,Ice,Normal,,0,6,3505,4505,False
+turn6,Ice Beam,Kangaskhan,0.0,15.0,Water,Ice,Normal,,0,0,3505,4505,False
+turn1,Ice Beam,Horsea,88.0,45.0,Water,Ice,Water,,0,0,3505,3005,True
+turn2,Ice Beam,Horsea,88.0,0.0,Water,Ice,Water,,0,0,3505,3005,True
+turn1,Ice Beam,Seadra,40.0,90.0,Water,Ice,Water,,0,0,3505,4255,False
+turn2,Ice Beam,Seadra,-33.0,90.0,Water,Ice,Water,,0,0,3505,4255,False
+turn1,Ice Beam,Goldeen,98.0,80.0,Water,Ice,Water,,0,0,3505,3155,True
+turn2,Ice Beam,Goldeen,87.0,55.0,Water,Ice,Water,,0,0,3505,3155,True
+turn3,Ice Beam,Goldeen,87.0,32.0,Water,Ice,Water,,0,0,3505,3155,True
+turn4,Ice Beam,Goldeen,87.0,8.0,Water,Ice,Water,,0,6,3505,3155,True
+turn5,Ice Beam,Goldeen,87.0,-16.0,Water,Ice,Water,,0,6,3505,3155,True
+turn1,Ice Beam,Seaking,110,125.0,Water,Ice,Water,,0,0,3505,3405,False
+turn2,Ice Beam,Seaking,110,110.0,Water,Ice,Water,,0,0,3505,3405,False
+turn3,Ice Beam,Seaking,110,96.0,Water,Ice,Water,,0,0,3505,3405,False
+turn4,Ice Beam,Seaking,-65425,82.0,Water,Ice,Water,,0,0,3505,3405,False
+turn1,Ice Beam,Staryu,100.0,90,Water,Ice,Water,,0,0,3505,4255,False
+turn2,Ice Beam,Staryu,50.0,90,Water,Ice,Water,,5,0,3505,4255,False
+turn3,Ice Beam,Staryu,9.0,70.0,Water,Ice,Water,,5,0,3505,4255,False
+turn4,Ice Beam,Staryu,-32.0,70.0,Water,Ice,Water,,5,0,3505,4255,False
+turn1,Ice Beam,Starmie,34.0,90.0,Water,Ice,Water,Psychic,0,0,3505,5755,False
+turn2,Ice Beam,Starmie,-44.0,90.0,Water,Ice,Water,Psychic,0,0,3505,5755,False
+turn1,Ice Beam,Mr. Mime,100.0,61.0,Water,Ice,Psychic,Normal,0,0,3505,4505,True
+turn2,Ice Beam,Mr. Mime,80.0,23.0,Water,Ice,Psychic,Normal,0,0,3505,4505,True
+turn3,Ice Beam,Mr. Mime,70.0,-18.0,Water,Ice,Psychic,Normal,0,0,3505,4505,True
+turn1,Ice Beam,Scyther,86.0,3.0,Water,Ice,Bug,Flying,0,0,3505,5255,True
+turn2,Ice Beam,Scyther,62.0,-110.0,Water,Ice,Bug,Flying,0,0,3505,5255,True
+turn1,Waterfall,Jynx,107.0,-20.0,Water,Ice,Ice,Psychic,0,0,3505,4755,True
+turn1,Ice Beam,Electabuzz,63.0,98.0,Water,Ice,Electric,,0,0,3505,5255,False
+turn2,Ice Beam,Electabuzz,13.0,69.0,Water,Ice,Electric,,0,0,3505,5255,False
+turn3,Ice Beam,Electabuzz,-35.0,69.0,Water,Ice,Electric,,0,0,3505,5255,False
+turn1,Waterfall,Magmar,-22.0,125,Water,Ice,Fire,,0,0,3505,4655,False
+turn1,Ice Beam,Pinsir,110,92.0,Water,Ice,Bug,,0,0,3505,4255,False
+turn2,Ice Beam,Pinsir,110,59.0,Water,Ice,Bug,,0,0,3505,4255,False
+turn3,Ice Beam,Pinsir,-65425,59.0,Water,Ice,Bug,,0,0,3505,4255,False
+turn1,Ice Beam,Tauros,75.0,84.0,Water,Ice,Normal,,0,0,3505,5505,True
+turn2,Ice Beam,Tauros,44.0,35.0,Water,Ice,Normal,,0,0,3505,5505,True
+turn3,Ice Beam,Tauros,11.0,-15.0,Water,Ice,Normal,,0,0,3505,5505,True
+turn1,Ice Beam,Magikarp,110,20.0,Water,Ice,Water,,0,0,3505,4005,True
+turn2,Ice Beam,Magikarp,110,-37.0,Water,Ice,Water,,0,0,3505,4005,True
+turn1,Ice Beam,Gyarados,64.0,108.0,Water,Ice,Water,Flying,0,0,3505,4055,False
+turn2,Ice Beam,Gyarados,15.0,63.0,Water,Ice,Water,Flying,0,0,3505,4055,False
+turn3,Ice Beam,Gyarados,-31.0,63.0,Water,Ice,Water,Flying,0,0,3505,4055,False
+turn1,Waterfall,Lapras,78.0,158.0,Water,Ice,Water,Ice,0,0,3505,3005,False
+turn2,Waterfall,Lapras,45.0,130.0,Water,Ice,Water,Ice,0,0,3505,3005,False
+turn3,Waterfall,Lapras,14.0,101.0,Water,Ice,Water,Ice,0,0,3505,3005,False
+turn4,Waterfall,Lapras,-17.0,69.0,Water,Ice,Water,Ice,0,0,3505,3005,False
+turn1,Ice Beam,Ditto,110,59.0,Water,Ice,Normal,,0,0,3505,2405,True
+turn2,Ice Beam,Ditto,110,13.0,Water,Ice,Normal,,0,0,3505,2405,True
+turn3,Ice Beam,Ditto,110,-33.0,Water,Ice,Normal,,0,0,3505,2405,True
+turn1,Ice Beam,Eevee,97.0,80.0,Water,Ice,Normal,,0,0,3505,2755,True
+turn2,Ice Beam,Eevee,83.0,42.0,Water,Ice,Normal,,0,0,3505,2755,True
+turn3,Ice Beam,Eevee,70.0,6.0,Water,Ice,Normal,,0,0,3505,2755,True
+turn4,Ice Beam,Eevee,70.0,-31.0,Water,Ice,Normal,,0,0,3505,2755,True
+turn1,Ice Beam,Vaporeon,39.0,176.0,Water,Ice,Water,,0,0,3505,3255,False
+turn2,Ice Beam,Vaporeon,-32.0,164.0,Water,Ice,Water,,0,0,3505,3255,False
+turn1,Ice Beam,Jolteon,-4.0,125,Water,Ice,Electric,,0,0,3505,6505,False
+turn1,Waterfall,Flareon,-40.0,42.0,Water,Ice,Fire,,0,0,3505,3255,False
+turn1,Ice Beam,Porygon,18.0,93.0,Water,Ice,Normal,,0,0,3505,2005,False
+turn2,Ice Beam,Porygon,-79.0,62.0,Water,Ice,Normal,,0,0,3505,2005,False
+turn1,Waterfall,Omanyte,103.0,48.0,Water,Ice,Rock,Water,0,0,3505,1755,True
+turn2,Waterfall,Omanyte,103.0,-3.0,Water,Ice,Rock,Water,0,0,3505,1755,True
+turn1,Waterfall,Omastar,99.0,90.0,Water,Ice,Rock,Water,0,0,3505,2755,True
+turn2,Waterfall,Omastar,88.0,47.0,Water,Ice,Rock,Water,0,0,3505,2755,True
+turn3,Waterfall,Omastar,78.0,5.0,Water,Ice,Rock,Water,0,0,3505,2755,True
+turn4,Waterfall,Omastar,78.0,-35.0,Water,Ice,Rock,Water,0,0,3505,2755,True
+turn1,Waterfall,Kabuto,96.0,39.0,Water,Ice,Rock,Water,0,0,3505,2755,True
+turn2,Waterfall,Kabuto,96.0,-19.0,Water,Ice,Rock,Water,0,0,3505,2755,True
+turn1,Waterfall,Kabutops,90.0,72.0,Water,Ice,Rock,Water,0,0,3505,4005,True
+turn2,Waterfall,Kabutops,71.0,22.0,Water,Ice,Rock,Water,0,0,3505,4005,True
+turn3,Waterfall,Kabutops,52.0,-27.0,Water,Ice,Rock,Water,0,0,3505,4005,True
+turn1,Ice Beam,Aerodactyl,88.0,11.0,Water,Ice,Rock,Flying,0,0,3505,6505,True
+turn2,Ice Beam,Aerodactyl,63.0,-115.0,Water,Ice,Rock,Flying,0,0,3505,6505,True
+turn1,Ice Beam,Snorlax,62.0,196.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn2,Ice Beam,Snorlax,11.0,174.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn3,Ice Beam,Snorlax,11.0,152.0,Water,Ice,Normal,,0,0,3505,1505,True
+turn4,Ice Beam,Snorlax,11.0,131.0,Water,Ice,Normal,,0,6,3505,1505,True
+turn5,Ice Beam,Snorlax,11.0,107.0,Water,Ice,Normal,,0,6,3505,1505,True
+turn6,Ice Beam,Snorlax,11.0,84.0,Water,Ice,Normal,,0,6,3505,1505,True
+turn7,Ice Beam,Snorlax,11.0,63.0,Water,Ice,Normal,,0,6,3505,1505,True
+turn8,Ice Beam,Snorlax,11.0,42.0,Water,Ice,Normal,,0,6,3505,1505,True
+turn9,Ice Beam,Snorlax,11.0,21.0,Water,Ice,Normal,,0,6,3505,1505,True
+turn10,Ice Beam,Snorlax,11.0,-1.0,Water,Ice,Normal,,0,6,3505,1505,True
+turn1,Ice Beam,Articuno,77.0,108.0,Water,Ice,Ice,Flying,0,0,3505,4255,False
+turn2,Ice Beam,Articuno,42.0,71.0,Water,Ice,Ice,Flying,0,0,3505,4255,False
+turn3,Ice Beam,Articuno,8.0,34.0,Water,Ice,Ice,Flying,0,0,3505,4255,False
+turn4,Ice Beam,Articuno,-27.0,34.0,Water,Ice,Ice,Flying,0,0,3505,4255,False
+turn1,Ice Beam,Zapdos,-247.0,150,Water,Ice,Electric,Flying,0,0,3505,5005,False
+turn1,Ice Beam,Moltres,56.0,28.0,Water,Ice,Fire,Flying,0,0,3505,4505,True
+turn2,Ice Beam,Moltres,7.0,-81.0,Water,Ice,Fire,Flying,0,0,3505,4505,True
+turn1,Ice Beam,Dratini,96.0,76.0,Water,Ice,Dragon,,0,0,3505,2505,True
+turn2,Ice Beam,Dratini,82.0,52.0,Water,Ice,Dragon,,0,0,3505,2505,True
+turn3,Ice Beam,Dratini,70.0,28.0,Water,Ice,Dragon,,0,0,3505,2505,True
+turn4,Ice Beam,Dratini,58.0,6.0,Water,Ice,Dragon,,0,0,3505,2505,True
+turn5,Ice Beam,Dratini,58.0,-17.0,Water,Ice,Dragon,,0,0,3505,2505,True
+turn1,Ice Beam,Dragonair,110,105.0,Water,Ice,Dragon,,0,0,3505,3505,False
+turn2,Ice Beam,Dragonair,70,105.0,Water,Ice,Dragon,,4,0,3505,3505,False
+turn3,Ice Beam,Dragonair,30,105.0,Water,Ice,Dragon,,4,0,3505,3505,False
+turn4,Ice Beam,Dragonair,-10,105.0,Water,Ice,Dragon,,4,0,3505,3505,False
+turn1,Ice Beam,Dragonite,110,151,Water,Ice,Dragon,Flying,0,0,3505,4005,False
+turn2,Ice Beam,Dragonite,70,151,Water,Ice,Dragon,Flying,4,0,3505,4005,False
+turn3,Ice Beam,Dragonite,30,99.0,Water,Ice,Dragon,Flying,4,0,3505,4005,False
+turn4,Ice Beam,Dragonite,-10,99.0,Water,Ice,Dragon,Flying,4,0,3505,4005,False
+turn1,Ice Beam,Mewtwo,110,166,Water,Ice,Psychic,,0,0,3505,6505,False
+turn2,Ice Beam,Mewtwo,1.0,166,Water,Ice,Psychic,,1,0,3505,6505,False
+turn3,Ice Beam,Mewtwo,-108.0,166,Water,Ice,Psychic,,1,0,3505,6505,False
+turn1,Ice Beam,Mew,-19.0,160,Water,Ice,Psychic,,0,0,3505,5005,False

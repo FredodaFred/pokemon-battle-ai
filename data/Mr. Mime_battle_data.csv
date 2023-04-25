@@ -1,0 +1,393 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Double Slap,Bulbasaur,70.0,7.0,Psychic,Normal,Grass,Poison,0,0,4505,2255,True
+turn2,Double Slap,Bulbasaur,70.0,-13.0,Psychic,Normal,Grass,Poison,0,0,4505,2255,True
+turn1,Confusion,Ivysaur,88,39.0,Psychic,Normal,Grass,Poison,0,0,4505,3005,True
+turn2,Confusion,Ivysaur,88,-48.0,Psychic,Normal,Grass,Poison,3,0,4505,3005,True
+turn1,Confusion,Venusaur,40.0,112.0,Psychic,Normal,Grass,Poison,0,0,4505,4005,False
+turn2,Confusion,Venusaur,-26.0,50.0,Psychic,Normal,Grass,Poison,0,0,4505,4005,False
+turn1,Confusion,Charmander,70.0,36.0,Psychic,Normal,Fire,,0,0,4505,3255,True
+turn2,Confusion,Charmander,70.0,-26.0,Psychic,Normal,Fire,,0,0,4505,3255,True
+turn1,Double Slap,Charmeleon,63.0,68.0,Psychic,Normal,Fire,,0,0,4505,4005,True
+turn2,Double Slap,Charmeleon,24.0,20.0,Psychic,Normal,Fire,,0,0,4505,4005,True
+turn3,Double Slap,Charmeleon,24.0,0.0,Psychic,Normal,Fire,,0,0,4505,4005,True
+turn1,Double Slap,Charizard,46.0,97.0,Psychic,Normal,Fire,Flying,0,0,4505,5005,False
+turn2,Double Slap,Charizard,-6.0,97.0,Psychic,Normal,Fire,Flying,0,0,4505,5005,False
+turn1,Confusion,Squirtle,57.0,55.0,Psychic,Normal,Water,,0,0,4505,2155,True
+turn2,Confusion,Squirtle,16.0,7.0,Psychic,Normal,Water,,0,0,4505,2155,True
+turn3,Confusion,Squirtle,16.0,-42.0,Psychic,Normal,Water,,0,0,4505,2155,True
+turn1,Double Slap,Wartortle,50.0,78.0,Psychic,Normal,Water,,0,0,4505,2905,False
+turn2,Double Slap,Wartortle,1.0,38.0,Psychic,Normal,Water,,0,0,4505,2905,False
+turn3,Double Slap,Wartortle,-51.0,14.0,Psychic,Normal,Water,,0,0,4505,2905,False
+turn1,Double Slap,Blastoise,31.0,110.0,Psychic,Normal,Water,,0,0,4505,3905,False
+turn2,Double Slap,Blastoise,-34.0,98.0,Psychic,Normal,Water,,0,0,4505,3905,False
+turn1,Confusion,Caterpie,100,-52.0,Psychic,Normal,Bug,,0,0,4505,2255,True
+turn1,Confusion,Metapod,100,-12.0,Psychic,Normal,Bug,,0,0,4505,1505,True
+turn1,Confusion,Butterfree,100,80.0,Psychic,Normal,Bug,Flying,0,0,4505,3505,True
+turn2,Confusion,Butterfree,90.0,80.0,Psychic,Normal,Bug,Flying,1,0,4505,3505,True
+turn3,Confusion,Butterfree,80.0,80.0,Psychic,Normal,Bug,Flying,1,0,4505,3505,True
+turn4,Confusion,Butterfree,80.0,40.0,Psychic,Normal,Bug,Flying,0,0,4505,3505,True
+turn5,Confusion,Butterfree,70.0,40.0,Psychic,Normal,Bug,Flying,1,0,4505,3505,True
+turn6,Confusion,Butterfree,70.0,0.0,Psychic,Normal,Bug,Flying,0,0,4505,3505,True
+turn1,Confusion,Weedle,100,-209.0,Psychic,Normal,Bug,Poison,0,0,4505,2505,True
+turn1,Confusion,Kakuna,100,-158.0,Psychic,Normal,Bug,Poison,0,0,4505,1755,True
+turn1,Confusion,Beedrill,-32.0,40.0,Psychic,Normal,Bug,Poison,0,0,4505,3755,False
+turn1,Confusion,Pidgey,74.0,14.0,Psychic,Normal,Normal,Flying,0,0,4505,2805,True
+turn2,Confusion,Pidgey,74.0,-82.0,Psychic,Normal,Normal,Flying,0,0,4505,2805,True
+turn1,Double Slap,Pidgeotto,64.0,103.0,Psychic,Normal,Normal,Flying,0,0,4505,3555,False
+turn2,Double Slap,Pidgeotto,29.0,41.0,Psychic,Normal,Normal,Flying,0,0,4505,3555,False
+turn3,Double Slap,Pidgeotto,-5.0,21.0,Psychic,Normal,Normal,Flying,0,0,4505,3555,False
+turn1,Confusion,Pidgeot,51.0,99.0,Psychic,Normal,Normal,Flying,0,0,4505,5055,False
+turn2,Confusion,Pidgeot,2.0,56.0,Psychic,Normal,Normal,Flying,0,0,4505,5055,False
+turn3,Confusion,Pidgeot,-42.0,56.0,Psychic,Normal,Normal,Flying,0,0,4505,5055,False
+turn1,Confusion,Rattata,58.0,4.0,Psychic,Normal,Normal,,0,0,4505,3605,True
+turn2,Confusion,Rattata,58.0,-80.0,Psychic,Normal,Normal,,0,0,4505,3605,True
+turn1,Double Slap,Raticate,34.0,70.0,Psychic,Normal,Normal,,0,0,4505,4855,False
+turn2,Double Slap,Raticate,-33.0,70.0,Psychic,Normal,Normal,,0,0,4505,4855,False
+turn1,Confusion,Spearow,56.0,66.0,Psychic,Normal,Normal,Flying,0,0,4505,3505,True
+turn2,Confusion,Spearow,56.0,-35.0,Psychic,Normal,Normal,Flying,0,0,4505,3505,True
+turn1,Confusion,Fearow,31.0,75.0,Psychic,Normal,Normal,Flying,0,0,4505,5005,False
+turn2,Confusion,Fearow,-39.0,75.0,Psychic,Normal,Normal,Flying,0,0,4505,5005,False
+turn1,Confusion,Ekans,100,-33.0,Psychic,Normal,Poison,,0,0,4505,2755,True
+turn1,Confusion,Arbok,69.0,40.0,Psychic,Normal,Poison,,0,0,4505,4005,True
+turn2,Confusion,Arbok,69.0,-41.0,Psychic,Normal,Poison,,0,0,4505,4005,True
+turn1,Confusion,Pikachu,68.0,30.0,Psychic,Normal,Electric,,0,0,4505,4505,True
+turn2,Confusion,Pikachu,39.0,-33.0,Psychic,Normal,Electric,,0,0,4505,4505,True
+turn1,Double Slap,Raichu,48.0,77.0,Psychic,Normal,Electric,,0,0,4505,5505,False
+turn2,Double Slap,Raichu,-1.0,77.0,Psychic,Normal,Electric,,0,0,4505,5505,False
+turn1,Confusion,Sandshrew,66.0,96.0,Psychic,Normal,Ground,,0,0,4505,2005,True
+turn2,Confusion,Sandshrew,66.0,-1.0,Psychic,Normal,Ground,,0,0,4505,2005,True
+turn1,Confusion,Sandslash,58.0,100.0,Psychic,Normal,Ground,,0,0,4505,3255,False
+turn2,Confusion,Sandslash,10.0,88.0,Psychic,Normal,Ground,,0,0,4505,3255,False
+turn3,Confusion,Sandslash,-39.0,30.0,Psychic,Normal,Ground,,0,0,4505,3255,False
+turn1,Confusion,Nidoran♀,100,-43.0,Psychic,Normal,Poison,,0,0,4505,2055,True
+turn1,Double Slap,Nidorina,76.0,21.0,Psychic,Normal,Poison,,0,0,4505,2805,True
+turn2,Double Slap,Nidorina,76.0,-6.0,Psychic,Normal,Poison,,0,0,4505,2805,True
+turn1,Double Slap,Nidoqueen,46.0,69.0,Psychic,Normal,Poison,Ground,0,0,4505,3805,False
+turn2,Double Slap,Nidoqueen,-7.0,41.0,Psychic,Normal,Poison,Ground,0,0,4505,3805,False
+turn1,Confusion,Nidoran♂,100,-57.0,Psychic,Normal,Poison,,0,0,4505,2505,True
+turn1,Confusion,Nidorino,100,5.0,Psychic,Normal,Poison,,0,0,4505,3255,True
+turn2,Confusion,Nidorino,100,-118.0,Psychic,Normal,Poison,,0,0,4505,3255,True
+turn1,Confusion,Nidoking,27.0,59.0,Psychic,Normal,Poison,Ground,0,0,4505,4255,True
+turn2,Confusion,Nidoking,27.0,-29.0,Psychic,Normal,Poison,Ground,0,0,4505,4255,True
+turn1,Confusion,Clefairy,73.0,106.0,Psychic,Normal,Normal,,0,0,4505,1755,True
+turn2,Confusion,Clefairy,46.0,46.0,Psychic,Normal,Normal,,0,0,4505,1755,True
+turn3,Confusion,Clefairy,19.0,13.0,Psychic,Normal,Normal,,0,0,4505,1755,True
+turn4,Confusion,Clefairy,19.0,-38.0,Psychic,Normal,Normal,,0,0,4505,1755,True
+turn1,Confusion,Clefable,100,128.0,Psychic,Normal,Normal,,0,0,4505,3005,False
+turn2,Confusion,Clefable,52.0,128.0,Psychic,Normal,Normal,,1,0,4505,3005,False
+turn3,Confusion,Clefable,52.0,95.0,Psychic,Normal,Normal,,0,0,4505,3005,False
+turn4,Confusion,Clefable,52.0,59.0,Psychic,Normal,Normal,,0,0,4505,3005,False
+turn5,Confusion,Clefable,4.0,59.0,Psychic,Normal,Normal,,1,0,4505,3005,False
+turn6,Confusion,Clefable,4.0,24.0,Psychic,Normal,Normal,,0,0,4505,3005,False
+turn7,Confusion,Clefable,-18.0,24.0,Psychic,Normal,Normal,,1,0,4505,3005,False
+turn1,Confusion,Vulpix,64.0,72.0,Psychic,Normal,Fire,,0,0,4505,3255,True
+turn2,Confusion,Vulpix,25.0,2.0,Psychic,Normal,Fire,,2,0,4505,3255,True
+turn3,Confusion,Vulpix,25.0,-49.0,Psychic,Normal,Fire,,2,0,4505,3255,True
+turn1,Confusion,Ninetales,82.0,99.0,Psychic,Normal,Fire,,0,0,4505,5005,True
+turn2,Confusion,Ninetales,64.0,67.0,Psychic,Normal,Fire,,0,0,4505,5005,True
+turn3,Confusion,Ninetales,46.0,31.0,Psychic,Normal,Fire,,0,0,4505,5005,True
+turn4,Confusion,Ninetales,27.0,17.0,Psychic,Normal,Fire,,0,0,4505,5005,True
+turn5,Confusion,Ninetales,9.0,-14.0,Psychic,Normal,Fire,,0,0,4505,5005,True
+turn1,Confusion,Jigglypuff,50.0,41.0,Psychic,Normal,Normal,,0,0,4505,1005,True
+turn2,Confusion,Jigglypuff,50.0,-83.0,Psychic,Normal,Normal,,0,0,4505,1005,True
+turn1,Confusion,Wigglytuff,64.0,136.0,Psychic,Normal,Normal,,0,0,4505,2255,False
+turn2,Confusion,Wigglytuff,64.0,76.0,Psychic,Normal,Normal,,0,0,4505,2255,False
+turn3,Confusion,Wigglytuff,42.0,76.0,Psychic,Normal,Normal,,1,0,4505,2255,False
+turn4,Confusion,Wigglytuff,42.0,18.0,Psychic,Normal,Normal,,0,0,4505,2255,False
+turn5,Confusion,Wigglytuff,-18.0,18.0,Psychic,Normal,Normal,,1,0,4505,2255,False
+turn1,Confusion,Zubat,72.0,55.0,Psychic,Normal,Poison,Flying,0,0,4505,2755,True
+turn2,Confusion,Zubat,72.0,-90.0,Psychic,Normal,Poison,Flying,0,0,4505,2755,True
+turn1,Confusion,Golbat,51.0,46.0,Psychic,Normal,Poison,Flying,0,0,4505,4505,True
+turn2,Confusion,Golbat,1.0,-34.0,Psychic,Normal,Poison,Flying,0,0,4505,4505,True
+turn1,Confusion,Oddish,50.0,87.0,Psychic,Normal,Grass,Poison,0,0,4505,1505,True
+turn2,Confusion,Oddish,50.0,-6.0,Psychic,Normal,Grass,Poison,0,0,4505,1505,True
+turn1,Confusion,Gloom,45.0,33.0,Psychic,Normal,Grass,Poison,0,0,4505,2005,True
+turn2,Confusion,Gloom,45.0,-53.0,Psychic,Normal,Grass,Poison,0,0,4505,2005,True
+turn1,Confusion,Vileplume,100,57.0,Psychic,Normal,Grass,Poison,0,0,4505,2505,True
+turn2,Confusion,Vileplume,100,-13.0,Psychic,Normal,Grass,Poison,0,0,4505,2505,True
+turn1,Confusion,Paras,-13.0,95,Psychic,Normal,Bug,Grass,0,0,4505,1255,False
+turn1,Confusion,Parasect,-53.0,120,Psychic,Normal,Bug,Grass,0,0,4505,1505,False
+turn1,Confusion,Venonat,100,12.0,Psychic,Normal,Bug,Poison,0,0,4505,2255,True
+turn2,Confusion,Venonat,100,-103.0,Psychic,Normal,Bug,Poison,0,0,4505,2255,True
+turn1,Confusion,Venomoth,100,130,Psychic,Normal,Bug,Poison,0,0,4505,4505,False
+turn2,Confusion,Venomoth,86.0,130,Psychic,Normal,Bug,Poison,1,0,4505,4505,False
+turn3,Confusion,Venomoth,71.0,130,Psychic,Normal,Bug,Poison,1,0,4505,4505,False
+turn4,Confusion,Venomoth,57.0,130,Psychic,Normal,Bug,Poison,1,0,4505,4505,False
+turn5,Confusion,Venomoth,44.0,130,Psychic,Normal,Bug,Poison,1,0,4505,4505,False
+turn6,Confusion,Venomoth,29.0,130,Psychic,Normal,Bug,Poison,1,0,4505,4505,False
+turn7,Confusion,Venomoth,29.0,130,Psychic,Normal,Bug,Poison,0,0,4505,4505,False
+turn8,Confusion,Venomoth,15.0,130,Psychic,Normal,Bug,Poison,1,0,4505,4505,False
+turn9,Confusion,Venomoth,2.0,130,Psychic,Normal,Bug,Poison,1,0,4505,4505,False
+turn10,Confusion,Venomoth,-12.0,130,Psychic,Normal,Bug,Poison,1,0,4505,4505,False
+turn1,Double Slap,Diglett,48.0,5.0,Psychic,Normal,Ground,,0,0,4505,4755,False
+turn2,Double Slap,Diglett,-3.0,5.0,Psychic,Normal,Ground,,0,0,4505,4755,False
+turn1,Double Slap,Dugtrio,29.0,62.0,Psychic,Normal,Ground,,0,0,4505,6005,False
+turn2,Double Slap,Dugtrio,-53.0,62.0,Psychic,Normal,Ground,,0,0,4505,6005,False
+turn1,Confusion,Meowth,73.0,27.0,Psychic,Normal,Normal,,0,0,4505,4505,True
+turn2,Confusion,Meowth,44.0,-58.0,Psychic,Normal,Normal,,0,0,4505,4505,True
+turn1,Confusion,Persian,49.0,72.0,Psychic,Normal,Normal,,0,0,4505,5755,False
+turn2,Confusion,Persian,2.0,45.0,Psychic,Normal,Normal,,0,0,4505,5755,False
+turn3,Confusion,Persian,-47.0,45.0,Psychic,Normal,Normal,,0,0,4505,5755,False
+turn1,Confusion,Psyduck,84.0,47.0,Psychic,Normal,Water,,0,0,4505,2755,True
+turn2,Confusion,Psyduck,84.0,-19.0,Psychic,Normal,Water,,0,0,4505,2755,True
+turn1,Double Slap,Golduck,84.0,100.0,Psychic,Normal,Water,,0,0,4505,4255,True
+turn2,Double Slap,Golduck,69.0,57.0,Psychic,Normal,Water,,0,0,4505,4255,True
+turn3,Double Slap,Golduck,54.0,20.0,Psychic,Normal,Water,,0,0,4505,4255,True
+turn4,Double Slap,Golduck,54.0,-12.0,Psychic,Normal,Water,,0,0,4505,4255,True
+turn1,Confusion,Mankey,100,-39.0,Psychic,Normal,Fighting,,0,0,4505,3505,True
+turn1,Confusion,Primeape,17.0,38.0,Psychic,Normal,Fighting,,0,0,4505,4755,False
+turn2,Confusion,Primeape,-60.0,38.0,Psychic,Normal,Fighting,,0,0,4505,4755,False
+turn1,Confusion,Growlithe,59.0,73.0,Psychic,Normal,Fire,,0,0,4505,3005,True
+turn2,Confusion,Growlithe,20.0,-5.0,Psychic,Normal,Fire,,0,0,4505,3005,True
+turn1,Double Slap,Arcanine,49.0,92.0,Psychic,Normal,Fire,,0,0,4505,4755,False
+turn2,Double Slap,Arcanine,-1.0,78.0,Psychic,Normal,Fire,,0,0,4505,4755,False
+turn1,Confusion,Poliwag,100,100,Psychic,Normal,Water,,0,0,4505,4505,False
+turn2,Confusion,Poliwag,72.0,100,Psychic,Normal,Water,,1,0,4505,4505,False
+turn3,Confusion,Poliwag,44.0,100,Psychic,Normal,Water,,1,0,4505,4505,False
+turn4,Confusion,Poliwag,15.0,100,Psychic,Normal,Water,,1,0,4505,4505,False
+turn5,Confusion,Poliwag,-12.0,100,Psychic,Normal,Water,,1,0,4505,4505,False
+turn1,Confusion,Poliwhirl,65.0,57.0,Psychic,Normal,Water,,0,0,4505,4505,True
+turn2,Confusion,Poliwhirl,,,Psychic,Normal,Water,,,,4505,4505,True
+turn1,Confusion,Poliwrath,100,82.0,Psychic,Normal,Water,Fighting,0,0,4505,3505,True
+turn2,Confusion,Poliwrath,100,4.0,Psychic,Normal,Water,Fighting,0,0,4505,3505,True
+turn3,Confusion,Poliwrath,100,-70.0,Psychic,Normal,Water,Fighting,0,0,4505,3505,True
+turn1,Double Slap,Abra,100,55.0,Psychic,Normal,Psychic,,0,0,4505,4505,True
+turn2,Double Slap,Abra,100,26.0,Psychic,Normal,Psychic,,0,0,4505,4505,True
+turn3,Double Slap,Abra,100,-129.0,Psychic,Normal,Psychic,,0,0,4505,4505,True
+turn1,Double Slap,Kadabra,62.0,100,Psychic,Normal,Psychic,,0,0,4505,5255,False
+turn2,Double Slap,Kadabra,22.0,100,Psychic,Normal,Psychic,,5,0,4505,5255,False
+turn3,Double Slap,Kadabra,-15.0,100,Psychic,Normal,Psychic,,5,0,4505,5255,False
+turn1,Confusion,Alakazam,66.0,71.0,Psychic,Normal,Psychic,,0,0,4505,6005,False
+turn2,Confusion,Alakazam,36.0,47.0,Psychic,Normal,Psychic,,0,0,4505,6005,False
+turn3,Confusion,Alakazam,2.0,14.0,Psychic,Normal,Psychic,,0,0,4505,6005,False
+turn4,Confusion,Alakazam,2.0,47.0,Psychic,Normal,Psychic,,0,0,4505,6005,False
+turn5,Confusion,Alakazam,-31.0,47.0,Psychic,Normal,Psychic,,0,0,4505,6005,False
+turn1,Confusion,Machop,100,-55.0,Psychic,Normal,Fighting,,0,0,4505,1755,True
+turn1,Confusion,Machoke,52.0,35.0,Psychic,Normal,Fighting,,0,0,4505,2255,True
+turn2,Confusion,Machoke,52.0,-65.0,Psychic,Normal,Fighting,,0,0,4505,2255,True
+turn1,Confusion,Machamp,33.0,78.0,Psychic,Normal,Fighting,,0,0,4505,2755,True
+turn2,Confusion,Machamp,33.0,-1.0,Psychic,Normal,Fighting,,0,0,4505,2755,True
+turn1,Confusion,Bellsprout,100,-90.0,Psychic,Normal,Grass,Poison,0,0,4505,2005,True
+turn1,Confusion,Weepinbell,100,-17.0,Psychic,Normal,Grass,Poison,0,0,4505,2755,True
+turn1,Confusion,Victreebel,45.0,54.0,Psychic,Normal,Grass,Poison,0,0,4505,3505,True
+turn2,Confusion,Victreebel,45.0,-45.0,Psychic,Normal,Grass,Poison,0,0,4505,3505,True
+turn1,Confusion,Tentacool,100,37.0,Psychic,Normal,Water,Poison,0,0,4505,3505,True
+turn2,Confusion,Tentacool,100,-32.0,Psychic,Normal,Water,Poison,5,0,4505,3505,True
+turn1,Confusion,Tentacruel,71.0,88.0,Psychic,Normal,Water,Poison,0,0,4505,5005,False
+turn2,Confusion,Tentacruel,44.0,72.0,Psychic,Normal,Water,Poison,0,0,4505,5005,False
+turn3,Confusion,Tentacruel,14.0,27.0,Psychic,Normal,Water,Poison,0,0,4505,5005,False
+turn4,Confusion,Tentacruel,-16.0,27.0,Psychic,Normal,Water,Poison,0,0,4505,5005,False
+turn1,Confusion,Geodude,100,-2.0,Psychic,Normal,Rock,Ground,0,0,4505,1005,True
+turn1,Confusion,Graveler,29.0,41.0,Psychic,Normal,Rock,Ground,0,0,4505,1755,True
+turn2,Confusion,Graveler,29.0,-28.0,Psychic,Normal,Rock,Ground,0,0,4505,1755,True
+turn1,Confusion,Golem,-16.0,89.0,Psychic,Normal,Rock,Ground,0,0,4505,2255,False
+turn1,Double Slap,Ponyta,66.0,57.0,Psychic,Normal,Fire,,0,0,4505,4505,False
+turn2,Double Slap,Ponyta,27.0,10.0,Psychic,Normal,Fire,,0,0,4505,4505,False
+turn3,Double Slap,Ponyta,-9.0,10.0,Psychic,Normal,Fire,,0,0,4505,4505,False
+turn1,Double Slap,Rapidash,56.0,86.0,Psychic,Normal,Fire,,0,0,4505,5255,False
+turn2,Double Slap,Rapidash,13.0,48.0,Psychic,Normal,Fire,,0,0,4505,5255,False
+turn3,Double Slap,Rapidash,-30.0,48.0,Psychic,Normal,Fire,,0,0,4505,5255,False
+turn1,Double Slap,Slowpoke,71.0,112.0,Psychic,Normal,Water,Psychic,0,0,4505,755,False
+turn2,Double Slap,Slowpoke,40.0,74.0,Psychic,Normal,Water,Psychic,0,0,4505,755,False
+turn3,Double Slap,Slowpoke,9.0,47.0,Psychic,Normal,Water,Psychic,0,0,4505,755,False
+turn4,Double Slap,Slowpoke,-22.0,31.0,Psychic,Normal,Water,Psychic,0,0,4505,755,False
+turn1,Confusion,Slowbro,45.0,137.0,Psychic,Normal,Water,Psychic,0,0,4505,1505,False
+turn2,Confusion,Slowbro,-13.0,116.0,Psychic,Normal,Water,Psychic,0,0,4505,1505,False
+turn1,Confusion,Magnemite,100,25.0,Psychic,Normal,Electric,,0,0,4505,2255,True
+turn2,Confusion,Magnemite,60.0,25.0,Psychic,Normal,Electric,,5,0,4505,2255,True
+turn3,Confusion,Magnemite,60.0,-37.0,Psychic,Normal,Electric,,5,0,4505,2255,True
+turn1,Confusion,Magneton,41.0,98.0,Psychic,Normal,Electric,,0,0,4505,3505,False
+turn2,Confusion,Magneton,-15.0,50.0,Psychic,Normal,Electric,,0,0,4505,3505,False
+turn1,Confusion,Farfetch'd,52.0,57.0,Psychic,Normal,Normal,Flying,0,0,4505,3005,True
+turn2,Confusion,Farfetch'd,4.0,8.0,Psychic,Normal,Normal,Flying,0,0,4505,3005,True
+turn3,Confusion,Farfetch'd,4.0,-47.0,Psychic,Normal,Normal,Flying,0,0,4505,3005,True
+turn1,Double Slap,Doduo,63.0,11.0,Psychic,Normal,Normal,Flying,0,0,4505,3755,True
+turn2,Double Slap,Doduo,31.0,-22.0,Psychic,Normal,Normal,Flying,0,0,4505,3755,True
+turn1,Confusion,Dodrio,12.0,67.0,Psychic,Normal,Normal,Flying,0,0,4505,5005,False
+turn2,Confusion,Dodrio,-75.0,67.0,Psychic,Normal,Normal,Flying,0,0,4505,5005,False
+turn1,Double Slap,Seel,86.0,77.0,Psychic,Normal,Water,,0,0,4505,2255,False
+turn2,Double Slap,Seel,70.0,77.0,Psychic,Normal,Water,,6,0,4505,2255,False
+turn3,Double Slap,Seel,54.0,77.0,Psychic,Normal,Water,,6,0,4505,2255,False
+turn4,Double Slap,Seel,39.0,77.0,Psychic,Normal,Water,,6,0,4505,2255,False
+turn5,Double Slap,Seel,24.0,77.0,Psychic,Normal,Water,,6,0,4505,2255,False
+turn6,Double Slap,Seel,8.0,77.0,Psychic,Normal,Water,,6,0,4505,2255,False
+turn7,Double Slap,Seel,-7.0,27.0,Psychic,Normal,Water,,0,0,4505,2255,False
+turn1,Double Slap,Dewgong,58.0,113.0,Psychic,Normal,Water,Ice,0,0,4505,3505,False
+turn2,Double Slap,Dewgong,19.0,113.0,Psychic,Normal,Water,Ice,6,0,4505,3505,False
+turn3,Double Slap,Dewgong,-20.0,113.0,Psychic,Normal,Water,Ice,6,0,4505,3505,False
+turn1,Confusion,Grimer,85.0,20.0,Psychic,Normal,Poison,,0,0,4505,1255,True
+turn2,Confusion,Grimer,85.0,-107.0,Psychic,Normal,Poison,,0,0,4505,1255,True
+turn1,Double Slap,Muk,21.0,141.0,Psychic,Normal,Poison,,0,0,4505,2505,False
+turn2,Double Slap,Muk,-57.0,117.0,Psychic,Normal,Poison,,0,0,4505,2505,False
+turn1,Confusion,Shellder,100,-43.0,Psychic,Normal,Water,,0,0,4505,2005,True
+turn1,Confusion,Cloyster,57.0,35.0,Psychic,Normal,Water,Ice,0,0,4505,3505,True
+turn2,Confusion,Cloyster,57.0,-36.0,Psychic,Normal,Water,Ice,0,0,4505,3505,True
+turn1,Confusion,Gastly,100,-79.0,Psychic,Normal,Ghost,Poison,0,0,4505,4005,True
+turn1,Confusion,Haunter,81.0,105,Psychic,Normal,Ghost,Poison,0,0,4505,4755,False
+turn2,Confusion,Haunter,13.0,105,Psychic,Normal,Ghost,Poison,5,0,4505,4755,False
+turn3,Confusion,Haunter,-37.0,105,Psychic,Normal,Ghost,Poison,5,0,4505,4755,False
+turn1,Confusion,Gengar,82.0,120,Psychic,Normal,Ghost,Poison,0,0,4505,5505,False
+turn2,Confusion,Gengar,32.0,28.0,Psychic,Normal,Ghost,Poison,5,0,4505,5505,False
+turn3,Confusion,Gengar,-18.0,28.0,Psychic,Normal,Ghost,Poison,5,0,4505,5505,False
+turn1,Confusion,Onix,57.0,91.0,Psychic,Normal,Rock,Ground,0,0,4505,3505,True
+turn2,Confusion,Onix,16.0,16.0,Psychic,Normal,Rock,Ground,0,0,4505,3505,True
+turn3,Confusion,Onix,16.0,-57.0,Psychic,Normal,Rock,Ground,0,0,4505,3505,True
+turn1,Double Slap,Drowzee,100,103.0,Psychic,Normal,Psychic,,0,0,4505,2105,True
+turn2,Double Slap,Drowzee,94.0,103.0,Psychic,Normal,Psychic,,1,0,4505,2105,True
+turn3,Double Slap,Drowzee,94.0,86.0,Psychic,Normal,Psychic,,0,0,4505,2105,True
+turn4,Double Slap,Drowzee,94.0,68.0,Psychic,Normal,Psychic,,0,0,4505,2105,True
+turn5,Double Slap,Drowzee,94.0,50.0,Psychic,Normal,Psychic,,0,0,4505,2105,True
+turn6,Double Slap,Drowzee,88.0,50.0,Psychic,Normal,Psychic,,1,0,4505,2105,True
+turn7,Double Slap,Drowzee,81.0,50.0,Psychic,Normal,Psychic,,1,0,4505,2105,True
+turn8,Double Slap,Drowzee,81.0,31.0,Psychic,Normal,Psychic,,0,0,4505,2105,True
+turn9,Double Slap,Drowzee,74.0,31.0,Psychic,Normal,Psychic,,1,0,4505,2105,True
+turn10,Double Slap,Drowzee,74.0,-5.0,Psychic,Normal,Psychic,,0,0,4505,2105,True
+turn1,Double Slap,Hypno,82.0,127.0,Psychic,Normal,Psychic,,0,0,4505,3355,False
+turn2,Double Slap,Hypno,63.0,111.0,Psychic,Normal,Psychic,,0,0,4505,3355,False
+turn3,Double Slap,Hypno,46.0,75.0,Psychic,Normal,Psychic,,0,0,4505,3355,False
+turn4,Double Slap,Hypno,27.0,59.0,Psychic,Normal,Psychic,,0,0,4505,3355,False
+turn5,Double Slap,Hypno,9.0,44.0,Psychic,Normal,Psychic,,0,0,4505,3355,False
+turn6,Double Slap,Hypno,-7.0,28.0,Psychic,Normal,Psychic,,0,0,4505,3355,False
+turn1,Confusion,Krabby,100,-29.0,Psychic,Normal,Water,,0,0,4505,2505,True
+turn1,Double Slap,Kingler,-26.0,103.0,Psychic,Normal,Water,,0,0,4505,3755,False
+turn1,Confusion,Voltorb,50.0,40.0,Psychic,Normal,Electric,,0,0,4505,5005,True
+turn2,Confusion,Voltorb,1.0,-19.0,Psychic,Normal,Electric,,0,0,4505,5005,True
+turn1,Confusion,Electrode,24.0,88.0,Psychic,Normal,Electric,,0,0,4505,7005,False
+turn2,Confusion,Electrode,-54.0,88.0,Psychic,Normal,Electric,,0,0,4505,7005,False
+turn1,Double Slap,Exeggcute,112,72.0,Psychic,Normal,Grass,Psychic,0,0,4505,2005,True
+turn2,Double Slap,Exeggcute,110.0,46.0,Psychic,Normal,Grass,Psychic,7,0,4505,2005,True
+turn3,Double Slap,Exeggcute,107.0,17.0,Psychic,Normal,Grass,Psychic,7,0,4505,2005,True
+turn4,Double Slap,Exeggcute,107.0,-7.0,Psychic,Normal,Grass,Psychic,7,0,4505,2005,True
+turn1,Confusion,Exeggutor,77.0,130.0,Psychic,Normal,Grass,Psychic,0,0,4505,2755,False
+turn2,Confusion,Exeggutor,55.0,102.0,Psychic,Normal,Grass,Psychic,0,0,4505,2755,False
+turn3,Confusion,Exeggutor,32.0,79.0,Psychic,Normal,Grass,Psychic,0,0,4505,2755,False
+turn4,Confusion,Exeggutor,12.0,58.0,Psychic,Normal,Grass,Psychic,0,0,4505,2755,False
+turn5,Confusion,Exeggutor,-8.0,36.0,Psychic,Normal,Grass,Psychic,0,0,4505,2755,False
+turn1,Confusion,Cubone,65.0,52.0,Psychic,Normal,Ground,,0,0,4505,1755,True
+turn2,Confusion,Cubone,65.0,-13.0,Psychic,Normal,Ground,,0,0,4505,1755,True
+turn1,Confusion,Marowak,52.0,79.0,Psychic,Normal,Ground,,0,0,4505,2255,True
+turn2,Confusion,Marowak,2.0,39.0,Psychic,Normal,Ground,,0,0,4505,2255,True
+turn3,Confusion,Marowak,2.0,-1.0,Psychic,Normal,Ground,,0,0,4505,2255,True
+turn1,Confusion,Hitmonlee,-12.0,49.0,Psychic,Normal,Fighting,,0,0,4505,4355,False
+turn1,Confusion,Hitmonchan,49.0,46.0,Psychic,Normal,Fighting,,0,0,4505,3805,True
+turn2,Confusion,Hitmonchan,49.0,-14.0,Psychic,Normal,Fighting,,0,0,4505,3805,True
+turn1,Confusion,Lickitung,66.0,110.0,Psychic,Normal,Normal,,0,0,4505,1505,False
+turn2,Confusion,Lickitung,33.0,86.0,Psychic,Normal,Normal,,0,0,4505,1505,False
+turn3,Confusion,Lickitung,-3.0,40.0,Psychic,Normal,Normal,,0,0,4505,1505,False
+turn1,Confusion,Koffing,100,-37.0,Psychic,Normal,Poison,,0,0,4505,1755,True
+turn1,Confusion,Weezing,71.0,26.0,Psychic,Normal,Poison,,0,0,4505,3005,True
+turn2,Confusion,Weezing,40.0,8.0,Psychic,Normal,Poison,,0,0,4505,3005,True
+turn3,Confusion,Weezing,40.0,-80.0,Psychic,Normal,Poison,,0,0,4505,3005,True
+turn1,Confusion,Rhyhorn,48.0,16.0,Psychic,Normal,Ground,Rock,0,0,4505,1255,True
+turn2,Confusion,Rhyhorn,48.0,-101.0,Psychic,Normal,Ground,Rock,0,0,4505,1255,True
+turn1,Confusion,Rhydon,31.0,56.0,Psychic,Normal,Ground,Rock,0,0,4505,2005,True
+turn2,Confusion,Rhydon,31.0,-37.0,Psychic,Normal,Ground,Rock,0,0,4505,2005,True
+turn1,Double Slap,Chansey,93.0,156.0,Psychic,Normal,Normal,,0,0,4505,2505,True
+turn2,Double Slap,Chansey,93.0,-8.0,Psychic,Normal,Normal,,0,0,4505,2505,True
+turn1,Confusion,Tangela,112,33.0,Psychic,Normal,Grass,,0,0,4505,3005,True
+turn2,Confusion,Tangela,97.0,9.0,Psychic,Normal,Grass,,7,0,4505,3005,True
+turn3,Confusion,Tangela,97.0,-67.0,Psychic,Normal,Grass,,7,0,4505,3005,True
+turn1,Double Slap,Kangaskhan,40.0,124.0,Psychic,Normal,Normal,,0,0,4505,4505,False
+turn2,Double Slap,Kangaskhan,-21.0,124.0,Psychic,Normal,Normal,,0,0,4505,4505,False
+turn1,Confusion,Horsea,100,-39.0,Psychic,Normal,Water,,0,0,4505,3005,True
+turn1,Confusion,Seadra,45.0,42.0,Psychic,Normal,Water,,0,0,4505,4255,True
+turn2,Confusion,Seadra,45.0,-27.0,Psychic,Normal,Water,,0,0,4505,4255,True
+turn1,Confusion,Goldeen,71.0,45.0,Psychic,Normal,Water,,0,0,4505,3155,True
+turn2,Confusion,Goldeen,71.0,-14.0,Psychic,Normal,Water,,0,0,4505,3155,True
+turn1,Double Slap,Seaking,100,101.0,Psychic,Normal,Water,,0,0,4505,3405,True
+turn2,Double Slap,Seaking,100,83.0,Psychic,Normal,Water,,0,0,4505,3405,True
+turn3,Double Slap,Seaking,100,46.0,Psychic,Normal,Water,,0,0,4505,3405,True
+turn4,Double Slap,Seaking,100,8.0,Psychic,Normal,Water,,0,0,4505,3405,True
+turn5,Double Slap,Seaking,100,-10.0,Psychic,Normal,Water,,0,0,4505,3405,True
+turn1,Confusion,Staryu,100,50.0,Psychic,Normal,Water,,0,0,4505,4255,True
+turn2,Confusion,Staryu,67.0,50.0,Psychic,Normal,Water,,5,0,4505,4255,True
+turn3,Confusion,Staryu,50.0,14.0,Psychic,Normal,Water,,5,0,4505,4255,True
+turn4,Confusion,Staryu,50.0,-47.0,Psychic,Normal,Water,,5,0,4505,4255,True
+turn1,Confusion,Starmie,40.0,101.0,Psychic,Normal,Water,Psychic,0,0,4505,5755,False
+turn2,Confusion,Starmie,-16.0,101.0,Psychic,Normal,Water,Psychic,0,0,4505,5755,False
+turn1,Double Slap,Mr. Mime,73.0,84.0,Psychic,Normal,Psychic,Normal,0,0,4505,4505,False
+turn2,Double Slap,Mr. Mime,49.0,68.0,Psychic,Normal,Psychic,Normal,0,0,4505,4505,False
+turn3,Double Slap,Mr. Mime,33.0,32.0,Psychic,Normal,Psychic,Normal,0,0,4505,4505,False
+turn4,Double Slap,Mr. Mime,15.0,14.0,Psychic,Normal,Psychic,Normal,0,0,4505,4505,False
+turn5,Double Slap,Mr. Mime,1.0,1.0,Psychic,Normal,Psychic,Normal,0,0,4505,4505,False
+turn6,Double Slap,Mr. Mime,-13.0,1.0,Psychic,Normal,Psychic,Normal,0,0,4505,4505,False
+turn1,Double Slap,Scyther,39.0,91.0,Psychic,Normal,Bug,Flying,0,0,4505,5255,False
+turn2,Double Slap,Scyther,-21.0,91.0,Psychic,Normal,Bug,Flying,0,0,4505,5255,False
+turn1,Double Slap,Jynx,63.0,86.0,Psychic,Normal,Ice,Psychic,0,0,4505,4755,False
+turn2,Double Slap,Jynx,24.0,60.0,Psychic,Normal,Ice,Psychic,0,0,4505,4755,False
+turn3,Double Slap,Jynx,-13.0,60.0,Psychic,Normal,Ice,Psychic,0,0,4505,4755,False
+turn1,Confusion,Electabuzz,38.0,107.0,Psychic,Normal,Electric,,0,0,4505,5255,False
+turn2,Confusion,Electabuzz,-26.0,107.0,Psychic,Normal,Electric,,0,0,4505,5255,False
+turn1,Confusion,Magmar,56.0,90.0,Psychic,Normal,Fire,,0,0,4505,4655,False
+turn2,Confusion,Magmar,6.0,72.0,Psychic,Normal,Fire,,0,0,4505,4655,False
+turn3,Confusion,Magmar,-45.0,72.0,Psychic,Normal,Fire,,0,0,4505,4655,False
+turn1,Confusion,Pinsir,100,78.0,Psychic,Normal,Bug,,0,0,4505,4255,True
+turn2,Confusion,Pinsir,100,35.0,Psychic,Normal,Bug,,0,0,4505,4255,True
+turn3,Confusion,Pinsir,100,-12.0,Psychic,Normal,Bug,,0,0,4505,4255,True
+turn1,Double Slap,Tauros,20.0,45.0,Psychic,Normal,Normal,,0,0,4505,5505,False
+turn2,Double Slap,Tauros,-71.0,3.0,Psychic,Normal,Normal,,0,0,4505,5505,False
+turn1,Confusion,Magikarp,100,60.0,Psychic,Normal,Water,,0,0,4505,4005,True
+turn2,Confusion,Magikarp,100,-95.0,Psychic,Normal,Water,,0,0,4505,4005,True
+turn1,Confusion,Gyarados,66.0,124.0,Psychic,Normal,Water,Flying,0,0,4505,4055,False
+turn2,Confusion,Gyarados,27.0,93.0,Psychic,Normal,Water,Flying,0,0,4505,4055,False
+turn3,Confusion,Gyarados,-10.0,60.0,Psychic,Normal,Water,Flying,0,0,4505,4055,False
+turn1,Confusion,Lapras,51.0,156.0,Psychic,Normal,Water,Ice,0,0,4505,3005,False
+turn2,Confusion,Lapras,-2.0,123.0,Psychic,Normal,Water,Ice,0,0,4505,3005,False
+turn1,Confusion,Ditto,100,43.0,Psychic,Normal,Normal,,0,0,4505,2405,True
+turn2,Confusion,Ditto,100,21.0,Psychic,Normal,Normal,,0,0,4505,2405,True
+turn3,Confusion,Ditto,100,-50.0,Psychic,Normal,Normal,,0,0,4505,2405,True
+turn1,Confusion,Eevee,69.0,71.0,Psychic,Normal,Normal,,0,0,4505,2755,True
+turn2,Confusion,Eevee,34.0,38.0,Psychic,Normal,Normal,,0,0,4505,2755,True
+turn3,Confusion,Eevee,34.0,-13.0,Psychic,Normal,Normal,,0,0,4505,2755,True
+turn1,Confusion,Vaporeon,52.0,158.0,Psychic,Normal,Water,,0,0,4505,3255,False
+turn2,Confusion,Vaporeon,2.0,142.0,Psychic,Normal,Water,,0,0,4505,3255,False
+turn3,Confusion,Vaporeon,-49.0,106.0,Psychic,Normal,Water,,0,0,4505,3255,False
+turn1,Double Slap,Jolteon,75.0,89.0,Psychic,Normal,Electric,,0,0,4505,6505,False
+turn2,Double Slap,Jolteon,49.0,57.0,Psychic,Normal,Electric,,0,0,4505,6505,False
+turn3,Double Slap,Jolteon,26.0,22.0,Psychic,Normal,Electric,,0,0,4505,6505,False
+turn4,Double Slap,Jolteon,1.0,4.0,Psychic,Normal,Electric,,0,0,4505,6505,False
+turn5,Double Slap,Jolteon,-22.0,4.0,Psychic,Normal,Electric,,0,0,4505,6505,False
+turn1,Double Slap,Flareon,44.0,93.0,Psychic,Normal,Fire,,0,0,4505,3255,False
+turn2,Double Slap,Flareon,-15.0,73.0,Psychic,Normal,Fire,,0,0,4505,3255,False
+turn1,Confusion,Porygon,63.0,84.0,Psychic,Normal,Normal,,0,0,4505,2005,True
+turn2,Confusion,Porygon,24.0,40.0,Psychic,Normal,Normal,,0,0,4505,2005,True
+turn3,Confusion,Porygon,24.0,-4.0,Psychic,Normal,Normal,,0,0,4505,2005,True
+turn1,Confusion,Omanyte,81.0,42.0,Psychic,Normal,Rock,Water,0,0,4505,1755,True
+turn2,Confusion,Omanyte,81.0,-18.0,Psychic,Normal,Rock,Water,0,0,4505,1755,True
+turn1,Confusion,Omastar,76.0,84.0,Psychic,Normal,Rock,Water,0,0,4505,2755,True
+turn2,Confusion,Omastar,49.0,41.0,Psychic,Normal,Rock,Water,0,0,4505,2755,True
+turn3,Confusion,Omastar,49.0,-8.0,Psychic,Normal,Rock,Water,0,0,4505,2755,True
+turn1,Confusion,Kabuto,66.0,21.0,Psychic,Normal,Rock,Water,0,0,4505,2755,True
+turn2,Confusion,Kabuto,66.0,-45.0,Psychic,Normal,Rock,Water,0,0,4505,2755,True
+turn1,Confusion,Kabutops,51.0,72.0,Psychic,Normal,Rock,Water,0,0,4505,4005,False
+turn2,Confusion,Kabutops,-4.0,27.0,Psychic,Normal,Rock,Water,0,0,4505,4005,False
+turn1,Confusion,Aerodactyl,37.0,95.0,Psychic,Normal,Rock,Flying,0,0,4505,6505,False
+turn2,Confusion,Aerodactyl,-24.0,95.0,Psychic,Normal,Rock,Flying,0,0,4505,6505,False
+turn1,Confusion,Snorlax,-20.0,191.0,Psychic,Normal,Normal,,0,0,4505,1505,False
+turn1,Confusion,Articuno,45.0,123.0,Psychic,Normal,Ice,Flying,0,0,4505,4255,False
+turn2,Confusion,Articuno,-7.0,98.0,Psychic,Normal,Ice,Flying,0,0,4505,4255,False
+turn1,Confusion,Zapdos,34.0,110.0,Psychic,Normal,Electric,Flying,0,0,4505,5005,False
+turn2,Confusion,Zapdos,-40.0,110.0,Psychic,Normal,Electric,Flying,0,0,4505,5005,False
+turn1,Confusion,Moltres,-30.0,150,Psychic,Normal,Fire,Flying,0,0,4505,4505,False
+turn1,Double Slap,Dratini,67.0,35.0,Psychic,Normal,Dragon,,0,0,4505,2505,True
+turn2,Double Slap,Dratini,33.0,11.0,Psychic,Normal,Dragon,,0,0,4505,2505,True
+turn3,Double Slap,Dratini,33.0,-13.0,Psychic,Normal,Dragon,,0,0,4505,2505,True
+turn1,Double Slap,Dragonair,100,72.0,Psychic,Normal,Dragon,,0,0,4505,3505,True
+turn2,Double Slap,Dragonair,60,26.0,Psychic,Normal,Dragon,,4,0,4505,3505,True
+turn3,Double Slap,Dragonair,60,-1.0,Psychic,Normal,Dragon,,4,0,4505,3505,True
+turn1,Double Slap,Dragonite,100,120.0,Psychic,Normal,Dragon,Flying,0,0,4505,4005,False
+turn2,Double Slap,Dragonite,60,120.0,Psychic,Normal,Dragon,Flying,4,0,4505,4005,False
+turn3,Double Slap,Dragonite,20,106.0,Psychic,Normal,Dragon,Flying,4,0,4505,4005,False
+turn4,Double Slap,Dragonite,-20,106.0,Psychic,Normal,Dragon,Flying,4,0,4505,4005,False
+turn1,Confusion,Mewtwo,100,166,Psychic,Normal,Psychic,,0,0,4505,6505,False
+turn2,Confusion,Mewtwo,80.0,166,Psychic,Normal,Psychic,,1,0,4505,6505,False
+turn3,Confusion,Mewtwo,60.0,166,Psychic,Normal,Psychic,,1,0,4505,6505,False
+turn4,Confusion,Mewtwo,39.0,166,Psychic,Normal,Psychic,,1,0,4505,6505,False
+turn5,Confusion,Mewtwo,18.0,166,Psychic,Normal,Psychic,,1,0,4505,6505,False
+turn6,Confusion,Mewtwo,18.0,166,Psychic,Normal,Psychic,,0,0,4505,6505,False
+turn7,Confusion,Mewtwo,-4.0,166,Psychic,Normal,Psychic,,1,0,4505,6505,False
+turn1,Confusion,Mew,74.0,148.0,Psychic,Normal,Psychic,,0,0,4505,5005,False
+turn2,Confusion,Mew,52.0,132.0,Psychic,Normal,Psychic,,0,0,4505,5005,False
+turn3,Confusion,Mew,30.0,120.0,Psychic,Normal,Psychic,,0,0,4505,5005,False
+turn4,Confusion,Mew,6.0,96.0,Psychic,Normal,Psychic,,0,0,4505,5005,False
+turn5,Confusion,Mew,-16.0,96.0,Psychic,Normal,Psychic,,0,0,4505,5005,False

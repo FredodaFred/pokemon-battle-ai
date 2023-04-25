@@ -1,0 +1,299 @@
+turn_num,op_name,my_hp,op_hp,my_type1,my_type2,op_type1,op_type2,my_status,op_status,my_speed,op_speedwin
+turn1,Gust,Bulbasaur,76.0,72.0,Normal,Flying,Grass,Poison,0,0,3755,2255,True
+turn2,Gust,Bulbasaur,57.0,43.0,Normal,Flying,Grass,Poison,0,0,3755,2255,True
+turn3,Gust,Bulbasaur,39.0,11.0,Normal,Flying,Grass,Poison,0,0,3755,2255,True
+turn4,Gust,Bulbasaur,39.0,-22.0,Normal,Flying,Grass,Poison,0,0,3755,2255,True
+turn1,Gust,Ivysaur,85,95.0,Normal,Flying,Grass,Poison,0,0,3755,3005,False
+turn2,Gust,Ivysaur,50.0,70.0,Normal,Flying,Grass,Poison,3,0,3755,3005,False
+turn3,Gust,Ivysaur,15.0,43.0,Normal,Flying,Grass,Poison,3,0,3755,3005,False
+turn4,Gust,Ivysaur,-9.0,17.0,Normal,Flying,Grass,Poison,3,0,3755,3005,False
+turn1,Gust,Venusaur,-8.0,140,Normal,Flying,Grass,Poison,0,0,3755,4005,False
+turn1,Quick Attack,Charmander,3.0,51.0,Normal,Flying,Fire,,0,0,3755,3255,False
+turn2,Quick Attack,Charmander,-100.0,4.0,Normal,Flying,Fire,,0,0,3755,3255,False
+turn1,Quick Attack,Charmeleon,-32.0,80.0,Normal,Flying,Fire,,0,0,3755,4005,False
+turn1,Quick Attack,Charizard,-71.0,108.0,Normal,Flying,Fire,Flying,0,0,3755,5005,False
+turn1,Quick Attack,Squirtle,33.0,70.0,Normal,Flying,Water,,0,0,3755,2155,False
+turn2,Quick Attack,Squirtle,-24.0,38.0,Normal,Flying,Water,,0,0,3755,2155,False
+turn1,Quick Attack,Wartortle,24.0,90.0,Normal,Flying,Water,,0,0,3755,2905,False
+turn2,Quick Attack,Wartortle,-55.0,60.0,Normal,Flying,Water,,0,0,3755,2905,False
+turn1,Quick Attack,Blastoise,-6.0,115.0,Normal,Flying,Water,,0,0,3755,3905,False
+turn1,Gust,Caterpie,83.0,20.0,Normal,Flying,Bug,,0,0,3755,2255,True
+turn2,Gust,Caterpie,83.0,-76.0,Normal,Flying,Bug,,0,0,3755,2255,True
+turn1,Gust,Metapod,86.0,42.0,Normal,Flying,Bug,,0,0,3755,1505,True
+turn2,Gust,Metapod,86.0,-31.0,Normal,Flying,Bug,,0,0,3755,1505,True
+turn1,Gust,Butterfree,95,91.0,Normal,Flying,Bug,Flying,0,0,3755,3505,False
+turn2,Gust,Butterfree,31.0,91.0,Normal,Flying,Bug,Flying,1,0,3755,3505,False
+turn3,Gust,Butterfree,-36.0,91.0,Normal,Flying,Bug,Flying,1,0,3755,3505,False
+turn1,Gust,Weedle,86.0,10.0,Normal,Flying,Bug,Poison,0,0,3755,2505,True
+turn2,Gust,Weedle,86.0,-86.0,Normal,Flying,Bug,Poison,0,0,3755,2505,True
+turn1,Gust,Kakuna,84.0,37.0,Normal,Flying,Bug,Poison,0,0,3755,1755,True
+turn2,Gust,Kakuna,84.0,-32.0,Normal,Flying,Bug,Poison,0,0,3755,1755,True
+turn1,Gust,Beedrill,61.0,97.0,Normal,Flying,Bug,Poison,0,0,3755,3755,False
+turn2,Gust,Beedrill,-7.0,97.0,Normal,Flying,Bug,Poison,0,0,3755,3755,False
+turn1,Quick Attack,Pidgey,56.0,44.0,Normal,Flying,Normal,Flying,0,0,3755,2805,True
+turn2,Quick Attack,Pidgey,56.0,-9.0,Normal,Flying,Normal,Flying,0,0,3755,2805,True
+turn1,Quick Attack,Pidgeotto,40.0,81.0,Normal,Flying,Normal,Flying,0,0,3755,3555,False
+turn2,Quick Attack,Pidgeotto,-9.0,38.0,Normal,Flying,Normal,Flying,0,0,3755,3555,False
+turn1,Quick Attack,Pidgeot,31.0,114.0,Normal,Flying,Normal,Flying,0,0,3755,5055,False
+turn2,Quick Attack,Pidgeot,-41.0,85.0,Normal,Flying,Normal,Flying,0,0,3755,5055,False
+turn1,Quick Attack,Rattata,36.0,31.0,Normal,Flying,Normal,,0,0,3755,3605,True
+turn2,Quick Attack,Rattata,36.0,-33.0,Normal,Flying,Normal,,0,0,3755,3605,True
+turn1,Quick Attack,Raticate,11.0,77.0,Normal,Flying,Normal,,0,0,3755,4855,False
+turn2,Quick Attack,Raticate,-74.0,39.0,Normal,Flying,Normal,,0,0,3755,4855,False
+turn1,Quick Attack,Spearow,25.0,29.0,Normal,Flying,Normal,Flying,0,0,3755,3505,True
+turn2,Quick Attack,Spearow,25.0,-44.0,Normal,Flying,Normal,Flying,0,0,3755,3505,True
+turn1,Quick Attack,Fearow,2.0,89.0,Normal,Flying,Normal,Flying,0,0,3755,5005,False
+turn2,Quick Attack,Fearow,-106.0,54.0,Normal,Flying,Normal,Flying,0,0,3755,5005,False
+turn1,Quick Attack,Ekans,64.0,48.0,Normal,Flying,Poison,,0,0,3755,2755,True
+turn2,Quick Attack,Ekans,27.0,2.0,Normal,Flying,Poison,,0,0,3755,2755,True
+turn3,Quick Attack,Ekans,27.0,-45.0,Normal,Flying,Poison,,0,0,3755,2755,True
+turn1,Quick Attack,Arbok,50.0,87.0,Normal,Flying,Poison,,0,0,3755,4005,False
+turn2,Quick Attack,Arbok,2.0,56.0,Normal,Flying,Poison,,0,0,3755,4005,False
+turn3,Quick Attack,Arbok,-46.0,22.0,Normal,Flying,Poison,,0,0,3755,4005,False
+turn1,Quick Attack,Pikachu,-116.0,40.0,Normal,Flying,Electric,,0,0,3755,4505,False
+turn1,Quick Attack,Raichu,-240.0,82.0,Normal,Flying,Electric,,0,0,3755,5505,False
+turn1,Quick Attack,Sandshrew,42.0,85.0,Normal,Flying,Ground,,0,0,3755,2005,False
+turn2,Quick Attack,Sandshrew,-3.0,57.0,Normal,Flying,Ground,,0,0,3755,2005,False
+turn1,Quick Attack,Sandslash,25.0,114.0,Normal,Flying,Ground,,0,0,3755,3255,False
+turn2,Quick Attack,Sandslash,-43.0,93.0,Normal,Flying,Ground,,0,0,3755,3255,False
+turn1,Quick Attack,Nidoran♀,67.0,75.0,Normal,Flying,Poison,,0,0,3755,2055,True
+turn2,Quick Attack,Nidoran♀,39.0,34.0,Normal,Flying,Poison,,0,0,3755,2055,True
+turn3,Quick Attack,Nidoran♀,39.0,-5.0,Normal,Flying,Poison,,0,0,3755,2055,True
+turn1,Quick Attack,Nidorina,59.0,95.0,Normal,Flying,Poison,,0,0,3755,2805,False
+turn2,Quick Attack,Nidorina,25.0,59.0,Normal,Flying,Poison,,0,0,3755,2805,False
+turn3,Quick Attack,Nidorina,-11.0,23.0,Normal,Flying,Poison,,0,0,3755,2805,False
+turn1,Quick Attack,Nidoqueen,28.0,122.0,Normal,Flying,Poison,Ground,0,0,3755,3805,False
+turn2,Quick Attack,Nidoqueen,-41.0,95.0,Normal,Flying,Poison,Ground,0,0,3755,3805,False
+turn1,Quick Attack,Nidoran♂,-65440,55.0,Normal,Flying,Poison,,0,0,3755,2505,False
+turn1,Quick Attack,Nidorino,95,80.0,Normal,Flying,Poison,,0,0,3755,3255,True
+turn2,Quick Attack,Nidorino,95,44.0,Normal,Flying,Poison,,0,0,3755,3255,True
+turn3,Quick Attack,Nidorino,95,6.0,Normal,Flying,Poison,,0,0,3755,3255,True
+turn4,Quick Attack,Nidorino,95,-33.0,Normal,Flying,Poison,,0,0,3755,3255,True
+turn1,Quick Attack,Nidoking,-26.0,110.0,Normal,Flying,Poison,Ground,0,0,3755,4255,False
+turn1,Quick Attack,Clefairy,35.0,84.0,Normal,Flying,Normal,,0,0,3755,1755,False
+turn2,Quick Attack,Clefairy,-9.0,39.0,Normal,Flying,Normal,,0,0,3755,1755,False
+turn1,Quick Attack,Clefable,95,123.0,Normal,Flying,Normal,,0,0,3755,3005,False
+turn2,Quick Attack,Clefable,47.0,123.0,Normal,Flying,Normal,,1,0,3755,3005,False
+turn3,Quick Attack,Clefable,47.0,94.0,Normal,Flying,Normal,,0,0,3755,3005,False
+turn4,Quick Attack,Clefable,17.0,94.0,Normal,Flying,Normal,,1,0,3755,3005,False
+turn5,Quick Attack,Clefable,-68.0,94.0,Normal,Flying,Normal,,1,0,3755,3005,False
+turn1,Quick Attack,Vulpix,16.0,46.0,Normal,Flying,Fire,,0,0,3755,3255,True
+turn2,Quick Attack,Vulpix,16.0,-12.0,Normal,Flying,Fire,,0,0,3755,3255,True
+turn1,Quick Attack,Ninetales,39.0,101.0,Normal,Flying,Fire,,0,0,3755,5005,False
+turn2,Quick Attack,Ninetales,-21.0,73.0,Normal,Flying,Fire,,0,0,3755,5005,False
+turn1,Quick Attack,Jigglypuff,13.0,72.0,Normal,Flying,Normal,,0,0,3755,1005,True
+turn2,Quick Attack,Jigglypuff,13.0,-27.0,Normal,Flying,Normal,,0,0,3755,1005,True
+turn1,Quick Attack,Wigglytuff,95,152.0,Normal,Flying,Normal,,0,0,3755,2255,False
+turn2,Quick Attack,Wigglytuff,63.0,152.0,Normal,Flying,Normal,,1,0,3755,2255,False
+turn3,Quick Attack,Wigglytuff,63.0,105.0,Normal,Flying,Normal,,0,0,3755,2255,False
+turn4,Quick Attack,Wigglytuff,15.0,105.0,Normal,Flying,Normal,,1,0,3755,2255,False
+turn5,Quick Attack,Wigglytuff,-19.0,105.0,Normal,Flying,Normal,,1,0,3755,2255,False
+turn1,Quick Attack,Zubat,56.0,39.0,Normal,Flying,Poison,Flying,0,0,3755,2755,True
+turn2,Quick Attack,Zubat,56.0,-23.0,Normal,Flying,Poison,Flying,0,0,3755,2755,True
+turn1,Quick Attack,Golbat,31.0,105.0,Normal,Flying,Poison,Flying,0,0,3755,4505,False
+turn2,Quick Attack,Golbat,-34.0,73.0,Normal,Flying,Poison,Flying,0,0,3755,4505,False
+turn1,Gust,Oddish,15.0,76.0,Normal,Flying,Grass,Poison,0,0,3755,1505,False
+turn2,Gust,Oddish,-60.0,43.0,Normal,Flying,Grass,Poison,0,0,3755,1505,False
+turn1,Gust,Gloom,3.0,91.0,Normal,Flying,Grass,Poison,0,0,3755,2005,False
+turn2,Gust,Gloom,-87.0,63.0,Normal,Flying,Grass,Poison,0,0,3755,2005,False
+turn1,Gust,Vileplume,95,113.0,Normal,Flying,Grass,Poison,0,0,3755,2505,False
+turn2,Gust,Vileplume,54.0,133.0,Normal,Flying,Grass,Poison,1,0,3755,2505,False
+turn3,Gust,Vileplume,54.0,109.0,Normal,Flying,Grass,Poison,0,0,3755,2505,False
+turn4,Gust,Vileplume,16.0,128.0,Normal,Flying,Grass,Poison,1,0,3755,2505,False
+turn5,Gust,Vileplume,16.0,105.0,Normal,Flying,Grass,Poison,0,0,3755,2505,False
+turn6,Gust,Vileplume,16.0,81.0,Normal,Flying,Grass,Poison,0,0,3755,2505,False
+turn7,Gust,Vileplume,-25.0,101.0,Normal,Flying,Grass,Poison,1,0,3755,2505,False
+turn1,Gust,Paras,56.0,38.0,Normal,Flying,Bug,Grass,0,0,3755,1255,True
+turn2,Gust,Paras,56.0,-39.0,Normal,Flying,Bug,Grass,0,0,3755,1255,True
+turn1,Gust,Parasect,39.0,91.0,Normal,Flying,Bug,Grass,0,0,3755,1505,False
+turn2,Gust,Parasect,-15.0,67.0,Normal,Flying,Bug,Grass,0,0,3755,1505,False
+turn1,Gust,Venonat,95,86.0,Normal,Flying,Bug,Poison,0,0,3755,2255,False
+turn2,Gust,Venonat,51.0,86.0,Normal,Flying,Bug,Poison,1,0,3755,2255,False
+turn3,Gust,Venonat,51.0,49.0,Normal,Flying,Bug,Poison,0,0,3755,2255,False
+turn4,Gust,Venonat,7.0,49.0,Normal,Flying,Bug,Poison,1,0,3755,2255,False
+turn5,Gust,Venonat,7.0,14.0,Normal,Flying,Bug,Poison,0,0,3755,2255,False
+turn6,Gust,Venonat,-34.0,14.0,Normal,Flying,Bug,Poison,1,0,3755,2255,False
+turn1,Gust,Venomoth,95,130,Normal,Flying,Bug,Poison,0,0,3755,4505,False
+turn2,Gust,Venomoth,-2.0,130,Normal,Flying,Bug,Poison,1,0,3755,4505,False
+turn1,Quick Attack,Diglett,95,-11.0,Normal,Flying,Ground,,0,0,3755,4755,True
+turn1,Quick Attack,Dugtrio,44.0,50.0,Normal,Flying,Ground,,0,0,3755,6005,False
+turn2,Quick Attack,Dugtrio,-12.0,7.0,Normal,Flying,Ground,,0,0,3755,6005,False
+turn1,Quick Attack,Meowth,55.0,43.0,Normal,Flying,Normal,,0,0,3755,4505,True
+turn2,Quick Attack,Meowth,55.0,-21.0,Normal,Flying,Normal,,0,0,3755,4505,True
+turn1,Quick Attack,Persian,21.0,90.0,Normal,Flying,Normal,,0,0,3755,5755,False
+turn2,Quick Attack,Persian,-48.0,56.0,Normal,Flying,Normal,,0,0,3755,5755,False
+turn1,Quick Attack,Psyduck,49.0,63.0,Normal,Flying,Water,,0,0,3755,2755,False
+turn2,Quick Attack,Psyduck,-2.0,16.0,Normal,Flying,Water,,0,0,3755,2755,False
+turn1,Quick Attack,Golduck,1.0,109.0,Normal,Flying,Water,,0,0,3755,4255,False
+turn2,Quick Attack,Golduck,-99.0,79.0,Normal,Flying,Water,,0,0,3755,4255,False
+turn1,Gust,Mankey,36.0,59.0,Normal,Flying,Fighting,,0,0,3755,3505,False
+turn2,Gust,Mankey,-18.0,16.0,Normal,Flying,Fighting,,0,0,3755,3505,False
+turn1,Gust,Primeape,-28.0,125,Normal,Flying,Fighting,,0,0,3755,4755,False
+turn1,Quick Attack,Growlithe,37.0,37.0,Normal,Flying,Fire,,0,0,3755,3005,True
+turn2,Quick Attack,Growlithe,37.0,-29.0,Normal,Flying,Fire,,0,0,3755,3005,True
+turn1,Quick Attack,Arcanine,-59.0,97.0,Normal,Flying,Fire,,0,0,3755,4755,False
+turn1,Quick Attack,Poliwag,95,50.0,Normal,Flying,Water,,0,0,3755,4505,True
+turn2,Quick Attack,Poliwag,55.0,50.0,Normal,Flying,Water,,1,0,3755,4505,True
+turn3,Quick Attack,Poliwag,13.0,50.0,Normal,Flying,Water,,1,0,3755,4505,True
+turn4,Quick Attack,Poliwag,13.0,-7.0,Normal,Flying,Water,,0,0,3755,4505,True
+turn1,Quick Attack,Poliwhirl,-1.0,93.0,Normal,Flying,Water,,0,0,3755,4505,False
+turn1,Gust,Poliwrath,-30.0,127.0,Normal,Flying,Water,Fighting,0,0,3755,3505,False
+turn1,Quick Attack,Abra,95,-45.0,Normal,Flying,Psychic,,0,0,3755,4505,True
+turn1,Quick Attack,Kadabra,-33.0,31.0,Normal,Flying,Psychic,,0,0,3755,5255,False
+turn1,Quick Attack,Alakazam,-110.0,70.0,Normal,Flying,Psychic,,0,0,3755,6005,False
+turn1,Gust,Machop,38.0,73.0,Normal,Flying,Fighting,,0,0,3755,1755,False
+turn2,Gust,Machop,-15.0,20.0,Normal,Flying,Fighting,,0,0,3755,1755,False
+turn1,Gust,Machoke,30.0,108.0,Normal,Flying,Fighting,,0,0,3755,2255,False
+turn2,Gust,Machoke,-42.0,76.0,Normal,Flying,Fighting,,0,0,3755,2255,False
+turn1,Gust,Machamp,4.0,126.0,Normal,Flying,Fighting,,0,0,3755,2755,False
+turn2,Gust,Machamp,-89.0,100.0,Normal,Flying,Fighting,,0,0,3755,2755,False
+turn1,Gust,Bellsprout,85,46.0,Normal,Flying,Grass,Poison,0,0,3755,2005,True
+turn2,Gust,Bellsprout,85,-14.0,Normal,Flying,Grass,Poison,3,0,3755,2005,True
+turn1,Gust,Weepinbell,85,81.0,Normal,Flying,Grass,Poison,0,0,3755,2755,True
+turn2,Gust,Weepinbell,13.0,36.0,Normal,Flying,Grass,Poison,3,0,3755,2755,True
+turn3,Gust,Weepinbell,13.0,-5.0,Normal,Flying,Grass,Poison,3,0,3755,2755,True
+turn1,Gust,Victreebel,13.0,111.0,Normal,Flying,Grass,Poison,0,0,3755,3505,False
+turn2,Gust,Victreebel,-62.0,82.0,Normal,Flying,Grass,Poison,0,0,3755,3505,False
+turn1,Quick Attack,Tentacool,95,42.0,Normal,Flying,Water,Poison,0,0,3755,3505,True
+turn2,Quick Attack,Tentacool,95,-17.0,Normal,Flying,Water,Poison,5,0,3755,3505,True
+turn1,Quick Attack,Tentacruel,-1.0,104.0,Normal,Flying,Water,Poison,0,0,3755,5005,False
+turn1,Quick Attack,Geodude,-18.0,89.0,Normal,Flying,Rock,Ground,0,0,3755,1005,False
+turn1,Quick Attack,Graveler,-112.0,105.0,Normal,Flying,Rock,Ground,0,0,3755,1755,False
+turn1,Quick Attack,Golem,-157.0,131.0,Normal,Flying,Rock,Ground,0,0,3755,2255,False
+turn1,Quick Attack,Ponyta,41.0,69.0,Normal,Flying,Fire,,0,0,3755,4505,False
+turn2,Quick Attack,Ponyta,-9.0,27.0,Normal,Flying,Fire,,0,0,3755,4505,False
+turn1,Quick Attack,Rapidash,37.0,94.0,Normal,Flying,Fire,,0,0,3755,5255,False
+turn2,Quick Attack,Rapidash,-22.0,61.0,Normal,Flying,Fire,,0,0,3755,5255,False
+turn1,Quick Attack,Slowpoke,61.0,116.0,Normal,Flying,Water,Psychic,0,0,3755,755,False
+turn2,Quick Attack,Slowpoke,24.0,84.0,Normal,Flying,Water,Psychic,0,0,3755,755,False
+turn3,Quick Attack,Slowpoke,-13.0,51.0,Normal,Flying,Water,Psychic,0,0,3755,755,False
+turn1,Quick Attack,Slowbro,-114.0,133.0,Normal,Flying,Water,Psychic,0,0,3755,1505,False
+turn1,Quick Attack,Magnemite,-42.0,53.0,Normal,Flying,Electric,,0,0,3755,2255,False
+turn1,Quick Attack,Magneton,-309.0,87.0,Normal,Flying,Electric,,0,0,3755,3505,False
+turn1,Quick Attack,Farfetch'd,28.0,69.0,Normal,Flying,Normal,Flying,0,0,3755,3005,False
+turn2,Quick Attack,Farfetch'd,-35.0,27.0,Normal,Flying,Normal,Flying,0,0,3755,3005,False
+turn1,Quick Attack,Doduo,50.0,49.0,Normal,Flying,Normal,Flying,0,0,3755,3755,False
+turn2,Quick Attack,Doduo,-1.0,4.0,Normal,Flying,Normal,Flying,0,0,3755,3755,False
+turn1,Quick Attack,Dodrio,-25.0,89.0,Normal,Flying,Normal,Flying,0,0,3755,5005,False
+turn1,Quick Attack,Seel,-8.0,87.0,Normal,Flying,Water,,0,0,3755,2255,False
+turn1,Quick Attack,Dewgong,-174.0,122.0,Normal,Flying,Water,Ice,0,0,3755,3505,False
+turn1,Quick Attack,Grimer,51.0,99.0,Normal,Flying,Poison,,0,0,3755,1255,False
+turn2,Quick Attack,Grimer,3.0,57.0,Normal,Flying,Poison,,0,0,3755,1255,False
+turn3,Quick Attack,Grimer,-42.0,15.0,Normal,Flying,Poison,,0,0,3755,1255,False
+turn1,Quick Attack,Muk,-14.0,135.0,Normal,Flying,Poison,,0,0,3755,2505,False
+turn1,Quick Attack,Shellder,23.0,68.0,Normal,Flying,Water,,0,0,3755,2005,False
+turn2,Quick Attack,Shellder,-45.0,46.0,Normal,Flying,Water,,0,0,3755,2005,False
+turn1,Quick Attack,Cloyster,-166.0,95.0,Normal,Flying,Water,Ice,0,0,3755,3505,False
+turn1,Gust,Gastly,95,64.0,Normal,Flying,Ghost,Poison,0,0,3755,4005,False
+turn2,Gust,Gastly,-6.0,64.0,Normal,Flying,Ghost,Poison,5,0,3755,4005,False
+turn1,Gust,Haunter,48.0,105,Normal,Flying,Ghost,Poison,0,0,3755,4755,False
+turn2,Gust,Haunter,-2.0,105,Normal,Flying,Ghost,Poison,5,0,3755,4755,False
+turn1,Gust,Gengar,95,106.0,Normal,Flying,Ghost,Poison,0,0,3755,5505,False
+turn2,Gust,Gengar,45,92.0,Normal,Flying,Ghost,Poison,5,0,3755,5505,False
+turn3,Gust,Gengar,-5,92.0,Normal,Flying,Ghost,Poison,5,0,3755,5505,False
+turn1,Quick Attack,Onix,-7.0,87.0,Normal,Flying,Rock,Ground,0,0,3755,3505,False
+turn1,Quick Attack,Drowzee,95,69.0,Normal,Flying,Psychic,,0,0,3755,2105,False
+turn2,Quick Attack,Drowzee,58.0,69.0,Normal,Flying,Psychic,,1,0,3755,2105,False
+turn3,Quick Attack,Drowzee,58.0,19.0,Normal,Flying,Psychic,,0,0,3755,2105,False
+turn4,Quick Attack,Drowzee,20.0,19.0,Normal,Flying,Psychic,,1,0,3755,2105,False
+turn5,Quick Attack,Drowzee,-18.0,19.0,Normal,Flying,Psychic,,1,0,3755,2105,False
+turn1,Quick Attack,Hypno,-18.0,113.0,Normal,Flying,Psychic,,0,0,3755,3355,False
+turn1,Quick Attack,Krabby,-59.0,65.0,Normal,Flying,Water,,0,0,3755,2505,False
+turn1,Quick Attack,Kingler,-83.0,96.0,Normal,Flying,Water,,0,0,3755,3755,False
+turn1,Quick Attack,Voltorb,29.0,58.0,Normal,Flying,Electric,,0,0,3755,5005,False
+turn2,Quick Attack,Voltorb,-44.0,17.0,Normal,Flying,Electric,,0,0,3755,5005,False
+turn1,Quick Attack,Electrode,-17.0,86.0,Normal,Flying,Electric,,0,0,3755,7005,False
+turn1,Gust,Exeggcute,105,70.0,Normal,Flying,Grass,Psychic,0,0,3755,2005,True
+turn2,Gust,Exeggcute,64.0,18.0,Normal,Flying,Grass,Psychic,7,0,3755,2005,True
+turn3,Gust,Exeggcute,64.0,-23.0,Normal,Flying,Grass,Psychic,7,0,3755,2005,True
+turn1,Gust,Exeggutor,-54.0,124.0,Normal,Flying,Grass,Psychic,0,0,3755,2755,False
+turn1,Quick Attack,Cubone,76.0,86.0,Normal,Flying,Ground,,0,0,3755,1755,True
+turn2,Quick Attack,Cubone,55.0,62.0,Normal,Flying,Ground,,0,0,3755,1755,True
+turn3,Quick Attack,Cubone,37.0,37.0,Normal,Flying,Ground,,0,0,3755,1755,True
+turn4,Quick Attack,Cubone,17.0,11.0,Normal,Flying,Ground,,0,0,3755,1755,True
+turn5,Quick Attack,Cubone,17.0,-12.0,Normal,Flying,Ground,,0,0,3755,1755,True
+turn1,Quick Attack,Marowak,63.0,98.0,Normal,Flying,Ground,,0,0,3755,2255,False
+turn2,Quick Attack,Marowak,33.0,77.0,Normal,Flying,Ground,,0,0,3755,2255,False
+turn3,Quick Attack,Marowak,3.0,57.0,Normal,Flying,Ground,,0,0,3755,2255,False
+turn4,Quick Attack,Marowak,-29.0,35.0,Normal,Flying,Ground,,0,0,3755,2255,False
+turn1,Gust,Hitmonlee,-69.0,110,Normal,Flying,Fighting,,0,0,3755,4355,False
+turn1,Gust,Hitmonchan,-39.0,110,Normal,Flying,Fighting,,0,0,3755,3805,False
+turn1,Quick Attack,Lickitung,45.0,120.0,Normal,Flying,Normal,,0,0,3755,1505,False
+turn2,Quick Attack,Lickitung,-5.0,91.0,Normal,Flying,Normal,,0,0,3755,1505,False
+turn1,Quick Attack,Koffing,85,78.0,Normal,Flying,Poison,,0,0,3755,1755,False
+turn2,Quick Attack,Koffing,41.0,53.0,Normal,Flying,Poison,,3,0,3755,1755,False
+turn3,Quick Attack,Koffing,-1.0,30.0,Normal,Flying,Poison,,3,0,3755,1755,False
+turn1,Quick Attack,Weezing,-2.0,105.0,Normal,Flying,Poison,,0,0,3755,3005,False
+turn1,Quick Attack,Rhyhorn,28.0,94.0,Normal,Flying,Ground,Rock,0,0,3755,1255,False
+turn2,Quick Attack,Rhyhorn,-47.0,46.0,Normal,Flying,Ground,Rock,0,0,3755,1255,False
+turn1,Quick Attack,Rhydon,-13.0,104.0,Normal,Flying,Ground,Rock,0,0,3755,2005,False
+turn1,Quick Attack,Chansey,95,-84.0,Normal,Flying,Normal,,0,0,3755,2505,True
+turn1,Gust,Tangela,105,69.0,Normal,Flying,Grass,,0,0,3755,3005,True
+turn2,Gust,Tangela,98.0,12.0,Normal,Flying,Grass,,7,0,3755,3005,True
+turn3,Gust,Tangela,98.0,-34.0,Normal,Flying,Grass,,7,0,3755,3005,True
+turn1,Quick Attack,Kangaskhan,5.0,137.0,Normal,Flying,Normal,,0,0,3755,4505,False
+turn2,Quick Attack,Kangaskhan,-86.0,110.0,Normal,Flying,Normal,,0,0,3755,4505,False
+turn1,Quick Attack,Horsea,48.0,58.0,Normal,Flying,Water,,0,0,3755,3005,False
+turn2,Quick Attack,Horsea,-5.0,28.0,Normal,Flying,Water,,0,0,3755,3005,False
+turn1,Quick Attack,Seadra,-86.0,90.0,Normal,Flying,Water,,0,0,3755,4255,False
+turn1,Quick Attack,Goldeen,56.0,67.0,Normal,Flying,Water,,0,0,3755,3155,True
+turn2,Quick Attack,Goldeen,15.0,33.0,Normal,Flying,Water,,0,0,3755,3155,True
+turn3,Quick Attack,Goldeen,15.0,-3.0,Normal,Flying,Water,,0,0,3755,3155,True
+turn1,Quick Attack,Seaking,-65440,105.0,Normal,Flying,Water,,0,0,3755,3405,False
+turn1,Quick Attack,Staryu,95,47.0,Normal,Flying,Water,,0,0,3755,4255,False
+turn2,Quick Attack,Staryu,45.0,7.0,Normal,Flying,Water,,5,0,3755,4255,False
+turn3,Quick Attack,Staryu,-49.0,7.0,Normal,Flying,Water,,5,0,3755,4255,False
+turn1,Quick Attack,Starmie,-106.0,92.0,Normal,Flying,Water,Psychic,0,0,3755,5755,False
+turn1,Quick Attack,Mr. Mime,13.0,67.0,Normal,Flying,Psychic,Normal,0,0,3755,4505,False
+turn2,Quick Attack,Mr. Mime,-73.0,32.0,Normal,Flying,Psychic,Normal,0,0,3755,4505,False
+turn1,Gust,Scyther,6.0,105.0,Normal,Flying,Bug,Flying,0,0,3755,5255,False
+turn2,Gust,Scyther,-79.0,105.0,Normal,Flying,Bug,Flying,0,0,3755,5255,False
+turn1,Quick Attack,Jynx,-10.0,61.0,Normal,Flying,Ice,Psychic,0,0,3755,4755,False
+turn1,Quick Attack,Electabuzz,-92.0,84.0,Normal,Flying,Electric,,0,0,3755,5255,False
+turn1,Quick Attack,Magmar,-74.0,88.0,Normal,Flying,Fire,,0,0,3755,4655,False
+turn1,Gust,Pinsir,-65440,125,Normal,Flying,Bug,,0,0,3755,4255,False
+turn1,Quick Attack,Tauros,-30.0,53.0,Normal,Flying,Normal,,0,0,3755,5505,False
+turn1,Quick Attack,Magikarp,95,38.0,Normal,Flying,Water,,0,0,3755,4005,True
+turn2,Quick Attack,Magikarp,95,-1.0,Normal,Flying,Water,,0,0,3755,4005,True
+turn1,Quick Attack,Gyarados,-15.0,128.0,Normal,Flying,Water,Flying,0,0,3755,4055,False
+turn1,Quick Attack,Lapras,-258.0,160.0,Normal,Flying,Water,Ice,0,0,3755,3005,False
+turn1,Quick Attack,Ditto,95,62.0,Normal,Flying,Normal,,0,0,3755,2405,True
+turn2,Quick Attack,Ditto,95,16.0,Normal,Flying,Normal,,0,0,3755,2405,True
+turn3,Quick Attack,Ditto,95,-32.0,Normal,Flying,Normal,,0,0,3755,2405,True
+turn1,Quick Attack,Eevee,46.0,70.0,Normal,Flying,Normal,,0,0,3755,2755,False
+turn2,Quick Attack,Eevee,-2.0,27.0,Normal,Flying,Normal,,0,0,3755,2755,False
+turn1,Quick Attack,Vaporeon,-182.0,151.0,Normal,Flying,Water,,0,0,3755,3255,False
+turn1,Quick Attack,Jolteon,-59.0,90.0,Normal,Flying,Electric,,0,0,3755,6505,False
+turn1,Quick Attack,Flareon,-85.0,91.0,Normal,Flying,Fire,,0,0,3755,3255,False
+turn1,Quick Attack,Porygon,-21.0,92.0,Normal,Flying,Normal,,0,0,3755,2005,False
+turn1,Quick Attack,Omanyte,69.0,85.0,Normal,Flying,Rock,Water,0,0,3755,1755,False
+turn2,Quick Attack,Omanyte,42.0,74.0,Normal,Flying,Rock,Water,0,0,3755,1755,False
+turn3,Quick Attack,Omanyte,15.0,64.0,Normal,Flying,Rock,Water,0,0,3755,1755,False
+turn4,Quick Attack,Omanyte,-9.0,52.0,Normal,Flying,Rock,Water,0,0,3755,1755,False
+turn1,Quick Attack,Omastar,58.0,120.0,Normal,Flying,Rock,Water,0,0,3755,2755,False
+turn2,Quick Attack,Omastar,22.0,110.0,Normal,Flying,Rock,Water,0,0,3755,2755,False
+turn3,Quick Attack,Omastar,-12.0,101.0,Normal,Flying,Rock,Water,0,0,3755,2755,False
+turn1,Quick Attack,Kabuto,42.0,77.0,Normal,Flying,Rock,Water,0,0,3755,2755,False
+turn2,Quick Attack,Kabuto,-9.0,66.0,Normal,Flying,Rock,Water,0,0,3755,2755,False
+turn1,Quick Attack,Kabutops,21.0,109.0,Normal,Flying,Rock,Water,0,0,3755,4005,False
+turn2,Quick Attack,Kabutops,-57.0,98.0,Normal,Flying,Rock,Water,0,0,3755,4005,False
+turn1,Quick Attack,Aerodactyl,8.0,123.0,Normal,Flying,Rock,Flying,0,0,3755,6505,False
+turn2,Quick Attack,Aerodactyl,-76.0,106.0,Normal,Flying,Rock,Flying,0,0,3755,6505,False
+turn1,Quick Attack,Snorlax,-99.0,185.0,Normal,Flying,Normal,,0,0,3755,1505,False
+turn1,Quick Attack,Articuno,-279.0,128.0,Normal,Flying,Ice,Flying,0,0,3755,4255,False
+turn1,Quick Attack,Zapdos,-360.0,123.0,Normal,Flying,Electric,Flying,0,0,3755,5005,False
+turn1,Quick Attack,Moltres,-84.0,124.0,Normal,Flying,Fire,Flying,0,0,3755,4505,False
+turn1,Quick Attack,Dratini,51.0,55.0,Normal,Flying,Dragon,,0,0,3755,2505,True
+turn2,Quick Attack,Dratini,7.0,7.0,Normal,Flying,Dragon,,0,0,3755,2505,True
+turn3,Quick Attack,Dratini,7.0,-41.0,Normal,Flying,Dragon,,0,0,3755,2505,True
+turn1,Quick Attack,Dragonair,95,88.0,Normal,Flying,Dragon,,0,0,3755,3505,False
+turn2,Quick Attack,Dragonair,55,55.0,Normal,Flying,Dragon,,4,0,3755,3505,False
+turn3,Quick Attack,Dragonair,15,55.0,Normal,Flying,Dragon,,4,0,3755,3505,False
+turn4,Quick Attack,Dragonair,-25,55.0,Normal,Flying,Dragon,,4,0,3755,3505,False
+turn1,Quick Attack,Dragonite,95,129.0,Normal,Flying,Dragon,Flying,0,0,3755,4005,False
+turn2,Quick Attack,Dragonite,55,129.0,Normal,Flying,Dragon,Flying,4,0,3755,4005,False
+turn3,Quick Attack,Dragonite,15,106.0,Normal,Flying,Dragon,Flying,4,0,3755,4005,False
+turn4,Quick Attack,Dragonite,-25,106.0,Normal,Flying,Dragon,Flying,4,0,3755,4005,False
+turn1,Quick Attack,Mewtwo,95,140.0,Normal,Flying,Psychic,,0,0,3755,6505,False
+turn2,Quick Attack,Mewtwo,-31.0,140.0,Normal,Flying,Psychic,,1,0,3755,6505,False
+turn1,Quick Attack,Mew,-73.0,137.0,Normal,Flying,Psychic,,0,0,3755,5005,False
