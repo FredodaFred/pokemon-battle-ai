@@ -6,9 +6,8 @@
 
 ## RBES (Rules Based Expert System)
 
+### Our Inference Engine:
 We used a series of production rules based on knowledge of the game of Pokemon to make an inference engine
-<br>
-Our Inference Engine:
 <br>
 Uses its knowledge of a pokemon’s moves and current status effects to model the decision making of a Pokemon Trainer
 <br>
@@ -20,7 +19,7 @@ Recommends the highest scoring move to the Pokemon Trainer each turn in battle
 <br>
 Data Used: Pokemon Database, Pokemon Moves Database, Pokemon Battle Damage Calculation Formulas
 <br>
-Data Sources
+### Data Sources
 <br>
 Damage Calculations: https://bulbapedia.bulbagarden.net/wiki/Damage
 <br>
