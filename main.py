@@ -29,7 +29,7 @@ if model_path:
 win_num = 0
 total_num_battle = 0
 
-for i in range(500):
+for i in range(100):
     pygame.init()
     font = pygame.font.SysFont("Arial", 20)
     screen = pygame.display.set_mode((1280, 720))
