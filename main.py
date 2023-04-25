@@ -1,37 +1,35 @@
 import pygame
 from classes import Pokemon, Engine, PokemonTrainer, waitPress
 from random import randint
+import joblib
+from tensorflow.keras.models import load_model
 import csv
 
+import warnings
+warnings.filterwarnings("ignore")
 # pygame setup
 
 
+######################################################################
+
+strategy = "DT"   # strategy choose from: "random", "RBES", "DT", "RL"
+model_path = "./models/pokemon_decision_tree_d5.pkl"
+# model_path = "./models/RL_model3.h5"
+
+model = None
+if model_path:
+    if strategy.lower() == "dt":
+        model = joblib.load(model_path)
+    elif strategy.lower() == "rl":
+        model = load_model(model_path)
+    if strategy.lower() not in ["dt", "rl"]:
+        model = None
+######################################################################
+
 win_num = 0
+total_num_battle = 0
 
-def write_battle_to_csv(data_dict, csv_writer_inst):
-    csv_rows = []
-    max_len = max([len(value) if isinstance(value, list) else 1 for value in data_dict.values()])
-
-    for i in range(max_len):
-        data_row = [f"turn{i+1}"]
-        for key in data_dict:
-            value = data_dict[key]
-            if isinstance(value, list):
-                data_row.append(value[i] if i < len(value) else '')
-            else:
-                data_row.append(value)
-
-        csv_rows.append(data_row)
-    csv_writer_inst.writerows(csv_rows)
-        
-##data collection
-empty_file = True
-file = open('./charizard_battle_data.csv', "w")
-header_row = ['turn_num', 'op_name', 'my_hp', 'op_hp', 'my_type1', 'my_type2', 'op_type1', 'op_type2', 'my_status', 'op_status', 'my_speed', 'win']
-csv_writer = csv.writer(file)
-csv_writer.writerow(header_row)
-
-for i in range(100):
+for i in range(500):
     pygame.init()
     font = pygame.font.SysFont("Arial", 20)
     screen = pygame.display.set_mode((1280, 720))
@@ -51,7 +49,7 @@ for i in range(100):
     Engine.pokeball_img = pygame.transform.scale(pygame.image.load("./pokeball.png").convert(), (50,50))
     Engine.pokeballfaint_img = pygame.transform.scale(pygame.image.load("./pokeball_faint.png").convert(), (50,50))
 
-
+    total_num_battle += 1
     engine.init_render()
     game_won = False
     init_seq = False
@@ -65,8 +63,8 @@ for i in range(100):
         
         if game_won:
             data = engine.GAME_RECORD
-            write_battle_to_csv(data, csv_writer)
-    
+            if data["win"]:
+                win_num += 1
             running = False
         
         if not init_seq:
@@ -83,10 +81,9 @@ for i in range(100):
             init_seq = True
         
 
-        game_won = engine.run_turn()
-
-
+        game_won = engine.run_turn(strategy, model)
         clock.tick(20)  # limits FPS to 20
-file.close()
+    print(f"{i+1} : {100 * win_num / total_num_battle:.2f}%")
+
 
 pygame.quit()

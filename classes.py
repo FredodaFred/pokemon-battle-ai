@@ -5,6 +5,7 @@ from pygame.locals import *
 from InferenceEngine import InferenceEngine
 from time import sleep
 import csv
+import numpy as np
 
 pygame.init()
 
@@ -401,10 +402,8 @@ class PokemonTrainer():
     def swap_pokemon(self, pokemon):
         self.team[0], self.team[self.team.index(pokemon)] = self.team[self.team.index(pokemon)], self.team[0]
 
-    def choose_attack(self, op_pk):
-        move = inference_engine.move_recomendation(self, op_pk)
-        if move == 'SWAP':
-            self.swap_pokemon()
+    def choose_attack(self):
+        move = choice(self.active_pokemon().moves)
         return move
     
     def num_pokemon(self):
@@ -442,6 +441,23 @@ class Engine():
                                 "my_speed" : [],
                                 "op_speed" : [],
                                 "win" : False } # train1 wins?
+        
+        self.type_to_index =  {"Grass": 0,
+                                'Bug': 1,
+                                'Ground': 2,
+                                'Poison': 3,
+                                'Dragon': 4,
+                                'Normal': 5,
+                                'Fire': 6,
+                                'Rock': 7,
+                                'Ice': 8,
+                                'Fighting': 9,
+                                'Water': 10,
+                                'Ghost': 11,
+                                'Electric': 12,
+                                'Psychic': 13}
+        
+        self.index_to_move =  {"charizard" : {0: "Dragon Rage", 1: "Slash", 2: "Leer", 3: "Flamethrower"}}
 
     def init_render(self):
         self.render_text(f"{self.trainer1.name} versus {self.trainer2.name}", refresh=True)
@@ -518,7 +534,7 @@ class Engine():
             self.trainer2.active_pokemon().load_sprite(self.screen, 900, 250, flip = False)
 
     
-    def run_turn(self):
+    def run_turn(self, strategy="random", model=None):
         '''
             Returns:
                 gameWon: boolean - signifies if game has been won on the turn or not
@@ -546,8 +562,8 @@ class Engine():
         t2_pokemon.render_status_symbol(self.screen, 1000, 620)
         pygame.display.flip()
 
-        at1 = self.trainer1.choose_attack(t2_pokemon)
-        at2 = self.trainer2.choose_attack(t1_pokemon)
+        at1 = self.trainer1.choose_attack()
+        at2 = self.trainer2.choose_attack()
 
         #Check for quick attack, this always moves first
         priority1 = at1['Name'] == 'Quick Attack'
@@ -557,10 +573,38 @@ class Engine():
         my_status = int(t1_pokemon.status)
         op_status = int(t2_pokemon.status)
 
-
-
         self.GAME_RECORD["my_speed"].append(t1_pokemon.speed)
-        self.GAME_RECORD["op_speed"].append(t2_pokemon.speed)     
+        self.GAME_RECORD["op_speed"].append(t2_pokemon.speed)   
+
+
+        if strategy.lower() == "rbes":
+            at1 = inference_engine.move_recomendation(self.trainer1, t2_pokemon)
+            if at1 == 'SWAP':
+                self.trainer1.swap_pokemon()
+
+        elif strategy.lower() != "random":
+
+            my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+            op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+            input_data = [my_hp, op_hp, self.type_to_index[self.GAME_RECORD["op_type1"]], \
+                    my_status, op_status, t2_pokemon.speed]
+
+            if strategy.lower() == "dt":
+                input_num = model.n_features_
+                move_num = model.predict([input_data[:input_num]])[0]
+
+            elif strategy.lower() == "rl":
+                input_data = [*input_data[:5], t2_pokemon.attack, t2_pokemon.defense, t2_pokemon.special_attack, t2_pokemon.special_defense, t2_pokemon.speed]
+                input_num = model.input_shape[1]
+                state = np.reshape(input_data[:input_num], [1, input_num])
+                q_values = model.predict(state, verbose=0)
+                move_num = np.argmax(q_values[0])
+
+            for move in t1_pokemon.moves:
+                if move["Name"] == self.index_to_move[t1_pokemon.name.lower()][move_num]:
+                    at1 = move
+                    break
+
         waitPress()
         if not priority2 and (t1_pokemon.speed*(stage_modifier[t1_pokemon.stat_stages[4]]) > t2_pokemon.speed*(stage_modifier[t2_pokemon.stat_stages[4]])) or priority1 :
 
