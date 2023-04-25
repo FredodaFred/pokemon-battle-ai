@@ -9,7 +9,7 @@
 We used a series of production rules based on knowledge of the game of Pokemon to make an inference engine
 <br>
 Our Inference Engine:
-##
+<br>
 Uses its knowledge of a pokemon’s moves and current status effects to model the decision making of a Pokemon Trainer
 ##
 Scores each of its current Pokemon’s move options
