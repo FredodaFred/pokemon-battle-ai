@@ -17,6 +17,8 @@ Chooses the highest scoring move option to use to against opponent
 <br>
 Recommends the highest scoring move to the Pokemon Trainer each turn in battle
 <br>
+Logic Diagram: https://app.diagrams.net/#G1qa-3euYMihw4ZtDVu00VMMIEIYdfPlNI
+<br>
 Data Used: Pokemon Database, Pokemon Moves Database, Pokemon Battle Damage Calculation Formulas
 <br>
 ### Data Sources
