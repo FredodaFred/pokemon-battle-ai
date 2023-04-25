@@ -100,9 +100,9 @@ class PokemonMakeDownEnv:
                 next_state.append(self.engine.GAME_RECORD[k][-1])
 
         # calculate reward
-        if next_state[2] >= 6:
+        if next_state[2] >= 6: #hard pokemon (types)
             reward = next_state[0] * 0.3 - next_state[1] * 0.1
-        else:
+        else: #easy pokemon (types)
             reward = next_state[0] * 0.3 - next_state[1] * 0.2
 
 
