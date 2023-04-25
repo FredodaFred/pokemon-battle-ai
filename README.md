@@ -1,4 +1,4 @@
-# pokemon-battle-ai
+# Pokemon Trainer AI
 
 ### Goal: Create an AI that can replicate the decisions of a Pokemon Trainer
 
