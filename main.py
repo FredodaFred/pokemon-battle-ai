@@ -16,15 +16,14 @@ strategy = "DT"   # strategy choose from: "random", "RBES", "DT", "RL"
 model_path = "./models/pokemon_decision_tree_d5.pkl"
 # model_path = "./models/RL_model3.h5"
 
+
+######################################################################
 model = None
 if model_path:
     if strategy.lower() == "dt":
         model = joblib.load(model_path)
     elif strategy.lower() == "rl":
         model = load_model(model_path)
-    if strategy.lower() not in ["dt", "rl"]:
-        model = None
-######################################################################
 
 win_num = 0
 total_num_battle = 0
