@@ -534,7 +534,7 @@ class Engine():
             self.trainer2.active_pokemon().load_sprite(self.screen, 900, 250, flip = False)
 
     
-    def run_turn(self, strategy="random", model=None):
+    def run_turn(self, strategy="random", model=None, action=None):
         '''
             Returns:
                 gameWon: boolean - signifies if game has been won on the turn or not
@@ -600,6 +600,9 @@ class Engine():
                 q_values = model.predict(state, verbose=0)
                 move_num = np.argmax(q_values[0])
 
+            elif strategy.lower() == "train":
+                move_num = action
+                
             for move in t1_pokemon.moves:
                 if move["Name"] == self.index_to_move[t1_pokemon.name.lower()][move_num]:
                     at1 = move
@@ -903,6 +906,13 @@ class Engine():
                     if check_faint(t2_pokemon):
                         self.handle_faint('2')
                         pygame.display.flip()
+                        
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)
                         return
                 else:
                     print('here')
@@ -1009,6 +1019,13 @@ class Engine():
                     if check_faint(t2_pokemon):
                         self.handle_faint('2')
                         pygame.display.flip()
+
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)
                         return
                 else:
                     self.render_text(f"{t1_pokemon.name} is paralyzed", refresh=True)
