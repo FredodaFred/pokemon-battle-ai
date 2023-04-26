@@ -12,9 +12,9 @@ warnings.filterwarnings("ignore")
 
 ######################################################################
 
-strategy = "DT"   # strategy choose from: "random", "RBES", "DT", "RL"
-model_path = "./models/pokemon_decision_tree_d5.pkl"
-# model_path = "./models/RL_model3.h5"
+strategy = "RL"   # strategy choose from: "random", "RBES", "DT", "RL"
+# model_path = "./models/pokemon_decision_tree_d5.pkl"
+model_path = "./models/RL_model3.h5"
 
 
 ######################################################################
