@@ -1,9 +1,6 @@
 import pygame
 from classes import Pokemon, Engine, PokemonTrainer, waitPress
 from random import randint
-import joblib
-from tensorflow.keras.models import load_model
-import csv
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -12,23 +9,16 @@ warnings.filterwarnings("ignore")
 
 ######################################################################
 
-strategy = "RL"   # strategy choose from: "random", "RBES", "DT", "RL"
 # model_path = "./models/pokemon_decision_tree_d5.pkl"
-model_path = "./models/RL_model3.h5"
-
+# model_path = "./models/RL_model3.h5"
+model_path = None
 
 ######################################################################
-model = None
-if model_path:
-    if strategy.lower() == "dt":
-        model = joblib.load(model_path)
-    elif strategy.lower() == "rl":
-        model = load_model(model_path)
 
 win_num = 0
 total_num_battle = 0
 
-for i in range(100):
+for i in range(10):
     pygame.init()
     font = pygame.font.SysFont("Arial", 20)
     screen = pygame.display.set_mode((1280, 720))
@@ -39,9 +29,9 @@ for i in range(100):
     Pokemon.sprite_sheet = pygame.image.load("./pokemon.png").convert()
     Pokemon.status_img = pygame.image.load("./status.png").convert()
     game_record = []
-    team1 = [Pokemon(6)]
+    team1 = [Pokemon(5, ai_strategy="dt")] # ai_strategy choose from ["rl", "dt", "rbes", "random"]
     trainer1 = PokemonTrainer("trainer1", team=team1)
-    team2 = [Pokemon(randint(1,151))]
+    team2 = [Pokemon(randint(1,151), ai_strategy="rbes")]
     trainer2 = PokemonTrainer("trainer2", team=team2)
 
     engine = Engine(screen, font, trainer1, trainer2)
@@ -80,7 +70,7 @@ for i in range(100):
             init_seq = True
         
 
-        game_won = engine.run_turn(strategy, model)
+        game_won = engine.run_turn()
         clock.tick(20)  # limits FPS to 20
     print(f"{i+1} : {100 * win_num / total_num_battle:.2f}%")
 

@@ -6,6 +6,9 @@ from InferenceEngine import InferenceEngine
 from time import sleep
 import csv
 import numpy as np
+import joblib
+from tensorflow.keras.models import load_model
+import os
 
 pygame.init()
 
@@ -32,7 +35,7 @@ class Pokemon:
     sprite_sheet = None
     status_img = None
 
-    def __init__(self, pokemon_id):
+    def __init__(self, pokemon_id, ai_strategy="random", model_path=None):
         assert pokemon_id <= 151, "Invalid Pokemon ID"
         self.id = pokemon_id
         self.name  = pokemon_dict[f'{pokemon_id}']["Name"]
@@ -62,12 +65,31 @@ class Pokemon:
         self.speed = pokemon_dict[f'{pokemon_id}']["Speed"] * 50 + 5
 
         self.moves = []
-        for move in move_sets[pokemon_id]:
+        self.index_to_move = {}
+        for i, move in enumerate(move_sets[pokemon_id]):
             if not move == '':
                 self.moves.append(moves[f'{move}'])
+                self.index_to_move[i] = moves[f'{move}']
 
         self.status = Status.no_status
         self.status_counter = 0
+
+        self.ai_strategy = ai_strategy.lower()
+        self.model = None
+
+        if ai_strategy.lower() in ["rl", "dt"]:
+            if ai_strategy.lower() == "dt":
+                if model_path == None:
+                    model_path = f"./models/DT_model_{self.name.lower()}.pkl"
+                if not os.path.exists(model_path):
+                    model_path = "./models/DT_model_charizard.pkl" # default model
+                self.model = joblib.load(model_path)
+            else:
+                if model_path == None:
+                    model_path = f"./models/RL_model_{self.name.lower()}.h5"
+                if not os.path.exists(model_path):
+                    model_path = "./models/RL_model_charizard.h5" # default model
+                self.model = load_model(model_path)
         
         # attack, def, spatk, spdef, speed
         # https://www.dragonflycave.com/mechanics/stat-stages#:~:text=In%20particular%2C%20whenever%20you%20use,for%20each%20of%20its%20stats.
@@ -402,8 +424,30 @@ class PokemonTrainer():
     def swap_pokemon(self, pokemon):
         self.team[0], self.team[self.team.index(pokemon)] = self.team[self.team.index(pokemon)], self.team[0]
 
-    def choose_attack(self):
+    def choose_attack(self, op_pk, my_pk, record, action):
         move = choice(self.active_pokemon().moves)
+        if my_pk.ai_strategy.lower() == "rbes":
+            move = inference_engine.move_recomendation(self, op_pk)
+            if move == 'SWAP':
+                self.swap_pokemon()
+        elif my_pk.ai_strategy.lower() != "random":
+            if my_pk.ai_strategy.lower() == "dt":
+                input_num = my_pk.model.n_features_in_
+                move_num = my_pk.model.predict([record[:input_num]])[0]
+
+            elif my_pk.ai_strategy.lower() == "rl":
+                record = [*record[:5], op_pk.attack, \
+                              op_pk.defense, op_pk.special_attack, op_pk.special_defense, op_pk.speed]
+                input_num = my_pk.model.input_shape[1]
+                state = np.reshape(record[:input_num], [1, input_num])
+                q_values = my_pk.model.predict(state, verbose=0)
+                move_num = np.argmax(q_values[0])
+
+            elif my_pk.ai_strategy.lower() == "train":
+                move_num = action
+
+            move = my_pk.index_to_move[move_num] 
+
         return move
     
     def num_pokemon(self):
@@ -457,7 +501,6 @@ class Engine():
                                 'Electric': 12,
                                 'Psychic': 13}
         
-        self.index_to_move =  {"charizard" : {0: "Dragon Rage", 1: "Slash", 2: "Leer", 3: "Flamethrower"}}
 
     def init_render(self):
         self.render_text(f"{self.trainer1.name} versus {self.trainer2.name}", refresh=True)
@@ -534,7 +577,7 @@ class Engine():
             self.trainer2.active_pokemon().load_sprite(self.screen, 900, 250, flip = False)
 
     
-    def run_turn(self, strategy="random", model=None, action=None):
+    def run_turn(self, action=None):
         '''
             Returns:
                 gameWon: boolean - signifies if game has been won on the turn or not
@@ -562,52 +605,27 @@ class Engine():
         t2_pokemon.render_status_symbol(self.screen, 1000, 620)
         pygame.display.flip()
 
-        at1 = self.trainer1.choose_attack()
-        at2 = self.trainer2.choose_attack()
-
-        #Check for quick attack, this always moves first
-        priority1 = at1['Name'] == 'Quick Attack'
-        priority2 = at2['Name'] == 'Quick Attack'
-
-        self.GAME_RECORD['move_name'] = at1['Name']
         my_status = int(t1_pokemon.status)
         op_status = int(t2_pokemon.status)
 
         self.GAME_RECORD["my_speed"].append(t1_pokemon.speed)
         self.GAME_RECORD["op_speed"].append(t2_pokemon.speed)   
 
-
-        if strategy.lower() == "rbes":
-            at1 = inference_engine.move_recomendation(self.trainer1, t2_pokemon)
-            if at1 == 'SWAP':
-                self.trainer1.swap_pokemon()
-
-        elif strategy.lower() != "random":
-
-            my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
-            op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
-            input_data = [my_hp, op_hp, self.type_to_index[self.GAME_RECORD["op_type1"]], \
+        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+        record_pk1 = [my_hp, op_hp, self.type_to_index[t2_pokemon.type1], \
                     my_status, op_status, t2_pokemon.speed]
+        
+        record_pk2 = [op_hp, my_hp, self.type_to_index[t1_pokemon.type1], \
+                    my_status, op_status, t1_pokemon.speed]
+        
+        at1 = self.trainer1.choose_attack(op_pk=t2_pokemon, my_pk=t1_pokemon, record=record_pk1, action=action)
+        at2 = self.trainer2.choose_attack(op_pk=t1_pokemon, my_pk=t2_pokemon, record=record_pk2, action=action)
 
-            if strategy.lower() == "dt":
-                input_num = model.n_features_
-                move_num = model.predict([input_data[:input_num]])[0]
-
-            elif strategy.lower() == "rl":
-                input_data = [*input_data[:5], t2_pokemon.attack, t2_pokemon.defense, t2_pokemon.special_attack, t2_pokemon.special_defense, t2_pokemon.speed]
-                input_num = model.input_shape[1]
-                state = np.reshape(input_data[:input_num], [1, input_num])
-                q_values = model.predict(state, verbose=0)
-                move_num = np.argmax(q_values[0])
-
-            elif strategy.lower() == "train":
-                move_num = action
-                
-            for move in t1_pokemon.moves:
-                if move["Name"] == self.index_to_move[t1_pokemon.name.lower()][move_num]:
-                    at1 = move
-                    break
-
+        self.GAME_RECORD['move_name'] = at1['Name']
+        #Check for quick attack, this always moves first
+        priority1 = at1['Name'] == 'Quick Attack'
+        priority2 = at2['Name'] == 'Quick Attack'
         waitPress()
         if not priority2 and (t1_pokemon.speed*(stage_modifier[t1_pokemon.stat_stages[4]]) > t2_pokemon.speed*(stage_modifier[t2_pokemon.stat_stages[4]])) or priority1 :
 
