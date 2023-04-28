@@ -24,6 +24,7 @@ def waitPress():
         Returns - if key is pressed or not
     '''
     pressed = True
+    sleep(0.2)
     while not pressed:
         event = pygame.event.wait()
         if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:

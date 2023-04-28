@@ -18,7 +18,7 @@ model_path = None
 win_num = 0
 total_num_battle = 0
 
-for i in range(10):
+for i in range(1):
     pygame.init()
     font = pygame.font.SysFont("Arial", 20)
     screen = pygame.display.set_mode((1280, 720))
@@ -29,9 +29,9 @@ for i in range(10):
     Pokemon.sprite_sheet = pygame.image.load("./pokemon.png").convert()
     Pokemon.status_img = pygame.image.load("./status.png").convert()
     game_record = []
-    team1 = [Pokemon(5, ai_strategy="dt")] # ai_strategy choose from ["rl", "dt", "rbes", "random"]
+    team1 = [Pokemon(6, ai_strategy="dt"), Pokemon(134, ai_strategy="rbes"), Pokemon(134, ai_strategy="dt")] # ai_strategy choose from ["rl", "dt", "rbes", "random"]
     trainer1 = PokemonTrainer("trainer1", team=team1)
-    team2 = [Pokemon(randint(1,151), ai_strategy="rbes")]
+    team2 = [Pokemon(randint(1,151), ai_strategy="rbes"), Pokemon(6, ai_strategy="rl"),Pokemon(randint(1,151), ai_strategy="rbes")]
     trainer2 = PokemonTrainer("trainer2", team=team2)
 
     engine = Engine(screen, font, trainer1, trainer2)
