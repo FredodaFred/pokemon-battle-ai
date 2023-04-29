@@ -35,12 +35,14 @@ class InferenceEngine:
                 scores.append( self._evaluate_status_move(option, atk_pk, op_pk) ) 
             else:
                 scores.append( self._evaluate_attack_move(option,  atk_pk, op_pk) )
+
         max_score_idx = 0
+    
         for i in range(1, len(scores)):
             if scores[i] > scores[max_score_idx]:
                 max_score_idx = i
         
-        print(f'Scores: {scores} Moves: {names}')
+        # print(f'Scores: {scores} Moves: {names}')
         return move_options[max_score_idx]
 
     def _evaluate_swap(self, atk_pk, op_pk):
@@ -61,7 +63,7 @@ class InferenceEngine:
         type_1_bonus = type_modifier[match_type(move["Type"])][match_type(op_pk.type1)]
         type_2_bonus = type_modifier[match_type(move["Type"])][match_type(op_pk.type2)]
         if type_1_bonus == 0 or type_2_bonus == 0:
-            return
+            return 0
 
         #Direct status changers
 

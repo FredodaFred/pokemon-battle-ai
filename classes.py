@@ -4,6 +4,11 @@ from data import pokemon_dict, moves, type_modifier, move_sets, stage_modifier, 
 from pygame.locals import *
 from InferenceEngine import InferenceEngine
 from time import sleep
+import csv
+import numpy as np
+import joblib
+from tensorflow.keras.models import load_model
+import os
 
 pygame.init()
 
@@ -18,7 +23,8 @@ def waitPress():
         Waits for user to hit enter to continue with game
         Returns - if key is pressed or not
     '''
-    pressed = False
+    pressed = True
+    sleep(0.2)
     while not pressed:
         event = pygame.event.wait()
         if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
@@ -30,7 +36,7 @@ class Pokemon:
     sprite_sheet = None
     status_img = None
 
-    def __init__(self, pokemon_id):
+    def __init__(self, pokemon_id, ai_strategy="random", model_path=None):
         assert pokemon_id <= 151, "Invalid Pokemon ID"
         self.id = pokemon_id
         self.name  = pokemon_dict[f'{pokemon_id}']["Name"]
@@ -60,12 +66,31 @@ class Pokemon:
         self.speed = pokemon_dict[f'{pokemon_id}']["Speed"] * 50 + 5
 
         self.moves = []
-        for move in move_sets[pokemon_id]:
+        self.index_to_move = {}
+        for i, move in enumerate(move_sets[pokemon_id]):
             if not move == '':
                 self.moves.append(moves[f'{move}'])
+                self.index_to_move[i] = moves[f'{move}']
 
         self.status = Status.no_status
         self.status_counter = 0
+
+        self.ai_strategy = ai_strategy.lower()
+        self.model = None
+
+        if ai_strategy.lower() in ["rl", "dt"]:
+            if ai_strategy.lower() == "dt":
+                if model_path == None:
+                    model_path = f"./models/DT_model_{self.name.lower()}.pkl"
+                if not os.path.exists(model_path):
+                    model_path = "./models/DT_model_charizard.pkl" # default model
+                self.model = joblib.load(model_path)
+            else:
+                if model_path == None:
+                    model_path = f"./models/RL_model_{self.name.lower()}.h5"
+                if not os.path.exists(model_path):
+                    model_path = "./models/RL_model_charizard.h5" # default model
+                self.model = load_model(model_path)
         
         # attack, def, spatk, spdef, speed
         # https://www.dragonflycave.com/mechanics/stat-stages#:~:text=In%20particular%2C%20whenever%20you%20use,for%20each%20of%20its%20stats.
@@ -400,10 +425,30 @@ class PokemonTrainer():
     def swap_pokemon(self, pokemon):
         self.team[0], self.team[self.team.index(pokemon)] = self.team[self.team.index(pokemon)], self.team[0]
 
-    def choose_attack(self, op_pk):
-        move = inference_engine.move_recomendation(self, op_pk)
-        if move == 'SWAP':
-            self.swap_pokemon()
+    def choose_attack(self, op_pk, my_pk, record, action):
+        move = choice(self.active_pokemon().moves)
+        if my_pk.ai_strategy.lower() == "rbes":
+            move = inference_engine.move_recomendation(self, op_pk)
+            if move == 'SWAP':
+                self.swap_pokemon()
+        elif my_pk.ai_strategy.lower() != "random":
+            if my_pk.ai_strategy.lower() == "dt":
+                input_num = my_pk.model.n_features_in_
+                move_num = my_pk.model.predict([record[:input_num]])[0]
+
+            elif my_pk.ai_strategy.lower() == "rl":
+                record = [*record[:5], op_pk.attack, \
+                              op_pk.defense, op_pk.special_attack, op_pk.special_defense, op_pk.speed]
+                input_num = my_pk.model.input_shape[1]
+                state = np.reshape(record[:input_num], [1, input_num])
+                q_values = my_pk.model.predict(state, verbose=0)
+                move_num = np.argmax(q_values[0])
+
+            elif my_pk.ai_strategy.lower() == "train":
+                move_num = action
+
+            move = my_pk.index_to_move[move_num] 
+
         return move
     
     def num_pokemon(self):
@@ -417,11 +462,46 @@ check_faint = lambda pokemon : True if pokemon.damage_taken >= pokemon.hp else F
 class Engine():
     pokeball_img = None
     pokeballfaint_img = None
+
     def __init__(self, screen, font, trainer1, trainer2):
         self.screen = screen
         self.font = font
         self.trainer1 = trainer1
         self.trainer2 = trainer2
+        self.turn_num = 0
+
+        atk_pk = self.trainer1.active_pokemon()
+        op_pk = self.trainer2.active_pokemon()
+
+        self.GAME_RECORD = { "move_name" : [],
+                                "op_name" : op_pk.name,
+                                "my_hp" : [],
+                                "op_hp" : [],
+                                "my_type1" : atk_pk.type1,
+                                "my_type2":  atk_pk.type2,
+                                "op_type1" : op_pk.type1,
+                                "op_type2":  op_pk.type2,
+                                "my_status" : [],
+                                "op_status" : [],
+                                "my_speed" : [],
+                                "op_speed" : [],
+                                "win" : False } # train1 wins?
+        
+        self.type_to_index =  {"Grass": 0,
+                                'Bug': 1,
+                                'Ground': 2,
+                                'Poison': 3,
+                                'Dragon': 4,
+                                'Normal': 5,
+                                'Fire': 6,
+                                'Rock': 7,
+                                'Ice': 8,
+                                'Fighting': 9,
+                                'Water': 10,
+                                'Ghost': 11,
+                                'Electric': 12,
+                                'Psychic': 13}
+        
 
     def init_render(self):
         self.render_text(f"{self.trainer1.name} versus {self.trainer2.name}", refresh=True)
@@ -498,7 +578,7 @@ class Engine():
             self.trainer2.active_pokemon().load_sprite(self.screen, 900, 250, flip = False)
 
     
-    def run_turn(self):
+    def run_turn(self, action=None):
         '''
             Returns:
                 gameWon: boolean - signifies if game has been won on the turn or not
@@ -506,10 +586,11 @@ class Engine():
 
         if self.trainer1.num_pokemon() == 0:
             self.render_text('Trainer 2 has won', refresh=True)
-            return
+            return True
         elif self.trainer2.num_pokemon() == 0:
             self.render_text('Trainer 1 has won', refresh=True)
-            return
+            self.GAME_RECORD['win'] = True
+            return True
 
         t1_pokemon = self.trainer1.active_pokemon()
         t2_pokemon = self.trainer2.active_pokemon()
@@ -525,13 +606,27 @@ class Engine():
         t2_pokemon.render_status_symbol(self.screen, 1000, 620)
         pygame.display.flip()
 
-        at1 = self.trainer1.choose_attack(t2_pokemon)
-        at2 = self.trainer2.choose_attack(t1_pokemon)
+        my_status = int(t1_pokemon.status)
+        op_status = int(t2_pokemon.status)
 
+        self.GAME_RECORD["my_speed"].append(t1_pokemon.speed)
+        self.GAME_RECORD["op_speed"].append(t2_pokemon.speed)   
+
+        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+        record_pk1 = [my_hp, op_hp, self.type_to_index[t2_pokemon.type1], \
+                    my_status, op_status, t2_pokemon.speed]
+        
+        record_pk2 = [op_hp, my_hp, self.type_to_index[t1_pokemon.type1], \
+                    my_status, op_status, t1_pokemon.speed]
+        
+        at1 = self.trainer1.choose_attack(op_pk=t2_pokemon, my_pk=t1_pokemon, record=record_pk1, action=action)
+        at2 = self.trainer2.choose_attack(op_pk=t1_pokemon, my_pk=t2_pokemon, record=record_pk2, action=action)
+
+        self.GAME_RECORD['move_name'] = at1['Name']
         #Check for quick attack, this always moves first
         priority1 = at1['Name'] == 'Quick Attack'
         priority2 = at2['Name'] == 'Quick Attack'
-        
         waitPress()
         if not priority2 and (t1_pokemon.speed*(stage_modifier[t1_pokemon.stat_stages[4]]) > t2_pokemon.speed*(stage_modifier[t2_pokemon.stat_stages[4]])) or priority1 :
 
@@ -560,6 +655,12 @@ class Engine():
                     if check_faint(t2_pokemon):
                         self.handle_faint('2')
                         pygame.display.flip()
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)                        
                         return
                 else:
                     confuse_attack = {"Name": "Pound", "Type": "Normal", "Category": "Physical","PP": 35, "Power": "40","Accuracy": "100"}
@@ -586,6 +687,12 @@ class Engine():
                     if check_faint(t2_pokemon):
                         self.handle_faint('2')
                         pygame.display.flip()
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)                       
                         return
                 else:
                     self.render_text(f"{t1_pokemon.name} is paralyzed", refresh=True)
@@ -610,6 +717,12 @@ class Engine():
                 if check_faint(t2_pokemon):
                     self.handle_faint('2')
                     pygame.display.flip()
+                    self.GAME_RECORD["my_status"].append(my_status)
+                    self.GAME_RECORD["op_status"].append(op_status)
+                    my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                    op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                    self.GAME_RECORD["my_hp"].append(my_hp)
+                    self.GAME_RECORD["op_hp"].append(op_hp)                    
                     return
 
 
@@ -639,6 +752,12 @@ class Engine():
                     if check_faint(t1_pokemon):
                         self.handle_faint('1')
                         pygame.display.flip()
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)                        
                         return
                 else:
                     confuse_attack = {"Name": "Pound", "Type": "Normal", "Category": "Physical","PP": 35, "Power": "40","Accuracy": "100"}
@@ -652,6 +771,12 @@ class Engine():
                     if check_faint(t1_pokemon):
                         self.handle_faint('2')
                         pygame.display.flip()
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)                       
                         return        
             elif t2_pokemon.status == Status.paralyzed:
                 chance = randint(0,100)
@@ -669,6 +794,12 @@ class Engine():
                     if check_faint(t2_pokemon):
                         self.handle_faint('2')
                         pygame.display.flip()
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)                        
                         return
                 else:
                     self.render_text(f"{t2_pokemon.name} is paralyzed", refresh=True)
@@ -690,6 +821,12 @@ class Engine():
             if check_faint(t1_pokemon):
                 self.handle_faint('1')
                 pygame.display.flip()
+                self.GAME_RECORD["my_status"].append(my_status)
+                self.GAME_RECORD["op_status"].append(op_status)
+                my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                self.GAME_RECORD["my_hp"].append(my_hp)
+                self.GAME_RECORD["op_hp"].append(op_hp)                
                 return 
             
 
@@ -701,10 +838,22 @@ class Engine():
             if check_faint(t2_pokemon):
                 self.handle_faint('2')
                 pygame.display.flip()
+                self.GAME_RECORD["my_status"].append(my_status)
+                self.GAME_RECORD["op_status"].append(op_status)
+                my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                self.GAME_RECORD["my_hp"].append(my_hp)
+                self.GAME_RECORD["op_hp"].append(op_hp)                
                 return
             if check_faint(t1_pokemon):
                 self.handle_faint('1')
                 pygame.display.flip()
+                self.GAME_RECORD["my_status"].append(my_status)
+                self.GAME_RECORD["op_status"].append(op_status)
+                my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                self.GAME_RECORD["my_hp"].append(my_hp)
+                self.GAME_RECORD["op_hp"].append(op_hp)
                 return
         else:
 
@@ -733,6 +882,12 @@ class Engine():
                     if check_faint(t1_pokemon):
                         self.handle_faint('1')
                         pygame.display.flip()
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)                       
                         return
                 else:
                     confuse_attack = {"Name": "Pound", "Type": "Normal", "Category": "Physical","PP": 35, "Power": "40","Accuracy": "100"}
@@ -746,6 +901,12 @@ class Engine():
                     if check_faint(t1_pokemon):
                         self.handle_faint('2')
                         pygame.display.flip()
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)                      
                         return        
             elif t2_pokemon.status == Status.paralyzed:
                 chance = randint(0,100)
@@ -764,6 +925,13 @@ class Engine():
                     if check_faint(t2_pokemon):
                         self.handle_faint('2')
                         pygame.display.flip()
+                        
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)
                         return
                 else:
                     print('here')
@@ -786,6 +954,13 @@ class Engine():
             if check_faint(t1_pokemon):
                 self.handle_faint('1')
                 pygame.display.flip()
+
+                self.GAME_RECORD["my_status"].append(my_status)
+                self.GAME_RECORD["op_status"].append(op_status)
+                my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                self.GAME_RECORD["my_hp"].append(my_hp)
+                self.GAME_RECORD["op_hp"].append(op_hp)
                 return 
 
             ##########################NEXT TURN t2-> t1#######################################################
@@ -814,6 +989,13 @@ class Engine():
                     if check_faint(t2_pokemon):
                         self.handle_faint('2')
                         pygame.display.flip()
+
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)
                         return
                 else:
                     confuse_attack = {"Name": "Pound", "Type": "Normal", "Category": "Physical","PP": 35, "Power": "40","Accuracy": "100"}
@@ -829,6 +1011,13 @@ class Engine():
                     if check_faint(t1_pokemon):
                         self.handle_faint('1')
                         pygame.display.flip()
+
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)
                         return
 
             elif t1_pokemon.status == Status.paralyzed:
@@ -849,6 +1038,13 @@ class Engine():
                     if check_faint(t2_pokemon):
                         self.handle_faint('2')
                         pygame.display.flip()
+
+                        self.GAME_RECORD["my_status"].append(my_status)
+                        self.GAME_RECORD["op_status"].append(op_status)
+                        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                        self.GAME_RECORD["my_hp"].append(my_hp)
+                        self.GAME_RECORD["op_hp"].append(op_hp)
                         return
                 else:
                     self.render_text(f"{t1_pokemon.name} is paralyzed", refresh=True)
@@ -872,6 +1068,13 @@ class Engine():
                 if check_faint(t2_pokemon):
                     self.handle_faint('2')
                     pygame.display.flip()
+
+                    self.GAME_RECORD["my_status"].append(my_status)
+                    self.GAME_RECORD["op_status"].append(op_status)
+                    my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+                    op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+                    self.GAME_RECORD["my_hp"].append(my_hp)
+                    self.GAME_RECORD["op_hp"].append(op_hp)
                     return
 
         ## Apply Status Effects ##
@@ -882,13 +1085,35 @@ class Engine():
         if check_faint(t2_pokemon):
             self.handle_faint('2')
             pygame.display.flip()
+            self.GAME_RECORD["my_status"].append(my_status)
+            self.GAME_RECORD["op_status"].append(op_status)
+            my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+            op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+            self.GAME_RECORD["my_hp"].append(my_hp)
+            self.GAME_RECORD["op_hp"].append(op_hp)
             return
         if check_faint(t1_pokemon):
             self.handle_faint('1')
             pygame.display.flip()
+            self.GAME_RECORD["my_status"].append(my_status)
+            self.GAME_RECORD["op_status"].append(op_status)
+            my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+            op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+            self.GAME_RECORD["my_hp"].append(my_hp)
+            self.GAME_RECORD["op_hp"].append(op_hp)
             return
 
         t1_pokemon.draw_health_bar(self.screen, 100, 600)
         t2_pokemon.draw_health_bar(self.screen, 1000, 600)
-        
+
+
+        self.GAME_RECORD["my_status"].append(my_status)
+        self.GAME_RECORD["op_status"].append(op_status)
+        my_hp = t1_pokemon.hp - t1_pokemon.damage_taken
+        op_hp = t2_pokemon.hp - t2_pokemon.damage_taken
+        self.GAME_RECORD["my_hp"].append(my_hp)
+        self.GAME_RECORD["op_hp"].append(op_hp)
+
+
         pygame.display.flip()
+        return False
