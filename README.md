@@ -56,9 +56,105 @@ The reward changes is recorded and fed to the Q-Learning Module to decide the po
 <br>
 Data Used: Pokemon Database, Pokemon Moves Database, Pokemon Battle Damage Calculation Formulas, Charizard combat data: train_data_output.csv in folder train_data
 <br>
-High-Level Logic Diagram: RL.png in our main folder
+High-Level Logic Diagram: 
 <br>
+<img src="https://user-images.githubusercontent.com/82429372/235280818-e130f99f-ba87-4541-813a-d1db5315dba0.png" alt="Decision Tree" style="width: 50%; height: auto;">
 <br>
 <br>
 <br>
 ## Decision Trees
+We generated some data by having Pokémon engage in random battles, including information such as their own health points, opponent's health points, opponent's type, and so on. From this data, we selected only the winning instances and examined them for any hidden patterns. We utilized a decision tree to provide us with interpretable decisions. Through repeated validation, we found that 1,000 battles and a decision tree depth of 5 were optimal to avoid overfitting. Below is the automatically generated decision tree, where the "value" represents the occurrence count of a particular situation at each node.
+<br>
+<img src="https://user-images.githubusercontent.com/82429372/235281119-06115be9-5ae1-4602-951e-c60a92567f5b.png" alt="Decision Tree" style="width: 50%; height: auto;">
+<br>
+<br>
+
+# How to Use
+
+This section will guide you on how to set up and run the Pokémon battle simulation using different AI strategies. 
+<br>
+Follow the steps below to get started:
+<br>
+## Step 1: Create a virtual environment
+<br>
+Before installing the required packages, it's a good idea to create a virtual environment. This will help isolate the dependencies for this project from other projects you may have on your system. You can create a virtual environment using the following command:
+<br>
+
+```
+username$ python -m venv pokemon_ai
+```
+<br>
+Activate the virtual environment:
+<br>
+- For Windows:
+<br>
+
+``` 
+username$ pokemon_ai\Scripts\activate
+``` 
+<br>
+- For macOS/Linux:
+
+```
+username$ source pokemon_ai/bin/activate
+```
+<br>
+
+## Step 2: Install requirements
+
+<br>
+To install the required packages for this project, run the following command:
+<br>
+
+``` 
+username$ pip install -r requirements.txt
+``` 
+<br>
+
+## Step 3: Run the main script
+
+<br>
+To run the main script, use the following command:
+
+``` 
+python main.py
+``` 
+<br>
+
+### Customizing AI Strategy and Model
+<br>
+When creating a Pokémon object, you can choose your desired AI strategy from the following options: `random`, `rbes`, `DT` (decision tree), or `RL` (reinforcement learning). If you want to test your own model, you can provide the model's path through the `model_path` parameter when creating the Pokémon object.
+<br>
+You can also adjust the number of battles by changing the parameters in the for-loop. This will allow you to obtain the potential win rate, which will be printed as the output.
+<br>
+Example:
+<br>
+
+```python 
+pokemon = Pokemon(pokemon_id=6, ai_strategy="DT", model_path="path_to_your_model")
+``` 
+<br>
+Adjust the number of battles:
+<br>
+
+```python
+for i in range(1000):  # Change 1000 to the desired number of battles
+    # Run the simulation
+```
+<br>
+## Step 4: Analyze the results
+
+After running the main script, you will see the win rate for the selected AI strategy. Use this information to compare different strategies and models, and to fine-tune your approach.
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
